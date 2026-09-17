@@ -103,6 +103,8 @@ article.entry:target,article.entry.hit{outline:1px solid var(--accent);outline-o
 .blk ul{padding-left:20px}
 .blk li{margin:2px 0}
 .aliases{font-size:14px;color:var(--muted)}
+.al{color:var(--accent);text-decoration:none;border-bottom:1px dotted var(--accent)}
+.al:hover{border-bottom-style:solid}
 .design{background:var(--surface2);border-left:3px solid var(--accent2);padding:10px 14px;border-radius:var(--r)}
 table.cmp{width:100%;border-collapse:collapse;font-size:15px}
 table.cmp th,table.cmp td{border:1px solid var(--line);padding:6px 10px;text-align:left;vertical-align:top}
@@ -234,6 +236,16 @@ function matches(e){
 }
 function rank(e){const q=norm(state.q);if(!q)return 0;if(norm(e.zh).includes(q)||norm(e.en).includes(q))return 0;if((e.aliases||[]).some(a=>norm(a).includes(q)))return 1;if(norm(e.short).includes(q))return 2;return 3;}
 
+/* def 自動連結：內文中出現的其他詞條名稱連到該詞條。每條最多 8 個、每個詞條只連第一次、跳過自己；
+   英文名稱要整字相符（避免 Build 連進 Deckbuilder），中文主名至少 2 字、別名至少 3 字，標「（中）」的中國用語不當連結。 */
+const LINK_NAMES=(()=>{const arr=[];for(const e of E){const names=new Set();const zhMain=e.zh.replace(/[（(].*$/,"").trim();const minZh=["theme","visual","genre","narrative","industry","tech","ai"].includes(e.cat)?3:2;if(zhMain.length>=minZh)names.add(zhMain);const paren=(e.zh.match(/[（(]([^）)]+)[）)]/)||[])[1];if(paren&&paren.trim().length>=3)names.add(paren.trim());if(e.en&&e.en.length>=4)names.add(e.en);for(const a of e.aliases||[])if(a.length>=3&&!/（中）|\(中\)/.test(a))names.add(a);for(const n of names)arr.push({n,id:e.id,latin:/^[A-Za-z]/.test(n)});}arr.sort((a,b)=>b.n.length-a.n.length);return arr;})();
+const isWord=c=>/[A-Za-z0-9]/.test(c||"");
+function linkify(text,selfId){const t=String(text||"");const lower=t.toLowerCase();const found=[];const titles=[];{const re=/《[^》]*》/g;let m;while((m=re.exec(t)))titles.push({start:m.index,end:m.index+m[0].length});}const inTitle=(a,b)=>titles.some(x=>a<x.end&&b>x.start);
+  for(const {n,id,latin} of LINK_NAMES){if(id===selfId)continue;if(found.some(f=>f.id===id))continue;const nl=n.toLowerCase();let i=lower.indexOf(nl);
+    while(i>=0){const ok=!(latin&&(isWord(t[i-1])||isWord(t[i+n.length])))&&!inTitle(i,i+n.length)&&!found.some(f=>i<f.end&&i+n.length>f.start);if(ok){found.push({start:i,end:i+n.length,id});break;}i=lower.indexOf(nl,i+1);}
+    if(found.length>=8)break;}
+  found.sort((a,b)=>a.start-b.start);let out="",pos=0;for(const f of found){out+=esc(t.slice(pos,f.start))+`<a class="al" href="#${esc(f.id)}">${esc(t.slice(f.start,f.end))}</a>`;pos=f.end;}return out+esc(t.slice(pos));}
+
 /* 卡片渲染 */
 function tagChip(t){const ref=TAGS[t.tagid]||{};return `<a class="tag steam" href="#tag-${t.tagid}" title="看與這個 Steam 標籤相關的詞條">🏷️ ${esc(t.en)}${ref.tw&&ref.tw!==t.en?"／"+esc(ref.tw):""}</a>`;}
 function headHtml(e){
@@ -256,7 +268,7 @@ function gameCard(x){
 function bodyHtml(e){
   const cmp=(e.compare||[]).map(c=>{const o=byId.get(c.with);return `<tr><th>${o?`<a href="#${esc(o.id)}">${esc(o.zh)}</a>`:esc(c.with)}</th><td>${esc(c.diff)}</td></tr>`;}).join("");
   const rel=(e.related||[]).map(r=>{const o=byId.get(r);return o?`<a class="tag rel" href="#${esc(o.id)}">${esc(o.zh)}</a>`:"";}).join("");
-  return `<p>${esc(e.def)}</p>
+  return `<p>${linkify(e.def,e.id)}</p>
   ${(e.features||[]).length?`<div class="blk"><div class="eyebrow">特色</div><ul>${e.features.map(f=>`<li>${esc(f)}</li>`).join("")}</ul></div>`:""}
   ${cmp?`<div class="blk"><div class="eyebrow">跟誰容易搞混</div><table class="cmp"><tbody>${cmp}</tbody></table></div>`:""}
   ${(e.examples||[]).length?`<div class="blk"><div class="eyebrow">代表作</div><div class="games">${e.examples.map(gameCard).join("")}</div></div>`:""}

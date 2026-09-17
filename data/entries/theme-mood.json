@@ -3,28 +3,84 @@
     "id": "horror",
     "zh": "恐怖遊戲（Horror Game）",
     "en": "Horror Game",
-    "aliases": ["恐怖遊戲", "Horror"],
+    "aliases": [
+      "恐怖遊戲",
+      "Horror"
+    ],
     "cat": "theme",
-    "sub": "恐怖",
+    "sub": "恐怖氛圍",
     "short": "以製造恐懼、不安與緊張為核心體驗的遊戲類型。",
     "def": "泛指所有以「讓玩家害怕」為核心設計目標的遊戲，底下再分兩大主流：生存恐怖靠資源匱乏與怪物追殺製造壓力，心理恐怖靠氛圍、未知感與角色心智崩壞製造不安。Jump Scare（突發驚嚇）只是短效工具，真正讓玩家記住的恐怖，靠的是節奏——先讓玩家放鬆，再在鬆懈時出手，加上聲音設計帶來的預期感。",
-    "features": ["聲音設計優先於畫面", "節奏交替緊張與喘息段", "資源或資訊刻意不足", "預期感勝過直接驚嚇"],
+    "features": [
+      "聲音設計優先於畫面",
+      "節奏交替緊張與喘息段",
+      "資源或資訊刻意不足",
+      "預期感勝過直接驚嚇"
+    ],
     "examples": [
-      {"title": "惡靈古堡2", "en": "Resident Evil 2", "appid": 883710, "year": 2019, "why": "生存恐怖類型的重製標竿"},
-      {"title": "心靈殺手", "en": "Alan Wake", "appid": 108710, "year": 2012, "why": "以光與黑暗、敘事驅動的心理恐怖"},
-      {"title": "層層恐懼", "en": "Layers of Fear", "appid": 1946700, "year": 2023, "why": "心理恐怖以空間扭曲呈現角色心智崩壞"}
+      {
+        "title": "惡靈古堡2",
+        "en": "Resident Evil 2",
+        "appid": 883710,
+        "year": 2019,
+        "why": "生存恐怖類型的重製標竿"
+      },
+      {
+        "title": "心靈殺手",
+        "en": "Alan Wake",
+        "appid": 108710,
+        "year": 2012,
+        "why": "以光與黑暗、敘事驅動的心理恐怖"
+      },
+      {
+        "title": "層層恐懼",
+        "en": "Layers of Fear",
+        "appid": 1946700,
+        "year": 2023,
+        "why": "心理恐怖以空間扭曲呈現角色心智崩壞"
+      }
     ],
-    "steamTags": [{"tagid": 1667, "en": "Horror"}],
+    "steamTags": [
+      {
+        "tagid": 1667,
+        "en": "Horror"
+      }
+    ],
     "compare": [
-      {"with": "psychological-horror", "diff": "恐怖是總稱，心理恐怖與生存恐怖是底下兩條主要路線"},
-      {"with": "survival-horror", "diff": "生存恐怖靠資源匱乏與戰鬥壓力；心理恐怖靠氛圍與未知感"},
-      {"with": "jump-scare", "diff": "Jump Scare 只是恐怖遊戲眾多手法之一，不是類型本身"}
+      {
+        "with": "psychological-horror",
+        "diff": "恐怖是總稱，心理恐怖與生存恐怖是底下兩條主要路線"
+      },
+      {
+        "with": "survival-horror",
+        "diff": "恐怖是總稱；生存恐怖是它底下強調資源匱乏、逃跑與戰鬥壓力的一條路線。"
+      },
+      {
+        "with": "jump-scare",
+        "diff": "Jump Scare 只是恐怖遊戲眾多手法之一，不是類型本身"
+      }
     ],
-    "related": ["psychological-horror", "survival-horror", "jump-scare", "taiwan-horror", "cosmic-horror"],
+    "related": [
+      "psychological-horror",
+      "survival-horror",
+      "jump-scare",
+      "taiwan-horror",
+      "cosmic-horror"
+    ],
     "design": "節奏比嚇人畫面重要：全程繃緊會讓玩家麻木，要留喘息段讓玩家放下戒心，再出手。聲音（腳步聲、環境音驟停）比視覺衝擊更有效。",
     "sources": [
-      {"title": "Wikipedia: Horror game", "url": "https://en.wikipedia.org/wiki/Horror_game", "accessed": "2026-09-17", "note": "類型定義與歷史"},
-      {"title": "Steam 標籤頁：Horror", "url": "https://store.steampowered.com/tags/en/Horror/", "accessed": "2026-09-17", "note": "標籤存在"}
+      {
+        "title": "Wikipedia: Horror game",
+        "url": "https://en.wikipedia.org/wiki/Horror_game",
+        "accessed": "2026-09-17",
+        "note": "類型定義與歷史"
+      },
+      {
+        "title": "Steam 標籤頁：Horror",
+        "url": "https://store.steampowered.com/tags/en/Horror/",
+        "accessed": "2026-09-17",
+        "note": "標籤存在"
+      }
     ],
     "status": "verified"
   },
@@ -32,28 +88,88 @@
     "id": "psychological-horror",
     "zh": "心理恐怖（Psychological Horror）",
     "en": "Psychological Horror",
-    "aliases": ["心理恐怖遊戲"],
+    "aliases": [
+      "心理恐怖遊戲"
+    ],
     "cat": "theme",
-    "sub": "恐怖",
+    "sub": "恐怖氛圍",
     "short": "靠不安、不確定與角色心智崩壞製造恐懼，不靠血量與怪物數量。",
     "def": "心理恐怖不追求嚇玩家跳起來，而是慢慢腐蝕玩家的安全感：模糊現實與幻覺的界線、讓敘事者不可信、用聲音與構圖暗示「有什麼不對勁」卻不立刻解釋。玩家承受的壓力來自角色自身精神狀態的崩壞，而非外在威脅的數量或強度。代表作如《沉默之丘2》把主角的內心創傷具象化成怪物，《層層恐懼》用不斷變形的空間表現畫家的瘋狂，《返校》則用主觀視角與記憶碎片呈現角色被壓抑的創傷。",
-    "features": ["現實與幻覺界線模糊", "不可信敘事者", "氛圍營造優先於怪物數量", "心智崩壞具象化為場景或敵人"],
+    "features": [
+      "現實與幻覺界線模糊",
+      "不可信敘事者",
+      "氛圍營造優先於怪物數量",
+      "心智崩壞具象化為場景或敵人"
+    ],
     "examples": [
-      {"title": "沉默之丘2", "en": "Silent Hill 2", "appid": null, "year": 2001, "why": "把主角的罪惡感具象化為怪物設計的教科書"},
-      {"title": "層層恐懼", "en": "Layers of Fear", "appid": 1946700, "year": 2023, "why": "用扭曲空間表現角色精神狀態"},
-      {"title": "返校", "en": "Detention", "appid": null, "year": 2017, "why": "以白色恐怖時代記憶碎片營造壓抑感"}
+      {
+        "title": "沉默之丘2",
+        "en": "Silent Hill 2",
+        "appid": 2124490,
+        "year": 2001,
+        "why": "把主角的罪惡感具象化為怪物設計的教科書"
+      },
+      {
+        "title": "層層恐懼",
+        "en": "Layers of Fear",
+        "appid": 1946700,
+        "year": 2023,
+        "why": "用扭曲空間表現角色精神狀態"
+      },
+      {
+        "title": "返校",
+        "en": "Detention",
+        "appid": 555220,
+        "year": 2017,
+        "why": "以白色恐怖時代記憶碎片營造壓抑感"
+      }
     ],
-    "steamTags": [{"tagid": 1721, "en": "Psychological Horror"}, {"tagid": 5186, "en": "Psychological"}],
+    "steamTags": [
+      {
+        "tagid": 1721,
+        "en": "Psychological Horror"
+      },
+      {
+        "tagid": 5186,
+        "en": "Psychological"
+      }
+    ],
     "compare": [
-      {"with": "horror", "diff": "恐怖是總稱；心理恐怖是強調氛圍與精神狀態的其中一條路線"},
-      {"with": "survival-horror", "diff": "心理恐怖不靠資源管理與逃跑製造壓力，重點在玩家「不確定發生了什麼」"},
-      {"with": "jump-scare", "diff": "心理恐怖依賴長時間的不安累積，Jump Scare 是單次的生理驚嚇，兩者可並存但不是同一件事"}
+      {
+        "with": "horror",
+        "diff": "恐怖是總稱；心理恐怖是強調氛圍與精神狀態的其中一條路線"
+      },
+      {
+        "with": "survival-horror",
+        "diff": "心理恐怖不靠資源管理與逃跑製造壓力，重點在玩家「不確定發生了什麼」"
+      },
+      {
+        "with": "jump-scare",
+        "diff": "心理恐怖依賴長時間的不安累積，Jump Scare 是單次的生理驚嚇，兩者可並存但不是同一件事"
+      }
     ],
-    "related": ["horror", "survival-horror", "jump-scare", "cosmic-horror", "taiwan-horror", "unreliable-narrator"],
+    "related": [
+      "horror",
+      "survival-horror",
+      "jump-scare",
+      "cosmic-horror",
+      "taiwan-horror",
+      "unreliable-narrator"
+    ],
     "design": "最容易失敗的地方是「解釋太多」——一旦把謎底講清楚，恐懼感就消失了。要留白，讓玩家自己拼湊，並用環境細節（信件、塗鴉、聲音）暗示而非明講。",
     "sources": [
-      {"title": "Wikipedia: Psychological horror", "url": "https://en.wikipedia.org/wiki/Psychological_horror", "accessed": "2026-09-17", "note": "定義與核心特徵"},
-      {"title": "Steam 標籤頁：Psychological Horror", "url": "https://store.steampowered.com/tags/en/Psychological%20Horror/", "accessed": "2026-09-17", "note": "標籤存在"}
+      {
+        "title": "Wikipedia: Psychological horror",
+        "url": "https://en.wikipedia.org/wiki/Psychological_horror",
+        "accessed": "2026-09-17",
+        "note": "定義與核心特徵"
+      },
+      {
+        "title": "Steam 標籤頁：Psychological Horror",
+        "url": "https://store.steampowered.com/tags/en/Psychological%20Horror/",
+        "accessed": "2026-09-17",
+        "note": "標籤存在"
+      }
     ],
     "status": "verified"
   },
@@ -61,27 +177,78 @@
     "id": "survival-horror",
     "zh": "生存恐怖（Survival Horror）",
     "en": "Survival Horror",
-    "aliases": ["生存恐怖遊戲"],
+    "aliases": [
+      "生存恐怖遊戲"
+    ],
     "cat": "theme",
-    "sub": "恐怖",
+    "sub": "恐怖氛圍",
     "short": "靠資源匱乏、行動受限與怪物追殺製造壓力的恐怖類型。",
     "def": "生存恐怖強調玩家在資源不足（彈藥、藥草、存檔次數有限）與行動受限（笨重操作、有限背包格）的狀態下對抗具體威脅。恐懼來自「打不贏、跑不掉」的無力感，而非未知的氛圍。經典公式是固定鏡位加解謎加節約彈藥，《惡靈古堡》系列奠定了這套語言；《異形：孤立》把單一不死追擊者的壓迫感發揮到極致。",
-    "features": ["彈藥與藥草等資源刻意不足", "存檔次數或存檔點有限", "笨重或受限的戰鬥操作", "明確可見的怪物與威脅"],
+    "features": [
+      "彈藥與藥草等資源刻意不足",
+      "存檔次數或存檔點有限",
+      "笨重或受限的戰鬥操作",
+      "明確可見的怪物與威脅"
+    ],
     "examples": [
-      {"title": "惡靈古堡2", "en": "Resident Evil 2", "appid": 883710, "year": 2019, "why": "固定鏡位轉第三人稱重製後仍保留資源管理核心"},
-      {"title": "惡靈古堡7 biohazard", "en": "Resident Evil 7 Biohazard", "appid": 418370, "year": 2017, "why": "第一人稱回歸系列原始資源匱乏設計"},
-      {"title": "惡靈古堡：村莊", "en": "Resident Evil Village", "appid": 1196590, "year": 2021, "why": "延續生存恐怖並加入更多動作元素"}
+      {
+        "title": "惡靈古堡2",
+        "en": "Resident Evil 2",
+        "appid": 883710,
+        "year": 2019,
+        "why": "固定鏡位轉第三人稱重製後仍保留資源管理核心"
+      },
+      {
+        "title": "惡靈古堡7 biohazard",
+        "en": "Resident Evil 7 Biohazard",
+        "appid": 418370,
+        "year": 2017,
+        "why": "第一人稱回歸系列原始資源匱乏設計"
+      },
+      {
+        "title": "惡靈古堡：村莊",
+        "en": "Resident Evil Village",
+        "appid": 1196590,
+        "year": 2021,
+        "why": "延續生存恐怖並加入更多動作元素"
+      }
     ],
-    "steamTags": [{"tagid": 3978, "en": "Survival Horror"}],
+    "steamTags": [
+      {
+        "tagid": 3978,
+        "en": "Survival Horror"
+      }
+    ],
     "compare": [
-      {"with": "psychological-horror", "diff": "生存恐怖的壓力來自實際資源與戰鬥；心理恐怖的壓力來自氛圍與精神狀態"},
-      {"with": "horror", "diff": "生存恐怖是恐怖遊戲底下最早成形、最具體的子類型"}
+      {
+        "with": "psychological-horror",
+        "diff": "生存恐怖的壓力來自實際資源與戰鬥；心理恐怖的壓力來自氛圍與精神狀態"
+      },
+      {
+        "with": "horror",
+        "diff": "生存恐怖是恐怖遊戲底下最早成形、最具體的子類型"
+      }
     ],
-    "related": ["horror", "psychological-horror", "survival", "resource-management"],
+    "related": [
+      "horror",
+      "psychological-horror",
+      "survival",
+      "resource-management"
+    ],
     "design": "資源要精算到「剛好不夠但省著用可以撐過去」，太多彈藥會讓遊戲變動作遊戲，太少會變成純粹挫折。怪物的移動速度與路線設計比外觀更重要。",
     "sources": [
-      {"title": "Wikipedia: Survival horror", "url": "https://en.wikipedia.org/wiki/Survival_horror", "accessed": "2026-09-17", "note": "類型定義與歷史"},
-      {"title": "Steam 標籤頁：Survival Horror", "url": "https://store.steampowered.com/tags/en/Survival%20Horror/", "accessed": "2026-09-17", "note": "標籤存在"}
+      {
+        "title": "Wikipedia: Survival horror",
+        "url": "https://en.wikipedia.org/wiki/Survival_horror",
+        "accessed": "2026-09-17",
+        "note": "類型定義與歷史"
+      },
+      {
+        "title": "Steam 標籤頁：Survival Horror",
+        "url": "https://store.steampowered.com/tags/en/Survival%20Horror/",
+        "accessed": "2026-09-17",
+        "note": "標籤存在"
+      }
     ],
     "status": "verified"
   },
@@ -89,27 +256,78 @@
     "id": "cosmic-horror",
     "zh": "克蘇魯恐怖／宇宙恐怖（Cosmic Horror）",
     "en": "Cosmic Horror",
-    "aliases": ["Lovecraftian Horror", "洛夫克拉夫特式恐怖", "克蘇魯神話恐怖"],
+    "aliases": [
+      "Lovecraftian Horror",
+      "洛夫克拉夫特式恐怖",
+      "克蘇魯神話恐怖"
+    ],
     "cat": "theme",
-    "sub": "恐怖",
+    "sub": "恐怖氛圍",
     "short": "恐懼來自人類在宇宙中的渺小與不可知，而非怪物本身。",
     "def": "源自小說家 H.P. Lovecraft 作品的恐怖流派，核心是「宇宙主義」：人類的存在在浩瀚宇宙面前微不足道，理解真相反而會導致瘋狂。遊戲中常見的呈現方式是理智值系統、無法直視的巨大存在，以及知道越多越危險的禁忌知識。與一般怪物恐怖不同，克蘇魯恐怖的敵人通常不是靠力量取勝，而是靠「存在本身就違反常理」讓人絕望。",
-    "features": ["理智值或精神狀態系統", "不可名狀、難以直視的存在", "禁忌知識越挖越危險", "人類渺小、無力對抗"],
+    "features": [
+      "理智值或精神狀態系統",
+      "不可名狀、難以直視的存在",
+      "禁忌知識越挖越危險",
+      "人類渺小、無力對抗"
+    ],
     "examples": [
-      {"title": "黯陰羊", "en": "Darkest Dungeon", "appid": 262060, "year": 2016, "why": "用壓力與理智機制表現角色在未知面前的崩潰"},
-      {"title": "SOMA", "appid": 282140, "year": 2015, "why": "把身分與意識的恐懼包裝成科幻克蘇魯"},
-      {"title": "The Mound: Omen of Cthulhu", "appid": 2569760, "year": 2026, "why": "直接取材自洛夫克拉夫特作品的新作"}
+      {
+        "title": "暗黑地牢",
+        "en": "Darkest Dungeon",
+        "appid": 262060,
+        "year": 2016,
+        "why": "用壓力與理智機制表現角色在未知面前的崩潰"
+      },
+      {
+        "title": "SOMA",
+        "appid": 282140,
+        "year": 2015,
+        "why": "把身分與意識的恐懼包裝成科幻克蘇魯"
+      },
+      {
+        "title": "The Mound: Omen of Cthulhu",
+        "appid": 2569760,
+        "year": 2026,
+        "why": "直接取材自洛夫克拉夫特作品的新作"
+      }
     ],
-    "steamTags": [{"tagid": 7432, "en": "Lovecraftian"}],
+    "steamTags": [
+      {
+        "tagid": 7432,
+        "en": "Lovecraftian"
+      }
+    ],
     "compare": [
-      {"with": "supernatural", "diff": "克蘇魯恐怖的重點是「不可知與渺小」，靈異超自然只是常見的表現載體之一，不必然帶有宇宙尺度的絕望感"},
-      {"with": "horror", "diff": "克蘇魯恐怖是主題與哲學取向，可以用生存恐怖或心理恐怖的機制來實現"}
+      {
+        "with": "supernatural",
+        "diff": "克蘇魯恐怖的重點是「不可知與渺小」，靈異超自然只是常見的表現載體之一，不必然帶有宇宙尺度的絕望感"
+      },
+      {
+        "with": "horror",
+        "diff": "克蘇魯恐怖是主題與哲學取向，可以用生存恐怖或心理恐怖的機制來實現"
+      }
     ],
-    "related": ["horror", "psychological-horror", "occult", "supernatural"],
+    "related": [
+      "horror",
+      "psychological-horror",
+      "occult",
+      "supernatural"
+    ],
     "design": "理智值系統容易淪為數值遊戲，要記得核心是「知道真相的代價」，機制要能反映角色因為看到、理解了不該懂的東西而逐漸崩潰，而不只是扣血條。",
     "sources": [
-      {"title": "Wikipedia: Lovecraftian horror", "url": "https://en.wikipedia.org/wiki/Lovecraftian_horror", "accessed": "2026-09-17", "note": "定義、主題與宇宙主義哲學"},
-      {"title": "Steam 標籤頁：Lovecraftian", "url": "https://store.steampowered.com/tags/en/Lovecraftian/", "accessed": "2026-09-17", "note": "標籤存在"}
+      {
+        "title": "Wikipedia: Lovecraftian horror",
+        "url": "https://en.wikipedia.org/wiki/Lovecraftian_horror",
+        "accessed": "2026-09-17",
+        "note": "定義、主題與宇宙主義哲學"
+      },
+      {
+        "title": "Steam 標籤頁：Lovecraftian",
+        "url": "https://store.steampowered.com/tags/en/Lovecraftian/",
+        "accessed": "2026-09-17",
+        "note": "標籤存在"
+      }
     ],
     "status": "verified"
   },
@@ -117,25 +335,57 @@
     "id": "jump-scare",
     "zh": "突發驚嚇（Jump Scare）",
     "en": "Jump Scare",
-    "aliases": ["驚嚇跳出"],
+    "aliases": [
+      "驚嚇跳出"
+    ],
     "cat": "theme",
-    "sub": "恐怖",
+    "sub": "恐怖氛圍",
     "short": "用突然出現的畫面加音效嚇玩家一跳的短效恐怖手法。",
     "def": "利用安靜鋪陳後突然出現的視覺物件與巨大音效，讓玩家生理上「嚇一跳」的手法。效果直接但短暫，過度使用會讓玩家產生耐受性、甚至讓恐怖感廉價化，因此常被批評是「偷懶的恐怖」。真正有經驗的設計會把 Jump Scare 當作節奏中的一個標點符號，而不是整個句子，用來打斷玩家因長期緊繃而產生的假性安全感，而非取代氛圍營造。",
-    "features": ["安靜鋪陳後的突然爆發", "畫面與音效同時衝擊", "效果直接但持續時間短", "過度使用會降低敏感度"],
+    "features": [
+      "安靜鋪陳後的突然爆發",
+      "畫面與音效同時衝擊",
+      "效果直接但持續時間短",
+      "過度使用會降低敏感度"
+    ],
     "examples": [
-      {"title": "The Outlast Trials", "appid": 1304930, "year": 2024, "why": "以近距離追逐搭配突發驚嚇聞名的系列"},
-      {"title": "Phasmophobia 恐鬼症", "appid": 739630, "year": 2020, "why": "多人抓鬼遊戲中鬼魂突襲是核心驚嚇設計"}
+      {
+        "title": "The Outlast Trials",
+        "appid": 1304930,
+        "year": 2024,
+        "why": "以近距離追逐搭配突發驚嚇聞名的系列"
+      },
+      {
+        "title": "Phasmophobia 恐鬼症",
+        "appid": 739630,
+        "year": 2020,
+        "why": "多人抓鬼遊戲中鬼魂突襲是核心驚嚇設計"
+      }
     ],
     "steamTags": [],
     "compare": [
-      {"with": "psychological-horror", "diff": "心理恐怖靠長時間累積不安；Jump Scare 是單次的生理反射驚嚇，兩者常被合併使用但機制完全不同"},
-      {"with": "horror", "diff": "Jump Scare 只是恐怖遊戲眾多手法的其中一種，不是類型"}
+      {
+        "with": "psychological-horror",
+        "diff": "心理恐怖靠長時間累積不安；Jump Scare 是單次的生理反射驚嚇，兩者常被合併使用但機制完全不同"
+      },
+      {
+        "with": "horror",
+        "diff": "Jump Scare 只是恐怖遊戲眾多手法的其中一種，不是類型"
+      }
     ],
-    "related": ["horror", "psychological-horror", "survival-horror"],
+    "related": [
+      "horror",
+      "psychological-horror",
+      "survival-horror"
+    ],
     "design": "Jump Scare 用太多會讓玩家對遊戲失去信任、乾脆調小音量或看攻略跳過；建議只在關鍵節點使用，並確保鋪陳段落本身也有內容，不是純粹等驚嚇。",
     "sources": [
-      {"title": "Wikipedia: Jump scare", "url": "https://en.wikipedia.org/wiki/Jump_scare", "accessed": "2026-09-17", "note": "定義、歷史與評論"}
+      {
+        "title": "Wikipedia: Jump scare",
+        "url": "https://en.wikipedia.org/wiki/Jump_scare",
+        "accessed": "2026-09-17",
+        "note": "定義、歷史與評論"
+      }
     ],
     "status": "verified"
   },
@@ -143,27 +393,70 @@
     "id": "folk-horror",
     "zh": "民俗恐怖（Folk Horror）",
     "en": "Folk Horror",
-    "aliases": ["鄉野恐怖", "民俗驚悚"],
+    "aliases": [
+      "鄉野恐怖",
+      "民俗驚悚"
+    ],
     "cat": "theme",
-    "sub": "恐怖",
+    "sub": "恐怖氛圍",
     "short": "恐懼來自偏遠社群的民俗信仰、儀式與孤立感，而非超自然怪物。",
     "def": "以鄉野、偏遠社群的民俗信仰、儀式與自然力量為恐懼來源的恐怖流派。典型情節是外來者闖入一個保有古老信仰的孤立社群，逐漸發現當地習俗背後的黑暗真相。恐懼不一定來自明確的超自然存在，更多來自「這群人真心相信這些儀式」所帶來的毛骨悚然。台灣脈絡下的宮廟、辦桌、喪禮習俗與鄉野傳說，也常被歸入廣義的民俗恐怖題材。",
-    "features": ["偏遠或封閉的鄉野社群", "古老儀式與信仰", "外來者闖入的視角", "恐懼源於人的信仰而非怪物"],
+    "features": [
+      "偏遠或封閉的鄉野社群",
+      "古老儀式與信仰",
+      "外來者闖入的視角",
+      "恐懼源於人的信仰而非怪物"
+    ],
     "examples": [
-      {"title": "還願", "en": "Devotion", "appid": null, "year": 2019, "why": "以台灣民間信仰與辦桌文化包裝的家庭悲劇恐怖"},
-      {"title": "Pathologic 2", "appid": null, "year": 2019, "why": "以草原小鎮瘟疫與地方信仰民俗建構的恐怖代表"}
+      {
+        "title": "還願",
+        "en": "Devotion",
+        "appid": null,
+        "year": 2019,
+        "why": "以台灣民間信仰與辦桌文化包裝的家庭悲劇恐怖"
+      },
+      {
+        "title": "Pathologic 2",
+        "appid": 505230,
+        "year": 2019,
+        "why": "以草原小鎮瘟疫與地方信仰民俗建構的恐怖代表"
+      }
     ],
     "steamTags": [],
     "compare": [
-      {"with": "taiwan-horror", "diff": "民俗恐怖是國際通用類型概念（源自英美鄉野恐怖電影）；台式恐怖是地域子集，兩者在台灣作品上常重疊"},
-      {"with": "cosmic-horror", "diff": "民俗恐怖的恐懼源於人類社群的信仰與儀式；克蘇魯恐怖的恐懼源於超越人類理解的宇宙尺度存在"},
-      {"with": "occult", "diff": "民俗恐怖強調社群與鄉野脈絡；神秘學題材可以脫離特定地域，單純作為知識或力量體系出現"}
+      {
+        "with": "taiwan-horror",
+        "diff": "民俗恐怖是國際通用類型概念（源自英美鄉野恐怖電影）；台式恐怖是地域子集，兩者在台灣作品上常重疊"
+      },
+      {
+        "with": "cosmic-horror",
+        "diff": "民俗恐怖的恐懼源於人類社群的信仰與儀式；克蘇魯恐怖的恐懼源於超越人類理解的宇宙尺度存在"
+      },
+      {
+        "with": "occult",
+        "diff": "民俗恐怖強調社群與鄉野脈絡；神秘學題材可以脫離特定地域，單純作為知識或力量體系出現"
+      }
     ],
-    "related": ["taiwan-horror", "occult", "supernatural", "urban-legend"],
+    "related": [
+      "taiwan-horror",
+      "occult",
+      "supernatural",
+      "urban-legend"
+    ],
     "design": "田野調查很重要：儀式細節要有真實民俗做底，胡亂拼湊的「東方元素拼盤」容易讓在地玩家出戲，反而失去說服力。",
     "sources": [
-      {"title": "Wikipedia: Category:Folk horror", "url": "https://en.wikipedia.org/wiki/Category:Folk_horror", "accessed": "2026-09-17", "note": "類型分類與相關作品列表"},
-      {"title": "BFI: Where to begin with folk horror", "url": "https://www.bfi.org.uk/features/where-begin-with-folk-horror", "accessed": "2026-09-17", "note": "類型脈絡與代表作介紹"}
+      {
+        "title": "Wikipedia: Category:Folk horror",
+        "url": "https://en.wikipedia.org/wiki/Category:Folk_horror",
+        "accessed": "2026-09-17",
+        "note": "類型分類與相關作品列表"
+      },
+      {
+        "title": "BFI: Where to begin with folk horror",
+        "url": "https://www.bfi.org.uk/features/where-begin-with-folk-horror",
+        "accessed": "2026-09-17",
+        "note": "類型脈絡與代表作介紹"
+      }
     ],
     "status": "verified"
   },
@@ -171,25 +464,60 @@
     "id": "body-horror",
     "zh": "身體恐怖（Body Horror）",
     "en": "Body Horror",
-    "aliases": ["生物恐怖", "Biological Horror"],
+    "aliases": [
+      "生物恐怖",
+      "Biological Horror"
+    ],
     "cat": "theme",
-    "sub": "恐怖",
+    "sub": "恐怖氛圍",
     "short": "恐懼來自身體本身的變異、崩解與失控，而非外在怪物攻擊。",
     "def": "聚焦於身體遭受變異、突變、腐爛、寄生或不受控轉化所帶來的生理噁心感與存在焦慮。與一般暴力不同，身體恐怖的核心不是「被打」而是「自己的身體不再屬於自己」，角色眼睜睜看著自己或他人的軀體扭曲變形卻無法阻止。《絕命異次元》的死靈變異體、《惡靈古堡》系列的病毒突變都是常見範例。",
-    "features": ["身體變異與突變", "失去對自身身體的掌控", "視覺上刻意呈現的噁心與違和", "常與感染、寄生或詛咒設定連結"],
+    "features": [
+      "身體變異與突變",
+      "失去對自身身體的掌控",
+      "視覺上刻意呈現的噁心與違和",
+      "常與感染、寄生或詛咒設定連結"
+    ],
     "examples": [
-      {"title": "絕命異次元", "en": "Dead Space", "appid": 1693980, "year": 2023, "why": "死靈變異體設計是身體恐怖的經典教材"},
-      {"title": "惡靈古堡7 biohazard", "en": "Resident Evil 7 Biohazard", "appid": 418370, "year": 2017, "why": "以真菌感染呈現家族成員的身體崩解"}
+      {
+        "title": "絕命異次元",
+        "en": "Dead Space",
+        "appid": 1693980,
+        "year": 2023,
+        "why": "死靈變異體設計是身體恐怖的經典教材"
+      },
+      {
+        "title": "惡靈古堡7 biohazard",
+        "en": "Resident Evil 7 Biohazard",
+        "appid": 418370,
+        "year": 2017,
+        "why": "以真菌感染呈現家族成員的身體崩解"
+      }
     ],
     "steamTags": [],
     "compare": [
-      {"with": "cosmic-horror", "diff": "身體恐怖的恐懼是具體、視覺化的肉體變異；克蘇魯恐怖的恐懼是抽象、認知層面的宇宙渺小感，兩者可疊加"},
-      {"with": "zombie", "diff": "殭屍是身體恐怖常見的呈現結果之一，但身體恐怖範圍更廣，不限於殭屍化"}
+      {
+        "with": "cosmic-horror",
+        "diff": "身體恐怖的恐懼是具體、視覺化的肉體變異；克蘇魯恐怖的恐懼是抽象、認知層面的宇宙渺小感，兩者可疊加"
+      },
+      {
+        "with": "zombie",
+        "diff": "殭屍是身體恐怖常見的呈現結果之一，但身體恐怖範圍更廣，不限於殭屍化"
+      }
     ],
-    "related": ["horror", "cosmic-horror", "zombie"],
+    "related": [
+      "horror",
+      "cosmic-horror",
+      "zombie"
+    ],
     "design": "噁心感要服務主題（失去掌控、身分崩解），單純堆疊血肉噁心畫面容易變成獵奇而失去恐怖的心理深度。音效與變形過程的節奏比最終造型更關鍵。",
     "sources": [
-      {"title": "Wikipedia: Body horror", "url": "https://en.wikipedia.org/wiki/Body_horror", "accessed": "2026-09-17", "note": "定義、起源與電玩例子"}
+      {
+        "title": "Wikipedia: Body horror",
+        "url": "https://en.wikipedia.org/wiki/Body_horror",
+        "accessed": "2026-09-17",
+        "note": "定義、起源與電玩例子"
+      }
     ],
     "status": "verified"
   },
@@ -197,29 +525,81 @@
     "id": "taiwan-horror",
     "zh": "台式恐怖（Taiwan Horror）",
     "en": "Taiwan Horror",
-    "aliases": ["台灣恐怖遊戲", "台式恐怖遊戲"],
+    "aliases": [
+      "台灣恐怖遊戲",
+      "台式恐怖遊戲"
+    ],
     "cat": "theme",
-    "sub": "恐怖",
+    "sub": "恐怖氛圍",
     "short": "以台灣歷史、民間信仰與校園鄉野傳說為底色的本土恐怖類型。",
     "def": "以台灣特有的歷史記憶（如白色恐怖）、民間信仰（宮廟、辦桌、普渡、牽亡）與校園鄉野傳說為素材的恐怖遊戲與影視類型。赤燭遊戲的《返校》把白色恐怖時代的校園氛圍與台灣民俗結合，開創了這條路線；《還願》延續同樣手法轉向家庭與辦桌文化；《女鬼橋》系列則取材自東海大學等真實校園流傳的女鬼傳說。這類作品的恐懼不靠外來哥德或克蘇魯元素，而是台灣人共享的集體記憶與生活場景，因此格外能打中本地玩家。",
-    "features": ["取材台灣歷史或民間信仰", "校園、廟宇、老宅等本土場景", "常帶有政治或家庭創傷的隱喻", "恐懼建立在集體文化記憶上"],
+    "features": [
+      "取材台灣歷史或民間信仰",
+      "校園、廟宇、老宅等本土場景",
+      "常帶有政治或家庭創傷的隱喻",
+      "恐懼建立在集體文化記憶上"
+    ],
     "examples": [
-      {"title": "返校", "en": "Detention", "appid": null, "year": 2017, "why": "赤燭遊戲開創台式恐怖路線的代表作，改編電影與影集"},
-      {"title": "還願", "en": "Devotion", "appid": null, "year": 2019, "why": "以台灣辦桌與民間信仰包裝的家庭悲劇"},
-      {"title": "女鬼橋二 釋魂路", "en": "The Bridge Curse 2: The Extrication", "appid": 2331330, "year": 2024, "why": "取材真實大學校園流傳的女鬼傳說"}
+      {
+        "title": "返校",
+        "en": "Detention",
+        "appid": 555220,
+        "year": 2017,
+        "why": "赤燭遊戲開創台式恐怖路線的代表作，改編電影與影集"
+      },
+      {
+        "title": "還願",
+        "en": "Devotion",
+        "appid": null,
+        "year": 2019,
+        "why": "以台灣辦桌與民間信仰包裝的家庭悲劇"
+      },
+      {
+        "title": "女鬼橋二 釋魂路",
+        "en": "The Bridge Curse 2: The Extrication",
+        "appid": 2331330,
+        "year": 2024,
+        "why": "取材真實大學校園流傳的女鬼傳說"
+      }
     ],
     "steamTags": [],
     "compare": [
-      {"with": "folk-horror", "diff": "台式恐怖是民俗恐怖在台灣脈絡下的具體子集，額外疊加白色恐怖等本土歷史記憶"},
-      {"with": "urban-legend", "diff": "《女鬼橋》系列直接取材真實流傳的校園都市傳說；台式恐怖範圍更廣，也包含歷史與信仰題材"}
+      {
+        "with": "folk-horror",
+        "diff": "台式恐怖是民俗恐怖在台灣脈絡下的具體子集，額外疊加白色恐怖等本土歷史記憶"
+      },
+      {
+        "with": "urban-legend",
+        "diff": "《女鬼橋》系列直接取材真實流傳的校園都市傳說；台式恐怖範圍更廣，也包含歷史與信仰題材"
+      }
     ],
-    "related": ["horror", "folk-horror", "urban-legend", "psychological-horror"],
+    "related": [
+      "horror",
+      "folk-horror",
+      "urban-legend",
+      "psychological-horror"
+    ],
     "design": "本土素材要處理得細緻，避免把民俗符號當裝飾濫用；歷史題材（如白色恐怖）涉及真實傷痛，考據與尊重比嚇人效果更重要。",
     "tw": "赤燭遊戲（Red Candle Games）是這股風潮的起點；《還願》曾因彩蛋事件一度下架，2021 年於自有商店重新上架。",
     "sources": [
-      {"title": "Wikipedia: Detention (video game)", "url": "https://en.wikipedia.org/wiki/Detention_(video_game)", "accessed": "2026-09-17", "note": "返校開發背景與白色恐怖題材"},
-      {"title": "Wikipedia: Devotion (video game)", "url": "https://en.wikipedia.org/wiki/Devotion_(video_game)", "accessed": "2026-09-17", "note": "還願開發背景與下架事件"},
-      {"title": "Wikipedia: Red Candle Games", "url": "https://en.wikipedia.org/wiki/Red_Candle_Games", "accessed": "2026-09-17", "note": "赤燭遊戲工作室資訊"}
+      {
+        "title": "Wikipedia: Detention (video game)",
+        "url": "https://en.wikipedia.org/wiki/Detention_(video_game)",
+        "accessed": "2026-09-17",
+        "note": "返校開發背景與白色恐怖題材"
+      },
+      {
+        "title": "Wikipedia: Devotion (video game)",
+        "url": "https://en.wikipedia.org/wiki/Devotion_(video_game)",
+        "accessed": "2026-09-17",
+        "note": "還願開發背景與下架事件"
+      },
+      {
+        "title": "Wikipedia: Red Candle Games",
+        "url": "https://en.wikipedia.org/wiki/Red_Candle_Games",
+        "accessed": "2026-09-17",
+        "note": "赤燭遊戲工作室資訊"
+      }
     ],
     "status": "verified"
   },
@@ -227,26 +607,71 @@
     "id": "gothic",
     "zh": "哥德（Gothic）",
     "en": "Gothic",
-    "aliases": ["哥德式", "哥德風格"],
+    "aliases": [
+      "哥德式",
+      "哥德風格"
+    ],
     "cat": "theme",
     "sub": "奇幻與科幻氛圍",
     "short": "以荒廢城堡、陰鬱貴族與死亡美學為核心的黑暗浪漫氛圍。",
     "def": "源自 18 世紀哥德小說傳統，視覺與敘事上偏好荒廢城堡、陰森教堂、貴族血統詛咒、吸血鬼與死亡美學，情緒基調是憂鬱而華麗的黑暗浪漫，而非單純嚇人。遊戲中常見的哥德元素包括陰暗建築、蕾絲與鐵鏽質感的美術，以及家族詛咒劇情。《血源詛咒》把哥德式維多利亞城市與克蘇魯恐怖融合，《惡魔城》系列則是哥德城堡探索的經典代表。",
-    "features": ["荒廢城堡或陰森教堂", "貴族血統與家族詛咒", "華麗而陰鬱的美術風格", "死亡美學重於直接驚嚇"],
+    "features": [
+      "荒廢城堡或陰森教堂",
+      "貴族血統與家族詛咒",
+      "華麗而陰鬱的美術風格",
+      "死亡美學重於直接驚嚇"
+    ],
     "examples": [
-      {"title": "血咒之城：夜之儀式", "en": "Bloodstained: Ritual of the Night", "appid": 692850, "year": 2019, "why": "直接繼承惡魔城式哥德城堡美學"},
-      {"title": "黑帝斯", "en": "Hades", "appid": 1145360, "year": 2020, "why": "希臘神話包裝下帶有哥德式的死亡與家族主題"}
+      {
+        "title": "血咒之城：夜之儀式",
+        "en": "Bloodstained: Ritual of the Night",
+        "appid": 692850,
+        "year": 2019,
+        "why": "直接繼承惡魔城式哥德城堡美學"
+      },
+      {
+        "title": "黑帝斯",
+        "en": "Hades",
+        "appid": 1145360,
+        "year": 2020,
+        "why": "希臘神話包裝下帶有哥德式的死亡與家族主題"
+      }
     ],
-    "steamTags": [{"tagid": 3952, "en": "Gothic"}],
+    "steamTags": [
+      {
+        "tagid": 3952,
+        "en": "Gothic"
+      }
+    ],
     "compare": [
-      {"with": "dark-fantasy", "diff": "哥德強調特定歷史美學（城堡、貴族、維多利亞氛圍）；黑暗奇幻範圍更廣，泛指任何基調陰暗的奇幻世界觀"},
-      {"with": "horror", "diff": "哥德是美學與氛圍取向，不必然以嚇人為目的，很多哥德作品重點在浪漫與悲劇"}
+      {
+        "with": "dark-fantasy",
+        "diff": "哥德強調特定歷史美學（城堡、貴族、維多利亞氛圍）；黑暗奇幻範圍更廣，泛指任何基調陰暗的奇幻世界觀"
+      },
+      {
+        "with": "horror",
+        "diff": "哥德是美學與氛圍取向，不必然以嚇人為目的，很多哥德作品重點在浪漫與悲劇"
+      }
     ],
-    "related": ["dark-fantasy", "supernatural", "occult"],
+    "related": [
+      "dark-fantasy",
+      "supernatural",
+      "occult"
+    ],
     "design": "哥德美術很容易流於單純「暗色調加城堡」的表面化，真正的哥德感來自敘事上的家族秘密與命運悲劇感，美術只是載體。",
     "sources": [
-      {"title": "Wikipedia: Gothic fiction", "url": "https://en.wikipedia.org/wiki/Gothic_fiction", "accessed": "2026-09-17", "note": "哥德文學傳統與定義"},
-      {"title": "Steam 標籤頁：Gothic", "url": "https://store.steampowered.com/tags/en/Gothic/", "accessed": "2026-09-17", "note": "標籤存在"}
+      {
+        "title": "Wikipedia: Gothic fiction",
+        "url": "https://en.wikipedia.org/wiki/Gothic_fiction",
+        "accessed": "2026-09-17",
+        "note": "哥德文學傳統與定義"
+      },
+      {
+        "title": "Steam 標籤頁：Gothic",
+        "url": "https://store.steampowered.com/tags/en/Gothic/",
+        "accessed": "2026-09-17",
+        "note": "標籤存在"
+      }
     ],
     "status": "verified"
   },
@@ -254,27 +679,75 @@
     "id": "dark-fantasy",
     "zh": "黑暗奇幻（Dark Fantasy）",
     "en": "Dark Fantasy",
-    "aliases": ["黑暗奇幻風格"],
+    "aliases": [
+      "黑暗奇幻風格"
+    ],
     "cat": "theme",
     "sub": "奇幻與科幻氛圍",
     "short": "基調陰暗、道德灰色、世界殘酷的奇幻類型。",
     "def": "在傳統奇幻的魔法與異世界設定上，加入陰暗基調、道德模糊的角色與殘酷的世界觀，善惡不是二元對立，英雄可能也做壞事，勝利往往帶著代價。與恐怖的差異在於黑暗奇幻不必然以「嚇玩家」為目的，而是用陰暗美學與悲劇宿命感建立整體世界基調。《黑暗靈魂》系列與《巫師》系列是黑暗奇幻的代表，世界觀充滿衰敗文明與道德灰色的抉擇。",
-    "features": ["善惡界線模糊", "世界觀基調衰敗、殘酷", "魔法或異能常伴隨代價", "悲劇性宿命感"],
+    "features": [
+      "善惡界線模糊",
+      "世界觀基調衰敗、殘酷",
+      "魔法或異能常伴隨代價",
+      "悲劇性宿命感"
+    ],
     "examples": [
-      {"title": "巫師 3：狂獵", "en": "The Witcher 3: Wild Hunt", "appid": 292030, "year": 2015, "why": "道德灰色抉擇與衰敗世界觀的代表作"},
-      {"title": "黯陰羊", "en": "Darkest Dungeon", "appid": 262060, "year": 2016, "why": "以壓力與瘋狂機制呈現黑暗奇幻的絕望感"}
+      {
+        "title": "巫師 3：狂獵",
+        "en": "The Witcher 3: Wild Hunt",
+        "appid": 292030,
+        "year": 2015,
+        "why": "道德灰色抉擇與衰敗世界觀的代表作"
+      },
+      {
+        "title": "暗黑地牢",
+        "en": "Darkest Dungeon",
+        "appid": 262060,
+        "year": 2016,
+        "why": "以壓力與瘋狂機制呈現黑暗奇幻的絕望感"
+      }
     ],
-    "steamTags": [{"tagid": 4604, "en": "Dark Fantasy"}],
+    "steamTags": [
+      {
+        "tagid": 4604,
+        "en": "Dark Fantasy"
+      }
+    ],
     "compare": [
-      {"with": "high-fantasy", "diff": "黑暗奇幻基調陰暗、道德灰色；高奇幻通常善惡分明、史詩英雄主義色彩濃厚"},
-      {"with": "gothic", "diff": "黑暗奇幻是廣義的陰暗奇幻世界觀；哥德是更具體的歷史美學（城堡、貴族、維多利亞氛圍）"},
-      {"with": "horror", "diff": "黑暗奇幻不以嚇人為目的，恐怖遊戲的核心設計目標就是製造恐懼"}
+      {
+        "with": "high-fantasy",
+        "diff": "黑暗奇幻基調陰暗、道德灰色；高奇幻通常善惡分明、史詩英雄主義色彩濃厚"
+      },
+      {
+        "with": "gothic",
+        "diff": "黑暗奇幻是廣義的陰暗奇幻世界觀；哥德是更具體的歷史美學（城堡、貴族、維多利亞氛圍）"
+      },
+      {
+        "with": "horror",
+        "diff": "黑暗奇幻不以嚇人為目的，恐怖遊戲的核心設計目標就是製造恐懼"
+      }
     ],
-    "related": ["high-fantasy", "low-fantasy", "gothic", "dark"],
+    "related": [
+      "high-fantasy",
+      "low-fantasy",
+      "gothic",
+      "dark"
+    ],
     "design": "道德灰色不等於「什麼都髒一點」，要讓玩家的每個選擇都有可信的代價與理由，否則黑暗只是表面塗裝。",
     "sources": [
-      {"title": "Wikipedia: Dark fantasy", "url": "https://en.wikipedia.org/wiki/Dark_fantasy", "accessed": "2026-09-17", "note": "定義與代表作"},
-      {"title": "Steam 標籤頁：Dark Fantasy", "url": "https://store.steampowered.com/tags/en/Dark%20Fantasy/", "accessed": "2026-09-17", "note": "標籤存在"}
+      {
+        "title": "Wikipedia: Dark fantasy",
+        "url": "https://en.wikipedia.org/wiki/Dark_fantasy",
+        "accessed": "2026-09-17",
+        "note": "定義與代表作"
+      },
+      {
+        "title": "Steam 標籤頁：Dark Fantasy",
+        "url": "https://store.steampowered.com/tags/en/Dark%20Fantasy/",
+        "accessed": "2026-09-17",
+        "note": "標籤存在"
+      }
     ],
     "status": "verified"
   },
@@ -282,25 +755,60 @@
     "id": "high-fantasy",
     "zh": "高奇幻（High Fantasy）",
     "en": "High Fantasy",
-    "aliases": ["高幻想", "史詩奇幻"],
+    "aliases": [
+      "高幻想",
+      "史詩奇幻"
+    ],
     "cat": "theme",
     "sub": "奇幻與科幻氛圍",
     "short": "設定在完全獨立的異世界、善惡分明、史詩格局的奇幻類型。",
     "def": "故事發生在與現實世界完全脫節的獨立異世界（第二世界），有自己的地理、歷史、種族與魔法體系，格局通常是史詩級的善惡對抗與拯救世界的旅程。《魔戒》是奠基之作，遊戲中多數傳統 JRPG 與西方奇幻 RPG 所處的架空大陸都屬於高奇幻範疇。與現實世界只是「多了魔法」的低奇幻不同，高奇幻的世界觀本身就是完全虛構的。",
-    "features": ["完全獨立於現實的異世界", "自成一套魔法與種族體系", "史詩格局、善惡對抗鮮明", "常見拯救世界的主線"],
+    "features": [
+      "完全獨立於現實的異世界",
+      "自成一套魔法與種族體系",
+      "史詩格局、善惡對抗鮮明",
+      "常見拯救世界的主線"
+    ],
     "examples": [
-      {"title": "柏德之門3", "en": "Baldur's Gate 3", "appid": 1086940, "year": 2023, "why": "典型高奇幻異世界與種族體系"},
-      {"title": "艾爾登法環", "en": "Elden Ring", "appid": 1245620, "year": 2022, "why": "架空的交界地世界觀與神話體系"}
+      {
+        "title": "柏德之門3",
+        "en": "Baldur's Gate 3",
+        "appid": 1086940,
+        "year": 2023,
+        "why": "典型高奇幻異世界與種族體系"
+      },
+      {
+        "title": "艾爾登法環",
+        "en": "Elden Ring",
+        "appid": 1245620,
+        "year": 2022,
+        "why": "架空的交界地世界觀與神話體系"
+      }
     ],
     "steamTags": [],
     "compare": [
-      {"with": "low-fantasy", "diff": "高奇幻設定在完全虛構的異世界；低奇幻設定在現實世界中混入零星魔法元素"},
-      {"with": "dark-fantasy", "diff": "高奇幻不必然陰暗，可以是光明史詩；黑暗奇幻強調陰鬱基調與道德灰色，兩者可以重疊也可以互斥"}
+      {
+        "with": "low-fantasy",
+        "diff": "高奇幻設定在完全虛構的異世界；低奇幻設定在現實世界中混入零星魔法元素"
+      },
+      {
+        "with": "dark-fantasy",
+        "diff": "高奇幻不必然陰暗，可以是光明史詩；黑暗奇幻強調陰鬱基調與道德灰色，兩者可以重疊也可以互斥"
+      }
     ],
-    "related": ["low-fantasy", "dark-fantasy", "mythology"],
+    "related": [
+      "low-fantasy",
+      "dark-fantasy",
+      "mythology"
+    ],
     "design": "世界觀設定資料量大是雙面刃：豐富的種族、歷史、地圖能建立沉浸感，但新玩家門檻也高，要靠主線敘事逐步帶入，而非一開頭就丟出整本設定集。",
     "sources": [
-      {"title": "Wikipedia: High fantasy", "url": "https://en.wikipedia.org/wiki/High_fantasy", "accessed": "2026-09-17", "note": "定義與與低奇幻的區分"}
+      {
+        "title": "Wikipedia: High fantasy",
+        "url": "https://en.wikipedia.org/wiki/High_fantasy",
+        "accessed": "2026-09-17",
+        "note": "定義與與低奇幻的區分"
+      }
     ],
     "status": "verified"
   },
@@ -308,25 +816,59 @@
     "id": "low-fantasy",
     "zh": "低奇幻（Low Fantasy）",
     "en": "Low Fantasy",
-    "aliases": ["低幻想"],
+    "aliases": [
+      "低幻想"
+    ],
     "cat": "theme",
     "sub": "奇幻與科幻氛圍",
     "short": "現實世界為底、只摻入零星魔法或超自然元素的奇幻類型。",
     "def": "故事發生在接近現實或讀者熟悉的世界，只摻入零星、通常受限的魔法或超自然元素，「低」指的是奇幻元素的濃度，不是作品品質。這類作品常見於偏寫實的中世紀背景動作遊戲或都市奇幻，魔法稀有、代價高昂，更貼近人性與政治鬥爭而非史詩對抗邪神。《天國：拯救》幾乎不含魔法只是寫實中世紀，《巫師》系列則是低奇幻與黑暗奇幻交界的例子，世界基本寫實但存在少量怪物與法印。",
-    "features": ["世界觀接近現實或熟悉背景", "魔法或異能稀少且受限", "更貼近政治、人性與寫實鬥爭", "與黑暗奇幻常有重疊"],
+    "features": [
+      "世界觀接近現實或熟悉背景",
+      "魔法或異能稀少且受限",
+      "更貼近政治、人性與寫實鬥爭",
+      "與黑暗奇幻常有重疊"
+    ],
     "examples": [
-      {"title": "天國：拯救2", "en": "Kingdom Come: Deliverance II", "appid": 1771300, "year": 2025, "why": "幾乎不含魔法的寫實中世紀設定"},
-      {"title": "巫師 3：狂獵", "en": "The Witcher 3: Wild Hunt", "appid": 292030, "year": 2015, "why": "世界寫實但保留少量魔法與怪物的低奇幻代表"}
+      {
+        "title": "天國：拯救2",
+        "en": "Kingdom Come: Deliverance II",
+        "appid": 1771300,
+        "year": 2025,
+        "why": "幾乎不含魔法的寫實中世紀設定"
+      },
+      {
+        "title": "巫師 3：狂獵",
+        "en": "The Witcher 3: Wild Hunt",
+        "appid": 292030,
+        "year": 2015,
+        "why": "世界寫實但保留少量魔法與怪物的低奇幻代表"
+      }
     ],
     "steamTags": [],
     "compare": [
-      {"with": "high-fantasy", "diff": "低奇幻的世界接近現實，魔法稀少受限；高奇幻是完全獨立、自成體系的異世界"},
-      {"with": "historical", "diff": "低奇幻允許少量魔法或超自然元素；歷史題材通常不加入奇幻要素，力求寫實還原"}
+      {
+        "with": "high-fantasy",
+        "diff": "低奇幻的世界接近現實，魔法稀少受限；高奇幻是完全獨立、自成體系的異世界"
+      },
+      {
+        "with": "historical",
+        "diff": "低奇幻允許少量魔法或超自然元素；歷史題材通常不加入奇幻要素，力求寫實還原"
+      }
     ],
-    "related": ["high-fantasy", "historical", "medieval"],
+    "related": [
+      "high-fantasy",
+      "historical",
+      "medieval"
+    ],
     "design": "魔法越稀少，每一次出現就要越有份量，否則會顯得突兀；低奇幻的說服力來自世界觀其餘部分的寫實考據。",
     "sources": [
-      {"title": "Wikipedia: Low fantasy", "url": "https://en.wikipedia.org/wiki/Low_fantasy", "accessed": "2026-09-17", "note": "定義與辨析"}
+      {
+        "title": "Wikipedia: Low fantasy",
+        "url": "https://en.wikipedia.org/wiki/Low_fantasy",
+        "accessed": "2026-09-17",
+        "note": "定義與辨析"
+      }
     ],
     "status": "verified"
   },
@@ -334,26 +876,72 @@
     "id": "sci-fi",
     "zh": "科幻（Sci-fi）",
     "en": "Science Fiction",
-    "aliases": ["科幻小說", "Science Fiction", "SF"],
+    "aliases": [
+      "科幻小說",
+      "Science Fiction",
+      "SF"
+    ],
     "cat": "theme",
     "sub": "奇幻與科幻氛圍",
     "short": "以科學推想、未來科技或外太空為背景的題材總稱。",
     "def": "以科學原理的推想、未來科技、外太空探索或另類物理法則為核心背景的題材總稱，範圍極廣，從硬核講究科學合理性的作品到軟性、著重冒險與哲學思辨的作品都算。遊戲中的科幻可以是背景包裝（太空船外觀），也可以是核心機制（時間迴圈、重力操控）。《異星探險家》以真實物理謎題聞名，《群星》則用科幻包裝 4X 帝國經營。",
-    "features": ["未來科技或外太空背景", "可硬核講究科學合理性也可軟性著重故事", "常探討人類與科技、未知的關係", "與奇幻常以魔法或科技作區分"],
+    "features": [
+      "未來科技或外太空背景",
+      "可硬核講究科學合理性也可軟性著重故事",
+      "常探討人類與科技、未知的關係",
+      "與奇幻常以魔法或科技作區分"
+    ],
     "examples": [
-      {"title": "群星", "en": "Stellaris", "appid": 281990, "year": 2016, "why": "太空 4X 策略中的科幻世界觀代表"},
-      {"title": "異星探險家", "en": "Outer Wilds", "appid": 753640, "year": 2020, "why": "以嚴謹物理與天文謎題聞名的科幻遊戲"}
+      {
+        "title": "群星",
+        "en": "Stellaris",
+        "appid": 281990,
+        "year": 2016,
+        "why": "太空 4X 策略中的科幻世界觀代表"
+      },
+      {
+        "title": "星際拓荒",
+        "en": "Outer Wilds",
+        "appid": 753640,
+        "year": 2020,
+        "why": "以嚴謹物理與天文謎題聞名的科幻遊戲"
+      }
     ],
-    "steamTags": [{"tagid": 3942, "en": "Sci-fi"}],
+    "steamTags": [
+      {
+        "tagid": 3942,
+        "en": "Sci-fi"
+      }
+    ],
     "compare": [
-      {"with": "space-opera", "diff": "太空歌劇是科幻底下強調星際戰爭與宏大冒險的子類型；科幻是包含所有科學推想作品的總稱"},
-      {"with": "cyberpunk", "diff": "賽博龐克是科幻底下聚焦「高科技、低生活」與企業壓迫的具體子類型"}
+      {
+        "with": "space-opera",
+        "diff": "太空歌劇是科幻底下強調星際戰爭與宏大冒險的子類型；科幻是包含所有科學推想作品的總稱"
+      },
+      {
+        "with": "cyberpunk",
+        "diff": "賽博龐克是科幻底下聚焦「高科技、低生活」與企業壓迫的具體子類型"
+      }
     ],
-    "related": ["space-opera", "cyberpunk", "dystopian"],
+    "related": [
+      "space-opera",
+      "cyberpunk",
+      "dystopian"
+    ],
     "design": "科幻設定越硬核越考驗美術與敘事的說服力；決定好「這個世界哪些規則不能違反」，比堆砌未來感詞彙更重要。",
     "sources": [
-      {"title": "Wikipedia: Science fiction", "url": "https://en.wikipedia.org/wiki/Science_fiction", "accessed": "2026-09-17", "note": "定義與範疇"},
-      {"title": "Steam 標籤頁：Sci-fi", "url": "https://store.steampowered.com/tags/en/Sci-fi/", "accessed": "2026-09-17", "note": "標籤存在"}
+      {
+        "title": "Wikipedia: Science fiction",
+        "url": "https://en.wikipedia.org/wiki/Science_fiction",
+        "accessed": "2026-09-17",
+        "note": "定義與範疇"
+      },
+      {
+        "title": "Steam 標籤頁：Sci-fi",
+        "url": "https://store.steampowered.com/tags/en/Sci-fi/",
+        "accessed": "2026-09-17",
+        "note": "標籤存在"
+      }
     ],
     "status": "verified"
   },
@@ -361,25 +949,57 @@
     "id": "space-opera",
     "zh": "太空歌劇（Space Opera）",
     "en": "Space Opera",
-    "aliases": ["太空史詩"],
+    "aliases": [
+      "太空史詩"
+    ],
     "cat": "theme",
     "sub": "奇幻與科幻氛圍",
     "short": "以星際戰爭、銀河帝國與冒險為主的宏大科幻子類型。",
     "def": "科幻底下強調史詩格局的子類型，背景通常是星際旅行已普及的宇宙，情節圍繞星際戰爭、銀河帝國興衰與異星文明衝突展開，戲劇性與冒險節奏優先於嚴謹科學考證，名稱本身就是模仿「肥皂劇（soap opera）」與「西部劇（horse opera）」的戲仿用法。《群星》與《EVE Online》都是遊戲界代表作，強調種族政治與艦隊戰爭的宏大敘事。",
-    "features": ["星際旅行已是常態", "銀河帝國或多文明政治衝突", "強調冒險與戲劇性勝於硬科學", "常有艦隊戰爭場面"],
+    "features": [
+      "星際旅行已是常態",
+      "銀河帝國或多文明政治衝突",
+      "強調冒險與戲劇性勝於硬科學",
+      "常有艦隊戰爭場面"
+    ],
     "examples": [
-      {"title": "群星", "en": "Stellaris", "appid": 281990, "year": 2016, "why": "多文明政治與艦隊戰爭的太空歌劇代表"},
-      {"title": "EVE Online", "appid": 8500, "year": 2010, "why": "玩家驅動的星際政治與戰爭"}
+      {
+        "title": "群星",
+        "en": "Stellaris",
+        "appid": 281990,
+        "year": 2016,
+        "why": "多文明政治與艦隊戰爭的太空歌劇代表"
+      },
+      {
+        "title": "EVE Online",
+        "appid": 8500,
+        "year": 2010,
+        "why": "玩家驅動的星際政治與戰爭"
+      }
     ],
     "steamTags": [],
     "compare": [
-      {"with": "sci-fi", "diff": "太空歌劇是科幻的子類型，聚焦星際戰爭與宏大冒險；科幻涵蓋所有科學推想題材"},
-      {"with": "cyberpunk", "diff": "太空歌劇格局在星際、國家與艦隊；賽博龐克格局通常在單一城市的街頭與企業壓迫"}
+      {
+        "with": "sci-fi",
+        "diff": "太空歌劇是科幻的子類型，聚焦星際戰爭與宏大冒險；科幻涵蓋所有科學推想題材"
+      },
+      {
+        "with": "cyberpunk",
+        "diff": "太空歌劇格局在星際、國家與艦隊；賽博龐克格局通常在單一城市的街頭與企業壓迫"
+      }
     ],
-    "related": ["sci-fi", "cyberpunk"],
+    "related": [
+      "sci-fi",
+      "cyberpunk"
+    ],
     "design": "太空歌劇容易變成純粹的派系收集與艦隊數值堆疊，要記得核心賣點是「冒險感」，敘事節奏與角色戲劇張力不能被系統淹沒。",
     "sources": [
-      {"title": "Wikipedia: Space opera", "url": "https://en.wikipedia.org/wiki/Space_opera", "accessed": "2026-09-17", "note": "定義、詞源與代表作"}
+      {
+        "title": "Wikipedia: Space opera",
+        "url": "https://en.wikipedia.org/wiki/Space_opera",
+        "accessed": "2026-09-17",
+        "note": "定義、詞源與代表作"
+      }
     ],
     "status": "verified"
   },
@@ -387,27 +1007,75 @@
     "id": "cyberpunk",
     "zh": "賽博龐克（Cyberpunk）",
     "en": "Cyberpunk",
-    "aliases": ["電馭叛客", "數位龐克"],
+    "aliases": [
+      "電馭叛客",
+      "數位龐克"
+    ],
     "cat": "theme",
     "sub": "奇幻與科幻氛圍",
     "short": "高科技、低生活的近未來，企業凌駕國家、義體與駭客文化盛行。",
     "def": "「高科技、低生活（High tech, low life）」是賽博龐克的核心公式：先進科技（人工智慧、義體改造、虛擬實境）與底層社會的貧富懸殊、企業凌駕政府並存。視覺上常見霓虹招牌、永夜雨城、擁擠貧民窟與跨國企業高塔的強烈對比。《電馭叛客2077》把這套美學做到極致，《VA-11 Hall-A》則用調酒館小人物視角呈現同一題材的另一面。",
-    "features": ["高科技與低生活並存", "企業權力凌駕政府", "義體改造、駭客與人工智慧", "霓虹雨夜的視覺美學"],
+    "features": [
+      "高科技與低生活並存",
+      "企業權力凌駕政府",
+      "義體改造、駭客與人工智慧",
+      "霓虹雨夜的視覺美學"
+    ],
     "examples": [
-      {"title": "電馭叛客2077", "en": "Cyberpunk 2077", "appid": 1091500, "year": 2020, "why": "賽博龐克美學與主題集大成之作"},
-      {"title": "VA-11 Hall-A: Cyberpunk Bartender Action", "appid": 447530, "year": 2016, "why": "以酒保視角呈現賽博龐克社會底層日常"}
+      {
+        "title": "電馭叛客2077",
+        "en": "Cyberpunk 2077",
+        "appid": 1091500,
+        "year": 2020,
+        "why": "賽博龐克美學與主題集大成之作"
+      },
+      {
+        "title": "VA-11 Hall-A: Cyberpunk Bartender Action",
+        "appid": 447530,
+        "year": 2016,
+        "why": "以酒保視角呈現賽博龐克社會底層日常"
+      }
     ],
-    "steamTags": [{"tagid": 4115, "en": "Cyberpunk"}],
+    "steamTags": [
+      {
+        "tagid": 4115,
+        "en": "Cyberpunk"
+      }
+    ],
     "compare": [
-      {"with": "steampunk", "diff": "賽博龐克是「電子高科技加社會敗壞」；蒸氣龐克是「維多利亞蒸氣機械美學加復古科幻」，時代氛圍完全不同"},
-      {"with": "dieselpunk", "diff": "賽博龐克設定在資訊科技發達的近未來；柴油龐克設定在兩次大戰之間的柴油機械時代美學"},
-      {"with": "dystopian", "diff": "賽博龐克通常帶有反烏托邦色彩，但反烏托邦範圍更廣，不限於高科技題材"}
+      {
+        "with": "steampunk",
+        "diff": "賽博龐克是「電子高科技加社會敗壞」；蒸氣龐克是「維多利亞蒸氣機械美學加復古科幻」，時代氛圍完全不同"
+      },
+      {
+        "with": "dieselpunk",
+        "diff": "賽博龐克設定在資訊科技發達的近未來；柴油龐克設定在兩次大戰之間的柴油機械時代美學"
+      },
+      {
+        "with": "dystopian",
+        "diff": "賽博龐克通常帶有反烏托邦色彩，但反烏托邦範圍更廣，不限於高科技題材"
+      }
     ],
-    "related": ["steampunk", "dieselpunk", "dystopian", "sci-fi"],
+    "related": [
+      "steampunk",
+      "dieselpunk",
+      "dystopian",
+      "sci-fi"
+    ],
     "design": "賽博龐克的社會批判是核心，如果只做霓虹招牌卻沒有階級與企業壓迫的敘事重量，就只是「未來感貼皮」而非真正的賽博龐克。",
     "sources": [
-      {"title": "Wikipedia: Cyberpunk", "url": "https://en.wikipedia.org/wiki/Cyberpunk", "accessed": "2026-09-17", "note": "定義與核心公式"},
-      {"title": "Steam 標籤頁：Cyberpunk", "url": "https://store.steampowered.com/tags/en/Cyberpunk/", "accessed": "2026-09-17", "note": "標籤存在"}
+      {
+        "title": "Wikipedia: Cyberpunk",
+        "url": "https://en.wikipedia.org/wiki/Cyberpunk",
+        "accessed": "2026-09-17",
+        "note": "定義與核心公式"
+      },
+      {
+        "title": "Steam 標籤頁：Cyberpunk",
+        "url": "https://store.steampowered.com/tags/en/Cyberpunk/",
+        "accessed": "2026-09-17",
+        "note": "標籤存在"
+      }
     ],
     "status": "verified"
   },
@@ -415,25 +1083,62 @@
     "id": "steampunk",
     "zh": "蒸氣龐克（Steampunk）",
     "en": "Steampunk",
-    "aliases": ["蒸汽龐克"],
+    "aliases": [
+      "蒸汽龐克"
+    ],
     "cat": "theme",
     "sub": "奇幻與科幻氛圍",
     "short": "以維多利亞時代美學結合蒸氣機械科幻的復古未來風格。",
     "def": "把 19 世紀維多利亞時代的服裝與美學，跟蒸氣動力驅動的機械科技（巨大齒輪、蒸氣機、飛行船）結合的復古未來題材。相較賽博龐克的電子與資訊科技，蒸氣龐克的科技語言是黃銅、齒輪與蒸氣管線，氛圍偏向冒險與工業浪漫，而非陰暗的社會壓迫。《冤罪殺機》以鯨油驅動科技與陰森工業城市呈現這種美學。",
-    "features": ["維多利亞時代服裝與建築", "蒸氣動力機械（齒輪、飛行船）", "黃銅與管線構成的視覺語言", "冒險與工業浪漫氛圍"],
+    "features": [
+      "維多利亞時代服裝與建築",
+      "蒸氣動力機械（齒輪、飛行船）",
+      "黃銅與管線構成的視覺語言",
+      "冒險與工業浪漫氛圍"
+    ],
     "examples": [
-      {"title": "冤罪殺機", "en": "Dishonored", "appid": 205100, "year": 2012, "why": "鯨油驅動科技與工業城市美學的代表作"}
+      {
+        "title": "冤罪殺機",
+        "en": "Dishonored",
+        "appid": 205100,
+        "year": 2012,
+        "why": "鯨油驅動科技與工業城市美學的代表作"
+      }
     ],
-    "steamTags": [{"tagid": 1777, "en": "Steampunk"}],
+    "steamTags": [
+      {
+        "tagid": 1777,
+        "en": "Steampunk"
+      }
+    ],
     "compare": [
-      {"with": "cyberpunk", "diff": "蒸氣龐克是機械與蒸氣時代的復古未來；賽博龐克是資訊科技與近未來的社會批判"},
-      {"with": "dieselpunk", "diff": "蒸氣龐克對應 19 世紀蒸氣機時代；柴油龐克對應兩次大戰之間的柴油內燃機時代，美術語言更粗獷工業化"}
+      {
+        "with": "cyberpunk",
+        "diff": "蒸氣龐克是機械與蒸氣時代的復古未來；賽博龐克是資訊科技與近未來的社會批判"
+      },
+      {
+        "with": "dieselpunk",
+        "diff": "蒸氣龐克對應 19 世紀蒸氣機時代；柴油龐克對應兩次大戰之間的柴油內燃機時代，美術語言更粗獷工業化"
+      }
     ],
-    "related": ["cyberpunk", "dieselpunk"],
+    "related": [
+      "cyberpunk",
+      "dieselpunk"
+    ],
     "design": "蒸氣龐克很容易停留在「加齒輪」的表面裝飾，真正吸引人的地方在於機械本身要有可信的運作邏輯，以及冒險故事帶出的浪漫想像力。",
     "sources": [
-      {"title": "Wikipedia: Steampunk", "url": "https://en.wikipedia.org/wiki/Steampunk", "accessed": "2026-09-17", "note": "定義與美學特徵"},
-      {"title": "Steam 標籤頁：Steampunk", "url": "https://store.steampowered.com/tags/en/Steampunk/", "accessed": "2026-09-17", "note": "標籤存在"}
+      {
+        "title": "Wikipedia: Steampunk",
+        "url": "https://en.wikipedia.org/wiki/Steampunk",
+        "accessed": "2026-09-17",
+        "note": "定義與美學特徵"
+      },
+      {
+        "title": "Steam 標籤頁：Steampunk",
+        "url": "https://store.steampowered.com/tags/en/Steampunk/",
+        "accessed": "2026-09-17",
+        "note": "標籤存在"
+      }
     ],
     "status": "verified"
   },
@@ -446,20 +1151,50 @@
     "sub": "奇幻與科幻氛圍",
     "short": "以兩次大戰之間的柴油機械美學為底的復古未來風格。",
     "def": "介於蒸氣龐克與賽博龐克之間的復古未來題材，取材自第一次世界大戰到 1950 年代柴油內燃機當道的工業美學：厚重戰機、飛船、探照燈與 Art Deco 建築線條，帶有戰時宣傳海報般的粗獷質感。一般公認 2001 年由桌上角色扮演遊戲設計師 Lewis Pollak 為其作品《Children of the Sun》創造這個詞。相較蒸氣龐克的浪漫冒險，柴油龐克氛圍更陰鬱、更貼近戰爭工業複合體。《生化奇兵：無限之城》的飄浮城市哥倫比亞融合了柴油龐克與宗教狂熱美學。",
-    "features": ["兩次大戰間的柴油機械美學", "厚重戰機、飛船與探照燈", "Art Deco 建築線條", "基調較蒸氣龐克陰鬱、貼近戰爭工業"],
+    "features": [
+      "兩次大戰間的柴油機械美學",
+      "厚重戰機、飛船與探照燈",
+      "Art Deco 建築線條",
+      "基調較蒸氣龐克陰鬱、貼近戰爭工業"
+    ],
     "examples": [
-      {"title": "生化奇兵：無限之城 完全版", "en": "BioShock Infinite", "appid": 8870, "year": 2013, "why": "飄浮城市哥倫比亞的柴油龐克與宗教狂熱美學"},
-      {"title": "Iron Harvest", "appid": null, "year": 2020, "why": "一戰後架空歷史的柴油龐克機甲即時戰略代表"}
+      {
+        "title": "生化奇兵：無限之城 完全版",
+        "en": "BioShock Infinite",
+        "appid": 8870,
+        "year": 2013,
+        "why": "飄浮城市哥倫比亞的柴油龐克與宗教狂熱美學"
+      },
+      {
+        "title": "Iron Harvest",
+        "appid": 826630,
+        "year": 2020,
+        "why": "一戰後架空歷史的柴油龐克機甲即時戰略代表"
+      }
     ],
     "steamTags": [],
     "compare": [
-      {"with": "steampunk", "diff": "柴油龐克對應兩次大戰間的柴油內燃機時代，美術語言粗獷工業化；蒸氣龐克對應 19 世紀蒸氣機時代，偏維多利亞浪漫"},
-      {"with": "cyberpunk", "diff": "柴油龐克的科技語言是機械與燃油；賽博龐克的科技語言是電子與資訊網路"}
+      {
+        "with": "steampunk",
+        "diff": "柴油龐克對應兩次大戰間的柴油內燃機時代，美術語言粗獷工業化；蒸氣龐克對應 19 世紀蒸氣機時代，偏維多利亞浪漫"
+      },
+      {
+        "with": "cyberpunk",
+        "diff": "柴油龐克的科技語言是機械與燃油；賽博龐克的科技語言是電子與資訊網路"
+      }
     ],
-    "related": ["steampunk", "cyberpunk"],
+    "related": [
+      "steampunk",
+      "cyberpunk"
+    ],
     "design": "柴油龐克的說服力來自戰爭工業美術的細節考據（機械結構、宣傳海報字體），比起浪漫冒險，更適合帶出陰鬱、極權色彩的世界觀。",
     "sources": [
-      {"title": "Wikipedia: Dieselpunk", "url": "https://en.wikipedia.org/wiki/Dieselpunk", "accessed": "2026-09-17", "note": "詞源與定義"}
+      {
+        "title": "Wikipedia: Dieselpunk",
+        "url": "https://en.wikipedia.org/wiki/Dieselpunk",
+        "accessed": "2026-09-17",
+        "note": "詞源與定義"
+      }
     ],
     "status": "verified"
   },
@@ -467,24 +1202,50 @@
     "id": "solarpunk",
     "zh": "太陽龐克（Solarpunk）",
     "en": "Solarpunk",
-    "aliases": ["太陽能龐克"],
+    "aliases": [
+      "太陽能龐克"
+    ],
     "cat": "theme",
     "sub": "奇幻與科幻氛圍",
     "short": "以再生能源、人與自然和諧共存為核心的樂觀未來想像。",
     "def": "與其他「龐克」子類型不同，太陽龐克描繪的是樂觀而非反烏托邦的未來：以再生能源、永續建築與人和自然和諧共存為核心，美術上常見融合自然元素的建築，手工藝質感勝過量產工業感。這個類型起源於 2000 年代末巴西一帶的推想小說創作，帶有反威權、反資本主義的社群精神。遊戲中相對少見，多半出現在建造或經營類作品中，強調修復自然而非征服自然。",
-    "features": ["再生能源與永續建築", "人與自然和諧共存", "手工藝與社群精神勝過量產工業感", "基調樂觀，非反烏托邦"],
+    "features": [
+      "再生能源與永續建築",
+      "人與自然和諧共存",
+      "手工藝與社群精神勝過量產工業感",
+      "基調樂觀，非反烏托邦"
+    ],
     "examples": [
-      {"title": "Terra Nil", "appid": null, "year": 2023, "why": "反向城市建造，目標是修復荒地成自然生態，是遊戲界少見的太陽龐克代表"}
+      {
+        "title": "Terra Nil",
+        "appid": 1593030,
+        "year": 2023,
+        "why": "反向城市建造，目標是修復荒地成自然生態，是遊戲界少見的太陽龐克代表"
+      }
     ],
     "steamTags": [],
     "compare": [
-      {"with": "cyberpunk", "diff": "太陽龐克描繪樂觀的永續未來；賽博龐克描繪企業壓迫、階級敗壞的反烏托邦未來，兩者精神幾乎相反"},
-      {"with": "post-apocalyptic", "diff": "太陽龐克是「事情變好」的想像；後末日題材通常是文明崩潰後的求生，基調更黑暗"}
+      {
+        "with": "cyberpunk",
+        "diff": "太陽龐克描繪樂觀的永續未來；賽博龐克描繪企業壓迫、階級敗壞的反烏托邦未來，兩者精神幾乎相反"
+      },
+      {
+        "with": "post-apocalyptic",
+        "diff": "太陽龐克是「事情變好」的想像；後末日題材通常是文明崩潰後的求生，基調更黑暗"
+      }
     ],
-    "related": ["cyberpunk", "post-apocalyptic"],
+    "related": [
+      "cyberpunk",
+      "post-apocalyptic"
+    ],
     "design": "太陽龐克在遊戲圈仍是小眾且案例稀少，設計上最大挑戰是「沒有衝突的樂觀世界要如何維持遊戲張力」，常見解法是把挑戰放在「修復」而非「戰鬥」上。",
     "sources": [
-      {"title": "Wikipedia: Solarpunk", "url": "https://en.wikipedia.org/wiki/Solarpunk", "accessed": "2026-09-17", "note": "定義、起源與精神"}
+      {
+        "title": "Wikipedia: Solarpunk",
+        "url": "https://en.wikipedia.org/wiki/Solarpunk",
+        "accessed": "2026-09-17",
+        "note": "定義、起源與精神"
+      }
     ],
     "status": "verified"
   },
@@ -492,26 +1253,71 @@
     "id": "post-apocalyptic",
     "zh": "後末日（Post-apocalyptic）",
     "en": "Post-apocalyptic",
-    "aliases": ["末日後題材", "廢土"],
+    "aliases": [
+      "末日後題材",
+      "廢土"
+    ],
     "cat": "theme",
     "sub": "末日與生存氛圍",
     "short": "文明崩潰之後，在廢墟與資源匱乏中求生的題材。",
     "def": "描寫核戰、瘟疫、氣候災難或其他大型災變摧毀既有文明秩序後，倖存者在廢墟中重建生活或單純求生的題材。常見場景是荒廢城市、輻射廢土、資源爭奪與派系割據，主題經常圍繞「文明的脆弱」與「人性在絕境中如何選擇」。《異塵餘生》系列與《最後生還者》都是代表作，前者偏黑色幽默的廢土冒險，後者偏寫實而沉重的人際羈絆。",
-    "features": ["文明秩序崩潰後的廢墟世界", "資源爭奪與派系割據", "強調生存與人性抉擇", "常見輻射、瘟疫或氣候災難成因"],
+    "features": [
+      "文明秩序崩潰後的廢墟世界",
+      "資源爭奪與派系割據",
+      "強調生存與人性抉擇",
+      "常見輻射、瘟疫或氣候災難成因"
+    ],
     "examples": [
-      {"title": "最後生還者 二部曲", "en": "The Last of Us Part II Remastered", "appid": 2531310, "year": 2025, "why": "以真菌感染末日呈現人性與復仇的重量"},
-      {"title": "戴斯·剛恩", "en": "Days Gone", "appid": 1259420, "year": 2021, "why": "喪屍末日的公路生存題材"}
+      {
+        "title": "最後生還者 二部曲",
+        "en": "The Last of Us Part II Remastered",
+        "appid": 2531310,
+        "year": 2025,
+        "why": "以真菌感染末日呈現人性與復仇的重量"
+      },
+      {
+        "title": "Days Gone",
+        "en": "Days Gone",
+        "appid": 1259420,
+        "year": 2021,
+        "why": "喪屍末日的公路生存題材"
+      }
     ],
-    "steamTags": [{"tagid": 3835, "en": "Post-apocalyptic"}],
+    "steamTags": [
+      {
+        "tagid": 3835,
+        "en": "Post-apocalyptic"
+      }
+    ],
     "compare": [
-      {"with": "zombie", "diff": "殭屍常是後末日世界的成因之一，但後末日不限於殭屍，也包含核戰、瘟疫、氣候災難等其他毀滅原因"},
-      {"with": "dystopian", "diff": "後末日強調文明已經崩潰後的廢墟求生；反烏托邦強調文明仍運作，但以壓迫或扭曲的秩序統治社會"}
+      {
+        "with": "zombie",
+        "diff": "殭屍常是後末日世界的成因之一，但後末日不限於殭屍，也包含核戰、瘟疫、氣候災難等其他毀滅原因"
+      },
+      {
+        "with": "dystopian",
+        "diff": "後末日強調文明已經崩潰後的廢墟求生；反烏托邦強調文明仍運作，但以壓迫或扭曲的秩序統治社會"
+      }
     ],
-    "related": ["zombie", "dystopian", "survival"],
+    "related": [
+      "zombie",
+      "dystopian",
+      "survival"
+    ],
     "design": "廢墟美術很容易流於「灰黃濾鏡加瓦礫」的套路，真正立體的後末日世界要交代清楚災變前後的對比，讓玩家能想像這裡曾經是什麼樣子。",
     "sources": [
-      {"title": "Wikipedia: Post-apocalyptic fiction", "url": "https://en.wikipedia.org/wiki/Post-apocalyptic_fiction", "accessed": "2026-09-17", "note": "定義與範疇"},
-      {"title": "Steam 標籤頁：Post-apocalyptic", "url": "https://store.steampowered.com/tags/en/Post-apocalyptic/", "accessed": "2026-09-17", "note": "標籤存在"}
+      {
+        "title": "Wikipedia: Post-apocalyptic fiction",
+        "url": "https://en.wikipedia.org/wiki/Post-apocalyptic_fiction",
+        "accessed": "2026-09-17",
+        "note": "定義與範疇"
+      },
+      {
+        "title": "Steam 標籤頁：Post-apocalyptic",
+        "url": "https://store.steampowered.com/tags/en/Post-apocalyptic/",
+        "accessed": "2026-09-17",
+        "note": "標籤存在"
+      }
     ],
     "status": "verified"
   },
@@ -519,26 +1325,68 @@
     "id": "zombie",
     "zh": "殭屍（Zombie）",
     "en": "Zombie",
-    "aliases": ["喪屍"],
+    "aliases": [
+      "喪屍"
+    ],
     "cat": "theme",
     "sub": "末日與生存氛圍",
     "short": "以喪失理智、成群攻擊人類的不死生物為主要威脅的題材。",
     "def": "以殭屍（不死、具傳染性、成群行動的怪物）作為主要威脅的題材，常與後末日或病毒爆發設定結合。玩法上經常強調數量壓力（大量低威脅個體）而非單一強敵，因此天生適合搭配射擊、塔防或生存建造等機制。《7 Days to Die》結合生存建造與夜間殭屍潮，《隔離區》則是純粹的殭屍末日生存作品。",
-    "features": ["不死、具傳染性的怪物", "成群行動、數量帶來壓力", "常與病毒或瘟疫設定結合", "適合搭配射擊、塔防、建造機制"],
+    "features": [
+      "不死、具傳染性的怪物",
+      "成群行動、數量帶來壓力",
+      "常與病毒或瘟疫設定結合",
+      "適合搭配射擊、塔防、建造機制"
+    ],
     "examples": [
-      {"title": "7 Days to Die", "appid": 251570, "year": 2024, "why": "生存建造與殭屍潮結合的代表作"},
-      {"title": "隔離區-喪尸末日生存", "appid": 1211600, "year": 2023, "why": "純粹殭屍末日生存題材"}
+      {
+        "title": "7 Days to Die",
+        "appid": 251570,
+        "year": 2024,
+        "why": "生存建造與殭屍潮結合的代表作"
+      },
+      {
+        "title": "隔離區-喪尸末日生存",
+        "appid": 1211600,
+        "year": 2023,
+        "why": "純粹殭屍末日生存題材"
+      }
     ],
-    "steamTags": [{"tagid": 1659, "en": "Zombies"}],
+    "steamTags": [
+      {
+        "tagid": 1659,
+        "en": "Zombies"
+      }
+    ],
     "compare": [
-      {"with": "body-horror", "diff": "殭屍化常是身體恐怖的一種具體呈現，但身體恐怖範圍更廣，不限於殭屍"},
-      {"with": "post-apocalyptic", "diff": "殭屍是常見的末日成因之一，後末日題材也包含核戰、氣候災難等其他毀滅原因"}
+      {
+        "with": "body-horror",
+        "diff": "殭屍化常是身體恐怖的一種具體呈現，但身體恐怖範圍更廣，不限於殭屍"
+      },
+      {
+        "with": "post-apocalyptic",
+        "diff": "殭屍是常見的末日成因之一，後末日題材也包含核戰、氣候災難等其他毀滅原因"
+      }
     ],
-    "related": ["post-apocalyptic", "body-horror", "survival"],
+    "related": [
+      "post-apocalyptic",
+      "body-horror",
+      "survival"
+    ],
     "design": "殭屍題材已高度飽和，單純堆數量容易讓玩家麻木；要靠感染機制、社群抉擇或稀缺資源建立新的壓力來源，而非只是更多殭屍。",
     "sources": [
-      {"title": "Wikipedia: Zombie", "url": "https://en.wikipedia.org/wiki/Zombie", "accessed": "2026-09-17", "note": "定義與流行文化脈絡"},
-      {"title": "Steam 標籤頁：Zombies", "url": "https://store.steampowered.com/tags/en/Zombies/", "accessed": "2026-09-17", "note": "標籤存在"}
+      {
+        "title": "Wikipedia: Zombie",
+        "url": "https://en.wikipedia.org/wiki/Zombie",
+        "accessed": "2026-09-17",
+        "note": "定義與流行文化脈絡"
+      },
+      {
+        "title": "Steam 標籤頁：Zombies",
+        "url": "https://store.steampowered.com/tags/en/Zombies/",
+        "accessed": "2026-09-17",
+        "note": "標籤存在"
+      }
     ],
     "status": "verified"
   },
@@ -546,26 +1394,70 @@
     "id": "medieval",
     "zh": "中世紀（Medieval）",
     "en": "Medieval",
-    "aliases": ["中古世紀"],
+    "aliases": [
+      "中古世紀"
+    ],
     "cat": "theme",
     "sub": "歷史與神話氛圍",
     "short": "以歐洲中世紀騎士、城堡與封建制度為背景的題材。",
     "def": "以歐洲中世紀（約 5 至 15 世紀）的封建制度、騎士精神、城堡攻防與莊園生活為背景的題材，可以是嚴謹考據的寫實歷史，也可以混入奇幻元素（如魔法與怪物）。《天國：拯救》系列以極高的歷史考據聞名，重現波希米亞真實的中世紀生活細節；《騎馬與砍殺2：領主》則以中世紀沙盒戰爭與領地經營為核心。",
-    "features": ["封建制度與騎士精神", "城堡攻防與領地經營", "可寫實考據也可混入奇幻元素", "莊園、村落等生活場景細節"],
+    "features": [
+      "封建制度與騎士精神",
+      "城堡攻防與領地經營",
+      "可寫實考據也可混入奇幻元素",
+      "莊園、村落等生活場景細節"
+    ],
     "examples": [
-      {"title": "天國：拯救2", "en": "Kingdom Come: Deliverance II", "appid": 1771300, "year": 2025, "why": "以高度歷史考據重現波希米亞中世紀生活"},
-      {"title": "騎馬與砍殺2：領主", "en": "Mount & Blade II: Bannerlord", "appid": 261550, "year": 2022, "why": "中世紀沙盒戰爭與領地經營代表作"}
+      {
+        "title": "天國：拯救2",
+        "en": "Kingdom Come: Deliverance II",
+        "appid": 1771300,
+        "year": 2025,
+        "why": "以高度歷史考據重現波希米亞中世紀生活"
+      },
+      {
+        "title": "騎馬與砍殺2：領主",
+        "en": "Mount & Blade II: Bannerlord",
+        "appid": 261550,
+        "year": 2022,
+        "why": "中世紀沙盒戰爭與領地經營代表作"
+      }
     ],
-    "steamTags": [{"tagid": 4172, "en": "Medieval"}],
+    "steamTags": [
+      {
+        "tagid": 4172,
+        "en": "Medieval"
+      }
+    ],
     "compare": [
-      {"with": "low-fantasy", "diff": "中世紀是時代背景設定；低奇幻是奇幻元素濃度的分類，兩者常同時出現在同一款作品上"},
-      {"with": "historical", "diff": "中世紀是歷史題材的其中一個時代區段；歷史題材涵蓋所有真實時代背景"}
+      {
+        "with": "low-fantasy",
+        "diff": "中世紀是時代背景設定；低奇幻是奇幻元素濃度的分類，兩者常同時出現在同一款作品上"
+      },
+      {
+        "with": "historical",
+        "diff": "中世紀是歷史題材的其中一個時代區段；歷史題材涵蓋所有真實時代背景"
+      }
     ],
-    "related": ["historical", "low-fantasy", "high-fantasy"],
+    "related": [
+      "historical",
+      "low-fantasy",
+      "high-fantasy"
+    ],
     "design": "考據深度要對應目標玩家：硬核歷史迷會計較盔甲材質與戰術年代是否吻合，休閒向作品則可以在維持氛圍的前提下簡化細節。",
     "sources": [
-      {"title": "Wikipedia: Middle Ages", "url": "https://en.wikipedia.org/wiki/Middle_Ages", "accessed": "2026-09-17", "note": "時代定義與範疇"},
-      {"title": "Steam 標籤頁：Medieval", "url": "https://store.steampowered.com/tags/en/Medieval/", "accessed": "2026-09-17", "note": "標籤存在"}
+      {
+        "title": "Wikipedia: Middle Ages",
+        "url": "https://en.wikipedia.org/wiki/Middle_Ages",
+        "accessed": "2026-09-17",
+        "note": "時代定義與範疇"
+      },
+      {
+        "title": "Steam 標籤頁：Medieval",
+        "url": "https://store.steampowered.com/tags/en/Medieval/",
+        "accessed": "2026-09-17",
+        "note": "標籤存在"
+      }
     ],
     "status": "verified"
   },
@@ -573,26 +1465,70 @@
     "id": "mythology",
     "zh": "神話（Mythology）",
     "en": "Mythology",
-    "aliases": ["神話題材"],
+    "aliases": [
+      "神話題材"
+    ],
     "cat": "theme",
     "sub": "歷史與神話氛圍",
     "short": "取材自各地神話傳說中的神祇、英雄與宇宙觀的題材。",
     "def": "取材自希臘、北歐、埃及、東方等各地神話傳說中的神祇、英雄事蹟與宇宙觀作為世界觀或角色設定基礎的題材。神話題材的優勢在於自帶完整的人物關係與象徵意義，可以直接沿用或大膽再詮釋。《黑帝斯》系列以希臘神話眾神為核心角色並重新詮釋家族關係，《刺客教條：奧德賽》則把希臘神話融入歷史開放世界。",
-    "features": ["取材真實神話體系的神祇或英雄", "自帶完整的人物關係與象徵意義", "可忠於原典也可大膽再詮釋", "常與歷史或奇幻題材混合"],
+    "features": [
+      "取材真實神話體系的神祇或英雄",
+      "自帶完整的人物關係與象徵意義",
+      "可忠於原典也可大膽再詮釋",
+      "常與歷史或奇幻題材混合"
+    ],
     "examples": [
-      {"title": "黑帝斯 2", "en": "Hades II", "appid": 1145350, "year": 2025, "why": "以希臘神話冥界家族重新詮釋為核心賣點"},
-      {"title": "刺客教條：奧德賽", "en": "Assassin's Creed Odyssey", "appid": 812140, "year": 2018, "why": "希臘神話融入歷史開放世界"}
+      {
+        "title": "黑帝斯 2",
+        "en": "Hades II",
+        "appid": 1145350,
+        "year": 2025,
+        "why": "以希臘神話冥界家族重新詮釋為核心賣點"
+      },
+      {
+        "title": "刺客教條：奧德賽",
+        "en": "Assassin's Creed Odyssey",
+        "appid": 812140,
+        "year": 2018,
+        "why": "希臘神話融入歷史開放世界"
+      }
     ],
-    "steamTags": [{"tagid": 16094, "en": "Mythology"}],
+    "steamTags": [
+      {
+        "tagid": 16094,
+        "en": "Mythology"
+      }
+    ],
     "compare": [
-      {"with": "high-fantasy", "diff": "神話題材沿用真實文化的神祇與傳說架構；高奇幻通常是完全原創的異世界體系"},
-      {"with": "historical", "diff": "神話題材處理的是傳說與信仰層面；歷史題材處理的是可考證的真實事件與人物"}
+      {
+        "with": "high-fantasy",
+        "diff": "神話題材沿用真實文化的神祇與傳說架構；高奇幻通常是完全原創的異世界體系"
+      },
+      {
+        "with": "historical",
+        "diff": "神話題材處理的是傳說與信仰層面；歷史題材處理的是可考證的真實事件與人物"
+      }
     ],
-    "related": ["high-fantasy", "historical", "occult"],
+    "related": [
+      "high-fantasy",
+      "historical",
+      "occult"
+    ],
     "design": "改編神話要決定「忠於原典」還是「大膽解構」的立場並貫徹始終，半調子的混合容易讓熟悉原典的玩家出戲。",
     "sources": [
-      {"title": "Wikipedia: Mythology", "url": "https://en.wikipedia.org/wiki/Mythology", "accessed": "2026-09-17", "note": "定義與範疇"},
-      {"title": "Steam 標籤頁：Mythology", "url": "https://store.steampowered.com/tags/en/Mythology/", "accessed": "2026-09-17", "note": "標籤存在"}
+      {
+        "title": "Wikipedia: Mythology",
+        "url": "https://en.wikipedia.org/wiki/Mythology",
+        "accessed": "2026-09-17",
+        "note": "定義與範疇"
+      },
+      {
+        "title": "Steam 標籤頁：Mythology",
+        "url": "https://store.steampowered.com/tags/en/Mythology/",
+        "accessed": "2026-09-17",
+        "note": "標籤存在"
+      }
     ],
     "status": "verified"
   },
@@ -600,26 +1536,70 @@
     "id": "historical",
     "zh": "歷史（Historical）",
     "en": "Historical",
-    "aliases": ["歷史題材"],
+    "aliases": [
+      "歷史題材"
+    ],
     "cat": "theme",
     "sub": "歷史與神話氛圍",
     "short": "以真實歷史事件、人物或時代為背景的題材。",
     "def": "以真實存在過的歷史事件、人物或時代氛圍為背景的題材，考據程度可以從嚴謹寫實到僅取用時代氛圍自由發揮不等。《刺客教條》系列長期以歷史開放世界聞名，近年作品分別重現古希臘、法國大革命與日本戰國時代；《決勝時刻：WWII》則聚焦二戰歐洲戰場的寫實軍事行動。",
-    "features": ["以真實歷史事件或時代為背景", "考據程度可寫實也可自由發揮", "常結合真實地點與歷史人物", "與奇幻或低奇幻元素常有混合"],
+    "features": [
+      "以真實歷史事件或時代為背景",
+      "考據程度可寫實也可自由發揮",
+      "常結合真實地點與歷史人物",
+      "與奇幻或低奇幻元素常有混合"
+    ],
     "examples": [
-      {"title": "刺客教條：奧德賽", "en": "Assassin's Creed Odyssey", "appid": 812140, "year": 2018, "why": "重現古希臘城邦與伯羅奔尼撒戰爭時代"},
-      {"title": "決勝時刻：WWII", "en": "Call of Duty: WWII", "appid": 476600, "year": 2017, "why": "聚焦二戰歐洲戰場的寫實軍事題材"}
+      {
+        "title": "刺客教條：奧德賽",
+        "en": "Assassin's Creed Odyssey",
+        "appid": 812140,
+        "year": 2018,
+        "why": "重現古希臘城邦與伯羅奔尼撒戰爭時代"
+      },
+      {
+        "title": "決勝時刻：WWII",
+        "en": "Call of Duty: WWII",
+        "appid": 476600,
+        "year": 2017,
+        "why": "聚焦二戰歐洲戰場的寫實軍事題材"
+      }
     ],
-    "steamTags": [{"tagid": 3987, "en": "Historical"}],
+    "steamTags": [
+      {
+        "tagid": 3987,
+        "en": "Historical"
+      }
+    ],
     "compare": [
-      {"with": "medieval", "diff": "歷史涵蓋所有真實時代區段；中世紀只是其中一個特定時期"},
-      {"with": "low-fantasy", "diff": "歷史題材原則上不加入奇幻元素；低奇幻允許在寫實世界中摻入少量魔法或超自然"}
+      {
+        "with": "medieval",
+        "diff": "歷史涵蓋所有真實時代區段；中世紀只是其中一個特定時期"
+      },
+      {
+        "with": "low-fantasy",
+        "diff": "歷史題材原則上不加入奇幻元素；低奇幻允許在寫實世界中摻入少量魔法或超自然"
+      }
     ],
-    "related": ["medieval", "military-theme", "mythology"],
+    "related": [
+      "medieval",
+      "military-theme",
+      "mythology"
+    ],
     "design": "歷史考據要對真實文化與族群保持尊重，尤其涉及殖民、戰爭創傷等敏感歷史時，娛樂化處理要拿捏分寸。",
     "sources": [
-      {"title": "Wikipedia: Historical fiction", "url": "https://en.wikipedia.org/wiki/Historical_fiction", "accessed": "2026-09-17", "note": "定義與範疇"},
-      {"title": "Steam 標籤頁：Historical", "url": "https://store.steampowered.com/tags/en/Historical/", "accessed": "2026-09-17", "note": "標籤存在"}
+      {
+        "title": "Wikipedia: Historical fiction",
+        "url": "https://en.wikipedia.org/wiki/Historical_fiction",
+        "accessed": "2026-09-17",
+        "note": "定義與範疇"
+      },
+      {
+        "title": "Steam 標籤頁：Historical",
+        "url": "https://store.steampowered.com/tags/en/Historical/",
+        "accessed": "2026-09-17",
+        "note": "標籤存在"
+      }
     ],
     "status": "verified"
   },
@@ -627,24 +1607,53 @@
     "id": "urban-legend",
     "zh": "都市傳說（Urban Legend）",
     "en": "Urban Legend",
-    "aliases": ["都市傳說題材", "校園怪談"],
+    "aliases": [
+      "都市傳說題材",
+      "校園怪談"
+    ],
     "cat": "theme",
     "sub": "歷史與神話氛圍",
     "short": "以現代社會口耳相傳、真假難辨的怪談為題材。",
     "def": "取材自現代社會口耳相傳、通常被當作真實事件流傳、實際上難以查證的怪談與傳聞，例如校園鬼故事、特定地點的靈異傳說。與古老神話不同，都市傳說通常設定在當代或近代，且常宣稱「真人真事」，這種曖昧的真實感本身就是恐懼來源之一。《女鬼橋》系列直接取材東海大學等真實校園流傳的女鬼傳說，是台灣都市傳說改編的代表。",
-    "features": ["設定在當代或近代", "常宣稱取材真實事件", "真假難辨帶來的曖昧恐懼感", "校園、特定地點是常見場景"],
+    "features": [
+      "設定在當代或近代",
+      "常宣稱取材真實事件",
+      "真假難辨帶來的曖昧恐懼感",
+      "校園、特定地點是常見場景"
+    ],
     "examples": [
-      {"title": "女鬼橋二 釋魂路", "en": "The Bridge Curse 2: The Extrication", "appid": 2331330, "year": 2024, "why": "取材東海大學流傳女鬼傳說的都市傳說改編"}
+      {
+        "title": "女鬼橋二 釋魂路",
+        "en": "The Bridge Curse 2: The Extrication",
+        "appid": 2331330,
+        "year": 2024,
+        "why": "取材東海大學流傳女鬼傳說的都市傳說改編"
+      }
     ],
     "steamTags": [],
     "compare": [
-      {"with": "folk-horror", "diff": "都市傳說是當代口傳怪談；民俗恐怖範圍更廣，也包含古老鄉野信仰與儀式"},
-      {"with": "taiwan-horror", "diff": "台式恐怖是地域類型，都市傳說是敘事來源之一，兩者在台灣校園題材上高度重疊"}
+      {
+        "with": "folk-horror",
+        "diff": "都市傳說是當代口傳怪談；民俗恐怖範圍更廣，也包含古老鄉野信仰與儀式"
+      },
+      {
+        "with": "taiwan-horror",
+        "diff": "台式恐怖是地域類型，都市傳說是敘事來源之一，兩者在台灣校園題材上高度重疊"
+      }
     ],
-    "related": ["folk-horror", "taiwan-horror", "supernatural"],
+    "related": [
+      "folk-horror",
+      "taiwan-horror",
+      "supernatural"
+    ],
     "design": "都市傳說改編最大的賣點是「這可能發生在你身邊」的真實感，過度誇張的怪物設計反而會削弱這種親近的恐懼。",
     "sources": [
-      {"title": "Wikipedia: Urban legend", "url": "https://en.wikipedia.org/wiki/Urban_legend", "accessed": "2026-09-17", "note": "定義、歷史與傳播方式"}
+      {
+        "title": "Wikipedia: Urban legend",
+        "url": "https://en.wikipedia.org/wiki/Urban_legend",
+        "accessed": "2026-09-17",
+        "note": "定義、歷史與傳播方式"
+      }
     ],
     "status": "verified"
   },
@@ -652,26 +1661,71 @@
     "id": "noir",
     "zh": "黑色（Noir）",
     "en": "Noir",
-    "aliases": ["黑色電影風格", "Film Noir"],
+    "aliases": [
+      "黑色電影風格",
+      "Film Noir"
+    ],
     "cat": "theme",
     "sub": "類型氛圍",
     "short": "以犯罪、道德灰色與宿命感為核心的陰鬱偵探敘事風格。",
     "def": "源自 1940 年代美國「黑色電影（film noir）」，特徵是陰鬱的城市犯罪敘事、道德灰色的主角（常是私家偵探或墮落警探）、宿命般無法逃脫的困境，以及高反差光影的視覺語言。遊戲中的黑色風格常搭配偵探或犯罪調查玩法，《洛城機密》以 1940 年代洛杉磯真實案件與面部捕捉技術重現黑色電影氛圍。",
-    "features": ["陰鬱犯罪敘事", "道德灰色、疲憊的主角", "宿命感與無法逃脫的困境", "高反差光影視覺語言"],
+    "features": [
+      "陰鬱犯罪敘事",
+      "道德灰色、疲憊的主角",
+      "宿命感與無法逃脫的困境",
+      "高反差光影視覺語言"
+    ],
     "examples": [
-      {"title": "洛城機密", "en": "L.A. Noire", "appid": 110800, "year": 2011, "why": "以面部捕捉技術重現 1940 年代黑色犯罪氛圍"},
-      {"title": "極樂迪斯科", "en": "Disco Elysium - The Final Cut", "appid": 632470, "year": 2019, "why": "道德灰色偵探敘事的當代黑色代表作"}
+      {
+        "title": "L.A. Noire",
+        "en": "L.A. Noire",
+        "appid": 110800,
+        "year": 2011,
+        "why": "以面部捕捉技術重現 1940 年代黑色犯罪氛圍"
+      },
+      {
+        "title": "極樂迪斯可",
+        "en": "Disco Elysium - The Final Cut",
+        "appid": 632470,
+        "year": 2019,
+        "why": "道德灰色偵探敘事的當代黑色代表作"
+      }
     ],
-    "steamTags": [{"tagid": 6052, "en": "Noir"}],
+    "steamTags": [
+      {
+        "tagid": 6052,
+        "en": "Noir"
+      }
+    ],
     "compare": [
-      {"with": "detective", "diff": "黑色是氛圍與美學風格（宿命感、道德灰色、高反差光影）；偵探是敘事結構（找線索、推理破案），兩者常搭配但不是同一件事"},
-      {"with": "crime", "diff": "黑色強調主角個人的道德困境與宿命氛圍；犯罪題材範圍更廣，可以是純粹的犯罪組織敘事而不帶黑色美學"}
+      {
+        "with": "detective",
+        "diff": "黑色是氛圍與美學風格（宿命感、道德灰色、高反差光影）；偵探是敘事結構（找線索、推理破案），兩者常搭配但不是同一件事"
+      },
+      {
+        "with": "crime",
+        "diff": "黑色強調主角個人的道德困境與宿命氛圍；犯罪題材範圍更廣，可以是純粹的犯罪組織敘事而不帶黑色美學"
+      }
     ],
-    "related": ["detective", "crime", "mystery"],
+    "related": [
+      "detective",
+      "crime",
+      "mystery"
+    ],
     "design": "黑色風格的成敗很大程度靠對白節奏與旁白，冷硬派、帶自嘲的第一人稱獨白比畫面濾鏡更能建立氛圍。",
     "sources": [
-      {"title": "Wikipedia: Film noir", "url": "https://en.wikipedia.org/wiki/Film_noir", "accessed": "2026-09-17", "note": "定義、起源與視覺語言"},
-      {"title": "Steam 標籤頁：Noir", "url": "https://store.steampowered.com/tags/en/Noir/", "accessed": "2026-09-17", "note": "標籤存在"}
+      {
+        "title": "Wikipedia: Film noir",
+        "url": "https://en.wikipedia.org/wiki/Film_noir",
+        "accessed": "2026-09-17",
+        "note": "定義、起源與視覺語言"
+      },
+      {
+        "title": "Steam 標籤頁：Noir",
+        "url": "https://store.steampowered.com/tags/en/Noir/",
+        "accessed": "2026-09-17",
+        "note": "標籤存在"
+      }
     ],
     "status": "verified"
   },
@@ -679,26 +1733,70 @@
     "id": "western",
     "zh": "西部（Western）",
     "en": "Western",
-    "aliases": ["西部題材", "牛仔"],
+    "aliases": [
+      "西部題材",
+      "牛仔"
+    ],
     "cat": "theme",
     "sub": "類型氛圍",
     "short": "以美國拓荒時代的荒野、槍戰與法外之徒為題材。",
     "def": "以 19 世紀美國西部拓荒時代為背景，圍繞牛仔、槍戰、法外之徒、鐵路擴張與荒野生存展開的題材，主題常涉及文明與蠻荒的邊界、個人正義與法律的衝突。《碧血狂殺》系列以極高的細節密度重現西部拓荒晚期社會，是遊戲界西部題材的標竿。",
-    "features": ["19 世紀美國拓荒時代背景", "槍戰、決鬥與法外之徒", "文明與蠻荒邊界的主題", "荒漠、小鎮等視覺標誌場景"],
+    "features": [
+      "19 世紀美國拓荒時代背景",
+      "槍戰、決鬥與法外之徒",
+      "文明與蠻荒邊界的主題",
+      "荒漠、小鎮等視覺標誌場景"
+    ],
     "examples": [
-      {"title": "碧血狂殺2", "en": "Red Dead Redemption 2", "appid": 1174180, "year": 2019, "why": "西部題材細節密度與敘事深度的標竿"},
-      {"title": "碧血狂殺", "en": "Red Dead Redemption", "appid": 2668510, "year": 2024, "why": "系列前作，奠定開放世界西部敘事基礎"}
+      {
+        "title": "碧血狂殺2",
+        "en": "Red Dead Redemption 2",
+        "appid": 1174180,
+        "year": 2019,
+        "why": "西部題材細節密度與敘事深度的標竿"
+      },
+      {
+        "title": "碧血狂殺",
+        "en": "Red Dead Redemption",
+        "appid": 2668510,
+        "year": 2024,
+        "why": "系列前作，奠定開放世界西部敘事基礎"
+      }
     ],
-    "steamTags": [{"tagid": 1647, "en": "Western"}],
+    "steamTags": [
+      {
+        "tagid": 1647,
+        "en": "Western"
+      }
+    ],
     "compare": [
-      {"with": "historical", "diff": "西部是特定時代地域題材；歷史題材涵蓋範圍更廣，任何真實時代都算"},
-      {"with": "noir", "diff": "西部強調拓荒蠻荒與正義衝突；黑色強調都市犯罪與宿命道德灰色，兩者氣質不同但都偏寫實陰鬱"}
+      {
+        "with": "historical",
+        "diff": "西部是特定時代地域題材；歷史題材涵蓋範圍更廣，任何真實時代都算"
+      },
+      {
+        "with": "noir",
+        "diff": "西部強調拓荒蠻荒與正義衝突；黑色強調都市犯罪與宿命道德灰色，兩者氣質不同但都偏寫實陰鬱"
+      }
     ],
-    "related": ["historical", "military-theme"],
+    "related": [
+      "historical",
+      "military-theme"
+    ],
     "design": "西部題材容易停留在槍戰系統，真正立體的西部作品要處理「文明逐漸吞噬蠻荒」的時代哀愁，讓玩家感受到角色活在一個正在消失的時代。",
     "sources": [
-      {"title": "Wikipedia: Western (genre)", "url": "https://en.wikipedia.org/wiki/Western_(genre)", "accessed": "2026-09-17", "note": "定義與主題"},
-      {"title": "Steam 標籤頁：Western", "url": "https://store.steampowered.com/tags/en/Western/", "accessed": "2026-09-17", "note": "標籤存在"}
+      {
+        "title": "Wikipedia: Western (genre)",
+        "url": "https://en.wikipedia.org/wiki/Western_(genre)",
+        "accessed": "2026-09-17",
+        "note": "定義與主題"
+      },
+      {
+        "title": "Steam 標籤頁：Western",
+        "url": "https://store.steampowered.com/tags/en/Western/",
+        "accessed": "2026-09-17",
+        "note": "標籤存在"
+      }
     ],
     "status": "verified"
   },
@@ -706,25 +1804,64 @@
     "id": "military-theme",
     "zh": "軍事題材（Military）",
     "en": "Military",
-    "aliases": ["軍事題材", "戰爭題材"],
+    "aliases": [
+      "軍事題材",
+      "戰爭題材"
+    ],
     "cat": "theme",
     "sub": "類型氛圍",
     "short": "以真實或擬真的軍事行動、戰爭場面為核心的題材。",
     "def": "以真實或擬真的軍事行動、部隊編制、武器裝備與戰爭場面為核心的題材，強調寫實或半寫實的戰術操作與戰爭氛圍。可以聚焦歷史戰爭（如二戰）也可以是架空的現代或未來衝突。《決勝時刻：WWII》重現二戰歐洲戰場的步兵作戰，是軍事題材與歷史題材結合的代表。",
-    "features": ["寫實或半寫實的軍事行動", "真實或考據過的武器裝備", "部隊編制與戰術操作", "可搭配歷史或架空戰爭背景"],
+    "features": [
+      "寫實或半寫實的軍事行動",
+      "真實或考據過的武器裝備",
+      "部隊編制與戰術操作",
+      "可搭配歷史或架空戰爭背景"
+    ],
     "examples": [
-      {"title": "決勝時刻：WWII", "en": "Call of Duty: WWII", "appid": 476600, "year": 2017, "why": "二戰步兵作戰的寫實軍事題材代表"},
-      {"title": "決勝時刻®：現代戰域", "en": "Call of Duty: Modern Warfare", "appid": 1962663, "year": 2022, "why": "當代架空軍事衝突的代表系列"}
+      {
+        "title": "決勝時刻：WWII",
+        "en": "Call of Duty: WWII",
+        "appid": 476600,
+        "year": 2017,
+        "why": "二戰步兵作戰的寫實軍事題材代表"
+      },
+      {
+        "title": "決勝時刻®：現代戰域",
+        "en": "Call of Duty: Modern Warfare",
+        "appid": 1962663,
+        "year": 2022,
+        "why": "當代架空軍事衝突的代表系列"
+      }
     ],
-    "steamTags": [{"tagid": 4168, "en": "Military"}],
+    "steamTags": [
+      {
+        "tagid": 4168,
+        "en": "Military"
+      }
+    ],
     "compare": [
-      {"with": "historical", "diff": "軍事題材聚焦戰爭行動本身；歷史題材涵蓋更廣的時代生活面貌，兩者常同時出現"},
-      {"with": "western", "diff": "軍事題材聚焦正規部隊與戰爭；西部聚焦拓荒蠻荒中的個人槍戰與法外之徒"}
+      {
+        "with": "historical",
+        "diff": "軍事題材聚焦戰爭行動本身；歷史題材涵蓋更廣的時代生活面貌，兩者常同時出現"
+      },
+      {
+        "with": "western",
+        "diff": "軍事題材聚焦正規部隊與戰爭；西部聚焦拓荒蠻荒中的個人槍戰與法外之徒"
+      }
     ],
-    "related": ["historical", "western"],
+    "related": [
+      "historical",
+      "western"
+    ],
     "design": "軍事題材的寫實感常來自音效與武器手感的考據，但要避免對真實戰爭創傷過度娛樂化，尤其涉及近代衝突時需謹慎處理立場。",
     "sources": [
-      {"title": "Steam 標籤頁：Military", "url": "https://store.steampowered.com/tags/en/Military/", "accessed": "2026-09-17", "note": "標籤存在"}
+      {
+        "title": "Steam 標籤頁：Military",
+        "url": "https://store.steampowered.com/tags/en/Military/",
+        "accessed": "2026-09-17",
+        "note": "標籤存在"
+      }
     ],
     "status": "verified"
   },
@@ -732,25 +1869,63 @@
     "id": "supernatural",
     "zh": "靈異超自然（Supernatural）",
     "en": "Supernatural",
-    "aliases": ["靈異", "超自然"],
+    "aliases": [
+      "靈異",
+      "超自然"
+    ],
     "cat": "theme",
     "sub": "類型氛圍",
     "short": "涉及鬼魂、靈異現象等無法用科學解釋的超自然力量。",
     "def": "泛指涉及鬼魂、靈異現象、超能力或其他無法用已知科學解釋的力量的題材，範圍比恐怖更廣，可以是恐怖驚悚，也可以是溫馨或冒險向的靈異故事。《恐鬼症》以多人合作抓鬼、蒐證的方式呈現靈異超自然題材，是近年最具代表性的作品之一。",
-    "features": ["鬼魂或靈異現象", "超越已知科學的力量", "可恐怖驚悚也可溫馨冒險", "常搭配蒐證或儀式類機制"],
+    "features": [
+      "鬼魂或靈異現象",
+      "超越已知科學的力量",
+      "可恐怖驚悚也可溫馨冒險",
+      "常搭配蒐證或儀式類機制"
+    ],
     "examples": [
-      {"title": "Phasmophobia 恐鬼症", "appid": 739630, "year": 2020, "why": "多人合作蒐證抓鬼的靈異題材代表"}
+      {
+        "title": "Phasmophobia 恐鬼症",
+        "appid": 739630,
+        "year": 2020,
+        "why": "多人合作蒐證抓鬼的靈異題材代表"
+      }
     ],
-    "steamTags": [{"tagid": 10808, "en": "Supernatural"}],
+    "steamTags": [
+      {
+        "tagid": 10808,
+        "en": "Supernatural"
+      }
+    ],
     "compare": [
-      {"with": "cosmic-horror", "diff": "靈異超自然是廣義的無法解釋力量；克蘇魯恐怖特指人類面對宇宙尺度不可知存在的絕望感，是更具體的哲學取向"},
-      {"with": "occult", "diff": "靈異超自然強調現象本身（鬼、靈力）；神秘學強調背後的知識體系與儀式（召喚、禁忌書籍）"}
+      {
+        "with": "cosmic-horror",
+        "diff": "靈異超自然是廣義的無法解釋力量；克蘇魯恐怖特指人類面對宇宙尺度不可知存在的絕望感，是更具體的哲學取向"
+      },
+      {
+        "with": "occult",
+        "diff": "靈異超自然強調現象本身（鬼、靈力）；神秘學強調背後的知識體系與儀式（召喚、禁忌書籍）"
+      }
     ],
-    "related": ["horror", "occult", "urban-legend"],
+    "related": [
+      "horror",
+      "occult",
+      "urban-legend"
+    ],
     "design": "靈異題材的說服力來自「規則感」，玩家要能逐漸摸清楚這個世界的靈異法則（弱點、觸發條件），純粹隨機嚇人容易讓人疲乏。",
     "sources": [
-      {"title": "Wikipedia: Supernatural fiction", "url": "https://en.wikipedia.org/wiki/Supernatural_fiction", "accessed": "2026-09-17", "note": "定義與範疇"},
-      {"title": "Steam 標籤頁：Supernatural", "url": "https://store.steampowered.com/tags/en/Supernatural/", "accessed": "2026-09-17", "note": "標籤存在"}
+      {
+        "title": "Wikipedia: Supernatural fiction",
+        "url": "https://en.wikipedia.org/wiki/Supernatural_fiction",
+        "accessed": "2026-09-17",
+        "note": "定義與範疇"
+      },
+      {
+        "title": "Steam 標籤頁：Supernatural",
+        "url": "https://store.steampowered.com/tags/en/Supernatural/",
+        "accessed": "2026-09-17",
+        "note": "標籤存在"
+      }
     ],
     "status": "verified"
   },
@@ -758,25 +1933,59 @@
     "id": "occult",
     "zh": "神秘學（Occult）",
     "en": "Occult",
-    "aliases": ["神秘學題材", "秘術"],
+    "aliases": [
+      "神秘學題材",
+      "秘術"
+    ],
     "cat": "theme",
     "sub": "類型氛圍",
     "short": "涉及巫術、召喚與禁忌知識等隱密知識體系的題材。",
     "def": "涉及巫術、占星、煉金、召喚儀式等被視為「隱密知識」的體系，通常游離於正統宗教與科學之外。遊戲中常以禁忌書籍、獻祭儀式、召喚陣作為核心符號，經常與克蘇魯恐怖或民俗恐怖搭配出現，用來合理化超自然力量的來源與代價。",
-    "features": ["巫術、占星、煉金等隱密知識體系", "禁忌書籍與召喚儀式等符號", "常游離於正統宗教與科學之外", "常搭配代價與禁忌機制"],
+    "features": [
+      "巫術、占星、煉金等隱密知識體系",
+      "禁忌書籍與召喚儀式等符號",
+      "常游離於正統宗教與科學之外",
+      "常搭配代價與禁忌機制"
+    ],
     "examples": [
-      {"title": "黯陰羊", "en": "Darkest Dungeon", "appid": 262060, "year": 2016, "why": "獻祭與禁忌儀式貫穿的神秘學氛圍"},
-      {"title": "The Mound: Omen of Cthulhu", "appid": 2569760, "year": 2026, "why": "以召喚與禁忌知識為核心的克蘇魯題材新作"}
+      {
+        "title": "暗黑地牢",
+        "en": "Darkest Dungeon",
+        "appid": 262060,
+        "year": 2016,
+        "why": "獻祭與禁忌儀式貫穿的神秘學氛圍"
+      },
+      {
+        "title": "The Mound: Omen of Cthulhu",
+        "appid": 2569760,
+        "year": 2026,
+        "why": "以召喚與禁忌知識為核心的克蘇魯題材新作"
+      }
     ],
     "steamTags": [],
     "compare": [
-      {"with": "supernatural", "diff": "神秘學強調知識體系與儀式操作；靈異超自然強調現象本身，兩者常搭配"},
-      {"with": "cosmic-horror", "diff": "神秘學可以是純粹的知識與力量系統；克蘇魯恐怖額外疊加「理解真相會導致瘋狂」的宇宙主義哲學"}
+      {
+        "with": "supernatural",
+        "diff": "神秘學強調知識體系與儀式操作；靈異超自然強調現象本身，兩者常搭配"
+      },
+      {
+        "with": "cosmic-horror",
+        "diff": "神秘學可以是純粹的知識與力量系統；克蘇魯恐怖額外疊加「理解真相會導致瘋狂」的宇宙主義哲學"
+      }
     ],
-    "related": ["supernatural", "cosmic-horror", "folk-horror"],
+    "related": [
+      "supernatural",
+      "cosmic-horror",
+      "folk-horror"
+    ],
     "design": "神秘學系統設計要小心「儀式感」與「數值感」的平衡，過度遊戲化的召喚介面（純粹選單操作）會削弱禁忌知識該有的危險與神秘。",
     "sources": [
-      {"title": "Wikipedia: Occult", "url": "https://en.wikipedia.org/wiki/Occult", "accessed": "2026-09-17", "note": "定義與歷史脈絡"}
+      {
+        "title": "Wikipedia: Occult",
+        "url": "https://en.wikipedia.org/wiki/Occult",
+        "accessed": "2026-09-17",
+        "note": "定義與歷史脈絡"
+      }
     ],
     "status": "verified"
   },
@@ -784,26 +1993,68 @@
     "id": "dystopian",
     "zh": "反烏托邦（Dystopian）",
     "en": "Dystopian",
-    "aliases": ["反烏托邦題材"],
+    "aliases": [
+      "反烏托邦題材"
+    ],
     "cat": "theme",
     "sub": "類型氛圍",
     "short": "描繪壓迫、監控或扭曲秩序統治下社會的黑暗未來想像。",
     "def": "描繪一個表面上仍維持秩序運作、實際上由極權統治、企業壓迫或扭曲意識形態控制的社會，通常帶有對現實政治或科技發展的警世意味，經典文學如《1984》與《美麗新世界》奠定了這個類型的核心母題：監控、思想控制與個人自由的消失。遊戲中的反烏托邦常搭配賽博龐克或後末日美學，《Papers, Please》以邊境審查員的日常瑣事呈現極權官僚體制的荒謬與壓迫。",
-    "features": ["表面秩序下的極權或企業壓迫", "監控、審查與思想控制", "對現實政治或科技的警世意味", "個人自由與體制的衝突"],
+    "features": [
+      "表面秩序下的極權或企業壓迫",
+      "監控、審查與思想控制",
+      "對現實政治或科技的警世意味",
+      "個人自由與體制的衝突"
+    ],
     "examples": [
-      {"title": "Papers, Please", "appid": 239030, "year": 2013, "why": "以邊境審查員日常呈現極權官僚體制的壓迫"},
-      {"title": "電馭叛客2077", "en": "Cyberpunk 2077", "appid": 1091500, "year": 2020, "why": "企業凌駕政府的反烏托邦未來城市"}
+      {
+        "title": "Papers, Please",
+        "appid": 239030,
+        "year": 2013,
+        "why": "以邊境審查員日常呈現極權官僚體制的壓迫"
+      },
+      {
+        "title": "電馭叛客2077",
+        "en": "Cyberpunk 2077",
+        "appid": 1091500,
+        "year": 2020,
+        "why": "企業凌駕政府的反烏托邦未來城市"
+      }
     ],
-    "steamTags": [{"tagid": 5030, "en": "Dystopian"}],
+    "steamTags": [
+      {
+        "tagid": 5030,
+        "en": "Dystopian"
+      }
+    ],
     "compare": [
-      {"with": "cyberpunk", "diff": "反烏托邦是政治與社會壓迫的主題總稱；賽博龐克是其中一種特定的科技與美學包裝"},
-      {"with": "post-apocalyptic", "diff": "反烏托邦通常文明秩序仍在運作，只是被扭曲統治；後末日則是文明秩序已經崩潰的廢墟狀態"}
+      {
+        "with": "cyberpunk",
+        "diff": "反烏托邦是政治與社會壓迫的主題總稱；賽博龐克是其中一種特定的科技與美學包裝"
+      },
+      {
+        "with": "post-apocalyptic",
+        "diff": "反烏托邦通常文明秩序仍在運作，只是被扭曲統治；後末日則是文明秩序已經崩潰的廢墟狀態"
+      }
     ],
-    "related": ["cyberpunk", "post-apocalyptic"],
+    "related": [
+      "cyberpunk",
+      "post-apocalyptic"
+    ],
     "design": "反烏托邦的說服力來自「這個壓迫體制怎麼一步步變成日常」，讓玩家親手執行體制內的小規則（審查、配額）往往比直接展示暴力更有後座力。",
     "sources": [
-      {"title": "Wikipedia: Dystopia", "url": "https://en.wikipedia.org/wiki/Dystopia", "accessed": "2026-09-17", "note": "定義與代表作"},
-      {"title": "Steam 標籤頁：Dystopian", "url": "https://store.steampowered.com/tags/en/Dystopian/", "accessed": "2026-09-17", "note": "標籤存在"}
+      {
+        "title": "Wikipedia: Dystopia",
+        "url": "https://en.wikipedia.org/wiki/Dystopia",
+        "accessed": "2026-09-17",
+        "note": "定義與代表作"
+      },
+      {
+        "title": "Steam 標籤頁：Dystopian",
+        "url": "https://store.steampowered.com/tags/en/Dystopian/",
+        "accessed": "2026-09-17",
+        "note": "標籤存在"
+      }
     ],
     "status": "verified"
   },
@@ -811,24 +2062,62 @@
     "id": "retro-theme",
     "zh": "復古風格（Retro）",
     "en": "Retro",
-    "aliases": ["復古", "老派風格"],
+    "aliases": [
+      "復古",
+      "老派風格"
+    ],
     "cat": "theme",
     "sub": "類型氛圍",
     "short": "刻意模仿早期電玩時代的視覺、音效或設計語彙的風格。",
     "def": "刻意模仿 8、16 位元或早期 3D 時代電玩的視覺（像素、低解析度多邊形）、音效（晶片音樂）或設計語彙（高難度、簡潔介面）的風格，可以是單純懷舊美術，也可以連帶復刻當年的關卡設計哲學。與「畫面復古」不同的是「設計復古」，例如刻意不做自動存檔、刻意限制生命數。",
-    "features": ["模仿早期電玩視覺或音效", "可只復古美術也可復古設計哲學", "常見晶片音樂與簡潔介面", "與懷舊情懷高度連結"],
+    "features": [
+      "模仿早期電玩視覺或音效",
+      "可只復古美術也可復古設計哲學",
+      "常見晶片音樂與簡潔介面",
+      "與懷舊情懷高度連結"
+    ],
     "examples": [
-      {"title": "茶杯頭", "en": "Cuphead", "appid": 268910, "year": 2017, "why": "以 1930 年代手繪動畫風格結合高難度復古關卡設計"},
-      {"title": "Katana ZERO", "appid": 460950, "year": 2019, "why": "像素美術結合快節奏復古動作設計"}
+      {
+        "title": "茶杯頭",
+        "en": "Cuphead",
+        "appid": 268910,
+        "year": 2017,
+        "why": "以 1930 年代手繪動畫風格結合高難度復古關卡設計"
+      },
+      {
+        "title": "Katana ZERO",
+        "appid": 460950,
+        "year": 2019,
+        "why": "像素美術結合快節奏復古動作設計"
+      }
     ],
-    "steamTags": [{"tagid": 4004, "en": "Retro"}, {"tagid": 3916, "en": "Old School"}],
+    "steamTags": [
+      {
+        "tagid": 4004,
+        "en": "Retro"
+      },
+      {
+        "tagid": 3916,
+        "en": "Old School"
+      }
+    ],
     "compare": [
-      {"with": "pixel-art", "diff": "復古是包含視覺、音效與設計哲學在內的整體風格；像素藝術特指視覺呈現手法，可以用像素做出完全不復古的現代設計"}
+      {
+        "with": "pixel-art",
+        "diff": "復古是包含視覺、音效與設計哲學在內的整體風格；像素藝術特指視覺呈現手法，可以用像素做出完全不復古的現代設計"
+      }
     ],
-    "related": ["pixel-art"],
+    "related": [
+      "pixel-art"
+    ],
     "design": "純粹的畫面復古（濾鏡加像素）門檻低，真正打動老玩家的復古感來自設計哲學的還原，例如刻意的高難度與有限資源，而非只是懷舊美術皮膚。",
     "sources": [
-      {"title": "Steam 標籤頁：Retro", "url": "https://store.steampowered.com/tags/en/Retro/", "accessed": "2026-09-17", "note": "標籤存在"}
+      {
+        "title": "Steam 標籤頁：Retro",
+        "url": "https://store.steampowered.com/tags/en/Retro/",
+        "accessed": "2026-09-17",
+        "note": "標籤存在"
+      }
     ],
     "status": "verified"
   },
@@ -836,50 +2125,58 @@
     "id": "atmospheric",
     "zh": "氛圍導向（Atmospheric）",
     "en": "Atmospheric",
-    "aliases": ["氛圍系"],
+    "aliases": [
+      "氛圍系"
+    ],
     "cat": "theme",
     "sub": "氛圍標籤",
     "short": "以環境氣氛與情緒感染力為核心賣點、機制相對次要的風格標籤。",
     "def": "Steam 標籤中用來形容一款遊戲以環境氣氛、聲音設計與整體情緒感染力為核心賣點的作品，機制可能相對簡單或次要，重點在讓玩家「沉浸在這個空間裡」的感受。這個標籤橫跨多種類型，恐怖、探索、慢節奏敘事遊戲都可能被貼上氛圍導向標籤，是描述體驗基調而非機制設計的形容詞。",
-    "features": ["環境氣氛與聲音設計優先於機制深度", "強調沉浸式的空間與情緒感受", "可橫跨恐怖、探索、敘事等多種類型", "常搭配環境敘事手法"],
+    "features": [
+      "環境氣氛與聲音設計優先於機制深度",
+      "強調沉浸式的空間與情緒感受",
+      "可橫跨恐怖、探索、敘事等多種類型",
+      "常搭配環境敘事手法"
+    ],
     "examples": [
-      {"title": "SOMA", "appid": 282140, "year": 2015, "why": "以壓抑的深海站氛圍貫穿整個遊戲體驗"},
-      {"title": "層層恐懼", "en": "Layers of Fear", "appid": 1946700, "year": 2023, "why": "以空間氛圍變化取代直接玩法挑戰"}
+      {
+        "title": "SOMA",
+        "appid": 282140,
+        "year": 2015,
+        "why": "以壓抑的深海站氛圍貫穿整個遊戲體驗"
+      },
+      {
+        "title": "層層恐懼",
+        "en": "Layers of Fear",
+        "appid": 1946700,
+        "year": 2023,
+        "why": "以空間氛圍變化取代直接玩法挑戰"
+      }
     ],
-    "steamTags": [{"tagid": 4166, "en": "Atmospheric"}],
+    "steamTags": [
+      {
+        "tagid": 4166,
+        "en": "Atmospheric"
+      }
+    ],
     "compare": [
-      {"with": "horror", "diff": "氛圍導向是描述整體體驗基調的標籤，橫跨多種類型；恐怖是有明確設計目標（製造恐懼）的類型"}
+      {
+        "with": "horror",
+        "diff": "氛圍導向是描述整體體驗基調的標籤，橫跨多種類型；恐怖是有明確設計目標（製造恐懼）的類型"
+      }
     ],
-    "related": ["horror", "environmental-storytelling"],
+    "related": [
+      "horror",
+      "environmental-storytelling"
+    ],
     "design": "氛圍導向不代表沒有機制，而是機制要服務於氣氛（例如緩慢的移動速度本身就是設計選擇），若機制與氣氛互相打架，沉浸感很容易被打斷。",
     "sources": [
-      {"title": "Steam 標籤頁：Atmospheric", "url": "https://store.steampowered.com/tags/en/Atmospheric/", "accessed": "2026-09-17", "note": "標籤存在"}
-    ],
-    "status": "verified"
-  },
-  {
-    "id": "cozy",
-    "zh": "愜意（Cozy）",
-    "en": "Cozy",
-    "aliases": ["愜意遊戲氛圍"],
-    "cat": "theme",
-    "sub": "氛圍標籤",
-    "short": "強調放鬆、低壓力與溫馨日常感的遊戲氛圍標籤。",
-    "def": "強調放鬆、低壓力、幾乎沒有失敗懲罰的溫馨日常體驗，玩家通常在種田、佈置、照顧角色等開放式目標中自由安排步調。《星露谷物語》與《動物森友會》的流行帶動了這個標籤在 2016 年後的爆發，但因為定義主觀，也常被過度濫用來形容任何玩家覺得舒服的作品。這裡指的是 Steam 上的氛圍標籤，與玩法類型的悠閒模擬是同一現象的兩種切入角度：那邊講機制，這裡講情緒氛圍。",
-    "features": ["放鬆、低壓力、幾乎沒有失敗懲罰", "開放式目標，玩家自訂步調", "常見種田、佈置、照顧角色機制", "與可愛美術風格高度連結"],
-    "examples": [
-      {"title": "星露谷物語", "en": "Stardew Valley", "appid": 413150, "year": 2016, "why": "帶動愜意標籤在 2016 年後爆發的關鍵作品"}
-    ],
-    "steamTags": [{"tagid": 97376, "en": "Cozy"}],
-    "compare": [
-      {"with": "wholesome", "diff": "愜意強調放鬆、低壓力的節奏感；溫馨強調內容本身正向、不含冒犯或黑暗元素，兩者常同時出現但判準不同"},
-      {"with": "relaxing", "diff": "放鬆是形容整體情緒效果的較廣泛詞；愜意額外隱含特定的生活模擬美術與玩法慣例"}
-    ],
-    "related": ["wholesome", "relaxing"],
-    "design": "愜意不等於沒有目標或系統深度，星露谷物語底層其實有相當複雜的經濟與時間管理系統，只是包裝成低壓力的方式呈現，這種「深度藏在溫柔外表下」是常見的成功公式。",
-    "sources": [
-      {"title": "Wikipedia: Cozy game", "url": "https://en.wikipedia.org/wiki/Cozy_game", "accessed": "2026-09-17", "note": "定義、起源與流行脈絡"},
-      {"title": "Steam 標籤頁：Cozy", "url": "https://store.steampowered.com/tags/en/Cozy/", "accessed": "2026-09-17", "note": "標籤存在"}
+      {
+        "title": "Steam 標籤頁：Atmospheric",
+        "url": "https://store.steampowered.com/tags/en/Atmospheric/",
+        "accessed": "2026-09-17",
+        "note": "標籤存在"
+      }
     ],
     "status": "verified"
   },
@@ -887,24 +2184,58 @@
     "id": "wholesome",
     "zh": "溫馨（Wholesome）",
     "en": "Wholesome",
-    "aliases": ["溫馨向"],
+    "aliases": [
+      "溫馨向"
+    ],
     "cat": "theme",
     "sub": "氛圍標籤",
     "short": "內容正向、不含暴力或冒犯元素、適合闔家的溫馨基調標籤。",
     "def": "形容遊戲內容正向、友善、不含暴力、性暗示或冒犯元素，適合所有年齡層的溫馨基調，常見主題是互助、療癒與良善的人際關係。這個標籤與獨立遊戲社群「Wholesome Games」策展活動高度相關，該社群長期在 itch.io 與線上發表會上集中推廣這類作品，形成一個具有辨識度的次文化圈。",
-    "features": ["內容正向、不含暴力或冒犯元素", "主題常圍繞互助與療癒", "適合所有年齡層", "與獨立遊戲策展社群連結緊密"],
+    "features": [
+      "內容正向、不含暴力或冒犯元素",
+      "主題常圍繞互助與療癒",
+      "適合所有年齡層",
+      "與獨立遊戲策展社群連結緊密"
+    ],
     "examples": [
-      {"title": "星露谷物語", "en": "Stardew Valley", "appid": 413150, "year": 2016, "why": "互助、耕作與社群連結的溫馨代表作"}
+      {
+        "title": "星露谷物語",
+        "en": "Stardew Valley",
+        "appid": 413150,
+        "year": 2016,
+        "why": "互助、耕作與社群連結的溫馨代表作"
+      }
     ],
-    "steamTags": [{"tagid": 552282, "en": "Wholesome"}],
+    "steamTags": [
+      {
+        "tagid": 552282,
+        "en": "Wholesome"
+      }
+    ],
     "compare": [
-      {"with": "cozy", "diff": "溫馨判準是內容本身正向、不冒犯；愜意判準是節奏放鬆、低壓力，一款遊戲可以溫馨但不愜意（例如緊湊但溫暖的敘事），也可以愜意但不特別強調溫馨主題"}
+      {
+        "with": "cozy-game",
+        "diff": "溫馨判準是內容本身正向、不冒犯；愜意判準是節奏放鬆、低壓力，一款遊戲可以溫馨但不愜意（例如緊湊但溫暖的敘事），也可以愜意但不特別強調溫馨主題"
+      }
     ],
-    "related": ["cozy", "emotional"],
+    "related": [
+      "cozy-game",
+      "emotional"
+    ],
     "design": "溫馨不等於沒有衝突，好的溫馨作品往往藏著小小的傷感或掙扎，用溫柔的方式處理，而不是完全沒有情緒張力。",
     "sources": [
-      {"title": "itch.io：Wholesome 標籤", "url": "https://itch.io/games/tag-wholesome", "accessed": "2026-09-17", "note": "獨立遊戲社群 Wholesome Games 策展頁"},
-      {"title": "Steam 標籤頁：Wholesome", "url": "https://store.steampowered.com/tags/en/Wholesome/", "accessed": "2026-09-17", "note": "標籤存在"}
+      {
+        "title": "itch.io：Wholesome 標籤",
+        "url": "https://itch.io/games/tag-wholesome",
+        "accessed": "2026-09-17",
+        "note": "獨立遊戲社群 Wholesome Games 策展頁"
+      },
+      {
+        "title": "Steam 標籤頁：Wholesome",
+        "url": "https://store.steampowered.com/tags/en/Wholesome/",
+        "accessed": "2026-09-17",
+        "note": "標籤存在"
+      }
     ],
     "status": "verified"
   },
@@ -912,23 +2243,51 @@
     "id": "relaxing",
     "zh": "放鬆（Relaxing）",
     "en": "Relaxing",
-    "aliases": ["放鬆向"],
+    "aliases": [
+      "放鬆向"
+    ],
     "cat": "theme",
     "sub": "氛圍標籤",
     "short": "以降低玩家壓力、提供舒緩體驗為主要訴求的氛圍標籤。",
     "def": "形容遊戲整體體驗低壓力、步調舒緩，目的是讓玩家感到放鬆而非緊張刺激，可以是任何類型（解謎、模擬、探索），共通點是刻意避免時間壓力、失敗懲罰或高強度對抗。與愜意常一起出現，但放鬆是更廣義的情緒效果形容詞，不限定特定的生活模擬玩法慣例。",
-    "features": ["低壓力、舒緩的整體步調", "刻意避免時間壓力或高強度對抗", "可橫跨解謎、模擬、探索等多種類型", "常搭配柔和的美術與音樂"],
+    "features": [
+      "低壓力、舒緩的整體步調",
+      "刻意避免時間壓力或高強度對抗",
+      "可橫跨解謎、模擬、探索等多種類型",
+      "常搭配柔和的美術與音樂"
+    ],
     "examples": [
-      {"title": "Unpacking", "appid": null, "year": 2021, "why": "透過整理物品的靜謐節奏帶來放鬆體驗"}
+      {
+        "title": "Unpacking",
+        "appid": 1135690,
+        "year": 2021,
+        "why": "透過整理物品的靜謐節奏帶來放鬆體驗"
+      }
     ],
-    "steamTags": [{"tagid": 1654, "en": "Relaxing"}],
+    "steamTags": [
+      {
+        "tagid": 1654,
+        "en": "Relaxing"
+      }
+    ],
     "compare": [
-      {"with": "cozy", "diff": "放鬆是純粹的情緒效果形容詞；愜意額外隱含特定的生活模擬美術與玩法慣例（種田、佈置、照顧角色）"}
+      {
+        "with": "cozy-game",
+        "diff": "放鬆是純粹的情緒效果形容詞；愜意額外隱含特定的生活模擬美術與玩法慣例（種田、佈置、照顧角色）"
+      }
     ],
-    "related": ["cozy", "wholesome"],
+    "related": [
+      "cozy-game",
+      "wholesome"
+    ],
     "design": "放鬆體驗的挑戰在於避免無聊：完全沒有壓力容易讓人失去投入的理由，通常需要靠細膩的手感、音效回饋或收集慾望來維持吸引力。",
     "sources": [
-      {"title": "Steam 標籤頁：Relaxing", "url": "https://store.steampowered.com/tags/en/Relaxing/", "accessed": "2026-09-17", "note": "標籤存在"}
+      {
+        "title": "Steam 標籤頁：Relaxing",
+        "url": "https://store.steampowered.com/tags/en/Relaxing/",
+        "accessed": "2026-09-17",
+        "note": "標籤存在"
+      }
     ],
     "status": "verified"
   },
@@ -936,24 +2295,57 @@
     "id": "dark",
     "zh": "黑暗（Dark）",
     "en": "Dark",
-    "aliases": ["暗黑"],
+    "aliases": [
+      "暗黑"
+    ],
     "cat": "theme",
     "sub": "氛圍標籤",
     "short": "形容遊戲整體基調陰鬱、沉重或帶有負面情緒的氛圍標籤。",
     "def": "形容遊戲整體基調陰鬱、沉重，可能涉及暴力、死亡、心理創傷等負面主題的氛圍標籤，是一個橫跨所有類型的廣義情緒形容詞，恐怖、黑暗奇幻、反烏托邦作品都常帶有這個標籤。單獨使用「黑暗」時通常指整體情緒基調，而非特定敘事手法或玩法機制。",
-    "features": ["整體基調陰鬱、沉重", "可能涉及暴力、死亡或心理創傷主題", "橫跨所有類型的廣義情緒標籤", "常與黑暗奇幻、恐怖、反烏托邦重疊"],
+    "features": [
+      "整體基調陰鬱、沉重",
+      "可能涉及暴力、死亡或心理創傷主題",
+      "橫跨所有類型的廣義情緒標籤",
+      "常與黑暗奇幻、恐怖、反烏托邦重疊"
+    ],
     "examples": [
-      {"title": "黯陰羊", "en": "Darkest Dungeon", "appid": 262060, "year": 2016, "why": "以壓力與瘋狂機制貫穿整體黑暗基調"}
+      {
+        "title": "暗黑地牢",
+        "en": "Darkest Dungeon",
+        "appid": 262060,
+        "year": 2016,
+        "why": "以壓力與瘋狂機制貫穿整體黑暗基調"
+      }
     ],
-    "steamTags": [{"tagid": 4342, "en": "Dark"}],
+    "steamTags": [
+      {
+        "tagid": 4342,
+        "en": "Dark"
+      }
+    ],
     "compare": [
-      {"with": "dark-fantasy", "diff": "黑暗是任何類型都能套用的廣義情緒形容詞；黑暗奇幻是具體結合奇幻世界觀與陰暗基調的類型"},
-      {"with": "atmospheric", "diff": "黑暗描述情緒基調的方向（陰鬱、沉重）；氛圍導向描述機制與氣氛的比重關係，兩者可疊加也可獨立"}
+      {
+        "with": "dark-fantasy",
+        "diff": "黑暗是任何類型都能套用的廣義情緒形容詞；黑暗奇幻是具體結合奇幻世界觀與陰暗基調的類型"
+      },
+      {
+        "with": "atmospheric",
+        "diff": "黑暗描述情緒基調的方向（陰鬱、沉重）；氛圍導向描述機制與氣氛的比重關係，兩者可疊加也可獨立"
+      }
     ],
-    "related": ["dark-fantasy", "atmospheric", "horror"],
+    "related": [
+      "dark-fantasy",
+      "atmospheric",
+      "horror"
+    ],
     "design": "黑暗基調如果沒有具體主題支撐，容易淪為「為黑暗而黑暗」，好的作品會讓陰鬱情緒服務於角色成長或主題探討，而不只是美術濾鏡。",
     "sources": [
-      {"title": "Steam 標籤頁：Dark", "url": "https://store.steampowered.com/tags/en/Dark/", "accessed": "2026-09-17", "note": "標籤存在"}
+      {
+        "title": "Steam 標籤頁：Dark",
+        "url": "https://store.steampowered.com/tags/en/Dark/",
+        "accessed": "2026-09-17",
+        "note": "標籤存在"
+      }
     ],
     "status": "verified"
   },
@@ -961,25 +2353,62 @@
     "id": "surreal",
     "zh": "超現實（Surreal）",
     "en": "Surreal",
-    "aliases": ["超現實主義風格"],
+    "aliases": [
+      "超現實主義風格"
+    ],
     "cat": "theme",
     "sub": "氛圍標籤",
     "short": "以違反常理的邏輯與夢境般的意象顛覆現實感的風格。",
     "def": "以違反日常邏輯的意象、不合理的空間或事件並置，營造出夢境般或潛意識般的體驗，靈感常來自超現實主義藝術傳統。與單純的「奇幻」不同，超現實作品的重點不是建立一套自洽的異世界規則，而是刻意讓玩家對「這裡的邏輯到底是什麼」感到困惑與不安，藉此挑戰現實感本身。",
-    "features": ["違反日常邏輯的意象並置", "夢境般或潛意識般的體驗", "刻意不建立完全自洽的世界規則", "常帶有藝術實驗性質"],
+    "features": [
+      "違反日常邏輯的意象並置",
+      "夢境般或潛意識般的體驗",
+      "刻意不建立完全自洽的世界規則",
+      "常帶有藝術實驗性質"
+    ],
     "examples": [
-      {"title": "層層恐懼", "en": "Layers of Fear", "appid": 1946700, "year": 2023, "why": "以不斷變形重組的空間呈現超現實的精神狀態"}
+      {
+        "title": "層層恐懼",
+        "en": "Layers of Fear",
+        "appid": 1946700,
+        "year": 2023,
+        "why": "以不斷變形重組的空間呈現超現實的精神狀態"
+      }
     ],
-    "steamTags": [{"tagid": 1710, "en": "Surreal"}],
+    "steamTags": [
+      {
+        "tagid": 1710,
+        "en": "Surreal"
+      }
+    ],
     "compare": [
-      {"with": "dreamlike", "diff": "超現實強調違反邏輯、令人不安的意象拼貼；夢境感更著重朦朧、飄忽、缺乏明確因果的氛圍，兩者高度重疊但語感不同"},
-      {"with": "psychological-horror", "diff": "超現實是視覺與邏輯層面的風格手法，心理恐怖是以製造恐懼為目的的類型，超現實常被拿來服務心理恐怖但不限於恐怖用途"}
+      {
+        "with": "dreamlike",
+        "diff": "超現實強調違反邏輯、令人不安的意象拼貼；夢境感更著重朦朧、飄忽、缺乏明確因果的氛圍，兩者高度重疊但語感不同"
+      },
+      {
+        "with": "psychological-horror",
+        "diff": "超現實是視覺與邏輯層面的風格手法，心理恐怖是以製造恐懼為目的的類型，超現實常被拿來服務心理恐怖但不限於恐怖用途"
+      }
     ],
-    "related": ["dreamlike", "psychological-horror"],
+    "related": [
+      "dreamlike",
+      "psychological-horror"
+    ],
     "design": "超現實設計最怕變成「為怪而怪」，好的超現實場景仍要有情緒邏輯，即使空間不合理，玩家仍能感受到背後的情緒指向。",
     "sources": [
-      {"title": "Wikipedia: Surrealism", "url": "https://en.wikipedia.org/wiki/Surrealism", "accessed": "2026-09-17", "note": "藝術運動起源與核心精神"},
-      {"title": "Steam 標籤頁：Surreal", "url": "https://store.steampowered.com/tags/en/Surreal/", "accessed": "2026-09-17", "note": "標籤存在"}
+      {
+        "title": "Wikipedia: Surrealism",
+        "url": "https://en.wikipedia.org/wiki/Surrealism",
+        "accessed": "2026-09-17",
+        "note": "藝術運動起源與核心精神"
+      },
+      {
+        "title": "Steam 標籤頁：Surreal",
+        "url": "https://store.steampowered.com/tags/en/Surreal/",
+        "accessed": "2026-09-17",
+        "note": "標籤存在"
+      }
     ],
     "status": "verified"
   },
@@ -987,23 +2416,46 @@
     "id": "dreamlike",
     "zh": "夢境感（Dreamlike）",
     "en": "Dreamlike",
-    "aliases": ["如夢似幻"],
+    "aliases": [
+      "如夢似幻"
+    ],
     "cat": "theme",
     "sub": "氛圍標籤",
     "short": "以朦朧、飄忽、缺乏明確因果的氣氛模擬夢境體驗的風格。",
     "def": "刻意模擬作夢時的體驗特質：場景之間的轉換缺乏明確因果、時間感扭曲、物件與角色的出現不需要合理解釋，整體氣氛朦朧飄忽。與超現實相比，夢境感更強調情緒上的恍惚與不真實感，而非刻意製造邏輯衝突帶來的不安；夢境感可以是溫柔懷舊的，也可以是令人不安的惡夢。",
-    "features": ["場景轉換缺乏明確因果", "時間感扭曲、氣氛朦朧飄忽", "不強求邏輯自洽，重視情緒恍惚感", "可以溫柔懷舊也可以是惡夢"],
+    "features": [
+      "場景轉換缺乏明確因果",
+      "時間感扭曲、氣氛朦朧飄忽",
+      "不強求邏輯自洽，重視情緒恍惚感",
+      "可以溫柔懷舊也可以是惡夢"
+    ],
     "examples": [
-      {"title": "OMORI", "appid": null, "year": 2020, "why": "以夢境與現實交錯呈現角色壓抑的心理狀態"}
+      {
+        "title": "OMORI",
+        "appid": 1150690,
+        "year": 2020,
+        "why": "以夢境與現實交錯呈現角色壓抑的心理狀態"
+      }
     ],
     "steamTags": [],
     "compare": [
-      {"with": "surreal", "diff": "夢境感著重朦朧恍惚、情緒導向的不真實感；超現實更強調刻意的邏輯違逆與意象衝突帶來的不安"}
+      {
+        "with": "surreal",
+        "diff": "夢境感著重朦朧恍惚、情緒導向的不真實感；超現實更強調刻意的邏輯違逆與意象衝突帶來的不安"
+      }
     ],
-    "related": ["surreal", "psychological-horror"],
+    "related": [
+      "surreal",
+      "psychological-horror"
+    ],
     "design": "夢境感的節奏設計要模擬「夢的邏輯」，不需要解釋轉場，但情緒線索要能讓玩家事後回想時串起意義，否則會顯得單純混亂。",
     "sources": [
-      {"title": "Wikipedia: Surrealism", "url": "https://en.wikipedia.org/wiki/Surrealism", "accessed": "2026-09-17", "note": "與夢境美學相關的藝術脈絡，非「夢境感」獨立詞條的直接來源"}
+      {
+        "title": "Wikipedia: Surrealism",
+        "url": "https://en.wikipedia.org/wiki/Surrealism",
+        "accessed": "2026-09-17",
+        "note": "與夢境美學相關的藝術脈絡，非「夢境感」獨立詞條的直接來源"
+      }
     ],
     "status": "unverified"
   },
@@ -1011,25 +2463,62 @@
     "id": "meme-game",
     "zh": "迷因遊戲（Meme Game）",
     "en": "Meme Game",
-    "aliases": ["迷因遊戲", "梗遊戲"],
+    "aliases": [
+      "迷因遊戲",
+      "梗遊戲"
+    ],
     "cat": "theme",
     "sub": "文化與敘事氛圍",
     "short": "取材網路迷因、玩梗或本身因荒謬而爆紅成為迷因的遊戲。",
     "def": "泛指兩種現象：一是直接取材流行網路迷因作為題材或美術素材的遊戲，二是遊戲本身因為某個荒謬、獵奇或意外的片段而在社群爆紅、進而自己變成一個迷因的作品。這類遊戲的生命週期常和社群熱度緊密綁定，可能因為一段實況片段或截圖爆紅，也可能隨熱度退去迅速被遺忘。",
-    "features": ["取材或引用流行網路迷因", "可能因荒謬片段意外爆紅", "生命週期常與社群熱度綁定", "常帶有自我調侃或惡搞性質"],
+    "features": [
+      "取材或引用流行網路迷因",
+      "可能因荒謬片段意外爆紅",
+      "生命週期常與社群熱度綁定",
+      "常帶有自我調侃或惡搞性質"
+    ],
     "examples": [
-      {"title": "Surgeon Simulator", "appid": null, "year": 2013, "why": "刻意笨拙的操作因實況片段廣泛傳播成為迷因"}
+      {
+        "title": "Surgeon Simulator",
+        "appid": 233720,
+        "year": 2013,
+        "why": "刻意笨拙的操作因實況片段廣泛傳播成為迷因"
+      }
     ],
-    "steamTags": [{"tagid": 10397, "en": "Memes"}],
+    "steamTags": [
+      {
+        "tagid": 10397,
+        "en": "Memes"
+      }
+    ],
     "compare": [
-      {"with": "satire", "diff": "迷因遊戲的核心是網路文化與傳播現象；諷刺是敘事手法，兩者可以重疊（諷刺型迷因）但出發點不同"},
-      {"with": "comedy", "diff": "迷因遊戲的幽默感高度依賴當下的網路語境，過時後笑點會迅速流失；喜劇的幽默設計較不依賴特定網路時事"}
+      {
+        "with": "satire",
+        "diff": "迷因遊戲的核心是網路文化與傳播現象；諷刺是敘事手法，兩者可以重疊（諷刺型迷因）但出發點不同"
+      },
+      {
+        "with": "comedy",
+        "diff": "迷因遊戲的幽默感高度依賴當下的網路語境，過時後笑點會迅速流失；喜劇的幽默設計較不依賴特定網路時事"
+      }
     ],
-    "related": ["satire", "comedy"],
+    "related": [
+      "satire",
+      "comedy"
+    ],
     "design": "刻意瞄準「爆紅」設計風險很高，多數成功案例是意外而非規劃出來的，設計上更務實的做法是把荒謬感做為機制的一部分，而不是賭一次社群運氣。",
     "sources": [
-      {"title": "Steam 標籤頁：Memes", "url": "https://store.steampowered.com/tags/en/Memes/", "accessed": "2026-09-17", "note": "標籤存在"},
-      {"title": "Wikipedia: Internet meme", "url": "https://en.wikipedia.org/wiki/Internet_meme", "accessed": "2026-09-17", "note": "迷因的定義與傳播機制"}
+      {
+        "title": "Steam 標籤頁：Memes",
+        "url": "https://store.steampowered.com/tags/en/Memes/",
+        "accessed": "2026-09-17",
+        "note": "標籤存在"
+      },
+      {
+        "title": "Wikipedia: Internet meme",
+        "url": "https://en.wikipedia.org/wiki/Internet_meme",
+        "accessed": "2026-09-17",
+        "note": "迷因的定義與傳播機制"
+      }
     ],
     "status": "verified"
   },
@@ -1037,25 +2526,61 @@
     "id": "satire",
     "zh": "諷刺（Satire）",
     "en": "Satire",
-    "aliases": ["諷刺題材"],
+    "aliases": [
+      "諷刺題材"
+    ],
     "cat": "theme",
     "sub": "文化與敘事氛圍",
     "short": "用誇張、嘲弄或黑色幽默的手法批判現實社會與制度。",
     "def": "透過誇張、嘲弄、反諷等手法揭露並批判現實社會、政治制度或人性弱點的敘事手法，目的不只是搞笑，而是藉由幽默包裝尖銳的社會觀察。《Papers, Please》以極簡玩法諷刺極權官僚體制的荒謬，是遊戲界諷刺題材的代表作之一。",
-    "features": ["透過誇張或反諷批判現實", "目的是社會觀察而非單純搞笑", "常見對政治或制度的嘲弄", "可搭配黑色幽默手法"],
+    "features": [
+      "透過誇張或反諷批判現實",
+      "目的是社會觀察而非單純搞笑",
+      "常見對政治或制度的嘲弄",
+      "可搭配黑色幽默手法"
+    ],
     "examples": [
-      {"title": "Papers, Please", "appid": 239030, "year": 2013, "why": "以邊境審查瑣事諷刺極權官僚體制"}
+      {
+        "title": "Papers, Please",
+        "appid": 239030,
+        "year": 2013,
+        "why": "以邊境審查瑣事諷刺極權官僚體制"
+      }
     ],
-    "steamTags": [{"tagid": 1651, "en": "Satire"}],
+    "steamTags": [
+      {
+        "tagid": 1651,
+        "en": "Satire"
+      }
+    ],
     "compare": [
-      {"with": "comedy", "diff": "諷刺以批判為目的、幽默是手段；喜劇以娛樂與逗笑為目的，不必然帶有批判意圖"},
-      {"with": "dystopian", "diff": "諷刺是敘事手法，反烏托邦是題材設定，兩者常搭配（用諷刺手法呈現反烏托邦社會）但不是同一層次的概念"}
+      {
+        "with": "comedy",
+        "diff": "諷刺以批判為目的、幽默是手段；喜劇以娛樂與逗笑為目的，不必然帶有批判意圖"
+      },
+      {
+        "with": "dystopian",
+        "diff": "諷刺是敘事手法，反烏托邦是題材設定，兩者常搭配（用諷刺手法呈現反烏托邦社會）但不是同一層次的概念"
+      }
     ],
-    "related": ["comedy", "dystopian"],
+    "related": [
+      "comedy",
+      "dystopian"
+    ],
     "design": "諷刺要拿捏清楚批判對象，太隱晦玩家看不懂笑點，太直白又容易變說教；讓玩家自己在遊玩過程中「發現」荒謬之處，比旁白直接講出道理更有效。",
     "sources": [
-      {"title": "Wikipedia: Satire", "url": "https://en.wikipedia.org/wiki/Satire", "accessed": "2026-09-17", "note": "定義與手法"},
-      {"title": "Steam 標籤頁：Satire", "url": "https://store.steampowered.com/tags/en/Satire/", "accessed": "2026-09-17", "note": "標籤存在"}
+      {
+        "title": "Wikipedia: Satire",
+        "url": "https://en.wikipedia.org/wiki/Satire",
+        "accessed": "2026-09-17",
+        "note": "定義與手法"
+      },
+      {
+        "title": "Steam 標籤頁：Satire",
+        "url": "https://store.steampowered.com/tags/en/Satire/",
+        "accessed": "2026-09-17",
+        "note": "標籤存在"
+      }
     ],
     "status": "verified"
   },
@@ -1063,25 +2588,62 @@
     "id": "comedy",
     "zh": "喜劇（Comedy）",
     "en": "Comedy",
-    "aliases": ["喜劇風格"],
+    "aliases": [
+      "喜劇風格"
+    ],
     "cat": "theme",
     "sub": "文化與敘事氛圍",
     "short": "以逗笑玩家為主要目的、基調輕鬆詼諧的敘事風格。",
     "def": "以逗笑玩家為主要設計目的，基調輕鬆詼諧，可以透過荒謬的情境、誇張的角色反應、文字哏或黑色幽默達成，範圍橫跨敘事型遊戲到純粹的動作或派對遊戲。與諷刺不同，喜劇不必然帶有社會批判意圖，單純提供娛樂與放鬆也是成立的設計目標。",
-    "features": ["以逗笑玩家為核心目的", "可透過情境荒謬、角色反應或文字哏達成", "不必然帶有社會批判意圖", "橫跨敘事到動作、派對等多種類型"],
+    "features": [
+      "以逗笑玩家為核心目的",
+      "可透過情境荒謬、角色反應或文字哏達成",
+      "不必然帶有社會批判意圖",
+      "橫跨敘事到動作、派對等多種類型"
+    ],
     "examples": [
-      {"title": "茶杯頭", "en": "Cuphead", "appid": 268910, "year": 2017, "why": "以 1930 年代卡通式誇張演出帶出喜劇效果"}
+      {
+        "title": "茶杯頭",
+        "en": "Cuphead",
+        "appid": 268910,
+        "year": 2017,
+        "why": "以 1930 年代卡通式誇張演出帶出喜劇效果"
+      }
     ],
-    "steamTags": [{"tagid": 1719, "en": "Comedy"}],
+    "steamTags": [
+      {
+        "tagid": 1719,
+        "en": "Comedy"
+      }
+    ],
     "compare": [
-      {"with": "satire", "diff": "喜劇以逗笑為目的；諷刺以批判為目的、幽默只是手段，兩者常搭配（諷刺型喜劇）但判準不同"},
-      {"with": "meme-game", "diff": "喜劇的幽默設計較不依賴特定網路時事；迷因遊戲的幽默高度綁定當下網路文化語境"}
+      {
+        "with": "satire",
+        "diff": "喜劇以逗笑為目的；諷刺以批判為目的、幽默只是手段，兩者常搭配（諷刺型喜劇）但判準不同"
+      },
+      {
+        "with": "meme-game",
+        "diff": "喜劇的幽默設計較不依賴特定網路時事；迷因遊戲的幽默高度綁定當下網路文化語境"
+      }
     ],
-    "related": ["satire", "cute"],
+    "related": [
+      "satire",
+      "cute"
+    ],
     "design": "遊戲喜劇的笑點常靠互動本身而非過場動畫，讓玩家的操作本身產生荒謬結果，比單純看一段搞笑劇情更有記憶點。",
     "sources": [
-      {"title": "Wikipedia: Comedy", "url": "https://en.wikipedia.org/wiki/Comedy", "accessed": "2026-09-17", "note": "定義與範疇"},
-      {"title": "Steam 標籤頁：Comedy", "url": "https://store.steampowered.com/tags/en/Comedy/", "accessed": "2026-09-17", "note": "標籤存在"}
+      {
+        "title": "Wikipedia: Comedy",
+        "url": "https://en.wikipedia.org/wiki/Comedy",
+        "accessed": "2026-09-17",
+        "note": "定義與範疇"
+      },
+      {
+        "title": "Steam 標籤頁：Comedy",
+        "url": "https://store.steampowered.com/tags/en/Comedy/",
+        "accessed": "2026-09-17",
+        "note": "標籤存在"
+      }
     ],
     "status": "verified"
   },
@@ -1089,24 +2651,60 @@
     "id": "cute",
     "zh": "可愛（Cute）",
     "en": "Cute",
-    "aliases": ["可愛風格", "萌系"],
+    "aliases": [
+      "可愛風格",
+      "萌系"
+    ],
     "cat": "theme",
     "sub": "文化與敘事氛圍",
     "short": "以圓潤造型、鮮豔色彩等討喜美術風格為核心賣點的標籤。",
     "def": "形容遊戲美術風格討喜可愛，常見圓潤的角色造型、鮮豔飽和的色彩與擬人化的動植物設計，情緒基調偏正向。可愛標籤本身不代表玩法簡單，許多硬核的彈幕射擊或 Roguelike 也大量使用可愛美術來降低視覺壓迫感，讓玩家更願意挑戰高難度內容。",
-    "features": ["圓潤造型與鮮豔飽和色彩", "常見擬人化動植物設計", "情緒基調偏正向、討喜", "不代表玩法簡單，可與高難度並存"],
+    "features": [
+      "圓潤造型與鮮豔飽和色彩",
+      "常見擬人化動植物設計",
+      "情緒基調偏正向、討喜",
+      "不代表玩法簡單，可與高難度並存"
+    ],
     "examples": [
-      {"title": "以撒的結合：重生", "en": "The Binding of Isaac: Rebirth", "appid": 250900, "year": 2014, "why": "可愛像素美術包裝下實則相當硬核的 Roguelike"},
-      {"title": "茶杯頭", "en": "Cuphead", "appid": 268910, "year": 2017, "why": "可愛卡通造型搭配高難度動作玩法"}
+      {
+        "title": "以撒的結合：重生",
+        "en": "The Binding of Isaac: Rebirth",
+        "appid": 250900,
+        "year": 2014,
+        "why": "可愛像素美術包裝下實則相當硬核的 Roguelike"
+      },
+      {
+        "title": "茶杯頭",
+        "en": "Cuphead",
+        "appid": 268910,
+        "year": 2017,
+        "why": "可愛卡通造型搭配高難度動作玩法"
+      }
     ],
-    "steamTags": [{"tagid": 4726, "en": "Cute"}],
+    "steamTags": [
+      {
+        "tagid": 4726,
+        "en": "Cute"
+      }
+    ],
     "compare": [
-      {"with": "wholesome", "diff": "可愛是視覺美術判準；溫馨是內容基調判準（不含暴力冒犯），可愛的遊戲不一定溫馨，溫馨的遊戲也不一定可愛"}
+      {
+        "with": "wholesome",
+        "diff": "可愛是視覺美術判準；溫馨是內容基調判準（不含暴力冒犯），可愛的遊戲不一定溫馨，溫馨的遊戲也不一定可愛"
+      }
     ],
-    "related": ["wholesome", "comedy"],
+    "related": [
+      "wholesome",
+      "comedy"
+    ],
     "design": "可愛美術降低視覺壓迫感的效果常被用來「掩護」硬核系統，讓玩家在不知不覺中接受較高的難度或複雜度，是很實用的難度包裝手法。",
     "sources": [
-      {"title": "Steam 標籤頁：Cute", "url": "https://store.steampowered.com/tags/en/Cute/", "accessed": "2026-09-17", "note": "標籤存在"}
+      {
+        "title": "Steam 標籤頁：Cute",
+        "url": "https://store.steampowered.com/tags/en/Cute/",
+        "accessed": "2026-09-17",
+        "note": "標籤存在"
+      }
     ],
     "status": "verified"
   },
@@ -1114,24 +2712,60 @@
     "id": "emotional",
     "zh": "感性（Emotional）",
     "en": "Emotional",
-    "aliases": ["感性向", "催淚"],
+    "aliases": [
+      "感性向",
+      "催淚"
+    ],
     "cat": "theme",
     "sub": "文化與敘事氛圍",
     "short": "以強烈觸動情緒、常帶來感傷或淚點為核心體驗的標籤。",
     "def": "形容遊戲的核心體驗在於強烈觸動玩家情緒，敘事上常處理失去、成長、家庭或死亡等主題，目標是讓玩家產生真實的感傷、鼻酸或落淚反應，而非單純娛樂消遣。這類作品的機制設計通常服務於情緒節奏，例如刻意放慢步調讓玩家消化剛發生的劇情衝擊。",
-    "features": ["敘事處理失去、成長、家庭等主題", "目標是引發真實的感傷反應", "機制設計服務於情緒節奏", "常見刻意放慢步調的敘事段落"],
+    "features": [
+      "敘事處理失去、成長、家庭等主題",
+      "目標是引發真實的感傷反應",
+      "機制設計服務於情緒節奏",
+      "常見刻意放慢步調的敘事段落"
+    ],
     "examples": [
-      {"title": "艾迪芬奇的記憶", "en": "What Remains of Edith Finch", "appid": 501300, "year": 2017, "why": "以家族成員各自的死亡片段堆疊出強烈情緒重量"},
-      {"title": "奇異人生", "en": "Life is Strange", "appid": 319630, "year": 2015, "why": "以青少年成長與失去為核心的感性敘事代表"}
+      {
+        "title": "艾迪芬奇的記憶",
+        "en": "What Remains of Edith Finch",
+        "appid": 501300,
+        "year": 2017,
+        "why": "以家族成員各自的死亡片段堆疊出強烈情緒重量"
+      },
+      {
+        "title": "奇異人生",
+        "en": "Life is Strange",
+        "appid": 319630,
+        "year": 2015,
+        "why": "以青少年成長與失去為核心的感性敘事代表"
+      }
     ],
-    "steamTags": [{"tagid": 5608, "en": "Emotional"}],
+    "steamTags": [
+      {
+        "tagid": 5608,
+        "en": "Emotional"
+      }
+    ],
     "compare": [
-      {"with": "philosophical", "diff": "感性訴求是直接的情緒衝擊（感傷、落淚）；哲理訴求是引發玩家對存在、選擇等議題的反思，兩者可以並存但目的不同"}
+      {
+        "with": "philosophical",
+        "diff": "感性訴求是直接的情緒衝擊（感傷、落淚）；哲理訴求是引發玩家對存在、選擇等議題的反思，兩者可以並存但目的不同"
+      }
     ],
-    "related": ["philosophical", "story-rich"],
+    "related": [
+      "philosophical",
+      "story-rich"
+    ],
     "design": "情緒衝擊要靠鋪陳累積，如果一開場就用力過猛，後面的高潮反而會顯得疲軟；留白與沉默有時比台詞更有力量。",
     "sources": [
-      {"title": "Steam 標籤頁：Emotional", "url": "https://store.steampowered.com/tags/en/Emotional/", "accessed": "2026-09-17", "note": "標籤存在"}
+      {
+        "title": "Steam 標籤頁：Emotional",
+        "url": "https://store.steampowered.com/tags/en/Emotional/",
+        "accessed": "2026-09-17",
+        "note": "標籤存在"
+      }
     ],
     "status": "verified"
   },
@@ -1139,23 +2773,52 @@
     "id": "philosophical",
     "zh": "哲理（Philosophical）",
     "en": "Philosophical",
-    "aliases": ["哲理向"],
+    "aliases": [
+      "哲理向"
+    ],
     "cat": "theme",
     "sub": "文化與敘事氛圍",
     "short": "以存在、自由意志、道德抉擇等哲學議題引發玩家反思的標籤。",
     "def": "形容遊戲的敘事或機制設計刻意引導玩家思考存在意義、自由意志、道德抉擇等哲學議題，通常不會給出明確答案，而是透過情境讓玩家自行判斷。《極樂迪斯科》以大量內心獨白與意識形態對話呈現高密度的哲學思辨，是這類標籤的代表作。",
-    "features": ["處理存在、自由意志、道德等議題", "通常不給明確答案", "透過情境而非說教引導思考", "常搭配大量對話或內心獨白"],
+    "features": [
+      "處理存在、自由意志、道德等議題",
+      "通常不給明確答案",
+      "透過情境而非說教引導思考",
+      "常搭配大量對話或內心獨白"
+    ],
     "examples": [
-      {"title": "極樂迪斯科", "en": "Disco Elysium - The Final Cut", "appid": 632470, "year": 2019, "why": "以高密度內心獨白與意識形態辯論呈現哲學思辨"}
+      {
+        "title": "極樂迪斯可",
+        "en": "Disco Elysium - The Final Cut",
+        "appid": 632470,
+        "year": 2019,
+        "why": "以高密度內心獨白與意識形態辯論呈現哲學思辨"
+      }
     ],
-    "steamTags": [{"tagid": 15277, "en": "Philosophical"}],
+    "steamTags": [
+      {
+        "tagid": 15277,
+        "en": "Philosophical"
+      }
+    ],
     "compare": [
-      {"with": "emotional", "diff": "哲理訴求是理性反思；感性訴求是直接情緒衝擊，一款作品可以同時做到兩者"}
+      {
+        "with": "emotional",
+        "diff": "哲理訴求是理性反思；感性訴求是直接情緒衝擊，一款作品可以同時做到兩者"
+      }
     ],
-    "related": ["emotional", "choices-matter"],
+    "related": [
+      "emotional",
+      "choices-matter"
+    ],
     "design": "哲學議題最怕變成角色直接對玩家說教，好的做法是把不同立場包裝成可信的角色，讓玩家在對話與選擇中自己感受立場之間的張力。",
     "sources": [
-      {"title": "Steam 標籤頁：Philosophical", "url": "https://store.steampowered.com/tags/en/Philosophical/", "accessed": "2026-09-17", "note": "標籤存在"}
+      {
+        "title": "Steam 標籤頁：Philosophical",
+        "url": "https://store.steampowered.com/tags/en/Philosophical/",
+        "accessed": "2026-09-17",
+        "note": "標籤存在"
+      }
     ],
     "status": "verified"
   },
@@ -1163,26 +2826,70 @@
     "id": "mystery",
     "zh": "懸疑（Mystery）",
     "en": "Mystery",
-    "aliases": ["懸疑題材"],
+    "aliases": [
+      "懸疑題材"
+    ],
     "cat": "theme",
     "sub": "文化與敘事氛圍",
     "short": "以未解之謎驅動玩家好奇心、逐步揭露真相的敘事類型。",
     "def": "以一個或多個未解之謎作為敘事驅動力，透過線索蒐集、推理與逐步揭露的節奏，讓玩家持續保持好奇心想知道「到底發生了什麼」。懸疑不一定涉及犯罪或偵探，也可以是身分之謎、事件真相或世界觀謎團，重點在資訊揭露的節奏控制，而非最終謎底本身。",
-    "features": ["以未解之謎驅動敘事", "強調資訊揭露的節奏控制", "不必然涉及犯罪或偵探", "可延伸至身分或世界觀謎團"],
+    "features": [
+      "以未解之謎驅動敘事",
+      "強調資訊揭露的節奏控制",
+      "不必然涉及犯罪或偵探",
+      "可延伸至身分或世界觀謎團"
+    ],
     "examples": [
-      {"title": "艾迪芬奇的記憶", "en": "What Remains of Edith Finch", "appid": 501300, "year": 2017, "why": "以家族死亡之謎逐步揭露驅動敘事"},
-      {"title": "極樂迪斯科", "en": "Disco Elysium - The Final Cut", "appid": 632470, "year": 2019, "why": "以失憶警探追查兇殺案的懸疑主線"}
+      {
+        "title": "艾迪芬奇的記憶",
+        "en": "What Remains of Edith Finch",
+        "appid": 501300,
+        "year": 2017,
+        "why": "以家族死亡之謎逐步揭露驅動敘事"
+      },
+      {
+        "title": "極樂迪斯可",
+        "en": "Disco Elysium - The Final Cut",
+        "appid": 632470,
+        "year": 2019,
+        "why": "以失憶警探追查兇殺案的懸疑主線"
+      }
     ],
-    "steamTags": [{"tagid": 5716, "en": "Mystery"}],
+    "steamTags": [
+      {
+        "tagid": 5716,
+        "en": "Mystery"
+      }
+    ],
     "compare": [
-      {"with": "detective", "diff": "懸疑是敘事節奏取向（未解之謎逐步揭露）；偵探是具體的角色身分與玩法（蒐證、推理破案），懸疑不一定要有偵探角色"},
-      {"with": "crime", "diff": "懸疑不必然涉及犯罪，也可以是超自然或身分之謎；犯罪題材特指違法行為相關的敘事"}
+      {
+        "with": "detective",
+        "diff": "懸疑是敘事節奏取向（未解之謎逐步揭露）；偵探是具體的角色身分與玩法（蒐證、推理破案），懸疑不一定要有偵探角色"
+      },
+      {
+        "with": "crime",
+        "diff": "懸疑不必然涉及犯罪，也可以是超自然或身分之謎；犯罪題材特指違法行為相關的敘事"
+      }
     ],
-    "related": ["detective", "crime", "noir"],
+    "related": [
+      "detective",
+      "crime",
+      "noir"
+    ],
     "design": "懸疑最怕線索給太快或太慢：太快玩家覺得無聊，太慢玩家會放棄猜測，好的節奏是讓玩家「猜對一部分、猜錯一部分」，維持持續的參與感。",
     "sources": [
-      {"title": "Wikipedia: Mystery fiction", "url": "https://en.wikipedia.org/wiki/Mystery_fiction", "accessed": "2026-09-17", "note": "定義與範疇"},
-      {"title": "Steam 標籤頁：Mystery", "url": "https://store.steampowered.com/tags/en/Mystery/", "accessed": "2026-09-17", "note": "標籤存在"}
+      {
+        "title": "Wikipedia: Mystery fiction",
+        "url": "https://en.wikipedia.org/wiki/Mystery_fiction",
+        "accessed": "2026-09-17",
+        "note": "定義與範疇"
+      },
+      {
+        "title": "Steam 標籤頁：Mystery",
+        "url": "https://store.steampowered.com/tags/en/Mystery/",
+        "accessed": "2026-09-17",
+        "note": "標籤存在"
+      }
     ],
     "status": "verified"
   },
@@ -1190,26 +2897,70 @@
     "id": "detective",
     "zh": "偵探（Detective）",
     "en": "Detective",
-    "aliases": ["偵探題材", "推理"],
+    "aliases": [
+      "偵探題材",
+      "推理"
+    ],
     "cat": "theme",
     "sub": "文化與敘事氛圍",
     "short": "扮演偵探角色，透過蒐證與推理找出真相、破解案件的類型。",
     "def": "玩家扮演偵探或具備推理能力的角色，透過現場蒐證、詰問證人、拼湊時間線等方式找出真相並破解案件。核心樂趣在於「自己動腦想出答案」的成就感，機制上常見證據組合、矛盾指認等系統。《逆轉裁判》系列以法庭攻防與矛盾指認聞名，是偵探題材在遊戲界最具代表性的系列之一。",
-    "features": ["扮演偵探或推理角色", "蒐證、詰問、拼湊時間線", "核心樂趣在於自行推理出答案", "常見證據組合或矛盾指認機制"],
+    "features": [
+      "扮演偵探或推理角色",
+      "蒐證、詰問、拼湊時間線",
+      "核心樂趣在於自行推理出答案",
+      "常見證據組合或矛盾指認機制"
+    ],
     "examples": [
-      {"title": "逆轉裁判456 王泥喜精選集", "en": "Apollo Justice: Ace Attorney Trilogy", "appid": 2187220, "year": 2024, "why": "法庭攻防與矛盾指認機制的代表系列"},
-      {"title": "Phoenix Wright: Ace Attorney Trilogy", "appid": 787480, "year": 2019, "why": "逆轉裁判系列前三部曲，奠定矛盾指認玩法"}
+      {
+        "title": "逆轉裁判456 王泥喜精選集",
+        "en": "Apollo Justice: Ace Attorney Trilogy",
+        "appid": 2187220,
+        "year": 2024,
+        "why": "法庭攻防與矛盾指認機制的代表系列"
+      },
+      {
+        "title": "Phoenix Wright: Ace Attorney Trilogy",
+        "appid": 787480,
+        "year": 2019,
+        "why": "逆轉裁判系列前三部曲，奠定矛盾指認玩法"
+      }
     ],
-    "steamTags": [{"tagid": 5613, "en": "Detective"}],
+    "steamTags": [
+      {
+        "tagid": 5613,
+        "en": "Detective"
+      }
+    ],
     "compare": [
-      {"with": "mystery", "diff": "偵探是具體的角色身分與蒐證推理玩法；懸疑是敘事節奏取向，不一定要有偵探角色"},
-      {"with": "noir", "diff": "偵探是玩法與角色設定；黑色是美學與氛圍風格，兩者常搭配（黑色偵探）但不是同一層次的概念"}
+      {
+        "with": "mystery",
+        "diff": "偵探是具體的角色身分與蒐證推理玩法；懸疑是敘事節奏取向，不一定要有偵探角色"
+      },
+      {
+        "with": "noir",
+        "diff": "偵探是玩法與角色設定；黑色是美學與氛圍風格，兩者常搭配（黑色偵探）但不是同一層次的概念"
+      }
     ],
-    "related": ["mystery", "noir", "crime"],
+    "related": [
+      "mystery",
+      "noir",
+      "crime"
+    ],
     "design": "推理玩法最容易出現的問題是「邏輯只有設計者自己懂」，每個推理步驟都要有明確可驗證的線索支撐，避免玩家靠猜測而非推理過關。",
     "sources": [
-      {"title": "Wikipedia: Detective fiction", "url": "https://en.wikipedia.org/wiki/Detective_fiction", "accessed": "2026-09-17", "note": "定義與範疇"},
-      {"title": "Steam 標籤頁：Detective", "url": "https://store.steampowered.com/tags/en/Detective/", "accessed": "2026-09-17", "note": "標籤存在"}
+      {
+        "title": "Wikipedia: Detective fiction",
+        "url": "https://en.wikipedia.org/wiki/Detective_fiction",
+        "accessed": "2026-09-17",
+        "note": "定義與範疇"
+      },
+      {
+        "title": "Steam 標籤頁：Detective",
+        "url": "https://store.steampowered.com/tags/en/Detective/",
+        "accessed": "2026-09-17",
+        "note": "標籤存在"
+      }
     ],
     "status": "verified"
   },
@@ -1217,26 +2968,70 @@
     "id": "crime",
     "zh": "犯罪（Crime）",
     "en": "Crime",
-    "aliases": ["犯罪題材"],
+    "aliases": [
+      "犯罪題材"
+    ],
     "cat": "theme",
     "sub": "文化與敘事氛圍",
     "short": "以犯罪組織、非法行為或司法體系為敘事核心的題材。",
     "def": "以犯罪組織、非法行為（走私、竊盜、謀殺）或司法體系運作為敘事核心的題材，視角可以是執法者、罪犯本人或介於兩者之間的灰色角色。與黑色風格的差異在於犯罪題材不一定帶有宿命論或高反差視覺美學，可以是寫實的幫派敘事，也可以是輕鬆的怪盜冒險。",
-    "features": ["圍繞犯罪組織或非法行為展開", "視角可以是執法者、罪犯或灰色角色", "不必然帶有黑色美學或宿命論", "可寫實幫派敘事也可輕鬆怪盜冒險"],
+    "features": [
+      "圍繞犯罪組織或非法行為展開",
+      "視角可以是執法者、罪犯或灰色角色",
+      "不必然帶有黑色美學或宿命論",
+      "可寫實幫派敘事也可輕鬆怪盜冒險"
+    ],
     "examples": [
-      {"title": "極樂迪斯科", "en": "Disco Elysium - The Final Cut", "appid": 632470, "year": 2019, "why": "以警探調查謀殺案展開的犯罪敘事"},
-      {"title": "洛城機密", "en": "L.A. Noire", "appid": 110800, "year": 2011, "why": "1940 年代洛杉磯警探辦案的犯罪題材代表"}
+      {
+        "title": "極樂迪斯可",
+        "en": "Disco Elysium - The Final Cut",
+        "appid": 632470,
+        "year": 2019,
+        "why": "以警探調查謀殺案展開的犯罪敘事"
+      },
+      {
+        "title": "L.A. Noire",
+        "en": "L.A. Noire",
+        "appid": 110800,
+        "year": 2011,
+        "why": "1940 年代洛杉磯警探辦案的犯罪題材代表"
+      }
     ],
-    "steamTags": [{"tagid": 6378, "en": "Crime"}],
+    "steamTags": [
+      {
+        "tagid": 6378,
+        "en": "Crime"
+      }
+    ],
     "compare": [
-      {"with": "noir", "diff": "犯罪題材範圍廣，涵蓋任何違法行為相關敘事；黑色是特定美學風格（宿命感、道德灰色、高反差光影），犯罪題材不一定是黑色風格"},
-      {"with": "mystery", "diff": "犯罪題材聚焦違法行為本身；懸疑聚焦未解之謎的揭露節奏，兩者高度重疊但判準不同"}
+      {
+        "with": "noir",
+        "diff": "犯罪題材範圍廣，涵蓋任何違法行為相關敘事；黑色是特定美學風格（宿命感、道德灰色、高反差光影），犯罪題材不一定是黑色風格"
+      },
+      {
+        "with": "mystery",
+        "diff": "犯罪題材聚焦違法行為本身；懸疑聚焦未解之謎的揭露節奏，兩者高度重疊但判準不同"
+      }
     ],
-    "related": ["noir", "mystery", "detective"],
+    "related": [
+      "noir",
+      "mystery",
+      "detective"
+    ],
     "design": "犯罪題材涉及真實社會問題（幫派、毒品、暴力），處理時要留意是否在美化犯罪行為，寫實與娛樂之間需要拿捏立場。",
     "sources": [
-      {"title": "Wikipedia: Crime fiction", "url": "https://en.wikipedia.org/wiki/Crime_fiction", "accessed": "2026-09-17", "note": "定義與範疇"},
-      {"title": "Steam 標籤頁：Crime", "url": "https://store.steampowered.com/tags/en/Crime/", "accessed": "2026-09-17", "note": "標籤存在"}
+      {
+        "title": "Wikipedia: Crime fiction",
+        "url": "https://en.wikipedia.org/wiki/Crime_fiction",
+        "accessed": "2026-09-17",
+        "note": "定義與範疇"
+      },
+      {
+        "title": "Steam 標籤頁：Crime",
+        "url": "https://store.steampowered.com/tags/en/Crime/",
+        "accessed": "2026-09-17",
+        "note": "標籤存在"
+      }
     ],
     "status": "verified"
   },
@@ -1244,24 +3039,54 @@
     "id": "school-life",
     "zh": "校園生活（School Life）",
     "en": "School Life",
-    "aliases": ["校園題材"],
+    "aliases": [
+      "校園題材"
+    ],
     "cat": "theme",
     "sub": "文化與敘事氛圍",
     "short": "以校園為主要場景，圍繞同學、社團與青春日常展開的題材。",
     "def": "以校園為主要場景，圍繞同學情誼、社團活動、考試與青春期的煩惱與悸動展開的題材，是日系視覺小說與動漫作品中極常見的背景設定。校園既是熟悉、封閉的社群空間，也天然適合安放戀愛、友情或懸疑元素，因此常與戀愛模擬、推理或恐怖題材混合，例如台式恐怖常以戒嚴時期校園為場景。",
-    "features": ["以校園為主要場景", "圍繞同學情誼與社團活動", "常搭配戀愛、友情或青春期主題", "封閉社群空間也適合混搭懸疑或恐怖"],
+    "features": [
+      "以校園為主要場景",
+      "圍繞同學情誼與社團活動",
+      "常搭配戀愛、友情或青春期主題",
+      "封閉社群空間也適合混搭懸疑或恐怖"
+    ],
     "examples": [
-      {"title": "女神異聞錄5皇家版", "en": "Persona 5 Royal", "appid": 1687950, "year": 2022, "why": "以高中校園生活結合怪盜與地下城探索的代表作"},
-      {"title": "返校", "en": "Detention", "appid": null, "year": 2017, "why": "以戒嚴時期校園為場景，將校園生活與白色恐怖歷史結合"}
+      {
+        "title": "女神異聞錄5皇家版",
+        "en": "Persona 5 Royal",
+        "appid": 1687950,
+        "year": 2022,
+        "why": "以高中校園生活結合怪盜與地下城探索的代表作"
+      },
+      {
+        "title": "返校",
+        "en": "Detention",
+        "appid": 555220,
+        "year": 2017,
+        "why": "以戒嚴時期校園為場景，將校園生活與白色恐怖歷史結合"
+      }
     ],
     "steamTags": [],
     "compare": [
-      {"with": "slice-of-life", "diff": "校園生活限定在校園場景與青春主題；日常寫實範圍更廣，可以是任何年齡層與場景的平淡日常"}
+      {
+        "with": "slice-of-life",
+        "diff": "校園生活限定在校園場景與青春主題；日常寫實範圍更廣，可以是任何年齡層與場景的平淡日常"
+      }
     ],
-    "related": ["slice-of-life", "taiwan-horror"],
+    "related": [
+      "slice-of-life",
+      "taiwan-horror"
+    ],
     "design": "校園題材的可信度來自對學生生活細節的掌握（考試壓力、社團生態、人際小圈圈），這些具體的生活質地比單純的制服美術更能建立共鳴。",
     "sources": [
-      {"title": "Wikipedia: Slice of life", "url": "https://en.wikipedia.org/wiki/Slice_of_life", "accessed": "2026-09-17", "note": "校園生活常見於日系日常敘事類型的脈絡佐證"}
+      {
+        "title": "Wikipedia: Slice of life",
+        "url": "https://en.wikipedia.org/wiki/Slice_of_life",
+        "accessed": "2026-09-17",
+        "note": "校園生活常見於日系日常敘事類型的脈絡佐證"
+      }
     ],
     "status": "verified"
   },
@@ -1269,25 +3094,57 @@
     "id": "slice-of-life",
     "zh": "日常寫實（Slice of Life）",
     "en": "Slice of Life",
-    "aliases": ["日常系"],
+    "aliases": [
+      "日常系"
+    ],
     "cat": "theme",
     "sub": "文化與敘事氛圍",
     "short": "描寫平凡日常片段、不追求戲劇高潮的敘事風格。",
     "def": "描寫角色平凡日常生活的片段，不刻意追求強烈的戲劇衝突或高潮起伏，重點在於透過瑣碎的互動與細節累積情感連結，讓玩家感受到「這些角色真實地生活著」。這個名詞源自日系動漫類型分類，1980 年代中期後逐漸流行，其下的療癒系（Iyashikei）子類型更進一步強調平靜療癒的氛圍。《Coffee Talk》以調酒師視角呈現顧客的日常煩惱，是遊戲界日常寫實的代表。",
-    "features": ["描寫平凡日常片段", "不刻意追求強烈戲劇衝突", "靠瑣碎互動累積情感連結", "常見療癒系子類型"],
+    "features": [
+      "描寫平凡日常片段",
+      "不刻意追求強烈戲劇衝突",
+      "靠瑣碎互動累積情感連結",
+      "常見療癒系子類型"
+    ],
     "examples": [
-      {"title": "Coffee Talk", "appid": null, "year": 2020, "why": "以調酒師視角呈現顧客日常煩惱的日常寫實代表"},
-      {"title": "Night in the Woods", "appid": null, "year": 2017, "why": "以返鄉青年的小鎮日常生活堆疊情感與社群觀察"}
+      {
+        "title": "Coffee Talk",
+        "appid": 914800,
+        "year": 2020,
+        "why": "以調酒師視角呈現顧客日常煩惱的日常寫實代表"
+      },
+      {
+        "title": "Night in the Woods",
+        "appid": 481510,
+        "year": 2017,
+        "why": "以返鄉青年的小鎮日常生活堆疊情感與社群觀察"
+      }
     ],
     "steamTags": [],
     "compare": [
-      {"with": "school-life", "diff": "日常寫實範圍不限場景與年齡層；校園生活限定在校園場景與青春主題，是日常寫實的常見子集之一"},
-      {"with": "cozy", "diff": "日常寫實是敘事節奏取向（無強烈戲劇衝突）；愜意是情緒與玩法取向（低壓力、生活模擬機制），兩者常重疊但判準不同"}
+      {
+        "with": "school-life",
+        "diff": "日常寫實範圍不限場景與年齡層；校園生活限定在校園場景與青春主題，是日常寫實的常見子集之一"
+      },
+      {
+        "with": "cozy-game",
+        "diff": "日常寫實是敘事節奏取向（無強烈戲劇衝突）；愜意是情緒與玩法取向（低壓力、生活模擬機制），兩者常重疊但判準不同"
+      }
     ],
-    "related": ["school-life", "cozy", "emotional"],
+    "related": [
+      "school-life",
+      "cozy-game",
+      "emotional"
+    ],
     "design": "日常寫實最考驗的是「瑣碎但不無聊」的拿捏，對話與互動細節要精準，讓平凡片段本身帶有觀察與洞察，而不只是流水帳。",
     "sources": [
-      {"title": "Wikipedia: Slice of life", "url": "https://en.wikipedia.org/wiki/Slice_of_life", "accessed": "2026-09-17", "note": "定義、起源與療癒系子類型"}
+      {
+        "title": "Wikipedia: Slice of life",
+        "url": "https://en.wikipedia.org/wiki/Slice_of_life",
+        "accessed": "2026-09-17",
+        "note": "定義、起源與療癒系子類型"
+      }
     ],
     "status": "verified"
   },
@@ -1295,23 +3152,48 @@
     "id": "isekai",
     "zh": "異世界（Isekai）",
     "en": "Isekai",
-    "aliases": ["異世界穿越", "異世界轉生"],
+    "aliases": [
+      "異世界穿越",
+      "異世界轉生"
+    ],
     "cat": "theme",
     "sub": "文化與敘事氛圍",
     "short": "主角被傳送或轉生到另一個世界、從零開始冒險的日系題材。",
     "def": "日文「異世界」原意為「不同的世界」，指主角透過穿越或死後轉生的方式來到一個全新的世界（奇幻大陸、虛擬世界或另一個星球），並在其中展開冒險的類型。可分為「穿越型」（主角被傳送或召喚過去）與「轉生型」（主角在現實世界死亡後重生到異世界）兩種常見結構，主角通常帶有某種在原世界沒有的優勢能力。這個題材源自日本民間故事（如浦島太郎），近十年因輕小說與動畫大量產出而成為日本 ACG 市場最主流的類型之一。",
-    "features": ["主角穿越或轉生到異世界", "可分穿越型與轉生型兩種結構", "主角常帶有原世界沒有的優勢能力", "源自日本民間故事、近年因輕小說興盛"],
+    "features": [
+      "主角穿越或轉生到異世界",
+      "可分穿越型與轉生型兩種結構",
+      "主角常帶有原世界沒有的優勢能力",
+      "源自日本民間故事、近年因輕小說興盛"
+    ],
     "examples": [
-      {"title": "數碼寶貝物語 時空異客", "en": "Digimon Story: Time Stranger", "appid": 1984270, "year": 2025, "why": "主角被捲入異世界（數位世界）展開冒險，具備穿越型異世界的敘事結構"}
+      {
+        "title": "數碼寶貝物語 時空異客",
+        "en": "Digimon Story: Time Stranger",
+        "appid": 1984270,
+        "year": 2025,
+        "why": "主角被捲入異世界（數位世界）展開冒險，具備穿越型異世界的敘事結構"
+      }
     ],
     "steamTags": [],
     "compare": [
-      {"with": "high-fantasy", "diff": "異世界強調「主角從原世界被送到新世界」的穿越或轉生敘事結構；高奇幻只要求世界觀本身是獨立異世界，不要求主角有跨界移動的過程"}
+      {
+        "with": "high-fantasy",
+        "diff": "異世界強調「主角從原世界被送到新世界」的穿越或轉生敘事結構；高奇幻只要求世界觀本身是獨立異世界，不要求主角有跨界移動的過程"
+      }
     ],
-    "related": ["high-fantasy", "sci-fi"],
+    "related": [
+      "high-fantasy",
+      "sci-fi"
+    ],
     "design": "異世界題材已高度飽和，光靠「轉生設定」很難再吸引玩家，必須在異世界的具體規則、主角能力與原世界的落差上做出新意，而不是套公式。",
     "sources": [
-      {"title": "Wikipedia: Isekai", "url": "https://en.wikipedia.org/wiki/Category:Isekai", "accessed": "2026-09-17", "note": "類型分類，佐證題材存在與範疇"}
+      {
+        "title": "Wikipedia: Isekai",
+        "url": "https://en.wikipedia.org/wiki/Category:Isekai",
+        "accessed": "2026-09-17",
+        "note": "類型分類，佐證題材存在與範疇"
+      }
     ],
     "status": "verified"
   }

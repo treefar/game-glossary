@@ -3,25 +3,68 @@
     "id": "rpg",
     "zh": "角色扮演遊戲（RPG）",
     "en": "Role-Playing Game",
-    "aliases": ["RPG", "角色扮演遊戲", "ロールプレイングゲーム"],
+    "aliases": [
+      "RPG",
+      "角色扮演遊戲",
+      "ロールプレイングゲーム"
+    ],
     "cat": "genre",
     "sub": "基礎類型總覽",
     "short": "扮演角色、靠戰鬥與選擇讓角色逐步成長的類型。",
     "def": "玩家操縱一個或多個角色，透過戰鬥、探索與對話累積經驗、金錢與裝備，讓角色從弱小逐步變強。核心樂趣是「成長感」，每次升級、每件新裝備、每個新技能都要讓玩家清楚感受到自己在變強。依文化風格大致分成著重劇情與角色的日式 RPG（JRPG）、著重自由度與選擇的西式 RPG（WRPG），以及把戰鬥改成即時動作的動作角色扮演（ARPG）三大支系，三者共用同一套成長系統的骨架，差別在敘事重心與戰鬥節奏。",
-    "features": ["角色等級與經驗值成長", "裝備與技能系統", "回合制或即時戰鬥", "劇情與角色互動", "可分支的任務或選擇"],
+    "features": [
+      "角色等級與經驗值成長",
+      "裝備與技能系統",
+      "回合制或即時戰鬥",
+      "劇情與角色互動",
+      "可分支的任務或選擇"
+    ],
     "examples": [
-      {"title": "柏德之門3", "en": "Baldur's Gate 3", "appid": 1086940, "year": 2023, "why": "西式 RPG 自由度與分支敘事的代表"},
-      {"title": "女神異聞錄5 皇家版", "en": "Persona 5 Royal", "appid": 1687950, "year": 2022, "why": "日式 RPG 校園劇情與回合制戰鬥的代表"}
+      {
+        "title": "柏德之門3",
+        "en": "Baldur's Gate 3",
+        "appid": 1086940,
+        "year": 2023,
+        "why": "西式 RPG 自由度與分支敘事的代表"
+      },
+      {
+        "title": "女神異聞錄5 皇家版",
+        "en": "Persona 5 Royal",
+        "appid": 1687950,
+        "year": 2022,
+        "why": "日式 RPG 校園劇情與回合制戰鬥的代表"
+      }
     ],
-    "steamTags": [{"tagid": 122, "en": "RPG"}],
+    "steamTags": [
+      {
+        "tagid": 122,
+        "en": "RPG"
+      }
+    ],
     "compare": [
-      {"with": "jrpg", "diff": "RPG 是總稱；JRPG 特指日式、重劇情與角色成長的分支。"},
-      {"with": "arpg", "diff": "RPG 泛指所有角色扮演類型；ARPG 專指戰鬥改成即時動作的分支。"}
+      {
+        "with": "jrpg",
+        "diff": "RPG 是總稱；JRPG 特指日式、重劇情與角色成長的分支。"
+      },
+      {
+        "with": "arpg",
+        "diff": "RPG 泛指所有角色扮演類型；ARPG 專指戰鬥改成即時動作的分支。"
+      }
     ],
-    "related": ["jrpg", "wrpg", "arpg", "crpg"],
+    "related": [
+      "jrpg",
+      "wrpg",
+      "arpg",
+      "crpg"
+    ],
     "design": "RPG 的黏著度來自「下一級的誘惑」，要讓玩家一直覺得再打一場就能升級、再一個任務就能拿到新裝備。升級曲線與獎勵節奏要精密安排，數值成長太快會讓裝備失去意義，太慢則讓人失去動力。",
     "sources": [
-      {"title": "Wikipedia: Role-playing video game", "url": "https://en.wikipedia.org/wiki/Role-playing_video_game", "accessed": "2026-09-17", "note": "RPG 核心定義與特徵"}
+      {
+        "title": "Wikipedia: Role-playing video game",
+        "url": "https://en.wikipedia.org/wiki/Role-playing_video_game",
+        "accessed": "2026-09-17",
+        "note": "RPG 核心定義與特徵"
+      }
     ],
     "status": "verified"
   },
@@ -29,25 +72,67 @@
     "id": "arpg",
     "zh": "動作角色扮演（ARPG）",
     "en": "Action RPG",
-    "aliases": ["ARPG", "動作 RPG"],
+    "aliases": [
+      "ARPG",
+      "動作 RPG"
+    ],
     "cat": "genre",
     "sub": "基礎類型總覽",
     "short": "把 RPG 成長系統結合即時動作戰鬥的類型。",
     "def": "將 RPG 的角色成長、裝備與技能系統，結合考驗玩家反應與手速的即時動作戰鬥，取代傳統回合制或選單式戰鬥。玩家操控角色即時移動、攻擊、閃避，同時仍要管理裝備、技能點數與屬性數值。這種混血讓戰鬥更緊張刺激，也讓「數值強度」與「操作技巧」兩者都能決定勝負。子類型涵蓋地城探索、刷寶射擊、類魂與怪物收集等，範圍相當廣，是近十幾年最主流的 RPG 分支之一。",
-    "features": ["即時戰鬥（非回合制）", "裝備與技能養成", "角色屬性與升級", "強調操作反應", "常見程序化關卡或刷寶"],
+    "features": [
+      "即時戰鬥（非回合制）",
+      "裝備與技能養成",
+      "角色屬性與升級",
+      "強調操作反應",
+      "常見程序化關卡或刷寶"
+    ],
     "examples": [
-      {"title": "暗黑破壞神 IV", "en": "Diablo IV", "appid": 2344520, "year": 2023, "why": "定義刷寶型 ARPG 的長青系列最新作"},
-      {"title": "艾爾登法環", "en": "Elden Ring", "appid": 1245620, "year": 2022, "why": "把 ARPG 與開放世界、類魂戰鬥結合的代表"}
+      {
+        "title": "暗黑破壞神 IV",
+        "en": "Diablo IV",
+        "appid": 2344520,
+        "year": 2023,
+        "why": "定義刷寶型 ARPG 的長青系列最新作"
+      },
+      {
+        "title": "艾爾登法環",
+        "en": "Elden Ring",
+        "appid": 1245620,
+        "year": 2022,
+        "why": "把 ARPG 與開放世界、類魂戰鬥結合的代表"
+      }
     ],
-    "steamTags": [{"tagid": 4231, "en": "Action RPG"}],
+    "steamTags": [
+      {
+        "tagid": 4231,
+        "en": "Action RPG"
+      }
+    ],
     "compare": [
-      {"with": "rpg", "diff": "RPG 泛指所有角色扮演；ARPG 專指戰鬥改成即時動作的分支。"},
-      {"with": "hack-and-slash", "diff": "ARPG 強調角色數值成長；Hack and Slash 更純粹強調近戰砍殺的手感與量。"}
+      {
+        "with": "rpg",
+        "diff": "RPG 泛指所有角色扮演；ARPG 專指戰鬥改成即時動作的分支。"
+      },
+      {
+        "with": "hack-and-slash",
+        "diff": "ARPG 強調角色數值成長；Hack and Slash 更純粹強調近戰砍殺的手感與量。"
+      }
     ],
-    "related": ["rpg", "soulslike", "looter", "dungeon-crawler"],
+    "related": [
+      "rpg",
+      "soulslike",
+      "looter",
+      "dungeon-crawler"
+    ],
     "design": "ARPG 要同時服務「操作黨」與「數值黨」兩種玩家：戰鬥手感要夠爽快，裝備與技能樹的深度也要夠。常見失敗是數值膨脹過快，讓後期裝備比較全靠數字大小，操作技巧反而不重要。",
     "sources": [
-      {"title": "Wikipedia: Action role-playing game", "url": "https://en.wikipedia.org/wiki/Action_role-playing_game", "accessed": "2026-09-17", "note": "ARPG 定義與子類型範圍"}
+      {
+        "title": "Wikipedia: Action role-playing game",
+        "url": "https://en.wikipedia.org/wiki/Action_role-playing_game",
+        "accessed": "2026-09-17",
+        "note": "ARPG 定義與子類型範圍"
+      }
     ],
     "status": "verified"
   },
@@ -55,24 +140,63 @@
     "id": "jrpg",
     "zh": "日式角色扮演（JRPG）",
     "en": "Japanese RPG",
-    "aliases": ["JRPG", "日式 RPG"],
+    "aliases": [
+      "JRPG",
+      "日式 RPG"
+    ],
     "cat": "genre",
     "sub": "基礎類型總覽",
     "short": "日本發展出的 RPG 支系，重劇情與角色。",
     "def": "源自日本開發傳統的 RPG 分支，強調情感濃厚的劇情、性格鮮明甚至道德灰色的角色，以及固定隊伍搭配技能與魔法的回合制或指令制戰鬥。視覺上常見漫畫風角色立繪與側面視角戰鬥畫面，與西式 RPG 慣用的俯視或第一人稱視角明顯不同。《勇者鬥惡龍》建立了容易上手的探索加戰鬥框架，《Final Fantasy》系列則以每代大幅翻新戰鬥系統聞名，兩者共同定義了這個支系的樣貌。",
-    "features": ["回合制或指令制戰鬥", "固定隊伍與角色羈絆", "強劇情與角色弧線", "側面視角戰鬥畫面", "日系美術風格"],
+    "features": [
+      "回合制或指令制戰鬥",
+      "固定隊伍與角色羈絆",
+      "強劇情與角色弧線",
+      "側面視角戰鬥畫面",
+      "日系美術風格"
+    ],
     "examples": [
-      {"title": "女神異聞錄5 皇家版", "en": "Persona 5 Royal", "appid": 1687950, "year": 2022, "why": "校園生活結合回合制戰鬥的招牌 JRPG"},
-      {"title": "勇者鬥惡龍 VII Reimagined", "en": "Dragon Quest VII Reimagined", "appid": 2499860, "year": 2026, "why": "確立日式 RPG 探索加戰鬥框架的長青系列"}
+      {
+        "title": "女神異聞錄5 皇家版",
+        "en": "Persona 5 Royal",
+        "appid": 1687950,
+        "year": 2022,
+        "why": "校園生活結合回合制戰鬥的招牌 JRPG"
+      },
+      {
+        "title": "勇者鬥惡龍 VII Reimagined",
+        "en": "Dragon Quest VII Reimagined",
+        "appid": 2499860,
+        "year": 2026,
+        "why": "確立日式 RPG 探索加戰鬥框架的長青系列"
+      }
     ],
-    "steamTags": [{"tagid": 4434, "en": "JRPG"}],
+    "steamTags": [
+      {
+        "tagid": 4434,
+        "en": "JRPG"
+      }
+    ],
     "compare": [
-      {"with": "wrpg", "diff": "JRPG 重劇情與固定角色、多採回合制；WRPG 重自由度與玩家自訂、多採即時戰鬥。"}
+      {
+        "with": "wrpg",
+        "diff": "JRPG 重劇情與固定角色、多採回合制；WRPG 重自由度與玩家自訂、多採即時戰鬥。"
+      }
     ],
-    "related": ["rpg", "wrpg", "srpg", "tactical-rpg"],
+    "related": [
+      "rpg",
+      "wrpg",
+      "srpg",
+      "tactical-rpg"
+    ],
     "design": "JRPG 的核心是角色魅力與劇情節奏，戰鬥系統要每代求新求變才不會被說「炒冷飯」。教學設計上習慣用固定隊伍讓玩家對角色產生情感投入，這也是留存率的關鍵來源。",
     "sources": [
-      {"title": "Wikipedia: Japanese role-playing game", "url": "https://en.wikipedia.org/wiki/Japanese_role-playing_game", "accessed": "2026-09-17", "note": "JRPG 與西式 RPG 差異、歷史脈絡"}
+      {
+        "title": "Wikipedia: Japanese role-playing game",
+        "url": "https://en.wikipedia.org/wiki/Japanese_role-playing_game",
+        "accessed": "2026-09-17",
+        "note": "JRPG 與西式 RPG 差異、歷史脈絡"
+      }
     ],
     "status": "verified"
   },
@@ -80,24 +204,67 @@
     "id": "crpg",
     "zh": "電腦角色扮演（CRPG）",
     "en": "Computer RPG",
-    "aliases": ["CRPG", "電腦 RPG", "傳統 RPG"],
+    "aliases": [
+      "CRPG",
+      "電腦 RPG",
+      "傳統 RPG"
+    ],
     "cat": "genre",
     "sub": "基礎類型總覽",
     "short": "承襲桌上型 RPG 規則、重團隊與選擇的電腦 RPG。",
     "def": "承襲《龍與地下城》等桌上型角色扮演遊戲規則與美術傳統的電腦 RPG 分支，特色是操控一整隊角色（Party）、詳細的屬性與職業系統、豐富的文字對話與陣營選擇，以及選擇造成的長期後果。早期 CRPG 多為回合制或即時暫停戰鬥，近年作品仍保留高度的角色自訂與策略深度，是「規則感」最重的 RPG 分支，也是「西式 RPG」概念的源頭。",
-    "features": ["組隊操控多名角色", "詳細屬性與職業系統", "陣營與道德選擇", "文字量大、分支對話", "回合制或即時暫停戰鬥"],
+    "features": [
+      "組隊操控多名角色",
+      "詳細屬性與職業系統",
+      "陣營與道德選擇",
+      "文字量大、分支對話",
+      "回合制或即時暫停戰鬥"
+    ],
     "examples": [
-      {"title": "柏德之門3", "en": "Baldur's Gate 3", "appid": 1086940, "year": 2023, "why": "延續桌上型規則、選擇後果深遠的當代 CRPG 標竿"},
-      {"title": "神諭：原罪加強版", "en": "Divinity: Original Sin - Enhanced Edition", "appid": 373420, "year": 2015, "why": "高自由度組隊戰鬥與環境互動的代表"}
+      {
+        "title": "柏德之門3",
+        "en": "Baldur's Gate 3",
+        "appid": 1086940,
+        "year": 2023,
+        "why": "延續桌上型規則、選擇後果深遠的當代 CRPG 標竿"
+      },
+      {
+        "title": "神諭：原罪加強版",
+        "en": "Divinity: Original Sin - Enhanced Edition",
+        "appid": 373420,
+        "year": 2015,
+        "why": "高自由度組隊戰鬥與環境互動的代表"
+      }
     ],
-    "steamTags": [{"tagid": 4474, "en": "CRPG"}, {"tagid": 10695, "en": "Party-Based RPG"}],
+    "steamTags": [
+      {
+        "tagid": 4474,
+        "en": "CRPG"
+      },
+      {
+        "tagid": 10695,
+        "en": "Party-Based RPG"
+      }
+    ],
     "compare": [
-      {"with": "wrpg", "diff": "CRPG 特指承襲桌上型規則、重組隊與陣營選擇的一脈；WRPG 是更廣的西式 RPG 統稱，也包含單一主角的開放世界作品。"}
+      {
+        "with": "wrpg",
+        "diff": "CRPG 特指承襲桌上型規則、重組隊與陣營選擇的一脈；WRPG 是更廣的西式 RPG 統稱，也包含單一主角的開放世界作品。"
+      }
     ],
-    "related": ["rpg", "wrpg", "dungeon-crawler"],
+    "related": [
+      "rpg",
+      "wrpg",
+      "dungeon-crawler"
+    ],
     "design": "CRPG 的深度來自「規則透明」，玩家要能理解每個選擇（陣營、屬性配點、對話選項）如何影響結果。文字量大是雙面刃，要靠好的分支結構與配音，避免變成閱讀作業。",
     "sources": [
-      {"title": "Wikipedia: Computer role-playing game", "url": "https://en.wikipedia.org/wiki/Computer_role-playing_game", "accessed": "2026-09-17", "note": "CRPG 定義與桌上型 RPG 淵源"}
+      {
+        "title": "Wikipedia: Computer role-playing game",
+        "url": "https://en.wikipedia.org/wiki/Computer_role-playing_game",
+        "accessed": "2026-09-17",
+        "note": "CRPG 定義與桌上型 RPG 淵源"
+      }
     ],
     "status": "verified"
   },
@@ -105,24 +272,63 @@
     "id": "wrpg",
     "zh": "西式角色扮演（WRPG）",
     "en": "Western RPG",
-    "aliases": ["WRPG", "西式 RPG"],
+    "aliases": [
+      "WRPG",
+      "西式 RPG"
+    ],
     "cat": "genre",
     "sub": "基礎類型總覽",
     "short": "歐美發展出的 RPG 支系，重自由度與選擇。",
     "def": "歐美開發傳統下的 RPG 分支，強調高度的角色自訂（外觀、屬性、陣營、道德取向）與探索自由度，玩家常能用多種方式解決同一個任務，甚至完全略過主線去自由探索世界。戰鬥多採即時或即時暫停，敘事上偏好開放式選擇而非線性的固定角色弧線。《巫師》系列與《上古卷軸》系列是代表，兩者都以龐大的開放世界與豐富的支線任務聞名。",
-    "features": ["高度角色自訂", "開放世界或高自由度地圖", "多重解法與陣營選擇", "即時或即時暫停戰鬥", "道德模糊的任務設計"],
+    "features": [
+      "高度角色自訂",
+      "開放世界或高自由度地圖",
+      "多重解法與陣營選擇",
+      "即時或即時暫停戰鬥",
+      "道德模糊的任務設計"
+    ],
     "examples": [
-      {"title": "巫師3：狂獵 完全版", "en": "The Witcher 3: Wild Hunt - Complete Edition", "appid": 292030, "year": 2015, "why": "開放世界與支線任務品質的西式 RPG 標竿"},
-      {"title": "上古卷軸5：無界天際 特別版", "en": "The Elder Scrolls V: Skyrim Special Edition", "appid": 489830, "year": 2016, "why": "自由探索與角色自訂深度的代表"}
+      {
+        "title": "巫師3：狂獵 完全版",
+        "en": "The Witcher 3: Wild Hunt - Complete Edition",
+        "appid": 292030,
+        "year": 2015,
+        "why": "開放世界與支線任務品質的西式 RPG 標竿"
+      },
+      {
+        "title": "上古卷軸5：無界天際 特別版",
+        "en": "The Elder Scrolls V: Skyrim Special Edition",
+        "appid": 489830,
+        "year": 2016,
+        "why": "自由探索與角色自訂深度的代表"
+      }
     ],
-    "steamTags": [{"tagid": 122, "en": "RPG"}],
+    "steamTags": [
+      {
+        "tagid": 122,
+        "en": "RPG"
+      }
+    ],
     "compare": [
-      {"with": "jrpg", "diff": "WRPG 重自由度與玩家自訂、多採即時戰鬥；JRPG 重劇情與固定角色、多採回合制。"}
+      {
+        "with": "jrpg",
+        "diff": "WRPG 重自由度與玩家自訂、多採即時戰鬥；JRPG 重劇情與固定角色、多採回合制。"
+      }
     ],
-    "related": ["rpg", "jrpg", "crpg", "open-world"],
+    "related": [
+      "rpg",
+      "jrpg",
+      "crpg",
+      "open-world"
+    ],
     "design": "WRPG 的挑戰是「自由度與敘事張力」的拉扯，玩家能為所欲為，但主線劇情的急迫感就容易被稀釋。常見解法是把支線設計成獨立完整的小故事，讓探索本身就有敘事回報。",
     "sources": [
-      {"title": "Wikipedia: Role-playing video game", "url": "https://en.wikipedia.org/wiki/Role-playing_video_game", "accessed": "2026-09-17", "note": "西式 RPG 與東式 RPG 的分野"}
+      {
+        "title": "Wikipedia: Role-playing video game",
+        "url": "https://en.wikipedia.org/wiki/Role-playing_video_game",
+        "accessed": "2026-09-17",
+        "note": "西式 RPG 與東式 RPG 的分野"
+      }
     ],
     "status": "verified"
   },
@@ -130,24 +336,63 @@
     "id": "srpg",
     "zh": "戰略角色扮演（SRPG）",
     "en": "Strategy RPG",
-    "aliases": ["SRPG", "戰棋 RPG", "シミュレーションRPG"],
+    "aliases": [
+      "SRPG",
+      "戰棋 RPG",
+      "シミュレーションRPG"
+    ],
     "cat": "genre",
     "sub": "基礎類型總覽",
     "short": "在方格戰場上排兵佈陣的日式戰棋 RPG。",
     "def": "把 RPG 的角色養成，結合在方格或六角格戰場上排兵佈陣的回合制戰鬥。玩家依角色的移動力與攻擊範圍安排站位，善用地形高低差與職業相剋來取勝，每個角色通常有獨立的職業、技能樹與死亡設定（部分作品陣亡即永久失去角色）。這個名稱與呈現方式主要盛行於日本，作品多帶奇幻或戰爭史詩色彩，與歐美同類型作品的呈現與命名習慣不完全相同。",
-    "features": ["方格化戰場與行動範圍", "職業與技能樹", "地形與高低差戰術", "角色可能永久死亡", "回合制排兵佈陣"],
+    "features": [
+      "方格化戰場與行動範圍",
+      "職業與技能樹",
+      "地形與高低差戰術",
+      "角色可能永久死亡",
+      "回合制排兵佈陣"
+    ],
     "examples": [
-      {"title": "火焰之紋章 Engage", "en": "Fire Emblem Engage", "appid": null, "year": 2023, "why": "確立永久死亡與職業戰棋公式的長青系列"},
-      {"title": "三角戰略", "en": "Triangle Strategy", "appid": null, "year": 2022, "why": "多結局分支與方格戰棋結合的代表"}
+      {
+        "title": "火焰之紋章 Engage",
+        "en": "Fire Emblem Engage",
+        "appid": null,
+        "year": 2023,
+        "why": "確立永久死亡與職業戰棋公式的長青系列"
+      },
+      {
+        "title": "三角戰略",
+        "en": "Triangle Strategy",
+        "appid": 1850510,
+        "year": 2022,
+        "why": "多結局分支與方格戰棋結合的代表"
+      }
     ],
-    "steamTags": [{"tagid": 21725, "en": "Tactical RPG"}],
+    "steamTags": [
+      {
+        "tagid": 21725,
+        "en": "Tactical RPG"
+      }
+    ],
     "compare": [
-      {"with": "tactical-rpg", "diff": "SRPG 是日本業界慣用稱呼，作品多偏奇幻與角色羈絆；歐美常把同類機制稱為 Tactical RPG，題材更偏軍事與寫實。兩者機制高度重疊，差別主要在地域命名習慣與美術基調。"}
+      {
+        "with": "tactical-rpg",
+        "diff": "SRPG 是日本業界慣用稱呼，作品多偏奇幻與角色羈絆；歐美常把同類機制稱為 Tactical RPG，題材更偏軍事與寫實。兩者機制高度重疊，差別主要在地域命名習慣與美術基調。"
+      }
     ],
-    "related": ["tactical-rpg", "jrpg", "roguelike-deckbuilder"],
+    "related": [
+      "tactical-rpg",
+      "jrpg",
+      "roguelike-deckbuilder"
+    ],
     "design": "SRPG 的樂趣核心是「局勢判讀」，地圖設計要讓每張圖都有獨特的地形謎題，而不只是把敵人排更多。永久死亡機制要謹慎，太嚴苛會逼玩家頻繁重讀存檔，反而破壞緊張感。",
     "sources": [
-      {"title": "Wikipedia: Tactical role-playing game", "url": "https://en.wikipedia.org/wiki/Tactical_role-playing_game", "accessed": "2026-09-17", "note": "SRPG 與 Tactical RPG 的地域命名差異"}
+      {
+        "title": "Wikipedia: Tactical role-playing game",
+        "url": "https://en.wikipedia.org/wiki/Tactical_role-playing_game",
+        "accessed": "2026-09-17",
+        "note": "SRPG 與 Tactical RPG 的地域命名差異"
+      }
     ],
     "status": "verified"
   },
@@ -155,24 +400,61 @@
     "id": "tactical-rpg",
     "zh": "戰術角色扮演（Tactical RPG）",
     "en": "Tactical RPG",
-    "aliases": ["Tactical RPG", "戰術 RPG"],
+    "aliases": [
+      "Tactical RPG",
+      "戰術 RPG"
+    ],
     "cat": "genre",
     "sub": "基礎類型總覽",
     "short": "歐美路線的方格戰棋 RPG，題材偏軍事寫實。",
     "def": "與 SRPG 機制高度重疊的方格戰棋 RPG，但多由歐美開發商製作，題材偏向軍事、科幻或寫實戰爭，較少奇幻元素。玩家一樣要在方格戰場上調度單位、利用掩體與視野差取勝，但角色羈絆與劇情比重通常低於日式 SRPG，更重視資源管理、單位客製與局勢判斷等策略深度。部分作品（如《XCOM》系列）加入基地經營與科技研發，讓戰略層與戰術層互相牽動。",
-    "features": ["方格化戰場調度", "掩體與視野系統", "單位客製與升級", "局外基地經營（常見）", "寫實或科幻題材"],
+    "features": [
+      "方格化戰場調度",
+      "掩體與視野系統",
+      "單位客製與升級",
+      "局外基地經營（常見）",
+      "寫實或科幻題材"
+    ],
     "examples": [
-      {"title": "XCOM 2", "en": "XCOM 2", "appid": 268500, "year": 2016, "why": "掩體戰術與基地經營結合的西式戰棋代表"},
-      {"title": "XCOM：未知敵人", "en": "XCOM: Enemy Unknown", "appid": 200510, "year": 2012, "why": "重啟系列、確立現代西式戰棋公式的作品"}
+      {
+        "title": "XCOM 2",
+        "en": "XCOM 2",
+        "appid": 268500,
+        "year": 2016,
+        "why": "掩體戰術與基地經營結合的西式戰棋代表"
+      },
+      {
+        "title": "XCOM：未知敵人",
+        "en": "XCOM: Enemy Unknown",
+        "appid": 200510,
+        "year": 2012,
+        "why": "重啟系列、確立現代西式戰棋公式的作品"
+      }
     ],
-    "steamTags": [{"tagid": 14139, "en": "Turn-Based Tactics"}],
+    "steamTags": [
+      {
+        "tagid": 14139,
+        "en": "Turn-Based Tactics"
+      }
+    ],
     "compare": [
-      {"with": "srpg", "diff": "Tactical RPG 多為歐美製作、題材寫實軍事，角色羈絆比重較低；SRPG 是日本業界慣用稱呼，奇幻色彩與角色劇情比重較高。"}
+      {
+        "with": "srpg",
+        "diff": "Tactical RPG 多為歐美製作、題材寫實軍事，角色羈絆比重較低；SRPG 是日本業界慣用稱呼，奇幻色彩與角色劇情比重較高。"
+      }
     ],
-    "related": ["srpg", "turn-based-tactics"],
+    "related": [
+      "srpg",
+      "turn-based-tactics"
+    ],
     "design": "這類遊戲的難度曲線要靠「資訊不對稱」製造張力，例如戰爭迷霧與命中率機率，讓每個決策都有風險。過度依賴隨機數字（未命中連續失敗）容易讓玩家覺得遊戲不公平，要搭配可預期的機率視覺化。",
     "sources": [
-      {"title": "Wikipedia: Tactical role-playing game", "url": "https://en.wikipedia.org/wiki/Tactical_role-playing_game", "accessed": "2026-09-17", "note": "Tactical RPG 定義與西式路線特徵"}
+      {
+        "title": "Wikipedia: Tactical role-playing game",
+        "url": "https://en.wikipedia.org/wiki/Tactical_role-playing_game",
+        "accessed": "2026-09-17",
+        "note": "Tactical RPG 定義與西式路線特徵"
+      }
     ],
     "status": "verified"
   },
@@ -180,24 +462,62 @@
     "id": "action-game",
     "zh": "動作遊戲（ACT）",
     "en": "Action Game",
-    "aliases": ["ACT", "動作遊戲"],
+    "aliases": [
+      "ACT",
+      "動作遊戲"
+    ],
     "cat": "genre",
     "sub": "基礎類型總覽",
     "short": "強調即時操作與戰鬥技巧的遊戲總稱。",
     "def": "以玩家的操作反應、手眼協調與戰鬥技巧為核心考驗的遊戲總稱，涵蓋範圍極廣，從砍殺、平台跳躍到射擊都可以算在內，是遊戲類型樹裡最基礎的父類之一。與強調數值成長的 RPG 不同，動作遊戲的挑戰核心是「玩家本身的技術」而非角色數值，就算角色能力相同，熟練玩家與新手的表現也會差異巨大。這個總稱底下再依戰鬥形式細分出砍殺、角色動作、清版動作、格鬥等子類型。",
-    "features": ["即時操作與反應考驗", "強調招式與連段", "角色能力可成長但非核心", "動作模式清晰可預判", "技術上限高"],
+    "features": [
+      "即時操作與反應考驗",
+      "強調招式與連段",
+      "角色能力可成長但非核心",
+      "動作模式清晰可預判",
+      "技術上限高"
+    ],
     "examples": [
-      {"title": "惡魔獵人5", "en": "Devil May Cry 5", "appid": 601150, "year": 2019, "why": "以華麗連段與評分系統聞名的動作遊戲代表"},
-      {"title": "隻狼：暗影雙死", "en": "Sekiro: Shadows Die Twice", "appid": 814380, "year": 2019, "why": "以格擋與體幹系統為核心的高難度動作遊戲"}
+      {
+        "title": "惡魔獵人5",
+        "en": "Devil May Cry 5",
+        "appid": 601150,
+        "year": 2019,
+        "why": "以華麗連段與評分系統聞名的動作遊戲代表"
+      },
+      {
+        "title": "隻狼：暗影雙死",
+        "en": "Sekiro: Shadows Die Twice",
+        "appid": 814380,
+        "year": 2019,
+        "why": "以格擋與體幹系統為核心的高難度動作遊戲"
+      }
     ],
-    "steamTags": [{"tagid": 19, "en": "Action"}],
+    "steamTags": [
+      {
+        "tagid": 19,
+        "en": "Action"
+      }
+    ],
     "compare": [
-      {"with": "hack-and-slash", "diff": "動作遊戲是總稱；Hack and Slash 專指強調近戰砍殺大量敵人的子類。"}
+      {
+        "with": "hack-and-slash",
+        "diff": "動作遊戲是總稱；Hack and Slash 專指強調近戰砍殺大量敵人的子類。"
+      }
     ],
-    "related": ["hack-and-slash", "character-action", "fighting-game"],
+    "related": [
+      "hack-and-slash",
+      "character-action",
+      "fighting-game"
+    ],
     "design": "動作遊戲的手感是生死線，攻擊的前搖、後搖、受擊回饋、音效都要反覆調校。設計者要先確定「核心動作循環」（攻擊、防禦、閃避）再往上疊系統，太早加太多招式反而會稀釋手感。",
     "sources": [
-      {"title": "Wikipedia: Action game", "url": "https://en.wikipedia.org/wiki/Action_game", "accessed": "2026-09-17", "note": "動作遊戲總稱定義"}
+      {
+        "title": "Wikipedia: Action game",
+        "url": "https://en.wikipedia.org/wiki/Action_game",
+        "accessed": "2026-09-17",
+        "note": "動作遊戲總稱定義"
+      }
     ],
     "status": "unverified"
   },
@@ -205,25 +525,66 @@
     "id": "mmorpg",
     "zh": "大型多人線上角色扮演（MMORPG）",
     "en": "Massively Multiplayer Online RPG",
-    "aliases": ["MMORPG", "大型多人線上角色扮演遊戲"],
+    "aliases": [
+      "MMORPG",
+      "大型多人線上角色扮演遊戲"
+    ],
     "cat": "genre",
     "sub": "基礎類型總覽",
     "short": "數千玩家共存的持續性世界 RPG。",
     "def": "數百至數千名玩家共存於同一個「持續性世界」的 RPG，玩家下線後這個世界依然持續運作，其他人仍在裡面活動。核心特色包括長期角色養成（可能玩上千小時）、公會與社交系統、分工明確的團隊副本（坦克、輸出、治療的搭配）、玩家間的交易與拍賣經濟，以及持續推出的新版本內容。是網路遊戲的開山祖類型，雖然熱度不如兩千年代高峰，仍有穩定的長青作品支撐市場。",
-    "features": ["持續運作的共享世界", "公會與社交系統", "團隊分工副本", "玩家交易經濟", "長期角色養成"],
+    "features": [
+      "持續運作的共享世界",
+      "公會與社交系統",
+      "團隊分工副本",
+      "玩家交易經濟",
+      "長期角色養成"
+    ],
     "examples": [
-      {"title": "魔獸世界", "en": "World of Warcraft", "appid": null, "year": 2004, "why": "定義現代 MMORPG 副本與職業分工的長青作品"},
-      {"title": "Final Fantasy XIV", "en": "Final Fantasy XIV", "appid": null, "year": 2013, "why": "以劇情深度與版本更新節奏聞名的當代代表"}
+      {
+        "title": "魔獸世界",
+        "en": "World of Warcraft",
+        "appid": null,
+        "year": 2004,
+        "why": "定義現代 MMORPG 副本與職業分工的長青作品"
+      },
+      {
+        "title": "Final Fantasy XIV",
+        "en": "Final Fantasy XIV",
+        "appid": null,
+        "year": 2013,
+        "why": "以劇情深度與版本更新節奏聞名的當代代表"
+      }
     ],
-    "steamTags": [{"tagid": 1754, "en": "MMORPG"}],
+    "steamTags": [
+      {
+        "tagid": 1754,
+        "en": "MMORPG"
+      }
+    ],
     "compare": [
-      {"with": "mmo", "diff": "MMORPG 特指有角色扮演成長系統的持續性世界遊戲；MMO 是更廣的大型多人線上總稱，不限角色扮演。"},
-      {"with": "rpg", "diff": "一般 RPG 是單人或小隊伍的封閉體驗；MMORPG 是數千玩家共享同一個持續運作的世界。"}
+      {
+        "with": "mmo",
+        "diff": "MMORPG 特指有角色扮演成長系統的持續性世界遊戲；MMO 是更廣的大型多人線上總稱，不限角色扮演。"
+      },
+      {
+        "with": "rpg",
+        "diff": "一般 RPG 是單人或小隊伍的封閉體驗；MMORPG 是數千玩家共享同一個持續運作的世界。"
+      }
     ],
-    "related": ["mmo", "rpg", "guild-war"],
+    "related": [
+      "mmo",
+      "rpg",
+      "guild-war"
+    ],
     "design": "MMO 的成敗不在機制設計而在「社群感」，玩家留下來常是因為公會朋友還在線上，而不是遊戲多好玩。設計時應優先考慮社交工具（公會系統、語音整合、組隊便利性），而非單純堆疊戰鬥深度。",
     "sources": [
-      {"title": "Wikipedia: MMORPG", "url": "https://en.wikipedia.org/wiki/MMORPG", "accessed": "2026-09-17", "note": "MMORPG 定義與持續性世界特徵"}
+      {
+        "title": "Wikipedia: MMORPG",
+        "url": "https://en.wikipedia.org/wiki/MMORPG",
+        "accessed": "2026-09-17",
+        "note": "MMORPG 定義與持續性世界特徵"
+      }
     ],
     "status": "verified"
   },
@@ -231,24 +592,60 @@
     "id": "mmo",
     "zh": "大型多人線上遊戲（MMO）",
     "en": "Massively Multiplayer Online Game",
-    "aliases": ["MMO", "大型多人線上遊戲"],
+    "aliases": [
+      "MMO",
+      "大型多人線上遊戲"
+    ],
     "cat": "genre",
     "sub": "基礎類型總覽",
     "short": "數百至數千玩家同時互動的線上遊戲總稱。",
     "def": "允許數百至數千名玩家同時在同一個伺服器或世界中互動的線上遊戲總稱，不限定是不是角色扮演類型，只要求「大量玩家、共享空間、即時互動」這三個條件。MMORPG 是其中最大的子分支，但 MMO 底下也包含大型多人射擊、大型多人策略等其他遊玩方式，共通點是遊戲規模帶來的社交密度與經濟活動，而不是特定的戰鬥或成長系統。",
-    "features": ["大量玩家同時上線", "共享世界或大廳", "即時社交互動", "跨玩家經濟或競爭", "不限定戰鬥形式"],
+    "features": [
+      "大量玩家同時上線",
+      "共享世界或大廳",
+      "即時社交互動",
+      "跨玩家經濟或競爭",
+      "不限定戰鬥形式"
+    ],
     "examples": [
-      {"title": "魔獸世界", "en": "World of Warcraft", "appid": null, "year": 2004, "why": "最具代表性的大型多人線上世界"},
-      {"title": "EVE Online", "en": "EVE Online", "appid": null, "year": 2003, "why": "以單一巨大伺服器與玩家經濟聞名的非典型 MMO"}
+      {
+        "title": "魔獸世界",
+        "en": "World of Warcraft",
+        "appid": null,
+        "year": 2004,
+        "why": "最具代表性的大型多人線上世界"
+      },
+      {
+        "title": "EVE Online",
+        "en": "EVE Online",
+        "appid": 8500,
+        "year": 2003,
+        "why": "以單一巨大伺服器與玩家經濟聞名的非典型 MMO"
+      }
     ],
-    "steamTags": [{"tagid": 128, "en": "Massively Multiplayer"}],
+    "steamTags": [
+      {
+        "tagid": 128,
+        "en": "Massively Multiplayer"
+      }
+    ],
     "compare": [
-      {"with": "mmorpg", "diff": "MMO 是大型多人線上的總稱，不限遊玩方式；MMORPG 特指其中有角色扮演成長系統的子分支。"}
+      {
+        "with": "mmorpg",
+        "diff": "MMO 是大型多人線上的總稱，不限遊玩方式；MMORPG 特指其中有角色扮演成長系統的子分支。"
+      }
     ],
-    "related": ["mmorpg"],
+    "related": [
+      "mmorpg"
+    ],
     "design": "MMO 最大的技術與設計挑戰是伺服器規模與經濟平衡，玩家人數一多，通膨、外掛與壟斷行為都會被放大，需要持續監控與版本調校。",
     "sources": [
-      {"title": "Steam 標籤頁：Massively Multiplayer", "url": "https://store.steampowered.com/tags/en/Massively%20Multiplayer/", "accessed": "2026-09-17", "note": "標籤存在與代表作"}
+      {
+        "title": "Steam 標籤頁：Massively Multiplayer",
+        "url": "https://store.steampowered.com/tags/en/Massively%20Multiplayer/",
+        "accessed": "2026-09-17",
+        "note": "標籤存在與代表作"
+      }
     ],
     "status": "verified"
   },
@@ -256,26 +653,70 @@
     "id": "soulslike",
     "zh": "類魂遊戲（Soulslike）",
     "en": "Soulslike",
-    "aliases": ["Soulslike", "魂系（廣義）", "類魂"],
+    "aliases": [
+      "Soulslike",
+      "魂系（廣義）",
+      "類魂"
+    ],
     "cat": "genre",
     "sub": "經典作品衍生類型",
     "short": "以《黑暗靈魂》為典範、高難度但公平的動作 RPG。",
     "def": "以 FromSoftware《黑暗靈魂》系列為典範的遊戲類型，核心特徵包括高難度但公平的戰鬥、死亡懲罰（喪失經驗值或貨幣，且只有一次機會回到死亡地點取回）、精心設計的關卡捷徑、碎片化環境敘事（故事藏在物品說明與場景細節而非過場動畫）、消耗耐力的謹慎戰鬥，以及所有敵人包括 Boss 都能透過學習攻略模式來擊敗。難度不是「難而已」，而是「嚴格但公平」，每次死亡都該讓玩家覺得是自己的問題。",
-    "features": ["高難度但公平的戰鬥", "死亡懲罰與一次拾回機會", "耐力管理戰鬥", "碎片化環境敘事", "Boss 可透過學習攻克"],
+    "features": [
+      "高難度但公平的戰鬥",
+      "死亡懲罰與一次拾回機會",
+      "耐力管理戰鬥",
+      "碎片化環境敘事",
+      "Boss 可透過學習攻克"
+    ],
     "examples": [
-      {"title": "艾爾登法環", "en": "Elden Ring", "appid": 1245620, "year": 2022, "why": "把類魂公式結合開放世界的集大成之作"},
-      {"title": "隻狼：暗影雙死", "en": "Sekiro: Shadows Die Twice", "appid": 814380, "year": 2019, "why": "FromSoftware 本家作品，以格擋體幹取代耐力機制的變體"}
+      {
+        "title": "艾爾登法環",
+        "en": "Elden Ring",
+        "appid": 1245620,
+        "year": 2022,
+        "why": "把類魂公式結合開放世界的集大成之作"
+      },
+      {
+        "title": "隻狼：暗影雙死",
+        "en": "Sekiro: Shadows Die Twice",
+        "appid": 814380,
+        "year": 2019,
+        "why": "FromSoftware 本家作品，以格擋體幹取代耐力機制的變體"
+      }
     ],
-    "steamTags": [{"tagid": 29482, "en": "Souls-like"}],
+    "steamTags": [
+      {
+        "tagid": 29482,
+        "en": "Souls-like"
+      }
+    ],
     "compare": [
-      {"with": "metroidvania", "diff": "Soulslike 強調高難度戰鬥與死亡懲罰；Metroidvania 強調能力解鎖帶來的地圖探索循環，兩者可以結合（Soulsvania）但核心考驗不同。"}
+      {
+        "with": "metroidvania",
+        "diff": "Soulslike 強調高難度戰鬥與死亡懲罰；Metroidvania 強調能力解鎖帶來的地圖探索循環，兩者可以結合（Soulsvania）但核心考驗不同。"
+      }
     ],
-    "related": ["metroidvania", "boss-rush", "arpg"],
+    "related": [
+      "metroidvania",
+      "boss-rush",
+      "arpg"
+    ],
     "design": "類魂遊戲的敵人攻擊必須有清晰的預兆動作（前搖），讓玩家有反應與學習的空間；只加高數值難度而不設計清楚的攻擊訊號，只會讓玩家覺得不公平，而不是有挑戰性。",
     "tw": "台灣玩家口語常把「魂系」與「類魂 / Soulslike」交替使用，但嚴格來說「魂系」多指 FromSoftware 本家系列（黑暗靈魂、血源詛咒、艾爾登法環、隻狼），是原典；「類魂 / Soulslike」則泛指其他工作室仿效其設計哲學做出的作品（如《P 的謊言》《仁王》《黑神話：悟空》），是致敬與衍生的統稱，並非同一件事。",
     "sources": [
-      {"title": "Wikipedia: Soulslike", "url": "https://en.wikipedia.org/wiki/Soulslike", "accessed": "2026-09-17", "note": "Soulslike 定義、起源與代表作清單"},
-      {"title": "Steam 標籤頁：Souls-like", "url": "https://store.steampowered.com/tags/en/Souls-like/", "accessed": "2026-09-17", "note": "標籤存在與代表作"}
+      {
+        "title": "Wikipedia: Soulslike",
+        "url": "https://en.wikipedia.org/wiki/Soulslike",
+        "accessed": "2026-09-17",
+        "note": "Soulslike 定義、起源與代表作清單"
+      },
+      {
+        "title": "Steam 標籤頁：Souls-like",
+        "url": "https://store.steampowered.com/tags/en/Souls-like/",
+        "accessed": "2026-09-17",
+        "note": "標籤存在與代表作"
+      }
     ],
     "status": "verified"
   },
@@ -283,26 +724,72 @@
     "id": "metroidvania",
     "zh": "類銀河戰士惡魔城（Metroidvania）",
     "en": "Metroidvania",
-    "aliases": ["Metroidvania", "銀河惡魔城"],
+    "aliases": [
+      "Metroidvania",
+      "銀河惡魔城"
+    ],
     "cat": "genre",
     "sub": "經典作品衍生類型",
     "short": "靠新能力解鎖地圖、鼓勵回訪的 2D 探索遊戲。",
     "def": "結合《銀河戰士》與《惡魔城》特色的動作探索遊戲，核心設計是一張相互連通的大地圖、透過獲得新能力來解鎖新區域（能力門檻，例如取得二段跳後才能到達高處平台），以及回訪舊區域發現新秘密（利用新能力打開先前無法通過的通道）。這種「探索、獲得能力、解鎖新路、再探索」的循環會不斷帶來成就感，玩家會逐漸把整張地圖在腦中拼成完整拼圖。",
-    "features": ["相互連通的大地圖", "能力門檻解鎖新區域", "回訪舊區域找秘密", "2D 為主但也有 3D 變體", "強調探索節奏"],
+    "features": [
+      "相互連通的大地圖",
+      "能力門檻解鎖新區域",
+      "回訪舊區域找秘密",
+      "2D 為主但也有 3D 變體",
+      "強調探索節奏"
+    ],
     "examples": [
-      {"title": "空洞騎士", "en": "Hollow Knight", "appid": 367520, "year": 2017, "why": "地圖設計與能力解鎖節奏的當代教科書"},
-      {"title": "死亡細胞", "en": "Dead Cells", "appid": 588650, "year": 2018, "why": "把 Metroidvania 地圖結構與 Roguelite 隨機關卡結合的代表"}
+      {
+        "title": "空洞騎士",
+        "en": "Hollow Knight",
+        "appid": 367520,
+        "year": 2017,
+        "why": "地圖設計與能力解鎖節奏的當代教科書"
+      },
+      {
+        "title": "死亡細胞",
+        "en": "Dead Cells",
+        "appid": 588650,
+        "year": 2018,
+        "why": "把 Metroidvania 地圖結構與 Roguelite 隨機關卡結合的代表"
+      }
     ],
-    "steamTags": [{"tagid": 1628, "en": "Metroidvania"}],
+    "steamTags": [
+      {
+        "tagid": 1628,
+        "en": "Metroidvania"
+      }
+    ],
     "compare": [
-      {"with": "platformer", "diff": "一般平台遊戲的關卡多是線性、一次性通過；Metroidvania 的地圖是互相連通、需要反覆回訪，探索與能力解鎖才是核心而非單純跳躍挑戰。"},
-      {"with": "soulslike", "diff": "Metroidvania 考驗地圖記憶與探索規劃；Soulslike 考驗戰鬥反應與死亡懲罰，兩者可結合但重心不同。"}
+      {
+        "with": "platformer",
+        "diff": "一般平台遊戲的關卡多是線性、一次性通過；Metroidvania 的地圖是互相連通、需要反覆回訪，探索與能力解鎖才是核心而非單純跳躍挑戰。"
+      },
+      {
+        "with": "soulslike",
+        "diff": "Metroidvania 考驗地圖記憶與探索規劃；Soulslike 考驗戰鬥反應與死亡懲罰，兩者可結合但重心不同。"
+      }
     ],
-    "related": ["platformer", "soulslike", "2d-platformer"],
+    "related": [
+      "platformer",
+      "soulslike",
+      "2d-platformer"
+    ],
     "design": "地圖設計是這個類型的靈魂，建議先畫出完整的「能力獲得順序圖」與「區域解鎖流程圖」，確保探索路徑合理且有多條可選路線，並適時提供地圖系統或路標，避免玩家在大地圖中迷失方向。",
     "sources": [
-      {"title": "Wikipedia: Metroidvania", "url": "https://en.wikipedia.org/wiki/Metroidvania", "accessed": "2026-09-17", "note": "Metroidvania 定義與命名由來"},
-      {"title": "Steam 標籤頁：Metroidvania", "url": "https://store.steampowered.com/tags/en/Metroidvania/", "accessed": "2026-09-17", "note": "標籤存在與代表作"}
+      {
+        "title": "Wikipedia: Metroidvania",
+        "url": "https://en.wikipedia.org/wiki/Metroidvania",
+        "accessed": "2026-09-17",
+        "note": "Metroidvania 定義與命名由來"
+      },
+      {
+        "title": "Steam 標籤頁：Metroidvania",
+        "url": "https://store.steampowered.com/tags/en/Metroidvania/",
+        "accessed": "2026-09-17",
+        "note": "標籤存在與代表作"
+      }
     ],
     "status": "verified"
   },
@@ -310,53 +797,146 @@
     "id": "survivors-like",
     "zh": "類吸血鬼倖存者（Survivors-like）",
     "en": "Vampire Survivors-like / Bullet Heaven",
-    "aliases": ["Survivors-like", "Bullet Heaven", "倖存者類", "彈幕天堂"],
+    "aliases": [
+      "Survivors-like",
+      "Bullet Heaven",
+      "倖存者類",
+      "彈幕天堂"
+    ],
     "cat": "genre",
     "sub": "經典作品衍生類型",
     "short": "只控制移動、攻擊自動觸發的 Build 構築遊戲。",
     "def": "2022 年《吸血鬼倖存者》引爆的新興類型，玩家僅需控制移動方向，攻擊則自動執行。核心在於每次升級時從隨機選項中選擇武器或能力來構築角色配置（Build）、隨時間不斷增加的敵人數量與強度，以及「數字膨脹」帶來的爽快感轉變，開局被三隻敵人追著跑，後期一招就能清掉滿畫面的上千隻敵人。Steam 已把這個類型正式標記為 Bullet Heaven，與需要手動閃避彈幕的 Bullet Hell 剛好方向相反。",
-    "features": ["移動自動攻擊", "隨機三選一構築 Build", "敵人數量隨時間暴增", "協同效果帶來數值膨脹", "單局時間通常 15～30 分鐘"],
+    "features": [
+      "移動自動攻擊",
+      "隨機三選一構築 Build",
+      "敵人數量隨時間暴增",
+      "協同效果帶來數值膨脹",
+      "單局時間通常 15～30 分鐘"
+    ],
     "examples": [
-      {"title": "吸血鬼倖存者", "en": "Vampire Survivors", "appid": 1794680, "year": 2022, "why": "引爆整個類型的原點作品"},
-      {"title": "Brotato", "en": "Brotato", "appid": 1942280, "year": 2023, "why": "加入商店與波次防守設計的熱門變體"}
+      {
+        "title": "吸血鬼倖存者",
+        "en": "Vampire Survivors",
+        "appid": 1794680,
+        "year": 2022,
+        "why": "引爆整個類型的原點作品"
+      },
+      {
+        "title": "Brotato",
+        "en": "Brotato",
+        "appid": 1942280,
+        "year": 2023,
+        "why": "加入商店與波次防守設計的熱門變體"
+      }
     ],
-    "steamTags": [{"tagid": 723991, "en": "Bullet Heaven"}],
+    "steamTags": [
+      {
+        "tagid": 723991,
+        "en": "Bullet Heaven"
+      }
+    ],
     "compare": [
-      {"with": "roguelite", "diff": "Survivors-like 是局內構築為主、單局通常很短；Roguelite 泛指所有保留隨機生成、局外有永久成長的遊戲，範圍更廣。"},
-      {"with": "bullet-hell", "diff": "Bullet Hell 要求玩家手動閃避密集彈幕；Survivors-like（Bullet Heaven）方向相反，攻擊自動化，玩家專心走位收割敵人。"}
+      {
+        "with": "roguelite",
+        "diff": "Survivors-like 是局內構築為主、單局通常很短；Roguelite 泛指所有保留隨機生成、局外有永久成長的遊戲，範圍更廣。"
+      },
+      {
+        "with": "bullet-hell",
+        "diff": "Bullet Hell 要求玩家手動閃避密集彈幕；Survivors-like（Bullet Heaven）方向相反，攻擊自動化，玩家專心走位收割敵人。"
+      }
     ],
-    "related": ["roguelite", "action-roguelike"],
+    "related": [
+      "roguelite",
+      "action-roguelike"
+    ],
     "design": "這類遊戲開發門檻低但市場競爭激烈，差異化關鍵在 Build 組合的深度與協同效果設計，要讓玩家發現「原來這兩個能力一起用會這麼強」的驚喜時刻，才能留住玩家。",
     "sources": [
-      {"title": "Wikipedia: Vampire Survivors–like", "url": "https://en.wikipedia.org/wiki/Vampire_Survivors%E2%80%93like", "accessed": "2026-09-17", "note": "類型命名爭議與 Bullet Heaven 標籤化過程"},
-      {"title": "Steam 標籤頁：Bullet Heaven", "url": "https://store.steampowered.com/tags/en/Bullet%20Heaven/", "accessed": "2026-09-17", "note": "標籤存在"}
+      {
+        "title": "Wikipedia: Vampire Survivors–like",
+        "url": "https://en.wikipedia.org/wiki/Vampire_Survivors%E2%80%93like",
+        "accessed": "2026-09-17",
+        "note": "類型命名爭議與 Bullet Heaven 標籤化過程"
+      },
+      {
+        "title": "Steam 標籤頁：Bullet Heaven",
+        "url": "https://store.steampowered.com/tags/en/Bullet%20Heaven/",
+        "accessed": "2026-09-17",
+        "note": "標籤存在"
+      }
     ],
     "status": "verified"
   },
   {
     "id": "musou",
-    "zh": "割草遊戲（無雙 / Musou）",
+    "zh": "割草遊戲（無雙／Musou）",
     "en": "Musou / Warriors-style",
-    "aliases": ["無雙", "割草", "むそう"],
+    "aliases": [
+      "無雙",
+      "割草",
+      "むそう"
+    ],
     "cat": "genre",
     "sub": "經典作品衍生類型",
     "short": "一次擊敗大量敵人、強調爽快感的動作遊戲。",
     "def": "源自光榮《真．三國無雙》系列的類型，玩家操控強力角色在戰場上一次擊敗數十乃至數百名敵人，強調「一騎當千」的爽快感。日文「無雙」本身就代表這種力量幻覺，中文遊戲圈則以「割草」形象地形容大批殲滅雜兵的快感，就像收割草地上的雜草。這類遊戲的戰場通常有多個據點與局勢變化，玩家除了砍殺雜兵，也要應付偶爾出現的精英敵人或關鍵戰場轉折。",
-    "features": ["同時對付大量敵人", "強調力量幻覺", "戰場多據點與局勢變化", "連段簡單但畫面爽快", "偶爾穿插精英或 Boss 戰"],
+    "features": [
+      "同時對付大量敵人",
+      "強調力量幻覺",
+      "戰場多據點與局勢變化",
+      "連段簡單但畫面爽快",
+      "偶爾穿插精英或 Boss 戰"
+    ],
     "examples": [
-      {"title": "真．三國無雙7 with 猛將傳", "en": "Dynasty Warriors 8: Xtreme Legends", "appid": 278080, "year": 2014, "why": "系列代表作，確立現代割草遊戲公式"},
-      {"title": "真．三國無雙2 with 猛將傳 重製版", "en": "Dynasty Warriors 2: Xtreme Legends Remastered", "appid": 3841510, "year": 2026, "why": "系列起點的重製版，可對照公式的原型"}
+      {
+        "title": "真．三國無雙7 with 猛將傳",
+        "en": "Dynasty Warriors 8: Xtreme Legends",
+        "appid": 278080,
+        "year": 2014,
+        "why": "系列代表作，確立現代割草遊戲公式"
+      },
+      {
+        "title": "真．三國無雙2 with 猛將傳 重製版",
+        "en": "Dynasty Warriors 2: Xtreme Legends Remastered",
+        "appid": 3841510,
+        "year": 2026,
+        "why": "系列起點的重製版，可對照公式的原型"
+      }
     ],
-    "steamTags": [{"tagid": 323922, "en": "Musou"}],
+    "steamTags": [
+      {
+        "tagid": 323922,
+        "en": "Musou"
+      }
+    ],
     "compare": [
-      {"with": "hack-and-slash", "diff": "Musou 強調同時對付大量雜兵、走量取勝；Hack and Slash 更強調單一連段與戰鬥技巧的深度。"},
-      {"with": "beat-em-up", "diff": "Beat 'em up 傳統上是 2D 橫向清版、敵人數量有限；Musou 是 3D 戰場、敵人數量以數十乃至上百計。"}
+      {
+        "with": "hack-and-slash",
+        "diff": "Musou 強調同時對付大量雜兵、走量取勝；Hack and Slash 更強調單一連段與戰鬥技巧的深度。"
+      },
+      {
+        "with": "beat-em-up",
+        "diff": "Beat 'em up 傳統上是 2D 橫向清版、敵人數量有限；Musou 是 3D 戰場、敵人數量以數十乃至上百計。"
+      }
     ],
-    "related": ["hack-and-slash", "beat-em-up", "power-fantasy"],
+    "related": [
+      "hack-and-slash",
+      "beat-em-up"
+    ],
     "design": "設計時要讓玩家感受到自己的強大，但又不能完全沒有挑戰。適時加入精英敵人、Boss 戰或戰場局勢變化（例如友軍陷入危機）打破單調的收割節奏，才能製造張力與緩急之分。",
     "sources": [
-      {"title": "Wikipedia: Dynasty Warriors", "url": "https://en.wikipedia.org/wiki/Dynasty_Warriors", "accessed": "2026-09-17", "note": "Musou / Warriors 系列機制定義"},
-      {"title": "Steam 標籤頁：Musou", "url": "https://store.steampowered.com/tags/en/Musou/", "accessed": "2026-09-17", "note": "標籤存在"}
+      {
+        "title": "Wikipedia: Dynasty Warriors",
+        "url": "https://en.wikipedia.org/wiki/Dynasty_Warriors",
+        "accessed": "2026-09-17",
+        "note": "Musou / Warriors 系列機制定義"
+      },
+      {
+        "title": "Steam 標籤頁：Musou",
+        "url": "https://store.steampowered.com/tags/en/Musou/",
+        "accessed": "2026-09-17",
+        "note": "標籤存在"
+      }
     ],
     "status": "verified"
   },
@@ -364,25 +944,70 @@
     "id": "hack-and-slash",
     "zh": "砍殺遊戲（Hack and Slash）",
     "en": "Hack and Slash",
-    "aliases": ["Hack and Slash", "砍殺", "ハクスラ"],
+    "aliases": [
+      "Hack and Slash",
+      "砍殺",
+      "ハクスラ"
+    ],
     "cat": "genre",
     "sub": "經典作品衍生類型",
     "short": "強調近戰武器持續砍殺大量敵人的動作類型。",
     "def": "強調以近戰武器（劍、斧等）持續砍殺大量敵人的戰鬥方式，可能搭配次要的遠程武器，但核心永遠是揮砍的手感與節奏。這個詞有兩種常見用法：一是指第三人稱、即時近戰為主的動作遊戲；二是指桌上型角色扮演傳統中「著重戰鬥而非劇情」的遊玩態度，後來延伸到《暗黑破壞神》式強調刷裝備與砍怪效率的 ARPG，在中文與日文遊戲圈常直接音譯或簡稱為「ハクスラ」。",
-    "features": ["近戰武器為主要輸出", "持續砍殺大量敵人", "招式與連段設計", "常搭配裝備或技能成長", "節奏明快、少停頓"],
+    "features": [
+      "近戰武器為主要輸出",
+      "持續砍殺大量敵人",
+      "招式與連段設計",
+      "常搭配裝備或技能成長",
+      "節奏明快、少停頓"
+    ],
     "examples": [
-      {"title": "暗黑破壞神 IV", "en": "Diablo IV", "appid": 2344520, "year": 2023, "why": "刷裝備、砍怪效率取向的 Hack and Slash ARPG 代表"},
-      {"title": "真．三國無雙7 with 猛將傳", "en": "Dynasty Warriors 8: Xtreme Legends", "appid": 278080, "year": 2014, "why": "大量敵人近戰砍殺的動作代表"}
+      {
+        "title": "暗黑破壞神 IV",
+        "en": "Diablo IV",
+        "appid": 2344520,
+        "year": 2023,
+        "why": "刷裝備、砍怪效率取向的 Hack and Slash ARPG 代表"
+      },
+      {
+        "title": "真．三國無雙7 with 猛將傳",
+        "en": "Dynasty Warriors 8: Xtreme Legends",
+        "appid": 278080,
+        "year": 2014,
+        "why": "大量敵人近戰砍殺的動作代表"
+      }
     ],
-    "steamTags": [{"tagid": 1646, "en": "Hack and Slash"}],
+    "steamTags": [
+      {
+        "tagid": 1646,
+        "en": "Hack and Slash"
+      }
+    ],
     "compare": [
-      {"with": "character-action", "diff": "Hack and Slash 重視砍殺的量與節奏、常見於刷寶型 ARPG；Character Action 重視單一角色連段的精確度與評分系統，如《惡魔獵人》系列。"}
+      {
+        "with": "character-action",
+        "diff": "Hack and Slash 重視砍殺的量與節奏、常見於刷寶型 ARPG；Character Action 重視單一角色連段的精確度與評分系統，如《惡魔獵人》系列。"
+      }
     ],
-    "related": ["character-action", "musou", "arpg", "looter"],
+    "related": [
+      "character-action",
+      "musou",
+      "arpg",
+      "looter"
+    ],
     "design": "純粹的砍殺手感要靠打擊回饋（音效、震動、受擊動畫）撐起來，單一招式重複久了容易膩，通常要搭配裝備隨機性或敵人多樣性來維持新鮮感。",
     "sources": [
-      {"title": "Wikipedia: Hack and slash", "url": "https://en.wikipedia.org/wiki/Hack_and_slash", "accessed": "2026-09-17", "note": "Hack and Slash 的兩種用法與定義"},
-      {"title": "Steam 標籤頁：Hack and Slash", "url": "https://store.steampowered.com/tags/en/Hack%20and%20Slash/", "accessed": "2026-09-17", "note": "標籤存在"}
+      {
+        "title": "Wikipedia: Hack and slash",
+        "url": "https://en.wikipedia.org/wiki/Hack_and_slash",
+        "accessed": "2026-09-17",
+        "note": "Hack and Slash 的兩種用法與定義"
+      },
+      {
+        "title": "Steam 標籤頁：Hack and Slash",
+        "url": "https://store.steampowered.com/tags/en/Hack%20and%20Slash/",
+        "accessed": "2026-09-17",
+        "note": "標籤存在"
+      }
     ],
     "status": "verified"
   },
@@ -390,25 +1015,70 @@
     "id": "character-action",
     "zh": "角色動作遊戲（Character Action）",
     "en": "Character Action Game",
-    "aliases": ["Character Action Game", "角色動作", "DMC 系", "Extreme Combat"],
+    "aliases": [
+      "Character Action Game",
+      "角色動作",
+      "DMC 系",
+      "Extreme Combat"
+    ],
     "cat": "genre",
     "sub": "經典作品衍生類型",
     "short": "強調招式連段深度與評分系統的高技巧動作遊戲。",
     "def": "以《惡魔獵人》系列為起點的動作遊戲子類，被稱為「Character Action」或「Extreme Combat」，核心是單一角色的招式深度：連段、取消、閃避、格擋要能自由組合，並用即時評分系統（通常是 S、A、B、C 等級）獎勵玩家打得多華麗，而不只是打贏。與砍殺大量雜兵的 Hack and Slash 不同，Character Action 更重視「怎麼打」而非「打多少」，操作上限極高，是硬核動作玩家的競技場。",
-    "features": ["高自由度連段與取消", "即時戰鬥評分系統", "單一主角深度招式", "強調風格化演出", "操作技術上限高"],
+    "features": [
+      "高自由度連段與取消",
+      "即時戰鬥評分系統",
+      "單一主角深度招式",
+      "強調風格化演出",
+      "操作技術上限高"
+    ],
     "examples": [
-      {"title": "惡魔獵人5", "en": "Devil May Cry 5", "appid": 601150, "year": 2019, "why": "確立現代 Character Action 評分與連段公式的代表"},
-      {"title": "獵天使魔女", "en": "Bayonetta", "appid": 460790, "year": 2017, "why": "以魔女時間與華麗演出聞名的類型代表作"}
+      {
+        "title": "惡魔獵人5",
+        "en": "Devil May Cry 5",
+        "appid": 601150,
+        "year": 2019,
+        "why": "確立現代 Character Action 評分與連段公式的代表"
+      },
+      {
+        "title": "獵天使魔女",
+        "en": "Bayonetta",
+        "appid": 460790,
+        "year": 2017,
+        "why": "以魔女時間與華麗演出聞名的類型代表作"
+      }
     ],
-    "steamTags": [{"tagid": 3955, "en": "Character Action Game"}],
+    "steamTags": [
+      {
+        "tagid": 3955,
+        "en": "Character Action Game"
+      }
+    ],
     "compare": [
-      {"with": "hack-and-slash", "diff": "Character Action 重視招式深度與評分、走量而非數量；Hack and Slash 更常見於強調刷裝備效率與大量敵人的砍殺類型。"}
+      {
+        "with": "hack-and-slash",
+        "diff": "Character Action 重視招式深度與評分、走量而非數量；Hack and Slash 更常見於強調刷裝備效率與大量敵人的砍殺類型。"
+      }
     ],
-    "related": ["hack-and-slash", "action-game", "fighting-game"],
+    "related": [
+      "hack-and-slash",
+      "action-game",
+      "fighting-game"
+    ],
     "design": "評分系統是這類遊戲的教學工具，要透過扣分或降級提示玩家「重複同一招」或「站著不動」不夠好，引導玩家主動探索更多招式組合，而不是只靠文字教學。",
     "sources": [
-      {"title": "Wikipedia: Devil May Cry (video game)", "url": "https://en.wikipedia.org/wiki/Devil_May_Cry_(video_game)", "accessed": "2026-09-17", "note": "Character Action / Extreme Combat 子類型命名起源"},
-      {"title": "Steam 標籤頁：Character Action Game", "url": "https://store.steampowered.com/tags/en/Character%20Action%20Game/", "accessed": "2026-09-17", "note": "標籤存在"}
+      {
+        "title": "Wikipedia: Devil May Cry (video game)",
+        "url": "https://en.wikipedia.org/wiki/Devil_May_Cry_(video_game)",
+        "accessed": "2026-09-17",
+        "note": "Character Action / Extreme Combat 子類型命名起源"
+      },
+      {
+        "title": "Steam 標籤頁：Character Action Game",
+        "url": "https://store.steampowered.com/tags/en/Character%20Action%20Game/",
+        "accessed": "2026-09-17",
+        "note": "標籤存在"
+      }
     ],
     "status": "verified"
   },
@@ -416,25 +1086,70 @@
     "id": "roguelike",
     "zh": "Roguelike（肉鴿）",
     "en": "Roguelike",
-    "aliases": ["肉鴿", "類 Rogue", "ローグライク"],
+    "aliases": [
+      "肉鴿",
+      "類 Rogue",
+      "ローグライク"
+    ],
     "cat": "genre",
     "sub": "Roguelike 家族",
     "short": "每局隨機生成、死亡即重來、局內不留進度的類型。",
     "def": "源自 1980 年的遊戲《洛格》（Rogue），嚴格定義包括永久死亡（角色死亡後失去所有進度，必須從頭開始）、程序化生成關卡（每次遊玩的地圖布局都不同）、回合制戰鬥，以及基於方格的移動。根據 2008 年「柏林詮釋」，一份由 Roguelike 開發者社群共同制定、可視為這個類型「憲法」的定義文件，完全符合這些條件的才算「正統」Roguelike，只符合部分條件的則被歸類為 Roguelite。",
-    "features": ["永久死亡（Permadeath）", "程序化生成關卡", "回合制戰鬥", "基於方格的移動", "局內進度全歸零"],
+    "features": [
+      "永久死亡（Permadeath）",
+      "程序化生成關卡",
+      "回合制戰鬥",
+      "基於方格的移動",
+      "局內進度全歸零"
+    ],
     "examples": [
-      {"title": "Caves of Qud", "en": "Caves of Qud", "appid": 333640, "year": 2024, "why": "承襲柏林詮釋核心要素的當代正統 Roguelike"},
-      {"title": "NetHack", "en": "NetHack", "appid": null, "year": 1987, "why": "柏林詮釋制定時的五款「正典」Roguelike 之一"}
+      {
+        "title": "Caves of Qud",
+        "en": "Caves of Qud",
+        "appid": 333640,
+        "year": 2024,
+        "why": "承襲柏林詮釋核心要素的當代正統 Roguelike"
+      },
+      {
+        "title": "NetHack",
+        "en": "NetHack",
+        "appid": 837200,
+        "year": 1987,
+        "why": "柏林詮釋制定時的五款「正典」Roguelike 之一"
+      }
     ],
-    "steamTags": [{"tagid": 1716, "en": "Roguelike"}],
+    "steamTags": [
+      {
+        "tagid": 1716,
+        "en": "Roguelike"
+      }
+    ],
     "compare": [
-      {"with": "roguelite", "diff": "Roguelike 嚴格符合柏林詮釋、局內死亡進度全歸零；Roguelite 保留部分特徵，但加入局外永久成長，死亡不會完全白費。"}
+      {
+        "with": "roguelite",
+        "diff": "Roguelike 嚴格符合柏林詮釋、局內死亡進度全歸零；Roguelite 保留部分特徵，但加入局外永久成長，死亡不會完全白費。"
+      }
     ],
-    "related": ["roguelite", "action-roguelike", "traditional-roguelike", "permadeath"],
+    "related": [
+      "roguelite",
+      "action-roguelike",
+      "traditional-roguelike",
+      "permadeath"
+    ],
     "design": "傳統 Roguelike 受眾較窄，但設計哲學影響深遠。永久死亡機制讓每一步決策都充滿重量感，因為玩家知道一個錯誤就可能葬送數小時的努力，這種張力是這個類型的核心魅力。",
     "sources": [
-      {"title": "Wikipedia: Roguelike", "url": "https://en.wikipedia.org/wiki/Roguelike", "accessed": "2026-09-17", "note": "柏林詮釋（2008）與 Roguelike 嚴格定義"},
-      {"title": "Steam 標籤頁：Roguelike", "url": "https://store.steampowered.com/tags/en/Roguelike/", "accessed": "2026-09-17", "note": "標籤存在與代表作"}
+      {
+        "title": "Wikipedia: Roguelike",
+        "url": "https://en.wikipedia.org/wiki/Roguelike",
+        "accessed": "2026-09-17",
+        "note": "柏林詮釋（2008）與 Roguelike 嚴格定義"
+      },
+      {
+        "title": "Steam 標籤頁：Roguelike",
+        "url": "https://store.steampowered.com/tags/en/Roguelike/",
+        "accessed": "2026-09-17",
+        "note": "標籤存在與代表作"
+      }
     ],
     "status": "verified"
   },
@@ -442,24 +1157,63 @@
     "id": "roguelite",
     "zh": "Roguelite（輕度肉鴿）",
     "en": "Roguelite",
-    "aliases": ["Roguelite", "輕度 Rogue", "Rogue-lite"],
+    "aliases": [
+      "Roguelite",
+      "輕度 Rogue",
+      "Rogue-lite"
+    ],
     "cat": "genre",
     "sub": "Roguelike 家族",
     "short": "保留部分 Roguelike 特徵、加入局外永久成長的類型。",
     "def": "保留 Roguelike 的部分特徵（程序化生成、每局重新開始），但加入「局外成長」（Meta-progression）機制：在跨越單次遊玩範圍的「局外」累積永久成長，例如每次死亡後用收集到的貨幣解鎖新武器或永久提升基礎能力。這意味著即使這一局失敗了，努力也不會完全白費，下一局會因為解鎖新選項而有不同體驗，大幅降低了永久死亡的挫折感，是目前市場接受度最高的 Roguelike 變體。",
-    "features": ["程序化生成、每局重來", "局外永久成長（Meta-progression）", "死亡仍保留部分收穫", "常結合其他戰鬥類型", "重玩價值高"],
+    "features": [
+      "程序化生成、每局重來",
+      "局外永久成長（Meta-progression）",
+      "死亡仍保留部分收穫",
+      "常結合其他戰鬥類型",
+      "重玩價值高"
+    ],
     "examples": [
-      {"title": "黑帝斯", "en": "Hades", "appid": 1145360, "year": 2020, "why": "把局外成長與敘事結合的教科書級 Roguelite"},
-      {"title": "死亡細胞", "en": "Dead Cells", "appid": 588650, "year": 2018, "why": "動作平台結合 Roguelite 局外強化的代表"}
+      {
+        "title": "黑帝斯",
+        "en": "Hades",
+        "appid": 1145360,
+        "year": 2020,
+        "why": "把局外成長與敘事結合的教科書級 Roguelite"
+      },
+      {
+        "title": "死亡細胞",
+        "en": "Dead Cells",
+        "appid": 588650,
+        "year": 2018,
+        "why": "動作平台結合 Roguelite 局外強化的代表"
+      }
     ],
-    "steamTags": [{"tagid": 3959, "en": "Roguelite"}],
+    "steamTags": [
+      {
+        "tagid": 3959,
+        "en": "Roguelite"
+      }
+    ],
     "compare": [
-      {"with": "roguelike", "diff": "Roguelite 保留部分 Roguelike 特徵並加入局外永久成長；Roguelike 嚴格符合柏林詮釋、局內死亡進度全歸零。"}
+      {
+        "with": "roguelike",
+        "diff": "Roguelite 保留部分 Roguelike 特徵並加入局外永久成長；Roguelike 嚴格符合柏林詮釋、局內死亡進度全歸零。"
+      }
     ],
-    "related": ["roguelike", "action-roguelike", "meta-progression"],
+    "related": [
+      "roguelike",
+      "action-roguelike",
+      "meta-progression"
+    ],
     "design": "設計關鍵在「局內隨機」與「局外成長」的平衡：永久進度不能太強以致遊戲變成單純刷等級就能過關、削弱每局的緊張感，也不能太弱讓玩家覺得死亡沒有收穫，理想狀態是每次死亡都讓玩家想「再來一局」。",
     "sources": [
-      {"title": "Wikipedia: Roguelike", "url": "https://en.wikipedia.org/wiki/Roguelike", "accessed": "2026-09-17", "note": "Roguelite（Rogue-lite）定義與局外成長機制"}
+      {
+        "title": "Wikipedia: Roguelike",
+        "url": "https://en.wikipedia.org/wiki/Roguelike",
+        "accessed": "2026-09-17",
+        "note": "Roguelite（Rogue-lite）定義與局外成長機制"
+      }
     ],
     "status": "verified"
   },
@@ -467,25 +1221,68 @@
     "id": "action-roguelike",
     "zh": "動作類 Rogue（Action Roguelike）",
     "en": "Action Roguelike",
-    "aliases": ["Action Roguelike", "動作 Roguelite"],
+    "aliases": [
+      "Action Roguelike",
+      "動作 Roguelite"
+    ],
     "cat": "genre",
     "sub": "Roguelike 家族",
     "short": "以即時動作戰鬥為主、結合隨機生成的 Roguelite。",
     "def": "把 Roguelite 的程序化生成與局外成長，結合即時動作戰鬥（而非回合制與方格移動）的分支，是目前 Steam 上最主流的 Roguelike 家族成員。玩家操作角色即時移動、攻擊、閃避，每局透過隨機提供的武器或能力構築 Build，戰鬥考驗操作反應，而不是回合制的策略布局。這個分支的興起讓 Roguelike 的核心哲學（隨機性、死亡與重來）觸及到遠比傳統回合制更大的玩家群。",
-    "features": ["即時動作戰鬥", "程序化生成關卡", "局內隨機 Build 構築", "局外永久成長", "高重玩價值"],
+    "features": [
+      "即時動作戰鬥",
+      "程序化生成關卡",
+      "局內隨機 Build 構築",
+      "局外永久成長",
+      "高重玩價值"
+    ],
     "examples": [
-      {"title": "黑帝斯", "en": "Hades", "appid": 1145360, "year": 2020, "why": "即時動作戰鬥結合局外成長的代表作"},
-      {"title": "挺進地牢", "en": "Enter the Gungeon", "appid": 311690, "year": 2016, "why": "彈幕閃避結合房間隨機生成的動作 Roguelite"}
+      {
+        "title": "黑帝斯",
+        "en": "Hades",
+        "appid": 1145360,
+        "year": 2020,
+        "why": "即時動作戰鬥結合局外成長的代表作"
+      },
+      {
+        "title": "挺進地牢",
+        "en": "Enter the Gungeon",
+        "appid": 311690,
+        "year": 2016,
+        "why": "彈幕閃避結合房間隨機生成的動作 Roguelite"
+      }
     ],
-    "steamTags": [{"tagid": 42804, "en": "Action Roguelike"}],
+    "steamTags": [
+      {
+        "tagid": 42804,
+        "en": "Action Roguelike"
+      }
+    ],
     "compare": [
-      {"with": "traditional-roguelike", "diff": "Action Roguelike 以即時動作戰鬥與方便上手的局外成長為主，戰鬥考驗反應；Traditional Roguelike 堅持回合制、方格移動與嚴格永久死亡，考驗策略判斷，受眾更窄但更純粹。"}
+      {
+        "with": "traditional-roguelike",
+        "diff": "Action Roguelike 以即時動作戰鬥與方便上手的局外成長為主，戰鬥考驗反應；Traditional Roguelike 堅持回合制、方格移動與嚴格永久死亡，考驗策略判斷，受眾更窄但更純粹。"
+      }
     ],
-    "related": ["traditional-roguelike", "roguelite", "roguelike-deckbuilder"],
+    "related": [
+      "traditional-roguelike",
+      "roguelite",
+      "roguelike-deckbuilder"
+    ],
     "design": "動作類 Roguelike 要在「隨機性」與「操作公平性」間取捨：武器或能力池要夠大才有新鮮感，但也要避免出現「純廢物」選項讓玩家覺得這局注定失敗。",
     "sources": [
-      {"title": "Steam 標籤頁：Action Roguelike", "url": "https://store.steampowered.com/tags/en/Action%20Roguelike/", "accessed": "2026-09-17", "note": "標籤存在與代表作"},
-      {"title": "Wikipedia: Roguelike", "url": "https://en.wikipedia.org/wiki/Roguelike", "accessed": "2026-09-17", "note": "Roguelike 變體與現代動作化趨勢"}
+      {
+        "title": "Steam 標籤頁：Action Roguelike",
+        "url": "https://store.steampowered.com/tags/en/Action%20Roguelike/",
+        "accessed": "2026-09-17",
+        "note": "標籤存在與代表作"
+      },
+      {
+        "title": "Wikipedia: Roguelike",
+        "url": "https://en.wikipedia.org/wiki/Roguelike",
+        "accessed": "2026-09-17",
+        "note": "Roguelike 變體與現代動作化趨勢"
+      }
     ],
     "status": "verified"
   },
@@ -493,24 +1290,62 @@
     "id": "traditional-roguelike",
     "zh": "傳統 Roguelike（Traditional Roguelike）",
     "en": "Traditional Roguelike",
-    "aliases": ["Traditional Roguelike", "正統 Roguelike"],
+    "aliases": [
+      "Traditional Roguelike",
+      "正統 Roguelike"
+    ],
     "cat": "genre",
     "sub": "Roguelike 家族",
     "short": "嚴格遵守柏林詮釋、回合制方格移動的正統派。",
     "def": "嚴格遵守柏林詮釋定義的 Roguelike 分支，堅持回合制戰鬥、基於方格的移動、程序化生成地牢，以及不打折扣的永久死亡，通常沒有局外成長系統，每一局都是完全獨立的挑戰。介面上常見文字或簡化符號呈現（承襲自最早期的 Rogue），系統深度極高，允許大量物品、藥水、卷軸互相組合的複雜互動，受眾雖小眾但社群黏著度極高，是這整個類型家族最原始的分支。",
-    "features": ["嚴格永久死亡", "回合制、方格移動", "地牢程序化生成", "系統互動複雜度高", "通常無局外成長"],
+    "features": [
+      "嚴格永久死亡",
+      "回合制、方格移動",
+      "地牢程序化生成",
+      "系統互動複雜度高",
+      "通常無局外成長"
+    ],
     "examples": [
-      {"title": "Caves of Qud", "en": "Caves of Qud", "appid": 333640, "year": 2024, "why": "延續傳統 Roguelike 系統深度並加入現代美術的代表"},
-      {"title": "NetHack", "en": "NetHack", "appid": null, "year": 1987, "why": "至今仍在更新、系統互動最複雜的傳統 Roguelike 之一"}
+      {
+        "title": "Caves of Qud",
+        "en": "Caves of Qud",
+        "appid": 333640,
+        "year": 2024,
+        "why": "延續傳統 Roguelike 系統深度並加入現代美術的代表"
+      },
+      {
+        "title": "NetHack",
+        "en": "NetHack",
+        "appid": 837200,
+        "year": 1987,
+        "why": "至今仍在更新、系統互動最複雜的傳統 Roguelike 之一"
+      }
     ],
-    "steamTags": [{"tagid": 1716, "en": "Roguelike"}],
+    "steamTags": [
+      {
+        "tagid": 454187,
+        "en": "Traditional Roguelike"
+      }
+    ],
     "compare": [
-      {"with": "action-roguelike", "diff": "Traditional Roguelike 堅持回合制、方格移動與嚴格永久死亡，考驗策略判斷；Action Roguelike 改成即時動作戰鬥並常帶局外成長，考驗操作反應，受眾更大眾化。"}
+      {
+        "with": "action-roguelike",
+        "diff": "Traditional Roguelike 堅持回合制、方格移動與嚴格永久死亡，考驗策略判斷；Action Roguelike 改成即時動作戰鬥並常帶局外成長，考驗操作反應，受眾更大眾化。"
+      }
     ],
-    "related": ["action-roguelike", "roguelike", "permadeath"],
+    "related": [
+      "action-roguelike",
+      "roguelike",
+      "permadeath"
+    ],
     "design": "傳統 Roguelike 的深度來自系統間的化學反應（藥水、卷軸、怪物特性互相組合），設計時要確保「規則一致」，讓老手能用知識而非運氣穩定通關，這是留住核心玩家的關鍵。",
     "sources": [
-      {"title": "Wikipedia: Roguelike", "url": "https://en.wikipedia.org/wiki/Roguelike", "accessed": "2026-09-17", "note": "柏林詮釋高價值因素與傳統派定義"}
+      {
+        "title": "Wikipedia: Roguelike",
+        "url": "https://en.wikipedia.org/wiki/Roguelike",
+        "accessed": "2026-09-17",
+        "note": "柏林詮釋高價值因素與傳統派定義"
+      }
     ],
     "status": "verified"
   },
@@ -518,25 +1353,65 @@
     "id": "roguelike-deckbuilder",
     "zh": "Roguelike 牌組構築（Roguelike Deckbuilder）",
     "en": "Roguelike Deckbuilder",
-    "aliases": ["Roguelike Deckbuilder", "肉鴿卡牌"],
+    "aliases": [
+      "Roguelike Deckbuilder",
+      "肉鴿卡牌"
+    ],
     "cat": "genre",
     "sub": "Roguelike 家族",
     "short": "每局重新構築牌組、局外可永久解鎖新卡的類型。",
     "def": "把牌組構築（Deckbuilding）與 Roguelike／Roguelite 的隨機生成、每局重來結合的類型。玩家每局從基礎牌組開始，透過戰鬥或事件獎勵逐步加入新卡、移除弱卡，組成一套獨特的策略；死亡後這一局的牌組消失，但常保留局外解鎖（新卡池、新角色）的永久進度。這個組合讓每局都是一次從零開始的策略實驗，卡牌之間的協同效果是主要的驚喜來源，是近年最成功的獨立遊戲組合類型之一。",
-    "features": ["局內即時構築牌組", "程序化生成的戰鬥與事件路徑", "局外可解鎖新卡與角色", "卡牌協同效果為核心樂趣", "回合制卡牌戰鬥"],
+    "features": [
+      "局內即時構築牌組",
+      "程序化生成的戰鬥與事件路徑",
+      "局外可解鎖新卡與角色",
+      "卡牌協同效果為核心樂趣",
+      "回合制卡牌戰鬥"
+    ],
     "examples": [
-      {"title": "殺戮尖塔", "en": "Slay the Spire", "appid": 646570, "year": 2019, "why": "確立現代 Roguelike Deckbuilder 公式的開創作品"},
-      {"title": "巴拉特羅", "en": "Balatro", "appid": 2379780, "year": 2024, "why": "把撲克牌型與 Roguelike 構築結合的現象級作品"}
+      {
+        "title": "殺戮尖塔",
+        "en": "Slay the Spire",
+        "appid": 646570,
+        "year": 2019,
+        "why": "確立現代 Roguelike Deckbuilder 公式的開創作品"
+      },
+      {
+        "title": "巴拉特羅",
+        "en": "Balatro",
+        "appid": 2379780,
+        "year": 2024,
+        "why": "把撲克牌型與 Roguelike 構築結合的現象級作品"
+      }
     ],
-    "steamTags": [{"tagid": 1091588, "en": "Roguelike Deckbuilder"}],
+    "steamTags": [
+      {
+        "tagid": 1091588,
+        "en": "Roguelike Deckbuilder"
+      }
+    ],
     "compare": [
-      {"with": "deckbuilder", "diff": "一般 Deckbuilder（如集換式卡牌對戰）著重長期收藏與對戰平衡；Roguelike Deckbuilder 每局重新構築、強調單局內的隨機協同與死亡重來。"},
-      {"with": "roguelite", "diff": "Roguelike Deckbuilder 是 Roguelite 底下以卡牌構築為戰鬥核心的子類，其餘 Roguelite 可能是動作、射擊等其他戰鬥形式。"}
+      {
+        "with": "deckbuilder",
+        "diff": "一般 Deckbuilder（如集換式卡牌對戰）著重長期收藏與對戰平衡；Roguelike Deckbuilder 每局重新構築、強調單局內的隨機協同與死亡重來。"
+      },
+      {
+        "with": "roguelite",
+        "diff": "Roguelike Deckbuilder 是 Roguelite 底下以卡牌構築為戰鬥核心的子類，其餘 Roguelite 可能是動作、射擊等其他戰鬥形式。"
+      }
     ],
-    "related": ["roguelite", "action-roguelike"],
+    "related": [
+      "roguelite",
+      "action-roguelike"
+    ],
     "design": "卡牌池的設計要確保「協同發現」的樂趣，例如一張牌讓攻擊附帶中毒、另一張牌對中毒敵人造成雙倍傷害，兩者結合就是爆炸性組合；同時要避免出現支配一切的萬能卡，破壞每局的策略多樣性。",
     "sources": [
-      {"title": "Steam 標籤頁：Roguelike Deckbuilder", "url": "https://store.steampowered.com/tags/en/Roguelike%20Deckbuilder/", "accessed": "2026-09-17", "note": "標籤存在與代表作"}
+      {
+        "title": "Steam 標籤頁：Roguelike Deckbuilder",
+        "url": "https://store.steampowered.com/tags/en/Roguelike%20Deckbuilder/",
+        "accessed": "2026-09-17",
+        "note": "標籤存在與代表作"
+      }
     ],
     "status": "verified"
   },
@@ -544,26 +1419,73 @@
     "id": "dungeon-crawler",
     "zh": "地城探索（Dungeon Crawler）",
     "en": "Dungeon Crawler",
-    "aliases": ["Dungeon Crawler", "地城爬行", "迷宮探索"],
+    "aliases": [
+      "Dungeon Crawler",
+      "地城爬行",
+      "迷宮探索"
+    ],
     "cat": "genre",
     "sub": "Roguelike 家族",
     "short": "在迷宮般的地城中戰鬥、避陷阱、找寶物的類型。",
     "def": "玩家在迷宮般的地城環境中探索，一邊與怪物戰鬥、避開陷阱、解謎，一邊搜刮沿路的寶物與裝備。這種場景設計最早出現在 1975 年的桌上遊戲與早期電腦遊戲，後來成為奇幻 RPG 最常見的核心場景之一。地城探索可以是回合制或即時，可以是第一人稱格狀移動，也可以是俯視角的隊伍操作，共通點是「深入未知空間、資源逐漸消耗、越深越危險」的節奏感。",
-    "features": ["迷宮式地城場景", "戰鬥、陷阱、解謎交錯", "資源與補給逐漸消耗", "越深入越危險的節奏", "戰利品搜刮驅動探索"],
+    "features": [
+      "迷宮式地城場景",
+      "戰鬥、陷阱、解謎交錯",
+      "資源與補給逐漸消耗",
+      "越深入越危險的節奏",
+      "戰利品搜刮驅動探索"
+    ],
     "examples": [
-      {"title": "暗黑地牢", "en": "Darkest Dungeon", "appid": 262060, "year": 2016, "why": "把心理壓力與資源管理帶入地城探索的代表"},
-      {"title": "暗黑地牢2", "en": "Darkest Dungeon II", "appid": 1940340, "year": 2023, "why": "把地城探索與公路旅行式局外結構結合的續作"}
+      {
+        "title": "暗黑地牢",
+        "en": "Darkest Dungeon",
+        "appid": 262060,
+        "year": 2016,
+        "why": "把心理壓力與資源管理帶入地城探索的代表"
+      },
+      {
+        "title": "暗黑地牢2",
+        "en": "Darkest Dungeon II",
+        "appid": 1940340,
+        "year": 2023,
+        "why": "把地城探索與公路旅行式局外結構結合的續作"
+      }
     ],
-    "steamTags": [{"tagid": 1720, "en": "Dungeon Crawler"}],
+    "steamTags": [
+      {
+        "tagid": 1720,
+        "en": "Dungeon Crawler"
+      }
+    ],
     "compare": [
-      {"with": "metroidvania", "diff": "Dungeon Crawler 的地城通常一次性深入、資源會逐漸耗盡；Metroidvania 的地圖是持續互相連通、鼓勵反覆回訪而非單向深入。"},
-      {"with": "crpg", "diff": "Dungeon Crawler 強調地城場景本身的探索節奏；CRPG 是更廣的角色扮演分支，地城探索只是其中常見的一種場景設計。"}
+      {
+        "with": "metroidvania",
+        "diff": "Dungeon Crawler 的地城通常一次性深入、資源會逐漸耗盡；Metroidvania 的地圖是持續互相連通、鼓勵反覆回訪而非單向深入。"
+      },
+      {
+        "with": "crpg",
+        "diff": "Dungeon Crawler 強調地城場景本身的探索節奏；CRPG 是更廣的角色扮演分支，地城探索只是其中常見的一種場景設計。"
+      }
     ],
-    "related": ["crpg", "metroidvania", "roguelike"],
+    "related": [
+      "crpg",
+      "metroidvania",
+      "roguelike"
+    ],
     "design": "地城探索的張力來自「資源會不會撐到下一個安全點」，補給品（火把、糧食、治療）的配置密度要精算，太寬鬆會失去壓迫感，太吝嗇會讓玩家覺得懲罰性太強而放棄深入。",
     "sources": [
-      {"title": "Wikipedia: Dungeon crawl", "url": "https://en.wikipedia.org/wiki/Dungeon_crawl", "accessed": "2026-09-17", "note": "Dungeon Crawler 場景定義與桌遊起源"},
-      {"title": "Steam 標籤頁：Dungeon Crawler", "url": "https://store.steampowered.com/tags/en/Dungeon%20Crawler/", "accessed": "2026-09-17", "note": "標籤存在與代表作"}
+      {
+        "title": "Wikipedia: Dungeon crawl",
+        "url": "https://en.wikipedia.org/wiki/Dungeon_crawl",
+        "accessed": "2026-09-17",
+        "note": "Dungeon Crawler 場景定義與桌遊起源"
+      },
+      {
+        "title": "Steam 標籤頁：Dungeon Crawler",
+        "url": "https://store.steampowered.com/tags/en/Dungeon%20Crawler/",
+        "accessed": "2026-09-17",
+        "note": "標籤存在與代表作"
+      }
     ],
     "status": "verified"
   },
@@ -571,25 +1493,69 @@
     "id": "looter",
     "zh": "刷寶遊戲（Looter）",
     "en": "Looter",
-    "aliases": ["Looter", "刷寶", "刷裝備"],
+    "aliases": [
+      "Looter",
+      "刷寶",
+      "刷裝備"
+    ],
     "cat": "genre",
     "sub": "刷寶與收集類",
     "short": "以持續獲得更好裝備為核心驅動力的遊戲。",
     "def": "以「持續獲得更好裝備」作為核心驅動力的遊戲設計，戰鬥本身雖然重要，但玩家真正追逐的是打怪或完成關卡後掉落的裝備，裝備依稀有度分級（普通、稀有、史詩、傳說等），數值與詞綴常帶隨機性，讓每次掉落都有開獎般的期待感。這種設計最早在《暗黑破壞神》系列被發揚光大，後來延伸到刷寶射擊等不同戰鬥形式，掉落率與數值成長曲線的調校，直接決定玩家願不願意持續刷下去。",
-    "features": ["裝備稀有度分級", "隨機詞綴與數值", "掉落驅動的重複遊玩", "強調刷裝效率", "常搭配交易或拍賣系統"],
+    "features": [
+      "裝備稀有度分級",
+      "隨機詞綴與數值",
+      "掉落驅動的重複遊玩",
+      "強調刷裝效率",
+      "常搭配交易或拍賣系統"
+    ],
     "examples": [
-      {"title": "暗黑破壞神 IV", "en": "Diablo IV", "appid": 2344520, "year": 2023, "why": "確立刷寶型 ARPG 掉落系統公式的長青系列"},
-      {"title": "流亡黯道2", "en": "Path of Exile 2", "appid": 3260140, "year": 2025, "why": "以極深詞綴系統與技能構築聞名的硬核刷寶代表"}
+      {
+        "title": "暗黑破壞神 IV",
+        "en": "Diablo IV",
+        "appid": 2344520,
+        "year": 2023,
+        "why": "確立刷寶型 ARPG 掉落系統公式的長青系列"
+      },
+      {
+        "title": "流亡黯道2",
+        "en": "Path of Exile 2",
+        "appid": 3260140,
+        "year": 2025,
+        "why": "以極深詞綴系統與技能構築聞名的硬核刷寶代表"
+      }
     ],
-    "steamTags": [{"tagid": 4236, "en": "Loot"}],
+    "steamTags": [
+      {
+        "tagid": 4236,
+        "en": "Loot"
+      }
+    ],
     "compare": [
-      {"with": "looter-shooter", "diff": "Looter 泛指所有以裝備掉落為核心驅動力的遊戲，常見於近戰 ARPG；Looter Shooter 特指把這套掉落系統套在射擊遊戲上的子類。"}
+      {
+        "with": "looter-shooter",
+        "diff": "Looter 泛指所有以裝備掉落為核心驅動力的遊戲，常見於近戰 ARPG；Looter Shooter 特指把這套掉落系統套在射擊遊戲上的子類。"
+      }
     ],
-    "related": ["looter-shooter", "arpg", "loot-table"],
+    "related": [
+      "looter-shooter",
+      "arpg",
+      "loot-table"
+    ],
     "design": "刷寶遊戲的核心公式是「掉落率 × 期望值 × 稀有度分佈」，太容易拿到頂級裝備會讓刷裝失去意義，太難則讓玩家覺得努力沒有回報，通常要搭配保底或漸進提升機率的設計避免純粹賭運氣。",
     "sources": [
-      {"title": "Steam 標籤頁：Loot", "url": "https://store.steampowered.com/tags/en/Loot/", "accessed": "2026-09-17", "note": "標籤存在與代表作"},
-      {"title": "Wikipedia: Looter shooter", "url": "https://en.wikipedia.org/wiki/Looter_shooter", "accessed": "2026-09-17", "note": "刷寶設計的掉落與稀有度機制說明"}
+      {
+        "title": "Steam 標籤頁：Loot",
+        "url": "https://store.steampowered.com/tags/en/Loot/",
+        "accessed": "2026-09-17",
+        "note": "標籤存在與代表作"
+      },
+      {
+        "title": "Wikipedia: Looter shooter",
+        "url": "https://en.wikipedia.org/wiki/Looter_shooter",
+        "accessed": "2026-09-17",
+        "note": "刷寶設計的掉落與稀有度機制說明"
+      }
     ],
     "status": "verified"
   },
@@ -597,51 +1563,137 @@
     "id": "looter-shooter",
     "zh": "刷寶射擊（Looter Shooter）",
     "en": "Looter Shooter",
-    "aliases": ["Looter Shooter", "刷寶槍戰"],
+    "aliases": [
+      "Looter Shooter",
+      "刷寶槍戰"
+    ],
     "cat": "genre",
     "sub": "刷寶與收集類",
     "short": "把裝備掉落系統套在射擊戰鬥上的子類。",
     "def": "把 ARPG 的裝備稀有度與隨機詞綴系統，套用在以槍械為主要武器的射擊戰鬥上的子類，主要遊玩重心是不斷擊敗敵人或完成任務，取得更好的槍械與護甲，武器常帶有影響外觀與數值的隨機詞綴，稀有度從普通到傳說不等。許多作品採用長期營運模式，持續推出新賽季、新武器與新地圖，但也容易因為內容更新跟不上刷裝速度而讓玩家倦怠。",
-    "features": ["槍械裝備隨機詞綴", "稀有度分級掉落", "持續任務與活動更新", "強調刷裝效率", "常見長期營運模式"],
+    "features": [
+      "槍械裝備隨機詞綴",
+      "稀有度分級掉落",
+      "持續任務與活動更新",
+      "強調刷裝效率",
+      "常見長期營運模式"
+    ],
     "examples": [
-      {"title": "邊緣禁地4", "en": "Borderlands 4", "appid": 1285190, "year": 2025, "why": "以誇張武器詞綴組合聞名的類型代表系列"},
-      {"title": "天命2", "en": "Destiny 2", "appid": 1085660, "year": 2019, "why": "結合射擊手感與長期營運賽季內容的代表作"}
+      {
+        "title": "邊緣禁地4",
+        "en": "Borderlands 4",
+        "appid": 1285190,
+        "year": 2025,
+        "why": "以誇張武器詞綴組合聞名的類型代表系列"
+      },
+      {
+        "title": "天命2",
+        "en": "Destiny 2",
+        "appid": 1085660,
+        "year": 2019,
+        "why": "結合射擊手感與長期營運賽季內容的代表作"
+      }
     ],
-    "steamTags": [{"tagid": 353880, "en": "Looter Shooter"}],
+    "steamTags": [
+      {
+        "tagid": 353880,
+        "en": "Looter Shooter"
+      }
+    ],
     "compare": [
-      {"with": "looter", "diff": "Looter Shooter 特指以槍械戰鬥為核心的刷寶遊戲；Looter 是更廣的泛稱，也包含近戰為主的 ARPG 如《暗黑破壞神》。"}
+      {
+        "with": "looter",
+        "diff": "Looter Shooter 特指以槍械戰鬥為核心的刷寶遊戲；Looter 是更廣的泛稱，也包含近戰為主的 ARPG 如《暗黑破壞神》。"
+      }
     ],
-    "related": ["looter", "hero-shooter"],
+    "related": [
+      "looter",
+      "hero-shooter"
+    ],
     "design": "刷寶射擊要同時顧好「槍械手感」與「數值成長」，槍感不好，玩家不會想長時間刷；數值曲線失衡，槍感再好也留不住人。長期營運要注意內容產出速度必須跟得上玩家刷裝的速度。",
     "sources": [
-      {"title": "Wikipedia: Looter shooter", "url": "https://en.wikipedia.org/wiki/Looter_shooter", "accessed": "2026-09-17", "note": "Looter Shooter 定義與代表作"},
-      {"title": "Steam 標籤頁：Looter Shooter", "url": "https://store.steampowered.com/tags/en/Looter%20Shooter/", "accessed": "2026-09-17", "note": "標籤存在"}
+      {
+        "title": "Wikipedia: Looter shooter",
+        "url": "https://en.wikipedia.org/wiki/Looter_shooter",
+        "accessed": "2026-09-17",
+        "note": "Looter Shooter 定義與代表作"
+      },
+      {
+        "title": "Steam 標籤頁：Looter Shooter",
+        "url": "https://store.steampowered.com/tags/en/Looter%20Shooter/",
+        "accessed": "2026-09-17",
+        "note": "標籤存在"
+      }
     ],
     "status": "verified"
   },
   {
     "id": "monster-tamer",
-    "zh": "怪物收集（Monster Tamer / Creature Collector）",
+    "zh": "怪物收集（Monster Tamer／Creature Collector）",
     "en": "Monster-Taming Game",
-    "aliases": ["Monster Tamer", "Creature Collector", "怪物馴養", "捕獸類"],
+    "aliases": [
+      "Monster Tamer",
+      "Creature Collector",
+      "怪物馴養",
+      "捕獸類"
+    ],
     "cat": "genre",
     "sub": "刷寶與收集類",
     "short": "捕捉、訓練並用怪物隊伍互相對戰的 RPG 子類。",
     "def": "以捕捉、訓練並用收集到的怪物隊伍互相對戰為核心的 RPG 子類，玩家在世界中遇到野生怪物、透過捕捉道具或戰鬥收服牠們，接著透過等級、進化與技能配置培養出屬於自己的隊伍，再用來挑戰對手或訓練師。《寶可夢》系列是最著名也最成功的代表，但早在其之前就已有類似設計的先驅作品，近年也出現不少獨立團隊開發的變體，在戰鬥系統或世界觀上做出差異化。",
-    "features": ["野外遭遇並捕捉怪物", "怪物等級與進化系統", "組隊搭配與屬性剋制", "訓練師對戰", "收集全圖鑑的長期目標"],
+    "features": [
+      "野外遭遇並捕捉怪物",
+      "怪物等級與進化系統",
+      "組隊搭配與屬性剋制",
+      "訓練師對戰",
+      "收集全圖鑑的長期目標"
+    ],
     "examples": [
-      {"title": "Cassette Beasts", "en": "Cassette Beasts", "appid": null, "year": 2023, "why": "以融合怪物與開放地圖探索差異化的獨立代表"},
-      {"title": "Coromon", "en": "Coromon", "appid": null, "year": 2022, "why": "強調戰鬥策略深度的獨立怪物收集作品"}
+      {
+        "title": "Cassette Beasts",
+        "en": "Cassette Beasts",
+        "appid": 1321440,
+        "year": 2023,
+        "why": "以融合怪物與開放地圖探索差異化的獨立代表"
+      },
+      {
+        "title": "Coromon",
+        "en": "Coromon",
+        "appid": 1218210,
+        "year": 2022,
+        "why": "強調戰鬥策略深度的獨立怪物收集作品"
+      }
     ],
-    "steamTags": [{"tagid": 916648, "en": "Creature Collector"}],
+    "steamTags": [
+      {
+        "tagid": 916648,
+        "en": "Creature Collector"
+      }
+    ],
     "compare": [
-      {"with": "hero-collector", "diff": "Monster Tamer 收集的是可捕捉、可進化的野生怪物，戰鬥多為回合制屬性剋制；Hero Collector 收集的是有獨立人設劇情的角色，多透過抽卡取得而非野外捕捉。"}
+      {
+        "with": "hero-collector",
+        "diff": "Monster Tamer 收集的是可捕捉、可進化的野生怪物，戰鬥多為回合制屬性剋制；Hero Collector 收集的是有獨立人設劇情的角色，多透過抽卡取得而非野外捕捉。"
+      }
     ],
-    "related": ["hero-collector", "jrpg"],
-    "design": "這類遊戲的深度在「隊伍搭配」與「屬性剋制表」的設計，要讓收集本身有策略意義（不同怪物填補不同戰術角色），而不只是重複同一隻最強怪物就能打通全部內容。",
+    "related": [
+      "hero-collector",
+      "jrpg"
+    ],
+    "design": "這類遊戲的深度在「隊伍搭配」與「屬性剋制表」的設計，要讓收集本身有策略意義（不同怪物填補不同戰術角色），而不只是重複同一隻最強怪物就能通關全部內容。",
     "sources": [
-      {"title": "Wikipedia: Monster-taming game", "url": "https://en.wikipedia.org/wiki/Monster-taming_game", "accessed": "2026-09-17", "note": "怪物收集類型定義與歷史先驅"},
-      {"title": "Steam 標籤頁：Creature Collector", "url": "https://store.steampowered.com/tags/en/Creature%20Collector/", "accessed": "2026-09-17", "note": "標籤存在"}
+      {
+        "title": "Wikipedia: Monster-taming game",
+        "url": "https://en.wikipedia.org/wiki/Monster-taming_game",
+        "accessed": "2026-09-17",
+        "note": "怪物收集類型定義與歷史先驅"
+      },
+      {
+        "title": "Steam 標籤頁：Creature Collector",
+        "url": "https://store.steampowered.com/tags/en/Creature%20Collector/",
+        "accessed": "2026-09-17",
+        "note": "標籤存在"
+      }
     ],
     "status": "verified"
   },
@@ -649,25 +1701,62 @@
     "id": "hero-collector",
     "zh": "角色收集（Hero Collector）",
     "en": "Hero Collector",
-    "aliases": ["Hero Collector", "角色收集", "抽角色"],
+    "aliases": [
+      "Hero Collector",
+      "角色收集",
+      "抽角色"
+    ],
     "cat": "genre",
     "sub": "刷寶與收集類",
     "short": "透過抽卡收集有獨立人設角色來組隊的遊戲類型。",
     "def": "以收集擁有獨立人設、劇情與美術的角色為核心賣點的遊戲類型，玩家主要透過類似扭蛋機制的隨機抽取（俗稱「抽卡」）取得新角色，而不是像怪物收集那樣在野外捕捉。角色通常有稀有度分級與限時登場的「卡池」，開發商會持續推出新角色搭配劇情活動，讓玩家對角色產生情感投入進而願意付費取得心儀角色，是目前手機與跨平台遊戲最主流的營利模式之一。",
-    "features": ["角色透過抽卡取得", "稀有度分級與限時卡池", "角色有獨立劇情與人設", "持續推出新角色與活動", "組隊搭配羈絆效果"],
+    "features": [
+      "角色透過抽卡取得",
+      "稀有度分級與限時卡池",
+      "角色有獨立劇情與人設",
+      "持續推出新角色與活動",
+      "組隊搭配羈絆效果"
+    ],
     "examples": [
-      {"title": "蔚藍檔案", "en": "Blue Archive", "appid": 3557620, "year": 2025, "why": "以角色人設與校園劇情驅動抽卡的代表作"},
-      {"title": "七大罪：Origin", "en": "The Seven Deadly Sins: Origin", "appid": 3679080, "year": 2026, "why": "動漫 IP 角色收集型手機遊戲的代表"}
+      {
+        "title": "蔚藍檔案",
+        "en": "Blue Archive",
+        "appid": 3557620,
+        "year": 2025,
+        "why": "以角色人設與校園劇情驅動抽卡的代表作"
+      },
+      {
+        "title": "七大罪：Origin",
+        "en": "The Seven Deadly Sins: Origin",
+        "appid": 3679080,
+        "year": 2026,
+        "why": "動漫 IP 角色收集型手機遊戲的代表"
+      }
     ],
     "steamTags": [],
     "compare": [
-      {"with": "monster-tamer", "diff": "Hero Collector 收集的是有獨立人設劇情、多透過抽卡取得的角色；Monster Tamer 收集的是可捕捉進化的野生怪物，兩者都靠「收集慾」驅動但取得方式與情感連結對象不同。"},
-      {"with": "gacha", "diff": "Gacha（課金／抽卡）指的是隨機取得道具的付費機制本身；Hero Collector 是把這套機制套用在「收集角色」上的具體遊戲類型。"}
+      {
+        "with": "monster-tamer",
+        "diff": "Hero Collector 收集的是有獨立人設劇情、多透過抽卡取得的角色；Monster Tamer 收集的是可捕捉進化的野生怪物，兩者都靠「收集慾」驅動但取得方式與情感連結對象不同。"
+      },
+      {
+        "with": "gacha",
+        "diff": "Gacha（課金／抽卡）指的是隨機取得道具的付費機制本身；Hero Collector 是把這套機制套用在「收集角色」上的具體遊戲類型。"
+      }
     ],
-    "related": ["monster-tamer", "gacha", "jrpg"],
+    "related": [
+      "monster-tamer",
+      "gacha",
+      "jrpg"
+    ],
     "design": "角色收集類型的商業成敗高度依賴角色魅力與卡池節奏，要讓「無課」玩家也能享受劇情與基本遊玩，同時讓「課長」玩家願意為喜歡的角色付費，兩者的平衡需要謹慎規劃。",
     "sources": [
-      {"title": "Wikipedia: Gacha game", "url": "https://en.wikipedia.org/wiki/Gacha_game", "accessed": "2026-09-17", "note": "角色收集型抽卡遊戲的定義與商業模式"}
+      {
+        "title": "Wikipedia: Gacha game",
+        "url": "https://en.wikipedia.org/wiki/Gacha_game",
+        "accessed": "2026-09-17",
+        "note": "角色收集型抽卡遊戲的定義與商業模式"
+      }
     ],
     "status": "verified"
   },
@@ -675,25 +1764,69 @@
     "id": "platformer",
     "zh": "平台遊戲（Platformer）",
     "en": "Platform Game",
-    "aliases": ["Platformer", "平台跳躍遊戲"],
+    "aliases": [
+      "Platformer",
+      "平台跳躍遊戲"
+    ],
     "cat": "genre",
     "sub": "平台、清版與對戰動作",
     "short": "靠跳躍與攀爬在高低不平地形間移動的類型。",
     "def": "以操控角色在高低不平的地形與懸浮平台間移動為核心的類型，跳躍是最關鍵的動作，玩家要靠精確的跳躍、攀爬躲避陷阱、擊敗敵人並抵達目標。可以是側面 2D 視角，也可以是 3D 空間中用各種鏡頭角度呈現。這個類型考驗的是反應、時機掌握與操作精準度，是遊戲史上最古老也最歷久不衰的類型之一，從早期的街機遊戲一路演化到今天的高難度獨立作品。",
-    "features": ["跳躍為核心動作", "高低不平的地形設計", "考驗反應與時機掌握", "可為 2D 或 3D 呈現", "敵人與陷阱穿插其中"],
+    "features": [
+      "跳躍為核心動作",
+      "高低不平的地形設計",
+      "考驗反應與時機掌握",
+      "可為 2D 或 3D 呈現",
+      "敵人與陷阱穿插其中"
+    ],
     "examples": [
-      {"title": "蔚藍", "en": "Celeste", "appid": 504230, "year": 2018, "why": "以精確跳躍手感與敘事結合聞名的當代代表"},
-      {"title": "空洞騎士", "en": "Hollow Knight", "appid": 367520, "year": 2017, "why": "結合平台跳躍與 Metroidvania 探索的代表"}
+      {
+        "title": "蔚藍",
+        "en": "Celeste",
+        "appid": 504230,
+        "year": 2018,
+        "why": "以精確跳躍手感與敘事結合聞名的當代代表"
+      },
+      {
+        "title": "空洞騎士",
+        "en": "Hollow Knight",
+        "appid": 367520,
+        "year": 2017,
+        "why": "結合平台跳躍與 Metroidvania 探索的代表"
+      }
     ],
-    "steamTags": [{"tagid": 1625, "en": "Platformer"}],
+    "steamTags": [
+      {
+        "tagid": 1625,
+        "en": "Platformer"
+      }
+    ],
     "compare": [
-      {"with": "metroidvania", "diff": "一般平台遊戲的關卡多是線性、一次性通過；Metroidvania 把平台跳躍放進互相連通、需要能力解鎖才能回訪的大地圖裡。"}
+      {
+        "with": "metroidvania",
+        "diff": "一般平台遊戲的關卡多是線性、一次性通過；Metroidvania 把平台跳躍放進互相連通、需要能力解鎖才能回訪的大地圖裡。"
+      }
     ],
-    "related": ["metroidvania", "precision-platformer", "2d-platformer", "3d-platformer"],
+    "related": [
+      "metroidvania",
+      "precision-platformer",
+      "2d-platformer",
+      "3d-platformer"
+    ],
     "design": "平台遊戲的手感靠角色的跳躍曲線、慣性與空中控制細調而成，微小的參數差異（跳躍高度、下落速度）就會讓整體感受完全不同，需要大量反覆試玩調校。",
     "sources": [
-      {"title": "Wikipedia: Platform game", "url": "https://en.wikipedia.org/wiki/Platform_game", "accessed": "2026-09-17", "note": "平台遊戲定義與核心機制"},
-      {"title": "Steam 標籤頁：Platformer", "url": "https://store.steampowered.com/tags/en/Platformer/", "accessed": "2026-09-17", "note": "標籤存在"}
+      {
+        "title": "Wikipedia: Platform game",
+        "url": "https://en.wikipedia.org/wiki/Platform_game",
+        "accessed": "2026-09-17",
+        "note": "平台遊戲定義與核心機制"
+      },
+      {
+        "title": "Steam 標籤頁：Platformer",
+        "url": "https://store.steampowered.com/tags/en/Platformer/",
+        "accessed": "2026-09-17",
+        "note": "標籤存在"
+      }
     ],
     "status": "verified"
   },
@@ -701,24 +1834,61 @@
     "id": "precision-platformer",
     "zh": "精確平台（Precision Platformer）",
     "en": "Precision Platformer",
-    "aliases": ["Precision Platformer", "硬核平台"],
+    "aliases": [
+      "Precision Platformer",
+      "硬核平台"
+    ],
     "cat": "genre",
     "sub": "平台、清版與對戰動作",
     "short": "容錯極低、要求毫秒級精準操作的高難度平台類型。",
     "def": "平台遊戲底下容錯率最低的子類，關卡設計通常充滿尖刺、瞬間死亡陷阱與極窄的落腳點，要求玩家的跳躍時機精準到毫秒等級，稍有失誤就會立刻死亡並重來。這類遊戲通常搭配極快的重生速度（死亡到重來幾乎無縫接軌），讓玩家能快速反覆嘗試而不會因為等待而失去專注。挑戰性極高，但也因為「差一點就成功」的心理機制，讓玩家很容易越挫越想再試一次。",
-    "features": ["瞬間死亡陷阱密集", "要求毫秒級精準操作", "極快的死亡重生速度", "關卡短而高度重複練習", "強調肌肉記憶"],
+    "features": [
+      "瞬間死亡陷阱密集",
+      "要求毫秒級精準操作",
+      "極快的死亡重生速度",
+      "關卡短而高度重複練習",
+      "強調肌肉記憶"
+    ],
     "examples": [
-      {"title": "蔚藍", "en": "Celeste", "appid": 504230, "year": 2018, "why": "精確平台結合輔助模式與敘事的當代代表"},
-      {"title": "Jump King", "en": "Jump King", "appid": 1061090, "year": 2019, "why": "以單一跳躍機制與高懲罰性聞名的極簡精確平台"}
+      {
+        "title": "蔚藍",
+        "en": "Celeste",
+        "appid": 504230,
+        "year": 2018,
+        "why": "精確平台結合輔助模式與敘事的當代代表"
+      },
+      {
+        "title": "Jump King",
+        "en": "Jump King",
+        "appid": 1061090,
+        "year": 2019,
+        "why": "以單一跳躍機制與高懲罰性聞名的極簡精確平台"
+      }
     ],
-    "steamTags": [{"tagid": 3877, "en": "Precision Platformer"}],
+    "steamTags": [
+      {
+        "tagid": 3877,
+        "en": "Precision Platformer"
+      }
+    ],
     "compare": [
-      {"with": "platformer", "diff": "一般平台遊戲難度分布較廣、容錯較高；精確平台把容錯壓到極低，整個設計核心就是要求玩家做到近乎完美的操作。"}
+      {
+        "with": "platformer",
+        "diff": "一般平台遊戲難度分布較廣、容錯較高；精確平台把容錯壓到極低，整個設計核心就是要求玩家做到近乎完美的操作。"
+      }
     ],
-    "related": ["platformer", "2d-platformer"],
+    "related": [
+      "platformer",
+      "2d-platformer"
+    ],
     "design": "精確平台的公平性至關重要，死亡必須讓玩家覺得「是我操作失誤」而非「判定不準」，碰撞箱要比視覺圖形稍微寬鬆，並提供極快的重生節奏，減少挫折累積的時間。",
     "sources": [
-      {"title": "Steam 標籤頁：Precision Platformer", "url": "https://store.steampowered.com/tags/en/Precision%20Platformer/", "accessed": "2026-09-17", "note": "標籤存在與代表作"}
+      {
+        "title": "Steam 標籤頁：Precision Platformer",
+        "url": "https://store.steampowered.com/tags/en/Precision%20Platformer/",
+        "accessed": "2026-09-17",
+        "note": "標籤存在與代表作"
+      }
     ],
     "status": "verified"
   },
@@ -726,24 +1896,61 @@
     "id": "puzzle-platformer",
     "zh": "平台解謎（Puzzle Platformer）",
     "en": "Puzzle Platformer",
-    "aliases": ["Puzzle Platformer", "解謎平台"],
+    "aliases": [
+      "Puzzle Platformer",
+      "解謎平台"
+    ],
     "cat": "genre",
     "sub": "平台、清版與對戰動作",
     "short": "用跳躍與移動機制解開空間謎題的類型。",
     "def": "把平台遊戲的跳躍、移動機制與解謎結合，玩家要靠操控角色（或改變環境規則）解開每個關卡設計的空間謎題，才能抵達出口或取得目標物。與強調反應速度的精確平台不同，這個子類更重視玩家的邏輯推理與觀察力，跳躍失敗通常不會立刻死亡，而是需要重新思考解法。部分作品甚至把「操作規則本身」也變成謎題的一部分，讓解謎與平台機制融為一體。",
-    "features": ["空間謎題與平台機制結合", "重視邏輯推理而非反應速度", "失敗多為重新思考而非死亡懲罰", "機制常隨關卡逐步教學", "少量對話、多靠機制敘事"],
+    "features": [
+      "空間謎題與平台機制結合",
+      "重視邏輯推理而非反應速度",
+      "失敗多為重新思考而非死亡懲罰",
+      "機制常隨關卡逐步教學",
+      "少量對話、多靠機制敘事"
+    ],
     "examples": [
-      {"title": "傳送門2", "en": "Portal 2", "appid": 620, "year": 2011, "why": "以傳送門機制打造空間解謎的經典代表"},
-      {"title": "Baba Is You", "en": "Baba Is You", "appid": 736260, "year": 2019, "why": "把遊戲規則本身變成可操作謎題的創新代表"}
+      {
+        "title": "傳送門2",
+        "en": "Portal 2",
+        "appid": 620,
+        "year": 2011,
+        "why": "以傳送門機制打造空間解謎的經典代表"
+      },
+      {
+        "title": "Baba Is You",
+        "en": "Baba Is You",
+        "appid": 736260,
+        "year": 2019,
+        "why": "把遊戲規則本身變成可操作謎題的創新代表"
+      }
     ],
-    "steamTags": [{"tagid": 5537, "en": "Puzzle Platformer"}],
+    "steamTags": [
+      {
+        "tagid": 5537,
+        "en": "Puzzle Platformer"
+      }
+    ],
     "compare": [
-      {"with": "platformer", "diff": "一般平台遊戲的挑戰核心是操作精準度；平台解謎的挑戰核心是邏輯推理，跳躍只是解謎過程的其中一個工具。"}
+      {
+        "with": "platformer",
+        "diff": "一般平台遊戲的挑戰核心是操作精準度；平台解謎的挑戰核心是邏輯推理，跳躍只是解謎過程的其中一個工具。"
+      }
     ],
-    "related": ["platformer", "puzzle-game"],
+    "related": [
+      "platformer",
+      "puzzle-game"
+    ],
     "design": "每個新機制上場時要先給玩家一個「安全的教學關」單獨練習，之後再與舊機制組合出更複雜的謎題，循序漸進的機制疊加是這個類型最重要的關卡設計原則。",
     "sources": [
-      {"title": "Steam 標籤頁：Puzzle Platformer", "url": "https://store.steampowered.com/tags/en/Puzzle%20Platformer/", "accessed": "2026-09-17", "note": "標籤存在與代表作"}
+      {
+        "title": "Steam 標籤頁：Puzzle Platformer",
+        "url": "https://store.steampowered.com/tags/en/Puzzle%20Platformer/",
+        "accessed": "2026-09-17",
+        "note": "標籤存在與代表作"
+      }
     ],
     "status": "verified"
   },
@@ -751,24 +1958,62 @@
     "id": "2d-platformer",
     "zh": "2D 平台（2D Platformer）",
     "en": "2D Platformer",
-    "aliases": ["2D Platformer", "橫向平台"],
+    "aliases": [
+      "2D Platformer",
+      "橫向平台"
+    ],
     "cat": "genre",
     "sub": "平台、清版與對戰動作",
     "short": "以側面視角呈現、角色沿水平與垂直移動的平台類型。",
     "def": "以側面視角呈現的平台遊戲，角色主要沿水平方向移動、垂直方向跳躍，地形與敵人排列在同一個畫面平面上，玩家能清楚看見整個關卡的空間結構。這是平台遊戲最早也最經典的呈現方式，從街機時代一路延續至今，即使 3D 技術早已成熟，2D 呈現方式仍因為畫面清晰、操作直覺、開發成本相對較低，持續受獨立開發者與玩家青睞，近年更常搭配精緻手繪或像素美術做出差異化。",
-    "features": ["側面視角呈現", "水平與垂直方向移動", "關卡空間結構一目了然", "常見像素或手繪美術", "開發成本相對可控"],
+    "features": [
+      "側面視角呈現",
+      "水平與垂直方向移動",
+      "關卡空間結構一目了然",
+      "常見像素或手繪美術",
+      "開發成本相對可控"
+    ],
     "examples": [
-      {"title": "空洞騎士", "en": "Hollow Knight", "appid": 367520, "year": 2017, "why": "2D 平台結合手繪美術與 Metroidvania 探索的代表"},
-      {"title": "死亡細胞", "en": "Dead Cells", "appid": 588650, "year": 2018, "why": "2D 平台結合流暢戰鬥與 Roguelite 隨機生成的代表"}
+      {
+        "title": "空洞騎士",
+        "en": "Hollow Knight",
+        "appid": 367520,
+        "year": 2017,
+        "why": "2D 平台結合手繪美術與 Metroidvania 探索的代表"
+      },
+      {
+        "title": "死亡細胞",
+        "en": "Dead Cells",
+        "appid": 588650,
+        "year": 2018,
+        "why": "2D 平台結合流暢戰鬥與 Roguelite 隨機生成的代表"
+      }
     ],
-    "steamTags": [{"tagid": 5379, "en": "2D Platformer"}],
+    "steamTags": [
+      {
+        "tagid": 5379,
+        "en": "2D Platformer"
+      }
+    ],
     "compare": [
-      {"with": "3d-platformer", "diff": "2D 平台角色只在單一平面上水平垂直移動、關卡結構一目了然；3D 平台角色能在立體空間自由移動，鏡頭與深度感知成為額外的設計課題。"}
+      {
+        "with": "3d-platformer",
+        "diff": "2D 平台角色只在單一平面上水平垂直移動、關卡結構一目了然；3D 平台角色能在立體空間自由移動，鏡頭與深度感知成為額外的設計課題。"
+      }
     ],
-    "related": ["3d-platformer", "platformer", "metroidvania"],
+    "related": [
+      "3d-platformer",
+      "platformer",
+      "metroidvania"
+    ],
     "design": "2D 平台的關卡可讀性極高，設計時要善用這個優勢，用清楚的視覺語言（顏色、光線）引導玩家該往哪走，避免因為畫面平面化而讓陷阱與平台混淆不清。",
     "sources": [
-      {"title": "Steam 標籤頁：2D Platformer", "url": "https://store.steampowered.com/tags/en/2D%20Platformer/", "accessed": "2026-09-17", "note": "標籤存在與代表作"}
+      {
+        "title": "Steam 標籤頁：2D Platformer",
+        "url": "https://store.steampowered.com/tags/en/2D%20Platformer/",
+        "accessed": "2026-09-17",
+        "note": "標籤存在與代表作"
+      }
     ],
     "status": "verified"
   },
@@ -776,24 +2021,62 @@
     "id": "3d-platformer",
     "zh": "3D 平台（3D Platformer）",
     "en": "3D Platformer",
-    "aliases": ["3D Platformer", "立體平台"],
+    "aliases": [
+      "3D Platformer",
+      "立體平台"
+    ],
     "cat": "genre",
     "sub": "平台、清版與對戰動作",
     "short": "在立體空間自由移動、考驗深度判斷的平台類型。",
     "def": "在完整 3D 空間中呈現的平台遊戲，角色能朝任意方向移動與跳躍，玩家不只要判斷「該不該跳」，還要判斷「距離與深度夠不夠」，這比 2D 平台多了一層空間知覺的挑戰。鏡頭控制因此成為這個子類最重要也最難處理的設計課題，一個不好操控的鏡頭會直接毀掉整個遊玩體驗。從箱庭式的自由探索到線性的關卡挑戰都能算在這個子類之下，任天堂的作品長期是這個類型的技術指標。",
-    "features": ["立體空間自由移動", "需要判斷深度與距離", "鏡頭控制是關鍵設計課題", "可為箱庭或線性關卡", "常搭配收集要素"],
+    "features": [
+      "立體空間自由移動",
+      "需要判斷深度與距離",
+      "鏡頭控制是關鍵設計課題",
+      "可為箱庭或線性關卡",
+      "常搭配收集要素"
+    ],
     "examples": [
-      {"title": "Psychonauts 2", "en": "Psychonauts 2", "appid": 607080, "year": 2021, "why": "以想像力關卡設計聞名的當代 3D 平台代表"},
-      {"title": "Super Meat Boy 3D", "en": "Super Meat Boy 3D", "appid": 3288210, "year": 2026, "why": "把系列招牌高難度平台挑戰帶進 3D 空間的作品"}
+      {
+        "title": "Psychonauts 2",
+        "en": "Psychonauts 2",
+        "appid": 607080,
+        "year": 2021,
+        "why": "以想像力關卡設計聞名的當代 3D 平台代表"
+      },
+      {
+        "title": "Super Meat Boy 3D",
+        "en": "Super Meat Boy 3D",
+        "appid": 3288210,
+        "year": 2026,
+        "why": "把系列招牌高難度平台挑戰帶進 3D 空間的作品"
+      }
     ],
-    "steamTags": [{"tagid": 5395, "en": "3D Platformer"}],
+    "steamTags": [
+      {
+        "tagid": 5395,
+        "en": "3D Platformer"
+      }
+    ],
     "compare": [
-      {"with": "2d-platformer", "diff": "3D 平台角色能在立體空間自由移動、鏡頭與深度判斷是核心挑戰；2D 平台只在單一平面上水平垂直移動，關卡結構一目了然。"}
+      {
+        "with": "2d-platformer",
+        "diff": "3D 平台角色能在立體空間自由移動、鏡頭與深度判斷是核心挑戰；2D 平台只在單一平面上水平垂直移動，關卡結構一目了然。"
+      }
     ],
-    "related": ["2d-platformer", "platformer", "hakoniwa"],
+    "related": [
+      "2d-platformer",
+      "platformer",
+      "hakoniwa"
+    ],
     "design": "鏡頭是 3D 平台的隱形主角，要能自動避開遮擋視線的地形、在窄道與開闊空間之間平順切換，並在玩家跳躍時提供足夠的視覺資訊判斷落點，鏡頭設計失敗會讓再好的關卡都難以遊玩。",
     "sources": [
-      {"title": "Steam 標籤頁：3D Platformer", "url": "https://store.steampowered.com/tags/en/3D%20Platformer/", "accessed": "2026-09-17", "note": "標籤存在與代表作"}
+      {
+        "title": "Steam 標籤頁：3D Platformer",
+        "url": "https://store.steampowered.com/tags/en/3D%20Platformer/",
+        "accessed": "2026-09-17",
+        "note": "標籤存在與代表作"
+      }
     ],
     "status": "verified"
   },
@@ -801,26 +2084,73 @@
     "id": "beat-em-up",
     "zh": "清版動作（Beat 'em Up）",
     "en": "Beat 'em Up",
-    "aliases": ["Beat 'em Up", "清版格鬥", "帶狀捲軸動作"],
+    "aliases": [
+      "Beat 'em Up",
+      "清版格鬥",
+      "帶狀捲軸動作"
+    ],
     "cat": "genre",
     "sub": "平台、清版與對戰動作",
     "short": "在橫向捲軸關卡中徒手清光一波波敵人的類型。",
     "def": "以徒手或近戰武器對抗大量敵人的類型，玩家操控角色在橫向捲軸的關卡中前進，每到一個區域就會被一批敵人包圍，清光才能繼續前進，是街機黃金時代最受歡迎的類型之一。核心賣點是雙人合作，兩名玩家能同時上陣、各自選擇風格不同的角色一起清版，遵循「易學難精」的街機設計原則。與一對一的格鬥遊戲不同，這裡的重點是對抗成群敵人而非單一對手。",
-    "features": ["橫向捲軸關卡推進", "同時對抗多名敵人", "強調雙人合作遊玩", "角色風格與招式各異", "易學難精的街機式設計"],
+    "features": [
+      "橫向捲軸關卡推進",
+      "同時對抗多名敵人",
+      "強調雙人合作遊玩",
+      "角色風格與招式各異",
+      "易學難精的街機式設計"
+    ],
     "examples": [
-      {"title": "忍者龜：施萊德的復仇", "en": "TMNT: Shredder's Revenge", "appid": 1361510, "year": 2022, "why": "向 16 位元時代清版動作致敬的現代代表"},
-      {"title": "怒之鐵拳4", "en": "Streets of Rage 4", "appid": null, "year": 2020, "why": "老牌系列復興、確立現代清版動作手感標竿"}
+      {
+        "title": "忍者龜：施萊德的復仇",
+        "en": "TMNT: Shredder's Revenge",
+        "appid": 1361510,
+        "year": 2022,
+        "why": "向 16 位元時代清版動作致敬的現代代表"
+      },
+      {
+        "title": "怒之鐵拳4",
+        "en": "Streets of Rage 4",
+        "appid": 985890,
+        "year": 2020,
+        "why": "老牌系列復興、確立現代清版動作手感標竿"
+      }
     ],
-    "steamTags": [{"tagid": 4158, "en": "Beat 'em up"}],
+    "steamTags": [
+      {
+        "tagid": 4158,
+        "en": "Beat 'em up"
+      }
+    ],
     "compare": [
-      {"with": "hack-and-slash", "diff": "清版動作傳統上是 2D 橫向捲軸、敵人數量有限、強調雙人合作；Hack and Slash 常見於 3D 空間、更重視單一連段深度而非合作體驗。"},
-      {"with": "fighting-game", "diff": "清版動作是玩家合作對抗大量電腦敵人；格鬥遊戲是玩家對玩家的一對一對戰，設計目標完全不同。"}
+      {
+        "with": "hack-and-slash",
+        "diff": "清版動作傳統上是 2D 橫向捲軸、敵人數量有限、強調雙人合作；Hack and Slash 常見於 3D 空間、更重視單一連段深度而非合作體驗。"
+      },
+      {
+        "with": "fighting-game",
+        "diff": "清版動作是玩家合作對抗大量電腦敵人；格鬥遊戲是玩家對玩家的一對一對戰，設計目標完全不同。"
+      }
     ],
-    "related": ["hack-and-slash", "musou", "fighting-game"],
+    "related": [
+      "hack-and-slash",
+      "musou",
+      "fighting-game"
+    ],
     "design": "清版動作的關卡節奏要靠敵人配置的變化撐起來（雜兵、精英、Boss 交錯出現），角色之間的招式差異要夠明顯，才能讓雙人合作時彼此有分工感，而不是兩人做一樣的事。",
     "sources": [
-      {"title": "Wikipedia: Beat 'em up", "url": "https://en.wikipedia.org/wiki/Beat_%27em_up", "accessed": "2026-09-17", "note": "清版動作定義與街機傳統"},
-      {"title": "Steam 標籤頁：Beat 'em up", "url": "https://store.steampowered.com/tags/en/Beat%20%27em%20up/", "accessed": "2026-09-17", "note": "標籤存在"}
+      {
+        "title": "Wikipedia: Beat 'em up",
+        "url": "https://en.wikipedia.org/wiki/Beat_%27em_up",
+        "accessed": "2026-09-17",
+        "note": "清版動作定義與街機傳統"
+      },
+      {
+        "title": "Steam 標籤頁：Beat 'em up",
+        "url": "https://store.steampowered.com/tags/en/Beat%20%27em%20up/",
+        "accessed": "2026-09-17",
+        "note": "標籤存在"
+      }
     ],
     "status": "verified"
   },
@@ -828,25 +2158,68 @@
     "id": "fighting-game",
     "zh": "格鬥遊戲（Fighting Game）",
     "en": "Fighting Game",
-    "aliases": ["Fighting Game", "格鬥遊戲", "對戰格鬥"],
+    "aliases": [
+      "Fighting Game",
+      "格鬥遊戲",
+      "對戰格鬥"
+    ],
     "cat": "genre",
     "sub": "平台、清版與對戰動作",
     "short": "一對一在固定場地內比拚招式與血量的對戰類型。",
     "def": "玩家操控角色在固定大小的場地內進行一對一（少數作品可多打多）近身對戰，核心機制包括格擋、投擲、反擊與把招式串接成連段。角色在場地內能水平走動或衝刺、垂直跳躍，雙方各有一條血量條，回合結束於一方血量歸零。《快打旋風II》確立了現代格鬥遊戲的連段與競技對戰規範，這個類型也是電子競技發展最早、社群最成熟的類型之一。",
-    "features": ["一對一固定場地對戰", "格擋、投擲、反擊機制", "招式連段系統", "血量條與回合制勝負", "高度競技化與社群"],
+    "features": [
+      "一對一固定場地對戰",
+      "格擋、投擲、反擊機制",
+      "招式連段系統",
+      "血量條與回合制勝負",
+      "高度競技化與社群"
+    ],
     "examples": [
-      {"title": "Street Fighter 6", "en": "Street Fighter 6", "appid": 1364780, "year": 2023, "why": "延續系列連段與對戰規範的當代格鬥代表"},
-      {"title": "鐵拳8", "en": "Tekken 8", "appid": 1778820, "year": 2024, "why": "3D 場地格鬥系統的長青代表系列最新作"}
+      {
+        "title": "Street Fighter 6",
+        "en": "Street Fighter 6",
+        "appid": 1364780,
+        "year": 2023,
+        "why": "延續系列連段與對戰規範的當代格鬥代表"
+      },
+      {
+        "title": "鐵拳8",
+        "en": "Tekken 8",
+        "appid": 1778820,
+        "year": 2024,
+        "why": "3D 場地格鬥系統的長青代表系列最新作"
+      }
     ],
-    "steamTags": [{"tagid": 1743, "en": "Fighting"}],
+    "steamTags": [
+      {
+        "tagid": 1743,
+        "en": "Fighting"
+      }
+    ],
     "compare": [
-      {"with": "beat-em-up", "diff": "格鬥遊戲是玩家對玩家的一對一對戰；清版動作是玩家合作對抗大量電腦控制的敵人，兩者都源自近身戰鬥但社交結構完全不同。"}
+      {
+        "with": "beat-em-up",
+        "diff": "格鬥遊戲是玩家對玩家的一對一對戰；清版動作是玩家合作對抗大量電腦控制的敵人，兩者都源自近身戰鬥但社交結構完全不同。"
+      }
     ],
-    "related": ["beat-em-up", "character-action"],
+    "related": [
+      "beat-em-up",
+      "character-action"
+    ],
     "design": "格鬥遊戲的平衡性是永無止盡的工程，每個角色要有清楚的識別度與應對策略，同時避免出現「無腦強」的招式讓對戰失去深度；輸入判定的一致性與網路對戰延遲處理也直接影響競技體驗。",
     "sources": [
-      {"title": "Wikipedia: Fighting game", "url": "https://en.wikipedia.org/wiki/Fighting_game", "accessed": "2026-09-17", "note": "格鬥遊戲定義與《快打旋風II》的規範地位"},
-      {"title": "Steam 標籤頁：Fighting", "url": "https://store.steampowered.com/tags/en/Fighting/", "accessed": "2026-09-17", "note": "標籤存在"}
+      {
+        "title": "Wikipedia: Fighting game",
+        "url": "https://en.wikipedia.org/wiki/Fighting_game",
+        "accessed": "2026-09-17",
+        "note": "格鬥遊戲定義與《快打旋風II》的規範地位"
+      },
+      {
+        "title": "Steam 標籤頁：Fighting",
+        "url": "https://store.steampowered.com/tags/en/Fighting/",
+        "accessed": "2026-09-17",
+        "note": "標籤存在"
+      }
     ],
     "status": "verified"
   },
@@ -854,25 +2227,67 @@
     "id": "party-game",
     "zh": "派對遊戲（Party Game）",
     "en": "Party Game",
-    "aliases": ["Party Game", "派對遊戲", "多人歡樂遊戲"],
+    "aliases": [
+      "Party Game",
+      "派對遊戲",
+      "多人歡樂遊戲"
+    ],
     "cat": "genre",
     "sub": "平台、清版與對戰動作",
     "short": "設計給多人聚會同樂、易上手的小遊戲合集。",
     "def": "設計來在社交聚會場合一起遊玩、促進互動與歡樂氣氛的遊戲類型，在電子遊戲領域通常呈現為一系列簡單易懂的小遊戲合集，操作直覺、規則能在幾秒內說明清楚，讓不同熟練度的玩家都能一起參與。特色包括支援較多玩家人數、鼓勵合作或帶點混亂的競爭、勝負懸念保留到最後，以及很少真正淘汰玩家，確保每個人都能玩到最後一刻，很適合當作聚會破冰的選擇。",
-    "features": ["一系列簡單小遊戲合集", "規則直覺、幾秒上手", "支援較多玩家同樂", "強調歡樂而非硬核競技", "很少提早淘汰玩家"],
+    "features": [
+      "一系列簡單小遊戲合集",
+      "規則直覺、幾秒上手",
+      "支援較多玩家同樂",
+      "強調歡樂而非硬核競技",
+      "很少提早淘汰玩家"
+    ],
     "examples": [
-      {"title": "胡鬧廚房 2", "en": "Overcooked! 2", "appid": 728880, "year": 2018, "why": "以混亂合作聞名的當代派對遊戲代表"},
-      {"title": "胡鬧廚房：全員系列合輯", "en": "Overcooked! All You Can Eat", "appid": 1243830, "year": 2021, "why": "集合系列全部內容的合輯版本"}
+      {
+        "title": "胡鬧廚房 2",
+        "en": "Overcooked! 2",
+        "appid": 728880,
+        "year": 2018,
+        "why": "以混亂合作聞名的當代派對遊戲代表"
+      },
+      {
+        "title": "胡鬧廚房：全員系列合輯",
+        "en": "Overcooked! All You Can Eat",
+        "appid": 1243830,
+        "year": 2021,
+        "why": "集合系列全部內容的合輯版本"
+      }
     ],
-    "steamTags": [{"tagid": 7108, "en": "Party"}],
+    "steamTags": [
+      {
+        "tagid": 7108,
+        "en": "Party"
+      }
+    ],
     "compare": [
-      {"with": "fighting-game", "diff": "派對遊戲重視歡樂與人人可上手，很少嚴肅競技；格鬥遊戲重視操作深度與競技平衡，學習門檻明顯較高。"}
+      {
+        "with": "fighting-game",
+        "diff": "派對遊戲重視歡樂與人人可上手，很少嚴肅競技；格鬥遊戲重視操作深度與競技平衡，學習門檻明顯較高。"
+      }
     ],
-    "related": ["fighting-game"],
+    "related": [
+      "fighting-game"
+    ],
     "design": "派對遊戲要優先確保「觀戰也好玩」，即使暫時落後或被淘汰的玩家，也要能從旁觀看得到樂趣；規則說明要壓在極短時間內講完，過度複雜的規則會直接破壞聚會氣氛。",
     "sources": [
-      {"title": "Wikipedia: Party game", "url": "https://en.wikipedia.org/wiki/Party_game", "accessed": "2026-09-17", "note": "派對遊戲定義與電子遊戲脈絡下的特徵"},
-      {"title": "Steam 標籤頁：Party", "url": "https://store.steampowered.com/tags/en/Party/", "accessed": "2026-09-17", "note": "標籤存在"}
+      {
+        "title": "Wikipedia: Party game",
+        "url": "https://en.wikipedia.org/wiki/Party_game",
+        "accessed": "2026-09-17",
+        "note": "派對遊戲定義與電子遊戲脈絡下的特徵"
+      },
+      {
+        "title": "Steam 標籤頁：Party",
+        "url": "https://store.steampowered.com/tags/en/Party/",
+        "accessed": "2026-09-17",
+        "note": "標籤存在"
+      }
     ],
     "status": "verified"
   },
@@ -880,25 +2295,67 @@
     "id": "boss-rush",
     "zh": "競速魔王戰（Boss Rush）",
     "en": "Boss Rush",
-    "aliases": ["Boss Rush", "魔王連戰", "Boss 連戰"],
+    "aliases": [
+      "Boss Rush",
+      "魔王連戰",
+      "Boss 連戰"
+    ],
     "cat": "genre",
     "sub": "平台、清版與對戰動作",
     "short": "連續挑戰一系列 Boss、幾乎沒有雜兵關卡的模式或類型。",
     "def": "玩家連續挑戰一系列 Boss 戰、中間幾乎沒有一般雜兵關卡穿插的遊戲模式或整體設計，可能是完整遊戲的特殊挑戰關卡，也可能是整款遊戲從頭到尾都以 Boss 戰接力構成。這種設計把重複性最低、最具記憶點的戰鬥濃縮在一起，考驗玩家對各種戰鬥模式的綜合掌握度，通常是遊戲末盤或全破後解鎖的高難度內容，也是玩家展示自己技術的最終試煉場。",
-    "features": ["連續 Boss 戰接力", "幾乎沒有雜兵過場", "考驗綜合戰鬥掌握度", "常為隱藏或後期解鎖內容", "高強度且記憶點密集"],
+    "features": [
+      "連續 Boss 戰接力",
+      "幾乎沒有雜兵過場",
+      "考驗綜合戰鬥掌握度",
+      "常為隱藏或後期解鎖內容",
+      "高強度且記憶點密集"
+    ],
     "examples": [
-      {"title": "Cuphead", "en": "Cuphead", "appid": 268910, "year": 2017, "why": "整款遊戲以 Boss 戰為主體構成的代表作"},
-      {"title": "Furi", "en": "Furi", "appid": 423230, "year": 2016, "why": "以連續高強度 Boss 戰定義核心體驗的作品"}
+      {
+        "title": "Cuphead",
+        "en": "Cuphead",
+        "appid": 268910,
+        "year": 2017,
+        "why": "整款遊戲以 Boss 戰為主體構成的代表作"
+      },
+      {
+        "title": "Furi",
+        "en": "Furi",
+        "appid": 423230,
+        "year": 2016,
+        "why": "以連續高強度 Boss 戰定義核心體驗的作品"
+      }
     ],
-    "steamTags": [{"tagid": 11095, "en": "Boss Rush"}],
+    "steamTags": [
+      {
+        "tagid": 11095,
+        "en": "Boss Rush"
+      }
+    ],
     "compare": [
-      {"with": "soulslike", "diff": "Boss Rush 把戰鬥壓縮成連續 Boss 接力、幾乎沒有一般關卡；Soulslike 是完整的探索加戰鬥體驗，Boss 戰只是其中的高潮段落而非全部內容。"}
+      {
+        "with": "soulslike",
+        "diff": "Boss Rush 把戰鬥壓縮成連續 Boss 接力、幾乎沒有一般關卡；Soulslike 是完整的探索加戰鬥體驗，Boss 戰只是其中的高潮段落而非全部內容。"
+      }
     ],
-    "related": ["soulslike"],
+    "related": [
+      "soulslike"
+    ],
     "design": "設計 Boss Rush 內容時要確保每場戰鬥之間有足夠的手感差異，避免玩家覺得只是同一套操作反覆套用；連續高強度戰鬥也要考慮玩家的體力與專注力曲線，適時安排短暫喘息點。",
     "sources": [
-      {"title": "Wikipedia: Boss (video games)", "url": "https://en.wikipedia.org/wiki/Boss_(video_games)", "accessed": "2026-09-17", "note": "Boss Rush 定義與 Fantasy Zone 起源"},
-      {"title": "Steam 標籤頁：Boss Rush", "url": "https://store.steampowered.com/tags/en/Boss%20Rush/", "accessed": "2026-09-17", "note": "標籤存在與代表作"}
+      {
+        "title": "Wikipedia: Boss (video games)",
+        "url": "https://en.wikipedia.org/wiki/Boss_(video_games)",
+        "accessed": "2026-09-17",
+        "note": "Boss Rush 定義與 Fantasy Zone 起源"
+      },
+      {
+        "title": "Steam 標籤頁：Boss Rush",
+        "url": "https://store.steampowered.com/tags/en/Boss%20Rush/",
+        "accessed": "2026-09-17",
+        "note": "標籤存在與代表作"
+      }
     ],
     "status": "verified"
   },
@@ -906,24 +2363,61 @@
     "id": "immersive-sim",
     "zh": "沉浸式模擬（Immersive Sim）",
     "en": "Immersive Sim",
-    "aliases": ["Immersive Sim", "沉浸模擬"],
+    "aliases": [
+      "Immersive Sim",
+      "沉浸模擬"
+    ],
     "cat": "genre",
     "sub": "世界構築與探索自由度",
     "short": "強調系統一致、玩家可自創解法的高自由度類型。",
     "def": "強調玩家自由度與多元解決方案的類型，遊戲世界是一個遵循一致規則的模擬環境，玩家可以透過戰鬥、潛行、駭客、社交等多種方式解決同一個問題。核心理念是「玩家的創意永遠被尊重」，如果玩家想用物理引擎把箱子疊起來翻過高牆而不是找鑰匙開門，遊戲就應該允許這麼做。這類遊戲的開發難度極高，因為每個關卡都必須支援多種接近方式，測試負擔也極重，是小眾但影響力深遠的類型。",
-    "features": ["系統一致的模擬世界", "多重解法達成同一目標", "戰鬥、潛行、社交皆可選", "湧現式的玩家自創解法", "開發與測試成本極高"],
+    "features": [
+      "系統一致的模擬世界",
+      "多重解法達成同一目標",
+      "戰鬥、潛行、社交皆可選",
+      "湧現式的玩家自創解法",
+      "開發與測試成本極高"
+    ],
     "examples": [
-      {"title": "冤罪殺機", "en": "Dishonored", "appid": 205100, "year": 2012, "why": "潛行、戰鬥、超能力多重解法並存的代表"},
-      {"title": "殺出重圍：人類革命 導演剪輯版", "en": "Deus Ex: Human Revolution - Director's Cut", "appid": 238010, "year": 2013, "why": "駭客、對話、戰鬥多線並行的系列代表作"}
+      {
+        "title": "冤罪殺機",
+        "en": "Dishonored",
+        "appid": 205100,
+        "year": 2012,
+        "why": "潛行、戰鬥、超能力多重解法並存的代表"
+      },
+      {
+        "title": "殺出重圍：人類革命 導演剪輯版",
+        "en": "Deus Ex: Human Revolution - Director's Cut",
+        "appid": 238010,
+        "year": 2013,
+        "why": "駭客、對話、戰鬥多線並行的系列代表作"
+      }
     ],
-    "steamTags": [{"tagid": 9204, "en": "Immersive Sim"}],
+    "steamTags": [
+      {
+        "tagid": 9204,
+        "en": "Immersive Sim"
+      }
+    ],
     "compare": [
-      {"with": "stealth", "diff": "沉浸式模擬允許多種解法（戰鬥、潛行、駭客皆可）；純潛行遊戲通常把「不被發現」設為主要甚至唯一的成功路徑。"}
+      {
+        "with": "stealth",
+        "diff": "沉浸式模擬允許多種解法（戰鬥、潛行、駭客皆可）；純潛行遊戲通常把「不被發現」設為主要甚至唯一的成功路徑。"
+      }
     ],
-    "related": ["stealth", "action-roguelike"],
+    "related": [
+      "stealth",
+      "action-roguelike"
+    ],
     "design": "設計時最重要的原則是「系統一致性」，所有規則在所有場景都要成立，例如火焰能點燃木箱，就該讓所有木製物體都能被點燃，玩家一旦發現規則不一致，沉浸感就會立刻瓦解。",
     "sources": [
-      {"title": "Wikipedia: Immersive sim", "url": "https://en.wikipedia.org/wiki/Immersive_sim", "accessed": "2026-09-17", "note": "沉浸式模擬定義與 Looking Glass Studios 淵源"}
+      {
+        "title": "Wikipedia: Immersive sim",
+        "url": "https://en.wikipedia.org/wiki/Immersive_sim",
+        "accessed": "2026-09-17",
+        "note": "沉浸式模擬定義與 Looking Glass Studios 淵源"
+      }
     ],
     "status": "verified"
   },
@@ -931,25 +2425,66 @@
     "id": "stealth",
     "zh": "潛行遊戲（Stealth Game）",
     "en": "Stealth Game",
-    "aliases": ["Stealth Game", "潛行遊戲"],
+    "aliases": [
+      "Stealth Game",
+      "潛行遊戲"
+    ],
     "cat": "genre",
     "sub": "世界構築與探索自由度",
     "short": "以避免被發現、暗殺或繞路達成目標為核心的類型。",
     "def": "玩家必須避免被敵人發現、透過暗殺或繞路達成目標的類型，核心機制包括敵人視野錐、聲音半徑、通常分綠黃紅三段的警覺等級、藏屍體避免其他敵人發現，以及各種偽裝系統。與以戰鬥為主的動作遊戲不同，潛行遊戲的失敗通常只是「被發現」而非「被殺」，好的潛行遊戲會讓玩家寧願重讀存檔也不想正面戰鬥，因為那代表計畫失敗了。",
-    "features": ["敵人視野錐與聲音半徑", "警覺等級分段（如綠黃紅）", "藏屍體避免二次發現", "偽裝與繞路系統", "被發現視為失敗而非直接戰鬥"],
+    "features": [
+      "敵人視野錐與聲音半徑",
+      "警覺等級分段（如綠黃紅）",
+      "藏屍體避免二次發現",
+      "偽裝與繞路系統",
+      "被發現視為失敗而非直接戰鬥"
+    ],
     "examples": [
-      {"title": "冤罪殺機", "en": "Dishonored", "appid": 205100, "year": 2012, "why": "潛行結合超能力繞路解法的代表"},
-      {"title": "刺客任務：全球暗殺行動", "en": "HITMAN World of Assassination", "appid": 1659040, "year": 2022, "why": "偽裝系統與環境暗殺設計的招牌代表"}
+      {
+        "title": "冤罪殺機",
+        "en": "Dishonored",
+        "appid": 205100,
+        "year": 2012,
+        "why": "潛行結合超能力繞路解法的代表"
+      },
+      {
+        "title": "刺客任務：全球暗殺行動",
+        "en": "HITMAN World of Assassination",
+        "appid": 1659040,
+        "year": 2022,
+        "why": "偽裝系統與環境暗殺設計的招牌代表"
+      }
     ],
-    "steamTags": [{"tagid": 1687, "en": "Stealth"}],
+    "steamTags": [
+      {
+        "tagid": 1687,
+        "en": "Stealth"
+      }
+    ],
     "compare": [
-      {"with": "immersive-sim", "diff": "純潛行遊戲通常把「不被發現」設為主要成功條件；沉浸式模擬則允許潛行只是眾多可行解法之一，玩家也能選擇正面戰鬥或其他手段。"}
+      {
+        "with": "immersive-sim",
+        "diff": "純潛行遊戲通常把「不被發現」設為主要成功條件；沉浸式模擬則允許潛行只是眾多可行解法之一，玩家也能選擇正面戰鬥或其他手段。"
+      }
     ],
-    "related": ["immersive-sim"],
+    "related": [
+      "immersive-sim"
+    ],
     "design": "核心挑戰是「讓敵人顯得聰明但不過度」，太笨顯得遊戲沒挑戰，太聰明（例如永遠知道玩家在哪）會讓玩家挫折，關鍵在於 AI 的視覺與聽覺要遵循玩家能預測、能觀察出規律的規則。",
     "sources": [
-      {"title": "Wikipedia: Stealth game", "url": "https://en.wikipedia.org/wiki/Stealth_game", "accessed": "2026-09-17", "note": "潛行遊戲核心機制定義"},
-      {"title": "Steam 標籤頁：Stealth", "url": "https://store.steampowered.com/tags/en/Stealth/", "accessed": "2026-09-17", "note": "標籤存在"}
+      {
+        "title": "Wikipedia: Stealth game",
+        "url": "https://en.wikipedia.org/wiki/Stealth_game",
+        "accessed": "2026-09-17",
+        "note": "潛行遊戲核心機制定義"
+      },
+      {
+        "title": "Steam 標籤頁：Stealth",
+        "url": "https://store.steampowered.com/tags/en/Stealth/",
+        "accessed": "2026-09-17",
+        "note": "標籤存在"
+      }
     ],
     "status": "verified"
   },
@@ -957,25 +2492,68 @@
     "id": "walking-sim",
     "zh": "步行模擬器（Walking Simulator）",
     "en": "Walking Simulator",
-    "aliases": ["Walking Simulator", "步行模擬", "步行遊戲"],
+    "aliases": [
+      "Walking Simulator",
+      "步行模擬",
+      "步行遊戲"
+    ],
     "cat": "genre",
     "sub": "世界構築與探索自由度",
     "short": "幾乎沒有傳統機制、靠行走與觀察體驗敘事的類型。",
     "def": "以探索與敘事為主、幾乎沒有傳統遊戲機制（戰鬥、解謎等）的類型，玩家主要透過行走、觀察環境、閱讀文件、與物件互動來體驗敘事。這個名稱最初是玩家社群帶有貶義的標籤，暗示遊戲「只能走路」，但現在已被廣泛接受為正式的類型名稱。這類作品證明了遊戲可以是強大的敘事媒介，就算拿掉輸贏與挑戰，光靠空間與氛圍也能撐起完整的情感體驗。",
-    "features": ["幾乎無戰鬥或解謎機制", "以行走與觀察推進體驗", "空間敘事為核心手法", "重視氛圍與環境細節", "無傳統輸贏條件"],
+    "features": [
+      "幾乎無戰鬥或解謎機制",
+      "以行走與觀察推進體驗",
+      "空間敘事為核心手法",
+      "重視氛圍與環境細節",
+      "無傳統輸贏條件"
+    ],
     "examples": [
-      {"title": "看火人", "en": "Firewatch", "appid": null, "year": 2016, "why": "以對話與環境氛圍推動敘事的代表作"},
-      {"title": "回家", "en": "Gone Home", "appid": null, "year": 2013, "why": "確立步行模擬器空間敘事公式的開創作品"}
+      {
+        "title": "看火人",
+        "en": "Firewatch",
+        "appid": 383870,
+        "year": 2016,
+        "why": "以對話與環境氛圍推動敘事的代表作"
+      },
+      {
+        "title": "回家",
+        "en": "Gone Home",
+        "appid": 232430,
+        "year": 2013,
+        "why": "確立步行模擬器空間敘事公式的開創作品"
+      }
     ],
-    "steamTags": [{"tagid": 5900, "en": "Walking Simulator"}],
+    "steamTags": [
+      {
+        "tagid": 5900,
+        "en": "Walking Simulator"
+      }
+    ],
     "compare": [
-      {"with": "linear-game", "diff": "步行模擬器幾乎完全拿掉傳統機制、專注氛圍與敘事；一般線性遊戲仍保有完整的戰鬥或解謎機制，只是流程順序固定。"}
+      {
+        "with": "linear-game",
+        "diff": "步行模擬器幾乎完全拿掉傳統機制、專注氛圍與敘事；一般線性遊戲仍保有完整的戰鬥或解謎機制，只是流程順序固定。"
+      }
     ],
-    "related": ["linear-game", "environmental-storytelling"],
+    "related": [
+      "linear-game",
+      "environmental-storytelling"
+    ],
     "design": "環境設計、音效設計、空間敘事是成功的關鍵，每個房間、每個物件都應該在講述故事的一部分；節奏控制也很重要，適時加入互動性較高的段落能避免玩家失去興趣。",
     "sources": [
-      {"title": "Wikipedia: Walking simulator", "url": "https://en.wikipedia.org/wiki/Walking_simulator", "accessed": "2026-09-17", "note": "步行模擬器定義與命名爭議"},
-      {"title": "Steam 標籤頁：Walking Simulator", "url": "https://store.steampowered.com/tags/en/Walking%20Simulator/", "accessed": "2026-09-17", "note": "標籤存在"}
+      {
+        "title": "Wikipedia: Walking simulator",
+        "url": "https://en.wikipedia.org/wiki/Walking_simulator",
+        "accessed": "2026-09-17",
+        "note": "步行模擬器定義與命名爭議"
+      },
+      {
+        "title": "Steam 標籤頁：Walking Simulator",
+        "url": "https://store.steampowered.com/tags/en/Walking%20Simulator/",
+        "accessed": "2026-09-17",
+        "note": "標籤存在"
+      }
     ],
     "status": "verified"
   },
@@ -983,27 +2561,77 @@
     "id": "open-world",
     "zh": "開放世界（Open World）",
     "en": "Open World",
-    "aliases": ["Open World", "開放世界"],
+    "aliases": [
+      "Open World",
+      "開放世界"
+    ],
     "cat": "genre",
     "sub": "世界構築與探索自由度",
     "short": "提供廣大可自由探索地圖、不受固定流程限制的設計。",
     "def": "提供廣大的可自由探索地圖，玩家不受線性流程約束，能自行決定探索的方向與順序，並以大量支線任務、隨機事件、收集要素填充世界。但開放世界也面臨「公式化」的挑戰，當地圖足夠大卻內容密度不足時，玩家會感到空洞。地圖上吸引玩家前往的地標或事件稱為「興趣點」（POI），其分佈密度與品質直接決定了開放世界是否令人流連忘返。",
-    "features": ["大範圍可自由探索地圖", "不受固定流程限制", "大量支線與隨機事件", "興趣點（POI）密度決定體驗", "開發成本與測試負擔極高"],
+    "features": [
+      "大範圍可自由探索地圖",
+      "不受固定流程限制",
+      "大量支線與隨機事件",
+      "興趣點（POI）密度決定體驗",
+      "開發成本與測試負擔極高"
+    ],
     "examples": [
-      {"title": "艾爾登法環", "en": "Elden Ring", "appid": 1245620, "year": 2022, "why": "把類魂戰鬥與開放世界探索結合的代表"},
-      {"title": "巫師3：狂獵 完全版", "en": "The Witcher 3: Wild Hunt - Complete Edition", "appid": 292030, "year": 2015, "why": "以高品質支線任務撐起開放世界密度的標竿"}
+      {
+        "title": "艾爾登法環",
+        "en": "Elden Ring",
+        "appid": 1245620,
+        "year": 2022,
+        "why": "把類魂戰鬥與開放世界探索結合的代表"
+      },
+      {
+        "title": "巫師3：狂獵 完全版",
+        "en": "The Witcher 3: Wild Hunt - Complete Edition",
+        "appid": 292030,
+        "year": 2015,
+        "why": "以高品質支線任務撐起開放世界密度的標竿"
+      }
     ],
-    "steamTags": [{"tagid": 1695, "en": "Open World"}],
+    "steamTags": [
+      {
+        "tagid": 1695,
+        "en": "Open World"
+      }
+    ],
     "compare": [
-      {"with": "sandbox", "diff": "開放世界指的是移動與探索的自由，內容仍多為開發者預先設計；沙盒指的是互動與創造的自由，玩家能自行定義目標與內容。"},
-      {"with": "semi-open-world", "diff": "開放世界整張地圖幾乎沒有先後限制；半開放世界把地圖切成多個有先後順序或條件限制的區域（Hub）。"},
-      {"with": "linear-game", "diff": "開放世界讓玩家自由決定探索順序；線性遊戲按開發者預設的固定順序推進，兩者是自由度光譜的兩端。"}
+      {
+        "with": "sandbox",
+        "diff": "開放世界指的是移動與探索的自由，內容仍多為開發者預先設計；沙盒指的是互動與創造的自由，玩家能自行定義目標與內容。"
+      },
+      {
+        "with": "semi-open-world",
+        "diff": "開放世界整張地圖幾乎沒有先後限制；半開放世界把地圖切成多個有先後順序或條件限制的區域（Hub）。"
+      },
+      {
+        "with": "linear-game",
+        "diff": "開放世界讓玩家自由決定探索順序；線性遊戲按開發者預設的固定順序推進，兩者是自由度光譜的兩端。"
+      }
     ],
-    "related": ["sandbox", "semi-open-world", "linear-game", "hakoniwa"],
+    "related": [
+      "sandbox",
+      "semi-open-world",
+      "linear-game",
+      "hakoniwa"
+    ],
     "design": "開放世界的開發成本極高，需要大量關卡設計師、美術資產與測試人力。設計時要特別注意 POI 的分佈密度，業界經驗法則是「玩家在任何位置環顧四周，至少要能看到一個值得前往的目標」。",
     "sources": [
-      {"title": "Wikipedia: Open world", "url": "https://en.wikipedia.org/wiki/Open_world", "accessed": "2026-09-17", "note": "開放世界定義與核心特徵"},
-      {"title": "Steam 標籤頁：Open World", "url": "https://store.steampowered.com/tags/en/Open%20World/", "accessed": "2026-09-17", "note": "標籤存在"}
+      {
+        "title": "Wikipedia: Open world",
+        "url": "https://en.wikipedia.org/wiki/Open_world",
+        "accessed": "2026-09-17",
+        "note": "開放世界定義與核心特徵"
+      },
+      {
+        "title": "Steam 標籤頁：Open World",
+        "url": "https://store.steampowered.com/tags/en/Open%20World/",
+        "accessed": "2026-09-17",
+        "note": "標籤存在"
+      }
     ],
     "status": "verified"
   },
@@ -1011,25 +2639,66 @@
     "id": "sandbox",
     "zh": "沙盒遊戲（Sandbox）",
     "en": "Sandbox",
-    "aliases": ["Sandbox", "沙盒遊戲"],
+    "aliases": [
+      "Sandbox",
+      "沙盒遊戲"
+    ],
     "cat": "genre",
     "sub": "世界構築與探索自由度",
     "short": "強調玩家自行創造與自由互動的類型。",
     "def": "強調玩家創造與自由互動的類型，與開放世界不同，沙盒遊戲的核心不在探索預設內容，而在玩家自行定義目標並創造內容。遊戲提供工具與規則，玩家則提供想像力，好的沙盒遊戲就像一盒樂高，零件本身很簡單，但組合的可能性幾乎無限。一款遊戲可以只有移動自由而沒有創造自由（那只是開放世界），也可以兩者兼具，兩個概念雖常一起出現，但本質上是不同的設計維度。",
-    "features": ["高度自由的創造與互動", "玩家自訂目標而非預設任務", "系統支援多樣組合方式", "強調工具而非固定內容", "留存率高但新手引導困難"],
+    "features": [
+      "高度自由的創造與互動",
+      "玩家自訂目標而非預設任務",
+      "系統支援多樣組合方式",
+      "強調工具而非固定內容",
+      "留存率高但新手引導困難"
+    ],
     "examples": [
-      {"title": "Terraria", "en": "Terraria", "appid": 105600, "year": 2011, "why": "2D 挖掘建造與探索並重的沙盒代表"},
-      {"title": "Garry's Mod", "en": "Garry's Mod", "appid": 4000, "year": 2006, "why": "以物理引擎與玩家自訂內容聞名的沙盒始祖之一"}
+      {
+        "title": "Terraria",
+        "en": "Terraria",
+        "appid": 105600,
+        "year": 2011,
+        "why": "2D 挖掘建造與探索並重的沙盒代表"
+      },
+      {
+        "title": "Garry's Mod",
+        "en": "Garry's Mod",
+        "appid": 4000,
+        "year": 2006,
+        "why": "以物理引擎與玩家自訂內容聞名的沙盒始祖之一"
+      }
     ],
-    "steamTags": [{"tagid": 3810, "en": "Sandbox"}],
+    "steamTags": [
+      {
+        "tagid": 3810,
+        "en": "Sandbox"
+      }
+    ],
     "compare": [
-      {"with": "open-world", "diff": "沙盒強調創造與互動的自由，玩家自訂目標；開放世界強調移動與探索的自由，內容多為開發者預先設計，兩者可以同時存在但不是同一件事。"}
+      {
+        "with": "open-world",
+        "diff": "沙盒強調創造與互動的自由，玩家自訂目標；開放世界強調移動與探索的自由，內容多為開發者預先設計，兩者可以同時存在但不是同一件事。"
+      }
     ],
-    "related": ["open-world"],
+    "related": [
+      "open-world"
+    ],
     "design": "沙盒遊戲的留存率極高，但新手引導是最大挑戰，設計時需要在「自由度」與「引導性」之間找到平衡，太多引導會破壞自由感，太少引導會讓新玩家不知所措，建議設計漸進式教學讓玩家在遊玩中自然學會進階機制。",
     "sources": [
-      {"title": "Wikipedia: Sandbox game", "url": "https://en.wikipedia.org/wiki/Sandbox_game", "accessed": "2026-09-17", "note": "沙盒與開放世界的差異定義"},
-      {"title": "Steam 標籤頁：Sandbox", "url": "https://store.steampowered.com/tags/en/Sandbox/", "accessed": "2026-09-17", "note": "標籤存在"}
+      {
+        "title": "Wikipedia: Sandbox game",
+        "url": "https://en.wikipedia.org/wiki/Sandbox_game",
+        "accessed": "2026-09-17",
+        "note": "沙盒與開放世界的差異定義"
+      },
+      {
+        "title": "Steam 標籤頁：Sandbox",
+        "url": "https://store.steampowered.com/tags/en/Sandbox/",
+        "accessed": "2026-09-17",
+        "note": "標籤存在"
+      }
     ],
     "status": "verified"
   },
@@ -1037,25 +2706,65 @@
     "id": "linear-game",
     "zh": "線性遊戲（Linear Game）",
     "en": "Linear Game",
-    "aliases": ["Linear Game", "線性遊戲"],
+    "aliases": [
+      "Linear Game",
+      "線性遊戲"
+    ],
     "cat": "genre",
     "sub": "世界構築與探索自由度",
     "short": "按開發者預設固定順序推進、不強調自由探索的設計。",
     "def": "遊戲流程按照開發者預設的順序推進，玩家沿著固定路徑前進的設計。這並非負面詞彙，線性設計能提供更精確的敘事節奏控制、更細緻的關卡設計、更強烈的電影化演出，在成本控制上也更可預測。線性遊戲的精髓在於「讓玩家感覺不到線性」，透過精心的空間設計（例如岔路的假象）、鏡頭語言引導、節奏變化來維持玩家的沉浸感，而不是真的給玩家自由選擇。",
-    "features": ["固定推進順序", "精確的敘事節奏控制", "細緻的手工關卡設計", "強烈電影化演出", "常見隱性引導手法"],
+    "features": [
+      "固定推進順序",
+      "精確的敘事節奏控制",
+      "細緻的手工關卡設計",
+      "強烈電影化演出",
+      "常見隱性引導手法"
+    ],
     "examples": [
-      {"title": "最後生還者 Part I", "en": "The Last of Us Part I", "appid": 1888930, "year": 2023, "why": "以精密敘事節奏見長的線性遊戲標竿"},
-      {"title": "最後生還者 Part II 重製版", "en": "The Last of Us Part II Remastered", "appid": 2531310, "year": 2025, "why": "延續系列電影化演出與固定敘事節奏的續作"}
+      {
+        "title": "最後生還者",
+        "en": "The Last of Us Part I",
+        "appid": 1888930,
+        "year": 2023,
+        "why": "以精密敘事節奏見長的線性遊戲標竿"
+      },
+      {
+        "title": "最後生還者 二部曲",
+        "en": "The Last of Us Part II Remastered",
+        "appid": 2531310,
+        "year": 2025,
+        "why": "延續系列電影化演出與固定敘事節奏的續作"
+      }
     ],
-    "steamTags": [{"tagid": 7250, "en": "Linear"}],
+    "steamTags": [
+      {
+        "tagid": 7250,
+        "en": "Linear"
+      }
+    ],
     "compare": [
-      {"with": "open-world", "diff": "線性遊戲按固定順序推進、敘事節奏可精密控制；開放世界讓玩家自由決定探索順序，敘事節奏較難完全掌控。"},
-      {"with": "semi-open-world", "diff": "線性遊戲幾乎沒有分支路線；半開放世界介於兩者之間，各區域內有自由度但區域之間仍有先後順序。"}
+      {
+        "with": "open-world",
+        "diff": "線性遊戲按固定順序推進、敘事節奏可精密控制；開放世界讓玩家自由決定探索順序，敘事節奏較難完全掌控。"
+      },
+      {
+        "with": "semi-open-world",
+        "diff": "線性遊戲幾乎沒有分支路線；半開放世界介於兩者之間，各區域內有自由度但區域之間仍有先後順序。"
+      }
     ],
-    "related": ["open-world", "semi-open-world"],
+    "related": [
+      "open-world",
+      "semi-open-world"
+    ],
     "design": "線性設計的最高境界是「隱性引導」，玩家以為自己在自由探索，實際上卻被巧妙地引向設計好的路徑，光線、色彩對比、聲音引導都是常見手法，做得不好會讓玩家感覺被硬拉著走。",
     "sources": [
-      {"title": "Steam 標籤頁：Linear", "url": "https://store.steampowered.com/tags/en/Linear/", "accessed": "2026-09-17", "note": "標籤存在與代表作"}
+      {
+        "title": "Steam 標籤頁：Linear",
+        "url": "https://store.steampowered.com/tags/en/Linear/",
+        "accessed": "2026-09-17",
+        "note": "標籤存在與代表作"
+      }
     ],
     "status": "verified"
   },
@@ -1063,25 +2772,63 @@
     "id": "semi-open-world",
     "zh": "半開放世界（Semi-Open World）",
     "en": "Semi-Open World / Hub-based World",
-    "aliases": ["Semi-Open World", "Hub-based World", "半開放世界", "哈伯結構"],
+    "aliases": [
+      "Semi-Open World",
+      "Hub-based World",
+      "半開放世界",
+      "哈伯結構"
+    ],
     "cat": "genre",
     "sub": "世界構築與探索自由度",
     "short": "由多個有先後順序的中樞區域組成，兼顧自由與節奏。",
     "def": "介於線性與完全開放之間的設計，遊戲由多個可探索的區域（稱為「Hub」，音譯「哈伯」，即中樞區域）組成，各區域內部有一定自由度，但區域之間的開放有先後順序或條件限制。這種設計既能提供探索感，又能控制敘事節奏與開發成本，Hub-based 的結構也讓開發團隊可以分區域逐步製作，同時確保每個區域的品質，是近年中大型單機遊戲很常見的折衷方案。",
-    "features": ["多個中樞區域（Hub）", "區域內自由、區域間有順序", "兼顧探索感與敘事節奏", "可分區域逐步開發", "介於線性與完全開放之間"],
+    "features": [
+      "多個中樞區域（Hub）",
+      "區域內自由、區域間有順序",
+      "兼顧探索感與敘事節奏",
+      "可分區域逐步開發",
+      "介於線性與完全開放之間"
+    ],
     "examples": [
-      {"title": "STAR WARS 絕地：組織殞落", "en": "Star Wars Jedi: Fallen Order", "appid": 1172380, "year": 2019, "why": "多星球 Hub 結構結合能力解鎖回訪的代表"},
-      {"title": "戰神（2018）", "en": "God of War (2018)", "appid": null, "year": 2018, "why": "以中樞區域串聯多個主題關卡的半開放世界標竿"}
+      {
+        "title": "STAR WARS 絕地：組織殞落",
+        "en": "Star Wars Jedi: Fallen Order",
+        "appid": 1172380,
+        "year": 2019,
+        "why": "多星球 Hub 結構結合能力解鎖回訪的代表"
+      },
+      {
+        "title": "戰神（2018）",
+        "en": "God of War (2018)",
+        "appid": null,
+        "year": 2018,
+        "why": "以中樞區域串聯多個主題關卡的半開放世界標竿"
+      }
     ],
     "steamTags": [],
     "compare": [
-      {"with": "open-world", "diff": "半開放世界把地圖切成多個有先後順序的區域；開放世界整張地圖幾乎沒有進入限制，探索順序完全交給玩家。"},
-      {"with": "hakoniwa", "diff": "半開放世界的每個 Hub 通常仍串聯著主線敘事節奏；箱庭設計更強調單一封閉空間本身的探索密度，不一定與主線推進綁定。"}
+      {
+        "with": "open-world",
+        "diff": "半開放世界把地圖切成多個有先後順序的區域；開放世界整張地圖幾乎沒有進入限制，探索順序完全交給玩家。"
+      },
+      {
+        "with": "hakoniwa",
+        "diff": "半開放世界的每個 Hub 通常仍串聯著主線敘事節奏；箱庭設計更強調單一封閉空間本身的探索密度，不一定與主線推進綁定。"
+      }
     ],
-    "related": ["open-world", "hakoniwa", "linear-game"],
+    "related": [
+      "open-world",
+      "hakoniwa",
+      "linear-game"
+    ],
     "design": "適合中型開發團隊，可以在可控範圍內提供探索樂趣，同時確保敘事體驗的完整性。每個 Hub 區域建議有獨特的視覺主題與遊戲機制，讓玩家對每個新區域都保持期待。",
     "sources": [
-      {"title": "Wikipedia: Open world", "url": "https://en.wikipedia.org/wiki/Open_world", "accessed": "2026-09-17", "note": "開放世界光譜與 Hub-based 結構脈絡"}
+      {
+        "title": "Wikipedia: Open world",
+        "url": "https://en.wikipedia.org/wiki/Open_world",
+        "accessed": "2026-09-17",
+        "note": "開放世界光譜與 Hub-based 結構脈絡"
+      }
     ],
     "status": "verified"
   },
@@ -1089,26 +2836,62 @@
     "id": "hakoniwa",
     "zh": "箱庭遊戲（Hakoniwa）",
     "en": "Hakoniwa",
-    "aliases": ["箱庭", "箱庭探索型", "はこにわ"],
+    "aliases": [
+      "箱庭",
+      "箱庭探索型",
+      "はこにわ"
+    ],
     "cat": "genre",
     "sub": "世界構築與探索自由度",
     "short": "在精心設計的封閉空間內追求極高密度互動的設計。",
     "def": "箱庭（はこにわ）源自日文，原意為「微縮庭園」，在遊戲設計中指在精心設計的封閉空間內，提供極高密度的互動與探索樂趣。與開放世界不同，箱庭遊戲追求「小而精」而非「大而廣」，每個關卡都像一座經過反覆打磨的縮小世界，玩家能在其中自由探索並發現多種解決問題的方式。任天堂的宮本茂是這種設計哲學的代表人物，從《超級瑪利歐64》開始便確立了這種設計典範，「密度優先」是核心精神。",
-    "features": ["封閉但高密度的空間", "小而精而非大而廣", "多種解法與隱藏通道", "每個角落都有探索價值", "開發資源高度集中"],
+    "features": [
+      "封閉但高密度的空間",
+      "小而精而非大而廣",
+      "多種解法與隱藏通道",
+      "每個角落都有探索價值",
+      "開發資源高度集中"
+    ],
     "examples": [
-      {"title": "超級瑪利歐 奧德賽", "en": "Super Mario Odyssey", "appid": null, "year": 2017, "why": "延續箱庭探索設計哲學的招牌續作"},
-      {"title": "薩爾達傳說 王國之淚", "en": "The Legend of Zelda: Tears of the Kingdom", "appid": null, "year": 2023, "why": "把箱庭密度延伸進更大空間尺度的代表"}
+      {
+        "title": "超級瑪利歐 奧德賽",
+        "en": "Super Mario Odyssey",
+        "appid": null,
+        "year": 2017,
+        "why": "延續箱庭探索設計哲學的招牌續作"
+      },
+      {
+        "title": "薩爾達傳說 王國之淚",
+        "en": "The Legend of Zelda: Tears of the Kingdom",
+        "appid": null,
+        "year": 2023,
+        "why": "把箱庭密度延伸進更大空間尺度的代表"
+      }
     ],
     "steamTags": [],
     "compare": [
-      {"with": "open-world", "diff": "箱庭追求有限空間內的探索密度，強調「小而精」；開放世界追求地圖的廣度與自由度，強調「大而廣」，兩者是相反的資源分配哲學。"},
-      {"with": "semi-open-world", "diff": "箱庭的核心是單一封閉空間本身的密度設計；半開放世界則是多個中樞區域依先後順序串聯，重點在區域之間的節奏安排。"}
+      {
+        "with": "open-world",
+        "diff": "箱庭追求有限空間內的探索密度，強調「小而精」；開放世界追求地圖的廣度與自由度，強調「大而廣」，兩者是相反的資源分配哲學。"
+      },
+      {
+        "with": "semi-open-world",
+        "diff": "箱庭的核心是單一封閉空間本身的密度設計；半開放世界則是多個中樞區域依先後順序串聯，重點在區域之間的節奏安排。"
+      }
     ],
-    "related": ["open-world", "semi-open-world"],
+    "related": [
+      "open-world",
+      "semi-open-world"
+    ],
     "design": "箱庭設計的核心在密度而非總量，開發資源集中在有限空間內，讓每個角落都有探索價值。對獨立開發者來說，這是比開放世界更可行的選擇，不需要一百平方公里的地圖，只需要一平方公里的極致體驗。",
     "origin": "「箱庭」一詞源自日文的微縮庭園造景，任天堂宮本茂從《超級瑪利歐64》開始把這個空間美學概念帶入 3D 遊戲設計，日文維基百科將該作的關卡描述為「箱庭的表現」與「箱庭探索型」的系統起點。",
     "sources": [
-      {"title": "日文維基百科：スーパーマリオ64", "url": "https://ja.wikipedia.org/wiki/スーパーマリオ64", "accessed": "2026-09-17", "note": "「箱庭的表現」「箱庭探索型」用語出處"}
+      {
+        "title": "日文維基百科：スーパーマリオ64",
+        "url": "https://ja.wikipedia.org/wiki/スーパーマリオ64",
+        "accessed": "2026-09-17",
+        "note": "「箱庭的表現」「箱庭探索型」用語出處"
+      }
     ],
     "status": "verified"
   }

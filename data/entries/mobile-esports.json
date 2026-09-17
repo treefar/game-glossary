@@ -1,7 +1,7 @@
 [
   {
     "id": "energy-system",
-    "zh": "體力系統（Stamina / Energy System）",
+    "zh": "體力系統（Stamina／Energy System）",
     "en": "Stamina / Energy System",
     "aliases": [
       "體力",
@@ -62,7 +62,7 @@
   },
   {
     "id": "daily-weekly-quest",
-    "zh": "每日／每週任務（Daily / Weekly Quest）",
+    "zh": "每日／每週任務（Daily／Weekly Quest）",
     "en": "Daily / Weekly Quest",
     "aliases": [
       "日常任務",
@@ -237,7 +237,7 @@
   },
   {
     "id": "collab-event",
-    "zh": "聯動活動（Collaboration / Collab）",
+    "zh": "聯動活動（Collaboration／Collab）",
     "en": "Collaboration (Collab)",
     "aliases": [
       "聯動",
@@ -343,7 +343,7 @@
   },
   {
     "id": "sweep",
-    "zh": "掃蕩（Sweep / Auto Clear）",
+    "zh": "掃蕩（Sweep／Auto Clear）",
     "en": "Sweep / Auto Clear",
     "aliases": [
       "一鍵掃蕩",
@@ -502,7 +502,7 @@
   },
   {
     "id": "guild-war",
-    "zh": "公會戰（Guild War / Alliance War）",
+    "zh": "公會戰（Guild War／Alliance War）",
     "en": "Guild War / Alliance War",
     "aliases": [
       "聯盟戰",
@@ -624,7 +624,7 @@
   },
   {
     "id": "ban-pick",
-    "zh": "禁選階段（Ban / Pick Phase）",
+    "zh": "禁選階段（Ban／Pick Phase）",
     "en": "Ban / Pick Phase",
     "aliases": [
       "BP",
@@ -688,7 +688,7 @@
     "en": "Balance Patch",
     "aliases": [
       "平衡性更新",
-      "調整補丁"
+      "調整更新檔"
     ],
     "cat": "esports",
     "sub": "電競版本與競技倫理",
@@ -746,7 +746,7 @@
   },
   {
     "id": "spectator-replay",
-    "zh": "觀戰與重播系統（Spectator Mode / Replay System）",
+    "zh": "觀戰與重播系統（Spectator Mode／Replay System）",
     "en": "Spectator Mode / Replay System",
     "aliases": [
       "觀戰模式",
@@ -804,7 +804,7 @@
   },
   {
     "id": "bo3-bo5",
-    "zh": "三戰兩勝／五戰三勝制（Best of Three / Best of Five）",
+    "zh": "三戰兩勝／五戰三勝制（Best of Three／Best of Five）",
     "en": "Best of Three / Best of Five",
     "aliases": [
       "BO3",
@@ -862,7 +862,7 @@
   },
   {
     "id": "smurf-boosting",
-    "zh": "小號與代練（Smurf / Boosting）",
+    "zh": "小號與代練（Smurf／Boosting）",
     "en": "Smurf / Boosting",
     "aliases": [
       "養小號",
@@ -925,7 +925,7 @@
   },
   {
     "id": "caster",
-    "zh": "主播與賽評（Caster / Commentator）",
+    "zh": "主播與賽評（Caster／Commentator）",
     "en": "Caster / Commentator",
     "aliases": [
       "主播",
@@ -984,7 +984,7 @@
   },
   {
     "id": "high-refresh-low-latency",
-    "zh": "高更新率與低延遲（High Refresh Rate / Low Latency）",
+    "zh": "高更新率與低延遲（High Refresh Rate／Low Latency）",
     "en": "High Refresh Rate / Low Latency",
     "aliases": [
       "電競螢幕",
@@ -1446,7 +1446,7 @@
         "note": "開服新手資源與首抽相關黑話整理"
       }
     ],
-    "status": "verified"
+    "status": "unverified"
   },
   {
     "id": "endgame-content",

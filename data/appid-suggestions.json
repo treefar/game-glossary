@@ -14,45 +14,28 @@
   "top": []
  },
  "Final Fantasy XIV": {
-  "appid": null,
-  "tried": "Final Fantasy XIV",
-  "top": [
-   "1795690:Immerse Gamepack FINAL FANTASY™ XIV Online Edition"
-  ]
+  "appid": 39210,
+  "manual": true
  },
  "EVE Online": {
   "appid": 8500,
   "name": "EVE Online"
  },
  "NetHack": {
-  "appid": null,
-  "tried": "NetHack",
-  "top": [
-   "837200:NetHack: Legacy",
-   "341390:Vulture for NetHack"
-  ]
+  "appid": 837200,
+  "manual": true
  },
  "Cassette Beasts": {
-  "appid": null,
-  "tried": "Cassette Beasts",
-  "top": [
-   "1321440:Cassette Beasts 磁帶怪獸",
-   "3802140:Cassette Beasts 2002",
-   "2202290:Cassette Beasts: Cosplay Pack"
-  ]
+  "appid": 1321440,
+  "manual": true
  },
  "Coromon": {
   "appid": 1218210,
   "name": "Coromon"
  },
  "Streets of Rage 4": {
-  "appid": null,
-  "tried": "Streets of Rage 4",
-  "top": [
-   "985890:怒之鐵拳4",
-   "1585820:Streets Of Rage 4 - Mr. X Nightmare",
-   "3812400:Streets of Rage 4 (Original Game Sountrack)"
-  ]
+  "appid": 985890,
+  "manual": true
  },
  "Firewatch": {
   "appid": 383870,
@@ -76,5 +59,398 @@
   "appid": null,
   "tried": "The Legend of Zelda: Tears of the Kingdom",
   "top": []
+ },
+ "Quake III Arena": {
+  "appid": 2200,
+  "name": "Quake III Arena"
+ },
+ "Unreal Tournament": {
+  "appid": null,
+  "tried": "Unreal Tournament",
+  "top": []
+ },
+ "Ikaruga": {
+  "appid": 253750,
+  "name": "Ikaruga"
+ },
+ "Nuclear Throne": {
+  "appid": 242680,
+  "name": "Nuclear Throne"
+ },
+ "DUSK": {
+  "appid": null,
+  "tried": "DUSK",
+  "top": [
+   "2973120:Dusk City",
+   "1974520:黃昏酒館 - Adult Only",
+   "4603110:Dusk City - 沉靜的燈火"
+  ]
+ },
+ "League of Legends": {
+  "appid": null,
+  "tried": "League of Legends",
+  "top": [
+   "1276800:《聯盟外傳：聚合之力》",
+   "1276790:聯盟外傳：殞落王者™",
+   "1457080:《聯盟外傳：狙魔者™》"
+  ]
+ },
+ "Dota Underlords": {
+  "appid": 1046930,
+  "name": "Dota Underlords"
+ },
+ "Into the Breach": {
+  "appid": 590380,
+  "name": "Into the Breach"
+ },
+ "Unity of Command II": {
+  "appid": 809230,
+  "name": "Unity of Command II"
+ },
+ "Oxygen Not Included": {
+  "appid": 457140,
+  "manual": true
+ },
+ "Populous": {
+  "appid": 2203860,
+  "manual": true
+ },
+ "Return to Monkey Island": {
+  "appid": 2060130,
+  "manual": true
+ },
+ "Marvel Snap": {
+  "appid": 1997040,
+  "manual": true
+ },
+ "NGU Idle": {
+  "appid": 1147690,
+  "name": "NGU IDLE"
+ },
+ "AdVenture Capitalist": {
+  "appid": 346900,
+  "name": "AdVenture Capitalist"
+ },
+ "Sonic the Hedgehog": {
+  "appid": null,
+  "tried": "Sonic the Hedgehog",
+  "top": [
+   "203650:Sonic the Hedgehog 4 - Episode II",
+   "202530:Sonic the Hedgehog 4 - Episode I",
+   "2324650:刺猬索尼克的謀殺懸案"
+  ]
+ },
+ "Dark Souls": {
+  "appid": 570940,
+  "manual": true
+ },
+ "BioShock": {
+  "appid": 7670,
+  "name": "BioShock™"
+ },
+ "Death Stranding": {
+  "appid": 1850570,
+  "manual": true
+ },
+ "Minecraft": {
+  "appid": null,
+  "tried": "Minecraft",
+  "top": [
+   "1912410:Minecraft Dungeons II",
+   "1672970:Minecraft Dungeons",
+   "1928870:Minecraft Legends"
+  ]
+ },
+ "Spelunky": {
+  "appid": 239350,
+  "name": "Spelunky"
+ },
+ "The Legend of Zelda: Breath of the Wild": {
+  "appid": null,
+  "tried": "The Legend of Zelda: Breath of the Wild",
+  "top": []
+ },
+ "Noita": {
+  "appid": 881100,
+  "name": "Noita"
+ },
+ "Fortnite": {
+  "appid": null,
+  "tried": "Fortnite",
+  "top": []
+ },
+ "Genshin Impact": {
+  "appid": null,
+  "tried": "Genshin Impact",
+  "top": []
+ },
+ "Fate/Grand Order": {
+  "appid": null,
+  "tried": "Fate/Grand Order",
+  "top": []
+ },
+ "VALORANT": {
+  "appid": null,
+  "tried": "VALORANT",
+  "top": []
+ },
+ "Hearthstone": {
+  "appid": null,
+  "tried": "Hearthstone",
+  "top": []
+ },
+ "Red Dead Redemption 2": {
+  "appid": 1174180,
+  "name": "Red Dead Redemption 2"
+ },
+ "God of War": {
+  "appid": 1593500,
+  "name": "God of War"
+ },
+ "Detroit: Become Human": {
+  "appid": 1222140,
+  "manual": true
+ },
+ "Tetris": {
+  "appid": null,
+  "tried": "Tetris",
+  "top": [
+   "1259790:魔法氣泡™ 特趣思™ 俄羅斯方塊™ 2 ",
+   "1003590:Tetris® Effect: Connected",
+   "3180240:Tetris® Forever"
+  ]
+ },
+ "Mario Kart 8 Deluxe": {
+  "appid": null,
+  "tried": "Mario Kart 8 Deluxe",
+  "top": []
+ },
+ "Uncharted": {
+  "appid": 1659420,
+  "manual": true
+ },
+ "Metroid Dread": {
+  "appid": null,
+  "tried": "Metroid Dread",
+  "top": []
+ },
+ "God of War Ragnarök": {
+  "appid": 2322010,
+  "name": "God of War Ragnarök"
+ },
+ "Honkai: Star Rail": {
+  "appid": null,
+  "tried": "Honkai: Star Rail",
+  "top": []
+ },
+ "Super Smash Bros. Ultimate": {
+  "appid": null,
+  "tried": "Super Smash Bros. Ultimate",
+  "top": []
+ },
+ "Call of Duty 4: Modern Warfare": {
+  "appid": 7940,
+  "manual": true
+ },
+ "DOOM Eternal": {
+  "appid": 782330,
+  "name": "DOOM Eternal"
+ },
+ "The Elder Scrolls IV: Oblivion": {
+  "appid": 2623190,
+  "manual": true
+ },
+ "Dead Space": {
+  "appid": 1693980,
+  "manual": true
+ },
+ "Frostpunk": {
+  "appid": 323190,
+  "manual": true
+ },
+ "The Seven Deadly Sins: Grand Cross": {
+  "appid": null,
+  "tried": "The Seven Deadly Sins: Grand Cross",
+  "top": []
+ },
+ "Langrisser Mobile": {
+  "appid": null,
+  "tried": "Langrisser Mobile",
+  "top": []
+ },
+ "Silent Hill 2": {
+  "appid": 2124490,
+  "name": "SILENT HILL 2"
+ },
+ "Detention": {
+  "appid": 555220,
+  "manual": true
+ },
+ "Devotion": {
+  "appid": null,
+  "tried": "Devotion",
+  "top": [
+   "4020850:Dungeon Devotion",
+   "718590:Dark Devotion",
+   "4070620:King's Devotion"
+  ]
+ },
+ "Pathologic 2": {
+  "appid": 505230,
+  "name": "Pathologic 2"
+ },
+ "Iron Harvest": {
+  "appid": 826630,
+  "name": "Iron Harvest"
+ },
+ "Terra Nil": {
+  "appid": 1593030,
+  "name": "Terra Nil"
+ },
+ "Unpacking": {
+  "appid": 1135690,
+  "name": "Unpacking"
+ },
+ "OMORI": {
+  "appid": 1150690,
+  "name": "OMORI"
+ },
+ "Surgeon Simulator": {
+  "appid": 233720,
+  "name": "Surgeon Simulator"
+ },
+ "Coffee Talk": {
+  "appid": 914800,
+  "name": "Coffee Talk"
+ },
+ "Night in the Woods": {
+  "appid": 481510,
+  "name": "Night in the Woods"
+ },
+ "Okami": {
+  "appid": 587620,
+  "manual": true
+ },
+ "Super Mario 3D World": {
+  "appid": null,
+  "tried": "Super Mario 3D World",
+  "top": []
+ },
+ "Super Mario Galaxy": {
+  "appid": null,
+  "tried": "Super Mario Galaxy",
+  "top": []
+ },
+ "The Legend of Zelda": {
+  "appid": null,
+  "tried": "The Legend of Zelda",
+  "top": []
+ },
+ "NieR:Automata": {
+  "appid": 524220,
+  "name": "NieR:Automata™"
+ },
+ "The Last of Us": {
+  "appid": 1888930,
+  "manual": true
+ },
+ "Thomas Was Alone": {
+  "appid": 220780,
+  "name": "Thomas Was Alone"
+ },
+ "Her Story": {
+  "appid": 368370,
+  "name": "Her Story"
+ },
+ "The Bunker": {
+  "appid": 481110,
+  "name": "The Bunker"
+ },
+ "Pentiment": {
+  "appid": 1205520,
+  "name": "Pentiment"
+ },
+ "80 Days": {
+  "appid": 381780,
+  "name": "80 Days"
+ },
+ "Destiny 2": {
+  "appid": 1085660,
+  "manual": true
+ },
+ "Dwarf Fortress": {
+  "appid": 975370,
+  "name": "Dwarf Fortress"
+ },
+ "Spec Ops: The Line": {
+  "appid": null,
+  "tried": "Spec Ops: The Line",
+  "top": []
+ },
+ "The Old City: Leviathan": {
+  "appid": 297350,
+  "name": "The Old City: Leviathan"
+ },
+ "Doki Doki Literature Club!": {
+  "appid": 698780,
+  "name": "Doki Doki Literature Club!"
+ },
+ "Metal Gear Solid": {
+  "appid": null,
+  "tried": "Metal Gear Solid",
+  "top": [
+   "3859630:METAL GEAR SOLID: MASTER COLLECTION Vol.2",
+   "2492670:METAL GEAR SOLID 4: Guns of the Patriots - Master Collection Version",
+   "2417610:METAL GEAR SOLID Δ: SNAKE EATER"
+  ]
+ },
+ "Fallen London": {
+  "appid": null,
+  "tried": "Fallen London",
+  "top": []
+ },
+ "Sunless Sea": {
+  "appid": 304650,
+  "name": "SUNLESS SEA"
+ },
+ "Cultist Simulator": {
+  "appid": 718670,
+  "name": "Cultist Simulator"
+ },
+ "Mass Effect": {
+  "appid": 17460,
+  "manual": true
+ },
+ "Fallout 4": {
+  "appid": 377160,
+  "name": "Fallout 4"
+ },
+ "Dragon Age: Inquisition": {
+  "appid": 1222690,
+  "manual": true
+ },
+ "Final Fantasy VII Remake": {
+  "appid": 1462040,
+  "manual": true
+ },
+ "Zork": {
+  "appid": 570580,
+  "manual": true
+ },
+ "AI Dungeon": {
+  "appid": null,
+  "tried": "AI Dungeon",
+  "top": [
+   "5000280:DUNGEON AI DRAGON",
+   "3746260:Dungeon CompAInions"
+  ]
+ },
+ "A Dark Room": {
+  "appid": 2460660,
+  "name": "A Dark Room ®"
+ },
+ "Oxenfree": {
+  "appid": 388880,
+  "name": "Oxenfree"
  }
 }

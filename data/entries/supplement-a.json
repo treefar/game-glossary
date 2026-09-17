@@ -1,0 +1,1574 @@
+[
+  {
+    "id": "milsim",
+    "zh": "軍事模擬射擊（MilSim）",
+    "en": "Military Simulation (MilSim)",
+    "aliases": [
+      "MilSim",
+      "硬核軍事射擊",
+      "擬真射擊遊戲"
+    ],
+    "cat": "genre",
+    "sub": "射擊類型",
+    "short": "強調真實彈道、後座力與戰術流程的高擬真射擊類型。",
+    "def": "軍事模擬射擊追求貼近真實的戰鬥體驗：彈道會受重力與風向影響、後座力難以控制、裝彈與通訊都照真實流程走，中彈一兩發就可能陣亡。相較一般 FPS 講求爽快連殺，MilSim 節奏慢、容錯率低，玩家需要與隊友仔細溝通、規劃路線與掩護，一場戰鬥可能耗時數十分鐘。地圖通常幅員遼闊，搭配載具與直升機支援協同作戰。這類遊戲學習曲線陡峭，核心玩家社群黏著度極高，也常見於軍武愛好者與退役軍人圈子。",
+    "features": [
+      "真實彈道與後座力模擬",
+      "嚴謹裝備與後勤系統",
+      "強調小隊溝通與戰術規劃",
+      "陣亡懲罰重、節奏偏慢",
+      "大範圍地圖與載具協同作戰"
+    ],
+    "examples": [
+      {
+        "title": "武裝突襲3",
+        "en": "Arma 3",
+        "appid": null,
+        "year": 2013,
+        "why": "PC 硬核軍事模擬的代表作，龐大模組社群延伸出各種戰術玩法"
+      },
+      {
+        "title": "Squad",
+        "en": "Squad",
+        "appid": null,
+        "year": 2020,
+        "why": "強調大規模步兵協同與指揮系統的代表作"
+      },
+      {
+        "title": "地獄解放",
+        "en": "Hell Let Loose",
+        "appid": 686810,
+        "year": 2021,
+        "why": "二戰題材、以後勤補給與陣地爭奪聞名的 MilSim 射擊"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 4168,
+        "en": "Military"
+      },
+      {
+        "tagid": 1708,
+        "en": "Tactical"
+      }
+    ],
+    "compare": [
+      {
+        "with": "tactical-shooter",
+        "diff": "戰術射擊仍是給大眾玩的動作遊戲，節奏較快、學習曲線平緩；軍事模擬射擊追求真實裝備與流程，容錯率低，玩家需要投入大量時間學習操作與戰術溝通。"
+      }
+    ],
+    "related": [
+      "tactical-shooter",
+      "extraction-shooter"
+    ],
+    "design": "入門門檻極高，教學與 UI 要循序引導，避免一次丟給新手太多真實系統嚇跑玩家。社群溝通品質與伺服器管理（如語音頻道、排位紀律）往往比畫面表現更決定體驗好壞。",
+    "sources": [
+      {
+        "title": "Wikipedia: MilSim",
+        "url": "https://en.wikipedia.org/wiki/MilSim",
+        "accessed": "2026-09-17",
+        "note": "MilSim 定義與軍事模擬射擊的娛樂用途說明"
+      },
+      {
+        "title": "Steam 標籤頁：Military",
+        "url": "https://store.steampowered.com/tags/en/Military/",
+        "accessed": "2026-09-17",
+        "note": "確認 Military 標籤存在"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "otome",
+    "zh": "乙女遊戲（Otome）",
+    "en": "Otome Game",
+    "aliases": [
+      "乙女向遊戲",
+      "少女遊戲",
+      "日文：乙女ゲーム"
+    ],
+    "cat": "genre",
+    "sub": "戀愛模擬",
+    "short": "以女性主角視角、與多位男性角色發展戀愛的敘事類型。",
+    "def": "乙女遊戲源自日本，讓玩家扮演或代入一位刻畫完整的女性主角，在故事中與多位性格各異的男性角色互動，透過對話選項培養好感、推進戀愛劇情。玩法核心是敘事與角色刻畫，機制上常接近視覺小說：分支選項決定路線與結局，聲優演出與人物設計份量極重。不同男性角色通常對應不同劇情路線與專屬結局，玩家要多周目才能收集完整故事。近年也出現女性向但戀愛對象不限男性的變體作品。",
+    "features": [
+      "女性玩家視角的戀愛敘事",
+      "多位男性角色可個別攻略",
+      "選項影響劇情走向與結局",
+      "強調角色刻畫與聲優演出",
+      "常見多結局與好感度系統"
+    ],
+    "examples": [
+      {
+        "title": "項圈×束縛",
+        "en": "Collar x Malice",
+        "appid": null,
+        "year": 2016,
+        "why": "Otomate 代表作，警探題材與多結局分支設計典型"
+      },
+      {
+        "title": "緋色的碎片：薄暮之戀",
+        "en": "Piofiore: Fated Memories",
+        "appid": null,
+        "why": "黑幫題材乙女遊戲代表作之一，有英語與繁中在地化版本"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 31579,
+        "en": "Otome"
+      }
+    ],
+    "compare": [
+      {
+        "with": "dating-sim",
+        "diff": "乙女遊戲鎖定女性玩家視角、與多位男性角色談戀愛，敘事與人物刻畫份量重；戀愛模擬泛指所有帶戀愛互動的模擬遊戲，不限定玩家視角性別，也常見時間管理與數值養成玩法。"
+      }
+    ],
+    "related": [
+      "dating-sim",
+      "visual-novel"
+    ],
+    "design": "在地化與角色設計要注意台灣玩家的審美與文化差異，避免整批角色套用單一人設模板；分支結局數量與美術資源要提早抓預算，否則後期容易大幅縮水。",
+    "sources": [
+      {
+        "title": "Wikipedia: Otome game",
+        "url": "https://en.wikipedia.org/wiki/Otome_game",
+        "accessed": "2026-09-17",
+        "note": "乙女遊戲定義與玩法說明"
+      },
+      {
+        "title": "Steam 標籤頁：Otome",
+        "url": "https://store.steampowered.com/tags/en/Otome/",
+        "accessed": "2026-09-17",
+        "note": "確認 Otome 標籤存在"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "dating-sim",
+    "zh": "戀愛模擬（Dating Sim）",
+    "en": "Dating Sim",
+    "aliases": [
+      "戀愛養成遊戲",
+      "戀愛模擬遊戲"
+    ],
+    "cat": "genre",
+    "sub": "戀愛模擬",
+    "short": "透過時間管理與好感度系統培養戀愛關係的模擬類型。",
+    "def": "戀愛模擬是帶有戀愛元素的模擬遊戲子類型，外觀常與視覺小說相似，但多加了一層數值與時間管理：玩家要安排行事曆、上學或打工、參加約會與活動，逐步累積與特定角色的好感度數值，最終走向不同結局。相較單純閱讀劇情的視覺小說，戀愛模擬更強調「經營」的成分，玩家的行程分配與選項策略會直接影響能不能攻略到心儀對象。題材與對象性別不限，男性向、女性向與不限性別的作品都存在。",
+    "features": [
+      "行事曆式時間管理",
+      "培養角色好感度數值",
+      "多位可攻略對象",
+      "選項與行程安排影響結局",
+      "常結合視覺小說式敘事"
+    ],
+    "examples": [
+      {
+        "title": "夢想老爸",
+        "en": "Dream Daddy: A Dad Dating Simulator",
+        "appid": null,
+        "year": 2017,
+        "why": "以單親爸爸社群為題材、廣受好評的戀愛模擬代表作"
+      },
+      {
+        "title": "心跳文學部！",
+        "en": "Doki Doki Literature Club!",
+        "appid": 698780,
+        "year": 2017,
+        "why": "表面是戀愛模擬、實則解構類型套路的話題作"
+      },
+      {
+        "title": "怪物舞會",
+        "en": "Monster Prom",
+        "appid": null,
+        "year": 2018,
+        "why": "多人同樂、限時搶攻對象的喜劇戀愛模擬代表"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 9551,
+        "en": "Dating Sim"
+      }
+    ],
+    "compare": [
+      {
+        "with": "otome",
+        "diff": "戀愛模擬泛指所有帶養成數值與時間管理的戀愛遊戲，不限定玩家或攻略對象的性別；乙女遊戲特指以女性玩家視角、攻略男性角色為主的日系分支，敘事份量通常更重。"
+      }
+    ],
+    "related": [
+      "otome",
+      "visual-novel",
+      "life-sim"
+    ],
+    "design": "好感度數值堆砌太機械會讓角色像任務清單，要靠事件文字、美術與語音撐起情感連結；行程規劃的自由度與攻略難度要抓平衡，太容易或太苛刻都會削弱戀愛的悸動感。",
+    "sources": [
+      {
+        "title": "Wikipedia: Dating sim",
+        "url": "https://en.wikipedia.org/wiki/Dating_sim",
+        "accessed": "2026-09-17",
+        "note": "戀愛模擬定義與玩法機制說明"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "interactive-fiction",
+    "zh": "互動小說（Interactive Fiction）",
+    "en": "Interactive Fiction (IF)",
+    "aliases": [
+      "文字冒險遊戲",
+      "文字解謎遊戲",
+      "IF"
+    ],
+    "cat": "genre",
+    "sub": "文字與探索解謎",
+    "short": "以文字指令或選項推進、幾乎沒有畫面呈現的敘事遊戲。",
+    "def": "互動小說是用文字指令或分支選項控制角色、推進劇情的軟體，幾乎不依賴圖像呈現，可視為一種文學敘事形式，也可歸類為電玩的一支。傳統形式是「文字冒險」：玩家輸入如「北」「拿鑰匙」等指令與環境互動、解謎前進；現代則多了以選項與超文字連結推進的分支型態（如用 Twine 製作的作品）。它考驗玩家的想像力與文字理解，解謎常需要反覆嘗試不同指令組合，是最早期也最純粹的敘事型電玩形式之一。",
+    "features": [
+      "文字指令或選項驅動劇情",
+      "極少或沒有圖像呈現",
+      "解謎常需嘗試不同指令組合",
+      "分支結局取決於選擇",
+      "含 parser 式與超文字式兩種型態"
+    ],
+    "examples": [
+      {
+        "title": "魔域",
+        "en": "Zork",
+        "appid": 570580,
+        "year": 1980,
+        "why": "最早期文字冒險的經典代表，奠定 parser 式互動小說範式"
+      },
+      {
+        "title": "八十天環遊世界",
+        "en": "80 Days",
+        "appid": 381780,
+        "year": 2014,
+        "why": "以超文字分支敘事重新演繹經典小說的當代代表作"
+      },
+      {
+        "title": "王權",
+        "en": "Reigns",
+        "appid": null,
+        "year": 2016,
+        "why": "以左右滑動選項推進劇情的極簡互動小說代表"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 11014,
+        "en": "Interactive Fiction"
+      }
+    ],
+    "compare": [
+      {
+        "with": "visual-novel",
+        "diff": "互動小說以純文字或簡單選項推進，經常沒有角色立繪與背景圖；視覺小說則以角色立繪、背景圖與文字框呈現，閱讀體驗更接近圖文小說。"
+      }
+    ],
+    "related": [
+      "visual-novel",
+      "text-based"
+    ],
+    "design": "文字遊戲對寫作品質要求極高，介面要讓玩家清楚知道哪些是可輸入指令或可點擊的選項，避免因猜指令而產生的卡關挫折；分支越多，測試與除錯的工作量越呈指數成長。",
+    "sources": [
+      {
+        "title": "Wikipedia: Interactive fiction",
+        "url": "https://en.wikipedia.org/wiki/Interactive_fiction",
+        "accessed": "2026-09-17",
+        "note": "互動小說定義與文字冒險用法說明"
+      },
+      {
+        "title": "Steam 標籤頁：Interactive Fiction",
+        "url": "https://store.steampowered.com/tags/en/Interactive%20Fiction/",
+        "accessed": "2026-09-17",
+        "note": "確認 Interactive Fiction 標籤存在"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "sokoban",
+    "zh": "倉庫番（Sokoban）",
+    "en": "Sokoban",
+    "aliases": [
+      "推箱子遊戲",
+      "倉庫番類型"
+    ],
+    "cat": "genre",
+    "sub": "文字與探索解謎",
+    "short": "把箱子推到指定位置、講究步數與路線規劃的推箱子解謎。",
+    "def": "倉庫番是以「推箱子」為核心規則的邏輯解謎類型：玩家只能推、不能拉動箱子，目標是把場上所有箱子都推到指定的儲物點上。規則極度簡單，但因為推錯方向常會把箱子卡進無法挽回的死角，玩家必須在移動前就在腦中模擬好整條路線，愈到後期關卡的空間規劃難度愈高。1981 年由日本 Thinking Rabbit 的今林宏之發明，隔年推出商業版後衍生出大量變體與續作，是電玩史上最早也最純粹的邏輯解謎類型之一。",
+    "features": [
+      "玩家只能推不能拉箱子",
+      "目標是把箱子推到指定位置",
+      "移動前需事先規劃整條路線",
+      "關卡設計本身即是謎題",
+      "常見無法挽回的死路陷阱"
+    ],
+    "examples": [
+      {
+        "title": "Sokobond",
+        "en": "Sokobond",
+        "appid": null,
+        "year": 2013,
+        "why": "把推箱子規則與化學鍵結合的變體解謎代表"
+      },
+      {
+        "title": "派翠克的方盒子",
+        "en": "Patrick's Parabox",
+        "appid": 1260520,
+        "year": 2022,
+        "why": "把倉庫番規則遞迴嵌套進箱子本身、廣受好評的現代變體"
+      },
+      {
+        "title": "史蒂芬的香腸捲",
+        "en": "Stephen's Sausage Roll",
+        "appid": null,
+        "year": 2016,
+        "why": "以極高難度聞名的倉庫番變體，被視為解謎設計教科書"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 1730,
+        "en": "Sokoban"
+      }
+    ],
+    "compare": [
+      {
+        "with": "puzzle-game",
+        "diff": "解謎遊戲泛指所有靠邏輯思考破解謎題的類型；倉庫番是其中規則極簡（只能推箱子）卻能衍生出高難度空間規劃的具體子類型，1981 年由日本 Thinking Rabbit 首創。"
+      }
+    ],
+    "related": [
+      "puzzle-game",
+      "procedural-generation"
+    ],
+    "design": "規則雖簡單，每一關都要教會玩家一個新的推理直覺，而不是單純堆疊箱子數量；死路要有跡可循，避免玩家推錯一步就得整關重來卻毫無預兆，容易累積挫折感。",
+    "origin": "1981 年由日本 Thinking Rabbit 的今林宏之創作，1982 年於日本推出商業版本，是最早期的邏輯解謎電玩之一。",
+    "sources": [
+      {
+        "title": "Wikipedia: Sokoban",
+        "url": "https://en.wikipedia.org/wiki/Sokoban",
+        "accessed": "2026-09-17",
+        "note": "倉庫番定義、發明者與起源年份"
+      },
+      {
+        "title": "Steam 標籤頁：Sokoban",
+        "url": "https://store.steampowered.com/tags/en/Sokoban/",
+        "accessed": "2026-09-17",
+        "note": "確認 Sokoban 標籤存在"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "hidden-object",
+    "zh": "隱藏物件遊戲（Hidden Object）",
+    "en": "Hidden-Object Game (HOG / HOPA)",
+    "aliases": [
+      "找物遊戲",
+      "隱藏物品遊戲",
+      "HOPA"
+    ],
+    "cat": "genre",
+    "sub": "文字與探索解謎",
+    "short": "在畫面中依清單找出隱藏物品的休閒解謎類型。",
+    "def": "隱藏物件遊戲要求玩家在一張畫面精細的場景圖裡，依照清單找出藏在其中的特定物品，有時稱為找圖或 HOPA（隱藏物件解謎冒險）。單純找物版本著重觀察力與畫面資訊密度；HOPA 版本則會加入簡單解謎與輕度劇情，物品之間也可能組合出新道具推進關卡。這類遊戲長年是休閒與行動遊戲市場的主力類型之一，操作門檻低、單局時間短，失敗懲罰輕，適合零碎時間遊玩，也常搭配每日任務與活動內容延長黏著度。",
+    "features": [
+      "畫面中尋找清單列出的物品",
+      "常搭配簡單解謎與輕度劇情",
+      "HOPA 版本結合冒險元素與小遊戲",
+      "休閒向難度、失敗懲罰輕",
+      "常見於休閒與行動遊戲市場"
+    ],
+    "examples": [
+      {
+        "title": "謎案調查系列",
+        "en": "Mystery Case Files",
+        "appid": null,
+        "why": "奠定現代隱藏物件遊戲格式的長壽系列代表"
+      },
+      {
+        "title": "六月之旅",
+        "en": "June's Journey",
+        "appid": null,
+        "year": 2019,
+        "why": "結合裝飾與敘事的當代熱門手機隱藏物件遊戲"
+      },
+      {
+        "title": "隱藏之民",
+        "en": "Hidden Folks",
+        "appid": null,
+        "year": 2017,
+        "why": "以手繪黑白畫風重新詮釋找物玩法的獨立代表"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 1738,
+        "en": "Hidden Object"
+      }
+    ],
+    "compare": [
+      {
+        "with": "escape-room",
+        "diff": "隱藏物件遊戲的核心是在畫面裡找出清單物品，通常沒有「逃出封閉空間」的目標；密室逃脫遊戲則是要靠解謎與物品互動找出離開房間的方法，兩者常共用找東西的機制但目標結構不同。"
+      }
+    ],
+    "related": [
+      "escape-room",
+      "point-and-click"
+    ],
+    "design": "畫面資訊密度與視覺公平性要拿捏好，物品要藏得有挑戰性但不能違反畫面邏輯（例如藏在不合理的透明疊層裡），否則玩家會覺得無理取鬧而非有成就感。",
+    "sources": [
+      {
+        "title": "Wikipedia: Hidden-object game",
+        "url": "https://en.wikipedia.org/wiki/Hidden-object_game",
+        "accessed": "2026-09-17",
+        "note": "隱藏物件遊戲定義與 HOPA 說明"
+      },
+      {
+        "title": "Steam 標籤頁：Hidden Object",
+        "url": "https://store.steampowered.com/tags/en/Hidden%20Object/",
+        "accessed": "2026-09-17",
+        "note": "確認 Hidden Object 標籤存在"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "escape-room",
+    "zh": "密室逃脫遊戲（Escape Room）",
+    "en": "Escape Room Video Game",
+    "aliases": [
+      "密室脫逃遊戲",
+      "逃脫遊戲",
+      "Escape the Room"
+    ],
+    "cat": "genre",
+    "sub": "文字與探索解謎",
+    "short": "在封閉房間內解謎、找出離開方法的點擊冒險子類型。",
+    "def": "密室逃脫遊戲是點擊冒險的子類型，玩家被限制在一個封閉空間裡，必須靠觀察環境、蒐集線索與操作機關，一步步解開謎題才能找到離開的方法。這個類型最早是網頁時代的 Flash 小遊戲，之後隨手機平台普及而發展成獨立品類，其設計邏輯後來甚至反過來啟發了真實世界的實體密室逃脫店。常見謎題形式包括數字鎖、顏色配對與組合機關，環環相扣的機關設計是這個類型的核心樂趣所在，近年也大量延伸到 VR 平台。",
+    "features": [
+      "封閉空間內尋找線索與道具",
+      "解謎機關環環相扣",
+      "目標是找出離開房間的方法",
+      "常見數字鎖、密碼與組合機關",
+      "起源自網頁 Flash 遊戲後普及至手機與 VR"
+    ],
+    "examples": [
+      {
+        "title": "The Room 系列",
+        "en": "The Room",
+        "appid": null,
+        "year": 2012,
+        "why": "以精緻機關道具與觸控互動聞名，帶動手機密室解謎風潮的代表"
+      },
+      {
+        "title": "逃脫模擬器",
+        "en": "Escape Simulator",
+        "appid": null,
+        "year": 2021,
+        "why": "支援多人合作、可自製關卡的 PC 密室逃脫代表作"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 769306,
+        "en": "Escape Room"
+      }
+    ],
+    "compare": [
+      {
+        "with": "point-and-click",
+        "diff": "密室逃脫遊戲是點擊冒險底下的子類型，目標被限定在「逃出單一封閉空間」；一般點擊冒險的探索範圍與敘事目標更廣，不限定密室情境。"
+      }
+    ],
+    "related": [
+      "point-and-click",
+      "hidden-object",
+      "vr-game"
+    ],
+    "design": "機關設計要有邏輯脈絡可循，避免無厘頭謎題（玩家想破頭卻只是因為美術細節沒畫清楚）；VR 版本則要特別注意手部互動的操作直覺度，避免抓取判定不準破壞沉浸感。",
+    "sources": [
+      {
+        "title": "Wikipedia: Escape room video game",
+        "url": "https://en.wikipedia.org/wiki/Escape_room_video_game",
+        "accessed": "2026-09-17",
+        "note": "密室逃脫電玩類型定義"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "board-game-digital",
+    "zh": "數位桌遊（Digital Board Game）",
+    "en": "Digital Tabletop Game",
+    "aliases": [
+      "電子化桌遊",
+      "桌遊電玩化",
+      "桌遊 App"
+    ],
+    "cat": "genre",
+    "sub": "桌遊與社交推理",
+    "short": "把實體桌遊、卡牌或角色扮演規則搬上電腦與行動裝置的改編類型。",
+    "def": "數位桌遊泛指遊玩方式與實體桌上遊戲（棋盤遊戲、卡牌遊戲、角色扮演規則）相似的電玩類型，大致分成兩種形式：一種是既有知名桌遊的直接數位改編，忠實還原規則與美術；另一種是通用型虛擬桌面引擎，讓玩家自行擺放模型、卡牌與骰子，重現任何一款實體桌遊的遊玩過程。數位化最大的好處是電腦自動處理繁瑣的規則判定與計分，省去翻規則書與人工計算的時間，也能輕鬆串連線上多人對局與語音社交。",
+    "features": [
+      "直接改編既有實體桌遊規則",
+      "部分作品是通用虛擬桌面引擎",
+      "自動處理規則判定與計分",
+      "支援線上多人與 AI 對手",
+      "常搭配語音或視訊輔助社交"
+    ],
+    "examples": [
+      {
+        "title": "桌上模擬器",
+        "en": "Tabletop Simulator",
+        "appid": 286160,
+        "year": 2015,
+        "why": "通用虛擬桌面引擎代表作，玩家可自行重現任何實體桌遊"
+      },
+      {
+        "title": "塔利斯曼：數位版",
+        "en": "Talisman: Digital Edition",
+        "appid": null,
+        "year": 2013,
+        "why": "經典奇幻桌遊的忠實數位改編代表"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 1770,
+        "en": "Board Game"
+      },
+      {
+        "tagid": 17389,
+        "en": "Tabletop"
+      }
+    ],
+    "compare": [
+      {
+        "with": "card-game",
+        "diff": "數位桌遊泛指所有實體桌上遊戲（含棋盤、骰子與角色扮演規則）的電子化改編；卡牌遊戲特指以卡牌為核心機制的類型，兩者有重疊，但數位桌遊涵蓋範圍更廣。"
+      }
+    ],
+    "related": [
+      "card-game",
+      "social-deduction"
+    ],
+    "design": "改編要忠於原始規則，同時善用電腦自動計算的優勢化解實體桌遊「資訊難以一覽」的痛點；通用引擎型作品則要在自由度與易用性之間拿捏，過度自由容易讓新手不知從何下手。",
+    "sources": [
+      {
+        "title": "Wikipedia: Digital tabletop game",
+        "url": "https://en.wikipedia.org/wiki/Digital_board_game",
+        "accessed": "2026-09-17",
+        "note": "數位桌遊類型定義"
+      },
+      {
+        "title": "Steam 標籤頁：Board Game",
+        "url": "https://store.steampowered.com/tags/en/Board%20Game/",
+        "accessed": "2026-09-17",
+        "note": "確認 Board Game 標籤存在"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "social-deduction",
+    "zh": "社交推理遊戲（Social Deduction）",
+    "en": "Social Deduction Game",
+    "aliases": [
+      "身份推理遊戲",
+      "陣營猜謎遊戲",
+      "狼人類遊戲"
+    ],
+    "cat": "genre",
+    "sub": "桌遊與社交推理",
+    "short": "玩家靠對話與觀察揪出隱藏身份或臥底陣營的多人類型。",
+    "def": "社交推理遊戲讓每位玩家暗中分配到不同的陣營或身份，例如平民與臥底、船員與冒名者，遊戲過程中玩家要靠發言、觀察與投票，找出誰在說謊、誰站在敵對陣營。核心樂趣不在操作技巧，而在心理博弈：說謊要說得有說服力，抓謊要靠邏輯與臨場反應。這類玩法源自實體派對遊戲（如台灣俗稱「狼人殺」的 Werewolf／Mafia），《Among Us》在 2020 年疫情期間帶動了社交推理的數位化爆紅風潮，此後大量同類型作品湧現。",
+    "features": [
+      "玩家分屬隱藏陣營（如平民／臥底）",
+      "靠發言與投票找出可疑對象",
+      "說謊與觀察反應是核心技巧",
+      "每輪淘汰或處決推進局勢",
+      "高度依賴語音或文字社交互動"
+    ],
+    "examples": [
+      {
+        "title": "Among Us",
+        "en": "Among Us",
+        "appid": 945360,
+        "year": 2018,
+        "why": "2020 年帶動社交推理數位化爆紅的代表作"
+      },
+      {
+        "title": "極地寒冬計畫",
+        "en": "Project Winter",
+        "appid": 774861,
+        "year": 2019,
+        "why": "把社交推理融入生存合作玩法的代表作"
+      },
+      {
+        "title": "薩勒姆小鎮",
+        "en": "Town of Salem",
+        "appid": null,
+        "year": 2014,
+        "why": "早期把《狼人殺》規則完整數位化的代表作之一"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 745697,
+        "en": "Social Deduction"
+      }
+    ],
+    "compare": [
+      {
+        "with": "party-game",
+        "diff": "社交推理的核心樂趣來自隱藏身份與說謊識破的心理博弈；派對遊戲泛指所有適合多人同樂的輕度遊戲，不一定有身份隱藏與陣營對抗的結構。"
+      }
+    ],
+    "related": [
+      "party-game",
+      "asymmetric-multiplayer"
+    ],
+    "design": "局長與人數要抓好，太短沒空間鋪梗、太長容易冷場；要設計好「死亡玩家如何避免洩漏資訊」的機制，系統結算與投票流程要夠快，否則整場節奏會被拖垮。",
+    "origin": "玩法傳統可追溯至蘇聯心理學系教學遊戲《Mafia》（1986 年），後衍生出桌遊《Werewolf》，台灣與華語圈慣稱「狼人殺」。",
+    "sources": [
+      {
+        "title": "Wikipedia: Social deduction game",
+        "url": "https://en.wikipedia.org/wiki/Social_deduction_game",
+        "accessed": "2026-09-17",
+        "note": "社交推理遊戲定義，並提及 Among Us 等早期代表作"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "asymmetric-multiplayer",
+    "zh": "非對稱多人遊戲（Asymmetric Multiplayer）",
+    "en": "Asymmetric Multiplayer",
+    "aliases": [
+      "非對稱對戰",
+      "不對等多人遊戲"
+    ],
+    "cat": "genre",
+    "sub": "桌遊與社交推理",
+    "short": "玩家間角色、能力與遊玩體驗明顯不同的多人設計。",
+    "def": "非對稱多人遊戲指玩家之間扮演的角色、擁有的能力與整體遊玩體驗有顯著差異，差異大到讓雙方感受到完全不同的遊戲。最常見的編制是一人對多人，例如《黎明死線》讓一名玩家扮演殺手追殺四名倖存者，殺手與倖存者的視角、操作介面、資源與勝利條件完全不同，卻在同一張地圖上互動。這種設計能創造出對稱多人遊戲難以複製的緊張感與角色扮演樂趣，但也讓平衡設計變得格外困難：勝率要同時兼顧「一個人」與「一整隊」兩種完全不同的體驗規模。",
+    "features": [
+      "玩家分成能力與目標完全不同的陣營",
+      "常見一人對多人的編制",
+      "雙方資訊與操作介面通常也不同",
+      "勝利條件因陣營而異",
+      "高度仰賴角色平衡與版本調整"
+    ],
+    "examples": [
+      {
+        "title": "黎明死線",
+        "en": "Dead by Daylight",
+        "appid": 381210,
+        "year": 2016,
+        "why": "一名殺手對四名倖存者，非對稱多人類型最具代表性的作品"
+      },
+      {
+        "title": "進化",
+        "en": "Evolve",
+        "appid": null,
+        "year": 2015,
+        "why": "一名巨獸玩家對四名獵人的非對稱對戰代表作"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "coop-versus",
+        "diff": "非對稱多人強調的是雙方「能力與體驗本質不同」（例如一個殺手對四個倖存者）；協力／對戰只描述玩家是同隊還是敵對，雙方角色能力可以是完全對稱的。"
+      }
+    ],
+    "related": [
+      "coop-versus",
+      "social-deduction"
+    ],
+    "design": "平衡設計最難的是要讓「一個人的強弱」對應「多人團隊的總和」；版本更新要同時兼顧單人陣營的孤獨壓力感與多人陣營的合作樂趣，偏重任何一方都容易讓另一方玩家流失。",
+    "sources": [
+      {
+        "title": "Wikipedia: Asymmetrical multiplayer",
+        "url": "https://en.wikipedia.org/wiki/Asymmetric_gameplay",
+        "accessed": "2026-09-17",
+        "note": "非對稱多人定義，並列舉黎明死線、Evolve 為代表"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "vr-game",
+    "zh": "VR 遊戲（虛擬實境遊戲）",
+    "en": "VR Game (Virtual Reality Game)",
+    "aliases": [
+      "虛擬實境遊戲",
+      "VR 電玩"
+    ],
+    "cat": "genre",
+    "sub": "沉浸體感",
+    "short": "須配戴頭戴式顯示器與手把、強調沉浸感的虛擬實境遊戲總稱。",
+    "def": "VR 遊戲是必須配戴虛擬實境硬體才能遊玩的電玩，玩家透過頭戴式顯示器獲得立體視覺，並用追蹤手把控制虛擬雙手的動作與方向。相較平面螢幕遊戲，VR 遊戲最大的特色是身歷其境的臨場感：玩家可以物理轉頭環顧場景、伸手抓取虛擬物品，操作方式從按鍵輸入變成接近真實動作的身體互動。移動方式是 VR 設計的一大難題，常見瞬間移動、平滑移動等多種選項並存，讓玩家依自己對暈動症的耐受度自由選擇，硬體與遊玩空間門檻也比一般電玩更高。",
+    "features": [
+      "需配戴頭戴式顯示器遊玩",
+      "手把追蹤手部動作與方向",
+      "強調身歷其境的沉浸感",
+      "移動方式需考量暈動症設計",
+      "硬體與遊玩空間門檻較高"
+    ],
+    "examples": [
+      {
+        "title": "戰慄時空：艾莉克絲",
+        "en": "Half-Life: Alyx",
+        "appid": 546560,
+        "year": 2020,
+        "why": "公認把 VR 敘事與互動設計推到頂點的代表作"
+      },
+      {
+        "title": "節奏光劍",
+        "en": "Beat Saber",
+        "appid": 620980,
+        "year": 2019,
+        "why": "以體感揮劍砍音樂方塊聞名、最普及的 VR 遊戲之一"
+      },
+      {
+        "title": "VRChat",
+        "en": "VRChat",
+        "appid": 438100,
+        "year": 2017,
+        "why": "以社交與自訂虛擬化身聞名的 VR 社群平台代表"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 21978,
+        "en": "VR"
+      }
+    ],
+    "compare": [
+      {
+        "with": "first-person",
+        "diff": "第一人稱視角只是攝影機設定；VR 遊戲進一步要求頭戴裝置的頭部追蹤與立體視覺，兩者常搭配出現但不是同一件事，平面螢幕遊戲也能採用第一人稱視角。"
+      }
+    ],
+    "related": [
+      "haptics",
+      "xr"
+    ],
+    "design": "暈動症與舒適選項要做齊全（瞬移、暈眩減緩選項、可調視野），操作教學最好在遊戲內直接用互動示範，而不是靠說明書文字，玩家戴上頭盔後很難再回頭查手冊。",
+    "sources": [
+      {
+        "title": "Wikipedia: Virtual reality game",
+        "url": "https://en.wikipedia.org/wiki/Virtual_reality_game",
+        "accessed": "2026-09-17",
+        "note": "VR 遊戲定義與硬體特徵說明"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "steam-next-fest",
+    "zh": "Steam 新品節（Steam Next Fest）",
+    "en": "Steam Next Fest",
+    "aliases": [
+      "Steam 新品發表節",
+      "Steam Game Festival（前身）"
+    ],
+    "cat": "industry",
+    "sub": "發行與社群",
+    "short": "Steam 平台定期舉辦、集中展示大量遊戲試玩版的線上展會。",
+    "def": "Steam 新品節是 Valve 官方定期舉辦的線上展會，集中在固定的一週左右，把大量尚未發售遊戲的試玩版放上 Steam 商店頁面供玩家免費體驗，通常搭配開發者直播與問答。它的前身是 2019 年由 Valve 與遊戲媒體人 Geoff Keighley 合作推出的 Steam Game Festival，之後固定為一年舉辦兩到三次，並更名為 Steam Next Fest。對獨立開發者而言，這是集中曝光新作、衝刺願望清單數字，藉此爭取上架後被 Steam 演算法推薦機會的重要行銷節點。",
+    "features": [
+      "Steam 平台官方定期舉辦",
+      "集中上架大量遊戲試玩版",
+      "每年約舉辦二至三次",
+      "開發者常藉此衝刺願望清單",
+      "前身為 2019 年 Steam Game Festival"
+    ],
+    "examples": [
+      {
+        "title": "潛水員戴夫",
+        "en": "DAVE THE DIVER",
+        "appid": 1868140,
+        "year": 2023,
+        "why": "上市前靠免費試玩版累積高度討論度的獨立代表作之一"
+      },
+      {
+        "title": "巴拉特羅",
+        "en": "Balatro",
+        "appid": 2379780,
+        "year": 2024,
+        "why": "以精簡試玩版展示核心玩法、帶動口碑擴散的獨立代表作之一"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "demo",
+        "diff": "Steam 新品節是平台定期舉辦、集中曝光大量試玩版的行銷活動；試玩版則是單一作品的產品形式本身，不一定要搭上新品節才能推出。"
+      }
+    ],
+    "related": [
+      "demo",
+      "wishlist",
+      "early-access"
+    ],
+    "design": "試玩版內容要能在短時間內完整展現核心玩法賣點，前 15 分鐘的第一印象往往決定玩家會不會加入願望清單；活動期間也要準備好直播與社群互動，單靠試玩版本身很難在海量新品裡被看見。",
+    "sources": [
+      {
+        "title": "Wikipedia: Steam (service)",
+        "url": "https://en.wikipedia.org/wiki/Steam_(service)",
+        "accessed": "2026-09-17",
+        "note": "Steam Next Fest 沿革，由 Steam Game Festival 更名而來"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "mod-workshop",
+    "zh": "模組工坊（Mod／Steam Workshop）",
+    "en": "Mod / Steam Workshop",
+    "aliases": [
+      "模組",
+      "Mod",
+      "創意工坊"
+    ],
+    "cat": "industry",
+    "sub": "發行與社群",
+    "short": "讓玩家上傳、分享與訂閱遊戲模組與自製內容的平台機制。",
+    "def": "模組（Mod）指玩家社群自製、用來修改或擴充既有遊戲內容的資料，小到換個外觀貼圖，大到整張新地圖或全新玩法規則都算。Steam Workshop 是目前最主流的模組發布平台，讓創作者上傳作品、玩家一鍵訂閱即可自動安裝更新，省去手動搬檔案的麻煩。它於 2011 年隨《戰隊要塞2》的帽子與道具模組起家，2012 年起擴展支援其他遊戲，如今許多遊戲的長期壽命與熱度都仰賴活躍的模組社群維持，部分熱門模組作者甚至因此被官方招募進正式開發團隊。",
+    "features": [
+      "玩家自製地圖、角色、道具或規則調整",
+      "訂閱制安裝，免手動搬檔案",
+      "部分作品把模組工具直接內建",
+      "熱門模組作者可能被官方招募",
+      "部分平台提供付費模組分潤機制"
+    ],
+    "examples": [
+      {
+        "title": "天際：上古卷軸5",
+        "en": "The Elder Scrolls V: Skyrim",
+        "appid": null,
+        "year": 2011,
+        "why": "模組生態最活躍、被視為模組文化教科書等級的代表作"
+      },
+      {
+        "title": "Garry's Mod",
+        "en": "Garry's Mod",
+        "appid": 4000,
+        "year": 2006,
+        "why": "本身就是模組起家、以自由創作聞名的沙盒代表作"
+      },
+      {
+        "title": "星露谷物語",
+        "en": "Stardew Valley",
+        "appid": 413150,
+        "year": 2016,
+        "why": "獨立開發者長期支援 Steam Workshop 模組生態的代表作"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 1669,
+        "en": "Moddable"
+      }
+    ],
+    "compare": [
+      {
+        "with": "dlc-season-pass",
+        "diff": "模組工坊的內容多半由玩家社群免費製作與分享；DLC／季票是官方販售的付費追加內容，兩者都能延長遊戲壽命，但性質與收費方式完全不同。"
+      }
+    ],
+    "related": [
+      "level-design",
+      "crowdfunding"
+    ],
+    "design": "要不要提供正式模組編輯工具、如何審核內容與處理第三方 IP 版權爭議，都要在企劃階段就想清楚；也要留意模組可能帶來的惡意程式風險與破壞遊戲平衡的問題。",
+    "origin": "Steam Workshop 於 2011 年推出，最初只用於發布《戰隊要塞2》的道具模組，2012 年初才擴展支援其他遊戲。",
+    "sources": [
+      {
+        "title": "Wikipedia: Steam Workshop",
+        "url": "https://en.wikipedia.org/wiki/Steam_Workshop",
+        "accessed": "2026-09-17",
+        "note": "Steam Workshop 定義與起源沿革"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "prototype",
+    "zh": "原型（Prototype）",
+    "en": "Prototype",
+    "aliases": [
+      "雛形",
+      "可玩原型",
+      "紙上原型（Paper Prototype）"
+    ],
+    "cat": "industry",
+    "sub": "開發流程與里程碑",
+    "short": "用來驗證單一玩法或想法是否好玩的早期粗糙版本。",
+    "def": "原型是開發初期用來驗證某個玩法點子好不好玩的粗糙版本，通常只做出驗證核心機制所需的最小功能，美術與效能完全不講究，甚至直接借用其他專案的素材充數。它的目的是讓程式設計師與企劃快速實驗不同演算法與操作手感，用最低成本得出「這個點子值不值得繼續做下去」的結論；許多原型測試完就被直接丟棄，只留下驗證過的經驗。原型可以是紙上模擬，也可以是能實際操作的數位版本，是前製作期最重要也最該勇於失敗的階段。",
+    "features": [
+      "只做驗證核心玩法所需的最小功能",
+      "美術與效能通常粗糙或借用素材",
+      "目的是快速失敗、快速迭代",
+      "常見紙上原型與數位原型兩階段",
+      "多數原型不會進入正式產品"
+    ],
+    "examples": [
+      {
+        "title": "Baba Is You",
+        "en": "Baba Is You",
+        "appid": 736260,
+        "year": 2019,
+        "why": "起源自 2017 年 Nordic Game Jam 的短版原型，驗證核心規則玩法後才擴充成正式作品"
+      },
+      {
+        "title": "吸血鬼倖存者",
+        "en": "Vampire Survivors",
+        "appid": 1794680,
+        "year": 2022,
+        "why": "開發者失業期間用低成本原型驗證玩法後爆紅的代表案例"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "vertical-slice",
+        "diff": "原型只驗證單一機制是否好玩，美術與效能可以完全不講究；垂直切片則要求選一小段內容做到接近最終發售品質，用來對外展示或說服出資方。"
+      }
+    ],
+    "related": [
+      "vertical-slice",
+      "greybox"
+    ],
+    "design": "失敗要趁早：原型階段最忌諱因為捨不得已花的時間精力而硬做下去，決策者要能明快砍掉不好玩的原型，把資源留給更有潛力的點子。",
+    "sources": [
+      {
+        "title": "Wikipedia: Video game development",
+        "url": "https://en.wikipedia.org/wiki/Video_game_development",
+        "accessed": "2026-09-17",
+        "note": "原型於前製作期驗證玩法的用途說明"
+      },
+      {
+        "title": "Wikipedia: Baba Is You",
+        "url": "https://en.wikipedia.org/wiki/Baba_Is_You",
+        "accessed": "2026-09-17",
+        "note": "確認該作起源自遊戲創作松（Game Jam）原型"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "greybox",
+    "zh": "灰盒（Greybox／關卡量體）",
+    "en": "Greybox / Graybox (Level Blockout)",
+    "aliases": [
+      "白盒（Whitebox）",
+      "關卡量體",
+      "Blockout"
+    ],
+    "cat": "industry",
+    "sub": "開發流程與里程碑",
+    "short": "用簡單幾何量體先搭出關卡動線與尺度、尚未上美術的階段。",
+    "def": "灰盒是關卡設計流程中的一個階段：設計師先用最陽春的方塊、平面等簡單幾何量體（常見灰色，故稱灰盒）搭出房間、走道、掩體與制高點的相對位置與尺度比例，讓團隊能實際跑一遍動線、測試視野與戰鬥節奏是否成立。因為改動成本極低（搬個方塊比重畫一整套美術資產快得多），這是關卡最適合大幅度反覆迭代的階段；確認整體佈局可行之後，才會交給美術團隊上材質、擺設細節與燈光，正式進入產出美術資產的階段。",
+    "features": [
+      "用簡單幾何方塊代替最終美術",
+      "專注驗證動線、尺度與節奏",
+      "改動成本低、適合大幅度迭代",
+      "確認可行後才進入美術上色階段",
+      "常搭配紙上關卡圖與遊玩測試"
+    ],
+    "examples": [
+      {
+        "title": "傳送門2",
+        "en": "Portal 2",
+        "appid": 620,
+        "year": 2011,
+        "why": "以高頻率遊玩測試反覆修改關卡佈局與謎題節奏聞名的代表案例"
+      },
+      {
+        "title": "戰慄時空2",
+        "en": "Half-Life 2",
+        "appid": 220,
+        "year": 2004,
+        "why": "以「Cabal」式團隊反覆遊玩測試調整關卡聞名，關卡量體階段被大幅修改的知名案例"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "vertical-slice",
+        "diff": "灰盒只搭建關卡量體驗證動線與節奏，完全不管美術與效能；垂直切片則要求選一小段內容做到接近最終發售品質的呈現，兩者是關卡與內容開發的不同階段。"
+      }
+    ],
+    "related": [
+      "level-design",
+      "vertical-slice",
+      "prototype"
+    ],
+    "design": "灰盒測試要用最終角色的真實移動速度與視野去試玩，不能只憑空間感覺判斷比例，否則正式上材質、擺滿裝飾物後常常會發現尺度其實不對，得回頭重改動線。",
+    "sources": [
+      {
+        "title": "Wikipedia: Level design",
+        "url": "https://en.wikipedia.org/wiki/Level_design",
+        "accessed": "2026-09-17",
+        "note": "關卡設計於上美術前使用佔位與原型的一般性說明；未直接使用 greybox 一詞，見 report 說明"
+      }
+    ],
+    "status": "unverified"
+  },
+  {
+    "id": "gold-master",
+    "zh": "金盤／送廠版本（Gold Master, GM）",
+    "en": "Gold Master (Release to Manufacturing)",
+    "aliases": [
+      "GM",
+      "送廠版本",
+      "封盤（Going Gold）"
+    ],
+    "cat": "industry",
+    "sub": "開發流程與里程碑",
+    "short": "確定為最終發售版本、送去量產或上架審核的定案版本。",
+    "def": "金盤（Gold Master，簡稱 GM）是開發團隊正式確認「就是這個版本了」的最終定案版本，業界也稱這個里程碑為「封盤」或「Going Gold」。實體版時代，這份母帶會被直接送到工廠大量壓製光碟或卡帶；數位發行時代，則是把這個版本送交 Steam、PlayStation、Xbox 等平台審核（俗稱送 Cert）。詞源來自唱片業的「金唱片」母帶概念。一旦封盤，代表可以修改的空間幾乎歸零，之後若發現重大問題，多半只能靠上市首日或首週的緊急修補檔處理。",
+    "features": [
+      "代表開發團隊確認可以發售的最終版本",
+      "實體版送工廠量產光碟或卡帶",
+      "數位版則送平台審核（Cert）",
+      "定案後改動需走緊急修補流程",
+      "詞源來自唱片業「金唱片」母帶概念"
+    ],
+    "examples": [
+      {
+        "title": "薩爾達傳說：曠野之息",
+        "en": "The Legend of Zelda: Breath of the Wild",
+        "appid": null,
+        "year": 2017,
+        "why": "主機遊戲需送交平台審核與實體壓片流程的代表性案例類型"
+      },
+      {
+        "title": "電馭叛客2077",
+        "en": "Cyberpunk 2077",
+        "appid": 1091500,
+        "year": 2020,
+        "why": "封盤後仍靠大量上市後修補檔補救問題、常被引用的產業案例"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "alpha-beta",
+        "diff": "封閉／公開測試階段遊戲仍在持續修改與蒐集回饋；金盤代表測試流程已結束、團隊確認這就是要出貨的最終版本，之後只剩緊急修補。"
+      }
+    ],
+    "related": [
+      "alpha-beta",
+      "vertical-slice",
+      "day-one-patch"
+    ],
+    "design": "封盤時程要抓在平台審核與量產工期之前預留緩衝，數位發行雖然免去了壓片流程，但也讓部分團隊養成「封盤後再補」的僥倖心態，一不小心就演變成上市即翻車的口碑風險。",
+    "sources": [
+      {
+        "title": "Wikipedia: Software release life cycle",
+        "url": "https://en.wikipedia.org/wiki/Software_release_life_cycle",
+        "accessed": "2026-09-17",
+        "note": "Gold master／Going gold／RTM 定義"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "backward-compatibility",
+    "zh": "回溯相容（Backward Compatibility）",
+    "en": "Backward Compatibility",
+    "aliases": [
+      "向下相容",
+      "相容舊遊戲"
+    ],
+    "cat": "industry",
+    "sub": "商業模式與規模",
+    "short": "新硬體或新版本仍可執行舊世代遊戲的能力。",
+    "def": "回溯相容指新一代的硬體或軟體系統，仍然能夠執行為舊世代設計、未經修改的內容。在主機遊戲領域最常見的討論是新主機能不能直接玩舊主機的遊戲片，例如任天堂 Wii 內建 GameCube 光碟插槽與控制器連接埠，可直接執行 GameCube 遊戲；近年 Xbox Series X|S 也延續了對前兩個世代大量遊戲庫的原生回溯相容。回溯相容可能透過硬體直接支援達成，也可能靠軟體模擬層實現，部分平台還會額外強化畫質與幀率作為賣點，但並非每一代新主機都保證做到。",
+    "features": [
+      "新主機可直接執行舊世代遊戲片或光碟",
+      "可透過原生硬體相容或軟體模擬達成",
+      "部分平台會強化畫質與幀率作為賣點",
+      "並非所有新主機都保證回溯相容",
+      "跨世代存檔與帳號延續也常被歸入此議題"
+    ],
+    "examples": [
+      {
+        "title": "Wii 回溯相容 GameCube 遊戲",
+        "en": "Wii Backward Compatibility with GameCube",
+        "appid": null,
+        "year": 2006,
+        "why": "Wikipedia 引用的經典案例，Wii 內建光碟插槽可直接執行 GameCube 遊戲片"
+      },
+      {
+        "title": "Xbox Series X|S 回溯相容計畫",
+        "en": "Xbox Series X|S Backward Compatibility",
+        "appid": null,
+        "year": 2020,
+        "why": "涵蓋大量 Xbox 360 與 Xbox One 遊戲庫的當代大型回溯相容案例"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "remaster",
+        "diff": "回溯相容是讓新硬體直接執行未經修改的舊版遊戲程式碼；重製系列則是開發團隊主動重新製作或強化舊作內容，兩者處理舊作的方式完全不同。"
+      }
+    ],
+    "related": [
+      "remaster"
+    ],
+    "design": "要做回溯相容得先解決版權過期的音樂與授權素材、原始碼保存不全與舊系統相依性等問題；許多老遊戲其實是因為原始碼遺失而無法真正回溯相容，並非技術上做不到。",
+    "sources": [
+      {
+        "title": "Wikipedia: Backward compatibility",
+        "url": "https://en.wikipedia.org/wiki/Backward_compatibility",
+        "accessed": "2026-09-17",
+        "note": "回溯相容定義，並以 Wii 相容 GameCube 遊戲為例"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "monetization",
+    "zh": "營利手法（Monetization）",
+    "en": "Monetization",
+    "aliases": [
+      "商業化模式",
+      "營收模式"
+    ],
+    "cat": "industry",
+    "sub": "商業模式與規模",
+    "short": "遊戲用來產生營收的各種商業設計統稱。",
+    "def": "營利手法泛指發行商用來從一款遊戲產生營收的所有商業設計方式，常見形式包括一次性買斷、DLC 與季票、訂閱制、內購、廣告、抽卡與戰鬥通行證等，通常會依遊戲類型與客群交叉搭配使用。它是評估一個專案財務可行性的核心考量，也直接影響遊戲設計本身：免費遊玩作品高度仰賴此類設計維持營收，數值養成節奏、活動頻率甚至關卡難度都可能被營利考量牽動。過度以營利為導向、犧牲核心玩法樂趣的設計，長期容易引發玩家反彈與口碑反噬。",
+    "features": [
+      "涵蓋買斷、內購、訂閱、廣告等多種形式",
+      "可能直接影響遊戲設計與數值平衡",
+      "免費遊玩作品高度依賴此類設計",
+      "過度營利設計容易引發玩家反彈",
+      "是評估專案財務可行性的核心考量"
+    ],
+    "examples": [
+      {
+        "title": "巫師3：狂獵",
+        "en": "The Witcher 3: Wild Hunt",
+        "appid": 292030,
+        "year": 2015,
+        "why": "純買斷加優質付費 DLC 的營利模式代表"
+      },
+      {
+        "title": "要塞英雄",
+        "en": "Fortnite",
+        "appid": null,
+        "year": 2017,
+        "why": "免費遊玩加外觀內購與戰鬥通行證的營利模式代表"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "dlc-season-pass",
+        "diff": "營利手法是涵蓋所有收費設計的總稱；DLC／季票只是其中一種具體的追加內容銷售形式，此外還有訂閱、廣告、抽卡等其他做法。"
+      }
+    ],
+    "related": [
+      "f2p",
+      "dlc-season-pass",
+      "cosmetics",
+      "loot-box"
+    ],
+    "design": "營利設計要在商業目標與玩家體驗之間找平衡；把數值或關卡難度刻意調整成逼玩家課金的做法，短期能拉高營收，長期卻容易被社群貼上「割韭菜」標籤，反噬口碑與留存。",
+    "sources": [
+      {
+        "title": "Wikipedia: Video game monetization",
+        "url": "https://en.wikipedia.org/wiki/Video_game_monetization",
+        "accessed": "2026-09-17",
+        "note": "遊戲營利手法定義與常見形式"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "cosmetics",
+    "zh": "外觀道具（Cosmetics）",
+    "en": "Cosmetics / Cosmetic Items",
+    "aliases": [
+      "外觀改造道具",
+      "造型道具",
+      "皮膚（Skin）"
+    ],
+    "cat": "industry",
+    "sub": "商業模式與規模",
+    "short": "只改變外觀、不影響遊戲平衡的付費或掉落道具。",
+    "def": "外觀道具是只改變角色或裝備視覺呈現、刻意不影響數值與勝負的付費項目，常見形式包括角色皮膚、武器塗裝與專屬表情動作。這種設計是競技類與多人遊戲最常採用的營利手法，因為它能讓玩家花錢表達個性、收藏喜好角色造型，同時避免「付費就能變強」引發的公平性爭議。外觀道具可以直接上架販售，也可以透過戰鬥通行證分階段解鎖，或裝進戰利品箱靠開箱取得，部分作品還會推出限量或活動限定款式，塑造稀缺感。",
+    "features": [
+      "純視覺變化，不影響數值或勝負",
+      "常見角色皮膚、武器塗裝、表情動作",
+      "競技類遊戲偏好此模式避免付費碾壓",
+      "可直接販售，也可透過通行證或開箱取得",
+      "部分作品有限量或活動限定款式"
+    ],
+    "examples": [
+      {
+        "title": "要塞英雄",
+        "en": "Fortnite",
+        "appid": null,
+        "year": 2017,
+        "why": "以角色外觀與聯名造型為主力營收來源的代表作"
+      },
+      {
+        "title": "Apex 英雄",
+        "en": "Apex Legends",
+        "appid": 1172470,
+        "year": 2019,
+        "why": "免費遊玩加外觀道具與戰鬥通行證的射擊代表作"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "p2w",
+        "diff": "外觀道具刻意設計成不影響遊戲平衡，用來與付費碾壓做區隔；付費碾壓則是玩家能直接用錢買到強度優勢的爭議設計，兩者的分野正是外觀道具存在的意義。"
+      }
+    ],
+    "related": [
+      "loot-box",
+      "f2p",
+      "monetization"
+    ],
+    "design": "要守住「外觀不影響數值」這條紅線，一旦外觀道具偷渡了數值優勢（例如判定框變小、視覺更容易誤導對手），就會被社群認定為變相付費碾壓，引發強烈反彈。",
+    "sources": [
+      {
+        "title": "Wikipedia: Microtransaction",
+        "url": "https://en.wikipedia.org/wiki/Microtransaction",
+        "accessed": "2026-09-17",
+        "note": "區分外觀型與功能型微交易的定義說明"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "loot-box",
+    "zh": "戰利品箱（Loot Box）",
+    "en": "Loot Box",
+    "aliases": [
+      "開箱系統",
+      "戰利品箱子",
+      "儲值箱"
+    ],
+    "cat": "industry",
+    "sub": "商業模式與規模",
+    "short": "花錢購買、開出隨機虛擬道具的消耗型機制。",
+    "def": "戰利品箱是一種可消耗的虛擬道具，玩家花錢購買後開箱，隨機獲得一項虛擬物品，內容物從單純的外觀裝飾到能直接影響戰力的武器裝備都可能出現，機率通常由發行商片面決定且不一定公開。這個機制因為與賭博高度相似，近年在歐洲引發強烈規管爭議：比利時遊戲委員會在 2018 年認定多款遊戲的戰利品箱構成賭博，荷蘭博彩管理局也發布法律意見指出可交易物品的戰利品箱系統違反博彩法，兩國的強硬立場促使 Valve 等業者限制當地玩家使用相關機制。",
+    "features": [
+      "付費開箱換取隨機虛擬道具",
+      "機率通常由發行商片面決定",
+      "部分內容可能影響遊戲數值而非純外觀",
+      "比利時與荷蘭曾認定其構成賭博",
+      "已促使多國討論機率公開與年齡分級規範"
+    ],
+    "examples": [
+      {
+        "title": "星際大戰：戰場前線2",
+        "en": "Star Wars Battlefront II",
+        "appid": null,
+        "year": 2017,
+        "why": "因戰利品箱設計引發全球輿論與規管關注的指標性爭議案例"
+      },
+      {
+        "title": "鬥陣特攻",
+        "en": "Overwatch",
+        "appid": null,
+        "year": 2016,
+        "why": "早期以外觀型戰利品箱為主力營利、後續也捲入規管討論的代表作"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "gacha",
+        "diff": "戰利品箱是歐美語境下對「花錢開隨機箱」機制的規管用詞，常與賭博爭議連結；抽卡則是日系與手機遊戲慣用的說法，通常聚焦在角色或道具稀有度與保底機制，兩者描述的其實是同一種底層機率消費行為，只是文化脈絡與規管焦點不同。"
+      }
+    ],
+    "related": [
+      "gacha",
+      "cosmetics",
+      "monetization"
+    ],
+    "design": "機率透明度、保底機制與未成年消費保護，是設計此類機制前必須先確認清楚的法規紅線；各國規範差異很大，上架前務必逐一確認目標市場的相關規定，避免重蹈歐洲爭議的覆轍。",
+    "sources": [
+      {
+        "title": "Wikipedia: Loot box",
+        "url": "https://en.wikipedia.org/wiki/Loot_box",
+        "accessed": "2026-09-17",
+        "note": "戰利品箱定義，以及比利時、荷蘭規管爭議說明"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "aa-game",
+    "zh": "雙 A 遊戲（AA Game）",
+    "en": "AA / Double-A Game",
+    "aliases": [
+      "中型規模遊戲",
+      "雙A遊戲"
+    ],
+    "cat": "industry",
+    "sub": "商業模式與規模",
+    "short": "介於獨立與 3A 之間、預算中等且較敢嘗試特色玩法的遊戲。",
+    "def": "雙 A（AA）遊戲指介於 3A 大作與獨立遊戲之間的中型規模產品：開發團隊通常有數十到上百人的專業陣容，背後多半有發行商資金支持，但保留比 3A 更高的創作自由度，定價與行銷投入也明顯低於 3A。這個分級近年逐漸被業界正名為一種可行的定位策略，而不只是「錢不夠的 3A」：與其硬拚 3A 等級的畫面規模，雙 A 團隊更常靠獨特題材、鮮明美術風格或反主流的玩法設計，在市場上建立差異化的記憶點，近年不少中小型工作室都主動以「雙 A」自我定位行銷。",
+    "features": [
+      "團隊規模約數十到百人",
+      "通常有發行商資金但保留創作自由",
+      "預算與行銷規模低於 3A",
+      "定價常低於 3A 正規價",
+      "近年更敢做特色鮮明的非主流題材"
+    ],
+    "examples": [
+      {
+        "title": "瘟疫傳說：安魂曲",
+        "en": "A Plague Tale: Requiem",
+        "appid": 1182900,
+        "year": 2022,
+        "why": "法國中型工作室 Asobo Studio 常被引用的雙 A 代表作"
+      },
+      {
+        "title": "控制",
+        "en": "Control",
+        "appid": null,
+        "year": 2019,
+        "why": "Remedy Entertainment 以獨特美術與敘事風格聞名的雙 A 代表作"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "aaa",
+        "diff": "3A 預算、團隊規模與行銷投入都達到產業最高等級，風險也最高；雙 A 預算與團隊規模中等，近年反而更願意在玩法與題材上做出差異化，不必追求 3A 等級的畫面與規模。"
+      },
+      {
+        "with": "indie",
+        "diff": "雙 A 通常仍有發行商資金與較完整的專業團隊支持；獨立遊戲則多半自籌資金或群眾募資，團隊規模更小、創作自由度更高但資源也更有限。"
+      }
+    ],
+    "related": [
+      "aaa",
+      "indie"
+    ],
+    "design": "與其硬拚 3A 等級的製作規模，不如在題材、玩法機制或美術風格上做出鮮明的差異化記憶點；資源有限時，把預算集中在最能形成口碑話題的少數亮點，往往比什麼都做一點更有效。",
+    "sources": [
+      {
+        "title": "Wikipedia: AA (video game industry)",
+        "url": "https://en.wikipedia.org/wiki/AA_(video_game_industry)",
+        "accessed": "2026-09-17",
+        "note": "雙 A 遊戲定義與產業定位說明"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "live-service",
+    "zh": "服務型遊戲（Live Service Game）",
+    "en": "Live Service Game",
+    "aliases": [
+      "長期營運遊戲",
+      "Live Service"
+    ],
+    "cat": "industry",
+    "sub": "商業模式與規模",
+    "short": "以長期持續營運為核心商業策略、而非單次銷售的遊戲產品類別。",
+    "def": "服務型遊戲指發行商把一款遊戲當成長期投資組合來經營，而非賣斷一次就結束的商品：上線後持續推出新內容、賽季活動與商業化項目，藉此把玩家留住並延續營收。這個詞在媒體與財報語境裡經常與「GaaS」交替使用，但更常出現在討論發行商投資策略與市場成敗的脈絡：近年許多大型發行商砸重本搶進服務型遊戲賽道，卻接連傳出高調失敗的案例，例如 Sony 的《Concord》在 2024 年 8 月上線後僅兩週就宣布關服，成為業界討論服務型遊戲風險時最常被引用的警世案例。",
+    "features": [
+      "發行商將其視為長期投資組合策略",
+      "上線後靠持續內容更新維持營收",
+      "近年成為多間大型發行商的主力方向",
+      "也伴隨高調失敗與快速關服案例",
+      "媒體與財報語境常與 GaaS 交替使用"
+    ],
+    "examples": [
+      {
+        "title": "天命2",
+        "en": "Destiny 2",
+        "appid": 1085660,
+        "year": 2017,
+        "why": "長期資料片營運的服務型遊戲代表作"
+      },
+      {
+        "title": "Apex 英雄",
+        "en": "Apex Legends",
+        "appid": 1172470,
+        "year": 2019,
+        "why": "以賽季制內容更新維持長期營收的服務型射擊代表作"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "gaas",
+        "diff": "兩者描述的其實是同一種商業模式，媒體與業界常交替使用；GaaS 較常出現在系統設計脈絡，強調持續更新的內容循環與留存機制；live service 則更常出現在產業與財報語境，用來討論發行商的投資組合策略與市場成敗風險。"
+      }
+    ],
+    "related": [
+      "gaas",
+      "live-ops",
+      "roadmap"
+    ],
+    "design": "不是每款遊戲都適合轉型做成長期服務；如果核心玩法缺乏差異化、內容產出速度跟不上玩家消耗速度，很容易變成「上線即巔峰」，《Concord》兩週關服就是最極端的例子。",
+    "sources": [
+      {
+        "title": "Wikipedia: Live service game",
+        "url": "https://en.wikipedia.org/wiki/Games_as_a_service",
+        "accessed": "2026-09-17",
+        "note": "服務型遊戲與 GaaS 交替使用的定義說明"
+      },
+      {
+        "title": "Wikipedia: Concord (video game)",
+        "url": "https://en.wikipedia.org/wiki/Concord_(video_game)",
+        "accessed": "2026-09-17",
+        "note": "確認《Concord》2024 年上線兩週後關服的時程"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "roadmap",
+    "zh": "路線圖（Roadmap）",
+    "en": "Roadmap",
+    "aliases": [
+      "開發路線圖",
+      "內容路線圖",
+      "更新藍圖"
+    ],
+    "cat": "industry",
+    "sub": "發行與社群",
+    "short": "開發團隊公開揭露未來一段時間更新內容與時程的規劃圖。",
+    "def": "路線圖是開發團隊或發行商對外公開的規劃文件，通常以時間軸或看板形式，列出未來數月至數季預計推出的新角色、地圖、活動與修復方向，讓玩家與投資人能提前掌握產品走向。這在服務型遊戲的社群溝通裡幾乎是必備工具，用來維持玩家對長期營運的信心與討論熱度。但開發時程本身充滿變數，路線圖上的內容常因技術問題或資源調度而延後甚至取消，公開得太細、時程訂得太緊，一旦跳票就容易重傷玩家信任，《無人深空》靠長年持續兌現路線圖內容逆轉口碑，是業界公認最經典的例外案例。",
+    "features": [
+      "公開未來數月至數季的更新方向",
+      "常以時間軸或看板形式呈現",
+      "用來維持玩家信心與社群討論度",
+      "時程常隨開發進度調整或延後",
+      "服務型遊戲幾乎必備的溝通工具"
+    ],
+    "examples": [
+      {
+        "title": "無人深空",
+        "en": "No Man's Sky",
+        "appid": null,
+        "year": 2016,
+        "why": "靠長年持續兌現路線圖內容、被廣泛引用為產業逆轉口碑典範的代表作"
+      },
+      {
+        "title": "Apex 英雄",
+        "en": "Apex Legends",
+        "appid": 1172470,
+        "year": 2019,
+        "why": "以公開賽季路線圖維持玩家社群討論度的代表作"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "live-ops",
+        "diff": "路線圖是對外公開的長期規劃文件，屬於溝通與行銷工具；live ops 則是實際執行這些規劃、每天處理版本、活動與伺服器狀況的營運工作，兩者是規劃與執行的關係。"
+      }
+    ],
+    "related": [
+      "live-service",
+      "live-ops",
+      "gaas"
+    ],
+    "design": "公開路線圖要抓分寸：講得太細、時程訂得太緊，跳票就會重傷信任；《無人深空》的長年逆轉是特例而非常態，多數團隊更該務實控制對外承諾的顆粒度與時間跨度。",
+    "sources": [
+      {
+        "title": "Wikipedia: Technology roadmap",
+        "url": "https://en.wikipedia.org/wiki/Technology_roadmap",
+        "accessed": "2026-09-17",
+        "note": "路線圖作為策略規劃工具的一般性定義"
+      },
+      {
+        "title": "Wikipedia: No Man's Sky",
+        "url": "https://en.wikipedia.org/wiki/No_Man%27s_Sky",
+        "accessed": "2026-09-17",
+        "note": "確認該作靠長期更新扭轉評價的產業案例"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "live-ops",
+    "zh": "營運維運（Live Ops）",
+    "en": "Live Ops (Live Operations)",
+    "aliases": [
+      "LiveOps",
+      "線上營運",
+      "活動營運"
+    ],
+    "cat": "industry",
+    "sub": "商業模式與規模",
+    "short": "遊戲上線後負責日常活動、版本與伺服器狀況的持續營運工作。",
+    "def": "Live ops 泛指服務型遊戲上線後，負責規劃並執行限時活動、安排版本更新排程、監控伺服器穩定度、依數據調整數值平衡，以及處理漏洞、外掛或社群爭議等突發狀況的日常營運團隊與工作流程。與路線圖不同，路線圖是對外公開的長期規劃文件，live ops 則是把這些規劃實際落地執行、且必須隨時應變上線後突發狀況的第一線工作，是服務型遊戲維持長期熱度與營收最主要的人力投入之一，卻常在專案初期被低估其所需資源。",
+    "features": [
+      "規劃並執行限時活動與版本排程",
+      "監控伺服器穩定度與異常狀況",
+      "即時處理漏洞、外掛與社群爭議",
+      "依數據調整活動節奏與數值平衡",
+      "是服務型遊戲上線後最主要的人力投入之一"
+    ],
+    "examples": [
+      {
+        "title": "要塞英雄",
+        "en": "Fortnite",
+        "appid": null,
+        "year": 2017,
+        "why": "以高頻率活動與聯名內容聞名的 live ops 代表作"
+      },
+      {
+        "title": "Apex 英雄",
+        "en": "Apex Legends",
+        "appid": 1172470,
+        "year": 2019,
+        "why": "持續依賽季調整平衡與活動內容的 live ops 代表作"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "roadmap",
+        "diff": "路線圖是對外溝通的規劃文件；live ops 是把規劃內容實際執行、且要隨時應變上線後突發狀況的日常營運工作，兩者是規劃與執行的關係。"
+      }
+    ],
+    "related": [
+      "live-service",
+      "roadmap",
+      "gaas"
+    ],
+    "design": "很多團隊把主力人力都放在上線前的開發階段，上線後才發現沒有足夠人力做長期活動排程與危機處理，導致服務型遊戲後繼乏力；live ops 需要的資源規劃要在專案初期就一併考量，而非上線後才臨時補人。",
+    "sources": [
+      {
+        "title": "Wikipedia: Live service game",
+        "url": "https://en.wikipedia.org/wiki/Games_as_a_service",
+        "accessed": "2026-09-17",
+        "note": "服務型遊戲上線後持續更新與支援的一般性描述；未直接使用 live ops 一詞，見 report 說明"
+      }
+    ],
+    "status": "unverified"
+  }
+]
