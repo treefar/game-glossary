@@ -1,0 +1,28 @@
+name: test
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: 驗證詞條資料
+        run: node scripts/validate.js
+      - name: 建置並檢查產物是最新的
+        run: |
+          node scripts/build.js
+          if ! git diff --quiet -- index.html data/glossary.json; then
+            echo "::error::index.html 或 data/glossary.json 不是最新建置結果。請在本機執行 npm run build 後一起提交。"
+            git --no-pager diff --stat -- index.html data/glossary.json
+            exit 1
+          fi
+      - name: 跑測試
+        run: node --test

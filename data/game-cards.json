@@ -1,0 +1,1345 @@
+{
+ "70": {
+  "name": "Half-Life",
+  "desc": "本遊戲在超過 50 份出版品上被評選為年度遊戲。Valve 將動作、冒險與獲得獎項肯定的技術加以結合，創造出一個玩家必須用心思考才能倖存的真實世界。 本遊戲也具有令人血脈賁張的多人遊戲模式，讓您向朋友及全世界的對手挑戰。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/70/header.jpg",
+  "year": 1998
+ },
+ "220": {
+  "name": "Half-Life 2",
+  "desc": "高登．弗里曼自沉睡中甦醒，發現自己置身於被佔領的都市 17 號城。已無退路的人類在高登與艾莉克絲．凡斯的帶領之下進行反抗行動。 體驗第一人稱射擊遊戲的里程碑，在這個沉浸式世界中突破物理極限並進行血脈賁張的戰鬥。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257074217/2a5d40f3f7cd4a644849a7dae7ee9f9d7fb2074d/movie_600x337.jpg",
+  "year": 2004
+ },
+ "400": {
+  "name": "Portal",
+  "desc": "Portal™ 是 Valve 新的單人遊戲。Portal 的場景為神秘的「光圈科學實驗室」，它已被譽為目前最富創意的新遊戲，將會帶給玩家好幾個小時的獨特遊戲體驗。 該遊戲是設計用於改變玩家在既定環境下處理、操作及猜測潛在可能性的方式；類似在任何既定狀態之下使用 Half-Life® 2 重力槍來運用物體的創舉。 玩家",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/922/movie.jpg",
+  "year": 2007
+ },
+ "440": {
+  "name": "Team Fortress 2",
+  "desc": "九種各具特色的職業，提供能發揮廣泛的戰術技巧和能力的機會。 持續推出更新——新的遊戲模式、地圖、物品和最重要的帽子！",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256698790/movie.293x165.jpg",
+  "year": 2007
+ },
+ "550": {
+  "name": "Left 4 Dead 2",
+  "desc": "Set in the zombie apocalypse, Left 4 Dead 2 is a co-operative action horror FPS takes you and your friends through the cities, swamps and cemeteries of the Deep",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5952/movie.293x165.jpg",
+  "year": 2009
+ },
+ "570": {
+  "name": "Dota 2",
+  "desc": "每一天，全球各地有數百萬玩家化身為上百位英雄，投入 Dota 戰場進行攻防保衛戰。 而無論是資歷不足掛齒的新手還是有著上千小時歷練的老手，Dota 的世界總能讓人發掘出新事物。 藉由持續更新來確保遊戲體驗的新鮮度，Dota 2 實為一款發展不同凡響的遊戲。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256692021/movie.293x165.jpg",
+  "year": 2013
+ },
+ "620": {
+  "name": "Portal 2",
+  "desc": "「永久測試行動計畫」已經擴大，您現在可以設計合作遊戲謎題給您和您的好友！",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5787/movie.293x165.jpg",
+  "year": 2011
+ },
+ "730": {
+  "name": "Counter-Strike 2",
+  "desc": "二十多年來，在全球數百萬玩家的共同塑造之下，《絕對武力》為大家帶來了世界頂尖的競技體驗。現在 CS 傳奇的新篇章即將展開，那就是《絕對武力 2》。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256972298/movie.293x165.jpg",
+  "year": 2012
+ },
+ "3590": {
+  "name": "Plants vs. Zombies GOTY Edition",
+  "desc": "Zombies are invading your home, and the only defense is your arsenal of plants! Armed with an alien nursery-worth of zombie-zapping plants like peashooters and ",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/900829/movie.293x165.jpg",
+  "year": 2009
+ },
+ "4000": {
+  "name": "Garry's Mod",
+  "desc": "Garry's Mod is a physics sandbox. There aren't any predefined aims or goals. We give you the tools and leave you to play.",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4000/header.jpg",
+  "year": 2006
+ },
+ "8500": {
+  "name": "EVE Online",
+  "desc": "Over 20 years of legendary space battles! Explore a massive living universe of danger and opportunity in a challenging and highly rewarding space adventure. Fig",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/8500/fed1ea9b01dd6564101518a5201740fb44929fb4/header.jpg?t=1782428793",
+  "year": 2010,
+  "fetched": "2026-09-17"
+ },
+ "8870": {
+  "name": "生化奇兵：無限之城 完全版",
+  "desc": "Indebted to the wrong people, with his life on the line, veteran of the U.S. Cavalry and now hired gun, Booker DeWitt has only one opportunity to wipe his slate",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2028471/movie.293x165.jpg",
+  "year": 2013
+ },
+ "8930": {
+  "name": "Sid Meier's Civilization® V",
+  "desc": "Create, discover, and download new player-created maps, scenarios, interfaces, and more!",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5690/movie.293x165.jpg",
+  "year": 2010
+ },
+ "17390": {
+  "name": "SPORE™",
+  "desc": "Be the architect of your own universe with Spore, an exciting single-player adventure. From Single Cell to Galactic God, evolve your creature in a universe of y",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/17390/header.jpg",
+  "year": 2008
+ },
+ "22380": {
+  "name": "Fallout: New Vegas",
+  "desc": "Welcome to Vegas. New Vegas. Enjoy your stay!",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257221243/dc315a6da1c8b69b254344c0c92379161e1b9888/movie_600x337.jpg",
+  "year": 2010
+ },
+ "78000": {
+  "name": "Bejeweled® 3",
+  "desc": "The biggest, brightest Bejeweled ever! Discover all-new ways to play the world’s #1 puzzle game. Find your perfect match with 8 breathtaking game modes that mee",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/80429/movie.293x165.jpg",
+  "year": 2010
+ },
+ "105600": {
+  "name": "Terraria",
+  "desc": "Dig, fight, explore, build! Nothing is impossible in this action-packed adventure game. Four Pack also available!",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257274214/3400c546ddc61c713c2a2da4df7032f0f264a2a4/movie_600x337.jpg",
+  "year": 2011
+ },
+ "108710": {
+  "name": "Alan Wake",
+  "desc": "來自黑暗的威脅在亮瀑鎮內悄聲四伏，使 Wake 在揭開謎團、尋回愛妻的苦戰中，瀕臨理智的崩潰邊緣。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/81422/movie.293x165.jpg",
+  "year": 2012
+ },
+ "110800": {
+  "name": "L.A. Noire",
+  "desc": "在洛杉磯警局警探科爾．菲爾普斯（Cole Phelps）努力晉升、同時糾正社會風氣的同時，他還必須解開一系列縱火攻擊事件、陰謀和凶殘謀殺案的真相，打擊洛杉磯黑暗的一面，甚至還得與他自己所屬部門的同仁對抗。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/81292/movie.293x165.jpg",
+  "year": 2011
+ },
+ "200510": {
+  "name": "XCOM: Enemy Unknown",
+  "desc": "The XCOM: Enemy Unknown - Slingshot Pack is Now Available!",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/82000/movie.293x165.jpg",
+  "year": 2012
+ },
+ "203160": {
+  "name": "Tomb Raider Game of the Year",
+  "desc": "《古墓奇兵》深入探究蘿拉卡芙特充滿激情的起源故事，伴隨她一路從年輕女孩蛻變成堅強的生存專家。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256663321/movie.293x165.jpg",
+  "year": 2013
+ },
+ "205100": {
+  "name": "Dishonored",
+  "desc": "《冤罪殺機》是一款能讓您扮演被復仇意念駕馭的超能殺手的實境第一人稱視角動作遊戲，《冤罪殺機》帶來靈活的戰鬥系統、開放自由的要素讓您自由組合超自然能力消滅目標，以及千奇百怪的武器與道具供您差遣。在夜幕的掩護下襲擊您的敵人，並使其死在您的刀下，每一個任務的進行過程將取決您作出的選擇。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/81912/movie.293x165.jpg",
+  "year": 2012
+ },
+ "207610": {
+  "name": "The Walking Dead",
+  "desc": "A five-part adventure horror series set in the same universe as Robert Kirkman’s award-winning comic book series.",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/81627/movie.293x165.jpg",
+  "year": 2012
+ },
+ "221910": {
+  "name": "The Stanley Parable",
+  "desc": "The Stanley Parable is a first person exploration game. You will play as Stanley, and you will not play as Stanley. You will follow a story, you will not follow",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2029779/movie.293x165.jpg",
+  "year": 2013
+ },
+ "230410": {
+  "name": "Warframe",
+  "desc": "在這個情節引人入勝的免費線上動作遊戲中化身成為一名勢不可擋的戰士甦醒過來並與你的好友們並肩作戰。在你跟從神秘的 Lotus 的指引並在升級你的 Warframe、建立一個具有毀滅性火力的軍械庫、以及於這個扣人心弦、獨樹一幟的第三人稱戰鬥體驗中在龐大的開放世界發掘你的真正潛能的同時，在不斷擴展的星系中面對誓不兩立的派系。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257360638/27184ecb058e320207cb90ca4827616de78e3f28/movie_600x337.jpg",
+  "year": 2013
+ },
+ "232430": {
+  "name": "Gone Home",
+  "desc": "June 7th, 1995. 1:15 AM. You arrive home after a year abroad. You expect your family to greet you, but the house is empty. Something's not right. Where is every",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/232430/header.jpg?t=1756162182",
+  "year": 2013,
+  "fetched": "2026-09-17"
+ },
+ "234330": {
+  "name": "MARVEL Puzzle Quest",
+  "desc": "Collect Marvel characters and upgrade your unstoppable squad in this epic Super Hero Puzzle RPG! Fight on the tactical Match-3 board where every move is crucial",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256699839/0015bc76043fa754101c79bf208704ef388b7477/movie_600x337.jpg",
+  "year": 2013
+ },
+ "236850": {
+  "name": "Europa Universalis IV",
+  "desc": "在統治您的領土並稱霸世界的同時，享受前所未見的自由度、深度及歷史真實性。為世界寫下新的歷史，建立橫跨幾世紀的偉大帝國。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256961262/movie.293x165.jpg",
+  "year": 2013
+ },
+ "238010": {
+  "name": "Deus Ex: Human Revolution - Director's Cut",
+  "desc": "You play Adam Jensen, an ex-SWAT specialist who's been handpicked to oversee the defensive needs of one of America's most experimental biotechnology firms. When",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256664021/movie.293x165.jpg",
+  "year": 2013
+ },
+ "239030": {
+  "name": "Papers, Please",
+  "desc": "Congratulations. The October labor lottery is complete. Your name was pulled. For immediate placement, report to the Ministry of Admission at Grestin Border Che",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2028977/movie.293x165.jpg",
+  "year": 2013
+ },
+ "246420": {
+  "name": "Kingdom Rush - Tower Defense",
+  "desc": "準備踏上一段史詩之旅，保衛王國，使用各種防禦塔和法術，抵禦成群的獸人和巨魔，還有邪惡的巫師與其他卑鄙的惡魔！在森林、山地和荒野中戰鬥，用不同的防禦塔升級和特技，定制你的防禦戰略！用槍林彈雨對抗敵人，召喚援軍，指揮部隊，招募精靈戰士，正面對抗傳奇怪物，從黑暗力量中拯救王國！遊戲特色： 史詩級防禦戰鬥，讓你沉浸數小時！ 高",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2030545/movie.293x165.jpg",
+  "year": 2014
+ },
+ "250900": {
+  "name": "The Binding of Isaac: Rebirth",
+  "desc": "The Binding of Isaac: Rebirth is a randomly generated action RPG shooter with heavy Rogue-like elements. Following Isaac on his journey players will find bizarr",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2034156/movie.293x165.jpg",
+  "year": 2014
+ },
+ "251570": {
+  "name": "7 Days to Die",
+  "desc": "《七日殺》是一款開放世界遊戲，獨特結合了第一人稱射擊、生存恐怖、塔防和角色扮演等遊戲元素。快來體驗排名第一的終極殭屍生存沙盒RPG遊戲吧。暗黑伊甸園正在等你！",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257032424/movie.293x165.jpg",
+  "year": 2024
+ },
+ "252490": {
+  "name": "Rust",
+  "desc": "The only aim in Rust is to survive. Everything wants you to die - the island’s wildlife, other inhabitants, the environment, and other survivors. Do whatever it",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256684736/movie.293x165.jpg",
+  "year": 2018
+ },
+ "255710": {
+  "name": "Cities: Skylines",
+  "desc": "Cities: Skylines is a modern take on the classic city simulation. The game introduces new game play elements to realize the thrill and hardships of creating and",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256785384/movie.293x165.jpg",
+  "year": 2015
+ },
+ "261030": {
+  "name": "The Walking Dead: Season Two",
+  "desc": "The Walking Dead: Season Two continues the story of Clementine, a young girl orphaned by the undead apocalypse. Left to fend for herself, she has been forced to",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2034112/movie.293x165.jpg",
+  "year": 2013
+ },
+ "261550": {
+  "name": "Mount & Blade II: Bannerlord",
+  "desc": "策略/動作類角色扮演遊戲。投身中世紀戰場，在巨大的沙盒世界中憑藉外交、智計、貿易與征服讓家族發展茁壯、開疆拓土。召集軍隊奔赴戰場，在大規模即時戰鬥中體驗基於技能的直觀戰鬥系統、與您忠誠的戰士們並肩作戰、邁向勝利。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256910718/movie.293x165.jpg",
+  "year": 2022
+ },
+ "262060": {
+  "name": "Darkest Dungeon®",
+  "desc": "《Darkest Dungeon》是一款關於冒險的心理壓力，且極具挑戰性的哥德風回合制類rogue角色扮演遊戲。招募、訓練並率領一支不完美的英雄團隊，對抗無法想像的恐怖、壓力、飢荒、疾病與進逼的黑暗。當失去所有希望時，你還能讓你的英雄們同心協力嗎？",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256659907/movie.293x165.jpg",
+  "year": 2016
+ },
+ "268500": {
+  "name": "XCOM® 2",
+  "desc": "XCOM 2是獲得最傑出遊戲獎的策略遊戲XCOM: Enemy Unknown的續作。自從人類敗給外星入侵者之後已經過了20年，地球上已經建立起了新的秩序。在暗處中蟄伏多年的XCOM殘存勢力必須崛起并將外星人驅逐出地球。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256660486/movie.293x165.jpg",
+  "year": 2016
+ },
+ "268910": {
+  "name": "Cuphead",
+  "desc": "Cuphead is a classic run and gun action game heavily focused on boss battles. Inspired by cartoons of the 1930s, the visuals and audio are painstakingly created",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256894191/movie.293x165.jpg",
+  "year": 2017
+ },
+ "275850": {
+  "name": "No Man's Sky 無人深空",
+  "desc": "《無人深空》是一款打破邊界的科幻遊戲，透過創新的隨機生成技術，打造了一個無盡宇宙供玩家自由探索，玩家可以穿越星際、挖掘未知星球、建立基地並與神秘外星生物共生 ，每個探險家都將書寫屬於自己的宇宙傳奇。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257419231/24c1d65e353db00e8855ecf08a386b6d67047960/movie_600x337.jpg",
+  "year": 2016
+ },
+ "278080": {
+  "name": "真・三國無雙７ with 猛將傳",
+  "desc": "一次就能暢享一騎當千的爽快動作『真・三國無雙7』與新增豐富要素的『猛將傳』兩款遊戲！ 除了有魏、吳、蜀、晉等各勢力的戲劇性故事發展之外，更新增了描繪三國志最強武將「呂布」的生存之道的劇本！ 除了收錄不少能享受三國志IF劇情的新劇本之外，亦有新角色的參戰、新武器系統以及成長、耐玩要素的追加！ 此外更有置入新要素而煥然一新",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/278080/header_tchinese.jpg",
+  "year": 2014
+ },
+ "281990": {
+  "name": "Stellaris",
+  "desc": "在這款由 Paradox Development Studios 打造的科幻大型戰略遊戲中，探索充滿奇蹟的銀河。與多元外星種族互動、發現奇異新世界並深入精彩事件，同時擴張你的帝國版圖。每一次冒險都蘊含著無限的可能性。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257021701/movie.293x165.jpg",
+  "year": 2016
+ },
+ "282140": {
+  "name": "SOMA",
+  "desc": "From the creators of Amnesia: The Dark Descent comes SOMA, a sci-fi horror game set below the waves of the Atlantic ocean. Struggle to survive a hostile world t",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256702525/movie.293x165.jpg",
+  "year": 2015
+ },
+ "289070": {
+  "name": "Sid Meier’s Civilization® VI",
+  "desc": "擴展你的帝國、發展你的文化、與歷史上最偉大的領袖一較高下。你的文明能禁得起時間考驗嗎？",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256672695/movie.293x165.jpg",
+  "year": 2016
+ },
+ "292030": {
+  "name": "巫師 3：狂獵 - 完全版",
+  "desc": "化身雇傭屠魔殺手利維亞的傑洛特，恣意探索飽受戰火蹂躪且怪物肆虐的大陸。眼前你必須找到足以左右世界的活人武器：預言之子希里。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257411215/51b044b5c804c4b788bd456724f42d3894783427/movie_600x337.jpg",
+  "year": 2015
+ },
+ "294100": {
+  "name": "RimWorld",
+  "desc": "由聰明的人工智能故事敘述者驅動的科幻殖民地模擬遊戲。通過模擬心理學、生態學、槍戰、近戰、氣候、生物群落、外交、人際關係、藝術、醫學、貿易等來生成故事。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256731486/movie.293x165.jpg",
+  "year": 2018
+ },
+ "304050": {
+  "name": "Trove",
+  "desc": "Grab your friends, hone your blades, and set off for an epic procedurally generated adventure in Trove! Battle the Shadow in realms filled with dungeons and ite",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257392146/8bd4fe7e37b9952247e25c4e4de2283719ecf097/movie_600x337.jpg",
+  "year": 2015
+ },
+ "306130": {
+  "name": "The Elder Scrolls® Online",
+  "desc": "每段傳奇都有個起點，在《The Elder Scrolls Online》中， 一切始於你。與數百萬名玩家一同線上遊玩奇幻RPG， 加入《Elder Scrolls》栩栩如生的廣大世界。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257315765/6c31bd37dd53719e3941a5114b7735acfe25d39a/movie_600x337.jpg",
+  "year": 2017
+ },
+ "311690": {
+  "name": "Enter the Gungeon",
+  "desc": "挺進地牢是彈幕+地牢探險的遊戲。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256747259/movie.293x165.jpg",
+  "year": 2016
+ },
+ "319630": {
+  "name": "Life is Strange - Episode 1",
+  "desc": "Episode 1 now FREE! Life is Strange is an award-winning and critically acclaimed episodic adventure game that allows the player to rewind time and affect the pa",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2036243/movie.293x165.jpg",
+  "year": 2015
+ },
+ "322170": {
+  "name": "Geometry Dash",
+  "desc": "Jump and fly your way through danger in this rhythm-based action platformer!",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2036304/movie.293x165.jpg",
+  "year": 2014
+ },
+ "333640": {
+  "name": "Caves of Qud",
+  "desc": "《卡德洞窟》是一部深受復古未來主義影響，具有深度模擬，遍布智能植物的科學幻想風格Roguelike史詩。踏入這片異域，鑿穿被重重掩埋的千年文明。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257079340/8c90cfdb878d57016fb69720f765784bb5c0fd38/movie_600x337.jpg",
+  "year": 2024
+ },
+ "359550": {
+  "name": "《虹彩六號：圍攻行動》",
+  "desc": "《虹彩六號：圍攻行動》是一款著重菁英、戰略的團隊射擊遊戲，唯有透過卓越的計畫和執行力才能在遊戲中獲勝。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257348863/677073312765855b5295c8629dc0924df67e1b3f/movie_600x337.jpg",
+  "year": 2015
+ },
+ "367520": {
+  "name": "Hollow Knight",
+  "desc": "Forge your own path in Hollow Knight! An epic action adventure through a vast ruined kingdom of insects and heroes. Explore twisting caverns, battle tainted cre",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256679401/movie.293x165.jpg",
+  "year": 2017
+ },
+ "373420": {
+  "name": "Divinity: Original Sin - Enhanced Edition",
+  "desc": "Gather your party and get ready for the kick-ass new version of GameSpot's PC Game of the Year 2014. With hours of new content, new game modes, full voiceovers,",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256657641/movie.293x165.jpg",
+  "year": 2015
+ },
+ "383870": {
+  "name": "Firewatch",
+  "desc": "Firewatch is a single-player first-person mystery set in the Wyoming wilderness, where your only emotional lifeline is the person on the other end of a handheld",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/383870/41a7d0ff4c2dab4ed69c53c9a29c931e6f62948d/header.jpg?t=1755789801",
+  "year": 2016,
+  "fetched": "2026-09-17"
+ },
+ "391540": {
+  "name": "Undertale",
+  "desc": "UNDERTALE! The RPG game where you don't have to destroy anyone.",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256655616/movie.293x165.jpg",
+  "year": 2015
+ },
+ "394360": {
+  "name": "Hearts of Iron IV",
+  "desc": "Victory is at your fingertips! Your ability to lead your nation is your supreme weapon, the strategy game Hearts of Iron IV lets you take command of any nation ",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257012977/movie.293x165.jpg",
+  "year": 2016
+ },
+ "397540": {
+  "name": "邊緣禁地3",
+  "desc": "射擊掠寶遊戲的鼻祖回來了，為您帶來數以億計的武器裝備和一段混亂至極的全新冒險旅途！扮演四位全新的尋寶獵人之一，在新世界中橫行霸道並擊敗敵人吧！每一位都擁有頗具深度的技能樹、能力以及自訂選項。您可以單人遊玩或是和好友一同與瘋狂的敵人作戰奪取成堆的戰利品，並從星系最為殘忍的邪教領袖手中拯救家園。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256875693/movie.293x165.jpg",
+  "year": 2020
+ },
+ "412830": {
+  "name": "STEINS;GATE",
+  "desc": "由5pb.和nitroplus共同開發的《STEINS;GATE》曾被Famitsu雜誌授予年度優秀遊戲獎項，並在Famitsu讀者調查中被評為最煽情的“催淚遊戲”。如此扣人心弦的視覺小說遊戲，現已被改編為漫畫、動畫及動畫電影等。 如今終於登陸Steam！",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256658578/movie.293x165.jpg",
+  "year": 2016
+ },
+ "413150": {
+  "name": "Stardew Valley",
+  "desc": "You've inherited your grandfather's old farm plot in Stardew Valley. Armed with hand-me-down tools and a few coins, you set out to begin your new life. Can you ",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256815967/movie.293x165.jpg",
+  "year": 2016
+ },
+ "418370": {
+  "name": "Resident Evil 7 Biohazard",
+  "desc": "於美國南部的一間被廢置的農舍，腐爛的牆身渗透著一股恐怖及孤獨的氛圍。「7」標誌著全新的恐怖求生體驗，以及玩家視覺切換為更駭人的「隔離視覺」模式。有賴RE工程部的努力，恐怖的寫實感提昇至一個全新的境界。讓你進入恐怖求生的新世界。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256665618/movie.293x165.jpg",
+  "year": 2017
+ },
+ "423230": {
+  "name": "Furi",
+  "desc": "The jailer is the key, kill him and you’ll be free. Fight your way free in this ultra-responsive, fast-paced sword-fighting and dual-stick shooting game.",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256666510/f1f25dda18b1272188efa74607aa2700b50ed062/movie_600x337.jpg",
+  "year": 2016
+ },
+ "427520": {
+  "name": "Factorio",
+  "desc": "Factorio is a game about building and creating automated factories to produce items of increasing complexity, within an infinite 2D world. Use your imagination ",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256796273/movie.293x165.jpg",
+  "year": 2020
+ },
+ "435150": {
+  "name": "神界：原罪2 - 終極版",
+  "desc": "The critically acclaimed RPG that raised the bar, from the creators of Baldur's Gate 3. Gather your party. Master deep, tactical combat. Venture as a party of u",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256694830/movie.293x165.jpg",
+  "year": 2017
+ },
+ "438100": {
+  "name": "VRChat",
+  "desc": "Join our growing community as you explore, play, and help craft the future of social VR. Create worlds and custom avatars. Welcome to VRChat.",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257227268/cc161fe12db5b5821cbb8a974f16fda60a676163/movie_600x337.jpg",
+  "year": 2017
+ },
+ "447530": {
+  "name": "VA-11 Hall-A: Cyberpunk Bartender Action",
+  "desc": "VA-11 HALL-A: Cyberpunk Bartender Action is a booze em' up about waifus, technology, and post-dystopia life.",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256665111/movie.293x165.jpg",
+  "year": 2016
+ },
+ "460790": {
+  "name": "Bayonetta",
+  "desc": "PlatinumGames’ universally acclaimed action masterpiece finally comes to PC. Experience the over-the-top stylish action in 60fps at unlocked HD resolutions. The",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/460790/header.jpg",
+  "year": 2017
+ },
+ "460950": {
+  "name": "Katana ZERO",
+  "desc": "《武士 零（Katana ZERO）》是一款新黑色電影風格的華麗平臺動作遊戲，以極速動作展開瞬間決定生死的戰鬥，劈砍、衝刺、操縱時間，在華麗、無情、行雲流水般的戰鬥中發現你的過去。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256748374/movie.293x165.jpg",
+  "year": 2019
+ },
+ "476600": {
+  "name": "Call of Duty®: WWII",
+  "desc": "《決勝時刻®：二戰》──扣人心弦的遊戲體驗，重新定義第二次世界大戰。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256695756/movie.293x165.jpg",
+  "year": 2017
+ },
+ "477160": {
+  "name": "Human Fall Flat",
+  "desc": "《Human Fall Flat》是一款輕鬆爆笑的物理平台動作遊戲，遊戲舞台位於飄浮的夢境場景中。本遊戲支援單人與至多八人的線上遊戲，並不時推出免費的新關卡以回饋熱情洋溢的玩家社群。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257421781/4ecc903425fcc4b6686bdc978a9c901484ead4da/movie_600x337.jpg",
+  "year": 2016
+ },
+ "489830": {
+  "name": "The Elder Scrolls V: Skyrim Special Edition",
+  "desc": "榮獲超過200項年度最佳遊戲大獎的《The Elder Scrolls V: Skyrim》推出特別版，以令人驚艷的細緻畫面帶來史詩奇幻鉅作。特別版內含大獲好評的主遊戲、附加內容，還有全新功能。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256672927/movie.293x165.jpg",
+  "year": 2016
+ },
+ "501300": {
+  "name": "What Remains of Edith Finch",
+  "desc": "What Remains of Edith Finch is a collection of strange tales about a family in Washington state. As Edith, you’ll explore the colossal Finch house, searching fo",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256720203/movie.293x165.jpg",
+  "year": 2017
+ },
+ "504230": {
+  "name": "Celeste",
+  "desc": "本遊戲為《TowerFall》創作者的又一力作，在這款劇情緊湊的平台遊戲中，玩家將扮演瑪德琳戰勝心中的惡魔，登上塞萊斯特山頂。勇敢面對數百個手工精心製作的挑戰、揭開深埋的秘密，並拼湊出這座山的奧秘。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256706951/movie.293x165.jpg",
+  "year": 2018
+ },
+ "524220": {
+  "name": "NieR:Automata™",
+  "desc": "NieR: Automata tells the story of androids 2B, 9S and A2 and their battle to reclaim the machine-driven dystopia overrun by powerful machines.",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256743980/movie.293x165.jpg",
+  "year": 2017
+ },
+ "529340": {
+  "name": "Victoria 3",
+  "desc": "Paradox Development Studio 邀請您到精彩刺激且充滿變革的 19 世紀打造理想的社會。在 Paradox 史上最受期待的遊戲之一《Victoria 3》中，平衡社會上存在的利益衝突，並稱霸天下。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256918897/movie.293x165.jpg",
+  "year": 2022
+ },
+ "535930": {
+  "name": "Two Point Hospital",
+  "desc": "設計別出心裁的醫院，治癒稀奇古怪的疾病，並管理愛找麻煩的工作人員，使你的醫療組織在雙點郡成長茁壯。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256727165/movie.293x165.jpg",
+  "year": 2018
+ },
+ "546560": {
+  "name": "Half-Life: Alyx",
+  "desc": "《戰慄時空：艾莉克絲》為 Valve 重返《戰慄時空》系列的 VR 大作。 故事發生於《戰慄時空》和《戰慄時空 2》之間，講述一場對抗凶狠外星種族合成人，勝算渺茫的大戰。 您將化身艾莉克絲．凡斯，人類存活下去的最後一絲希望。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256767815/movie.293x165.jpg",
+  "year": 2020
+ },
+ "552520": {
+  "name": "Far Cry® 5",
+  "desc": "在這款開放世界第一人稱射擊遊戲中，對抗狂熱邪教。投入激烈戰鬥、解放遭敵對勢力控制的地區、招募忠誠追隨者與動物盟友，並獨自或透過完整 2 人合作模式解放「希望郡」。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256700022/movie.293x165.jpg",
+  "year": 2018
+ },
+ "570940": {
+  "name": "DARK SOULS™: REMASTERED",
+  "desc": "有一天，燃起了第一團火。 重新體驗話題性、代表性十足的經典遊戲。 經過畫質提升，將以驚豔的60fps形式呈現，做好重返羅德蘭的準備吧。 黑暗靈魂 Remastered包含遊戲本體，以及DLC《Artorias of the Abyss》。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256717685/movie.293x165.jpg",
+  "year": 2018
+ },
+ "578080": {
+  "name": "PUBG: BATTLEGROUNDS",
+  "desc": "《PUBG: BATTLEGROUNDS》點燃大逃殺狂潮的經典射擊遊戲，現已免費開放！ 跳傘空降戰場，搜刮武器與戰略物資，在不斷收縮的生存圈內拼死突圍！ 每一次對決都是生死瞬間，每一個轉角都可能是你的終點或逆襲。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257396880/54e9218342178f9139f19eb7fa2d0a9854b9102a/movie_600x337.jpg",
+  "year": 2017
+ },
+ "582010": {
+  "name": "Monster Hunter: World",
+  "desc": "新的生命之地。狩獵, 就是本能! 「Monster Hunter: World」中, 玩家可以體驗終極的狩獵生活, 活用新建構的世界中各種各樣的地形 與生態環境享受狩獵的驚喜與興奮。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256769027/movie.293x165.jpg",
+  "year": 2018
+ },
+ "582160": {
+  "name": "《刺客教條：起源》",
+  "desc": "在這款動作冒險遊戲中探索古埃及。面對強大敵人、揭開陰謀，還可以探索「刺客兄弟會」的起源。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256686955/movie.293x165.jpg",
+  "year": 2017
+ },
+ "588650": {
+  "name": "Dead Cells",
+  "desc": "死亡細胞是以類銀河戰士惡魔城為基礎所設計的Rogue-lite動作平台遊戲。探險變化無窮的浩瀚城堡吧！當然...必須擁有守護2座城堡的守護者與進行2D魂味戰鬥的能力。遊戲中並無檢查點，請不斷地殺戮、死亡和學習！",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256755089/movie.293x165.jpg",
+  "year": 2018
+ },
+ "601150": {
+  "name": "Devil May Cry 5",
+  "desc": "最強的惡魔獵人強勢回歸！動作遊戲迷翹首以待，傳說中的Stylish Action《Devil May Cry》終於復活！",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256814536/movie.293x165.jpg",
+  "year": 2019
+ },
+ "607080": {
+  "name": "Psychonauts 2",
+  "desc": "‎《Psychonauts 2》結合怪奇任務和神秘陰謀，是一款帶電影風格的冒險平台遊戲。玩家可以自訂大量特異能力。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256850720/movie.293x165.jpg",
+  "year": 2021
+ },
+ "613880": {
+  "name": "Zoo Tycoon: Ultimate Animal Collection",
+  "desc": "The wildly popular Zoo Tycoon series gets set to crank up the excitement, challenge, and fun of building the ultimate zoo. Let your imagination run wild with Zo",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256718523/movie.293x165.jpg",
+  "year": 2018
+ },
+ "620980": {
+  "name": "Beat Saber",
+  "desc": "Slash the beats, get moving, and experience the world's most popular VR rhythm game!* Duck, dodge, and flow through 300+ handcrafted songs from artists like Col",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257344733/02a6fa05c9740674f3adaf4229e1e9e8ba458ba1/movie_600x337.jpg",
+  "year": 2019
+ },
+ "632360": {
+  "name": "Risk of Rain 2",
+  "desc": "浴血奮戰，殺出暴戾怪物的重圍，逃離混亂外星球上的劫難。您可孤軍奮戰，也可與好友並肩作戰。 以出人意料的方式合成戰利品，同時精通每個角色，直至您自己成為初次迫降時曾滿心懼怕的恐怖威脅。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257150713/e1151f94452c3bf926dda777a08fc01524b75612/movie_600x337.jpg",
+  "year": 2020
+ },
+ "632470": {
+  "name": "Disco Elysium - The Final Cut",
+  "desc": "《極樂迪斯可（Disco Elysium - The Final Cut）》是一款極具創新性的開放世界RPG。扮演身懷絕技的警探，穿梭在城市街區間，譜寫屬於自己的篇章。訊問那些讓你無法忘卻的角色，勘破凶案，或是受賄沉淪。當英雄，還是做敗類，由你來定。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256827872/movie.293x165.jpg",
+  "year": 2019
+ },
+ "636450": {
+  "name": "Rez Infinite",
+  "desc": "傳說中的動作射擊遊戲終於登陸PC！在網路空間中拯救即將崩塌的世界，享受視覺與聽覺上的震撼。可以在桌面上或完全沉浸在VR中遊玩。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256691982/movie.293x165.jpg",
+  "year": 2017
+ },
+ "644930": {
+  "name": "They Are Billions",
+  "desc": "《They Are Billions》是一部蒸汽朋克風格的策略遊戲，它發生在一顆被滅世浩劫摧殘過的星球之上。建設倖存者聚居地，並對抗想撕碎所有生者的億萬感染者。僵屍天災已過，人類能否倖存？",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256753058/movie.293x165.jpg",
+  "year": 2019
+ },
+ "646570": {
+  "name": "Slay the Spire",
+  "desc": "我們將卡牌遊戲與 Roguelike 遊戲融為一體，製作出了這款最棒的單機牌組構築遊戲。打造出獨一無二的牌組、遇見無數離奇的生物、發現威力強大的遺物、去屠戮這座高塔吧！",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256740869/movie.293x165.jpg",
+  "year": 2019
+ },
+ "653530": {
+  "name": "Return of the Obra Dinn",
+  "desc": "一代良舶奧伯拉丁號 ~ 1803年於海上失蹤",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256728392/movie.293x165.jpg",
+  "year": 2018
+ },
+ "692850": {
+  "name": "Bloodstained: Ritual of the Night",
+  "desc": "《血咒之城：暗夜儀式》是一款以探索為主的橫向卷軸動作角色扮演遊戲，由五十嵐孝司親手打造，505 Games全球發行，2P Games在大中國地區提供聯合發行支持。扮演米麗亞姆，一個被煉金術士詛咒而導致身體正慢慢變成水晶的孤兒。通過奮力戰鬥闖過一座充滿惡魔的城堡，擊敗城堡的主人，拯救自己以及所有人類。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257031972/movie.293x165.jpg",
+  "year": 2019
+ },
+ "728880": {
+  "name": "Overcooked! 2",
+  "desc": "《Overcooked》回來了，並為你端上全新的混亂烹飪動作！ 重返Onion Kingdom（洋蔥王國），在經典本地端多人協力模式",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256803126/movie.293x165.jpg",
+  "year": 2018
+ },
+ "736260": {
+  "name": "Baba Is You",
+  "desc": "《Baba Is You》是一款益智遊戲，玩家必須遵循的規則都以方塊的形式呈現，且玩家可以和這些方塊互動。只要操控這些方塊，就能改變遊戲的運作方式，重新定義關卡中各種物體的意義，並創造出意想不到的互動！",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256743354/movie.293x165.jpg",
+  "year": 2019
+ },
+ "739630": {
+  "name": "Phasmophobia 恐鬼症",
+  "desc": "Phasmophobia is a 4 player online co-op psychological horror. Paranormal activity is on the rise and it’s up to you and your team to use all the ghost-hunting e",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257381662/d2c6bdf4f9ef5d20a9f17a67da33c2aaf871d0ab/movie_600x337.jpg",
+  "year": 2020
+ },
+ "753640": {
+  "name": "Outer Wilds",
+  "desc": "Named Game of the Year 2019 by Giant Bomb, Polygon, Eurogamer, and The Guardian, Outer Wilds is a critically-acclaimed and award-winning open world mystery abou",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256778920/movie.293x165.jpg",
+  "year": 2020
+ },
+ "774171": {
+  "name": "Muse Dash",
+  "desc": "狂拽跑酷和傳統音遊結合的世界 ★★★ —— 《 Muse Dash 》!!",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256753903/movie.293x165.jpg",
+  "year": 2019
+ },
+ "782330": {
+  "name": "DOOM Eternal",
+  "desc": "地獄大軍已入侵地球。加入精彩刺激的單人戰役，化身毀滅戰士征服各次元的惡魔，阻止人類迎向最終滅絕。 唯一能嚇阻他們的……就是你。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257182735/842d4f0e002d40b68833ca2db0137044ba1c04bc/movie_600x337.jpg",
+  "year": 2020
+ },
+ "787480": {
+  "name": "Phoenix Wright: Ace Attorney Trilogy",
+  "desc": "本作是以法庭為舞台的冒險遊戲。玩家將扮演律師「成步堂龍一」，為證明委託人的清白而踏上法庭。此精選集收錄了作為系列原點的《逆轉裁判 復甦的逆轉》、《逆轉裁判2》和《逆轉裁判3》共14話。 ※繁簡中文字幕將於發售後以更新包形式追加。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257228052/2cbdc9e85db9116572f8442c161a4b06c03168e1/movie_600x337.jpg",
+  "year": 2019
+ },
+ "812140": {
+  "name": "Assassin's Creed® Odyssey",
+  "desc": "在這款動作冒險遊戲中，啟航前往古希臘改變它的命運。投身於陸地與海洋的激烈戰鬥，從流浪者蛻變為傳奇，並揭開你的身世之謎。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256730989/movie.293x165.jpg",
+  "year": 2018
+ },
+ "813780": {
+  "name": "Age of Empires II: Definitive Edition",
+  "desc": "有史以來最受歡迎的戰略遊戲之一迎來 20 週年，為此我們推出了《Age of Empires II: Definitive Edition》。本作擁有驚人的 4K 超高畫質，全面重製的新原聲音樂，以及內含 3 個新戰役和 4 個新文明的內容：《最後的可汗》。常態更新項目包括活動、新增內容、新遊戲模式，以及隨近期上線的合",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256753456/movie.293x165.jpg",
+  "year": 2019
+ },
+ "814380": {
+  "name": "Sekiro™: Shadows Die Twice - GOTY Edition",
+  "desc": "在由開發商FromSoftware（Dark Souls系列的製作單位）的全新歷險中開拓你的復仇之路。 勇猛復仇，挽回榮譽，巧妙殺敵。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256806899/movie.293x165.jpg",
+  "year": 2019
+ },
+ "883710": {
+  "name": "Resident Evil 2",
+  "desc": "一切都凌駕於玩家的想像之上。 一場生化災難於1998年9月襲擊了浣熊市，從殘害倖存者的喪屍地獄中生還吧。 無盡的刺激、引人入勝的故事和無法想像的恐怖正在等候你。 見證系列首屈一指的傑作──《Resident Evil 2》的重生吧。 別被這場慘劇吞噬。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256741837/movie.293x165.jpg",
+  "year": 2019
+ },
+ "892970": {
+  "name": "Valheim",
+  "desc": "一款支援 1 至 10 人合作探索的生存遊戲。踏入受維京文化啟發、隨機生成的死後世界，戰鬥、建造、征服，創造你的傳奇，贏得奧丁的青睞！",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257420513/3f5dcfbddfe4cca65abe94a03a46b3b5546c46ab/movie_600x337.jpg",
+  "year": 2026
+ },
+ "921570": {
+  "name": "歧路旅人",
+  "desc": "八位旅人，八次冒險，八個角色等你來扮演。橫越奇妙又寬廣的奧魯斯特拉大陸，展開精彩旅程，揭開八位旅人各自的動人篇章。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257081811/0552ed07b69950c0b5151829a1a249135aebd250/movie_600x337.jpg",
+  "year": 2019
+ },
+ "945360": {
+  "name": "Among Us",
+  "desc": "一款線上與單機皆可玩的派對遊戲，4 至 15 名玩家相互合作與背叛... 一切都發生在太空之中！",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257402620/43773749e121909407d9d8d9b4ae20572b2fe957/movie_600x337.jpg",
+  "year": 2018
+ },
+ "949230": {
+  "name": "Cities: Skylines II",
+  "desc": "透過有史以來最逼真的城市建造遊戲，從頭開始建設一座城市，並將其轉變為繁榮的大都市。以前所未有的龐大規模進行建造，您的創意和問題解決能力都將面臨全新層次的考驗。利用深度模擬與生動運轉的經濟系統，您將能毫不設限地打造自己的世界。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257297826/ecc455362a26e2c0d09da9016409a5634c7640a3/movie_600x337.jpg",
+  "year": 2023
+ },
+ "990080": {
+  "name": "霍格華茲的傳承",
+  "desc": "《霍格華茲的傳承》是一款沉浸式開放世界動作角色扮演遊戲。這次，你將在魔法世界中扮演自己，撰寫屬於你的傳奇。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256930504/744bf8424a8f5135b0bb5b310ff9682565760f3e/movie_600x337.jpg",
+  "year": 2023
+ },
+ "1030300": {
+  "name": "Hollow Knight: Silksong",
+  "desc": "前往《空洞騎士：絲之歌》中被詛咒籠罩的廣袤王國！在這個由靈絲與歌謠統治的土地上，探索、戰鬥、生存，朝著王國頂端攀登。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257186996/ac1c4277feccd41b0866ffec5d0d40b605df1851/movie_600x337.jpg",
+  "year": 2025
+ },
+ "1049410": {
+  "name": "超閾限空間 Superliminal",
+  "desc": "視角即現實。在這個令人絞盡腦汁的第一人稱解謎遊戲中，你將利用縱深和透視的錯覺，改變觀察視角，解決一道道看似不可能的謎題，以此逃出超現實的夢境世界。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256803623/movie.293x165.jpg",
+  "year": 2020
+ },
+ "1061090": {
+  "name": "Jump King",
+  "desc": "Take up the challenge and face true high-stakes platforming in Jump King! Struggle upwards in search of the Smoking Hot Babe of legend, but explore with care; a",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256748790/movie.293x165.jpg",
+  "year": 2019
+ },
+ "1084600": {
+  "name": "My Time at Sandrock",
+  "desc": "荒漠小城沙石鎮誠摯而迫切地邀請您約上好友，一起建設美好家園，通過經營工坊讓沙石鎮重返往日繁華，同時收穫到親情友情甚至是愛情。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257026410/movie.293x165.jpg",
+  "year": 2023
+ },
+ "1085660": {
+  "name": "天命2",
+  "desc": "探索太陽系的謎團，體驗《天命2》緊張刺激的第一人稱射擊戰鬥。解鎖強大技能，並在劇情任務、合作模式與PvP模式中收集獨特裝備。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257354727/67f3add5bf331cc2b95c7b8d72eb37ee329aca05/movie_600x337.jpg",
+  "year": 2019
+ },
+ "1086940": {
+  "name": "柏德之門3",
+  "desc": "《柏德之門3》是一款以《龍與地下城》世界為背景、劇情豐富的隊伍制角色扮演遊戲。你的每一個選擇，都將編織出一段關於夥伴與背叛、生存與犧牲，以及至高權力誘惑的故事。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256987424/movie.293x165.jpg",
+  "year": 2023
+ },
+ "1091500": {
+  "name": "Cyberpunk 2077",
+  "desc": "動作冒險開放世界角色扮演遊戲《電馭叛客 2077》讓你深入沉溺於肉體改造、爭權奪利、紙醉金迷又充滿凶險的巨型都市「夜城」。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257082817/609e4f6e90019adb46c4638c74c655eeaf9c38e2/movie_600x337.jpg",
+  "year": 2020
+ },
+ "1100140": {
+  "name": "東方風神録 〜 Mountain of Faith.",
+  "desc": "我が国には八百万の神々がいる 弾幕は八百万発程度では終わらない ノスタルジックでネイティブな弾幕シューティング原風景",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256754739/movie.293x165.jpg",
+  "year": 2020
+ },
+ "1100150": {
+  "name": "東方地霊殿 〜 Subterranean Animism.",
+  "desc": "弾幕は 地獄であるほど 美しい 深ければ深いほど地底は地獄の姿を取り戻す ヘリッシュでラブリーな弾幕シューティング地獄",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256754734/movie.293x165.jpg",
+  "year": 2020
+ },
+ "1144200": {
+  "name": "Ready or Not",
+  "desc": "洛蘇伊諾斯——洛蘇伊諾斯警局報告指稱，整個大洛蘇伊諾斯地區的暴力犯罪事件急劇增加。特警隊已被派往解決各種高風險情況，包括人質危機、炸彈威脅、嫌疑人被困等。建議市民不要外出。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256987629/movie.293x165.jpg",
+  "year": 2023
+ },
+ "1145350": {
+  "name": "Hades II",
+  "desc": "繼屢獲殊榮的前作，《黑帝斯 II》將再次引領玩家踏入希臘神話的世界。在此款 rogue-like 迷宮探索遊戲中，你能於冥界以外的世界奮勇殺敵、施展巫咒祕術，並殲滅時間泰坦！",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257204779/2f6767807df172946f5d638093dcc1c933eb24bb/movie_600x337.jpg",
+  "year": 2025
+ },
+ "1145360": {
+  "name": "Hades",
+  "desc": "Defy the god of the dead as you hack and slash out of the Underworld in this rogue-like dungeon crawler from the creators of Bastion, Transistor, and Pyre.",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256801252/movie.293x165.jpg",
+  "year": 2020
+ },
+ "1151640": {
+  "name": "Horizon Zero Dawn™ Complete Edition",
+  "desc": "化身為亞蘿伊體驗傳奇冒險旅程，揭開由機器宰制的未來地球神秘面紗。這位一出生就遭放逐的年輕獵人，必須為了阻擋全人類所面臨的威脅而戰。在這款備受讚譽的動作RPG遊戲中，運用毀滅性的戰術來攻擊機器，並探索壯闊的開放世界。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256899640/movie.293x165.jpg",
+  "year": 2020
+ },
+ "1158310": {
+  "name": "Crusader Kings III",
+  "desc": "愛戀、爭鬥、計謀並成就偉大。在《Crusader Kings III》這款大型戰略遊戲裡決定您的貴族家族的命運。在這個豐富、宏偉的中世紀模擬遊戲中，引領您的王朝血脈，死亡只是開始。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257057629/movie.293x165.jpg",
+  "year": 2020
+ },
+ "1167630": {
+  "name": "Teardown",
+  "desc": "在可以大肆破壞的模擬方塊世界中，精心籌備天衣無縫的搶劫行動。駕駛載具衝破牆壁，或使用爆裂物開闢專屬捷徑。盡情發揮創意，將周遭環境化為優勢。單人遊玩，或在多人模式中與最多 12 名玩家同樂。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257301427/fe9e95b82a78e8119b9a18e15ac4b0f33e203ce2/movie_600x337.jpg",
+  "year": 2022
+ },
+ "1172380": {
+  "name": "《STAR WARS 絕地：組織殞落™》",
+  "desc": "一段翻轉銀河系的冒險故事，就在 Respawn Entertainment 出品的第三人稱動作冒險遊戲《星球大戰 絕地：組織殞落™》等著你。一名孤立無援的小學徒必須完成自己的訓練，學會強大的新原力技能、掌握光劍之道，同時還得隨時小心帝國的魔爪。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256765709/movie.293x165.jpg",
+  "year": 2019
+ },
+ "1172470": {
+  "name": "《Apex 英雄》",
+  "desc": "《Apex 英雄》是一款由 Respawn Entertainment 打造的獲獎免費英雄射擊遊戲。掌握一系列不斷增加且擁有強大技能的傳說級角色，並體驗戰略性小隊玩法和新一代英雄射擊與大逃殺遊戲中的創新玩法。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257391801/a8d21c02f35b1aea10893708f9f744552f770377/movie_600x337.jpg",
+  "year": 2020
+ },
+ "1174180": {
+  "name": "Red Dead Redemption 2",
+  "desc": "亞瑟．摩根與范特林幫派是逃亡中的亡命之徒。遭到聯邦探員與賞金獵人群起追捕的他們為了生存，必須一路劫掠與戰鬥，跨越整個蠻荒腹地。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256768380/movie.293x165.jpg",
+  "year": 2019
+ },
+ "1196590": {
+  "name": "Resident Evil Village",
+  "desc": "在《Resident Evil》主系列的第8部作品中展開一場令人毛骨悚然的絕命拚搏。 伊森一家的平靜生活又再一次被捲進了混亂之中，而打破這種平靜日常的不是別人，正是克里斯·雷德菲爾。伊森又再一次陷入那無法醒來的噩夢。 經過多年開發，日趨成熟的RE Engine為大家打造了全新的生存「動作」恐怖體驗。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256825283/movie.293x165.jpg",
+  "year": 2021
+ },
+ "1211600": {
+  "name": "隔離區-喪尸末日生存",
+  "desc": "A great catastrophe has come, and you, who are on duty, crash and trapped in a Zed Zone. There are zombies and monsters everywhere, In order to escape, by colle",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256937143/movie.293x165.jpg",
+  "year": 2023
+ },
+ "1218210": {
+  "name": "Coromon",
+  "desc": "踏上專為 PC 全面重製、長達 30 小時以上的怪物收集養成 RPG 冒險！捕捉並培育超過 100 種可羅夢，探索維魯亞六大特色區域，在策略回合制戰鬥中步步制勝，揭開足以左右這個世界命運的謎團。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1218210/e37cd39c7f3e2bb20d4fd992f992d04cbd7781d7/header_tchinese.jpg?t=1789461207",
+  "year": 2022,
+  "fetched": "2026-09-17"
+ },
+ "1222670": {
+  "name": "The Sims™ 4",
+  "desc": "享受在虛擬世界裡創造及控制人們的無上權力。 感受恣意控制的力量與自由、愉快玩樂，遊戲人生！",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256911304/movie.293x165.jpg",
+  "year": 2020
+ },
+ "1229490": {
+  "name": "ULTRAKILL",
+  "desc": "《ULTRAKILL》是一款節奏明快、極度血腥的復古第一人稱射擊遊戲，融合了角色動作遊戲中以技巧為基礎的計分機制，以及受 90 年代經典射擊遊戲啟發的純粹屠殺場面。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257107477/a77af570bd18647151bea78f373c453daf3e410c/movie_600x337.jpg",
+  "year": 2020
+ },
+ "1243830": {
+  "name": "Overcooked! All You Can Eat",
+  "desc": "在擁有 4K 畫質並以 60 FPS 順暢運行的《Overcooked! 1》和《Overcooked! 2》中，盡情體驗洋蔥王國的一切。徹底重製、重新烹調。享受超過 200 個關卡 (22 個全新關卡) 和 80 位以上的大廚 (3 位全新大廚)，這是終極的《Overcooked!》遊戲體驗。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256910477/movie.jpg",
+  "year": 2021
+ },
+ "1245620": {
+  "name": "艾爾登法環",
+  "desc": "艾爾登法環是以正統黑暗奇幻世界為舞台的動作RPG遊戲。 走進遼闊的場景與地下迷宮探索未知，挑戰困難重重的險境，享受克服困境時的成就感吧。 不僅如此，登場角色之間的利害關係譜成的群像劇，更是不容錯過。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256867718/movie.293x165.jpg",
+  "year": 2022
+ },
+ "1259420": {
+  "name": "Days Gone",
+  "desc": "跨上機車，闖進危機處處的後瘟疫時代美國，殺出一線生機。扮演迪肯聖約翰，作為浪跡者與賞金獵人，在開放世界動作冒險遊戲中踏破崎路、竭力求生，同時尋覓生存意義。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256835055/movie.293x165.jpg",
+  "year": 2021
+ },
+ "1267910": {
+  "name": "Melvor Idle",
+  "desc": "《Melvor Idle》的靈感來自於《RuneScape》，其萃取出冒險遊戲令人上癮的核心要素，並將其淬鍊至最純粹的型態！這是一款功能滿載、放置/遞增型的遊戲，以新鮮的遊戲體驗結合熟悉的感覺。可讓你以前所未有的輕鬆姿態，將 20 個以上的技能練到最高等級。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256860908/movie.293x165.jpg",
+  "year": 2021
+ },
+ "1285190": {
+  "name": "邊緣禁地®4",
+  "desc": "《邊緣禁地4》是混亂滿點的掠寶射擊遊戲，帶來數十億把武器、致命強敵，還有緊張刺激的合作玩法。化身為四名全新寶庫獵人之一，踏上危險隱密的星球殺出一條生路。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257195851/50379a685c71fe1be77f37022bf318612daa6533/movie_600x337.jpg",
+  "year": 2025
+ },
+ "1295660": {
+  "name": "席德·梅爾的文明帝國VII",
+  "desc": "帶領帝國跨越時代歷經演進或長存。遊玩《席德·梅爾的文明帝國®VII》實踐你的信念。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257338696/53306654da11a9926b0bc4858d40e09a41b0ee19/movie_600x337.jpg",
+  "year": 2025
+ },
+ "1304930": {
+  "name": "The Outlast Trials",
+  "desc": "Red Barrels invites you to experience mind-numbing terror, this time with friends. Whether you go through the trials alone or in teams, if you survive long enou",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257377059/6fd5b12b6466d4ad31e7772b40bd506ae0c9bde4/movie_600x337.jpg",
+  "year": 2024
+ },
+ "1326470": {
+  "name": "Sons Of The Forest",
+  "desc": "你被派到了一座孤島上尋找走失的富翁，卻發現那是座由食人生物佔領的煉獄之島。你需要鍛造武器、建築棲身之所，努力生存下去。無論有沒有朋友相伴，都得想方設法在這款開放式恐怖生存模擬遊戲中活下去。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256932123/movie.293x165.jpg",
+  "year": 2024
+ },
+ "1331550": {
+  "name": "Big Ambitions",
+  "desc": "《Big Ambitions》是一款革命性的角色扮演商業模擬遊戲。以你喜歡的方式，從一無所有的狀態成為紐約最頂尖的企業家。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257411258/0033bf4465f1514b7a1d3e3fb693a1407a5b25c3/movie_600x337.jpg",
+  "year": 2026
+ },
+ "1361510": {
+  "name": "忍者龜：施萊德的復仇",
+  "desc": "在《忍者龜：許瑞德的復仇》中，李奧納多、米開朗基羅、多納太羅和拉斐爾重聚到一起，在這個用心打造的橫版打鬥遊戲中再續前緣。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256892266/movie.293x165.jpg",
+  "year": 2022
+ },
+ "1364780": {
+  "name": "Street Fighter 6",
+  "desc": "系列最新作《Street Fighter 6》將於2023年6月2日發售！ 本作以RE ENGINE開發，並由系列前所未有的大型模式「World Tour（世界巡遊）」、「Fighting Ground（格鬥之地）」以及「Battle Hub（對戰大堂）」構成。新的「Street Fighter」和前所未有的全新體驗正",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257424357/55e92acf560a272ddd724ded2e50ff7a43132b7d/movie_600x337.jpg",
+  "year": 2023
+ },
+ "1366540": {
+  "name": "戴森球計劃",
+  "desc": "Build the most efficient intergalactic factory in space simulation strategy game Dyson Sphere Program! Harness the power of stars, collect resources, plan and d",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256893051/movie.293x165.jpg",
+  "year": 2021
+ },
+ "1384160": {
+  "name": "GUILTY GEAR -STRIVE-",
+  "desc": "彷彿似手畫2D動畫的華麗表現，更加以進化昇華。徹底的講究終極的美麗，為您呈現最先端，最新時代映像的格鬥遊戲！",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257369545/2ce8e13b897f7a74c84a5cf2e956a2f3b5504797/movie_600x337.jpg",
+  "year": 2021
+ },
+ "1426210": {
+  "name": "雙人成行",
+  "desc": "在《雙人成行》中踏上人生中最瘋狂的旅程。利用好友通行證*邀請好友免費遊玩。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256827093/movie.293x165.jpg",
+  "year": 2021
+ },
+ "1449200": {
+  "name": "AI：夢境檔案 涅槃肇始",
+  "desc": "新上任的ABIS特別搜查官瑞希與龍木， 將與眼球型AI機器人搭檔――瞳絆與環聯手合作， 在過去與現在、夢境與現實之間穿梭， 為了查明真相，開始調查這起【Half Body連續命案】。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256893439/movie.293x165.jpg",
+  "year": 2022
+ },
+ "1449850": {
+  "name": "Yu-Gi-Oh! Master Duel",
+  "desc": "史上最強的數位卡牌遊戲！",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256875528/movie.293x165.jpg",
+  "year": 2022
+ },
+ "1454400": {
+  "name": "Cookie Clicker",
+  "desc": "An idle game about making cookies! Originally released in 2013 on the web, and actively developed since then. This is the official version for Steam.",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256845926/movie.293x165.jpg",
+  "year": 2021
+ },
+ "1466860": {
+  "name": "Age of Empires IV: Anniversary Edition",
+  "desc": "為了慶祝令人開心的數百萬全球玩家的第一年，這一款曾獲獎又最暢銷的戰略型系列遊戲繼續推出《 Age of Empires IV：週年紀念版》，讓您置身於塑造世界的歷史戰役當中，史詩級程度倍增。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256913281/movie.293x165.jpg",
+  "year": 2021
+ },
+ "1551360": {
+  "name": "Forza Horizon 5",
+  "desc": "在墨西哥充滿活力的開放世界景觀中探索，駕駛世界上最棒的汽車，享受無限樂趣的駕駛體驗。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256875134/movie.293x165.jpg",
+  "year": 2021
+ },
+ "1627720": {
+  "name": "Lies of P",
+  "desc": "《Lies of P》是一款驚心動魄的魂系遊戲，以《木偶奇遇記》為題材，但遊戲反轉故事內容，將主角置身於「美好年代」陰鬱而優雅的背景之中。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256973335/movie.293x165.jpg",
+  "year": 2023
+ },
+ "1643320": {
+  "name": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+  "desc": "進入車諾比特異區這個廣闊的開放世界，應付阻擋你去路的特異點、變異體和競爭對手。探索、搜尋物資，努力在這片殘酷危險的土地上生存。遊戲隨著每次更新而不斷進化，如今已全面升級，並推出2.0版本。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257399170/d8f82aee8ad35e515f743e96356832af44893df3/movie_600x337.jpg",
+  "year": 2024
+ },
+ "1652250": {
+  "name": "傳說與戰術自走棋",
+  "desc": "《傳說與戰術自走棋》是一款結合了Roguelike和自走棋元素的案頭角色扮演遊戲。 你將遇到許多性格各异的角色，並組建起 强大的怪物小隊，以應對一場場戰鬥，戰鬥是自動進行的，但你的決策始終是勝負的關鍵！",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257046529/movie.293x165.jpg",
+  "year": 2024
+ },
+ "1659040": {
+  "name": "HITMAN World of Assassination",
+  "desc": "進入終極殺手世界。《HITMAN：殺手世界》將《HITMAN》、《HITMAN 2》和《HITMAN 3》集大成於一身，包括主要戰役、契約模式、晉級、隱密目標街機和受 roguelike 類型啟發的遊戲模式 HITMAN: Freelancer。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257408791/af43a69f440f3172105cdc83170c4a2a836b4c5f/movie_600x337.jpg",
+  "year": 2022
+ },
+ "1665460": {
+  "name": "eFootball™",
+  "desc": "齊來體驗下載數逾10億的刺激足球遊戲！ 與世界各地的玩家一起玩eFootball™！",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1665460/86619d0fb7126b3d5276004175f9a62181223c0f/header.jpg",
+  "year": 2021
+ },
+ "1687950": {
+  "name": "女神異聞錄5皇家版",
+  "desc": "去奪過來吧！用你那股意志！",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256911919/movie.293x165.jpg",
+  "year": 2022
+ },
+ "1693980": {
+  "name": "《絕命異次元》",
+  "desc": "科幻的生存恐怖經典作品再次歸來，並且經過全面重製，提供更身臨其境的體驗，包括視覺、音效和遊戲性改良，同時忠實呈現原版遊戲令人驚心動魄的設計理念。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256929315/movie.293x165.jpg",
+  "year": 2023
+ },
+ "1694600": {
+  "name": "THE HOUSE OF THE DEAD: Remake",
+  "desc": "THE HOUSE OF THE DEAD: Remake is a remade version of the game introduced in 1997 in arcade platform. A classic arcade rail-shooter receives a whole new entourag",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256880270/movie.293x165.jpg",
+  "year": 2022
+ },
+ "1771300": {
+  "name": "Kingdom Come: Deliverance II",
+  "desc": "這是一款以刺激精彩的劇情所帶動的動作 RPC，並以十五世紀的中世紀歐為背景建立豐富的開放世界。你將化身為年輕的亨利，展開極致的中世紀冒險之旅，沉浸於前所未有的規模。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257229487/ae4e58530a3c69ec0fbff0dc759f8f32e3dcb554/movie_600x337.jpg",
+  "year": 2025
+ },
+ "1778820": {
+  "name": "鐵拳8",
+  "desc": "3D對戰格鬥遊戲的最高峰「鐵拳」系列最新作「鐵拳8」 總共32名角色激戰。「鐵拳」傳奇揭開新幕。 系列作史上最強爽快感的戰鬥。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256921572/movie.293x165.jpg",
+  "year": 2024
+ },
+ "1794680": {
+  "name": "Vampire Survivors",
+  "desc": "Mow down thousands of night creatures and survive until dawn! Vampire Survivors is a gothic horror casual game with rogue-lite elements, where your choices can ",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256964120/movie.293x165.jpg",
+  "year": 2022
+ },
+ "1817070": {
+  "name": "Marvel’s Spider-Man Remastered",
+  "desc": "在《Marvel’s Spider-Man Remastered》中，彼得·派克和蜘蛛人的世界在刺激的原創故事中碰撞交織。扮演身經百戰的彼得·派克，在漫威宇宙紐約中打擊猖狂罪犯、對戰經典反派。在活力洋溢的社區間擺盪前行，使出經典絕招打敗壞人。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256900410/movie.293x165.jpg",
+  "year": 2022
+ },
+ "1850510": {
+  "name": "TRIANGLE STRATEGY",
+  "desc": "本作為由「BRAVELY」系列、《OCTOPATH TRAVELER 歧路旅人》的開發團隊所打造的全新戰略RPG。遊戲將以HD-2D的精美畫面呈現壯闊的英雄傳。故事舞台為戰亂的諾澤利亞大陸，玩家將不得不做出艱難的抉擇。你的正義將會邁向什麼樣的未來……？",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1850510/header.jpg?t=1775028430",
+  "year": 2022,
+  "fetched": "2026-09-17"
+ },
+ "1850570": {
+  "name": "DEATH STRANDING DIRECTOR'S CUT",
+  "desc": "傳奇遊戲製作人小島秀夫帶來顛覆傳統的遊戲體驗，在這無可比擬的《死亡擱淺導演剪輯版》中加以擴展。玩家扮演山姆·布橋斯，一肩扛起責任，在面目全非的美國聯繫僅餘的倖存者，為人類社會帶來希望。你能一步步重新聯繫這個分崩離析的世界嗎？",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256878930/movie.293x165.jpg",
+  "year": 2022
+ },
+ "1888930": {
+  "name": "The Last of Us™ Part I",
+  "desc": "探索好評劇集的原作，體驗屢獲殊榮的遊戲，在《The Last of Us™》中指引喬爾和艾莉橫跨末世後的美國，與令人刻骨銘心的盟友和敵人相會。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256936973/movie.293x165.jpg",
+  "year": 2023
+ },
+ "1940340": {
+  "name": "Darkest Dungeon® II",
+  "desc": "《黑暗地牢2》是一場有去無回的Roguelike旅行冒險遊戲。組建隊伍，武裝馬車，穿越腐朽的大地，阻止末日浩劫，然而最大的威脅或許正是你的心魔…",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257189874/4aea74ccc5944ec8fcc5d26009b484d972a1da7d/movie_600x337.jpg",
+  "year": 2023
+ },
+ "1942280": {
+  "name": "Brotato",
+  "desc": "《Brotato》是一款垂直移動的競技場射擊roguelite遊戲，你將作為一顆馬鈴薯，同時裝備多達6種武器來跟成群的異形大戰一場。從各種特性和道具中做選擇，來創建出獨特的構築並生存下來，直到救援的到來。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257068272/b863cc9a99a69311bd096c843636f34396b67035/movie_600x337.jpg",
+  "year": 2023
+ },
+ "1946700": {
+  "name": "Layers of Fear",
+  "desc": "這款劃時代的心理恐怖第一人稱遊戲，將令人毛骨悚然的魅力演繹得淋漓盡致。合集中匯聚了遊戲的所有章節，方便您深入瘋狂的深淵，追尋藝術的啟迪。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256977120/movie.293x165.jpg",
+  "year": 2023
+ },
+ "1962663": {
+  "name": "《決勝時刻®: 現代戰域™》",
+  "desc": "歡迎來到《決勝時刻®：現代戰域™》大型免費遊玩戰鬥競技場。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257073155/783777ae99c66d4eea89a01a44af1d59d1075bbf/movie_600x337.jpg",
+  "year": 2022
+ },
+ "1971650": {
+  "name": "歧路旅人 II",
+  "desc": "2018年發售迄今，全球出貨量＋下載量突破300萬套的「歧路旅人」系列全新RPG。 以點陣圖融合3DCG的「HD-2D」畫面效果，實現了更進一步的進化。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257081812/317731ca566c161fb57a5dbabdf36414702c7281/movie_600x337.jpg",
+  "year": 2023
+ },
+ "1984270": {
+  "name": "數碼寶貝物語 時空異客",
+  "desc": "《數碼寶貝物語》系列最新作品終於登場。本作是一款角色扮演遊戲，您可以在追查世界毀滅謎團的過程中，一面享受橫跨人類世界與異世界的冒險，以及蒐集培育種類豐富的數碼寶貝。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257156329/5f933835262638a7e76972f37a23bab8bcf68e61/movie_600x337.jpg",
+  "year": 2025
+ },
+ "1985810": {
+  "name": "Call of Duty®: Black Ops Cold War",
+  "desc": "《決勝時刻®：黑色行動》冷戰將帶領玩家來到1980年代，並深入探索冷戰時期危機四伏的地緣政治。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1985810/header.jpg",
+  "year": 2023
+ },
+ "2016590": {
+  "name": "Dark and Darker",
+  "desc": "毫不留情的第一人稱硬核奇幻PVPVE地牢大冒險。與同伴攜手合作，運用膽識、智慧與謀略，發掘傳說中的寶藏，擊敗可怕的怪物，同時要比其他狡猾的尋寶者先行一步。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257374272/f66d9ebc7336fe3999a3d7a1761500397a7f7d75/movie_600x337.jpg",
+  "year": 2024
+ },
+ "2050650": {
+  "name": "Resident Evil 4",
+  "desc": "生還僅是惡夢的開端。 前所未見的生物災害「拉昆市事件」已過去六年。 成為特務的里昂·S·甘迺迪接獲命令，前往營救被綁架的總統千金。 為此里昂踏進被「瘋狂」支配之地，他的結局會是…… 一場生與死、恐懼與釋懷互相交織的嚴酷營救劇即將揭開帷幕。 透過直觀的操作和最新的畫面，以及再構成的故事重生為全新的生存恐怖體驗。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256998140/movie.293x165.jpg",
+  "year": 2023
+ },
+ "2142790": {
+  "name": "Fields of Mistria",
+  "desc": "開啟你的新生活！打造夢想中的農場，探索充滿無限可能的世界。在這款充滿懷舊氣息的農場／生活模擬 RPG 遊戲盡享魔法、浪漫與冒險！",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257390653/d0e7ceddac78c778d66e96dccb4b4a2ee122658d/movie_600x337.jpg",
+  "year": 2026
+ },
+ "2187220": {
+  "name": "逆轉裁判456 王泥喜精選集",
+  "desc": "律師 王泥喜法介的成長故事即將重現眼前！ 以新人律師「王泥喜法介」與傳奇律師「成步堂龍一」為主角的3部人氣作品將集合為一全新登場！ 收錄《逆轉裁判4》、《逆轉裁判5》及《逆轉裁判6》本篇故事14章及下載內容的特別編2章，共有16章！ 本作除了是「逆轉裁判」粉絲們期待已久的精選集之餘，亦是同系列中收錄了最多豐富內容的作品",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256995768/movie.293x165.jpg",
+  "year": 2024
+ },
+ "2225070": {
+  "name": "Trackmania",
+  "desc": "《賽道狂飆》是一款融合精準駕駛與創意的獨特競速遊戲。 免費在五大令人驚艷的環境馳騁，每週於頂尖玩家自創賽道上競速，攀升地區排行榜。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257268845/fb81abeb2561ebef5d200aeff5145bf83a81a36b/movie_600x337.jpg",
+  "year": 2023
+ },
+ "2246340": {
+  "name": "Monster Hunter Wilds",
+  "desc": "狂野兇猛的大自然，襲來。 一個時刻都在動態變化的原野。 這是個關於生活在具有兩面性的世界裡之魔物和人們的故事。 得以進化的狩獵動作，以及追求不間斷的沉浸感之極致的狩獵體驗正在等待著您。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257283345/f56fc8e58afb3467141df79a3f449fab20649949/movie_600x337.jpg",
+  "year": 2025
+ },
+ "2288630": {
+  "name": "太鼓之達人 咚咚雷音祭",
+  "desc": "「太鼓之達人」是一款跟著樂曲節奏敲打和太鼓的多元節奏遊戲。 遊戲裡收錄了卡通動畫音樂及VOCALOID™ Music等多首樂曲及各種遊戲模式。 無論是一人遊玩還是線上遊玩，盡情享受太鼓之達人吧！",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257049419/movie.293x165.jpg",
+  "year": 2024
+ },
+ "2331330": {
+  "name": "女鬼橋二 釋魂路",
+  "desc": "《女鬼橋二 釋魂路》是《女鬼橋》系列第二作，以現代真實校園傳說為題材的第一人稱懸疑冒險恐怖遊戲。在盛大舉辦「恐怖嘉年華」活動的文華大學裡，玩家將分別操作四位角色，用不同視角親自體驗「鬼樓」的恐怖之處，伴隨恐懼、不安還有搞笑幽默。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257021867/movie.293x165.jpg",
+  "year": 2024
+ },
+ "2344520": {
+  "name": "《暗黑破壞神® IV》",
+  "desc": "在《暗黑破壞神® IV》加入保衛聖休亞瑞的戰鬥，迎接這場終極的動作角色扮演冒險。體驗好評如潮的劇情任務以及全新賽季內容。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257315405/45b8069c158e45deaaa823f4cf96daed3f7d92d9/movie_600x337.jpg",
+  "year": 2023
+ },
+ "2357570": {
+  "name": "《鬥陣特攻®》",
+  "desc": "《鬥陣特攻®》，一個值得守護的未來世界！ 《鬥陣特攻®》是一款永續經營、不斷發展的團隊取向免費動作遊戲，故事背景設定在樂觀光明的未來時代，玩家將在 5v5 或 6v6 終極對戰中展開對決！ +P3",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257237423/b54f176f559f187a94b153516bc66e4a9ddabdc5/movie_600x337.jpg",
+  "year": 2023
+ },
+ "2358720": {
+  "name": "黑神話：悟空",
+  "desc": "《黑神話：悟空》是一款以中國神話為背景的動作角色扮演遊戲。在游戲中你將扮演一位“天命人”，爲了探尋昔日傳奇的真相，踏上一條充滿危險與驚奇的西游之路。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257048125/5bd85986ed6b1545d91ceb84714dd06a952fa17f/movie_600x337.jpg",
+  "year": 2024
+ },
+ "2379780": {
+  "name": "Balatro",
+  "desc": "撲克牌版的極致Roguelike遊戲！Balatro是一場循環不息的撲克之旅。在這款令人陶醉的卡牌策略遊戲中，你將參與非法牌局，發掘能夠改變局勢的小丑牌，引爆一系列令人血脈噴張、驚嘆連連的連鎖效應。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257198110/8a0ee295b28d9650b4176336600ef70c204209a0/movie_600x337.jpg",
+  "year": 2024
+ },
+ "2499860": {
+  "name": "勇者鬥惡龍 VII Reimagined",
+  "desc": "「大海另一頭有更遼闊的世界……就由我們來證明！」 故事從住在孤島上的一群少年少女，懷抱著一縷微小的好奇心開始。一場橫越大海、跨越時空的壯闊冒險，就此揭開帷幕。 在保留原作魅力的同時，重新構築（Reimagined）系統與劇情，打造更易於上手的遊玩體驗。與以「人偶風」全新呈現的魅力夥伴們，一同啟程踏上壯闊的冒險之旅！",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257298809/5b3d0e18947cb1f566b30e6cabd2e4316d3f00ab/movie_600x337.jpg",
+  "year": 2026
+ },
+ "2531310": {
+  "name": "The Last of Us™ Part II Remastered",
+  "desc": "體驗這個榮獲超過300項年度最佳遊戲獎項肯定的作品，現已登陸PC。透過強化的圖形效果、Roguelike生存體驗「浴血無歸」等遊戲模式以及更多其他內容，探索艾莉和艾比的故事。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257121063/fa49e8ad1f4905a611efcd2652f7d372bf08f51a/movie_600x337.jpg",
+  "year": 2025
+ },
+ "2536520": {
+  "name": "《暗黑破壞神 II：獄火重生》煉獄版",
+  "desc": "重新體驗定義動作角色扮演遊戲類型的經典黑暗奇幻作品，現已完全重製，帶來全新職業、嶄新內容、遊戲體驗改善以及完全翻新的終局系統。搭配物品、施展強力技能，逐漸提升強度，最多八位玩家可一同組隊，斬除來自地獄的大軍。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257286844/dad9cc76eefa599b6d1cb57218618dcd054f59f1/movie_600x337.jpg",
+  "year": 2026
+ },
+ "2567870": {
+  "name": "Chained Together",
+  "desc": "從地獄的深處，與你的朋友們一起被鎖鍊攀爬穿過多樣的世界。無論是單打獨鬥還是合作，努力到達頂峰，並發現那裡等待著你的是什麼...",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257414776/e3da4be8f0f93ec95cc75e7bb8ed7ae461cc4a19/movie_600x337.jpg",
+  "year": 2024
+ },
+ "2569760": {
+  "name": "The Mound: Omen of Cthulhu",
+  "desc": "在最多四人玩家的合作遊戲中，組成一支搜尋神祕寶藏的探險者小隊。在這片受詛咒的叢林中，處處危機四伏且恐怖的生物會改變現實。保持清晰的思緒，並趁著叢林吞噬你之前將其馴服……",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257374556/d2c954c06a0a02ed7638cbbac01c7f2274a453dc/movie_600x337.jpg",
+  "year": 2026
+ },
+ "2622380": {
+  "name": "艾爾登法環 黑夜君臨",
+  "desc": "《艾爾登法環 黑夜君臨》（ELDEN RING NIGHTREIGN）為基於《艾爾登法環》（ELDEN RING）的世界觀， 重新構思遊戲的核心設計，帶給玩家全新體驗的衍生作品。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257081701/073d2cad697ae780e993b29aed47c72c6ab607b6/movie_600x337.jpg",
+  "year": 2025
+ },
+ "2661300": {
+  "name": "Grounded 2",
+  "desc": "Shrunk again, but the world is much larger. In this open-world, single-player or co-op survival adventure, craft weapons and armor, build your base, and travers",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257392614/4033a40afe33c6acb11c545f837e32978f42c2f2/movie_600x337.jpg",
+  "year": 2025
+ },
+ "2668510": {
+  "name": "Red Dead Redemption",
+  "desc": "這款廣受好評的 Red Dead Redemption 2 前作首度登陸 PC。親身體驗昔日亡命之徒約翰．瑪斯頓的故事，並隨著這個角色一起追殺惡名昭彰的范特林幫的殘存成員。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257063005/a2b6c16a5236794eda2475cb712682007f4bd6e9/movie_600x337.jpg",
+  "year": 2024
+ },
+ "2679100": {
+  "name": "巫師之塔",
+  "desc": "你將在這危機四伏的魔法世界中展開冒險，與各種生物結為好友或與其交戰，在單人或多人模式中，與其他巫師一同施法，創造出屬於你們的聖域。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257350185/2a00a27503467794dd1505003c6bd5744feeb9aa/movie_600x337.jpg",
+  "year": 2026
+ },
+ "2767030": {
+  "name": "漫威爭鋒",
+  "desc": "《漫威爭鋒》是一款超級英雄PvP團隊射擊遊戲。你可以從豐富多樣的超級英雄和反派陣容中，挑選心儀的角色，組成全明星隊伍，在漫威多元宇宙各種充滿特色的地圖上，利用獨特的超能力來一場精彩的激戰。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257422551/bead0ffca6bf14f64db32a87304c0c4b83301b0e/movie_600x337.jpg",
+  "year": 2024
+ },
+ "2807960": {
+  "name": "戰地風雲™ 6",
+  "desc": "終極的全面戰爭體驗。在坦克、戰鬥噴射機和大型戰鬥軍械的戰爭中，你的小隊才是致命兵器。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257382517/b814e94ed892f8cf2089045b5721aabe22c657e8/movie_600x337.jpg",
+  "year": 2025
+ },
+ "2855560": {
+  "name": "流亡黯道",
+  "desc": "你是名流亡者，在黑暗的瓦爾克拉斯大陸，狹縫中求生存，你透過戰鬥來精進自己，讓你有能力向那些冤枉你的人復仇。《流亡黯道》為線上動作類 RPG，背景為黑暗的神祕世界。遊戲完全免費，且永遠不會有付費獲勝的機制。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257377949/b0cab1e6cc666670313c36132eacebf13cb7805e/movie_600x337.jpg",
+  "year": 2024
+ },
+ "2878980": {
+  "name": "NBA 2K25",
+  "desc": "《NBA 2K25》在ProPLAY™技術支援下，賦予你無與倫比的操控能力，以更逼真寫實的方式號令球場。在MyCAREER、MyTEAM、MyNBA和The W模式中寫下你的傳奇。用各式各樣的自訂選項展現自我，並探索全新籃球之城。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257048048/movie.293x165.jpg",
+  "year": 2024
+ },
+ "2909400": {
+  "name": "FINAL FANTASY VII REBIRTH",
+  "desc": "克勞德一行人脫離魔晄都市米德加，踏進廣袤的世界展開旅程。 本作有全新的故事、在廣闊世界中的自由冒險以及增進與夥伴間情誼的戰鬥， 帶來繼《FINAL FANTASY VII REMAKE》之後更加進化的遊戲體驗。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257091399/97c439908c967cf8cc09e0c25c8528b14dfaa78d/movie_600x337.jpg",
+  "year": 2025
+ },
+ "3010850": {
+  "name": "Gears of War: E-Day",
+  "desc": "體驗「事變日」——遊戲界最廣受好評的第三人稱射擊系列之一的殘酷起源故事。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257404320/0e65fac4a0fafbb75ebacdc3b76e18de2e3094a8/movie_600x337.jpg",
+  "year": 2026
+ },
+ "3046600": {
+  "name": "鬼武者2 (Onimusha 2: Samurai's Destiny)",
+  "desc": "在現代重生，愛與哀愁的爽快感。 高解析度化的畫面、配合現世代主機而調整的操作感。新的《鬼武者2》重生！ 爽快感超群的必殺技「一閃」。 深刻且硬派的故事。讓我們來體驗開拓了戰國生存動作遊戲新道路的《鬼武者2》吧！",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257141999/c2157119ed5488a0edb46e7ab2c71ec3ed213e4c/movie_600x337.jpg",
+  "year": 2025
+ },
+ "3240220": {
+  "name": "Grand Theft Auto V 強化版",
+  "desc": "體驗最暢銷的娛樂作品 Grand Theft Auto V 與 Grand Theft Auto 線上模式，現已升級為新世代，包括震撼人心的視覺效果、更快載入速度、3D 音效技術，以及更多，外加 GTA 線上模式玩家的專屬內容。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257247680/6953f3f3d5ff4750a447fd604910cb5a2eb19a35/movie_600x337.jpg",
+  "year": 2025
+ },
+ "3260140": {
+  "name": "流亡黯道2",
+  "desc": "《流亡黯道 2》是一款由 Grinding Gear Games 開發下一代動作角色扮演遊戲，最多支援六人合作遊玩。 故事發生在初代《流亡黯道》數年之後，你將重返瓦爾克拉斯的黑暗世界，並尋找終結汙染擴散的方法。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257408444/29613a9ffd97bc6375feec73a94d37d711362551/movie_600x337.jpg",
+  "year": 2025
+ },
+ "3280350": {
+  "name": "DEATH STRANDING 2: ON THE BEACH",
+  "desc": "山姆和同伴們一起展開新旅程，拯救人類免於滅絕。 加入他們的行列，穿越超自然敵人橫行、障礙重重的世界，並探究縈繞已久的問題：我們真的應該建立聯繫嗎？",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257302141/a14ec73bdc862c2e6ae213bd038e6cc942e18ba8/movie_600x337.jpg",
+  "year": 2026
+ },
+ "3288210": {
+  "name": "Super Meat Boy 3D",
+  "desc": "臭名昭著、難如登天的平台遊戲，現已推出 3D 版！",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257312049/8313a2246a44b7de561964b85b0d2f845fbf002c/movie_600x337.jpg",
+  "year": 2026
+ },
+ "3376690": {
+  "name": "THE HOUSE OF THE DEAD 2: Remake",
+  "desc": "《亡靈之屋 2：重製版》是著名的熱門軌道射擊遊戲系列第二部作品的重製版。您可以獨自扮演一名特工詹姆斯或加里，也可以在合作模式下組隊消滅擋在您面前的危險亡靈怪物。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257082862/05630dbe41bbc3c9d630f005b0c2838f48bcdefe/movie_600x337.jpg",
+  "year": 2025
+ },
+ "3405690": {
+  "name": "EA SPORTS FC™ 26",
+  "desc": "在《EA SPORTS FC™ 26》中，以前所未有的方式體驗「The World's Game」。在 48 隊國際錦標賽模式中爭奪最高榮耀，挑戰主題領隊即時挑戰，並在球員職業生涯模式中啟用新的國際超級球星和英雄。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257351235/966515db96dc525a590530e3ad3712bdaf98eecd/movie_600x337.jpg",
+  "year": 2025
+ },
+ "3513350": {
+  "name": "Wuthering Waves",
+  "desc": "《鳴潮》是一款跨平台開放世界動作遊戲，主打高自由度的動作戰鬥玩法與豐富多元的開放世界探索。而你，在這個世界甦醒的漂泊者，將在找回記憶、尋找自我認同的同時結識無數的共鳴者同伴，並和夥伴一起踏上改變這個世界的旅途。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257208521/dcb3b5e5b30c189615091f5f8630b051aad1c4bf/movie_600x337.jpg",
+  "year": 2025
+ },
+ "3557620": {
+  "name": "蔚藍檔案",
+  "desc": "在平凡的日常生活中尋找奇蹟的日系動漫RPG",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257141459/b6b799b487ce9bf6acaeff6c7a8ebf4d51f40b6f/movie_600x337.jpg",
+  "year": 2025
+ },
+ "3679080": {
+  "name": "七大罪：Origin",
+  "desc": "<七大罪：Origin>是以『七大罪』IP為背景打造的多人開放世界RPG。 玩家將操控里歐涅絲的王子崔斯坦，在開放世界中盡情探索原作動畫的布里塔尼亞大陸。一起踏上旅程，拯救時空扭曲的世界吧。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257405122/f2b251a2f715622e0cdc8a5c980a2441dac1d0f5/movie_600x337.jpg",
+  "year": 2026
+ },
+ "3764200": {
+  "name": "Resident Evil Requiem",
+  "desc": "予生者恐懼。給屍者安魂。 《Resident Evil Requiem》標誌著「Resident Evil」系列和生存恐怖遊戲的新紀元即將開始。「Requiem」（安魂曲）將會撼動玩家的精神深處。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257293406/39f26816e534d08c0e80fb56ee91ad169920fd1f/movie_600x337.jpg",
+  "year": 2026
+ },
+ "3841510": {
+  "name": "真・三國無雙２ with 猛將傳 Remastered",
+  "desc": "震撼重現，一騎當千的極致體驗。《真・三國無雙2》與《真・三國無雙２ 猛將傳》經典重現，傳奇再臨！更加爽快的動作體驗，挑戰一騎當千的極致境界！",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257348106/3b92099da9621e8a0c8c222be90887682ee80d7b/movie_600x337.jpg",
+  "year": 2026
+ },
+ "3920610": {
+  "name": "零 ～紅蝶～ REMAKE",
+  "desc": "這一次，絕不放手—— 淒美的恐怖，幽魅羽化。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257301810/13580e7b4bfb04dd0cfbd68173ad812e454fb8b1/movie_600x337.jpg",
+  "year": 2026
+ },
+ "3932890": {
+  "name": "Escape from Tarkov",
+  "desc": "Escape from Tarkov is the original extraction FPS where every raid is a gamble with death. Prep your raid, bleed, endure and fight through ruthless PMC players ",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257391120/626ff725b40426b2a04cbf82d40b3ba05149614e/movie_600x337.jpg",
+  "year": 2025
+ },
+ "3969080": {
+  "name": "楓之谷M",
+  "desc": "令人懷念的楓之谷再次呼喚你。 楓之谷M是一款可以享受楓之谷特有的感性與世界觀的MMORPG。 擁有個性鮮明的職業、輕快的戰鬥與輕鬆成長的系統，還能與好友共同合作遊玩！在可愛的2D橫向捲軸世界中，展開屬於自己的冒險吧~",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257283451/9f2b05efdbbe9d05aa6685ce03e7e9362677e5e9/movie_600x337.jpg",
+  "year": 2026
+ },
+ "4249100": {
+  "name": "Resident Evil (1996)",
+  "desc": "Your squad has been choppered to a remote mansion to investigate a bio-experiment gone wrong. You’re plunged straight into a deathtrap. Arm yourself, solve puzz",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257283329/41c5e9dc60c5c4c4ca99d114c99a5b3121e8f4e4/movie_600x337.jpg",
+  "year": 2026
+ },
+ "4249110": {
+  "name": "Resident Evil 2 (1998)",
+  "desc": "Command Leon S. Kennedy, a rookie cop who stumbles onto the carnage reporting for his first duty, or play as Claire Redfield, desperately searching for her miss",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257265760/860703599512f1bc9bec840d67a7d39ce3cb0025/movie_600x337.jpg",
+  "year": 2026
+ },
+ "4279820": {
+  "name": "RO仙境傳說： 新世代的誕生",
+  "desc": "《RO仙境傳說： 新世代的誕生》（現《RO新世代： 攜手同行》）是一款由韓國Gravity正版授權的3D MMORPG多平台互通遊戲，承襲仙境傳說經典玩法，玩家將在米德加爾特大陸與各地冒險者相逢，一起展開有趣而溫暖的冒險旅程。PC版完美適應行動裝置版操作，升級120 FPS超高影格率，提供極致絲滑的遊戲體驗。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257266256/cbcfd88171853f1db7076748b056c3a55ae0ab0f/movie_600x337.jpg",
+  "year": 2026
+ },
+ "4356430": {
+  "name": "《NBA 2K27》",
+  "desc": "《NBA 2K27》拼勁不減，征途永無止境。在MyCAREER、MyTEAM和MyNBA時時刻刻追求卓越，讓籃球夢化為現實。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257411724/7dc0137ef353823988e80a97ef917a4f78066353/movie_600x337.jpg",
+  "year": 2026
+ },
+ "4659620": {
+  "name": "東方紅魔鄉：新典 ～ the Embodiment of Scarlet Devil.",
+  "desc": "躲避彈幕擊敗敵人，挑戰紅霧異變！歷經成長的開發者（自稱）重新製作的《東方紅魔鄉》。這是一款操控巫女靈夢和魔法使魔理沙，一邊躲避滿屏彈幕一邊挑戰異變的射擊遊戲。所有音樂均由 ZUN 全新編曲。",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257420892/a63cac8d8e83a6847ac8d0d8db54862e68c1a7d9/movie_600x337.jpg",
+  "year": 2026
+ }
+}

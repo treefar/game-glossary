@@ -1,0 +1,4983 @@
+[
+  {
+    "id": "carry",
+    "zh": "Carry（帶飛）",
+    "en": "Carry",
+    "aliases": [
+      "帶飛",
+      "Hard Carry",
+      "帶隊"
+    ],
+    "cat": "slang",
+    "sub": "MOBA 戰場",
+    "short": "靠一人實力扛起整隊贏下比賽。",
+    "def": "指隊伍中某一位玩家強到能憑己力扭轉戰局、帶領實力較弱的隊友獲勝。源自 MOBA 與 MMORPG 的團隊競技語境，後來泛化成日常生活用語，例如「這次報告靠他 Carry」。Hard Carry 則強調「強到誇張」的程度。與 Carry 相對的是拖累隊伍的「雷包」或「板凳」角色。",
+    "features": [
+      "個人實力主導勝負",
+      "可指人也可指行為",
+      "已泛化為生活用語",
+      "常與「帶大腿」連用"
+    ],
+    "examples": [
+      {
+        "title": "Dota 2",
+        "en": "Dota 2",
+        "appid": 570,
+        "year": 2013,
+        "why": "Carry 位是官方正式的角色定位名稱之一"
+      },
+      {
+        "title": "英雄聯盟",
+        "en": "League of Legends",
+        "appid": null,
+        "year": 2009,
+        "why": "電競轉播中最常聽到「Carry」的來源"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 1718,
+        "en": "MOBA"
+      }
+    ],
+    "compare": [
+      {
+        "with": "thicc-leg",
+        "diff": "Carry 指強者本人與其扛隊行為；「抱大腿」是弱者依附強者的視角。"
+      }
+    ],
+    "related": [
+      "thicc-leg",
+      "dps-role",
+      "snowball"
+    ],
+    "design": "稱讚意味濃厚，用於形容隊友是正面用語；若用在自己身上略帶自誇，需注意場合。",
+    "tw": "台灣泛用「Carry」原音直接當動詞用（「他很會Carry」）；中國圈更常寫「大腿」「帶飛」，用法相通。",
+    "sources": [
+      {
+        "title": "Glossary of video game terms – Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Glossary_of_video_game_terms",
+        "accessed": "2026-09-17",
+        "note": "收錄 Carry 的定義：disproportionately contributes to the success of their team"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "thicc-leg",
+    "zh": "抱大腿（大腿）",
+    "en": "Thicc Leg / Carry's Leg",
+    "aliases": [
+      "大腿",
+      "抱大腿"
+    ],
+    "cat": "slang",
+    "sub": "MOBA 戰場",
+    "short": "跟著隊上最強的人混，靠他贏。",
+    "def": "指隊伍中最強、最能左右戰局的那位玩家本身被戲稱為「大腿」，其他人「抱大腿」則是指依附、跟隨強者打法求勝的行為。這個說法把 Carry 的角色具象化成一條可以抱住的大腿，帶有輕鬆詼諧的語氣，常用於團隊遊戲的賽後閒聊或社群哏圖。",
+    "features": [
+      "Carry 角色的具象化說法",
+      "帶有詼諧語氣",
+      "常搭配「抱」「跟」等動詞",
+      "台灣、中國通用"
+    ],
+    "examples": [
+      {
+        "title": "Dota 2",
+        "en": "Dota 2",
+        "appid": 570,
+        "year": 2013,
+        "why": "MOBA 團隊語境是這個說法的原生場景"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 1718,
+        "en": "MOBA"
+      }
+    ],
+    "compare": [
+      {
+        "with": "carry",
+        "diff": "大腿是被依附的對象本身；Carry 泛指扛隊這個行為或能力。"
+      }
+    ],
+    "related": [
+      "carry"
+    ],
+    "design": "自嘲或戲稱隊友皆可，語氣輕鬆不算冒犯；正式報告或評分場合不適合使用。",
+    "tw": "台灣、中國用法一致，是華語圈自創說法，沒有直接對應的英文慣用語（英文較常直接說 carry 或 hard-carried by）。",
+    "sources": [
+      {
+        "title": "PTT 英雄聯盟板（LoL 板）",
+        "url": "https://www.ptt.cc/bbs/LoL/index.html",
+        "accessed": "2026-09-17",
+        "note": "查無獨立英文權威來源，為華語圈衍生用法，未能於本次搜尋中找到第三方可查證連結"
+      }
+    ],
+    "status": "unverified"
+  },
+  {
+    "id": "gank",
+    "zh": "Gank（圍殺／偷襲）",
+    "en": "Gank",
+    "aliases": [
+      "反Gank",
+      "Counter-gank",
+      "偷襲"
+    ],
+    "cat": "slang",
+    "sub": "MOBA 戰場",
+    "short": "多打少偷襲落單的敵人。",
+    "def": "源自「Gang Kill」的縮寫，指多名玩家聯手偷襲、圍毆落單或劣勢中的敵人，是 MOBA 遊戲節奏的核心手段之一。最早在《魔獸世界》等 MMORPG 的野外 PVP 中流行，後成為 MOBA 語境的標準戰術用語。反過來識破並回擊敵方 Gank 稱為「反Gank」（Counter-gank）。生活中也會戲稱被主管或對手突襲式攻擊為「被 Gank 了」。",
+    "features": [
+      "多打少的偷襲戰術",
+      "源自 MMORPG 野外 PVP",
+      "MOBA 節奏核心手段",
+      "可衍生「反Gank」"
+    ],
+    "examples": [
+      {
+        "title": "Dota 2",
+        "en": "Dota 2",
+        "appid": 570,
+        "year": 2013,
+        "why": "打野角色的主要任務就是到各路 Gank"
+      },
+      {
+        "title": "英雄聯盟",
+        "en": "League of Legends",
+        "appid": null,
+        "year": 2009,
+        "why": "電競轉播常見戰術用語"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 1718,
+        "en": "MOBA"
+      }
+    ],
+    "compare": [
+      {
+        "with": "dive",
+        "diff": "Gank 是在野外或非塔區的偷襲；Dive 特指衝進敵方塔下強行擊殺。"
+      }
+    ],
+    "related": [
+      "jungler",
+      "snowball",
+      "backdoor"
+    ],
+    "design": "中性戰術用語，教學或企劃文件可直接使用；玩家間吐槽「被Gank」帶點無奈幽默。",
+    "tw": "台灣、中國用法一致；日文圈多用片假名「ガンク」直接音譯。",
+    "sources": [
+      {
+        "title": "Urban Dictionary: Gank",
+        "url": "https://www.urbandictionary.com/define.php?term=gank",
+        "accessed": "2026-09-17",
+        "note": "When a group of people kill a single opponent...Gang Kill"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "farm",
+    "zh": "Farm（種田／補兵，含 CS）",
+    "en": "Farming / CS (Creep Score)",
+    "aliases": [
+      "種田",
+      "農兵",
+      "補兵",
+      "CS",
+      "Creep Score"
+    ],
+    "cat": "slang",
+    "sub": "MOBA 戰場",
+    "short": "靠打小兵野怪賺錢升級。",
+    "def": "指玩家在對線期或遊戲初期透過擊殺小兵、野怪來累積金錢與經驗值、逐步強化角色的過程，是 MOBA 遊戲的基本功。CS（Creep Score，補兵數）則是量化 Farm 表現的具體指標，殺一隻小兵得一分，職業選手的 CS 曲線常被拿來評估對線期表現優劣。Farm 效率的高低直接決定角色中後期的強弱。",
+    "features": [
+      "賺取金錢與經驗",
+      "CS 是量化指標",
+      "決定中後期強弱",
+      "對線期基本功"
+    ],
+    "examples": [
+      {
+        "title": "Dota 2",
+        "en": "Dota 2",
+        "appid": 570,
+        "year": 2013,
+        "why": "補刀與丟計算是 Dota 2 對線期的核心技巧"
+      },
+      {
+        "title": "英雄聯盟",
+        "en": "League of Legends",
+        "appid": null,
+        "year": 2009,
+        "why": "CS 分數是官方戰績頁面直接顯示的數據"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 1718,
+        "en": "MOBA"
+      }
+    ],
+    "compare": [
+      {
+        "with": "ks",
+        "diff": "Farm／CS 是自己補刀賺取的分數；KS 是搶走隊友本該拿到的擊殺。"
+      }
+    ],
+    "related": [
+      "grind",
+      "snowball"
+    ],
+    "design": "中性技術用語，可直接用於教學；「農兵」語氣較口語化，正式簡報建議寫「補刀」或英文 CS。",
+    "tw": "台灣多混用「補兵」「Farm」；中國圈常說「補刀」「發育」，「發育」帶有更強的「養成」意味。",
+    "sources": [
+      {
+        "title": "Urban Dictionary: farming",
+        "url": "https://www.urbandictionary.com/define.php?term=farming",
+        "accessed": "2026-09-17",
+        "note": "collecting a certain item...to power one's character up"
+      },
+      {
+        "title": "Urban Dictionary: creep score",
+        "url": "https://www.urbandictionary.com/define.php?term=creep+score",
+        "accessed": "2026-09-17",
+        "note": "how many minion kills you have in games such as League Of Legends and Dota 2"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "ks",
+    "zh": "搶人頭（KS）",
+    "en": "Kill Steal (KS)",
+    "aliases": [
+      "Kill Steal",
+      "搶頭"
+    ],
+    "cat": "slang",
+    "sub": "MOBA 戰場",
+    "short": "隊友削完血你補刀拿人頭。",
+    "def": "指隊友已經把敵人血量打到殘血、卻由你補上最後一刀取走擊殺獎勵的行為。由於 MOBA 遊戲的擊殺獎勵（金錢、經驗）通常只給最後一擊的人，長期 KS 隊友會嚴重破壞團隊信任與資源分配，被視為競技禮儀上的大忌，玩家戲稱是「電子競技界的戰爭罪」。",
+    "features": [
+      "搶走隊友的擊殺獎勵",
+      "破壞團隊資源分配",
+      "被視為競技禮儀大忌",
+      "常引發隊友不滿"
+    ],
+    "examples": [
+      {
+        "title": "Dota 2",
+        "en": "Dota 2",
+        "appid": 570,
+        "year": 2013,
+        "why": "擊殺獎勵機制使 KS 成為常見的隊內糾紛"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 1718,
+        "en": "MOBA"
+      }
+    ],
+    "compare": [
+      {
+        "with": "farm",
+        "diff": "KS 是搶走他人應得的擊殺；Farm 是自己補刀累積的正當分數。"
+      }
+    ],
+    "related": [
+      "feed"
+    ],
+    "design": "帶有指責意味，用於吐槽隊友時語氣偏負面，教學情境建議用中性說法「搶頭」解釋機制即可。",
+    "tw": "台灣、中國用法一致，都直接使用英文縮寫 KS。",
+    "sources": [
+      {
+        "title": "Urban Dictionary: kill steal",
+        "url": "https://www.urbandictionary.com/define.php?term=kill+steal",
+        "accessed": "2026-09-17",
+        "note": "When somebody else kills the enemy you are fighting...considered a gamer's equivalent of a war crime"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "feed",
+    "zh": "送頭（Feed）",
+    "en": "Feeding",
+    "aliases": [
+      "Feeder",
+      "送頭",
+      "故意送",
+      "Int",
+      "Intentional Feeding"
+    ],
+    "cat": "slang",
+    "sub": "MOBA 戰場",
+    "short": "一直被殺，白白把資源送給敵人。",
+    "def": "指玩家頻繁死亡，讓敵人白白獲得擊殺獎勵（金錢、經驗）的現象，送很多頭的人被稱為 Feeder。若是心態崩潰、擺爛而刻意送死，則稱為「Int」（Intentional Feeding，故意送），在大多數競技遊戲中屬於違規行為。持續 Feed 會讓敵方 Carry 越打越強、加速滾雪球，「不要再Feed了」是隊友最常見的怒吼之一。",
+    "features": [
+      "白白送出擊殺獎勵給敵人",
+      "分無意與故意（Int）兩種",
+      "加速敵方滾雪球",
+      "隊內糾紛常見起因"
+    ],
+    "examples": [
+      {
+        "title": "Dota 2",
+        "en": "Dota 2",
+        "appid": 570,
+        "year": 2013,
+        "why": "Feed 是團隊對戰失衡最常見的直接原因"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 1718,
+        "en": "MOBA"
+      }
+    ],
+    "compare": [
+      {
+        "with": "snowball",
+        "diff": "Feed 是導致優勢累積的其中一個原因；Snowball 是優勢持續擴大的結果現象。"
+      }
+    ],
+    "related": [
+      "ks",
+      "snowball",
+      "tilt"
+    ],
+    "design": "帶負面指責意味；Int 屬於違規行為的正式描述，教學時要區分「技術失誤」與「故意擺爛」兩種情境。",
+    "tw": "台灣、中國通用「送頭」；中國圈另有「演」（表演式擺爛）的說法，語氣更帶諷刺。",
+    "sources": [
+      {
+        "title": "Urban Dictionary: feeding",
+        "url": "https://www.urbandictionary.com/define.php?term=feeding",
+        "accessed": "2026-09-17",
+        "note": "players who stray from team objectives, allowing enemies to gain advantages...through damage dealt to the feeder"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "snowball",
+    "zh": "滾雪球（Snowball）",
+    "en": "Snowballing",
+    "aliases": [
+      "滾雪球效應"
+    ],
+    "cat": "slang",
+    "sub": "MOBA 戰場",
+    "short": "優勢越滾越大，越打越難翻盤。",
+    "def": "指取得初期優勢的一方，該優勢會隨著時間持續擴大、越滾越大的現象，就像雪球從山坡滾下去越滾越大顆。在 MOBA 中，初期被 Feed 的角色會因為裝備、等級領先而更好 Farm，接著越打越強，逐漸拉開差距到難以翻盤的地步。這個概念也常被用來形容其他領域中「一步領先、步步領先」的複利效應。",
+    "features": [
+      "初期優勢隨時間擴大",
+      "裝備與等級形成複利",
+      "與 Feed 互為因果",
+      "可泛化形容任何領域的複利效應"
+    ],
+    "examples": [
+      {
+        "title": "英雄聯盟",
+        "en": "League of Legends",
+        "appid": null,
+        "year": 2009,
+        "why": "職業賽事解說最常用來形容一方優勢擴大的現象"
+      },
+      {
+        "title": "Dota 2",
+        "en": "Dota 2",
+        "appid": 570,
+        "year": 2013,
+        "why": "核心（Carry）位的滾雪球速度決定比賽走向"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 1718,
+        "en": "MOBA"
+      }
+    ],
+    "compare": [
+      {
+        "with": "feed",
+        "diff": "Feed 是造成優勢一方獲利的行為；Snowball 是該優勢持續擴大的結果與過程。"
+      }
+    ],
+    "related": [
+      "feed",
+      "meta-progression"
+    ],
+    "design": "中性技術用語，適合直接寫入企劃或教學文件，用來解釋遊戲節奏設計的核心風險。",
+    "tw": "台灣、中國、日本（スノーボール效果）用法一致，是全球通用的遊戲設計詞彙。",
+    "sources": [
+      {
+        "title": "Urban Dictionary: snowballing",
+        "url": "https://www.urbandictionary.com/define.php?term=snowballing",
+        "accessed": "2026-09-17",
+        "note": "When an advantage causes that advantage to grow increasingly larger, typically with no hope of stopping it"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "backdoor",
+    "zh": "偷家／偷塔（BD）",
+    "en": "Backdoor (BD)",
+    "aliases": [
+      "BD",
+      "偷塔"
+    ],
+    "cat": "slang",
+    "sub": "MOBA 戰場",
+    "short": "趁對方主力不在，偷溜進去拆家。",
+    "def": "指趁對方主力團隊在地圖他處交戰或推進時，己方獨自繞路潛入敵方基地拆除防禦建築甚至直接獲勝的戰術。由於風險極高（一旦被發現往往寡不敵眾），成功偷家常被視為奇蹟等級的逆轉戲碼，也是觀眾最容易叫好的操作之一。多數 MOBA 會設計「防禦法陣」等機制限制過度誇張的偷家速度。",
+    "features": [
+      "趁敵方主力不在時進攻",
+      "風險極高、回報也極高",
+      "常是逆轉戰局的關鍵",
+      "多數遊戲有防禦機制限制"
+    ],
+    "examples": [
+      {
+        "title": "Dota 2",
+        "en": "Dota 2",
+        "appid": 570,
+        "year": 2013,
+        "why": "早期 Dota 系列以偷家戰術聞名，是社群公認的高難度操作"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 1718,
+        "en": "MOBA"
+      }
+    ],
+    "compare": [
+      {
+        "with": "dive",
+        "diff": "偷家是趁敵方主力離開時攻擊空城；Dive 是主動衝進敵方塔下強殺有防守的敵人。"
+      }
+    ],
+    "related": [
+      "dive",
+      "push"
+    ],
+    "design": "描述戰術本身為中性用語；玩家間常帶「機智」「陰險」的讚嘆語氣，非冒犯用詞。",
+    "tw": "台灣、中國通用「偷家」「偷塔」，英文圈慣用 Backdoor 或縮寫 BD。",
+    "sources": [
+      {
+        "title": "Urban Dictionary: backdooring",
+        "url": "https://www.urbandictionary.com/define.php?term=backdooring",
+        "accessed": "2026-09-17",
+        "note": "Attacking the enemies bases, structures, etc. when the enemy creep-line is SIGNIFICANTLY further away"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "dive",
+    "zh": "越塔（Dive）",
+    "en": "Tower Dive",
+    "aliases": [
+      "Tower Dive",
+      "衝塔"
+    ],
+    "cat": "slang",
+    "sub": "MOBA 戰場",
+    "short": "明知會被塔打還是衝進去強殺。",
+    "def": "指在明知會被敵方防禦塔攻擊的情況下，仍衝進塔的攻擊範圍內強行擊殺敵方英雄的高風險戰術。通常用於敵人殘血、擊殺報酬遠大於承受塔傷害的情況，需要精準計算塔傷害與己方血量，一旦誤判很容易反被擊殺，是考驗玩家判斷力與手感的經典操作。",
+    "features": [
+      "主動承受防禦塔傷害",
+      "需精算塔傷與血量",
+      "高風險高報酬",
+      "考驗操作與判斷力"
+    ],
+    "examples": [
+      {
+        "title": "英雄聯盟",
+        "en": "League of Legends",
+        "appid": null,
+        "year": 2009,
+        "why": "職業比賽中越塔強殺是常見的高光操作"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 1718,
+        "en": "MOBA"
+      }
+    ],
+    "compare": [
+      {
+        "with": "backdoor",
+        "diff": "Dive 是正面衝進有防守的塔下強殺；偷家是避開戰鬥、繞路攻擊空城。"
+      }
+    ],
+    "related": [
+      "backdoor",
+      "gank"
+    ],
+    "design": "中性戰術描述；失敗時常被隊友調侃「白給」，屬輕度戲謔而非冒犯。",
+    "tw": "台灣常說「越塔」「衝塔」，中國圈也用「越塔強殺」，用法一致。",
+    "sources": [
+      {
+        "title": "PTT 英雄聯盟板（LoL 板）",
+        "url": "https://www.ptt.cc/bbs/LoL/index.html",
+        "accessed": "2026-09-17",
+        "note": "英文權威來源多將 Dive 併入 backdoor／aggressive play 相關條目說明，未找到獨立可引用連結"
+      }
+    ],
+    "status": "unverified"
+  },
+  {
+    "id": "poke",
+    "zh": "騷擾（Poke）",
+    "en": "Poke",
+    "aliases": [
+      "戳",
+      "遠程消耗"
+    ],
+    "cat": "slang",
+    "sub": "MOBA 戰場",
+    "short": "用遠程技能反覆消耗對手血量。",
+    "def": "指用遠程技能反覆對敵人造成小額傷害、不求直接擊殺但求持續壓制對手血量與心理的戰術，常見於擁有遠程消耗技能的英雄。Poke 打法的目標是逐步累積血量優勢，等對方血量降到危險線後再發動團戰，是一種「以量取勝」而非「一擊必殺」的節奏控制手段。",
+    "features": [
+      "遠程技能反覆消耗",
+      "不求擊殺求壓制",
+      "累積血量優勢",
+      "考驗技能命中率"
+    ],
+    "examples": [
+      {
+        "title": "英雄聯盟",
+        "en": "League of Legends",
+        "appid": null,
+        "year": 2009,
+        "why": "遠程法師陣容常見的核心打法"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 1718,
+        "en": "MOBA"
+      }
+    ],
+    "compare": [
+      {
+        "with": "go-head-on",
+        "diff": "Poke 靠遠程消耗慢慢磨；剛正面則是直接正面衝突硬拚。"
+      }
+    ],
+    "related": [
+      "push"
+    ],
+    "design": "中性戰術用語，教學情境可直接使用；口語上偶爾戲稱「一直戳一直戳很煩」。",
+    "tw": "台灣、中國通用「消耗」「Poke」，日文圈用片假名「ポーク」音譯。",
+    "sources": [
+      {
+        "title": "PTT 英雄聯盟板（LoL 板）",
+        "url": "https://www.ptt.cc/bbs/LoL/index.html",
+        "accessed": "2026-09-17",
+        "note": "常見英文詞典未收錄 MOBA 語境的 Poke 定義，未能於本次搜尋中確認獨立可查證連結"
+      }
+    ],
+    "status": "unverified"
+  },
+  {
+    "id": "push",
+    "zh": "推線（Push）",
+    "en": "Push",
+    "aliases": [
+      "推塔"
+    ],
+    "cat": "slang",
+    "sub": "MOBA 戰場",
+    "short": "把小兵一路推到敵方塔下施壓。",
+    "def": "指把己方小兵兵線一路往敵方塔下推進的戰術，目的是持續對敵方施加壓力、迫使對手分兵防守或放棄資源。推線的好處是能快速消耗敵方防禦塔並限制對手活動空間，但風險是推線者本身孤軍深入敵方領地，容易被 Gank 反打，是攻守一體、需要衡量風險的節奏博弈。",
+    "features": [
+      "兵線持續往前推進",
+      "對敵方施加地圖壓力",
+      "風險是孤軍深入",
+      "常與 Gank 互為因果"
+    ],
+    "examples": [
+      {
+        "title": "Dota 2",
+        "en": "Dota 2",
+        "appid": 570,
+        "year": 2013,
+        "why": "推線節奏是決定比賽地圖控制權的關鍵一環"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 1718,
+        "en": "MOBA"
+      }
+    ],
+    "compare": [
+      {
+        "with": "poke",
+        "diff": "推線是操作小兵兵線施壓；Poke 是用英雄技能直接消耗敵方血量。"
+      }
+    ],
+    "related": [
+      "poke",
+      "gank"
+    ],
+    "design": "中性戰術用語；過度推線被 Gank 時常被隊友吐槽「貪」，屬正常戰術檢討語氣。",
+    "tw": "台灣、中國通用「推線」「推塔」，用法一致。",
+    "sources": [
+      {
+        "title": "PTT 英雄聯盟板（LoL 板）",
+        "url": "https://www.ptt.cc/bbs/LoL/index.html",
+        "accessed": "2026-09-17",
+        "note": "常見英文詞典未收錄 MOBA 語境的 Push 定義，未能於本次搜尋中確認獨立可查證連結"
+      }
+    ],
+    "status": "unverified"
+  },
+  {
+    "id": "gg",
+    "zh": "GG（Good Game）",
+    "en": "GG",
+    "aliases": [
+      "GGWP",
+      "Good Game Well Played"
+    ],
+    "cat": "slang",
+    "sub": "通用聊天",
+    "short": "「這局結束了」的萬用嘆詞。",
+    "def": "原為 Good Game 的縮寫，是比賽結束時（傳統上由輸的一方先說）表達風度的禮貌用語。現已泛化成「結束了」「完蛋了」的萬用嘆詞，不限輸贏都能講，甚至跳脫遊戲用於形容任何事情告一段落，例如「這季業績GG了」。依語氣不同，GG 也可能帶有嘲諷意味，用來羞辱對手打得很輕鬆。",
+    "features": [
+      "原為賽後禮貌用語",
+      "已泛化為萬用嘆詞",
+      "可中性也可嘲諷",
+      "跨遊戲、跨語境通用"
+    ],
+    "examples": [
+      {
+        "title": "Dota 2",
+        "en": "Dota 2",
+        "appid": 570,
+        "year": 2013,
+        "why": "比賽結束後玩家在公頻打 GG 是慣例"
+      },
+      {
+        "title": "英雄聯盟",
+        "en": "League of Legends",
+        "appid": null,
+        "year": 2009,
+        "why": "投降或戰敗時常見的聊天室用語"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 3878,
+        "en": "Competitive"
+      }
+    ],
+    "compare": [
+      {
+        "with": "ez",
+        "diff": "GG 語氣中性偏禮貌，可用於任何結果；Ez（太簡單了）帶明顯挑釁意味，容易激怒對手。"
+      }
+    ],
+    "related": [
+      "ez",
+      "toxic"
+    ],
+    "design": "一般情境屬中性禮貌用語；若在對方明顯戰敗時刻意連續刷 GG，容易被視為挑釁，需注意場合。",
+    "tw": "台灣、中國、歐美用法一致；台灣玩家有時會諧音打「雞雞」增添玩笑意味。",
+    "sources": [
+      {
+        "title": "Urban Dictionary: GG",
+        "url": "https://www.urbandictionary.com/define.php?term=GG",
+        "accessed": "2026-09-17",
+        "note": "Good Game，可為真誠風度用語，也可帶嘲諷、表達認輸或不滿"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "ez",
+    "zh": "EZ（太簡單了）",
+    "en": "EZ / GGEZ",
+    "aliases": [
+      "GGEZ",
+      "Easy"
+    ],
+    "cat": "slang",
+    "sub": "通用聊天",
+    "short": "「贏得很輕鬆」的挑釁用語。",
+    "def": "Easy 的縮寫，常與 GG 合併打成「GGEZ」，是比賽獲勝方用來嘲諷對手「贏得很輕鬆」的挑釁用語，屬於典型的惡意言論（Toxicity）之一。由於容易引發爭吵與檢舉，多款遊戲（如《鬥陣特攻》）已將 GGEZ 或類似字串自動替換成搞笑的無意義文字，藉此降低其挑釁效果。",
+    "features": [
+      "Easy 的縮寫",
+      "常與 GG 合併使用",
+      "明確帶挑釁意味",
+      "部分遊戲會自動替換字串"
+    ],
+    "examples": [
+      {
+        "title": "鬥陣特攻",
+        "en": "Overwatch",
+        "appid": 2357570,
+        "year": 2016,
+        "why": "官方曾將 GGEZ 等挑釁字串自動替換為無意義文字以降低毒性"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 3878,
+        "en": "Competitive"
+      }
+    ],
+    "compare": [
+      {
+        "with": "gg",
+        "diff": "GG 中性偏禮貌；EZ／GGEZ 帶明確挑釁、貶低對手的意味。"
+      }
+    ],
+    "related": [
+      "gg",
+      "toxic"
+    ],
+    "design": "明確帶冒犯意味，屬於容易激怒對手、可能違反遊戲行為守則的用語，教學或企劃文件宜標明其毒性。",
+    "tw": "台灣、中國、歐美用法一致，是公認的挑釁詞，多數電競賽事與遊戲聊天系統會列入不當發言審查範圍。",
+    "sources": [
+      {
+        "title": "PTT 八卦板（綜合網路用語流通處）",
+        "url": "https://www.ptt.cc/bbs/Gossiping/index.html",
+        "accessed": "2026-09-17",
+        "note": "Blizzard 自動替換 GGEZ 字串的做法散見多篇媒體報導與玩家討論串，未能於本次搜尋中鎖定單一可引用連結"
+      }
+    ],
+    "status": "unverified"
+  },
+  {
+    "id": "afk",
+    "zh": "AFK（人不在鍵盤前）",
+    "en": "AFK (Away From Keyboard)",
+    "aliases": [
+      "掛機（消極意）"
+    ],
+    "cat": "slang",
+    "sub": "通用聊天",
+    "short": "人離開、角色沒人操作。",
+    "def": "Away From Keyboard 的縮寫，指玩家暫時離開座位、角色沒有實際操作的狀態。多人遊戲中隊友 AFK 會直接拖累團隊表現，因此「別AFK」是常見的怒罵用語。部分遊戲會偵測長時間無操作自動判定 AFK 並施以懲罰（例如降低配對優先權），與「掛機」不同的是，AFK 通常指「人真的不在」，掛機則可能是開著自動打怪的腳本或機制。",
+    "features": [
+      "人離開鍵盤前的狀態",
+      "多人遊戲會拖累隊友",
+      "常見自動偵測懲罰機制",
+      "與掛機略有區別"
+    ],
+    "examples": [
+      {
+        "title": "Dota 2",
+        "en": "Dota 2",
+        "appid": 570,
+        "year": 2013,
+        "why": "長時間 AFK 會觸發棄權舉報機制"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 3859,
+        "en": "Multiplayer"
+      }
+    ],
+    "compare": [
+      {
+        "with": "afk-farming",
+        "diff": "AFK 是人真的不在、沒有操作；掛機（AFK-farming）常指開著自動機制持續獲利，人可能在也可能不在。"
+      }
+    ],
+    "related": [
+      "afk-farming"
+    ],
+    "design": "中性描述用語；隊友頻繁 AFK 會引發指責語氣，正式規則文件宜用「未操作」等中性措辭。",
+    "tw": "台灣、中國、歐美通用，是網路聊天室與線上遊戲最早期就流通的縮寫之一。",
+    "sources": [
+      {
+        "title": "Glossary of video game terms – Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Glossary_of_video_game_terms",
+        "accessed": "2026-09-17",
+        "note": "AFK：away from keyboard，temporarily unavailable"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "noob",
+    "zh": "菜鳥（Noob）",
+    "en": "Noob",
+    "aliases": [
+      "Newbie",
+      "Newb",
+      "嫩B"
+    ],
+    "cat": "slang",
+    "sub": "通用聊天",
+    "short": "技術差又不肯學的新手。",
+    "def": "指技術不佳的新手玩家，但與中性的 Newbie（新手）不同：Newbie 是剛入門、願意學習改進的中性詞，Noob 則帶有貶意，特指技術差卻死不認錯、不願學習進步的形象，常伴隨過度自信與甩鍋他人的行為特徵。台語諧音玩家有時會寫成「嫩B」增添戲謔感。",
+    "features": [
+      "技術差且不願改進",
+      "與 Newbie 意涵不同",
+      "常見過度自信、甩鍋行為",
+      "帶明顯貶意"
+    ],
+    "examples": [
+      {
+        "title": "Dota 2",
+        "en": "Dota 2",
+        "appid": 570,
+        "year": 2013,
+        "why": "新手常見的入門羞辱用語，社群討論頻繁"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "casual-vs-hardcore",
+        "diff": "Noob 是貶意形容技術差又拒絕進步；Casual 只是形容遊玩頻率低、投入時間少，沒有技術好壞的貶意。"
+      },
+      {
+        "with": "newbie-cute",
+        "diff": "Noob 帶貶意；「萌新」則是對新手的可愛稱呼，語氣友善不帶攻擊性。"
+      }
+    ],
+    "related": [
+      "casual-vs-hardcore",
+      "newbie-cute",
+      "toxic"
+    ],
+    "design": "帶明顯貶意與攻擊性，正式教學或企劃文件不宜使用，玩家間使用時容易升級成言語衝突。",
+    "tw": "台灣、中國通用「菜鳥」「新手」，中國圈另有「萌新」（友善）與「小白」（略帶貶意但比 Noob 輕）等更細緻的分級用語。",
+    "sources": [
+      {
+        "title": "Urban Dictionary: noob",
+        "url": "https://www.urbandictionary.com/define.php?term=noob",
+        "accessed": "2026-09-17",
+        "note": "區分 Newbie（願意學習）與 Noob（不願學習、甩鍋他人）的定義"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "smurf",
+    "zh": "小號（Smurf）",
+    "en": "Smurf",
+    "aliases": [
+      "馬甲",
+      "分身帳號"
+    ],
+    "cat": "slang",
+    "sub": "通用聊天",
+    "short": "高手開小帳號虐低段位玩家。",
+    "def": "指高段位玩家刻意使用低等級或新建的帳號進入低段位對戰，藉此偽裝成新手來羞辱、輾壓實力遠不如自己的對手。這種行為會嚴重破壞配對系統的公平性，在所有排名制競技遊戲中都被視為社群公敵，多數遊戲已建立偵測機制與懲罰規則來打擊 Smurf 帳號。",
+    "features": [
+      "高手偽裝成新手帳號",
+      "破壞配對系統公平性",
+      "多數排名遊戲視為違規",
+      "常見偵測與懲罰機制"
+    ],
+    "examples": [
+      {
+        "title": "英雄聯盟",
+        "en": "League of Legends",
+        "appid": null,
+        "year": 2009,
+        "why": "官方多次公開打擊 Smurf 帳號的偵測與懲罰措施"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 5055,
+        "en": "eSports"
+      }
+    ],
+    "compare": [
+      {
+        "with": "elo-mmr",
+        "diff": "Smurf 是刻意規避段位機制的作弊行為；Elo／MMR 是排名系統本身的計算方式。"
+      }
+    ],
+    "related": [
+      "elo-mmr",
+      "smurf-boosting"
+    ],
+    "design": "帶明確負面意味，屬於社群公認的不良行為，企劃文件討論配對機制時可正面引用作為反例。",
+    "tw": "台灣、中國通用「小號」；中國圈另有「馬甲」的說法，原指偽裝身分，後借用形容分身帳號。",
+    "sources": [
+      {
+        "title": "Urban Dictionary: smurf",
+        "url": "https://www.urbandictionary.com/define.php?term=smurf",
+        "accessed": "2026-09-17",
+        "note": "an experienced player who uses a new account to deceive other players into thinking he's a noob"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "lag",
+    "zh": "頓／卡（Lag）",
+    "en": "Lag",
+    "aliases": [
+      "延遲",
+      "卡頓"
+    ],
+    "cat": "slang",
+    "sub": "通用聊天",
+    "short": "網路延遲造成畫面頓挫。",
+    "def": "指玩家操作與伺服器回應之間出現明顯延遲，導致畫面頓挫、角色移動不流暢的現象，成因通常是網路延遲（Ping 值過高）或裝置效能不足。「我剛剛 Lag 了」也常被玩家拿來當作戰敗時半開玩笑的藉口，真假往往需要搭配實際網路數據才能判斷。",
+    "features": [
+      "畫面與操作出現頓挫",
+      "多由網路延遲造成",
+      "常被當作戰敗藉口",
+      "與 Ping 值密切相關"
+    ],
+    "examples": [
+      {
+        "title": "Counter-Strike 2",
+        "en": "Counter-Strike 2",
+        "appid": 730,
+        "year": 2023,
+        "why": "FPS 競技對戰對延遲極度敏感，Lag 是最常見的玩家抱怨之一"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 3878,
+        "en": "Competitive"
+      }
+    ],
+    "compare": [
+      {
+        "with": "gaming-performance-slang",
+        "diff": "Lag 特指延遲造成的頓挫感受；Ping／幀數則是更廣泛的效能與網路口語抱怨用語，兩者常一起出現。"
+      }
+    ],
+    "related": [
+      "gaming-performance-slang"
+    ],
+    "design": "中性技術用語，玩家間常帶自嘲或半信半疑的語氣使用，不算冒犯。",
+    "tw": "台灣慣用「頓」「卡」「Lag」混用；中國圈更常說「卡頓」「延遲高」。",
+    "sources": [
+      {
+        "title": "PTT 八卦板（綜合網路用語流通處）",
+        "url": "https://www.ptt.cc/bbs/Gossiping/index.html",
+        "accessed": "2026-09-17",
+        "note": "Lag 為通用電腦網路詞彙，遊戲語境未找到獨立可引用的權威定義連結"
+      }
+    ],
+    "status": "unverified"
+  },
+  {
+    "id": "number-slang",
+    "zh": "666／777（讚嘆用語）",
+    "en": "666 / 777",
+    "aliases": [
+      "666",
+      "777"
+    ],
+    "cat": "slang",
+    "sub": "通用聊天",
+    "short": "用數字諧音讚嘆操作很溜。",
+    "def": "666 源自中國網路用語，取「溜」的諧音，用來讚嘆對方操作很厲害、很牛。777 則是台灣遊戲圈受實況主帶動而流行的「台灣版讚嘆詞」，用意是與 666 做出區隔、強調在地文化認同。兩者功能相同，都是彈幕與語音聊天室裡常見的快速讚嘆用語。",
+    "features": [
+      "數字諧音的讚嘆用語",
+      "666 源自中國網路文化",
+      "777 是台灣在地化版本",
+      "常見於彈幕與語音聊天"
+    ],
+    "examples": [
+      {
+        "title": "英雄聯盟",
+        "en": "League of Legends",
+        "appid": null,
+        "year": 2009,
+        "why": "電競直播彈幕中常見的讚嘆刷屏用語"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "gg",
+        "diff": "666／777 是即時讚嘆神操作的用語；GG 則是賽後對整場比賽結果的評論。"
+      }
+    ],
+    "related": [],
+    "design": "正面讚美用語，使用上沒有冒犯疑慮，但 666 帶有中國網路文化色彩，台灣教學場合宜說明其來源。",
+    "tw": "台灣受實況主帶動流行以 777 取代 666，作為強調在地認同的版本；中國圈仍以 666 為主流。",
+    "sources": [
+      {
+        "title": "PTT 八卦板（綜合網路用語流通處）",
+        "url": "https://www.ptt.cc/bbs/Gossiping/index.html",
+        "accessed": "2026-09-17",
+        "note": "台灣 777 用語源自特定實況主帶動的網路文化現象，未能於本次搜尋中找到第三方可查證連結"
+      }
+    ],
+    "status": "unverified"
+  },
+  {
+    "id": "chat-abbrev-misc",
+    "zh": "聊天室常用縮寫（GLHF／BRB／WTF）",
+    "en": "GLHF / BRB / WTF",
+    "aliases": [
+      "GLHF",
+      "Good Luck Have Fun",
+      "BRB",
+      "Be Right Back",
+      "WTF",
+      "WTH",
+      "What the Hell"
+    ],
+    "cat": "slang",
+    "sub": "通用聊天",
+    "short": "賽前問候、暫離、驚訝的常用縮寫。",
+    "def": "GLHF（Good Luck, Have Fun）是賽前互相問候「祝好運、玩得開心」的禮貌用語，職業賽事選手握手時常說；BRB（Be Right Back）是暫時離開、馬上回來的意思，常用於上廁所或臨時有事時；WTF／WTH（What the F／What the Hell）則是驚訝或不滿時脫口而出的感嘆詞。三者都是遊戲聊天室裡歷史悠久、跨遊戲通用的基礎縮寫。",
+    "features": [
+      "賽前問候（GLHF）",
+      "暫時離開（BRB）",
+      "驚訝不滿感嘆（WTF）",
+      "跨遊戲通用的基礎縮寫"
+    ],
+    "examples": [
+      {
+        "title": "Dota 2",
+        "en": "Dota 2",
+        "appid": 570,
+        "year": 2013,
+        "why": "比賽開始前雙方於公頻互道 GLHF 是慣例"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "gg",
+        "diff": "GLHF 用於賽前問候；GG 用於賽後結語，是同一套禮儀用語的一頭一尾。"
+      }
+    ],
+    "related": [
+      "gg"
+    ],
+    "design": "皆屬中性禮貌或情緒用語，GLHF／BRB 沒有冒犯疑慮，WTF 視語氣可能顯得情緒化，正式簡報不建議使用。",
+    "tw": "台灣、中國、歐美用法一致，是網路聊天室文化最早期就通用的縮寫組合。",
+    "sources": [
+      {
+        "title": "PTT 八卦板（綜合網路用語流通處）",
+        "url": "https://www.ptt.cc/bbs/Gossiping/index.html",
+        "accessed": "2026-09-17",
+        "note": "三者皆為歷史悠久的網路聊天縮寫，未能於本次搜尋中鎖定單一可引用的權威定義連結"
+      }
+    ],
+    "status": "unverified"
+  },
+  {
+    "id": "tank",
+    "zh": "坦克（肉盾）",
+    "en": "Tank",
+    "aliases": [
+      "肉盾",
+      "神坦"
+    ],
+    "cat": "slang",
+    "sub": "角色定位",
+    "short": "血厚裝甲厚、專吸引敵方火力。",
+    "def": "指血量與防禦力極高、主要任務是站在隊伍最前線吸引敵方火力、保護後排隊友的角色定位。「神坦」是玩家對特別耐打角色的戲稱，強調「硬到誇張」的程度。坦克通常傷害輸出較低，但團隊沒有坦克頂在前面，脆皮輸出角色很快就會被集火擊殺，是團隊組成不可或缺的一環。",
+    "features": [
+      "血量與防禦力極高",
+      "站前線吸引火力",
+      "保護後排隊友",
+      "傷害輸出通常較低"
+    ],
+    "examples": [
+      {
+        "title": "鬥陣特攻",
+        "en": "Overwatch",
+        "appid": 2357570,
+        "year": 2016,
+        "why": "官方正式的角色分類之一，即「重裝」（Tank）位置"
+      },
+      {
+        "title": "Dota 2",
+        "en": "Dota 2",
+        "appid": 570,
+        "year": 2013,
+        "why": "初始英雄（Strength 系）多承擔坦克角色"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 1718,
+        "en": "MOBA"
+      }
+    ],
+    "compare": [
+      {
+        "with": "glass-cannon",
+        "diff": "坦克是高血量高防禦、低輸出；玻璃砲是高輸出但幾乎沒有防禦，兩者是團隊配置的兩個極端。"
+      }
+    ],
+    "related": [
+      "glass-cannon",
+      "healer",
+      "support-role",
+      "poise"
+    ],
+    "design": "中性角色定位描述，教學與企劃文件可直接使用；玩家戲稱「神坦」時帶正面讚嘆語氣。",
+    "tw": "台灣慣用「坦克」「肉盾」；中國圈也用「T」（Tank 首字母，源自早期 MMORPG 分工術語 Tank-Heal-DPS）。",
+    "sources": [
+      {
+        "title": "Glossary of video game terms – Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Glossary_of_video_game_terms",
+        "accessed": "2026-09-17",
+        "note": "頁面以 Tank 與 DPS 角色對比說明前線與輸出的分工"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "healer",
+    "zh": "補師（奶媽）",
+    "en": "Healer",
+    "aliases": [
+      "奶媽",
+      "治療"
+    ],
+    "cat": "slang",
+    "sub": "角色定位",
+    "short": "負責幫隊友回血的治療職。",
+    "def": "指團隊中負責施放治療技能、幫隊友回復血量的角色定位，是團隊能否撐過長時間戰鬥的關鍵。「奶媽」是玩家對補師的暱稱，戲稱其像照顧孩子一樣照顧隊友血量。經典吐槽「我家奶媽跑得比誰都快」則反映補師在危險時優先自保、導致隊友沒奶可喝的常見窘境。",
+    "features": [
+      "施放治療技能回血",
+      "決定團隊續戰能力",
+      "常需優先自保",
+      "與坦克、輸出構成鐵三角"
+    ],
+    "examples": [
+      {
+        "title": "鬥陣特攻",
+        "en": "Overwatch",
+        "appid": 2357570,
+        "year": 2016,
+        "why": "官方正式的角色分類之一，即「支援」（Support）位置中的治療型英雄"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 1718,
+        "en": "MOBA"
+      }
+    ],
+    "compare": [
+      {
+        "with": "support-role",
+        "diff": "補師專職回血；輔助（Support）泛指不主要輸出、以 Buff、保護、視野支援隊友的角色，補師是輔助的其中一種。"
+      }
+    ],
+    "related": [
+      "support-role",
+      "tank",
+      "dps-role"
+    ],
+    "design": "中性角色描述；「奶媽跑路」的吐槽帶戲謔但不冒犯，是玩家社群常見的自嘲哏。",
+    "tw": "台灣慣用「補師」「奶媽」；中國圈也常說「治療」「奶」，「奶量」即治療輸出量。",
+    "sources": [
+      {
+        "title": "Glossary of video game terms – Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Glossary_of_video_game_terms",
+        "accessed": "2026-09-17",
+        "note": "頁面將 Healer 列為與 Tank 並列的核心角色原型之一"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "dps-role",
+    "zh": "輸出（DPS／打手）",
+    "en": "Damage Dealer / DPS / ADC",
+    "aliases": [
+      "打手",
+      "輸出",
+      "ADC",
+      "AD Carry",
+      "射手",
+      "AD",
+      "AP"
+    ],
+    "cat": "slang",
+    "sub": "角色定位",
+    "short": "專門造成傷害的角色。",
+    "def": "泛指團隊中專門造成傷害、決定戰鬥效率的角色定位，DPS（Damage Per Second）原意是每秒傷害量，後泛指這類角色本身。MOBA 中常再細分成物理傷害（AD，Attack Damage）與魔法傷害（AP，Ability Power），而依靠遠程物理輸出扛起隊伍的角色則稱 ADC（AD Carry），即俗稱的「射手」。DPS 表現的好壞往往直接決定團隊勝負。",
+    "features": [
+      "專職造成傷害",
+      "分物理AD與魔法AP",
+      "ADC 即遠程射手位",
+      "表現直接影響勝負"
+    ],
+    "examples": [
+      {
+        "title": "鬥陣特攻",
+        "en": "Overwatch",
+        "appid": 2357570,
+        "year": 2016,
+        "why": "官方正式角色分類「輸出」（Damage）位置"
+      },
+      {
+        "title": "英雄聯盟",
+        "en": "League of Legends",
+        "appid": null,
+        "year": 2009,
+        "why": "ADC 是官方五個分路位置之一"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 1718,
+        "en": "MOBA"
+      }
+    ],
+    "compare": [
+      {
+        "with": "glass-cannon",
+        "diff": "DPS 是功能性的角色定位（負責輸出）；玻璃砲是描述這類角色「高輸出低血量」的特性標籤，兩者常重疊但概念不同。"
+      }
+    ],
+    "related": [
+      "glass-cannon",
+      "tank",
+      "critical-hit"
+    ],
+    "design": "中性角色定位描述，教學與企劃文件可直接使用。",
+    "tw": "台灣、中國通用「輸出」「DPS」；ADC 一詞源自《英雄聯盟》官方分路命名，現已泛用到其他 MOBA。",
+    "sources": [
+      {
+        "title": "Glossary of video game terms – Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Glossary_of_video_game_terms",
+        "accessed": "2026-09-17",
+        "note": "頁面描述 damage dealer 為「a character or class that is designed purely to deal damage」，與 Tank 對比說明"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "glass-cannon",
+    "zh": "玻璃砲（脆皮）",
+    "en": "Glass Cannon",
+    "aliases": [
+      "脆皮"
+    ],
+    "cat": "slang",
+    "sub": "角色定位",
+    "short": "傷害極高但血量極少。",
+    "def": "指傷害輸出極高、但防禦力與血量極低，只要被抓到、碰一下就可能陣亡的角色類型，常見於法師、狙擊手等遠程輸出職業。玻璃砲的設計哲學是「用高風險換取高爆發」，考驗玩家的走位與站位判斷，也考驗隊友是否願意花資源保護這類角色。這個比喻也廣泛用於形容其他領域「威力強大但一擊就倒」的事物。",
+    "features": [
+      "傷害輸出極高",
+      "防禦與血量極低",
+      "考驗走位與保護",
+      "常見於法師、狙擊手"
+    ],
+    "examples": [
+      {
+        "title": "鬥陣特攻",
+        "en": "Overwatch",
+        "appid": 2357570,
+        "year": 2016,
+        "why": "狙擊手型英雄是玻璃砲設計的典型代表"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "tank",
+        "diff": "玻璃砲是高輸出低防禦；坦克是低輸出高防禦，兩者是團隊配置光譜的兩端。"
+      }
+    ],
+    "related": [
+      "tank",
+      "dps-role"
+    ],
+    "design": "中性形容用語，沒有冒犯疑慮，常用於角色設計討論與企劃文件。",
+    "tw": "台灣慣用「脆皮」「玻璃砲」；中國圈也常用「脆皮」，兩岸用法幾乎一致。",
+    "sources": [
+      {
+        "title": "Urban Dictionary: glass cannon",
+        "url": "https://www.urbandictionary.com/define.php?term=glass+cannon",
+        "accessed": "2026-09-17",
+        "note": "a class...that has very high attack strength...but generally poor defense and low health"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "support-role",
+    "zh": "輔助（Support）",
+    "en": "Support",
+    "aliases": [
+      "輔助位"
+    ],
+    "cat": "slang",
+    "sub": "角色定位",
+    "short": "不主要輸出，靠支援保護隊友。",
+    "def": "指不以造成傷害為主要任務，而是透過施放增益（Buff）、控制、保護與提供視野等方式支援隊友的角色定位，是團隊戰術執行的關鍵幕後角色。輔助位往往容易被忽略戰績表現，但實際上對團隊的資源分配、視野掌控與團戰勝負有決定性影響，常被玩家戲稱是「最不起眼但最重要」的位置。",
+    "features": [
+      "不主要造成傷害",
+      "提供Buff、控制、視野",
+      "戰績容易被低估",
+      "決定團戰資源分配"
+    ],
+    "examples": [
+      {
+        "title": "英雄聯盟",
+        "en": "League of Legends",
+        "appid": null,
+        "year": 2009,
+        "why": "輔助是官方五個分路位置之一，負責保護 ADC 與提供視野"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 1718,
+        "en": "MOBA"
+      }
+    ],
+    "compare": [
+      {
+        "with": "healer",
+        "diff": "補師專職回血；輔助的功能範圍更廣，包含控制、保護、視野等，回血只是輔助功能之一。"
+      }
+    ],
+    "related": [
+      "healer",
+      "tank"
+    ],
+    "design": "中性角色定位描述，適合企劃文件直接使用，沒有冒犯疑慮。",
+    "tw": "台灣、中國通用「輔助」，日文圈稱「サポート」。",
+    "sources": [
+      {
+        "title": "PTT 英雄聯盟板（LoL 板）",
+        "url": "https://www.ptt.cc/bbs/LoL/index.html",
+        "accessed": "2026-09-17",
+        "note": "Support 為 MOBA 官方角色分類名稱，各遊戲官網皆有收錄，未於本次搜尋中鎖定單一第三方可引用連結"
+      }
+    ],
+    "status": "unverified"
+  },
+  {
+    "id": "jungler",
+    "zh": "打野（Jungler）",
+    "en": "Jungler",
+    "aliases": [
+      "野區",
+      "打野位"
+    ],
+    "cat": "slang",
+    "sub": "角色定位",
+    "short": "在野區打怪並機動支援各路的角色。",
+    "def": "指 MOBA 遊戲中負責在地圖中央野區擊殺野怪賺取資源、並機動支援各路進行 Gank 的角色定位，是掌控地圖節奏的關鍵角色。打野不像對線角色固定在一條線上發育，而是遊走全圖尋找機會，因此對地圖意識、時機判斷與團隊溝通的要求特別高，常被視為節奏掌控者。",
+    "features": [
+      "在野區擊殺野怪",
+      "機動支援各路 Gank",
+      "掌控地圖節奏",
+      "對地圖意識要求高"
+    ],
+    "examples": [
+      {
+        "title": "英雄聯盟",
+        "en": "League of Legends",
+        "appid": null,
+        "year": 2009,
+        "why": "打野是官方五個分路位置之一，也是節奏掌控核心"
+      },
+      {
+        "title": "Dota 2",
+        "en": "Dota 2",
+        "appid": 570,
+        "year": 2013,
+        "why": "部分英雄以野區為主要發育路線"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 1718,
+        "en": "MOBA"
+      }
+    ],
+    "compare": [
+      {
+        "with": "gank",
+        "diff": "打野是角色定位本身；Gank 是打野位（以及其他角色）執行的具體偷襲行為。"
+      }
+    ],
+    "related": [
+      "gank",
+      "farm"
+    ],
+    "design": "中性角色定位描述，教學與企劃文件可直接使用。",
+    "tw": "台灣、中國通用「打野」，是全球 MOBA 玩家共通的角色分類詞彙。",
+    "sources": [
+      {
+        "title": "Urban Dictionary: jungler",
+        "url": "https://www.urbandictionary.com/define.php?term=jungler",
+        "accessed": "2026-09-17",
+        "note": "takes smite and starts the game killing units in the jungle as oppose to the lanes"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "one-shot",
+    "zh": "秒殺（一招擊殺）",
+    "en": "One-Shot",
+    "aliases": [
+      "秒",
+      "一招必殺"
+    ],
+    "cat": "slang",
+    "sub": "戰鬥動作",
+    "short": "一招就把對手直接打死。",
+    "def": "指用單一一次攻擊或技能就把對手直接擊殺的現象，常用來形容爆發傷害極高的角色或裝備組合。「這隻 Boss 被他三秒」則是延伸用法，指三秒之內就把敵人打死。One-Shot 機制對遊戲平衡影響很大，若過於容易達成，容易讓對戰失去策略性，變成看誰先手就贏。",
+    "features": [
+      "單一攻擊直接擊殺",
+      "考驗爆發傷害配置",
+      "影響對戰平衡",
+      "「秒」可作動詞使用"
+    ],
+    "examples": [
+      {
+        "title": "Dota 2",
+        "en": "Dota 2",
+        "appid": 570,
+        "year": 2013,
+        "why": "高爆發法師組合能一套技能秒殺脆皮英雄"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "ultimate-skill-slang",
+        "diff": "秒殺是傷害結果的描述；大招（Ult）是造成秒殺的其中一種手段，不是所有大招都能秒殺對手。"
+      }
+    ],
+    "related": [
+      "ultimate-skill-slang",
+      "critical-hit",
+      "glass-cannon"
+    ],
+    "design": "中性戰鬥描述，玩家常帶讚嘆或無奈語氣使用，沒有冒犯疑慮。",
+    "tw": "台灣、中國通用「秒殺」「秒」，是全球玩家共通的直覺用語。",
+    "sources": [
+      {
+        "title": "巴哈姆特哈啦板首頁",
+        "url": "https://forum.gamer.com.tw/",
+        "accessed": "2026-09-17",
+        "note": "英文 one-shot 在一般辭典多收錄拳擊、攝影等其他義項，遊戲語境的獨立權威定義未能於本次搜尋中確認"
+      }
+    ],
+    "status": "unverified"
+  },
+  {
+    "id": "ultimate-skill-slang",
+    "zh": "大招（Ult）",
+    "en": "Ultimate (Ult)",
+    "aliases": [
+      "放大",
+      "Ult",
+      "終極技能"
+    ],
+    "cat": "slang",
+    "sub": "戰鬥動作",
+    "short": "角色最強的終極技能。",
+    "def": "指角色技能組合中威力最強、通常需要較長時間累積能量或冷卻才能施放的終極技能，玩家口語簡稱「大」或「Ult」。「我的大還沒好」是團戰前常見的溝通用語，表示自己的大招還在冷卻中，無法參與決定性的爆發輸出，這句話往往關係到團隊要不要開團的關鍵判斷。",
+    "features": [
+      "角色最強的技能",
+      "通常需長冷卻或蓄能",
+      "團戰勝負的關鍵變因",
+      "口語簡稱「大」或「Ult」"
+    ],
+    "examples": [
+      {
+        "title": "鬥陣特攻",
+        "en": "Overwatch",
+        "appid": 2357570,
+        "year": 2016,
+        "why": "Ultimate 能量條與團隊配合開大是核心戰術"
+      },
+      {
+        "title": "英雄聯盟",
+        "en": "League of Legends",
+        "appid": null,
+        "year": 2009,
+        "why": "R 鍵固定綁定大招，是團戰決策的核心資訊"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "cooldown",
+        "diff": "大招是技能本身；冷卻（Cooldown）是技能使用後需要等待才能再次施放的機制，大招通常搭配較長冷卻。"
+      }
+    ],
+    "related": [
+      "cooldown",
+      "one-shot"
+    ],
+    "design": "中性戰鬥術語，教學與企劃文件可直接使用。",
+    "tw": "台灣、中國通用「大招」「放大」，QWER 中的 R 鍵在多數 MOBA 固定綁定大招。",
+    "sources": [
+      {
+        "title": "Urban Dictionary: ult",
+        "url": "https://www.urbandictionary.com/define.php?term=ult",
+        "accessed": "2026-09-17",
+        "note": "That fourth skill in league of legends or dota 2 that's extremely game changing；lingo for an ultimate ability in Overwatch"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "loot-slang",
+    "zh": "舔包（撿戰利品）",
+    "en": "Loot",
+    "aliases": [
+      "舔袋",
+      "撿裝備"
+    ],
+    "cat": "slang",
+    "sub": "戰鬥動作",
+    "short": "擊敗敵人後撿走掉落物。",
+    "def": "指擊敗敵人或打開箱子後撿取對方掉落裝備、資源的行為，「舔包先」是 FPS 與大逃殺（BR）遊戲玩家常見的口頭禪，意指優先撿完戰利品再行動。這個行為看似瑣碎，實際上是資源管理與風險評估的一環：停留原地撿東西的同時也容易暴露行蹤、被其他玩家偷襲。",
+    "features": [
+      "擊敗敵人後撿取掉落物",
+      "FPS 與大逃殺常用語",
+      "涉及資源管理與風險評估",
+      "停留撿東西容易暴露行蹤"
+    ],
+    "examples": [
+      {
+        "title": "PUBG: BATTLEGROUNDS",
+        "en": "PUBG: BATTLEGROUNDS",
+        "appid": 578080,
+        "year": 2017,
+        "why": "大逃殺遊戲的裝備撿拾與資源管理是核心玩法之一"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 176981,
+        "en": "Battle Royale"
+      }
+    ],
+    "compare": [
+      {
+        "with": "loot-table",
+        "diff": "舔包是玩家「撿東西」的行為本身；Loot Table 是系統決定掉落什麼物品與機率的設計機制。"
+      }
+    ],
+    "related": [
+      "loot-table",
+      "supply-drop"
+    ],
+    "design": "中性行為描述，帶點輕鬆詼諧語氣（「舔」字本身就是玩笑化的說法），沒有冒犯疑慮。",
+    "tw": "台灣、中國通用「舔包」「撿裝備」，是大逃殺類遊戲流行後才普及的說法。",
+    "sources": [
+      {
+        "title": "巴哈姆特哈啦板首頁",
+        "url": "https://forum.gamer.com.tw/",
+        "accessed": "2026-09-17",
+        "note": "「舔包」為華語圈 BR 遊戲社群衍生說法，未能於本次搜尋中找到獨立第三方可查證連結"
+      }
+    ],
+    "status": "unverified"
+  },
+  {
+    "id": "supply-drop",
+    "zh": "空投（補給箱）",
+    "en": "Supply Drop / Airdrop",
+    "aliases": [
+      "補給空投",
+      "Airdrop"
+    ],
+    "cat": "slang",
+    "sub": "戰鬥動作",
+    "short": "大逃殺遊戲中的高價值空投補給箱。",
+    "def": "指大逃殺（Battle Royale）遊戲中，由飛機空投到地圖上、內含稀有裝備的補給箱。「搶空投」是高風險高報酬的決策：箱子位置公開透明，所有存活玩家都能看到並前往搶奪，因此搶空投的過程本身經常演變成一場提前開打的小規模團戰，考驗玩家的風險判斷。",
+    "features": [
+      "空投稀有裝備補給箱",
+      "位置對所有玩家公開",
+      "常引發搶奪團戰",
+      "高風險高報酬決策"
+    ],
+    "examples": [
+      {
+        "title": "PUBG: BATTLEGROUNDS",
+        "en": "PUBG: BATTLEGROUNDS",
+        "appid": 578080,
+        "year": 2017,
+        "why": "空投機制的代表作，帶動整個 BR 類型的空投設計"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 176981,
+        "en": "Battle Royale"
+      }
+    ],
+    "compare": [
+      {
+        "with": "loot-slang",
+        "diff": "空投是特定的高價值掉落事件與地點；舔包則是泛指撿取任何戰利品的行為，空投箱通常會引發更激烈的舔包爭奪。"
+      }
+    ],
+    "related": [
+      "loot-slang"
+    ],
+    "design": "中性機制描述，適合企劃文件直接使用，玩家間討論搶空投策略時常帶興奮語氣。",
+    "tw": "台灣、中國通用「空投」，源自軍事用語但完全融入遊戲語境，不帶原本的戰爭色彩。",
+    "sources": [
+      {
+        "title": "巴哈姆特哈啦板首頁",
+        "url": "https://forum.gamer.com.tw/",
+        "accessed": "2026-09-17",
+        "note": "空投為大逃殺類型的通用機制名詞，未能於本次搜尋中鎖定單一第三方可引用連結"
+      }
+    ],
+    "status": "unverified"
+  },
+  {
+    "id": "go-head-on",
+    "zh": "剛正面",
+    "en": "Go Head-On",
+    "aliases": [
+      "硬碰硬"
+    ],
+    "cat": "slang",
+    "sub": "戰鬥動作",
+    "short": "選擇正面衝突而非迂迴閃避。",
+    "def": "指玩家選擇正面迎戰而非迂迴繞路、消極閃避的態度或戰術，「別苟了，剛正面！」是玩家間常見的激將用語，用來嘲諷對方打法過於保守。這個詞也常被借用到遊戲外的日常語境，形容「直接面對問題而不逃避」的態度，帶有豪氣與衝動並存的雙重色彩。",
+    "features": [
+      "選擇正面迎戰",
+      "與消極防守相對",
+      "常見於激將用語",
+      "可泛化形容直接面對問題"
+    ],
+    "examples": [
+      {
+        "title": "PUBG: BATTLEGROUNDS",
+        "en": "PUBG: BATTLEGROUNDS",
+        "appid": 578080,
+        "year": 2017,
+        "why": "大逃殺類遊戲的正面遭遇戰是「剛正面」的典型場景"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 176981,
+        "en": "Battle Royale"
+      }
+    ],
+    "compare": [
+      {
+        "with": "camp-turtle",
+        "diff": "剛正面是主動選擇正面衝突；苟／龜是消極防守、避免正面交火，兩者是戰術光譜的兩個極端。"
+      }
+    ],
+    "related": [
+      "camp-turtle"
+    ],
+    "design": "帶豪氣、激將意味，玩家間互相調侃時使用；若用於嘲諷對手保守打法，可能顯得不禮貌。",
+    "tw": "台灣特色用語，中國圈較少使用「剛正面」這個說法，多直接說「莽」「硬拼」。",
+    "sources": [
+      {
+        "title": "巴哈姆特哈啦板首頁",
+        "url": "https://forum.gamer.com.tw/",
+        "accessed": "2026-09-17",
+        "note": "台灣在地衍生用語，未能於本次搜尋中找到獨立第三方可查證連結"
+      }
+    ],
+    "status": "unverified"
+  },
+  {
+    "id": "camp-turtle",
+    "zh": "苟／龜（消極防守）",
+    "en": "Camping / Turtling",
+    "aliases": [
+      "苟",
+      "龜",
+      "Turtle"
+    ],
+    "cat": "slang",
+    "sub": "戰鬥動作",
+    "short": "躲在角落消極防守求生存。",
+    "def": "指玩家選擇消極防守、躲在角落或安全區域，避免正面衝突的打法。在部分大逃殺類遊戲中，「苟到最後」是完全合理且有效的求生戰術，因為存活到最後就能獲勝，不一定需要主動擊殺對手；但在強調節奏與觀賞性的競技遊戲中，過度苟的打法常被觀眾與對手嫌棄「不好看」。",
+    "features": [
+      "躲在角落消極防守",
+      "部分BR遊戲的有效戰術",
+      "強調存活優先於擊殺",
+      "競技節奏遊戲中常被嫌棄"
+    ],
+    "examples": [
+      {
+        "title": "PUBG: BATTLEGROUNDS",
+        "en": "PUBG: BATTLEGROUNDS",
+        "appid": 578080,
+        "year": 2017,
+        "why": "毒圈機制下，苟到最後圈是公認的有效生存戰術之一"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 176981,
+        "en": "Battle Royale"
+      }
+    ],
+    "compare": [
+      {
+        "with": "go-head-on",
+        "diff": "苟／龜是消極防守、避免衝突；剛正面是主動選擇正面對決，兩者是戰術取向的兩端。"
+      }
+    ],
+    "related": [
+      "go-head-on"
+    ],
+    "design": "中性到略帶貶意，視語境而定：形容自己的策略是中性戰術用語，用來嘲諷對手則帶輕蔑意味。",
+    "tw": "台灣慣用「苟」「龜」；中國圈也用「苟」，用法一致，皆源自「烏龜縮頭」的形象比喻。",
+    "sources": [
+      {
+        "title": "Glossary of video game terms – Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Glossary_of_video_game_terms",
+        "accessed": "2026-09-17",
+        "note": "Camping 條目定義為 staying in one place to ambush players"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "exploit",
+    "zh": "卡 BUG／Exploit（利用漏洞）",
+    "en": "Exploit",
+    "aliases": [
+      "卡BUG",
+      "利用漏洞"
+    ],
+    "cat": "slang",
+    "sub": "戰鬥動作",
+    "short": "利用遊戲漏洞獲得不正當優勢。",
+    "def": "指利用遊戲機制或程式漏洞（Bug）獲得明顯不公平優勢的行為，可能是刻意濫用官方原本設計的機制，也可能是利用程式錯誤造成的意外效果。在單人遊戲中，利用漏洞破紀錄或創造奇特玩法常被視為一種樂趣與創意展現（例如速通社群），但在多人線上競技遊戲中，Exploit 通常被視為明確違規行為，會遭到官方懲處。",
+    "features": [
+      "利用機制或程式漏洞",
+      "可能是刻意濫用或意外Bug",
+      "單機常視為樂趣",
+      "線上競技視為違規"
+    ],
+    "examples": [
+      {
+        "title": "Hollow Knight",
+        "en": "Hollow Knight",
+        "appid": 367520,
+        "year": 2017,
+        "why": "速通社群大量利用該作的物理引擎漏洞開發捷徑路線"
+      },
+      {
+        "title": "Dota 2",
+        "en": "Dota 2",
+        "appid": 570,
+        "year": 2013,
+        "why": "官方會定期修補競技環境中被視為破壞平衡的漏洞玩法"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "cheese",
+        "diff": "Exploit 是利用機制或程式漏洞取得優勢，通常涉及非預期效果；Cheese 是用「卑鄙但合法」的正規手段取巧，不一定涉及漏洞。"
+      },
+      {
+        "with": "glitch",
+        "diff": "Exploit 是「利用漏洞」的行為；Glitch 是漏洞或程式錯誤本身，Exploit 常常是玩家主動利用 Glitch 的結果。"
+      }
+    ],
+    "related": [
+      "cheese",
+      "glitch",
+      "sequence-break"
+    ],
+    "design": "單人語境接近中性甚至正面（創意展現）；多人競技語境則明確帶負面、違規意味，教學時務必說明情境差異。",
+    "tw": "台灣、中國通用「卡BUG」「利用漏洞」，英文圈統一使用 Exploit。",
+    "sources": [
+      {
+        "title": "Video game exploit – Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Video_game_exploit",
+        "accessed": "2026-09-17",
+        "note": "the use of a feature that gives a substantial unfair advantage to players using it"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "speedrun",
+    "zh": "速通（Speedrun）",
+    "en": "Speedrun",
+    "aliases": [
+      "Any%",
+      "100%",
+      "Glitchless",
+      "TAS"
+    ],
+    "cat": "slang",
+    "sub": "戰鬥動作",
+    "short": "追求最短時間通關的挑戰玩法。",
+    "def": "指玩家追求以最短時間完成遊戲的挑戰玩法，是獨立於官方競技之外、由玩家社群自發發展出的一套嚴謹規則體系。Any% 指「用任何手段」達成通關條件的最快紀錄，不限制是否使用漏洞；100% 則要求收集完所有指定項目才算完成；Glitchless 進一步限制不得利用任何程式漏洞，只能用標準遊戲機制過關；TAS（Tool-Assisted Speedrun）則是透過模擬器工具、逐幀操作與存讀檔製作的「理論最速」示範影片，通常不與真人紀錄放在同一榜單。全球紀錄多公開在 Speedrun.com 供玩家查證與競爭。",
+    "features": [
+      "Any% 不限手段最速通關",
+      "100% 需收集全部項目",
+      "Glitchless 禁止利用漏洞",
+      "TAS 為工具輔助理論最速"
+    ],
+    "examples": [
+      {
+        "title": "Celeste",
+        "en": "Celeste",
+        "appid": 504230,
+        "year": 2018,
+        "why": "平台動作精準操作型速通的代表作，社群競賽活躍"
+      },
+      {
+        "title": "Hollow Knight",
+        "en": "Hollow Knight",
+        "appid": 367520,
+        "year": 2017,
+        "why": "Any% 與 Glitchless 分類都有活躍的世界紀錄競賽"
+      },
+      {
+        "title": "黑暗靈魂 重製版",
+        "en": "DARK SOULS: REMASTERED",
+        "appid": 570940,
+        "year": 2018,
+        "why": "動作 RPG 速通的代表作品之一，社群規則制定完善"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "exploit",
+        "diff": "速通是玩家自發的挑戰文化與規則體系；Exploit 是速通過程中可能用到的具體手段之一（Any% 允許、Glitchless 則禁止）。"
+      }
+    ],
+    "related": [
+      "exploit",
+      "sequence-break"
+    ],
+    "design": "屬正面、受推崇的硬核遊玩文化，企劃與教學可直接引用作為玩家自發內容的範例；分類規則嚴謹，介紹時務必說明清楚以免混淆。",
+    "tw": "台灣、中國、歐美用法一致，皆直接使用「速通」與英文分類名稱（Any%、Glitchless、TAS）；日文圈稱「タイムアタック」（Time Attack，略有不同但常混用）。",
+    "sources": [
+      {
+        "title": "Speedrun – Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Speedrun",
+        "accessed": "2026-09-17",
+        "note": "定義 Any%、100%、Glitchless、TAS，並提及 Speedrun.com 為主要紀錄平台"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "level-gating",
+    "zh": "卡等／越級打怪",
+    "en": "Level-gating / Under-leveling",
+    "aliases": [
+      "越級挑戰",
+      "低等挑戰"
+    ],
+    "cat": "slang",
+    "sub": "戰鬥動作",
+    "short": "刻意壓低等級挑戰高階敵人。",
+    "def": "指玩家刻意不升級、維持在遠低於建議等級的狀態下挑戰高階 Boss 或內容的硬核玩法，藉此大幅提高遊戲難度、證明操作實力。這種玩法常見於有明確等級與數值成長系統的 RPG 與動作遊戲，社群會另外建立排行榜或規則來認證「最低等級擊敗某 Boss」的紀錄，與速通文化有部分重疊但更著重挑戰極限而非速度。",
+    "features": [
+      "刻意壓低等級",
+      "挑戰遠高於等級的敵人",
+      "證明操作實力",
+      "與速通文化部分重疊"
+    ],
+    "examples": [
+      {
+        "title": "艾爾登法環",
+        "en": "ELDEN RING",
+        "appid": 1245620,
+        "year": 2022,
+        "why": "低等級（低魂）擊敗全 Boss 是社群公認的高難度挑戰項目"
+      },
+      {
+        "title": "隻狼：暗影雙死",
+        "en": "Sekiro: Shadows Die Twice",
+        "appid": 814380,
+        "year": 2019,
+        "why": "動作硬核玩家常見的越級／低等挑戰對象"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "difficulty-modes",
+        "diff": "卡等挑戰是玩家自發限制自己能力來提高難度；難度模式是遊戲官方內建的難度選項，兩者都影響體感難度但來源不同。"
+      }
+    ],
+    "related": [
+      "difficulty-modes",
+      "boss-design"
+    ],
+    "design": "屬玩家自發的硬核挑戰文化，正面用語；企劃討論數值曲線設計時可引用作為「玩家如何突破系統限制」的案例。",
+    "tw": "台灣、中國通用「卡等」「越級打怪」，此說法源自傳統 RPG 對等級與難度曲線的直覺理解。",
+    "sources": [
+      {
+        "title": "巴哈姆特哈啦板首頁",
+        "url": "https://forum.gamer.com.tw/",
+        "accessed": "2026-09-17",
+        "note": "卡等挑戰散見於各類 RPG 玩家社群討論串，未能於本次搜尋中鎖定單一第三方可引用連結"
+      }
+    ],
+    "status": "unverified"
+  },
+  {
+    "id": "gaming-payment-slang",
+    "zh": "課金／氪金／儲值",
+    "en": "Pay / Top-up (Microtransaction)",
+    "aliases": [
+      "課金",
+      "氪金",
+      "儲值",
+      "花錢"
+    ],
+    "cat": "slang",
+    "sub": "手遊抽卡",
+    "short": "三個意思相同、來源不同的花錢用語。",
+    "def": "三個詞都指在遊戲中花真實貨幣購買虛擬道具或抽卡機會，但文化來源不同：「課金」源自日文「課金（かきん）」，台灣受日系手遊文化影響最常用；「氪金」是中國網路諧音梗（氪≈課的諧音誤植，後將錯就錯成為正式用語）；「儲值」則是官方、中性的正式用詞，常見於商店介面文字。從對方用哪個詞，往往能大致判斷其接觸的遊戲文化圈。",
+    "features": [
+      "三詞意義相同來源不同",
+      "課金源自日文",
+      "氪金是中國諧音梗",
+      "儲值為官方中性用語"
+    ],
+    "examples": [
+      {
+        "title": "楓之谷M",
+        "en": "MapleStory M",
+        "appid": 3969080,
+        "year": 2018,
+        "why": "日系血統手遊，社群普遍使用「課金」一詞"
+      },
+      {
+        "title": "RO仙境傳說：新世代的誕生",
+        "en": "Ragnarok: New Generation",
+        "appid": 4279820,
+        "year": 2023,
+        "why": "台灣手遊市場常見的儲值與課金用語並用場景"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 113,
+        "en": "Free to Play"
+      }
+    ],
+    "compare": [
+      {
+        "with": "drop",
+        "diff": "課金／氪金是花錢購買機會的行為；出貨（Drop）是花錢或抽卡後實際抽到想要角色的結果，兩者是因果關係。"
+      }
+    ],
+    "related": [
+      "drop",
+      "f2p"
+    ],
+    "design": "中性偏口語，日常討論消費行為可直接使用；「儲值」較正式、適合客服或官方文案，「氪金」帶較重的中國網路文化色彩。",
+    "tw": "台灣以「課金」為主流用語，明顯受日系手遊文化影響；中國圈以「氪金」為主流；官方文案兩岸皆傾向使用中性的「儲值」。",
+    "sources": [
+      {
+        "title": "課金（重新導向至微交易）– 維基百科",
+        "url": "https://zh.wikipedia.org/zh-tw/課金",
+        "accessed": "2026-09-17",
+        "note": "課金（日語：アイテム課金，意為道具徵收費用）或錯寫為氪金，屬微交易的別稱"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "luck-eu-fei",
+    "zh": "歐洲人／非洲人（運氣好壞）",
+    "en": "Lucky (\"European\") / Unlucky (\"African\")",
+    "aliases": [
+      "歐洲人",
+      "非洲人",
+      "歐皇",
+      "非酋",
+      "歐氣",
+      "黑臉"
+    ],
+    "cat": "slang",
+    "sub": "手遊抽卡",
+    "short": "抽卡運氣好壞的戲稱比喻。",
+    "def": "抽卡運氣好的玩家被戲稱「歐洲人」（意象上「臉白」，抽卡容易出貨），運氣差的則稱「非洲人」（「臉黑」，怎麼抽都不出貨）。「讓我吸點歐氣」是抽卡前常見的玩笑話，希望能沾到歐洲人的好運。這組比喻因為隱含種族刻板印象，近年在部分社群引發討論，已有玩家改用較中性的「歐派／非派」或「歐皇／非酋」等說法取代。",
+    "features": [
+      "形容抽卡運氣好壞",
+      "歐洲人＝好運，非洲人＝壞運",
+      "近年因種族敏感性受討論",
+      "已有中性替代說法出現"
+    ],
+    "examples": [
+      {
+        "title": "楓之谷M",
+        "en": "MapleStory M",
+        "appid": 3969080,
+        "year": 2018,
+        "why": "抽卡機率型手遊的社群常見運氣自嘲用語"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 113,
+        "en": "Free to Play"
+      }
+    ],
+    "compare": [
+      {
+        "with": "drop",
+        "diff": "歐洲人／非洲人是形容玩家整體運氣傾向的標籤；出貨（Drop）是單次抽卡是否成功的具體結果描述。"
+      }
+    ],
+    "related": [
+      "drop"
+    ],
+    "design": "帶種族刻板印象疑慮，近年已有社群自發避免使用或改用中性替代詞，教學與正式文件建議說明爭議並提供替代用語。",
+    "tw": "台灣、中國通用，但因用語本身具爭議性，近年兩岸社群皆出現轉用「歐皇／非酋」等中性說法的趨勢。",
+    "sources": [
+      {
+        "title": "巴哈姆特哈啦板首頁（手機遊戲討論版聚集地）",
+        "url": "https://forum.gamer.com.tw/",
+        "accessed": "2026-09-17",
+        "note": "抽卡運氣戲稱為手遊社群廣泛流傳的口語用法，未能於本次搜尋中鎖定單一第三方可引用連結"
+      }
+    ],
+    "status": "unverified"
+  },
+  {
+    "id": "drop",
+    "zh": "出貨（成功抽到）",
+    "en": "Hit / Drop",
+    "aliases": [
+      "出貨",
+      "歪（抽到非目標角色）"
+    ],
+    "cat": "slang",
+    "sub": "手遊抽卡",
+    "short": "成功抽到想要的角色或道具。",
+    "def": "指玩家在抽卡（Gacha）中成功獲得自己想要的高稀有度角色或道具，是抽卡玩家最期待的結果。「我180抽才出貨」是玩家間常見的慘痛經驗談，描述花費大量資源才終於成功。若在保底機制下抽到的是非本意的角色（例如保底常駐池而非限定池角色），則稱為「歪」，是出貨的反面結果。",
+    "features": [
+      "成功抽到目標角色或道具",
+      "與保底機制密切相關",
+      "「歪」為非預期結果",
+      "玩家最期待的抽卡結果"
+    ],
+    "examples": [
+      {
+        "title": "楓之谷M",
+        "en": "MapleStory M",
+        "appid": 3969080,
+        "year": 2018,
+        "why": "限定角色抽卡池的出貨與否是玩家熱議話題"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 113,
+        "en": "Free to Play"
+      }
+    ],
+    "compare": [
+      {
+        "with": "luck-eu-fei",
+        "diff": "出貨是單次抽卡是否成功的具體結果；歐洲人／非洲人是形容玩家整體運氣傾向的長期標籤。"
+      }
+    ],
+    "related": [
+      "luck-eu-fei",
+      "gaming-payment-slang"
+    ],
+    "design": "中性偏正面用語，玩家分享出貨戰績時帶興奮語氣，沒有冒犯疑慮。",
+    "tw": "台灣、中國通用「出貨」，保底機制相關的「井」「天井」「歪」等衍生詞多為中國網路用語流入，台灣年輕玩家也普遍使用。",
+    "sources": [
+      {
+        "title": "巴哈姆特哈啦板首頁（手機遊戲討論版聚集地）",
+        "url": "https://forum.gamer.com.tw/",
+        "accessed": "2026-09-17",
+        "note": "出貨為手遊抽卡社群通用口語，未能於本次搜尋中鎖定單一第三方可引用連結"
+      }
+    ],
+    "status": "unverified"
+  },
+  {
+    "id": "op",
+    "zh": "OP（超模／破壞平衡）",
+    "en": "OP (Overpowered)",
+    "aliases": [
+      "超模",
+      "IMBA",
+      "Imbalanced"
+    ],
+    "cat": "slang",
+    "sub": "版本平衡",
+    "short": "強到破壞遊戲平衡。",
+    "def": "Overpowered 的縮寫，形容某個角色、裝備或策略強度遠遠超出其他選項，強到破壞遊戲原有的平衡性。「這隻太OP了」通常是玩家呼籲官方削弱（Nerf）的起點，也是版本熱議話題的常見開場白。IMBA（Imbalanced）是意義相同的同義詞，兩者可互換使用。",
+    "features": [
+      "強度遠超其他選項",
+      "破壞遊戲平衡性",
+      "常是削弱呼聲的起點",
+      "IMBA為同義詞"
+    ],
+    "examples": [
+      {
+        "title": "Dota 2",
+        "en": "Dota 2",
+        "appid": 570,
+        "year": 2013,
+        "why": "每次版本更新後社群都會熱烈討論哪個英雄「太OP」"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 5055,
+        "en": "eSports"
+      }
+    ],
+    "compare": [
+      {
+        "with": "nerf-bat",
+        "diff": "OP 是形容強度失衡的現狀；Nerf 則是官方針對 OP 內容採取的削弱動作，兩者是因果關係。"
+      }
+    ],
+    "related": [
+      "nerf-bat",
+      "version-answer",
+      "balance-patch"
+    ],
+    "design": "中性到略帶抱怨語氣，玩家吐槽平衡性問題時常用，正式平衡性討論文件可直接引用作為玩家反饋的代表用語。",
+    "tw": "台灣慣用「超模」「OP」；中國圈同樣通用 OP、IMBA，兩岸用法幾乎一致。",
+    "sources": [
+      {
+        "title": "Urban Dictionary: OP",
+        "url": "https://www.urbandictionary.com/define.php?term=OP",
+        "accessed": "2026-09-17",
+        "note": "Overpowered，例句 Demons are OP in this game, nerf them please"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "version-answer",
+    "zh": "版本答案（版本賤男）",
+    "en": "Meta Pick / Current OP",
+    "aliases": [
+      "版本賤男",
+      "版本之子"
+    ],
+    "cat": "slang",
+    "sub": "版本平衡",
+    "short": "這個版本公認最強的選擇。",
+    "def": "指在當前遊戲版本中，社群公認強度最高、選了幾乎等於選勝利的角色或裝備。「版本賤男」是帶戲謔貶意的說法，暗指這類角色強得不太光彩、靠版本紅利取勝而非玩家實力；「版本之子」則語氣較中性正面，單純形容其受版本眷顧。版本答案通常會在官方平衡性更新後快速變動，是版本熱度的核心話題。",
+    "features": [
+      "當前版本公認最強選擇",
+      "選了幾乎等於選勝利",
+      "隨平衡更新快速變動",
+      "「賤男」帶戲謔貶意"
+    ],
+    "examples": [
+      {
+        "title": "英雄聯盟",
+        "en": "League of Legends",
+        "appid": null,
+        "year": 2009,
+        "why": "每個版本都會出現公認的「版本答案」英雄，帶動選角率暴增"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 5055,
+        "en": "eSports"
+      }
+    ],
+    "compare": [
+      {
+        "with": "patch-meta",
+        "diff": "版本答案是玩家口語形容「這個版本最強選擇」的說法；Patch Meta 是更廣泛、更中性的英文電競術語，指整個版本的策略生態環境。"
+      }
+    ],
+    "related": [
+      "patch-meta",
+      "op",
+      "tier-list"
+    ],
+    "design": "帶戲謔意味（尤其「版本賤男」），用於吐槽環境失衡時語氣輕鬆，若用於指責特定玩家選了版本答案角色則可能顯得酸言酸語。",
+    "tw": "台灣、中國通用「版本答案」；「版本賤男」為中國網路用語流入，台灣玩家也普遍使用。",
+    "sources": [
+      {
+        "title": "PTT 英雄聯盟板（版本平衡討論聚集地）",
+        "url": "https://www.ptt.cc/bbs/LoL/index.html",
+        "accessed": "2026-09-17",
+        "note": "版本答案為電競社群通用口語，未能於本次搜尋中鎖定單一第三方可引用連結"
+      }
+    ],
+    "status": "unverified"
+  },
+  {
+    "id": "nerf-bat",
+    "zh": "削弱之槌（Nerf／Buff 動詞）",
+    "en": "Nerf (verb) / Buff (verb)",
+    "aliases": [
+      "削",
+      "加強",
+      "Nerf Bat"
+    ],
+    "cat": "slang",
+    "sub": "版本平衡",
+    "short": "官方在改版中調弱或調強角色。",
+    "def": "Nerf 作動詞時指官方在版本更新中把某角色或裝備調弱，「這隻下個版本被Nerf了」是玩家常見的抱怨用語；Buff 作動詞則相反，指把某項目調強。玩家戲稱官方手持「削弱之槌」（Nerf Bat）四處敲打過強的角色，這個說法源自玩具品牌 Nerf 生產的軟質泡棉球棒，因「打了也不會真的痛」被借喻成「遊戲裡的溫和削弱」。要注意 Buff 同時也是名詞，指角色身上的增益狀態，與這裡的動詞用法是同字雙義。",
+    "features": [
+      "Nerf動詞＝調弱",
+      "Buff動詞＝調強",
+      "「削弱之槌」為玩具借喻",
+      "Buff名詞另指增益狀態需區分"
+    ],
+    "examples": [
+      {
+        "title": "Dota 2",
+        "en": "Dota 2",
+        "appid": 570,
+        "year": 2013,
+        "why": "每次版本更新日誌都會列出被Nerf與Buff的英雄清單"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 5055,
+        "en": "eSports"
+      }
+    ],
+    "compare": [
+      {
+        "with": "op",
+        "diff": "Nerf／Buff 是官方調整強度的動作；OP 是形容調整前角色強度失衡的現狀，兩者是因果關係。"
+      }
+    ],
+    "related": [
+      "op",
+      "buff-debuff",
+      "balance-patch"
+    ],
+    "design": "中性技術用語，玩家抱怨被削弱時語氣偏無奈；教學時要特別強調 Buff 動詞與名詞用法的差異，避免混淆。",
+    "tw": "台灣、中國通用「削」「加強」「Nerf」「Buff」，兩岸用法一致。",
+    "sources": [
+      {
+        "title": "Glossary of video game terms – Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Glossary_of_video_game_terms",
+        "accessed": "2026-09-17",
+        "note": "頁面收錄 Nerf 與 Buff 的定義，說明兩者為調整角色強度的相對動作"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "bench-warmer",
+    "zh": "板凳／廢料（沒人用的角色）",
+    "en": "Bench-warmer / Trash Tier",
+    "aliases": [
+      "廢料",
+      "板凳角色",
+      "吃灰"
+    ],
+    "cat": "slang",
+    "sub": "版本平衡",
+    "short": "完全沒有競爭力、被打入冷宮的角色。",
+    "def": "指強度墊底、在當前版本環境中完全沒有競爭力、幾乎沒人選用的角色或裝備，戲稱其像被放在倉庫裡「吃灰」，或像球隊裡坐冷板凳的球員。這類角色通常會被玩家整理進強度排行榜（Tier List）的最底層，也是官方後續平衡性調整優先考慮加強（Buff）的對象。",
+    "features": [
+      "強度墊底沒有競爭力",
+      "幾乎沒人選用",
+      "戲稱「吃灰」「坐板凳」",
+      "常是後續加強的優先對象"
+    ],
+    "examples": [
+      {
+        "title": "英雄聯盟",
+        "en": "League of Legends",
+        "appid": null,
+        "year": 2009,
+        "why": "強度排行榜最底層（T序位）常被稱為板凳角色"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 5055,
+        "en": "eSports"
+      }
+    ],
+    "compare": [
+      {
+        "with": "op",
+        "diff": "板凳／廢料是強度光譜的最底端；OP 是強度光譜的最頂端，兩者互為對照。"
+      }
+    ],
+    "related": [
+      "op",
+      "tier-list",
+      "rarity-tier"
+    ],
+    "design": "帶輕度戲謔貶意，用於形容遊戲內角色是正常吐槽；若用於形容真人玩家的表現則可能顯得不禮貌。",
+    "tw": "台灣、中國通用「板凳」「廢料」，「吃灰」的比喻兩岸皆常見。",
+    "sources": [
+      {
+        "title": "PTT 英雄聯盟板（版本平衡討論聚集地）",
+        "url": "https://www.ptt.cc/bbs/LoL/index.html",
+        "accessed": "2026-09-17",
+        "note": "板凳角色為電競與手遊社群通用口語，未能於本次搜尋中鎖定單一第三方可引用連結"
+      }
+    ],
+    "status": "unverified"
+  },
+  {
+    "id": "liver-grind",
+    "zh": "肝／爆肝",
+    "en": "Grinding (Liver-burning)",
+    "aliases": [
+      "爆肝",
+      "肝帝",
+      "日常肝"
+    ],
+    "cat": "slang",
+    "sub": "時間狀態",
+    "short": "長時間不眠不休地投入遊戲。",
+    "def": "指玩家長時間、不眠不休地投入遊戲，源自「為遊戲熬夜傷肝」的誇張比喻，把肝臟當成熬夜代價的具象化器官。「肝了一個禮拜總算破關」是常見的心得分享；衍生詞「日常肝」指每天固定要完成的例行內容（如手遊每日任務），「肝帝」則是對特別能肝、時間投入量驚人的玩家的尊稱。",
+    "features": [
+      "長時間不眠不休投入",
+      "源自熬夜傷肝的比喻",
+      "「日常肝」指每日例行內容",
+      "「肝帝」為投入量驚人的玩家"
+    ],
+    "examples": [
+      {
+        "title": "暗黑破壞神 IV",
+        "en": "Diablo IV",
+        "appid": 2344520,
+        "year": 2023,
+        "why": "刷裝備、刷賽季進度的核心迴圈是典型的「肝」內容"
+      },
+      {
+        "title": "楓之谷M",
+        "en": "MapleStory M",
+        "appid": 3969080,
+        "year": 2018,
+        "why": "每日例行任務與練功是手遊「日常肝」的代表場景"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "grind",
+        "diff": "「肝」是華語圈對 Grinding 現象的具象化比喻說法，兩者指涉的行為完全相同，只是文化包裝不同。"
+      }
+    ],
+    "related": [
+      "grind",
+      "work-shift"
+    ],
+    "design": "帶自嘲與戲謔意味，玩家分享肝度時多半語氣驕傲；若用於批評遊戲設計強迫玩家肝，則帶負面設計評論色彩。",
+    "tw": "台灣、中國通用「肝」「爆肝」，是華語遊戲圈最具代表性的身體化比喻詞之一，日文圈也有類似說法「周回」但語氣較中性。",
+    "sources": [
+      {
+        "title": "巴哈姆特哈啦板首頁",
+        "url": "https://forum.gamer.com.tw/",
+        "accessed": "2026-09-17",
+        "note": "「肝」為華語遊戲圈廣泛流傳的比喻用語，未能於本次搜尋中鎖定單一第三方可引用連結"
+      }
+    ],
+    "status": "unverified"
+  },
+  {
+    "id": "afk-farming",
+    "zh": "掛機",
+    "en": "Idle / AFK-farming",
+    "aliases": [
+      "掛網賺錢",
+      "掛機打怪"
+    ],
+    "cat": "slang",
+    "sub": "時間狀態",
+    "short": "開著遊戲不操作，讓角色自動進行。",
+    "def": "指玩家開著遊戲但沒有實際操作，讓角色自動進行某些動作（例如自動打怪、掛網賺取遊戲內貨幣）的行為，常見於有掛機機制設計的 MMORPG 或放置類遊戲。在團隊對戰遊戲中，掛機則帶負面意味，直接指玩家擺爛、不參與戰鬥，會嚴重拖累隊友。同一個詞在不同遊戲類型中的評價可能天差地遠。",
+    "features": [
+      "開遊戲但不操作",
+      "部分遊戲有官方掛機機制",
+      "團隊遊戲中帶負面意味",
+      "評價依遊戲類型而異"
+    ],
+    "examples": [
+      {
+        "title": "楓之谷M",
+        "en": "MapleStory M",
+        "appid": 3969080,
+        "year": 2018,
+        "why": "自動戰鬥系統是許多當代手遊MMORPG的官方掛機設計"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "afk",
+        "diff": "掛機常指開著自動機制持續獲利、可能是官方允許的設計；AFK 更強調「人真的不在」，在團隊遊戲中通常視為負面缺席行為。"
+      }
+    ],
+    "related": [
+      "afk",
+      "idle-incremental"
+    ],
+    "design": "中性到負面視語境而定：放置類遊戲中是正常機制；團隊競技遊戲中則是需要規則約束的消極行為。",
+    "tw": "台灣、中國通用「掛機」，是隨網路遊戲興起就存在的老詞彙。",
+    "sources": [
+      {
+        "title": "巴哈姆特哈啦板首頁",
+        "url": "https://forum.gamer.com.tw/",
+        "accessed": "2026-09-17",
+        "note": "掛機為華語遊戲圈通用口語，未能於本次搜尋中鎖定單一第三方可引用連結"
+      }
+    ],
+    "status": "unverified"
+  },
+  {
+    "id": "game-lifecycle-slang",
+    "zh": "退坑／回坑／補坑",
+    "en": "Quit / Return / Catch Up",
+    "aliases": [
+      "退坑",
+      "棄坑",
+      "回坑",
+      "補坑",
+      "入坑"
+    ],
+    "cat": "slang",
+    "sub": "時間狀態",
+    "short": "描述玩家離開、回歸、追進度的三個階段。",
+    "def": "「坑」在華語遊戲用語裡是「某款遊戲」的暱稱，衍生出一整組描述玩家與遊戲關係變化的詞彙：「退坑」（也說棄坑）指停止遊玩某款遊戲；「回坑」指離開一段時間後又重新開始玩，常見原因是新角色、新版本或新劇情上線；「補坑」（也說入坑）則指開始接觸一款新遊戲，或是回頭補完自己以前錯過沒玩的作品。三者合起來完整描述了玩家生命週期中與一款遊戲的離合關係。",
+    "features": [
+      "「坑」為遊戲的暱稱",
+      "退坑＝停止遊玩",
+      "回坑＝離開後重新開始",
+      "補坑＝入手新遊戲或補完舊作"
+    ],
+    "examples": [
+      {
+        "title": "楓之谷M",
+        "en": "MapleStory M",
+        "appid": 3969080,
+        "year": 2018,
+        "why": "改版或活動上線常帶動大量玩家「回坑」"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "backlog",
+        "diff": "補坑是「開始玩」的動作本身；Backlog（積庫存）是尚未被補坑、堆積如山的待玩遊戲清單，兩者常互為因果。"
+      }
+    ],
+    "related": [
+      "backlog"
+    ],
+    "design": "中性偏親切口語，玩家間分享自己遊戲狀態時常用，沒有冒犯疑慮，適合社群經營文案使用。",
+    "tw": "台灣、中國通用「退坑」「回坑」「補坑」，「坑」的比喻源自「越陷越深」的雙關趣味。",
+    "sources": [
+      {
+        "title": "巴哈姆特哈啦板首頁",
+        "url": "https://forum.gamer.com.tw/",
+        "accessed": "2026-09-17",
+        "note": "「坑」系列用語為華語遊戲圈廣泛流傳的比喻詞組，未能於本次搜尋中鎖定單一第三方可引用連結"
+      }
+    ],
+    "status": "unverified"
+  },
+  {
+    "id": "work-shift",
+    "zh": "打工／搬磚（日常任務）",
+    "en": "Daily Grind (\"Work Shift\")",
+    "aliases": [
+      "搬磚",
+      "上班",
+      "日常"
+    ],
+    "cat": "slang",
+    "sub": "時間狀態",
+    "short": "把每日例行任務比喻成上班打工。",
+    "def": "指玩家把手遊或 MMORPG 每天固定要完成的例行任務（簽到、日常副本、資源採集）戲稱為「打工」「搬磚」，暗喻這些內容重複、缺乏新鮮感，卻因為獎勵誘因或社交壓力（怕落後其他玩家）而不得不每天完成，像上班打卡一樣。這個比喻精準點出了現代服務型遊戲（GaaS）常見的設計爭議：玩家投入的究竟是「玩樂」還是「義務」。",
+    "features": [
+      "把日常任務比喻成上班",
+      "重複性高缺乏新鮮感",
+      "常因獎勵或社交壓力驅動",
+      "反映GaaS設計爭議"
+    ],
+    "examples": [
+      {
+        "title": "楓之谷M",
+        "en": "MapleStory M",
+        "appid": 3969080,
+        "year": 2018,
+        "why": "每日簽到與日常任務系統是典型的「打工」內容"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 113,
+        "en": "Free to Play"
+      }
+    ],
+    "compare": [
+      {
+        "with": "liver-grind",
+        "diff": "「打工」特指每日固定例行任務的重複性義務感；「肝」泛指任何長時間高強度投入，不限定是否為每日例行內容。"
+      }
+    ],
+    "related": [
+      "liver-grind",
+      "gaas",
+      "daily-weekly-quest"
+    ],
+    "design": "帶戲謔自嘲意味，同時也隱含對遊戲設計的批評（強迫每日登入），企劃討論每日任務系統設計時可作為反面案例引用。",
+    "tw": "台灣、中國通用「打工」「搬磚」，「搬磚」一詞更早源自遊戲代練產業的真實勞動比喻，後擴大成玩家自嘲用語。",
+    "sources": [
+      {
+        "title": "巴哈姆特哈啦板首頁",
+        "url": "https://forum.gamer.com.tw/",
+        "accessed": "2026-09-17",
+        "note": "「打工／搬磚」為華語手遊社群廣泛流傳的比喻詞，未能於本次搜尋中鎖定單一第三方可引用連結"
+      }
+    ],
+    "status": "unverified"
+  },
+  {
+    "id": "pc-key-slang",
+    "zh": "WASD／QWER（PC 預設按鍵）",
+    "en": "WASD / QWER",
+    "aliases": [
+      "WASD",
+      "QWER",
+      "WASD黨"
+    ],
+    "cat": "slang",
+    "sub": "操作設備",
+    "short": "PC 遊戲的移動鍵與技能鍵組合。",
+    "def": "WASD 是 PC 遊戲最普及的移動控制鍵（W上、S下、A左、D右），因為緊鄰滑鼠、能同時兼顧移動與視角操作而成為業界標準，「WASD黨」戲稱用鍵盤滑鼠玩遊戲的玩家；QWER 則是 MOBA 遊戲中四個主動技能的預設按鍵，「R鍵冷卻」即指大招正在冷卻中。兩組按鍵組合都已經超越單純的操作說明，成為玩家身分認同與圈內默契的象徵。",
+    "features": [
+      "WASD為移動鍵標準",
+      "QWER為MOBA技能鍵標準",
+      "已成為玩家身分認同符號",
+      "與滑鼠操作高度契合"
+    ],
+    "examples": [
+      {
+        "title": "Counter-Strike 2",
+        "en": "Counter-Strike 2",
+        "appid": 730,
+        "year": 2023,
+        "why": "WASD 移動搭配滑鼠瞄準是 FPS 遊戲的操作基礎"
+      },
+      {
+        "title": "英雄聯盟",
+        "en": "League of Legends",
+        "appid": null,
+        "year": 2009,
+        "why": "QWER 為官方預設的四個技能鍵位配置"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "controller-pc-console",
+        "diff": "WASD／QWER 是 PC 鍵盤的具體按鍵配置；手把黨／PC黨則是依輸入裝置劃分的玩家族群認同，範疇更廣。"
+      }
+    ],
+    "related": [
+      "controller-pc-console"
+    ],
+    "design": "中性技術用語，沒有冒犯疑慮；「WASD黨」帶點自我認同的幽默，教學情境可直接使用。",
+    "tw": "台灣、中國、歐美通用，是 PC 遊戲操作的全球標準，源自 1990 年代末《雷神之鎚》系列競技玩家的操作習慣。",
+    "sources": [
+      {
+        "title": "WASD keys – Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/WASD_keys",
+        "accessed": "2026-09-17",
+        "note": "說明 WASD 於 Quake 競技場景普及，Half-Life 帶動主流化採用"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "controller-pc-console",
+    "zh": "手把黨／PC黨／主機黨",
+    "en": "Controller / PC / Console Players",
+    "aliases": [
+      "手把黨",
+      "PC黨",
+      "主機黨"
+    ],
+    "cat": "slang",
+    "sub": "操作設備",
+    "short": "依輸入裝置與平台劃分的玩家族群。",
+    "def": "依主要使用的輸入裝置與遊玩平台，玩家社群常自嘲式地劃分成「手把黨」（用搖桿）、「PC黨」（鍵盤滑鼠）、「主機黨」（家用主機）等族群標籤。三方之間常有「誰比較高貴」「誰操作比較精準」的經典玩笑之爭，例如 PC 黨自豪滑鼠瞄準精準度高，主機黨則強調沙發躺著玩的舒適體驗，通常屬於社群文化裡的良性玩笑而非真正的敵意。",
+    "features": [
+      "依輸入裝置劃分族群",
+      "常見「誰比較高貴」的玩笑之爭",
+      "多屬良性自嘲而非敵意",
+      "反映平台與操作偏好差異"
+    ],
+    "examples": [
+      {
+        "title": "Counter-Strike 2",
+        "en": "Counter-Strike 2",
+        "appid": 730,
+        "year": 2023,
+        "why": "PC黨引以為傲的滑鼠鍵盤精準操作代表作"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 3859,
+        "en": "Multiplayer"
+      }
+    ],
+    "compare": [
+      {
+        "with": "pc-key-slang",
+        "diff": "手把黨／PC黨是玩家族群認同的分類標籤；WASD／QWER 是 PC 操作的具體按鍵配置，是造成分類差異的原因之一。"
+      }
+    ],
+    "related": [
+      "pc-key-slang"
+    ],
+    "design": "多屬社群內部的良性玩笑，正常使用不算冒犯；若用於貶低特定平台玩家的實力，則可能引發爭執。",
+    "tw": "台灣、中國通用「手把黨」「PC黨」「主機黨」，跨平台跨區用法一致。",
+    "sources": [
+      {
+        "title": "PTT 相關討論版（操作裝置話題聚集處之一）",
+        "url": "https://www.ptt.cc/bbs/PC_Shopping/index.html",
+        "accessed": "2026-09-17",
+        "note": "為玩家社群廣泛流傳的自我認同標籤，未能於本次搜尋中鎖定單一第三方可引用連結"
+      }
+    ],
+    "status": "unverified"
+  },
+  {
+    "id": "gaming-performance-slang",
+    "zh": "Ping 值／幀數（效能藉口）",
+    "en": "Ping / Frame Rate (excuses)",
+    "aliases": [
+      "Ping高",
+      "幀數",
+      "FPS低"
+    ],
+    "cat": "slang",
+    "sub": "操作設備",
+    "short": "把網路延遲與幀數不足當作打不好的藉口。",
+    "def": "口語上「我Ping高」指自己網路延遲嚴重，「我只有30幀」則指裝置畫面更新率（FPS）不足，兩者都是玩家戰敗後最常拿來自我解釋、卻真假難辨的理由，因此帶有一絲玩笑與自嘲色彩。真正的技術定義上，Ping 是封包往返伺服器的延遲時間，FPS 是每秒繪製的畫面張數，兩者都會直接影響操作的即時反應手感，數值不佳確實會拖累表現，但也常被過度濫用當藉口。",
+    "features": [
+      "Ping高＝網路延遲嚴重",
+      "幀數低＝畫面更新率不足",
+      "常被當作戰敗藉口",
+      "真假需搭配實際數據判斷"
+    ],
+    "examples": [
+      {
+        "title": "Counter-Strike 2",
+        "en": "Counter-Strike 2",
+        "appid": 730,
+        "year": 2023,
+        "why": "FPS 競技對戰對 Ping 值與幀數極度敏感"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 3878,
+        "en": "Competitive"
+      }
+    ],
+    "compare": [
+      {
+        "with": "lag",
+        "diff": "Ping／幀數是可量化的具體數值口語表達；Lag 是延遲造成的主觀頓挫「感受」，兩者密切相關但一個講數據、一個講體感。"
+      }
+    ],
+    "related": [
+      "lag",
+      "latency-ping",
+      "frame-rate"
+    ],
+    "design": "中性偏自嘲用語，正常使用不算冒犯；若明顯是找藉口卸責，隊友可能會半開玩笑地吐槽「又來了」。",
+    "tw": "台灣、中國通用「Ping高」「幀數低」，兩岸電競社群用法一致。",
+    "sources": [
+      {
+        "title": "Urban Dictionary: high ping",
+        "url": "https://www.urbandictionary.com/define.php?term=high+ping",
+        "accessed": "2026-09-17",
+        "note": "Something you never, ever want to experience while playing an online game"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "maphack",
+    "zh": "開圖／掛輔（外掛作弊）",
+    "en": "Maphack",
+    "aliases": [
+      "開圖",
+      "掛輔",
+      "透視外掛"
+    ],
+    "cat": "slang",
+    "sub": "操作設備",
+    "short": "用外掛程式看穿被戰爭迷霧遮住的地圖。",
+    "def": "指利用第三方作弊程式，讓玩家能看到原本應該被戰爭迷霧遮蔽的整張地圖、敵方位置或資源分布，是最早期、也最經典的即時戰略與 MMORPG 外掛形式之一，源自《暗黑破壞神II》等早期線上遊戲的外掛文化。「開圖」「掛輔」是玩家對這類作弊行為的統稱，屬於明確違規、會遭到官方封鎖帳號處分的行為。",
+    "features": [
+      "外掛程式透視地圖迷霧",
+      "源自早期即時戰略外掛文化",
+      "明確違規作弊行為",
+      "會遭官方封鎖帳號"
+    ],
+    "examples": [
+      {
+        "title": "暗黑破壞神 II：獄火重生",
+        "en": "Diablo II: Resurrected",
+        "appid": 2536520,
+        "year": 2021,
+        "why": "Maphack 一詞源自原版《暗黑破壞神II》的經典外掛文化"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "anti-cheat",
+        "diff": "開圖／Maphack 是具體的作弊手段之一；反作弊系統（Anti-cheat）是官方用來偵測與防堵包含 Maphack 在內各類外掛的技術機制。"
+      }
+    ],
+    "related": [
+      "anti-cheat"
+    ],
+    "design": "明確帶負面違規意味，教學與企劃文件討論作弊防制時可作為經典案例引用。",
+    "tw": "台灣、中國通用「開圖」「掛輔」「外掛」，Maphack 一詞則是兩岸玩家都直接沿用的英文原詞。",
+    "sources": [
+      {
+        "title": "Urban Dictionary: maphack",
+        "url": "https://www.urbandictionary.com/define.php?term=maphack",
+        "accessed": "2026-09-17",
+        "note": "A mini-program that reveals an entire map of a game area...considered illegal due to their cheating capabilities"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "devs-will",
+    "zh": "廠商聖光／廠商黑幕",
+    "en": "Devs' Will",
+    "aliases": [
+      "廠商聖光",
+      "廠商黑幕"
+    ],
+    "cat": "slang",
+    "sub": "廠商社群",
+    "short": "玩家戲稱遊戲設計中詭異運氣的陰謀論。",
+    "def": "指玩家戲稱遊戲中某些詭異、對自己不利的運氣現象是廠商刻意操控的陰謀，「這次抽卡臉這麼黑，一定是廠商黑幕」是典型例句。這種說法明知多半只是心理錯覺或機率巧合，玩家卻樂此不疲地拿來自嘲或抱怨，反映玩家對隨機性系統（RNG）背後公平性的不信任與焦慮，是一種帶點幽默感的集體吐槽文化。",
+    "features": [
+      "戲稱運氣不佳是廠商陰謀",
+      "反映對RNG公平性的不信任",
+      "明知是心理錯覺仍愛講",
+      "帶幽默自嘲的集體吐槽文化"
+    ],
+    "examples": [
+      {
+        "title": "楓之谷M",
+        "en": "MapleStory M",
+        "appid": 3969080,
+        "year": 2018,
+        "why": "抽卡機率手遊社群常見的黑幕陰謀論吐槽對象"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 113,
+        "en": "Free to Play"
+      }
+    ],
+    "compare": [
+      {
+        "with": "luck-eu-fei",
+        "diff": "廠商黑幕是把運氣不好歸咎於廠商操控的陰謀論；歐洲人／非洲人單純是形容玩家個人運氣傾向的標籤，不涉及對廠商的指控。"
+      }
+    ],
+    "related": [
+      "luck-eu-fei",
+      "rng"
+    ],
+    "design": "帶戲謔自嘲意味，正常抱怨不算冒犯；若在官方客服管道正式提出未經證實的黑幕指控，可能引發爭議。",
+    "tw": "台灣、中國通用「黑幕」「聖光」，反映玩家對抽卡機率系統的共通焦慮心理。",
+    "sources": [
+      {
+        "title": "巴哈姆特哈啦板首頁（廠商與社群話題討論聚集地）",
+        "url": "https://forum.gamer.com.tw/",
+        "accessed": "2026-09-17",
+        "note": "「廠商黑幕」為玩家社群廣泛流傳的陰謀論式吐槽用語，未能於本次搜尋中鎖定單一第三方可引用連結"
+      }
+    ],
+    "status": "unverified"
+  },
+  {
+    "id": "faith-refill",
+    "zh": "信仰充值（更新信仰）",
+    "en": "Faith Refill",
+    "aliases": [
+      "更新信仰"
+    ],
+    "cat": "slang",
+    "sub": "廠商社群",
+    "short": "嘲諷廠商靠持續更新換取玩家持續課金。",
+    "def": "嘲諷手遊廠商「只要持續推出更新、活動或新角色，玩家就會持續對遊戲保持信心並繼續課金」的商業模式，把玩家對遊戲的忠誠度比喻成需要定期「充值」才能維持的信仰。這個說法帶有對服務型遊戲（GaaS）營運手法的批判意味，點出玩家忠誠度與消費行為之間微妙的心理連動關係。",
+    "features": [
+      "嘲諷更新驅動課金的營運模式",
+      "把忠誠度比喻成需充值的信仰",
+      "帶對GaaS營運的批判意味",
+      "點出忠誠度與消費的心理連動"
+    ],
+    "examples": [
+      {
+        "title": "楓之谷M",
+        "en": "MapleStory M",
+        "appid": 3969080,
+        "year": 2018,
+        "why": "長期營運手遊的更新活動節奏是「信仰充值」的典型討論對象"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 113,
+        "en": "Free to Play"
+      }
+    ],
+    "compare": [
+      {
+        "with": "gaas",
+        "diff": "信仰充值是玩家對 GaaS 營運手法的戲謔批評；GaaS（Game as a Service）是這種商業模式本身的正式名稱。"
+      }
+    ],
+    "related": [
+      "gaas",
+      "live-service"
+    ],
+    "design": "帶明確諷刺批評意味，用於討論遊戲商業模式時可作為玩家觀點的代表引用，語氣偏酸但非人身攻擊。",
+    "tw": "台灣、中國通用「信仰充值」，是華語手遊社群對長期服務型遊戲營運手法的共通調侃用語。",
+    "sources": [
+      {
+        "title": "巴哈姆特哈啦板首頁（廠商與社群話題討論聚集地）",
+        "url": "https://forum.gamer.com.tw/",
+        "accessed": "2026-09-17",
+        "note": "「信仰充值」為玩家社群廣泛流傳的調侃用語，未能於本次搜尋中鎖定單一第三方可引用連結"
+      }
+    ],
+    "status": "unverified"
+  },
+  {
+    "id": "delay-tiaopiao",
+    "zh": "跳票",
+    "en": "Delay",
+    "aliases": [
+      "延期",
+      "跳票王"
+    ],
+    "cat": "slang",
+    "sub": "廠商社群",
+    "short": "遊戲預定發售日延後。",
+    "def": "指遊戲原本公布的發售日期延後，「又跳票了」是玩家聽到延期消息時的經典反應，在大型 3A 遊戲開發中幾乎是家常便飯，反映遊戲開發時程高度不可預測的產業現實。部分反覆延期的作品或開發商甚至會被玩家戲稱為「跳票王」，但業界與玩家社群也逐漸有共識：比起趕工上市後的災難級品質（如知名的災難發售案例），合理延期換取更完整的品質通常被視為較負責任的做法。",
+    "features": [
+      "發售日期延後公告",
+      "3A遊戲開發常見現象",
+      "反映開發時程不可預測",
+      "延期常優於趕工上市"
+    ],
+    "examples": [
+      {
+        "title": "艾爾登法環 黑夜君臨",
+        "en": "Elden Ring Nightreign",
+        "appid": 2622380,
+        "year": 2025,
+        "why": "大型 3A 遊戲開發過程中延期公告是常見的產業現象"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "early-access",
+        "diff": "跳票是延後正式發售日期；搶先體驗（Early Access）則是在遊戲尚未完成前就先開放購買遊玩，兩者都涉及開發時程但性質不同。"
+      }
+    ],
+    "related": [
+      "early-access",
+      "crunch"
+    ],
+    "design": "中性偏無奈語氣，玩家聽聞跳票消息時常帶調侃但理解的態度，非惡意攻擊開發商。",
+    "tw": "台灣、中國通用「跳票」，源自票據到期未能兌現的金融用語，借喻成承諾未能兌現。",
+    "sources": [
+      {
+        "title": "巴哈姆特哈啦板首頁（廠商與社群話題討論聚集地）",
+        "url": "https://forum.gamer.com.tw/",
+        "accessed": "2026-09-17",
+        "note": "「跳票」為華語遊戲圈通用口語，未能於本次搜尋中鎖定單一第三方可引用連結"
+      }
+    ],
+    "status": "unverified"
+  },
+  {
+    "id": "refugee-migration",
+    "zh": "難民潮",
+    "en": "Refugee Migration",
+    "aliases": [
+      "難民",
+      "轉服潮"
+    ],
+    "cat": "slang",
+    "sub": "廠商社群",
+    "short": "遊戲出事後玩家集體遷徙到類似作品。",
+    "def": "指某款遊戲發生重大事故（伺服器關閉、重大爭議、營運品質崩壞）後，大量玩家集體遷徙到類似類型或玩法的其他遊戲的現象，戲稱這批玩家是「難民」。「天堂難民」「星城難民」等說法會直接標明來源遊戲，方便社群辨識這批新玩家的背景與偏好，也常被接收方遊戲的營運團隊視為行銷契機。",
+    "features": [
+      "遊戲出事後玩家集體遷徙",
+      "戲稱受影響玩家為難民",
+      "常標明來源遊戲名稱",
+      "接收方常視為行銷契機"
+    ],
+    "examples": [
+      {
+        "title": "楓之谷M",
+        "en": "MapleStory M",
+        "appid": 3969080,
+        "year": 2018,
+        "why": "同類型手遊營運出事時，常見接收其他遊戲難民潮的案例"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "live-service",
+        "diff": "難民潮是玩家因某款服務型遊戲營運問題而遷徙的現象；Live Service（長期營運服務）是這類遊戲的商業模式本身。"
+      }
+    ],
+    "related": [
+      "gaas",
+      "live-service"
+    ],
+    "design": "中性帶點戲謔的社會觀察用語，用於描述玩家群體遷徙現象，非針對個別玩家的冒犯用詞。",
+    "tw": "台灣、中國通用「難民」「難民潮」，是華語遊戲圈對玩家群體遷徙現象的共通比喻。",
+    "sources": [
+      {
+        "title": "巴哈姆特哈啦板首頁（廠商與社群話題討論聚集地）",
+        "url": "https://forum.gamer.com.tw/",
+        "accessed": "2026-09-17",
+        "note": "「難民潮」為玩家社群廣泛流傳的現象描述用語，未能於本次搜尋中鎖定單一第三方可引用連結"
+      }
+    ],
+    "status": "unverified"
+  },
+  {
+    "id": "forum-flooding",
+    "zh": "洗版／洗樓",
+    "en": "Flooding / Spamming",
+    "aliases": [
+      "洗版",
+      "洗樓",
+      "刷屏"
+    ],
+    "cat": "slang",
+    "sub": "廠商社群",
+    "short": "在討論板或聊天室連續發大量訊息。",
+    "def": "指在討論板、聊天室或彈幕頻道連續發送大量訊息，導致其他正常討論被淹沒、版面被灌爆的行為，稱為「洗版」或「洗樓」。可能是玩家情緒宣洩（例如遊戲重大更新後湧入大量抱怨或慶祝訊息），也可能是刻意的惡意行為，多數論壇與聊天室都有防洗版機制（如發文頻率限制）來因應。",
+    "features": [
+      "連續發送大量訊息",
+      "淹沒正常討論版面",
+      "可能是情緒宣洩或惡意行為",
+      "多有防洗版機制因應"
+    ],
+    "examples": [
+      {
+        "title": "英雄聯盟",
+        "en": "League of Legends",
+        "appid": null,
+        "year": 2009,
+        "why": "重大版本更新公告下方常出現大量洗版留言"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "forum-agenda",
+        "diff": "洗版是單純的訊息量灌爆行為；帶風向／釣魚則是有意圖地引導討論方向，兩者都影響討論品質但手法不同。"
+      }
+    ],
+    "related": [
+      "forum-agenda"
+    ],
+    "design": "中性到負面視意圖而定：情緒宣洩式洗版較能被理解，惡意灌版則明確違反多數社群規範。",
+    "tw": "台灣、中國通用「洗版」「洗樓」，中國圈也常說「刷屏」，用法相通。",
+    "sources": [
+      {
+        "title": "巴哈姆特哈啦板首頁（廠商與社群話題討論聚集地）",
+        "url": "https://forum.gamer.com.tw/",
+        "accessed": "2026-09-17",
+        "note": "「洗版」為華語網路論壇通用口語，未能於本次搜尋中鎖定單一第三方可引用連結"
+      }
+    ],
+    "status": "unverified"
+  },
+  {
+    "id": "forum-agenda",
+    "zh": "釣魚／帶風向",
+    "en": "Fishing / Agenda Pushing",
+    "aliases": [
+      "釣魚文",
+      "帶風向",
+      "帶節奏"
+    ],
+    "cat": "slang",
+    "sub": "廠商社群",
+    "short": "發文試探反應或刻意引導討論方向。",
+    "def": "「釣魚」指發布誇張或試探性的內容來觀察社群反應（俗稱「釣魚文」）；「帶風向」則是更進一步，刻意透過發文、留言或水軍操作引導公眾討論走向特定立場，常見於遊戲爭議事件、官方公關危機或競品之間的輿論攻防。兩者都涉及對社群輿論的操弄，是討論版治理與媒體識讀教育經常提及的現象。",
+    "features": [
+      "釣魚文試探社群反應",
+      "帶風向刻意引導輿論立場",
+      "常見於爭議事件公關攻防",
+      "涉及輿論操弄需媒體識讀"
+    ],
+    "examples": [
+      {
+        "title": "楓之谷M",
+        "en": "MapleStory M",
+        "appid": 3969080,
+        "year": 2018,
+        "why": "營運爭議事件常見帶風向與釣魚文交織的輿論攻防戰"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "forum-flooding",
+        "diff": "帶風向／釣魚是有意圖地操弄討論方向；洗版是單純的訊息量灌爆，不一定涉及輿論引導意圖。"
+      }
+    ],
+    "related": [
+      "forum-flooding"
+    ],
+    "design": "帶負面意味，用於指控他人帶風向時需注意證據與場合，避免淪為無憑無據的人身攻擊。",
+    "tw": "台灣、中國通用「帶風向」「釣魚文」，是華語網路論壇治理討論中常見的核心詞彙。",
+    "sources": [
+      {
+        "title": "巴哈姆特哈啦板首頁（廠商與社群話題討論聚集地）",
+        "url": "https://forum.gamer.com.tw/",
+        "accessed": "2026-09-17",
+        "note": "「帶風向」為華語網路社群通用口語，未能於本次搜尋中鎖定單一第三方可引用連結"
+      }
+    ],
+    "status": "unverified"
+  },
+  {
+    "id": "masterpiece-trash",
+    "zh": "神作／雷作",
+    "en": "Masterpiece / Trash Game",
+    "aliases": [
+      "神Game",
+      "雷作",
+      "垃圾Game"
+    ],
+    "cat": "slang",
+    "sub": "廠商社群",
+    "short": "極高評價與極低評價的兩極用語。",
+    "def": "「神作」（神Game）是玩家對一款遊戲給予極高評價時的用語，例如「這款簡直是神作」；相對的「雷作」（垃圾Game）則是對品質極差、體驗踩雷作品的貶稱。兩者是玩家評價光譜的兩個極端，常見於玩後心得、討論版標題或影音實況的斗大標題，帶有強烈的主觀情緒色彩，與更中性的評分系統（如 Steam 評價等級）形成對照。",
+    "features": [
+      "神作＝極高評價",
+      "雷作／垃圾Game＝極低評價",
+      "評價光譜的兩極端",
+      "帶強烈主觀情緒色彩"
+    ],
+    "examples": [
+      {
+        "title": "艾爾登法環",
+        "en": "ELDEN RING",
+        "appid": 1245620,
+        "year": 2022,
+        "why": "社群普遍公認的「神作」代表案例之一"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "steam-review-tiers",
+        "diff": "神作／雷作是玩家主觀口語評價用語；Steam 評價等級（如壓倒性好評）是平台根據大量評論統計出的相對客觀分級系統。"
+      }
+    ],
+    "related": [
+      "steam-review-tiers"
+    ],
+    "design": "情緒性強烈的評價用語，適合心得分享場合；正式評測或企劃文件宜搭配具體理由，避免流於情緒化標籤。",
+    "tw": "台灣、中國通用「神作」「雷作」，兩岸玩家評論文化中都是最常見的兩極評價標籤。",
+    "sources": [
+      {
+        "title": "巴哈姆特哈啦板首頁（廠商與社群話題討論聚集地）",
+        "url": "https://forum.gamer.com.tw/",
+        "accessed": "2026-09-17",
+        "note": "「神作／雷作」為華語遊戲評論圈通用口語，未能於本次搜尋中鎖定單一第三方可引用連結"
+      }
+    ],
+    "status": "unverified"
+  },
+  {
+    "id": "landmine-teammate",
+    "zh": "雷包（豬隊友）",
+    "en": "Landmine (Bad Teammate)",
+    "aliases": [
+      "豬隊友",
+      "雷"
+    ],
+    "cat": "slang",
+    "sub": "廠商社群",
+    "short": "戲稱隊友很爛、拖累團隊。",
+    "def": "戲稱隊伍中表現很差、頻頻犯錯拖累團隊的隊友為「雷包」，就像走在路上不小心踩到地雷一樣，被分配到這種隊友純屬「運氣不好」。「這局遇到四個雷包」是常見的賽後抱怨句型，反映競技遊戲配對系統中玩家對隊友素質難以掌控的無奈心情，是全球競技遊戲玩家共通的抱怨對象。",
+    "features": [
+      "戲稱隊友表現很差",
+      "比喻成不小心踩到的地雷",
+      "反映配對系統的無奈",
+      "賽後抱怨的常見句型"
+    ],
+    "examples": [
+      {
+        "title": "英雄聯盟",
+        "en": "League of Legends",
+        "appid": null,
+        "year": 2009,
+        "why": "單排配對制度下，隊友素質參差是玩家最常見的抱怨來源"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 5055,
+        "en": "eSports"
+      }
+    ],
+    "compare": [
+      {
+        "with": "feed",
+        "diff": "雷包是對隊友整體表現差的泛稱評價；Feed（送頭）是造成雷包評價的其中一種具體行為表現。"
+      }
+    ],
+    "related": [
+      "feed",
+      "toxic"
+    ],
+    "design": "帶輕度貶意的抱怨用語，玩家間吐槽隊友時常用；直接對隊友本人使用可能引發衝突，需注意場合。",
+    "tw": "台灣慣用「雷包」「豬隊友」；中國圈也用「豬隊友」，兩岸用法幾乎一致。",
+    "sources": [
+      {
+        "title": "巴哈姆特哈啦板首頁（廠商與社群話題討論聚集地）",
+        "url": "https://forum.gamer.com.tw/",
+        "accessed": "2026-09-17",
+        "note": "「雷包」為華語競技遊戲社群通用抱怨用語，未能於本次搜尋中鎖定單一第三方可引用連結"
+      }
+    ],
+    "status": "unverified"
+  },
+  {
+    "id": "pro-player-slang",
+    "zh": "大佬／巴哥／大神",
+    "en": "Pro Player (Honorific)",
+    "aliases": [
+      "大神",
+      "巴哥",
+      "大佬"
+    ],
+    "cat": "slang",
+    "sub": "廠商社群",
+    "short": "對高手玩家的尊稱。",
+    "def": "指對技術高超、令人佩服的玩家的尊稱，「大佬」「大神」是通用尊稱，「巴哥」則是台灣巴哈姆特站上特有的尊稱說法（源自「巴哈的前輩／哥」）。這組詞彙通常帶正面崇拜、請教的語氣，與帶貶意的 Noob（菜鳥）、友善但中性的萌新，共同構成華語遊戲圈對玩家技術等級的完整稱呼光譜。",
+    "features": [
+      "對高手玩家的尊稱",
+      "「巴哥」為巴哈姆特站內特有用法",
+      "帶正面崇拜請教語氣",
+      "與Noob、萌新構成完整稱呼光譜"
+    ],
+    "examples": [
+      {
+        "title": "英雄聯盟",
+        "en": "League of Legends",
+        "appid": null,
+        "year": 2009,
+        "why": "高分段玩家在社群討論中常被尊稱為大神或大佬"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "noob",
+        "diff": "大佬／大神是對高手的正面尊稱；Noob 是對技術差又不願學習者的貶意稱呼，兩者是玩家技術等級光譜的兩端。"
+      }
+    ],
+    "related": [
+      "noob",
+      "newbie-cute"
+    ],
+    "design": "正面尊稱用語，沒有冒犯疑慮，適合用於請教高手或稱讚隊友時使用。",
+    "tw": "「巴哥」為台灣巴哈姆特站特有用法，「大佬」「大神」則是台灣、中國通用的尊稱。",
+    "sources": [
+      {
+        "title": "巴哈姆特哈啦板首頁（廠商與社群話題討論聚集地）",
+        "url": "https://forum.gamer.com.tw/",
+        "accessed": "2026-09-17",
+        "note": "「大佬／大神／巴哥」為華語遊戲討論板通用尊稱，未能於本次搜尋中鎖定單一第三方可引用連結"
+      }
+    ],
+    "status": "unverified"
+  },
+  {
+    "id": "newbie-cute",
+    "zh": "萌新",
+    "en": "Newbie (affectionate)",
+    "aliases": [
+      "新人",
+      "小萌新"
+    ],
+    "cat": "slang",
+    "sub": "廠商社群",
+    "short": "對新手玩家的可愛稱呼。",
+    "def": "指對新手玩家帶有喜愛、包容意味的暱稱，把「萌」（可愛）與「新」（新手）結合，刻意營造友善不帶攻擊性的語氣，與帶貶意的 Noob（菜鳥）形成鮮明對比。這個詞的流行反映部分遊戲社群有意識地想要塑造對新手更友善的氛圍，鼓勵資深玩家用鼓勵取代嘲諷來對待剛入坑的玩家。",
+    "features": [
+      "對新手玩家的可愛暱稱",
+      "刻意營造友善不帶攻擊性",
+      "與Noob形成鮮明對比",
+      "反映社群友善新手的氛圍營造"
+    ],
+    "examples": [
+      {
+        "title": "楓之谷M",
+        "en": "MapleStory M",
+        "appid": 3969080,
+        "year": 2018,
+        "why": "手遊社群常見用「萌新」歡迎與引導新加入的玩家"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "noob",
+        "diff": "萌新是友善、包容意味的新手稱呼；Noob 帶明顯貶意，指技術差又不願學習的玩家，兩者語氣完全相反。"
+      }
+    ],
+    "related": [
+      "noob",
+      "pro-player-slang"
+    ],
+    "design": "正面友善用語，沒有冒犯疑慮，適合社群經營與新手引導情境使用。",
+    "tw": "台灣、中國通用「萌新」，是中國網路「萌文化」影響下產生、後被台灣玩家廣泛採用的詞彙。",
+    "sources": [
+      {
+        "title": "巴哈姆特哈啦板首頁（廠商與社群話題討論聚集地）",
+        "url": "https://forum.gamer.com.tw/",
+        "accessed": "2026-09-17",
+        "note": "「萌新」為華語遊戲社群通用暱稱，未能於本次搜尋中鎖定單一第三方可引用連結"
+      }
+    ],
+    "status": "unverified"
+  },
+  {
+    "id": "platinum",
+    "zh": "白金（全成就）",
+    "en": "Platinum Trophy",
+    "aliases": [
+      "白金獎盃",
+      "全成就"
+    ],
+    "cat": "slang",
+    "sub": "新增：速通與遊戲文化",
+    "short": "拿到PlayStation獎盃系統的最高等級獎盃。",
+    "def": "源自 PlayStation 獎盃系統，玩家必須解鎖遊戲中所有銅、銀、金獎盃後，才能自動獲得代表「完全制霸」的白金獎盃，「把這款遊戲白金了」成為玩家間形容 100% 完成度的通用說法，即使在沒有官方獎盃系統的平台（如 Steam 成就），玩家也會借用「白金」一詞泛指拿下遊戲全部成就與隱藏內容。",
+    "features": [
+      "PlayStation獎盃系統最高等級",
+      "需解鎖所有其他獎盃才能獲得",
+      "已泛化形容任何平台的全成就",
+      "反映玩家對完成度的追求"
+    ],
+    "examples": [
+      {
+        "title": "Hollow Knight",
+        "en": "Hollow Knight",
+        "appid": 367520,
+        "year": 2017,
+        "why": "成就收集要素豐富，社群常討論「白金」路線攻略"
+      },
+      {
+        "title": "Hades",
+        "en": "Hades",
+        "appid": 1145360,
+        "year": 2020,
+        "why": "Roguelike 遊戲的全成就收集通常需要投入大量重複遊玩"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "achievement",
+        "diff": "白金是「集齊全部獎盃／成就」的最終里程碑狀態；成就（Achievement）是構成白金過程中的個別小目標。"
+      }
+    ],
+    "related": [
+      "achievement"
+    ],
+    "design": "正面成就導向用語，沒有冒犯疑慮，適合玩家分享遊玩成果時使用。",
+    "tw": "台灣、中國通用「白金」，源自 PlayStation 官方獎盃色階命名（銅、銀、金、白金）。",
+    "sources": [
+      {
+        "title": "Urban Dictionary: platinum",
+        "url": "https://www.urbandictionary.com/define.php?term=platinum",
+        "accessed": "2026-09-17",
+        "note": "To completely finish something, e.g. a video game；例句 platinumed Ghost of Tsushima"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "backlog",
+    "zh": "積庫存（Backlog）",
+    "en": "Backlog",
+    "aliases": [
+      "遊戲庫存",
+      "買了不玩"
+    ],
+    "cat": "slang",
+    "sub": "新增：速通與遊戲文化",
+    "short": "買了一堆還沒玩的遊戲堆積如山。",
+    "def": "指玩家帳號庫存中累積了大量已購買卻尚未開始或尚未玩完的遊戲，常見於 Steam 特賣季後「買了比玩的還快」的矛盾現象。這個現象在玩家社群中常被戲稱為一種「幸福的煩惱」，甚至衍生出「Backlog 清庫存挑戰」等自我督促活動，反映當代玩家面對海量遊戲選擇時，時間與購買慾望之間的失衡。",
+    "features": [
+      "已購買但尚未玩完的遊戲堆積",
+      "常見於特賣季後",
+      "戲稱為幸福的煩惱",
+      "反映時間與購買慾望失衡"
+    ],
+    "examples": [
+      {
+        "title": "Slay the Spire",
+        "en": "Slay the Spire",
+        "appid": 646570,
+        "year": 2019,
+        "why": "常見於特賣季衝動購買後堆積在庫存中的獨立遊戲代表"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "game-lifecycle-slang",
+        "diff": "Backlog 是尚未被補坑、堆積如山的待玩清單；補坑則是實際開始玩其中一款遊戲的動作。"
+      }
+    ],
+    "related": [
+      "game-lifecycle-slang"
+    ],
+    "design": "帶自嘲意味的中性用語，玩家分享自己龐大庫存時常帶苦笑，沒有冒犯疑慮。",
+    "tw": "台灣、中國、歐美通用「Backlog」，是 Steam 特賣文化興起後全球玩家共通的自嘲用語。",
+    "sources": [
+      {
+        "title": "Wiktionary: backlog",
+        "url": "https://en.wiktionary.org/wiki/backlog",
+        "accessed": "2026-09-17",
+        "note": "例句 Kyle purchased a new one despite having a backlog of video games that he hasn't played"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "gaming-drought",
+    "zh": "遊戲荒",
+    "en": "Gaming Drought",
+    "aliases": [
+      "沒遊戲玩"
+    ],
+    "cat": "slang",
+    "sub": "新增：速通與遊戲文化",
+    "short": "找不到想玩的遊戲的空窗期。",
+    "def": "指玩家手邊沒有特別想玩的遊戲、陷入空窗期的狀態，即使庫存（Backlog）裡其實堆了不少遊戲，仍提不起興趣開啟任何一款，戲稱像久旱不雨的「荒年」。「遊戲荒」常出現在大作發售空窗期，或玩家對現有作品感到疲乏卻還找不到下一個心頭好的過渡階段，是玩家社群常見的閒聊話題。",
+    "features": [
+      "找不到想玩的遊戲",
+      "即使庫存充足仍提不起興趣",
+      "常見於大作發售空窗期",
+      "屬玩家社群常見閒聊話題"
+    ],
+    "examples": [
+      {
+        "title": "Stardew Valley",
+        "en": "Stardew Valley",
+        "appid": 413150,
+        "year": 2016,
+        "why": "常被推薦作為遊戲荒時期打發時間的輕鬆選項"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "backlog",
+        "diff": "遊戲荒是「沒有想玩的東西」的心理狀態；Backlog 是「有很多沒玩的東西」的庫存現實，兩者常同時發生，形成矛盾又貼切的玩家日常。"
+      }
+    ],
+    "related": [
+      "backlog"
+    ],
+    "design": "中性偏無奈的自我描述用語，沒有冒犯疑慮，社群常用來徵求推薦遊戲。",
+    "tw": "台灣、中國通用「遊戲荒」，用法一致，是華語遊戲論壇常見的討論串標題。",
+    "sources": [
+      {
+        "title": "PTT Steam 板（遊戲文化討論聚集地）",
+        "url": "https://www.ptt.cc/bbs/Steam/index.html",
+        "accessed": "2026-09-17",
+        "note": "「遊戲荒」為華語玩家社群廣泛流傳的自我狀態描述詞，未能於本次搜尋中鎖定單一第三方可引用連結"
+      }
+    ],
+    "status": "unverified"
+  },
+  {
+    "id": "gaming-impotence",
+    "zh": "電子陽痿",
+    "en": "\"Gaming Impotence\"",
+    "aliases": [
+      "電子ED"
+    ],
+    "cat": "slang",
+    "sub": "新增：速通與遊戲文化",
+    "short": "買了遊戲卻提不起勁玩的狀態。",
+    "def": "戲稱玩家買了心心念念的遊戲，實際安裝後卻怎麼也提不起勁打開、甚至連開場動畫都懶得看完的現象，借用生理詞彙「陽痿」（提不起「性」致）諷刺式比喻成對遊戲提不起玩的興致。這個詞比「遊戲荒」更具體指向「已經擁有卻無法行動」的矛盾狀態，帶有較重的自嘲甚至略顯低俗的幽默色彩，是網路論壇特有的誇張修辭。",
+    "features": [
+      "買了遊戲卻提不起勁玩",
+      "借用生理詞彙誇張比喻",
+      "比遊戲荒更聚焦於行動癱瘓",
+      "帶低俗幽默色彩的網路修辭"
+    ],
+    "examples": [
+      {
+        "title": "Slay the Spire",
+        "en": "Slay the Spire",
+        "appid": 646570,
+        "year": 2019,
+        "why": "特賣衝動購買後常見的「買了卻沒打開」案例類型"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "gaming-drought",
+        "diff": "電子陽痿特指「已擁有卻無法行動打開」的狀態；遊戲荒則是更廣泛的「找不到想玩的東西」的空窗期，不限定是否已擁有。"
+      }
+    ],
+    "related": [
+      "gaming-drought",
+      "backlog"
+    ],
+    "design": "誇張自嘲用語，帶低俗幽默色彩，適合輕鬆社群閒聊，正式教學或企劃文件不建議使用此說法，可用「購後怠玩現象」等中性替代描述。",
+    "tw": "台灣、中國網路論壇皆可見此說法，屬較邊緣、非正式的鄉民用語，非主流媒體會採用的詞彙。",
+    "sources": [
+      {
+        "title": "PTT Steam 板（遊戲文化討論聚集地）",
+        "url": "https://www.ptt.cc/bbs/Steam/index.html",
+        "accessed": "2026-09-17",
+        "note": "「電子陽痿」為網路論壇邊緣流傳的誇張自嘲用語，未能於本次搜尋中鎖定單一第三方可引用連結"
+      }
+    ],
+    "status": "unverified"
+  },
+  {
+    "id": "hooked",
+    "zh": "上頭",
+    "en": "Hooked",
+    "aliases": [
+      "上癮",
+      "很上頭"
+    ],
+    "cat": "slang",
+    "sub": "新增：速通與遊戲文化",
+    "short": "玩得停不下來、腦袋整個陷進去。",
+    "def": "形容玩家對某款遊戲玩得欲罷不能、腦袋整個陷進去的狀態，「上頭」比單純的「好玩」語氣更強烈，暗示已經到了會犧牲睡眠、影響日常作息的沉迷程度，但通常帶正面稱讚遊戲設計成功抓住玩家的意味，而非負面的成癮批評。這個詞近年也廣泛用於形容短影音、直播等其他數位娛樂內容。",
+    "features": [
+      "形容欲罷不能的沉迷狀態",
+      "語氣比「好玩」更強烈",
+      "通常帶正面稱讚遊戲設計的意味",
+      "近年也廣泛用於其他數位娛樂"
+    ],
+    "examples": [
+      {
+        "title": "吸血鬼倖存者",
+        "en": "Vampire Survivors",
+        "appid": 1794680,
+        "year": 2022,
+        "why": "「再一輪就好」的核心迴圈設計是公認容易讓人上頭的代表作"
+      },
+      {
+        "title": "Balatro",
+        "en": "Balatro",
+        "appid": 2379780,
+        "year": 2024,
+        "why": "牌組構築與隨機性的組合讓玩家形容打到停不下來"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "one-more-turn",
+        "diff": "上頭是形容整體沉迷投入的狀態；「再玩一回合」（One More Turn）是導致上頭最經典的具體心理機制之一。"
+      }
+    ],
+    "related": [
+      "one-more-turn",
+      "flow-state"
+    ],
+    "design": "正面稱讚用語，用於形容遊戲設計成功；若用於描述現實生活中影響作息的過度沉迷，則帶提醒與自我警惕的意味。",
+    "tw": "台灣、中國通用「上頭」，原用於形容飲酒或激動情緒的狀態，近年廣泛借用到遊戲與數位內容語境。",
+    "sources": [
+      {
+        "title": "PTT Steam 板（遊戲文化討論聚集地）",
+        "url": "https://www.ptt.cc/bbs/Steam/index.html",
+        "accessed": "2026-09-17",
+        "note": "「上頭」為華語網路廣泛流傳的沉迷狀態形容詞，未能於本次搜尋中鎖定單一第三方可引用連結"
+      }
+    ],
+    "status": "unverified"
+  },
+  {
+    "id": "buddha-mode",
+    "zh": "佛系",
+    "en": "\"Buddha Mode\" (Zen Playstyle)",
+    "aliases": [
+      "佛系玩家",
+      "隨緣"
+    ],
+    "cat": "slang",
+    "sub": "新增：速通與遊戲文化",
+    "short": "不強求輸贏、抽卡、進度的淡然心態。",
+    "def": "形容玩家抱持淡然、隨緣、不強求的心態遊玩，不在意輸贏、不執著抽卡出貨、不追求進度排名，一切「隨緣就好」。這個詞源自中國網路對年輕世代「不爭不搶、順其自然」生活態度的流行描述（佛系青年），後被廣泛借用到遊戲語境，形容一種與「肝帝」「課金戰士」相對、投入度較低但仍持續遊玩的玩家類型。",
+    "features": [
+      "淡然隨緣不強求的心態",
+      "不執著輸贏或抽卡結果",
+      "源自中國網路「佛系青年」流行語",
+      "與肝帝、重課玩家形成對比"
+    ],
+    "examples": [
+      {
+        "title": "Stardew Valley",
+        "en": "Stardew Valley",
+        "appid": 413150,
+        "year": 2016,
+        "why": "步調悠閒、沒有強制競爭壓力的代表作，常吸引佛系玩家"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 113,
+        "en": "Free to Play"
+      }
+    ],
+    "compare": [
+      {
+        "with": "liver-grind",
+        "diff": "佛系是低投入度、不強求的遊玩心態；肝／爆肝則是高投入度、拚命追求進度的遊玩心態，兩者是投入程度光譜的兩端。"
+      }
+    ],
+    "related": [
+      "liver-grind",
+      "casual-vs-hardcore"
+    ],
+    "design": "中性偏正面的自我標籤，玩家用於形容自己的遊玩心態時沒有冒犯疑慮，帶輕鬆自嘲的幽默感。",
+    "tw": "台灣、中國通用「佛系」，源頭是中國網路流行語「佛系青年」，台灣約在同時期廣泛引用。",
+    "sources": [
+      {
+        "title": "PTT Steam 板（遊戲文化討論聚集地）",
+        "url": "https://www.ptt.cc/bbs/Steam/index.html",
+        "accessed": "2026-09-17",
+        "note": "「佛系」源自中國網路流行語「佛系青年」，遊戲語境的獨立可查證來源未能於本次搜尋中確認"
+      }
+    ],
+    "status": "unverified"
+  },
+  {
+    "id": "cloud-gamer",
+    "zh": "雲玩家",
+    "en": "\"Cloud Gamer\" (Armchair Player)",
+    "aliases": [
+      "雲遊戲玩家（觀看意）"
+    ],
+    "cat": "slang",
+    "sub": "新增：速通與遊戲文化",
+    "short": "沒實際玩過、只靠看實況了解遊戲的人。",
+    "def": "指沒有實際購買或遊玩某款遊戲，卻透過觀看他人實況、影片剪輯就自認對遊戲內容、劇情、操作瞭若指掌，甚至能參與討論、評論優劣的玩家，帶輕度貶意，暗示其發言缺乏第一手實際體驗的根基。需與技術名詞「雲端遊戲」（Cloud Gaming，透過串流技術在雲端伺服器運算遊戲畫面）區分，兩者拼字相似但意義完全不同。",
+    "features": [
+      "未實際遊玩只靠看實況",
+      "自認熟悉遊戲內容",
+      "帶輕度貶意暗示發言缺根基",
+      "需與技術名詞Cloud Gaming區分"
+    ],
+    "examples": [
+      {
+        "title": "艾爾登法環",
+        "en": "ELDEN RING",
+        "appid": 1245620,
+        "year": 2022,
+        "why": "高難度、高討論度的作品常見大量透過實況了解劇情的雲玩家"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "cloud-gaming",
+        "diff": "雲玩家是形容「沒玩過只看實況」的玩家身分，是社群黑話；雲端遊戲（Cloud Gaming）是透過雲端伺服器串流運算的技術名詞，兩者僅字面相似，意義完全不同。"
+      },
+      {
+        "with": "spectator-replay",
+        "diff": "雲玩家強調「只看不玩卻自認很懂」的身分標籤；觀眾／回放（Spectator）則是中性描述觀看比賽或直播的行為本身，不帶評價。"
+      }
+    ],
+    "related": [
+      "cloud-gaming",
+      "spectator-replay"
+    ],
+    "design": "帶輕度貶意，常用於反駁對方沒有實際遊玩經驗卻大放厥詞；過度使用可能演變成排他性的「你沒玩過就沒資格說話」式攻擊，需注意場合。",
+    "tw": "台灣、中國通用「雲玩家」，是實況與影音平台興起後才出現的新興用語，與傳統「雲端運算」技術用語同形異義。",
+    "sources": [
+      {
+        "title": "PTT Steam 板（遊戲文化討論聚集地）",
+        "url": "https://www.ptt.cc/bbs/Steam/index.html",
+        "accessed": "2026-09-17",
+        "note": "「雲玩家」為華語遊戲社群廣泛流傳的身分標籤用語，未能於本次搜尋中鎖定單一第三方可引用連結"
+      }
+    ],
+    "status": "unverified"
+  },
+  {
+    "id": "fat-finger",
+    "zh": "手殘",
+    "en": "\"Fat Finger\" (Clumsy Hands)",
+    "aliases": [
+      "手殘黨",
+      "手殘癌"
+    ],
+    "cat": "slang",
+    "sub": "新增：速通與遊戲文化",
+    "short": "自嘲操作技術差、手忙腳亂。",
+    "def": "自嘲操作反應差、常常按錯鍵、手忙腳亂失誤連連的玩家，「手殘」是華語遊戲圈最普及的自我調侃用語之一，程度輕於帶貶意的 Noob（因為通常是自稱而非攻擊他人）。「手殘黨」則進一步把這類玩家歸類成一個帶認同感的族群，常見於強調精準操作的動作遊戲或音樂節奏遊戲社群中互相取暖。",
+    "features": [
+      "自嘲操作反應差",
+      "常見自稱而非攻擊他人",
+      "程度輕於Noob",
+      "「手殘黨」帶族群認同感"
+    ],
+    "examples": [
+      {
+        "title": "Celeste",
+        "en": "Celeste",
+        "appid": 504230,
+        "year": 2018,
+        "why": "高精準度平台動作遊戲，手殘玩家的自嘲重災區"
+      },
+      {
+        "title": "隻狼：暗影雙死",
+        "en": "Sekiro: Shadows Die Twice",
+        "appid": 814380,
+        "year": 2019,
+        "why": "高難度格擋節奏要求，是手殘族群公認的試煉場"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "noob",
+        "diff": "手殘通常是輕鬆自嘲、多用於自稱；Noob 帶明顯貶意，多用於指責他人技術差又不願進步。"
+      }
+    ],
+    "related": [
+      "noob",
+      "casual-vs-hardcore"
+    ],
+    "design": "帶自嘲意味的輕鬆用語，用於自稱沒有冒犯疑慮；若用於嘲諷他人操作技術，語氣會轉為輕度貶低，需視關係親疏拿捏。",
+    "tw": "台灣、中國通用「手殘」「手殘黨」，是華語遊戲圈最普及的自我調侃詞彙之一。",
+    "sources": [
+      {
+        "title": "PTT Steam 板（遊戲文化討論聚集地）",
+        "url": "https://www.ptt.cc/bbs/Steam/index.html",
+        "accessed": "2026-09-17",
+        "note": "「手殘」為華語遊戲社群廣泛流傳的自嘲用語，未能於本次搜尋中鎖定單一第三方可引用連結"
+      }
+    ],
+    "status": "unverified"
+  },
+  {
+    "id": "kaihuang",
+    "zh": "開荒",
+    "en": "\"Kaihuang\" (First Clear / Server Launch Rush)",
+    "aliases": [
+      "開荒期",
+      "首刷"
+    ],
+    "cat": "slang",
+    "sub": "新增：速通與遊戲文化",
+    "short": "在沒有攻略可查的階段摸索破關。",
+    "def": "原指農業上開墾荒地，借用到遊戲語境有兩種常見用法：一是指副本或關卡剛推出、還沒有任何攻略可參考時，玩家團隊必須自行摸索破解的過程（「開荒團」即專門挑戰未解關卡的隊伍）；二是泛指一款遊戲剛開服的最初階段，所有玩家進度都從零開始、資訊極度不對稱的黃金時期。兩種用法都強調「先行者摸索未知」的挑戰性與成就感。",
+    "features": [
+      "原指農業開墾荒地",
+      "指副本首破的摸索過程",
+      "也指遊戲剛開服的初期階段",
+      "強調先行者的挑戰與成就感"
+    ],
+    "examples": [
+      {
+        "title": "RO仙境傳說：新世代的誕生",
+        "en": "Ragnarok: New Generation",
+        "appid": 4279820,
+        "year": 2023,
+        "why": "MMORPG新服開放時的開荒期是玩家社群熱議話題"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "speedrun",
+        "diff": "開荒是在完全沒有攻略、資訊不對稱下摸索破關；速通則是在攻略與路線都已確立的基礎上追求最快時間，兩者對「未知程度」的要求相反。"
+      }
+    ],
+    "related": [
+      "speedrun",
+      "boss-design"
+    ],
+    "design": "中性偏正面用語，形容先行者的挑戰精神，沒有冒犯疑慮，適合MMORPG與副本內容討論使用。",
+    "tw": "台灣、中國通用「開荒」，源自中國網路遊戲圈對 MMORPG 公會攻堅未知內容的稱呼，後被台灣玩家廣泛採用。",
+    "sources": [
+      {
+        "title": "PTT Steam 板（遊戲文化討論聚集地）",
+        "url": "https://www.ptt.cc/bbs/Steam/index.html",
+        "accessed": "2026-09-17",
+        "note": "「開荒」為華語MMORPG社群通用術語，未能於本次搜尋中鎖定單一第三方可引用連結"
+      }
+    ],
+    "status": "unverified"
+  },
+  {
+    "id": "graduated",
+    "zh": "畢業",
+    "en": "\"Graduated\" (Fully Built Character)",
+    "aliases": [
+      "畢業角色",
+      "滿配"
+    ],
+    "cat": "slang",
+    "sub": "新增：速通與遊戲文化",
+    "short": "角色裝備練度已練滿、沒有進步空間。",
+    "def": "指手遊或 RPG 角色的裝備、技能、命座（突破）等練度已經全部練滿，達到該角色理論上的最強狀態，沒有再繼續投入資源的空間，戲稱其已經「畢業」離開養成階段。這個比喻把角色養成路程比擬成學生求學過程，「畢業」代表修完所有學分、可以功成身退，是重度課金或長期投入玩家最有成就感的里程碑之一。",
+    "features": [
+      "裝備技能練度已練滿",
+      "沒有再投入資源的空間",
+      "借喻學生求學畢業",
+      "是玩家重要的成就感里程碑"
+    ],
+    "examples": [
+      {
+        "title": "楓之谷M",
+        "en": "MapleStory M",
+        "appid": 3969080,
+        "year": 2018,
+        "why": "角色裝備配置有明確的終點目標，達成後常被形容為畢業"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 113,
+        "en": "Free to Play"
+      }
+    ],
+    "compare": [
+      {
+        "with": "endgame-content",
+        "diff": "畢業是角色個體養成達到終點的狀態描述；endgame content 是遊戲系統設計上提供給已達終點玩家的內容規劃，兩者角度不同。"
+      }
+    ],
+    "related": [
+      "endgame-content",
+      "gaming-payment-slang"
+    ],
+    "design": "正面成就感用語，沒有冒犯疑慮，玩家分享畢業成果時常帶炫耀又欣慰的複雜情緒。",
+    "tw": "台灣、中國通用「畢業」，是手遊養成系統玩家圈廣泛流傳的比喻詞彙。",
+    "sources": [
+      {
+        "title": "PTT Steam 板（遊戲文化討論聚集地）",
+        "url": "https://www.ptt.cc/bbs/Steam/index.html",
+        "accessed": "2026-09-17",
+        "note": "「畢業」為華語手遊養成社群通用比喻用語，未能於本次搜尋中鎖定單一第三方可引用連結"
+      }
+    ],
+    "status": "unverified"
+  },
+  {
+    "id": "meta-slave",
+    "zh": "跟風（Meta Slave）",
+    "en": "Meta Slave",
+    "aliases": [
+      "跟風仔",
+      "無腦跟風"
+    ],
+    "cat": "slang",
+    "sub": "新增：速通與遊戲文化",
+    "short": "只跟著版本強度排行選角，沒有自己想法。",
+    "def": "指只盲目跟隨當前版本強度排行榜（Tier List）或版本答案來選擇角色、裝備，完全不考慮自己是否真心喜歡、擅長，甚至換角速度比版本更新還快的玩家，帶輕度貶意，暗示缺乏自己的遊戲品味與堅持。與追求版本答案的實用主義玩家相對的，是堅持玩自己喜愛角色、即使強度不佳也不離不棄的「本命黨」。",
+    "features": [
+      "盲目跟隨版本強度排行",
+      "換角速度快過版本更新",
+      "帶輕度貶意暗示缺乏品味",
+      "與堅持本命角色的玩家相對"
+    ],
+    "examples": [
+      {
+        "title": "英雄聯盟",
+        "en": "League of Legends",
+        "appid": null,
+        "year": 2009,
+        "why": "每個版本強度排行公布後，社群常討論跟風選角現象"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 5055,
+        "en": "eSports"
+      }
+    ],
+    "compare": [
+      {
+        "with": "version-answer",
+        "diff": "版本答案是客觀形容「當前最強選擇」這個對象；跟風（Meta Slave）是主觀評價「一味追逐版本答案的玩家心態」，帶批評意味。"
+      }
+    ],
+    "related": [
+      "version-answer",
+      "tier-list"
+    ],
+    "design": "帶輕度貶意，用於評論玩家選角動機，正式討論建議搭配具體脈絡，避免淪為無憑無據的人身攻擊。",
+    "tw": "台灣、中國通用「跟風」，用於電競與手遊社群討論選角策略時的常見評價用語。",
+    "sources": [
+      {
+        "title": "PTT Steam 板（遊戲文化討論聚集地）",
+        "url": "https://www.ptt.cc/bbs/Steam/index.html",
+        "accessed": "2026-09-17",
+        "note": "「跟風」為華語電競社群通用評價用語，未能於本次搜尋中鎖定單一第三方可引用連結"
+      }
+    ],
+    "status": "unverified"
+  },
+  {
+    "id": "git-gud",
+    "zh": "Git Gud（去練練手）",
+    "en": "Git Gud / Skill Issue",
+    "aliases": [
+      "Get Good",
+      "Skill Issue",
+      "技術問題"
+    ],
+    "cat": "slang",
+    "sub": "新增：速通與遊戲文化",
+    "short": "叫抱怨的人先練好技術再說。",
+    "def": "Git Gud 是「Get Good」的刻意誤拼版本，源自硬核動作遊戲（尤其魂系）社群，意思是「先練好技術再回來抱怨」，可以是善意鼓勵「你會進步的」，也可以是嘲諷式的嗆聲。Skill Issue（技術問題）是近年更廣泛流行的同義說法，用來嘲諷抱怨遊戲機制不公平的人，其實只是自己技術不夠好，常用於反駁「這遊戲設計爛」之類的抱怨言論。",
+    "features": [
+      "Get Good的刻意誤拼",
+      "可善意鼓勵也可嘲諷嗆聲",
+      "Skill Issue為近年流行同義詞",
+      "常用於反駁抱怨機制不公"
+    ],
+    "examples": [
+      {
+        "title": "艾爾登法環",
+        "en": "ELDEN RING",
+        "appid": 1245620,
+        "year": 2022,
+        "why": "魂系遊戲社群公認 Git Gud 精神的代表作，強調練習克服難度"
+      },
+      {
+        "title": "隻狼：暗影雙死",
+        "en": "Sekiro: Shadows Die Twice",
+        "appid": 814380,
+        "year": 2019,
+        "why": "高難度格擋機制常引發Git Gud式的社群討論"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "tryhard",
+        "diff": "Git Gud 是勸人（或嗆人）去提升技術的用語；Tryhard 則是反過來嘲諷「太努力」的人，兩者對「努力」的態度方向相反。"
+      }
+    ],
+    "related": [
+      "tryhard",
+      "toxic"
+    ],
+    "design": "視語氣而定：鼓勵情境下是正面激勵；嘲諷情境下則帶明顯攻擊性，容易被視為不友善發言，教學情境宜說明雙重用法。",
+    "tw": "台灣、中國、歐美通用「Git Gud」「Skill Issue」，直接沿用英文原詞，是全球硬核遊戲社群共通的哏。",
+    "sources": [
+      {
+        "title": "Urban Dictionary: git gud",
+        "url": "https://www.urbandictionary.com/define.php?term=git%20gud",
+        "accessed": "2026-09-17",
+        "note": "誤拼版get good，意指練習改進而非期待他人手把手教學"
+      },
+      {
+        "title": "Urban Dictionary: skill issue",
+        "url": "https://www.urbandictionary.com/define.php?term=skill+issue",
+        "accessed": "2026-09-17",
+        "note": "a snide remark used to suggest that the root cause of a problem lies with the incompetence...of the person expressing said problem"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "ragequit",
+    "zh": "氣到退出（Ragequit）",
+    "en": "Ragequit",
+    "aliases": [
+      "Rage Quit",
+      "掀桌"
+    ],
+    "cat": "slang",
+    "sub": "新增：速通與遊戲文化",
+    "short": "因憤怒或挫敗而中途退出遊戲。",
+    "def": "指玩家因為對遊戲中發生的事件感到憤怒或挫敗，情緒失控中途退出遊戲的行為，可能是輸掉比賽、被隊友坑、被對手羞辱，或單純技術性失誤累積到臨界點。在團隊競技遊戲中，Ragequit 會讓剩下的隊友陷入人數劣勢，通常視為不良行為並會受到懲罰（如禁賽或降低配對優先權）。",
+    "features": [
+      "因憤怒挫敗中途退出",
+      "常見於輸掉比賽或被羞辱時",
+      "團隊遊戲中會拖累隊友",
+      "多數遊戲有懲罰機制"
+    ],
+    "examples": [
+      {
+        "title": "英雄聯盟",
+        "en": "League of Legends",
+        "appid": null,
+        "year": 2009,
+        "why": "排位賽中途離開會受到明確的懲罰機制約束"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 5055,
+        "en": "eSports"
+      }
+    ],
+    "compare": [
+      {
+        "with": "tilt",
+        "diff": "Tilt 是情緒失衡導致表現變差、但仍在遊戲中的狀態；Ragequit 是情緒失控到直接退出遊戲的具體行動，是 Tilt 惡化的其中一種結果。"
+      }
+    ],
+    "related": [
+      "tilt",
+      "toxic"
+    ],
+    "design": "帶負面意味，多數團隊遊戲視為違反公平競技精神的行為，教學或社群守則文件可直接引用作為需規範的行為案例。",
+    "tw": "台灣、中國、歐美通用「Ragequit」「氣到退出」「掀桌」，是全球競技遊戲社群共通的現象與詞彙。",
+    "sources": [
+      {
+        "title": "Urban Dictionary: ragequit",
+        "url": "https://www.urbandictionary.com/define.php?term=ragequit",
+        "accessed": "2026-09-17",
+        "note": "To stop playing a game out of an anger towards an event that transpired within the game"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "tilt",
+    "zh": "上頭爆走（Tilt）",
+    "en": "Tilt",
+    "aliases": [
+      "崩潰",
+      "爆走"
+    ],
+    "cat": "slang",
+    "sub": "新增：速通與遊戲文化",
+    "short": "情緒失衡導致表現越打越差。",
+    "def": "源自撲克用語，指玩家因為連續失利或受挫，陷入憤怒、沮喪等情緒失衡狀態，導致判斷力下降、表現越打越差，形成「越輸越急、越急越輸」的惡性循環。Tilt 狀態下的玩家往往會做出平時不會犯的失誤決策，職業選手與教練都高度重視心理素質訓練，正是為了避免比賽中陷入 Tilt 狀態。",
+    "features": [
+      "源自撲克用語",
+      "連續失利導致情緒失衡",
+      "判斷力下降形成惡性循環",
+      "職業選手重視心理素質訓練來避免"
+    ],
+    "examples": [
+      {
+        "title": "英雄聯盟",
+        "en": "League of Legends",
+        "appid": null,
+        "year": 2009,
+        "why": "連續掉分後的Tilt狀態是排位賽玩家常見的自我檢討話題"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 5055,
+        "en": "eSports"
+      }
+    ],
+    "compare": [
+      {
+        "with": "ragequit",
+        "diff": "Tilt 是情緒失衡但仍留在遊戲中、表現變差的狀態；Ragequit 是情緒惡化到直接退出的具體行動。"
+      }
+    ],
+    "related": [
+      "ragequit",
+      "feed"
+    ],
+    "design": "中性到自我警惕用語，玩家自我檢討時常用；用於形容他人時需注意語氣，避免變成指責式攻擊。",
+    "tw": "台灣、中國通用「上頭」「崩潰」「Tilt」；源頭的撲克語境在英文電競圈仍直接沿用 Tilt 一詞。",
+    "sources": [
+      {
+        "title": "Wiktionary: tilt",
+        "url": "https://en.wiktionary.org/wiki/tilt",
+        "accessed": "2026-09-17",
+        "note": "A state of frustration and worsened performance resulting from a series of losses"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "one-more-turn",
+    "zh": "再玩一回合症候群",
+    "en": "One More Turn Syndrome",
+    "aliases": [
+      "再一回合就好"
+    ],
+    "cat": "slang",
+    "sub": "新增：速通與遊戲文化",
+    "short": "策略遊戲讓人一直說「再一回合」熬夜。",
+    "def": "指策略類遊戲（尤其是回合制的 4X 或文明建造類）特有的成癮現象：玩家總覺得「再玩一回合就好」，結果一回合接一回合玩到天亮，這個症候群的關鍵在於回合制遊戲每個決策的因果回饋往往要等到下一回合才會顯現，驅使玩家不斷想看到「結果」而持續按下「下一回合」，是遊戲設計中「核心迴圈」與「心流」概念的經典案例。",
+    "features": [
+      "回合制策略遊戲特有現象",
+      "每回合決策因果延遲顯現",
+      "驅使玩家持續按下一回合",
+      "遊戲設計心流與核心迴圈的經典案例"
+    ],
+    "examples": [
+      {
+        "title": "席德・梅爾的文明帝國VII",
+        "en": "Sid Meier's Civilization VII",
+        "appid": 1295660,
+        "year": 2025,
+        "why": "「一回合症候群」一詞公認源自《文明》系列，是該現象最經典的代表作"
+      },
+      {
+        "title": "Sid Meier's Civilization V",
+        "en": "Sid Meier's Civilization V",
+        "appid": 8930,
+        "year": 2010,
+        "why": "回合制帝國建造迴圈是該症候群長年流傳的系列作品"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 3878,
+        "en": "Competitive"
+      }
+    ],
+    "compare": [
+      {
+        "with": "hooked",
+        "diff": "「再一回合」是導致玩家上頭沉迷的具體心理機制；上頭是描述整體沉迷投入狀態的泛稱結果。"
+      }
+    ],
+    "related": [
+      "hooked",
+      "flow-state",
+      "game-loop"
+    ],
+    "design": "正面稱讚遊戲設計成功的用語，玩家自嘲熬夜時語氣帶苦笑又驕傲，企劃討論核心迴圈設計時可作為成功案例引用。",
+    "tw": "台灣、中國、歐美通用，最早、最著名的案例就是《文明》系列，英文「One More Turn」已成為策略遊戲設計討論的固定詞彙。",
+    "sources": [
+      {
+        "title": "Urban Dictionary: one more turn",
+        "url": "https://www.urbandictionary.com/define.php?term=one+more+turn",
+        "accessed": "2026-09-17",
+        "note": "A condition often associated with strategical games...causing sleepless nights and missed job interviews"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "jank",
+    "zh": "破碎手感（Jank）",
+    "en": "Jank",
+    "aliases": [
+      "Janky",
+      "卡卡的"
+    ],
+    "cat": "slang",
+    "sub": "新增：速通與遊戲文化",
+    "short": "操作手感不流暢、設計有點怪。",
+    "def": "形容遊戲機制設計不良、實作粗糙，導致操作手感不流暢、體驗被打斷或破壞的整體印象，可能來自程式錯誤、也可能只是設計本身不夠精緻，程度通常不到「壞掉」（Broken）那麼嚴重，但明顯讓人感覺「哪裡怪怪的」。有趣的是，部分獨立遊戲的 Jank 手感反而被部分玩家視為一種帶著缺陷的獨特魅力，而非單純缺點。",
+    "features": [
+      "操作手感不流暢",
+      "可能來自程式錯誤或設計不精緻",
+      "程度輕於「壞掉」",
+      "部分玩家視其為獨特魅力"
+    ],
+    "examples": [
+      {
+        "title": "Vampire Survivors",
+        "en": "Vampire Survivors",
+        "appid": 1794680,
+        "year": 2022,
+        "why": "刻意保留的復古粗糙手感被部分玩家視為該作特色魅力之一"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "glitch",
+        "diff": "Jank 是對整體手感「不流暢、怪怪的」的模糊主觀印象；Glitch 是具體可指認的單一程式錯誤或視覺異常事件。"
+      }
+    ],
+    "related": [
+      "glitch",
+      "hitstop"
+    ],
+    "design": "中性偏描述性用語，可正面（獨特魅力）也可負面（品質瑕疵），使用時建議搭配具體例子說明是哪種情況。",
+    "tw": "台灣、中國、歐美通用「Jank」，中文玩家社群多半直接沿用英文原詞，沒有固定翻譯對應。",
+    "sources": [
+      {
+        "title": "Wiktionary: jank",
+        "url": "https://en.wiktionary.org/wiki/jank",
+        "accessed": "2026-09-17",
+        "note": "Game mechanics of unconventional or flawed design or implementation...as to ruin or disrupt play"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "cheese",
+    "zh": "起司打法（Cheese）",
+    "en": "Cheese / Cheesing",
+    "aliases": [
+      "起司",
+      "取巧打法"
+    ],
+    "cat": "slang",
+    "sub": "新增：速通與遊戲文化",
+    "short": "用卑鄙但合法的手段取巧過關。",
+    "def": "指利用某種被視為卑鄙、不夠光明正大，卻完全在遊戲規則允許範圍內的取巧手段來取勝或過關，例如反覆用同一招式讓敵人完全無法反擊、或利用地形卡位讓 Boss 打不到自己。與 Exploit 不同，Cheese 通常不涉及利用程式漏洞，純粹是策略選擇上的「不夠有格調」，因此常引發「這樣算不算真本事」的社群論戰。",
+    "features": [
+      "合法但被視為卑鄙的取巧手段",
+      "不一定涉及程式漏洞",
+      "常見反覆招式或地形卡位",
+      "常引發是否算真本事的論戰"
+    ],
+    "examples": [
+      {
+        "title": "艾爾登法環",
+        "en": "ELDEN RING",
+        "appid": 1245620,
+        "year": 2022,
+        "why": "召喚物海或特定地形卡位打法常被戲稱為Cheese打Boss"
+      },
+      {
+        "title": "黑暗靈魂 重製版",
+        "en": "DARK SOULS: REMASTERED",
+        "appid": 570940,
+        "year": 2018,
+        "why": "系列以各種Cheese打法對抗高難度Boss聞名"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "exploit",
+        "diff": "Cheese 是「卑鄙但合法」的正規手段取巧；Exploit 是利用機制或程式漏洞，通常涉及非預期效果，兩者界線有時模糊但概念不同。"
+      }
+    ],
+    "related": [
+      "exploit",
+      "boss-design"
+    ],
+    "design": "中性帶輕度戲謔意味，玩家分享Cheese心得時通常帶「偷吃步」的自嘲幽默，非嚴重冒犯用詞。",
+    "tw": "台灣、中國、歐美通用「Cheese」「起司」，是全球動作與Roguelike遊戲社群共通的直譯詞。",
+    "sources": [
+      {
+        "title": "Video game exploit – Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Video_game_exploit",
+        "accessed": "2026-09-17",
+        "note": "Cheesing：Performing repeated, usually considered cheap, attack moves in such a way that does not allow the enemy to respond or fight back"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "glitch",
+    "zh": "Glitch（程式錯誤／視覺異常）",
+    "en": "Glitch",
+    "aliases": [
+      "跑圖BUG",
+      "貼圖破圖"
+    ],
+    "cat": "slang",
+    "sub": "新增：速通與遊戲文化",
+    "short": "程式錯誤造成的畫面或行為異常。",
+    "def": "指遊戲因程式錯誤導致的短暫、非預期的畫面異常或行為錯亂，例如貼圖破裂、角色卡進牆裡、物理引擎失控等，通常規模較小、不一定會影響遊玩進度（若嚴重到卡死進度則會升級成 Softlock）。速通與探索型玩家有時會刻意尋找並利用特定 Glitch 來達成一般手段做不到的效果，是 Exploit 與 Sequence Break 的常見來源。",
+    "features": [
+      "程式錯誤造成的異常",
+      "包含貼圖破裂、卡牆等",
+      "規模通常較小不一定卡死進度",
+      "常被速通玩家刻意利用"
+    ],
+    "examples": [
+      {
+        "title": "Hollow Knight",
+        "en": "Hollow Knight",
+        "appid": 367520,
+        "year": 2017,
+        "why": "速通社群發現並整理利用多種Glitch達成跳關效果"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "softlock",
+        "diff": "Glitch 是程式錯誤的異常現象本身；Softlock 是 Glitch（或其他設計缺陷）造成玩家卡在無法繼續進行的狀態，是 Glitch 可能導致的嚴重後果之一。"
+      }
+    ],
+    "related": [
+      "softlock",
+      "exploit",
+      "sequence-break"
+    ],
+    "design": "中性技術用語，教學與企劃文件可直接使用；玩家發現有趣Glitch時常帶興奮分享的語氣。",
+    "tw": "台灣、中國、歐美通用「Glitch」，中文玩家圈多直接沿用英文原詞或稱「破圖」「跑圖BUG」。",
+    "sources": [
+      {
+        "title": "Video game exploit – Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Video_game_exploit",
+        "accessed": "2026-09-17",
+        "note": "頁面說明 Exploit 可能源自程式錯誤或Glitch造成的意外效果"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "softlock",
+    "zh": "軟鎖（Softlock）",
+    "en": "Softlock",
+    "aliases": [
+      "卡關無法通過"
+    ],
+    "cat": "slang",
+    "sub": "新增：速通與遊戲文化",
+    "short": "卡在無法前進也無法回頭的絕境。",
+    "def": "指玩家因為設計疏漏、遺漏機制或 Glitch，被困在一個既無法繼續前進、也無法回頭重來的絕境狀態，遊戲本身並未當機，但玩家實質上已無法繼續遊玩，最常見的解法是重新開始或讀取更早的存檔。常見成因包括角色卡進場景死角、在關鍵時刻自動存檔導致無解狀態等，是遊戲測試（QA）過程中最需要提早抓出的重大缺陷類型之一。",
+    "features": [
+      "卡在無法前進也無法回頭",
+      "遊戲本身未當機",
+      "常需重來或讀取更早存檔",
+      "QA測試需優先抓出的重大缺陷"
+    ],
+    "examples": [
+      {
+        "title": "Hollow Knight",
+        "en": "Hollow Knight",
+        "appid": 367520,
+        "year": 2017,
+        "why": "探索型銀河惡魔城遊戲若能力取得順序出錯，理論上可能觸發軟鎖風險，是此類設計需嚴防的問題"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "hardlock",
+        "diff": "軟鎖是玩家卡在無法推進的狀態、但遊戲程式仍在正常運作；硬鎖是程式本身當機凍結，通常需要強制重啟遊戲或裝置才能解決。"
+      }
+    ],
+    "related": [
+      "hardlock",
+      "glitch"
+    ],
+    "design": "明確視為設計缺陷，教學與企劃文件討論QA流程時可作為必須測試防範的重大bug類型引用。",
+    "tw": "台灣、中國、歐美通用「Softlock」，中文玩家圈多直接沿用英文原詞或稱「卡死」「無解卡關」。",
+    "sources": [
+      {
+        "title": "Urban Dictionary: softlock",
+        "url": "https://www.urbandictionary.com/define.php?term=softlock",
+        "accessed": "2026-09-17",
+        "note": "a savestate in video games where you are placed in an inescapable situation, preventing progress forward...and also preventing backtracking"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "hardlock",
+    "zh": "硬鎖（Hardlock）",
+    "en": "Hardlock",
+    "aliases": [
+      "當機凍結"
+    ],
+    "cat": "slang",
+    "sub": "新增：速通與遊戲文化",
+    "short": "程式錯誤導致遊戲當機凍結。",
+    "def": "指因為未預期的程式碼錯誤或無限迴圈，導致遊戲程式本身直接當機、凍結，畫面完全無回應，玩家無法透過任何操作繼續，必須強制關閉遊戲或重啟裝置才能解決，與玩家操作無關，是純粹的程式錯誤結果。硬鎖比軟鎖嚴重，因為軟鎖至少遊戲程式還在正常運作，硬鎖則是系統層級的當機。",
+    "features": [
+      "程式錯誤或無限迴圈導致",
+      "遊戲程式直接當機凍結",
+      "需強制關閉重啟才能解決",
+      "與玩家操作無關的系統級當機"
+    ],
+    "examples": [
+      {
+        "title": "Slay the Spire",
+        "en": "Slay the Spire",
+        "appid": 646570,
+        "year": 2019,
+        "why": "獨立遊戲開發過程中，極端牌組組合曾出現需修補的當機案例類型"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "softlock",
+        "diff": "硬鎖是系統層級的程式當機凍結；軟鎖是玩家卡在無法推進的遊戲內狀態，但程式本身仍正常運作，兩者嚴重程度與成因都不同。"
+      }
+    ],
+    "related": [
+      "softlock"
+    ],
+    "design": "明確視為嚴重程式缺陷，優先級高於軟鎖，QA流程與教學文件可作為最高優先修復等級的bug類型引用。",
+    "tw": "台灣、中國、歐美通用「Hardlock」，中文玩家圈多稱「當機」「凍結」，較少使用音譯或直譯的固定中文詞。",
+    "sources": [
+      {
+        "title": "Urban Dictionary: hardlock",
+        "url": "https://www.urbandictionary.com/define.php?term=hardlock",
+        "accessed": "2026-09-17",
+        "note": "when an unintended line of code or loop doesnt exit, freezing a game or process without the user explicitly causing it, unlike a softlock"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "sequence-break",
+    "zh": "打破流程順序（Sequence Break）",
+    "en": "Sequence Breaking",
+    "aliases": [
+      "跳關",
+      "破序"
+    ],
+    "cat": "slang",
+    "sub": "新增：速通與遊戲文化",
+    "short": "用非預期順序取得物品或跳過關卡。",
+    "def": "指玩家用開發者未預期的順序完成遊戲動作或取得物品，跳過原本設計上「必須先做A才能做B」的線性流程限制，常見於銀河惡魔城（Metroidvania）類型作品，因其能力取得往往綁定特定區域解鎖順序。玩家透過精準跳躍、卡位、利用 Glitch 等手段提前取得後期能力或直接跳到終盤內容，是速通、增加挑戰難度、或單純探索創意玩法的常見手法，這個概念近年也影響了部分現代遊戲的開放式關卡設計思維。",
+    "features": [
+      "用非預期順序完成流程",
+      "常見於銀河惡魔城類型",
+      "透過跳躍卡位或Glitch達成",
+      "已從玩家行為演變成設計參考概念"
+    ],
+    "examples": [
+      {
+        "title": "Hollow Knight",
+        "en": "Hollow Knight",
+        "appid": 367520,
+        "year": 2017,
+        "why": "銀河惡魔城代表作，速通社群整理出大量Sequence Break路線"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "exploit",
+        "diff": "Sequence Break 特指「打破流程順序」這種空間路徑上的突破；Exploit 範圍更廣，泛指任何利用機制或漏洞取得優勢的行為，兩者常重疊但焦點不同。"
+      }
+    ],
+    "related": [
+      "exploit",
+      "speedrun",
+      "level-design"
+    ],
+    "design": "正面受推崇的硬核玩法用語，企劃討論關卡設計時可引用作為「玩家如何在既定路徑中找到自由度」的案例。",
+    "tw": "台灣、中國、歐美通用「Sequence Break」，中文玩家圈多直接沿用英文原詞或稱「破序」「跳關」。",
+    "sources": [
+      {
+        "title": "Sequence breaking – Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Sequence_breaking",
+        "accessed": "2026-09-17",
+        "note": "the act of performing actions or obtaining items out of the intended linear order or of skipping required actions or items entirely"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "big-brain",
+    "zh": "大腦花開（Big Brain）",
+    "en": "Big Brain",
+    "aliases": [
+      "腦洞打法",
+      "神操作腦回路"
+    ],
+    "cat": "slang",
+    "sub": "新增：速通與遊戲文化",
+    "short": "用聰明的邏輯或類比想出意料之外的解法。",
+    "def": "戲稱某個想法或操作展現出超乎常人的聰明才智，通常用來形容用意想不到的邏輯、類比或組合技巧解決問題的策略性瞬間，帶正面讚嘆意味。這個詞源自「大腦」放大誇張圖的網路迷因（Meme），把「聰明」這個抽象概念視覺化成一顆過度膨脹的大腦圖案，後廣泛用於各種遊戲與生活情境中形容令人拍案叫絕的巧思。",
+    "features": [
+      "形容超乎常人的聰明策略",
+      "源自誇張大腦圖案的網路迷因",
+      "常用於形容意料之外的巧思",
+      "帶正面讚嘆意味"
+    ],
+    "examples": [
+      {
+        "title": "Slay the Spire",
+        "en": "Slay the Spire",
+        "appid": 646570,
+        "year": 2019,
+        "why": "牌組構築遊戲中意想不到的卡牌組合常被玩家讚嘆為Big Brain打法"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "cheese",
+        "diff": "Big Brain 強調「聰明、有創意」的正面讚嘆；Cheese 則強調「卑鄙、取巧」，兩者都可能是非常規手段，但評價情緒方向不同。"
+      }
+    ],
+    "related": [
+      "cheese"
+    ],
+    "design": "正面讚美用語，沒有冒犯疑慮，適合稱讚隊友或自己的巧思策略時使用。",
+    "tw": "台灣、中國、歐美通用「Big Brain」，源自國際網路迷因文化，中文玩家圈多直接沿用英文原詞。",
+    "sources": [
+      {
+        "title": "Urban Dictionary: big brain",
+        "url": "https://www.urbandictionary.com/define.php?term=big+brain",
+        "accessed": "2026-09-17",
+        "note": "A time when an idea or an analogy is used tactically，形容策略性巧思的網路迷因用語"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "bot",
+    "zh": "人機（Bot，戲稱菜）",
+    "en": "Bot (derogatory)",
+    "aliases": [
+      "機器人",
+      "AI仔"
+    ],
+    "cat": "slang",
+    "sub": "新增：速通與遊戲文化",
+    "short": "嘲諷對方玩得像沒有智能的電腦AI。",
+    "def": "原意指遊戲中由電腦人工智慧控制、非真人操作的角色（如新手練習模式的陪練 AI）。玩家間更常見的用法是拿來嘲諷技術極差的真人玩家「玩得像人機一樣」，暗指其反應、判斷、走位都缺乏基本的人類智能水準，是相當直接、帶攻擊性的貶低用語，常見於對戰失利後的情緒性發言。",
+    "features": [
+      "原指非真人操控的AI角色",
+      "衍生為嘲諷技術極差玩家",
+      "暗指反應判斷缺乏基本水準",
+      "帶明顯攻擊性的貶低用語"
+    ],
+    "examples": [
+      {
+        "title": "Counter-Strike 2",
+        "en": "Counter-Strike 2",
+        "appid": 730,
+        "year": 2023,
+        "why": "FPS競技對戰失利後，「人機」是常見的情緒性嘲諷用語"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "noob",
+        "diff": "「人機」比 Noob 更強調「連基本智能反應都沒有」的極端貶低，攻擊性通常更高，較容易被視為不友善發言。"
+      }
+    ],
+    "related": [
+      "noob",
+      "toxic"
+    ],
+    "design": "帶明確攻擊性與貶低意味，容易引發衝突，正式教學或企劃文件不建議使用，社群守則常將其列為需規範的不當發言類型。",
+    "tw": "台灣、中國通用「人機」；英文圈的 Bot 同樣帶貶意用法，是全球競技遊戲社群共通的嘲諷詞彙。",
+    "sources": [
+      {
+        "title": "Urban Dictionary: bot",
+        "url": "https://www.urbandictionary.com/define.php?term=bot",
+        "accessed": "2026-09-17",
+        "note": "You are a horrible player...you just suck so badly that you play like a bot, otherwise a NPC or something that isn't humanly controlled"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "tryhard",
+    "zh": "太認真（Tryhard）",
+    "en": "Tryhard",
+    "aliases": [
+      "太努力",
+      "拚命三郎"
+    ],
+    "cat": "slang",
+    "sub": "新增：速通與遊戲文化",
+    "short": "嘲諷對方玩得太用力、太認真。",
+    "def": "指玩家（尤其在休閒對局或非正式場合）表現得過度認真、拚盡全力，常帶貶意，暗指對方「不知輕重」，在別人只是想輕鬆遊玩的場合過度競爭。有趣的是，這個詞常被技術較差的一方用來當作面子的擋箭牌，指責玩得好的對手「太拚了」，藉此合理化自己的失敗，而非真心指責對方不當行為。",
+    "features": [
+      "表現得過度認真拚盡全力",
+      "常見於休閒非正式場合",
+      "常被用作面子的擋箭牌",
+      "不一定是真心的行為指責"
+    ],
+    "examples": [
+      {
+        "title": "鬥陣特攻",
+        "en": "Overwatch",
+        "appid": 2357570,
+        "year": 2016,
+        "why": "休閒模式中認真對戰的玩家常被戲稱或嘲諷為Tryhard"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "toxic",
+        "diff": "Tryhard 是嘲諷對方「太認真」的評價用語，不一定涉及惡意；Toxic 則是更廣泛地指涉散播負面情緒、惡意言論的行為模式。"
+      }
+    ],
+    "related": [
+      "toxic",
+      "sweaty"
+    ],
+    "design": "帶輕度到中度貶意，常用於為自己失敗找台階下的酸言酸語，教學情境需說明其「面子擋箭牌」的社會功能。",
+    "tw": "台灣、中國、歐美通用「Tryhard」，中文玩家圈也常直接稱「太拚」「太認真」。",
+    "sources": [
+      {
+        "title": "Urban Dictionary: tryhard",
+        "url": "https://www.urbandictionary.com/define.php?term=tryhard",
+        "accessed": "2026-09-17",
+        "note": "A face-saving insult used by someone who is feeling inadequate. Basically accuses anyone who is better than them at anything of putting in effort"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "sweaty",
+    "zh": "汗流浹背（Sweaty）",
+    "en": "Sweaty",
+    "aliases": [
+      "很汗",
+      "肝到流汗"
+    ],
+    "cat": "slang",
+    "sub": "新增：速通與遊戲文化",
+    "short": "形容玩家高度專注、拚命到流汗的程度。",
+    "def": "形容玩家在遊戲中高度專注、全力以赴的程度，彷彿真的因為緊張與用力而汗流浹背，可以是正面讚嘆對方技術高超、投入專注（「這人真的很Sweaty，超強」），也可以帶輕度貶意形容對方玩得太拚、讓周圍人感到有壓力，與 Tryhard 用法接近、語意重疊。",
+    "features": [
+      "形容高度專注拚命的狀態",
+      "可正面讚嘆技術高超",
+      "也可帶輕度貶意形容壓力感",
+      "與Tryhard用法接近重疊"
+    ],
+    "examples": [
+      {
+        "title": "鬥陣特攻",
+        "en": "Overwatch",
+        "appid": 2357570,
+        "year": 2016,
+        "why": "高強度競技對戰中形容對手拚勁十足的常見用語"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "tryhard",
+        "diff": "Sweaty 更強調「投入到流汗」的具象化比喻，語氣可正可負；Tryhard 語氣更常偏向貶意，強調「不合時宜的認真」。"
+      }
+    ],
+    "related": [
+      "tryhard"
+    ],
+    "design": "視語境可正面可負面，使用時建議搭配具體語氣脈絡，避免造成誤解。",
+    "tw": "台灣、中國、歐美通用「Sweaty」，中文玩家圈多直接沿用英文原詞或稱「很汗」「肝到流汗」。",
+    "sources": [
+      {
+        "title": "Urban Dictionary: sweaty",
+        "url": "https://www.urbandictionary.com/define.php?term=sweaty",
+        "accessed": "2026-09-17",
+        "note": "To be absolutely nasty, amazing, dominant...at something, particularly a video game；另一義為tries way too hard"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "casual-vs-hardcore",
+    "zh": "休閒玩家 vs 硬核玩家",
+    "en": "Casual vs Hardcore Gaming",
+    "aliases": [
+      "休閒黨",
+      "硬核玩家",
+      "核心玩家"
+    ],
+    "cat": "slang",
+    "sub": "新增：速通與遊戲文化",
+    "short": "投入時間與深度不同的兩種玩家傾向。",
+    "def": "休閒玩家（Casual）指遊玩頻率較低、投入時間有限、以放鬆娛樂為主要目的的玩家；硬核玩家（Hardcore）則投入大量時間鑽研機制、追求高難度與極致效率，兩者是描述玩家投入程度的光譜兩端，而非技術優劣的評價。這組分類常被遊戲企劃用於設計難度模式、教學引導與內容深度分層的參考依據。",
+    "features": [
+      "Casual＝投入時間有限重娛樂",
+      "Hardcore＝投入大量時間鑽研",
+      "是投入程度光譜非技術優劣",
+      "常作為難度分層設計參考"
+    ],
+    "examples": [
+      {
+        "title": "Stardew Valley",
+        "en": "Stardew Valley",
+        "appid": 413150,
+        "year": 2016,
+        "why": "同時吸引休閒玩家與深度研究農場效率排程的硬核玩家"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "noob",
+        "diff": "Casual 只是形容遊玩頻率與投入程度低，不涉及技術好壞的貶意；Noob 則明確帶貶意，指技術差又不願學習的玩家。"
+      }
+    ],
+    "related": [
+      "noob",
+      "difficulty-modes"
+    ],
+    "design": "中性描述用語，沒有冒犯疑慮，適合企劃文件用於劃分目標受眾與難度設計層級。",
+    "tw": "台灣、中國、歐美通用「休閒」「硬核」，是全球遊戲產業共通的玩家分類基礎詞彙。",
+    "sources": [
+      {
+        "title": "Glossary of video game terms – Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Glossary_of_video_game_terms",
+        "accessed": "2026-09-17",
+        "note": "Casual gaming 定義為 playing video games on an infrequent basis"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "toxic",
+    "zh": "毒（Toxic，惡意言行）",
+    "en": "Toxic",
+    "aliases": [
+      "毒瘤",
+      "毒性言論"
+    ],
+    "cat": "slang",
+    "sub": "新增：速通與遊戲文化",
+    "short": "散播負面情緒、辱罵、抱怨的惡意言行。",
+    "def": "指在遊戲社群中散播負面情緒、過度抱怨、辱罵隊友或對手、傳播不必要仇恨言論的行為模式，這類玩家常被稱為「毒瘤」。Toxic 是多數線上競技遊戲聊天室治理與行為守則中最核心的關注對象，各大遊戲公司都投入大量資源（如即時語音偵測、舉報系統）來降低其對整體社群健康度的傷害。",
+    "features": [
+      "散播負面情緒與辱罵",
+      "傳播不必要仇恨言論",
+      "行為守則治理的核心對象",
+      "廠商投入資源偵測與舉報"
+    ],
+    "examples": [
+      {
+        "title": "英雄聯盟",
+        "en": "League of Legends",
+        "appid": null,
+        "year": 2009,
+        "why": "官方長期投入研究並公開對抗Toxic行為的社群治理措施，是業界指標案例"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 3878,
+        "en": "Competitive"
+      }
+    ],
+    "compare": [
+      {
+        "with": "tryhard",
+        "diff": "Toxic 泛指散播負面情緒、辱罵等惡意言行，是需要規範的不當行為；Tryhard 只是嘲諷對方「太認真」，通常不涉及惡意言語攻擊。"
+      }
+    ],
+    "related": [
+      "tryhard",
+      "landmine-teammate",
+      "ez"
+    ],
+    "design": "明確負面用詞，用於指控他人行為不當時需有具體依據，多數遊戲平台都有正式的檢舉與處置機制可搭配使用。",
+    "tw": "台灣、中國、歐美通用「Toxic」「毒瘤」，是全球線上遊戲社群治理最核心的關鍵詞之一。",
+    "sources": [
+      {
+        "title": "Urban Dictionary: toxic",
+        "url": "https://www.urbandictionary.com/define.php?term=toxic",
+        "accessed": "2026-09-17",
+        "note": "a very negative person who complains excessively, spreads unnecessary hate, or talks negatively about others...the main coin of online gaming"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "spoiler-boom-lei",
+    "zh": "爆雷（劇透）",
+    "en": "Spoiler",
+    "aliases": [
+      "劇透",
+      "雷（名詞）"
+    ],
+    "cat": "slang",
+    "sub": "新增：速通與遊戲文化",
+    "short": "洩漏遊戲關鍵劇情或結局。",
+    "def": "指未經提醒就洩漏遊戲關鍵劇情、結局或重大轉折，破壞其他玩家第一手體驗驚喜感的行為，是台灣 PTT、巴哈姆特等討論板最重視的社群禮儀之一。多數討論板都有明確規範：討論劇情前必須在標題或內文加註「有雷」「雷文」警示，違規者常會被要求修文或面臨管理員處置，反映玩家社群對「初體驗完整性」的高度重視。",
+    "features": [
+      "洩漏關鍵劇情或結局",
+      "破壞第一手體驗驚喜感",
+      "討論板重視的社群禮儀",
+      "違規需修文或面臨處置"
+    ],
+    "examples": [
+      {
+        "title": "女鬼橋二 釋魂路",
+        "en": "The Bridge Curse 2: The Vengeance",
+        "appid": 2331330,
+        "year": 2024,
+        "why": "強調解謎與劇情反轉的台灣恐怖遊戲，社群討論特別重視雷文標示"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "story-rich",
+        "diff": "爆雷是玩家社群禮儀層面「不該洩漏劇情」的行為規範；Story-rich 是形容遊戲本身敘事內容豐富的類型標籤，兩者角度不同。"
+      }
+    ],
+    "related": [
+      "story-rich",
+      "multiple-endings"
+    ],
+    "design": "帶負面意味，指控他人爆雷時語氣通常急切（怕被雷到），討論板規範中屬於明確需要遵守的禮儀規則。",
+    "tw": "台灣 PTT、巴哈姆特社群對「雷文」規範特別嚴謹，是台灣網路討論文化的重要特色；中國圈也用「劇透」，規範嚴謹程度因平台而異。",
+    "sources": [
+      {
+        "title": "PTT 八卦板（綜合網路用語流通處）",
+        "url": "https://www.ptt.cc/bbs/Gossiping/index.html",
+        "accessed": "2026-09-17",
+        "note": "「爆雷」為台灣PTT／巴哈姆特討論板長年通用的社群禮儀用語，未能於本次搜尋中鎖定單一第三方可引用連結"
+      }
+    ],
+    "status": "unverified"
+  },
+  {
+    "id": "lurking",
+    "zh": "潛水／樓主",
+    "en": "Lurking / OP (Original Poster)",
+    "aliases": [
+      "潛水",
+      "樓主",
+      "潛水艇"
+    ],
+    "cat": "slang",
+    "sub": "新增：速通與遊戲文化",
+    "short": "只看不發言，以及發文串的開版人。",
+    "def": "「潛水」指只瀏覽討論板、聊天室內容卻從不主動發言、留言的行為，戲稱像潛水艇一樣藏在水面下不現身；「樓主」則是討論串（俗稱「樓」）的開版發文者，後續每則回覆會依樓層編號依序累加，「樓主」一詞方便後續回文者稱呼與回應原PO。兩者都是台灣、中國論壇文化中歷史悠久、使用頻率極高的基礎詞彙。",
+    "features": [
+      "潛水＝只看不發言",
+      "樓主＝討論串開版發文者",
+      "「樓」比喻依序累加的回覆",
+      "論壇文化歷史悠久的基礎詞彙"
+    ],
+    "examples": [
+      {
+        "title": "楓之谷M",
+        "en": "MapleStory M",
+        "appid": 3969080,
+        "year": 2018,
+        "why": "手遊攻略討論串中樓主與潛水讀者是最基本的互動角色分工"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "forum-flooding",
+        "diff": "潛水是完全不發言的消極參與；洗版則是過度發言、灌爆版面的另一極端，兩者是論壇參與程度光譜的兩端。"
+      }
+    ],
+    "related": [
+      "forum-flooding"
+    ],
+    "design": "中性論壇用語，沒有冒犯疑慮，是討論版日常互動的基礎詞彙，教學情境可直接使用。",
+    "tw": "台灣 PTT「樓層」制留言文化尤其發達，「樓主」一詞在台灣論壇使用頻率極高；中國圈也通用「潛水」「樓主」，用法一致。",
+    "sources": [
+      {
+        "title": "PTT 八卦板（綜合網路用語流通處）",
+        "url": "https://www.ptt.cc/bbs/Gossiping/index.html",
+        "accessed": "2026-09-17",
+        "note": "「潛水」「樓主」為台灣PTT／巴哈姆特論壇文化長年通用的基礎用語，未能於本次搜尋中鎖定單一第三方可引用連結"
+      }
+    ],
+    "status": "unverified"
+  },
+  {
+    "id": "wanted-tuidui",
+    "zh": "揪團／開團",
+    "en": "Party Recruitment (\"Rally the Team\")",
+    "aliases": [
+      "揪團",
+      "開團",
+      "找隊友"
+    ],
+    "cat": "slang",
+    "sub": "新增：速通與遊戲文化",
+    "short": "號召其他玩家一起組隊遊玩。",
+    "def": "指在討論板、社群或遊戲內頻道發文號召其他玩家一起組隊完成副本、活動或社交聚會的行為，「揪」帶有台語「邀約」的親切語感。這類貼文通常會列出時間、人數需求、裝備門檻等資訊，是團隊型 MMORPG 與需要多人協力內容（如公會戰、團本）維繫社群活躍度的重要日常行為，也是台灣網路文化中廣泛使用、不限於遊戲領域的通用詞彙（例如「揪團吃飯」）。",
+    "features": [
+      "號召組隊完成內容",
+      "帶台語「邀約」語感",
+      "常列出時間人數裝備需求",
+      "維繫團隊型內容社群活躍度"
+    ],
+    "examples": [
+      {
+        "title": "RO仙境傳說：新世代的誕生",
+        "en": "Ragnarok: New Generation",
+        "appid": 4279820,
+        "year": 2023,
+        "why": "團隊副本與公會戰內容仰賴玩家間頻繁的揪團行為"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "kaihuang",
+        "diff": "揪團是號召組隊的社交行為本身；開荒是揪團隊伍實際挑戰未知內容的過程，兩者常前後相連。"
+      }
+    ],
+    "related": [
+      "kaihuang"
+    ],
+    "design": "中性正面用語，沒有冒犯疑慮，是台灣網路文化中泛用於各種團體活動邀約的常見詞彙。",
+    "tw": "「揪團」為台灣特有、源自台語的通用邀約詞彙，廣泛用於各種生活場景，中國圈則多用「開團」「找人」。",
+    "sources": [
+      {
+        "title": "PTT 八卦板（綜合網路用語流通處）",
+        "url": "https://www.ptt.cc/bbs/Gossiping/index.html",
+        "accessed": "2026-09-17",
+        "note": "「揪團」為台灣網路文化廣泛通用的邀約用語，未能於本次搜尋中鎖定單一第三方可引用連結"
+      }
+    ],
+    "status": "unverified"
+  },
+  {
+    "id": "mother-tang",
+    "zh": "母湯（不可以）",
+    "en": "\"Mo-Tang\" (Taiwanese: Not Good)",
+    "aliases": [
+      "母湯喔",
+      "毋通"
+    ],
+    "cat": "slang",
+    "sub": "新增：速通與遊戲文化",
+    "short": "台語「毋通」的諧音，意思是「不可以」。",
+    "def": "源自台語「毋通」（m-thang，意思是「不可以、不要這樣做」）的國語諧音寫法，近年因台灣實況主與網路迷因帶動，廣泛流行於遊戲直播彈幕與社群留言中，用來勸阻或吐槽某個危險、不智的操作決定，例如「這樣衝母湯喔」。這個詞是台灣遊戲圈少數具有鮮明本土語言特色、且已「反向輸出」被其他華語地區玩家認識的用語。",
+    "features": [
+      "源自台語「毋通」的諧音",
+      "意思是「不可以、不要這樣」",
+      "台灣實況彈幕文化帶動流行",
+      "具鮮明本土語言特色的反向輸出案例"
+    ],
+    "examples": [
+      {
+        "title": "英雄聯盟",
+        "en": "League of Legends",
+        "appid": null,
+        "year": 2009,
+        "why": "台灣實況主直播彈幕中常見用於勸阻危險操作的用語"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "go-head-on",
+        "diff": "母湯是勸阻危險操作的用語；剛正面是鼓勵正面衝突的用語，兩者在語意態度上恰好相反。"
+      }
+    ],
+    "related": [
+      "go-head-on"
+    ],
+    "design": "帶詼諧親切語氣，沒有冒犯疑慮，是台灣直播彈幕文化中極具代表性的正面案例，適合作為在地文化教學素材。",
+    "tw": "台灣特有的台語諧音用語，是台灣遊戲圈最具本土特色的代表詞之一，中國圈少見此用法。",
+    "sources": [
+      {
+        "title": "PTT 八卦板（綜合網路用語流通處）",
+        "url": "https://www.ptt.cc/bbs/Gossiping/index.html",
+        "accessed": "2026-09-17",
+        "note": "「母湯」為台灣實況彈幕文化廣泛流傳的台語諧音用語，未能於本次搜尋中鎖定單一第三方可引用連結"
+      }
+    ],
+    "status": "unverified"
+  },
+  {
+    "id": "leet-slang-484-94",
+    "zh": "484／94（數字諧音）",
+    "en": "484 / 94 (Numeric Slang)",
+    "aliases": [
+      "484",
+      "94",
+      "是不是",
+      "就是"
+    ],
+    "cat": "slang",
+    "sub": "新增：速通與遊戲文化",
+    "short": "用數字諧音代替常用口語詞。",
+    "def": "「484」是「是不是」的注音輸入法諧音（ㄕ、ㄉ、ㄕ 對應數字鍵位），「94」則是「就是」的諧音，都是早期注音輸入法打字求快、演變成的網路數字流行語，常見於彈幕、聊天室快速回應中，例如「484很強」（是不是很強）、「94這樣」（就是這樣）。這類數字諧音是台灣、中國網路文化共通的早期「注音文」遺產之一，現多用於輕鬆、戲謔的語境。",
+    "features": [
+      "484＝是不是的諧音",
+      "94＝就是的諧音",
+      "源自注音輸入法打字求快",
+      "現多用於輕鬆戲謔語境"
+    ],
+    "examples": [
+      {
+        "title": "英雄聯盟",
+        "en": "League of Legends",
+        "appid": null,
+        "year": 2009,
+        "why": "直播彈幕與遊戲內快速聊天中常見的數字諧音縮寫用法"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "number-slang",
+        "diff": "484／94 是用數字諧音取代常用詞彙本身（是不是、就是）；666／777 是用數字直接表達讚嘆情緒，兩者功能不同。"
+      }
+    ],
+    "related": [
+      "number-slang"
+    ],
+    "design": "帶輕鬆戲謔語氣，沒有冒犯疑慮，正式書面溝通不適合使用，屬於彈幕與即時聊天限定的輕便用語。",
+    "tw": "台灣、中國網路文化共通，源自注音文全盛時期的數字諧音遺產，兩岸用法一致。",
+    "sources": [
+      {
+        "title": "PTT 八卦板（綜合網路用語流通處）",
+        "url": "https://www.ptt.cc/bbs/Gossiping/index.html",
+        "accessed": "2026-09-17",
+        "note": "「484／94」為華語網路注音文數字諧音遺產，未能於本次搜尋中鎖定單一第三方可引用連結"
+      }
+    ],
+    "status": "unverified"
+  }
+]

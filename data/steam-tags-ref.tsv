@@ -1,0 +1,431 @@
+tagid	en	tw	dim
+19	Action	動作	dim0
+21	Adventure	冒險	dim0
+122	RPG	角色扮演	dim0
+9	Strategy	策略	dim0
+599	Simulation	模擬	dim0
+597	Casual	休閒	dim0
+1664	Puzzle	解謎	dim0
+699	Racing	競速	dim0
+701	Sports	運動	dim0
+492	Indie	獨立	dim0
+113	Free to Play	免費遊玩	dim0
+493	Early Access	搶先體驗	dim0
+4231	Action RPG	動作角色扮演	dim1
+4434	JRPG	日系角色扮演	dim1
+4474	CRPG	電腦角色扮演	dim1
+1716	Roguelike	類 Rogue	dim1
+3959	Roguelite	輕度 Rogue	dim1
+1091588	Roguelike Deckbuilder	類 Rogue 牌組製作	dim1
+1628	Metroidvania	類銀河戰士惡魔城	dim1
+29482	Souls-like	類魂	dim1
+1625	Platformer	平台	dim1
+3877	Precision Platformer	精確平台	dim1
+5537	Puzzle Platformer	平台解謎	dim1
+5379	2D Platformer	2D 平台	dim1
+5395	3D Platformer	3D 平台	dim1
+1774	Shooter	射擊	dim1
+1663	FPS	第一人稱射擊	dim1
+3814	Third-Person Shooter	第三人稱射擊	dim1
+4255	Shoot 'Em Up	清版射擊	dim1
+4885	Bullet Hell	彈幕	dim1
+4758	Twin Stick Shooter	雙搖桿射擊	dim1
+5547	Arena Shooter	競技場射擊	dim1
+1023537	Boomer Shooter	老式射擊	dim1
+1199779	Extraction Shooter	撤離射擊	dim1
+353880	Looter Shooter	刷寶射擊	dim1
+620519	Hero Shooter	英雄射擊	dim1
+1743	Fighting	格鬥	dim1
+4158	Beat 'em up	帶狀捲軸動作	dim1
+1646	Hack and Slash	砍殺	dim1
+1687	Stealth	潛行	dim1
+1662	Survival	生存	dim1
+3978	Survival Horror	生存恐怖	dim1
+1100689	Open World Survival Craft	開放世界生存工藝	dim1
+176981	Battle Royale	大逃殺	dim1
+1718	MOBA	多人線上戰術競技	dim1
+1754	MMORPG	MMORPG	dim1
+1645	Tower Defense	塔防	dim1
+4328	City Builder	城市營造	dim1
+220585	Colony Sim	殖民模擬	dim1
+7332	Base Building	基地建設	dim1
+87918	Farming Sim	農場模擬	dim1
+10235	Life Sim	生活模擬	dim1
+9551	Dating Sim	戀愛模擬	dim1
+9204	Immersive Sim	沉浸模擬	dim1
+12472	Management	管理	dim1
+255534	Automation	自動化	dim1
+4364	Grand Strategy	大戰略	dim1
+1670	4X	4X	dim1
+1741	Turn-Based Strategy	回合制策略	dim1
+14139	Turn-Based Tactics	回合制戰術	dim1
+1676	RTS	即時策略	dim1
+1084988	Auto Battler	自動對戰	dim1
+1666	Card Game	卡牌遊戲	dim1
+791774	Card Battler	卡牌對戰	dim1
+32322	Deckbuilding	牌組製作	dim1
+3799	Visual Novel	視覺小說	dim1
+11014	Interactive Fiction	互動小說	dim1
+1698	Point & Click	點擊冒險	dim1
+1738	Hidden Object	隱藏物件	dim1
+5900	Walking Simulator	步行模擬	dim1
+1752	Rhythm	節奏	dim1
+7178	Party Game	派對遊戲	dim1
+615955	Idler	放置	dim1
+560542	Incremental	遞增	dim1
+916648	Creature Collector	生物收集	dim1
+723991	Bullet Heaven	逆彈幕	dim1
+3810	Sandbox	沙盒	dim1
+5300	God Game	創世神	dim1
+11104	Vehicular Combat	載具對戰	dim1
+15045	Flight	飛行	dim1
+4994	Naval Combat	海戰	dim1
+1100687	Automobile Sim	汽機車模擬	dim1
+1730	Sokoban	倉庫番	dim1
+1665	Match 3	三消	dim1
+24003	Word Game	文字遊戲	dim1
+769306	Escape Room	密室逃脫	dim1
+5613	Detective	推理	dim1
+8369	Investigation	調查	dim1
+17389	Tabletop	桌上遊戲	dim1
+1770	Board Game	棋盤遊戲	dim1
+1036	Education	教育學習	dim1
+4106	Action-Adventure	動作冒險	dim1
+42804	Action Roguelike	動作類 Rogue	dim1
+4486	Choose Your Own Adventure	自選冒險體驗	dim1
+17305	Strategy RPG	策略角色扮演	dim1
+1720	Dungeon Crawler	迷宮探索	dim1
+10695	Party-Based RPG	團隊角色扮演	dim1
+4637	Top-Down Shooter	俯視視角射擊	dim1
+21725	Tactical RPG	戰術角色扮演	dim1
+5652	Collectathon	收集型平台	dim1
+4684	Wargame	戰爭遊戲	dim1
+8666	Runner	奔跑	dim1
+4736	2D Fighter	2D 格鬥	dim1
+6506	3D Fighter	3D 格鬥	dim1
+16598	Space Sim	太空模擬	dim1
+198631	Mystery Dungeon	不可思議迷宮	dim1
+4777	Spectacle fighter	華麗格鬥	dim1
+4102	Combat Racing	對戰競速	dim1
+91114	Shop Keeper	商店經營	dim1
+18594	FMV	全動態影像	dim1
+1723	Action RTS	動作即時策略	dim1
+9271	Trading Card Game	交換卡牌	dim1
+13070	Solitaire	接龍	dim1
+31579	Otome	少女遊戲	dim1
+9564	Hunting	狩獵	dim1
+26921	Political Sim	政治模擬	dim1
+1674	Typing	打字	dim1
+7108	Party	派對	dim1
+3955	Character Action Game	角色動作	dim1
+8093	Minigames	小遊戲	dim1
+454187	Traditional Roguelike	傳統類 Rogue	dim1
+35079	Job Simulator	工作模擬	dim1
+13382	Archery	射箭	dim1
+1254546	Football (Soccer)	足球	dim1
+10437	Trivia	益智問答	dim1
+7423	Sniper	狙擊手	dim1
+56690	On-Rails Shooter	軌道射擊	dim1
+71389	Spelling	拼字	dim1
+1100686	Outbreak Sim	傳染病模擬	dim1
+12190	Boxing	拳擊	dim1
+4184	Chess	棋類	dim1
+1100688	Medical Sim	醫療模擬	dim1
+1746	Basketball	籃球	dim1
+745697	Social Deduction	社交推理	dim1
+7038	Golf	高爾夫球	dim1
+5727	Baseball	棒球	dim1
+7556	Dice	骰子	dim1
+6621	Pinball	彈珠檯	dim1
+47827	Wrestling	摔角	dim1
+1753	Skateboarding	滑板	dim1
+1254552	Football (American)	美式足球	dim1
+22955	Mini Golf	迷你高爾夫	dim1
+4852	Billiards	撞球	dim1
+96359	Skating	溜冰	dim1
+19568	Cycling	單車	dim1
+5914	Tennis	網球	dim1
+15868	Motocross	越野機車賽	dim1
+33572	Mahjong	麻將	dim1
+6835	Poker	撲克牌	dim1
+324176	Hockey	曲棍球	dim1
+7328	Bowling	保齡球	dim1
+37376	Falling Blocks	方塊掉落	dim1
+28444	Snowboarding	雪板	dim1
+7309	Skiing	滑雪	dim1
+17337	Lemmings	旅鼠	dim1
+252854	BMX	極限單車	dim1
+323922	Musou	無雙	dim1
+21635	Language Learning	語言學習	dim1
+1220528	Hobby Sim	嗜好模擬	dim1
+847164	Volleyball	排球	dim1
+158638	Cricket	板球	dim1
+49213	Rugby	橄欖球	dim1
+363767	Snooker	斯諾克	dim1
+3871	2D	2D	dim2
+4191	3D	3D	dim2
+4975	2.5D	假 3D	dim2
+3839	First-Person	第一人稱視角	dim2
+1697	Third Person	第三人稱視角	dim2
+4791	Top-Down	俯視視角	dim2
+5851	Isometric	等角視角	dim2
+3798	Side Scroller	橫向捲軸	dim2
+21978	VR	虛擬實境	dim2
+10816	Split Screen	分割畫面	dim2
+4835	6DOF	六自由度	dim2
+3964	Pixel Graphics	像素風格	dim3
+4085	Anime	日本動畫	dim3
+4195	Cartoony	卡通風格	dim3
+4562	Cartoon	卡通	dim3
+6815	Hand-drawn	手繪	dim3
+4252	Stylized	風格化	dim3
+1732	Voxel	立體像素	dim3
+4175	Realistic	擬真	dim3
+4004	Retro	復古	dim3
+4094	Minimalist	極簡主義	dim3
+4400	Abstract	抽象	dim3
+1751	Comic Book	漫畫	dim3
+6052	Noir	黑色	dim3
+4145	Cinematic	電影感	dim3
+4305	Colorful	色彩鮮艷	dim3
+1714	Psychedelic	迷幻	dim3
+5411	Beautiful	唯美	dim3
+1684	Fantasy	奇幻	dim4
+4604	Dark Fantasy	黑暗奇幻	dim4
+3942	Sci-fi	科幻	dim4
+4115	Cyberpunk	電馭叛客	dim4
+1777	Steampunk	蒸汽龐克	dim4
+3835	Post-apocalyptic	末日之後	dim4
+4172	Medieval	中世紀	dim4
+3987	Historical	歷史	dim4
+5673	Modern	現代	dim4
+1755	Space	太空	dim4
+4168	Military	軍事	dim4
+1678	War	戰爭	dim4
+1659	Zombies	喪屍	dim4
+12686	Vampires	吸血鬼	dim4
+17015	Werewolves	狼人	dim4
+10808	Supernatural	靈異	dim4
+7432	Lovecraftian	洛夫克拉夫特式	dim4
+16094	Mythology	神話	dim4
+6915	Martial Arts	武術	dim4
+1688	Ninja	忍者	dim4
+1647	Western	西部	dim4
+1681	Pirates	海盜	dim4
+6910	Naval	海軍	dim4
+9157	Underwater	水底	dim4
+30358	Nature	自然	dim4
+22602	Agriculture	農業	dim4
+5752	Robots	機器人	dim4
+4821	Mechs	機甲	dim4
+5160	Dinosaurs	恐龍	dim4
+17894	Cats	貓	dim4
+1637	Dogs	狗	dim4
+3920	Cooking	烹飪	dim4
+15564	Fishing	釣魚	dim4
+6378	Crime	犯罪	dim4
+5716	Mystery	懸疑	dim4
+10679	Time Travel	時光旅行	dim4
+1673	Aliens	外星人	dim4
+3952	Gothic	哥德	dim4
+3916	Old School	老式	dim4
+6691	1990's	90 年代	dim4
+7743	1980s	80 年代	dim4
+4057	Magic	魔法	dim4
+4295	Futuristic	未來	dim4
+7926	Artificial Intelligence	人工智慧	dim4
+9541	Demons	惡魔	dim4
+5030	Dystopian	反烏托邦	dim4
+4845	Capitalism	資本主義	dim4
+4598	Alternate History	架空歷史	dim4
+4046	Dragons	龍	dim4
+5372	Conspiracy	陰謀	dim4
+5794	Science	科學	dim4
+21006	Underground	地底	dim4
+4150	World War II	二戰	dim4
+1616	Trains	火車	dim4
+180368	Faith	信仰	dim4
+13276	Tanks	坦克	dim4
+97070	Assassins	暗殺	dim4
+9626	Animals	動物	dim4
+1671	Superhero	超級英雄	dim4
+1680	Heist	搶劫	dim4
+5179	Cold War	冷戰	dim4
+9803	Snow	雪	dim4
+4137	Transhumanism	超人類主義	dim4
+6041	Horses	馬匹	dim4
+6702	Mars	火星	dim4
+5382	World War I	一戰	dim4
+4535	Dwarves	矮人	dim4
+4291	Spaceships	太空船	dim4
+19780	Submarine	潛水艇	dim4
+198913	Motorbike	摩托車	dim4
+6948	Rome	羅馬	dim4
+123332	Bikes	機車 / 腳踏車	dim4
+6054	Elves	精靈	dim4
+11634	Vikings	維京	dim4
+25959	Wuxia	武俠	dim4
+760247	Xianxia	仙俠	dim4
+52406	Cult	邪教	dim4
+6214	Birds	鳥	dim4
+1776	Espionage	間諜	dim4
+10617	Samurai	日本武士	dim4
+507423	Foxes	狐狸	dim4
+129761	ATV	全地形載具	dim4
+1352486	Capybaras	水豚	dim4
+20486	Wolves	狼	dim4
+46348	Zoo	動物園	dim4
+4166	Atmospheric	氛圍	dim5
+4342	Dark	黑暗	dim5
+1667	Horror	恐怖	dim5
+1721	Psychological Horror	心理恐怖	dim5
+4345	Gore	鮮血	dim5
+4667	Violent	暴力	dim5
+4726	Cute	可愛	dim5
+1654	Relaxing	放鬆	dim5
+97376	Cozy	愜意	dim5
+552282	Wholesome	溫馨	dim5
+4136	Funny	搞笑	dim5
+1719	Comedy	歡樂	dim5
+5608	Emotional	感性	dim5
+1710	Surreal	超現實	dim5
+15277	Philosophical	哲理	dim5
+5350	Family Friendly	闔家	dim5
+4026	Difficult	低容錯	dim5
+4064	Thriller	驚悚	dim5
+5923	Dark Humor	黑色幽默	dim5
+10397	Memes	網路梗	dim5
+19995	Dark Comedy	黑色喜劇	dim5
+1651	Satire	諷刺	dim5
+4878	Parody	諧仿	dim5
+1693	Classic	經典	dim5
+3934	Immersive	沉浸	dim5
+4190	Addictive	易上癮	dim5
+14720	Nostalgia	懷舊	dim5
+3965	Epic	巨作	dim5
+42089	Jump Scare	突發驚嚇	dim5
+1742	Story Rich	劇情豐富	dim6
+6426	Choices Matter	選擇導向	dim6
+6971	Multiple Endings	多結局	dim6
+6869	Nonlinear	非線性	dim6
+31275	Text-Based	純文字	dim6
+4947	Romance	愛情	dim6
+7208	Female Protagonist	女主人翁	dim6
+15954	Silent Protagonist	無聲主角	dim6
+5186	Psychological	心理	dim6
+44868	LGBTQ+	LGBTQ+	dim6
+7250	Linear	線性	dim6
+3854	Lore-Rich	故事架構豐富	dim6
+42152	Dialogue Heavy	對話導向	dim6
+9592	Dynamic Narration	動態旁白	dim6
+7702	Narrative	敘事	dim6
+5708	Remake	重製	dim6
+4242	Episodic	影集	dim6
+11333	Villain Protagonist	惡人主角	dim6
+5230	Sequel	續作	dim6
+3796	Based On A Novel	小說改編	dim6
+5941	Reboot	重啟	dim6
+4325	Turn-Based Combat	回合制戰鬥	dim7
+3813	Real Time Tactics	即時戰術	dim7
+1708	Tactical	戰術	dim7
+7569	Grid-Based Movement	網格導向動作	dim7
+1717	Hex Grid	六角格棋盤	dim7
+1702	Crafting	工藝	dim7
+1643	Building	建造	dim7
+8945	Resource Management	資源管理	dim7
+1695	Open World	開放世界	dim7
+3834	Exploration	探索	dim7
+5125	Procedural Generation	程序生成	dim7
+1759	Perma Death	永久死亡	dim7
+4747	Character Customization	自訂角色	dim7
+4236	Loot	打寶	dim7
+4155	Class-Based	職業導向	dim7
+8122	Level Editor	關卡編輯	dim7
+1669	Moddable	可製作模組	dim7
+3968	Physics	物理	dim7
+5363	Destruction	毀滅	dim7
+4036	Parkour	跑酷	dim7
+6625	Time Manipulation	時空操控	dim7
+5796	Bullet Time	子彈時間	dim7
+1734	Fast-Paced	快節奏	dim7
+11095	Boss Rush	競速魔王戰	dim7
+5154	Score Attack	競分	dim7
+1773	Arcade	街機	dim7
+4711	Replay Value	值得重玩	dim7
+4234	Short	短片	dim7
+5390	Time Attack	時間競速	dim7
+4695	Economy	經濟	dim7
+4202	Trading	貿易	dim7
+4520	Farming	農場管理	dim7
+5502	Hacking	駭客	dim7
+5432	Programming	程式設計	dim7
+1621	Music	音樂	dim7
+7948	Soundtrack	原聲帶	dim7
+7481	Controller	控制器	dim7
+3993	Combat	戰鬥	dim7
+6129	Logic	邏輯	dim7
+6276	Inventory Management	庫存管理	dim7
+1756	Great Soundtrack	好評原聲帶	dim7
+12057	Tutorial	教學	dim7
+16689	Time Management	時間管理	dim7
+1677	Turn-Based	回合制	dim7
+1644	Driving	駕駛	dim7
+5765	Gun Customization	槍械改造	dim7
+4559	Quick-Time Events	快速反應事件	dim7
+4608	Swordplay	劍術	dim7
+5981	Mining	採礦	dim7
+16250	Gambling	賭博	dim7
+10383	Transportation	運輸	dim7
+6310	Diplomacy	外交	dim7
+11123	Mouse Only	僅滑鼠	dim7
+13577	Sailing	航海	dim7
+4161	Real-Time	即時	dim7
+8253	Music-Based Procedural Generation	音樂動態生成	dim7
+7622	Offroad	越野	dim7
+7107	Real-Time with Pause	即時含暫停	dim7
+25085	Touch-Friendly	觸控	dim7
+61357	Electronic Music	電子樂	dim7
+889937	Decorating	裝飾	dim7
+1239876	Organizing	組織整理	dim7
+189941	Instrumental Music	純樂器	dim7
+23491	Cleaning	打掃	dim7
+337964	Rock Music	搖滾樂	dim7
+8075	TrackIR	TrackIR	dim7
+14906	Intentionally Awkward Controls	蓄意操控困難	dim7
+27758	Voice Control	聲控	dim7
+117648	8-bit Music	8 位元音樂	dim7
+4182	Singleplayer	單人	dim8
+3859	Multiplayer	多人	dim8
+1685	Co-op	合作	dim8
+3843	Online Co-Op	線上合作	dim8
+3841	Local Co-Op	單機合作	dim8
+7368	Local Multiplayer	單機多人	dim8
+4840	4 Player Local	四人單機	dim8
+1775	PvP	玩家對戰	dim8
+6730	PvE	玩家合作	dim8
+128	Massively Multiplayer	大型多人	dim8
+5711	Team-Based	團隊導向	dim8
+4508	Co-op Campaign	合作戰役	dim8
+3878	Competitive	競技	dim8
+5055	eSports	電競	dim8
+17770	Asynchronous Multiplayer	異步多人	dim8
+856791	Asymmetric VR	非對稱 VR	dim8
+8013	Software	軟體	dim9
+87	Utilities	工具	dim9
+13782	Experimental	試驗性	dim9
+12095	Sexual Content	色情內容	dim9
+6650	Nudity	裸露	dim9
+9130	Hentai	Hentai	dim9
+84	Design & Illustration	設計及繪圖	dim9
+13906	Game Development	遊戲開發	dim9
+872	Animation & Modeling	動畫和模型製作	dim9
+784	Video Production	影像製作	dim9
+1027	Audio Production	音訊製作	dim9
+1445	Software Training	訓練軟體	dim9
+809	Photo Editing	圖片編輯	dim9
+1320952	Desktop Companion	桌面夥伴	dim9
+5348	Mod	模組	dim9
+150626	Gaming	遊戲	dim9
+776177	360 Video	360 全景影片	dim9
+603297	Hardware	硬體	dim9
+5407	Benchmark	效能測試	dim9

@@ -1,0 +1,80 @@
+{
+ "Fire Emblem Engage": {
+  "appid": null,
+  "tried": "Fire Emblem Engage",
+  "top": []
+ },
+ "Triangle Strategy": {
+  "appid": 1850510,
+  "name": "TRIANGLE STRATEGY"
+ },
+ "World of Warcraft": {
+  "appid": null,
+  "tried": "World of Warcraft",
+  "top": []
+ },
+ "Final Fantasy XIV": {
+  "appid": null,
+  "tried": "Final Fantasy XIV",
+  "top": [
+   "1795690:Immerse Gamepack FINAL FANTASY™ XIV Online Edition"
+  ]
+ },
+ "EVE Online": {
+  "appid": 8500,
+  "name": "EVE Online"
+ },
+ "NetHack": {
+  "appid": null,
+  "tried": "NetHack",
+  "top": [
+   "837200:NetHack: Legacy",
+   "341390:Vulture for NetHack"
+  ]
+ },
+ "Cassette Beasts": {
+  "appid": null,
+  "tried": "Cassette Beasts",
+  "top": [
+   "1321440:Cassette Beasts 磁帶怪獸",
+   "3802140:Cassette Beasts 2002",
+   "2202290:Cassette Beasts: Cosplay Pack"
+  ]
+ },
+ "Coromon": {
+  "appid": 1218210,
+  "name": "Coromon"
+ },
+ "Streets of Rage 4": {
+  "appid": null,
+  "tried": "Streets of Rage 4",
+  "top": [
+   "985890:怒之鐵拳4",
+   "1585820:Streets Of Rage 4 - Mr. X Nightmare",
+   "3812400:Streets of Rage 4 (Original Game Sountrack)"
+  ]
+ },
+ "Firewatch": {
+  "appid": 383870,
+  "name": "Firewatch"
+ },
+ "Gone Home": {
+  "appid": 232430,
+  "name": "Gone Home"
+ },
+ "God of War (2018)": {
+  "appid": null,
+  "tried": "God of War (2018)",
+  "top": []
+ },
+ "Super Mario Odyssey": {
+  "appid": null,
+  "tried": "Super Mario Odyssey",
+  "top": []
+ },
+ "The Legend of Zelda: Tears of the Kingdom": {
+  "appid": null,
+  "tried": "The Legend of Zelda: Tears of the Kingdom",
+  "top": []
+ }
+}

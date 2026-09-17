@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>遊戲名詞大百科</title>
+<meta name="description" content="結合 Steam 官方標籤的遊戲術語教學查詢系統：類型、題材、機制、果汁、黑話，每條附代表作、易混淆詞比較與來源。樹德科技大學動畫與遊戲設計系。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E📖%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@400;700;900&display=swap">
+<style>
+/* ===== 風格：紙上期刊（style-library paper-journal，色值照抄，不自創） ===== */
+:root{
+  --bg:#F5F4EC; --bg2:#EFEEE2; --surface:#FDFCF6; --surface2:#EDECDF;
+  --ink:#232B21; --ink2:#3A4237; --muted:#67705E; --line:rgba(35,43,33,.16);
+  --accent:#2F6B4F; --accent2:#BC4F2C; --ok:#2F6B4F; --warn:#BC4F2C; --danger:#9E3B1F; --info:#4A6B7C; --on-accent:#F5F4EC;
+  --sans:'Noto Sans TC','Microsoft JhengHei','PingFang TC','Segoe UI',sans-serif;
+  --serif:'Noto Serif TC','Source Han Serif TC','Songti TC','PMingLiU',serif;
+  --mono:'Cascadia Code',Consolas,'JetBrains Mono',monospace;
+  --r:4px; --shadow-lg:0 18px 70px rgba(0,0,0,.35);
+}
+@media (prefers-color-scheme:dark){ :root:not([data-theme="light"]){
+  --bg:#171B16; --bg2:#12160F; --surface:#1F241E; --surface2:#262C25;
+  --ink:#E8EBE2; --ink2:#CDD3C6; --muted:#9AA592; --line:rgba(232,235,226,.16);
+  --accent:#7FC7A4; --accent2:#E08A66; --ok:#7FC7A4; --warn:#E08A66; --danger:#E8705A; --info:#8FB4C4; --on-accent:#171B16; } }
+:root[data-theme="dark"]{
+  --bg:#171B16; --bg2:#12160F; --surface:#1F241E; --surface2:#262C25;
+  --ink:#E8EBE2; --ink2:#CDD3C6; --muted:#9AA592; --line:rgba(232,235,226,.16);
+  --accent:#7FC7A4; --accent2:#E08A66; --ok:#7FC7A4; --warn:#E08A66; --danger:#E8705A; --info:#8FB4C4; --on-accent:#171B16; }
+
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:linear-gradient(180deg,var(--bg),var(--bg2));color:var(--ink);font-family:var(--sans);font-size:17px;line-height:1.65;min-height:100vh}
+a{color:var(--accent)}
+button{font-family:inherit;font-size:inherit;cursor:pointer}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.wrap{max-width:1180px;margin:0 auto;padding:0 16px 80px}
+.eyebrow{font-size:13px;letter-spacing:.3em;text-transform:uppercase;color:var(--accent2);font-weight:700}
+h1,h2,h3,.serif{font-family:var(--serif)}
+
+/* 頁首 */
+header.top{padding:36px 0 18px;border-bottom:1px solid var(--line)}
+header.top .row{display:flex;flex-wrap:wrap;align-items:flex-end;gap:14px 24px}
+header.top h1{font-size:clamp(30px,5vw,44px);font-weight:900;line-height:1.15}
+header.top h1 small{display:block;font-family:var(--mono);font-size:13px;font-weight:400;color:var(--muted);letter-spacing:.08em;margin-top:6px}
+header.top .actions{margin-left:auto;display:flex;gap:8px;flex-wrap:wrap}
+.btn{background:var(--surface);border:1px solid var(--line);color:var(--ink2);padding:7px 13px;border-radius:var(--r);font-size:14px;text-decoration:none;display:inline-flex;align-items:center;gap:6px}
+.btn:hover{border-color:var(--accent);color:var(--accent)}
+.btn.primary{background:var(--accent);color:var(--on-accent);border-color:var(--accent)}
+.btn.primary:hover{opacity:.9;color:var(--on-accent)}
+.lead{color:var(--ink2);margin-top:14px;max-width:820px}
+
+/* 分頁籤 */
+nav.tabs{display:flex;gap:2px;margin-top:18px;border-bottom:1px solid var(--line);overflow-x:auto}
+nav.tabs button{background:none;border:none;border-bottom:2px solid transparent;padding:10px 14px;color:var(--muted);font-weight:500;white-space:nowrap}
+nav.tabs button[aria-selected="true"]{color:var(--accent);border-bottom-color:var(--accent)}
+nav.tabs button:hover{color:var(--ink)}
+
+/* 搜尋列（黏住） */
+.searchbar{position:sticky;top:0;z-index:20;background:var(--bg);padding:12px 0 10px;border-bottom:1px solid var(--line)}
+.searchbar .in{display:flex;gap:8px;align-items:center}
+.searchbar input{flex:1;min-width:0;font:inherit;font-size:17px;padding:10px 14px;border:1px solid var(--line);border-radius:var(--r);background:var(--surface);color:var(--ink)}
+.searchbar input:focus{border-color:var(--accent);outline:none}
+.searchbar .hint{font-size:13px;color:var(--muted);white-space:nowrap}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.chip{border:1px solid var(--line);background:var(--surface);color:var(--ink2);border-radius:999px;padding:3px 11px;font-size:13.5px;line-height:1.5}
+.chip:hover{border-color:var(--accent);color:var(--accent)}
+.chip[aria-pressed="true"]{background:var(--accent);color:var(--on-accent);border-color:var(--accent)}
+.chip .n{opacity:.7;font-family:var(--mono);font-size:11.5px;margin-left:4px}
+.status{font-size:14px;color:var(--muted);margin:12px 0 4px}
+
+/* 版面：左目錄、右內容 */
+.layout{display:grid;grid-template-columns:230px 1fr;gap:32px;margin-top:8px}
+@media (max-width:900px){.layout{grid-template-columns:1fr}.toc{display:none}}
+.toc{position:sticky;top:120px;align-self:start;max-height:calc(100vh - 140px);overflow:auto;font-size:14px;padding-right:8px}
+.toc .cat{margin:12px 0 4px;font-family:var(--serif);font-weight:700;color:var(--ink)}
+.toc a{display:block;color:var(--muted);text-decoration:none;padding:2px 0 2px 10px;border-left:1px solid var(--line)}
+.toc a:hover{color:var(--accent);border-left-color:var(--accent)}
+
+/* 章節與詞條卡 */
+section.cat{margin-top:36px}
+section.cat>h2{font-size:26px;font-weight:900;padding-bottom:8px;border-bottom:1px solid var(--line);margin-bottom:6px}
+section.cat>h2 .n{font-family:var(--mono);font-size:13px;color:var(--muted);font-weight:400;margin-left:10px}
+h3.sub{font-size:15px;font-family:var(--sans);font-weight:500;color:var(--muted);letter-spacing:.1em;margin:22px 0 8px}
+article.entry{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:14px 18px;margin-bottom:10px;scroll-margin-top:130px}
+article.entry:target,article.entry.hit{outline:1px solid var(--accent);outline-offset:3px}
+.entry .head{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;cursor:pointer}
+.entry .head h3{font-size:21px;font-weight:700;line-height:1.3}
+.entry .head .en{font-family:var(--mono);font-size:13.5px;color:var(--muted)}
+.entry .head .badge{margin-left:auto;font-size:12px;border:1px solid var(--line);border-radius:999px;padding:1px 9px;color:var(--muted)}
+.entry .head .badge.unv{color:var(--warn);border-color:var(--warn)}
+.entry .short{color:var(--ink2);margin-top:4px}
+.entry .quick{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.tag{font-size:12.5px;border:1px solid var(--line);border-radius:999px;padding:1px 9px;color:var(--ink2);text-decoration:none;background:var(--surface2)}
+.tag.steam{border-color:var(--info);color:var(--info)}
+.tag.steam:hover{background:var(--info);color:var(--on-accent)}
+.tag.rel:hover{border-color:var(--accent);color:var(--accent)}
+.entry .body{display:none;margin-top:14px;border-top:1px solid var(--line);padding-top:14px}
+.entry.open .body{display:block}
+.entry .body p{margin-bottom:10px}
+.blk{margin-top:14px}
+.blk .eyebrow{font-size:12px;margin-bottom:4px}
+.blk ul{padding-left:20px}
+.blk li{margin:2px 0}
+.aliases{font-size:14px;color:var(--muted)}
+.design{background:var(--surface2);border-left:3px solid var(--accent2);padding:10px 14px;border-radius:var(--r)}
+table.cmp{width:100%;border-collapse:collapse;font-size:15px}
+table.cmp th,table.cmp td{border:1px solid var(--line);padding:6px 10px;text-align:left;vertical-align:top}
+table.cmp th{background:var(--surface2);font-family:var(--serif);white-space:nowrap}
+.games{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px}
+.game{border:1px solid var(--line);border-radius:var(--r);overflow:hidden;background:var(--surface2);text-decoration:none;color:var(--ink);display:block}
+.game img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block;background:var(--bg2)}
+.game .nothumb{aspect-ratio:16/9;display:flex;align-items:center;justify-content:center;font-family:var(--serif);font-size:18px;color:var(--muted);padding:8px;text-align:center;background:var(--bg2)}
+.game .t{padding:6px 10px 2px;font-weight:700;font-size:14.5px;line-height:1.3}
+.game .y{font-family:var(--mono);font-size:11.5px;color:var(--muted);padding:0 10px}
+.game .w{font-size:13px;color:var(--ink2);padding:4px 10px 8px}
+details.src{font-size:14px;color:var(--muted)}
+details.src summary{cursor:pointer;color:var(--ink2)}
+details.src li{margin:3px 0}
+.perma{font-size:12.5px;color:var(--muted);margin-top:12px;display:flex;gap:14px;flex-wrap:wrap}
+.perma a{color:var(--muted)}
+.empty{padding:40px 0;color:var(--muted);text-align:center}
+
+/* 比較速查與標籤索引 */
+.view{display:none}.view.on{display:block}
+.tagidx{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:8px;margin-top:16px}
+.tagidx a{border:1px solid var(--line);background:var(--surface);border-radius:var(--r);padding:8px 12px;text-decoration:none;color:var(--ink);display:flex;justify-content:space-between;gap:8px}
+.tagidx a:hover{border-color:var(--accent)}
+.tagidx .tw{color:var(--muted);font-size:13px}
+.about{max-width:820px;margin-top:20px}
+.about h2{font-size:22px;margin:24px 0 8px}
+.about table{border-collapse:collapse;font-size:15px}
+.about td,.about th{border:1px solid var(--line);padding:5px 10px;text-align:left}
+.tagview{margin-top:20px;padding:14px 18px;border:1px solid var(--line);background:var(--surface2);border-radius:var(--r)}
+kbd{font-family:var(--mono);font-size:12px;border:1px solid var(--line);border-radius:3px;padding:0 5px;background:var(--surface)}
+footer{margin-top:60px;padding-top:16px;border-top:1px solid var(--line);font-size:13.5px;color:var(--muted)}
+@media print{.searchbar,.toc,nav.tabs,header .actions{display:none}.entry .body{display:block}article.entry{break-inside:avoid}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top">
+  <div class="eyebrow">樹德科技大學 動畫與遊戲設計系 · 教學查詢系統</div>
+  <div class="row">
+    <h1>遊戲名詞大百科<small>GAME GLOSSARY · 第三版（資料庫版）· <span id="hTotal"></span> 條 · 結合 Steam 官方標籤</small></h1>
+    <div class="actions">
+      <button class="btn" id="btnRandom" title="隨機打開一條，適合自學">🎲 隨機一條</button>
+      <button class="btn" id="btnTheme" title="切換明暗">🌓 主題</button>
+      <a class="btn primary" id="lnkTool" href="https://treefar.link/steam-tag-prompter/" target="_blank" rel="noopener">🏷️ Steam 標籤定位器</a>
+    </div>
+  </div>
+  <p class="lead">看懂「類魂的箱庭遊戲，戰鬥要有硬直和彈反」這種句子。每條都講白話定義、特色、代表作、跟誰容易搞混、企劃該注意什麼，並對應 Steam 官方標籤與來源。</p>
+  <nav class="tabs" role="tablist">
+    <button role="tab" aria-selected="true" data-view="entries">📖 詞條</button>
+    <button role="tab" aria-selected="false" data-view="compare">⚖️ 比較速查</button>
+    <button role="tab" aria-selected="false" data-view="tags">🏷️ Steam 標籤索引</button>
+    <button role="tab" aria-selected="false" data-view="about">ℹ️ 關於與引用</button>
+  </nav>
+</header>
+
+<div class="view on" id="view-entries">
+  <div class="searchbar">
+    <div class="in">
+      <input id="q" type="search" placeholder="搜尋中文、英文、別名或定義……（例：彈幕、soulslike、心理恐怖）" autocomplete="off" aria-label="搜尋詞條">
+      <span class="hint"><kbd>/</kbd> 聚焦 · <kbd>Esc</kbd> 清除</span>
+    </div>
+    <div class="chips" id="catChips"></div>
+    <div class="status" id="status"></div>
+  </div>
+  <div id="tagview" class="tagview" hidden></div>
+  <div class="layout">
+    <aside class="toc" id="toc"></aside>
+    <main id="list"></main>
+  </div>
+</div>
+
+<div class="view" id="view-compare">
+  <p class="lead">所有詞條裡的「跟誰容易搞混」整理成一張表。搜尋框可篩選。</p>
+  <div class="searchbar"><div class="in"><input id="qc" type="search" placeholder="篩選比較表……" aria-label="篩選比較表"></div></div>
+  <div id="cmpList"></div>
+</div>
+
+<div class="view" id="view-tags">
+  <p class="lead">本百科引用到的 Steam 官方標籤。點一個標籤，看哪些詞條與它有關；也可以直接跳到 Steam 商店的標籤頁，或到「Steam 標籤定位器」裡把它加進你的定位單。</p>
+  <div class="searchbar"><div class="in"><input id="qt" type="search" placeholder="篩選標籤（英文或繁中）……" aria-label="篩選標籤"></div></div>
+  <div class="tagidx" id="tagList"></div>
+</div>
+
+<div class="view" id="view-about">
+  <div class="about" id="about"></div>
+</div>
+
+<footer>
+  遊戲名詞大百科 · 樹德科技大學動畫與遊戲設計系 鄧樹遠 · MIT 授權 · 原始碼與資料在 <a id="lnkRepo" href="https://github.com/treefar/game-glossary" target="_blank" rel="noopener">GitHub</a>。
+  遊戲縮圖來自 Steam 商店，版權屬各發行商。全站在瀏覽器本機運算，不上傳任何資料。
+</footer>
+</div>
+
+<script>
+/*__GLOSSARY_DATA__*/
+(function(){
+"use strict";
+const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
+const esc=s=>String(s==null?"":s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const E=DATA.entries, M=DATA.meta, TAGS=DATA.tags, CARDS=DATA.cards;
+const byId=new Map(E.map(e=>[e.id,e]));
+const STEAM_TAG=en=>"https://store.steampowered.com/tags/en/"+encodeURIComponent(en)+"/";
+const TOOL_TAG=id=>M.toolUrl+"#tag="+id;
+const CAT_ICON={basics:"🔤",genre:"🎮",theme:"🌫️",visual:"🎨",narrative:"📜",mechanic:"⚔️",juice:"🧃",system:"⚙️",multiplayer:"🌐",tech:"🖥️",industry:"🏭",mobile:"📱",esports:"🏆",ai:"🤖",slang:"💬"};
+$("#hTotal").textContent=M.stats.total;
+$("#lnkTool").href=M.toolUrl; $("#lnkRepo").href=M.repo;
+
+/* 主題 */
+const store={get(k){try{return localStorage.getItem(k)}catch{return null}},set(k,v){try{localStorage.setItem(k,v)}catch{}}};
+const savedTheme=store.get("glossary.theme"); if(savedTheme) document.documentElement.dataset.theme=savedTheme;
+$("#btnTheme").onclick=()=>{const cur=document.documentElement.dataset.theme||(matchMedia("(prefers-color-scheme:dark)").matches?"dark":"light");const next=cur==="dark"?"light":"dark";document.documentElement.dataset.theme=next;store.set("glossary.theme",next)};
+
+/* 分頁籤 */
+let view="entries";
+function showView(v){view=v;$$("nav.tabs button").forEach(b=>b.setAttribute("aria-selected",b.dataset.view===v));$$(".view").forEach(x=>x.classList.toggle("on",x.id==="view-"+v));}
+$$("nav.tabs button").forEach(b=>b.onclick=()=>{showView(b.dataset.view);if(b.dataset.view==="entries")history.replaceState(null,"",location.pathname);});
+
+/* 篩選狀態 */
+let state={q:"",cat:"",tag:null};
+const norm=s=>String(s||"").toLowerCase().replace(/\s+/g,"");
+function matches(e){
+  if(state.cat&&e.cat!==state.cat) return false;
+  if(state.tag&&!(e.steamTags||[]).some(t=>String(t.tagid)===String(state.tag))) return false;
+  if(!state.q) return true;
+  const q=norm(state.q);
+  const hay=[e.zh,e.en,e.short,e.sub,...(e.aliases||[])].map(norm).join("│");
+  if(hay.includes(q)) return true;
+  return norm(e.def).includes(q)||norm(e.design).includes(q);
+}
+function rank(e){const q=norm(state.q);if(!q)return 0;if(norm(e.zh).includes(q)||norm(e.en).includes(q))return 0;if((e.aliases||[]).some(a=>norm(a).includes(q)))return 1;if(norm(e.short).includes(q))return 2;return 3;}
+
+/* 卡片渲染 */
+function tagChip(t){const ref=TAGS[t.tagid]||{};return `<a class="tag steam" href="#tag-${t.tagid}" title="看與這個 Steam 標籤相關的詞條">🏷️ ${esc(t.en)}${ref.tw&&ref.tw!==t.en?"／"+esc(ref.tw):""}</a>`;}
+function headHtml(e){
+  const unv=e.status!=="verified";
+  return `<div class="head" role="button" tabindex="0" aria-expanded="false">
+    <h3>${esc(e.zh)}</h3><span class="en">${esc(e.en)}</span>
+    <span class="badge ${unv?"unv":""}" title="${unv?"定義或代表作尚未找到可靠來源":"定義與代表作皆有來源"}">${unv?"未查證":"已查證"}</span></div>
+  <div class="short">${esc(e.short)}</div>
+  <div class="quick">${(e.steamTags||[]).map(tagChip).join("")}${(e.aliases||[]).length?`<span class="aliases">又稱：${e.aliases.map(esc).join("、")}</span>`:""}</div>
+  <div class="body"></div>
+  <div class="perma"><a href="#${esc(e.id)}">🔗 固定連結</a><a href="#" class="cp" data-id="${esc(e.id)}">📋 複製連結</a>${e.cat!=="slang"?`<a href="${TOOL_TAG((e.steamTags||[])[0]?e.steamTags[0].tagid:"")}" target="_blank" rel="noopener">🏷️ 到標籤定位器</a>`:""}</div>`;
+}
+function gameCard(x){
+  const c=x.appid?CARDS[x.appid]:null;
+  const inner=`${c&&c.img?`<img loading="lazy" src="${esc(c.img)}" alt="">`:`<div class="nothumb">${esc(x.title)}</div>`}
+    <div class="t">${esc(x.title)}${x.en&&x.en!==x.title?` <span style="font-weight:400;color:var(--muted)">${esc(x.en)}</span>`:""}</div>
+    <div class="y">${esc(x.year||(c&&c.year)||"")}</div>${x.why?`<div class="w">${esc(x.why)}</div>`:""}`;
+  return x.appid?`<a class="game" href="https://store.steampowered.com/app/${Number(x.appid)}/" target="_blank" rel="noopener">${inner}</a>`:`<div class="game">${inner}</div>`;
+}
+function bodyHtml(e){
+  const cmp=(e.compare||[]).map(c=>{const o=byId.get(c.with);return `<tr><th>${o?`<a href="#${esc(o.id)}">${esc(o.zh)}</a>`:esc(c.with)}</th><td>${esc(c.diff)}</td></tr>`;}).join("");
+  const rel=(e.related||[]).map(r=>{const o=byId.get(r);return o?`<a class="tag rel" href="#${esc(o.id)}">${esc(o.zh)}</a>`:"";}).join("");
+  return `<p>${esc(e.def)}</p>
+  ${(e.features||[]).length?`<div class="blk"><div class="eyebrow">特色</div><ul>${e.features.map(f=>`<li>${esc(f)}</li>`).join("")}</ul></div>`:""}
+  ${cmp?`<div class="blk"><div class="eyebrow">跟誰容易搞混</div><table class="cmp"><tbody>${cmp}</tbody></table></div>`:""}
+  ${(e.examples||[]).length?`<div class="blk"><div class="eyebrow">代表作</div><div class="games">${e.examples.map(gameCard).join("")}</div></div>`:""}
+  ${e.design?`<div class="blk"><div class="eyebrow">設計要點</div><div class="design">${esc(e.design)}</div></div>`:""}
+  ${e.origin?`<div class="blk"><div class="eyebrow">詞源</div><p>${esc(e.origin)}</p></div>`:""}
+  ${e.tw?`<div class="blk"><div class="eyebrow">台灣用法</div><p>${esc(e.tw)}</p></div>`:""}
+  ${rel?`<div class="blk"><div class="eyebrow">相關詞條</div><div class="quick">${rel}</div></div>`:""}
+  <div class="blk"><details class="src"><summary>來源（${(e.sources||[]).length}）</summary><ul>${(e.sources||[]).map(s=>`<li><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a>${s.note?` — ${esc(s.note)}`:""}<span style="font-family:var(--mono);font-size:12px"> · ${esc(s.accessed)}</span></li>`).join("")}</ul></details></div>`;
+}
+function openEntry(art,e){if(!art.classList.contains("open")){art.querySelector(".body").innerHTML=bodyHtml(e);art.classList.add("open");art.querySelector(".head").setAttribute("aria-expanded","true");}}
+function toggleEntry(art,e){if(art.classList.contains("open")){art.classList.remove("open");art.querySelector(".head").setAttribute("aria-expanded","false");}else openEntry(art,e);}
+
+/* 列表 */
+function render(){
+  const list=$("#list"), toc=$("#toc");
+  const hits=E.filter(matches);
+  const q=state.q;
+  if(q) hits.sort((a,b)=>rank(a)-rank(b));
+  $("#status").textContent=hits.length?`${hits.length} 條${state.tag?"（Steam 標籤篩選中）":""}${state.cat?"（"+M.catLabel[state.cat]+"）":""}${q?"，搜尋「"+q+"」":""}`:"沒有符合的詞條。試試英文、別名，或清掉篩選。";
+  if(!hits.length){list.innerHTML=`<div class="empty">找不到。你可以到 <a href="${M.repo}/issues" target="_blank" rel="noopener">GitHub</a> 提議新增這個詞。</div>`;toc.innerHTML="";return;}
+  let html="",tocHtml="",lastCat=null,lastSub=null;
+  if(q){ html=`<section class="cat"><h2>搜尋結果<span class="n">${hits.length}</span></h2>`+hits.map(e=>`<article class="entry" id="${esc(e.id)}" data-id="${esc(e.id)}">${headHtml(e)}</article>`).join("")+"</section>"; toc.innerHTML=""; }
+  else{
+    for(const e of hits){
+      if(e.cat!==lastCat){ if(lastCat) html+="</section>"; html+=`<section class="cat" id="cat-${esc(e.cat)}"><h2>${CAT_ICON[e.cat]||""} ${esc(M.catLabel[e.cat]||e.cat)}<span class="n">${M.stats.cats[e.cat]||""}</span></h2>`; tocHtml+=`<div class="cat"><a href="#cat-${esc(e.cat)}" style="border:0;padding:0;color:inherit">${CAT_ICON[e.cat]||""} ${esc(M.catLabel[e.cat]||e.cat)}</a></div>`; lastCat=e.cat; lastSub=null; }
+      if(e.sub!==lastSub){ const sid="sub-"+e.cat+"-"+e.sub.replace(/[^\w一-鿿]+/g,"-"); html+=`<h3 class="sub" id="${esc(sid)}">${esc(e.sub)}</h3>`; tocHtml+=`<a href="#${esc(sid)}">${esc(e.sub)}</a>`; lastSub=e.sub; }
+      html+=`<article class="entry" id="${esc(e.id)}" data-id="${esc(e.id)}">${headHtml(e)}</article>`;
+    }
+    html+="</section>"; toc.innerHTML=tocHtml;
+  }
+  list.innerHTML=html;
+  if(q&&hits.length<=3) $$("#list article.entry").forEach(a=>openEntry(a,byId.get(a.dataset.id)));
+}
+$("#list").addEventListener("click",ev=>{
+  const cp=ev.target.closest("a.cp"); if(cp){ev.preventDefault();const u=location.href.split("#")[0]+"#"+cp.dataset.id;navigator.clipboard&&navigator.clipboard.writeText(u).then(()=>{cp.textContent="✅ 已複製";setTimeout(()=>cp.textContent="📋 複製連結",1500)});return;}
+  const head=ev.target.closest(".head"); if(head){const art=head.closest("article");toggleEntry(art,byId.get(art.dataset.id));}
+});
+$("#list").addEventListener("keydown",ev=>{if((ev.key==="Enter"||ev.key===" ")&&ev.target.classList.contains("head")){ev.preventDefault();const art=ev.target.closest("article");toggleEntry(art,byId.get(art.dataset.id));}});
+
+/* 分類 chips */
+function renderChips(){
+  const c=$("#catChips");
+  c.innerHTML=`<button class="chip" data-cat="" aria-pressed="${!state.cat}">全部<span class="n">${M.stats.total}</span></button>`+M.catOrder.filter(k=>M.stats.cats[k]).map(k=>`<button class="chip" data-cat="${k}" aria-pressed="${state.cat===k}">${CAT_ICON[k]||""} ${esc(M.catLabel[k])}<span class="n">${M.stats.cats[k]}</span></button>`).join("");
+}
+$("#catChips").addEventListener("click",ev=>{const b=ev.target.closest(".chip");if(!b)return;state.cat=b.dataset.cat;renderChips();render();});
+
+/* 搜尋 */
+let t; $("#q").addEventListener("input",ev=>{clearTimeout(t);t=setTimeout(()=>{state.q=ev.target.value.trim();if(state.q&&state.tag){setTag(null);history.replaceState(null,"",location.pathname);}render();},120);});
+document.addEventListener("keydown",ev=>{
+  if(ev.key==="/"&&document.activeElement.tagName!=="INPUT"){ev.preventDefault();showView("entries");$("#q").focus();}
+  if(ev.key==="Escape"&&document.activeElement.id==="q"){$("#q").value="";state.q="";render();}
+});
+
+/* 標籤篩選視圖 */
+function setTag(id){
+  state.tag=id; const box=$("#tagview");
+  if(!id){box.hidden=true;box.innerHTML="";return;}
+  const ref=TAGS[id]; const n=E.filter(e=>(e.steamTags||[]).some(t=>String(t.tagid)===String(id))).length;
+  box.hidden=false;
+  box.innerHTML=`<div class="eyebrow">Steam 官方標籤</div><div style="display:flex;flex-wrap:wrap;gap:12px;align-items:baseline"><strong class="serif" style="font-size:22px">${esc(ref?ref.en:id)}</strong>${ref&&ref.tw?`<span>${esc(ref.tw)}</span>`:""}<span style="color:var(--muted)">${n} 條相關詞條</span>
+  <span style="margin-left:auto;display:flex;gap:8px;flex-wrap:wrap"><a class="btn" href="${ref?STEAM_TAG(ref.en):"#"}" target="_blank" rel="noopener">在 Steam 商店看這個標籤</a><a class="btn" href="${TOOL_TAG(id)}" target="_blank" rel="noopener">加進標籤定位器</a><button class="btn" id="clearTag">✕ 清除篩選</button></span></div>`;
+  $("#clearTag").onclick=()=>{setTag(null);history.replaceState(null,"",location.pathname);render();};
+}
+
+/* 比較速查 */
+function renderCompare(){
+  const q=norm($("#qc").value);
+  const rows=[]; for(const e of E) for(const c of (e.compare||[])){const o=byId.get(c.with);rows.push({a:e,b:o,with:c.with,diff:c.diff});}
+  const seen=new Set(); const out=[];
+  for(const r of rows){const key=[r.a.id,r.with].sort().join("|")+"|"+r.diff;if(seen.has(key))continue;seen.add(key);if(q&&!norm(r.a.zh+r.a.en+(r.b?r.b.zh+r.b.en:r.with)+r.diff).includes(q))continue;out.push(r);}
+  $("#cmpList").innerHTML=out.length?`<table class="cmp" style="margin-top:14px"><thead><tr><th>A</th><th>B</th><th>差在哪</th></tr></thead><tbody>${out.map(r=>`<tr><th><a href="#${esc(r.a.id)}">${esc(r.a.zh)}</a></th><th>${r.b?`<a href="#${esc(r.b.id)}">${esc(r.b.zh)}</a>`:esc(r.with)}</th><td>${esc(r.diff)}</td></tr>`).join("")}</tbody></table><p class="status">${out.length} 組</p>`:`<div class="empty">沒有符合的比較。</div>`;
+}
+$("#qc").addEventListener("input",renderCompare);
+
+/* 標籤索引 */
+function renderTags(){
+  const q=norm($("#qt").value);
+  const counts={}; for(const e of E) for(const t of (e.steamTags||[])) counts[t.tagid]=(counts[t.tagid]||0)+1;
+  const rows=Object.entries(TAGS).map(([id,t])=>({id,...t,n:counts[id]||0})).filter(t=>t.n&&(!q||norm(t.en+t.tw).includes(q))).sort((a,b)=>b.n-a.n||a.en.localeCompare(b.en));
+  $("#tagList").innerHTML=rows.map(t=>`<a href="#tag-${t.id}"><span>${esc(t.en)} <span class="tw">${esc(t.tw!==t.en?t.tw:"")}</span></span><span class="tw">${t.n} 條</span></a>`).join("")||`<div class="empty">沒有符合的標籤。</div>`;
+}
+$("#qt").addEventListener("input",renderTags);
+
+/* 關於 */
+function renderAbout(){
+  const catRows=M.catOrder.filter(k=>M.stats.cats[k]).map(k=>`<tr><td>${CAT_ICON[k]||""} ${esc(M.catLabel[k])}</td><td>${M.stats.cats[k]}</td></tr>`).join("");
+  $("#about").innerHTML=`<h2>這是什麼</h2><p>給遊戲企劃、遊戲設計課學生與自學者的術語查詢系統。前身是《現世代遊戲專有名詞指南》第一、二版（2026 年，文件版）；第三版改成資料庫，每條詞目都有結構化欄位，並對應 Steam 官方標籤，可以和「Steam 標籤定位器」互相連結。</p>
+  <h2>怎麼用</h2><ul><li>搜尋框可以打中文、英文、別名（例如「肉鴿」「彈幕」「soulslike」）。</li><li>點詞條標題展開完整內容；「跟誰容易搞混」是本站的重點，也彙整在「比較速查」分頁。</li><li>每條的 Steam 標籤可以跳到商店頁，或帶進「Steam 標籤定位器」做你自己的遊戲定位。</li><li>🎲 隨機一條適合自學：每天打開翻一條。</li><li>網址加 <code>#詞條id</code> 可直接分享某一條，例如 <code>#psychological-horror</code>。</li></ul>
+  <h2>資料與查證</h2><p>每條至少附一筆來源與查閱日期，優先順序是 Steam 官方標籤頁與文件、Wikipedia、開發者官方文章與 GDC 演講。找不到可靠來源的條目標示「未查證」，不會假裝。目前 ${M.stats.total} 條，其中 ${M.stats.verified} 條已查證。建置日期 ${esc(M.meta?M.meta.built:M.built)}。</p>
+  <table><thead><tr><th>分類</th><th>條數</th></tr></thead><tbody>${catRows}</tbody></table>
+  <h2>引用格式</h2><p>鄧樹遠（2026）。《遊戲名詞大百科》（第三版）。樹德科技大學動畫與遊戲設計系。https://treefar.link/game-glossary/</p>
+  <h2>授權與回報</h2><p>程式與資料以 MIT 授權公開於 <a href="${M.repo}" target="_blank" rel="noopener">GitHub</a>。發現錯誤、想補詞條，開 issue 或 PR 都歡迎。遊戲縮圖來自 Steam 商店，版權屬各發行商。</p>`;
+}
+
+/* 路由 */
+function route(){
+  const h=decodeURIComponent(location.hash.slice(1));
+  if(!h){setTag(null);render();return;}
+  if(h.startsWith("tag-")){showView("entries");setTag(h.slice(4));state.q="";$("#q").value="";render();window.scrollTo({top:0});return;}
+  if(h.startsWith("cat-")){showView("entries");setTag(null);state.cat=h.slice(4);renderChips();render();return;}
+  if(h.startsWith("q=")){showView("entries");state.q=h.slice(2);$("#q").value=state.q;render();return;}
+  if(byId.has(h)){
+    showView("entries");
+    let art=document.getElementById(h);
+    if(!art){state.q="";state.cat="";$("#q").value="";setTag(null);renderChips();render();art=document.getElementById(h);}
+    if(art){openEntry(art,byId.get(h));art.scrollIntoView({block:"start"});art.classList.add("hit");setTimeout(()=>art.classList.remove("hit"),2500);}
+  }
+}
+window.addEventListener("hashchange",route);
+
+$("#btnRandom").onclick=()=>{const e=E[Math.floor(Math.random()*E.length)];location.hash=e.id;};
+
+renderChips(); renderCompare(); renderTags(); renderAbout(); render(); route();
+})();
+</script>
+</body>
+</html>

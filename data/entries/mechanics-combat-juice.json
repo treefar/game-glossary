@@ -1,0 +1,3262 @@
+[
+  {
+    "id": "frame-data",
+    "zh": "幀數據",
+    "en": "Frame Data",
+    "aliases": [
+      "Frame Data",
+      "招式幀數"
+    ],
+    "cat": "mechanic",
+    "sub": "幀與判定",
+    "short": "以幀為單位量化招式啟動、生效、恢復時間的數據。",
+    "def": "幀數據是格鬥與動作遊戲用「幀」（60FPS 下 1 幀約 0.017 秒）拆解每個招式的三段時間：啟動幀（按下到生效前的前搖）、生效幀（判定實際存在的時間）、恢復幀（打完到能再行動的後搖）。玩家與設計者靠這組數字計算招式快慢、被擋後是否安全、能否被反擊。幀數據是所有連段、取消、防禦破綻計算的數學基礎，格鬥遊戲社群甚至會整理出完整的幀數表供玩家背誦。",
+    "features": [
+      "拆解啟動、生效、恢復三階段",
+      "決定招式被擋後的優劣勢",
+      "是連段與反擊計算的基礎",
+      "高手玩家常背誦幀數表"
+    ],
+    "examples": [
+      {
+        "title": "快打旋風6",
+        "en": "Street Fighter 6",
+        "appid": 1364780,
+        "year": 2023,
+        "why": "格鬥遊戲幀數據教學與社群資料最完整的代表作"
+      },
+      {
+        "title": "鐵拳8",
+        "en": "Tekken 8",
+        "appid": 1778820,
+        "year": 2024,
+        "why": "3D格鬥幀數據涉及推力與立回距離，比2D更複雜"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 1743,
+        "en": "Fighting"
+      }
+    ],
+    "compare": [],
+    "related": [
+      "hitstun",
+      "input-buffer",
+      "animation-cancel"
+    ],
+    "design": "開發時務必把每招的啟動、生效、恢復幀寫進設計文件；原則是快攻＝短啟動＋低傷＋短恢復，重攻＝長啟動＋高傷＋長恢復，用這個風險報酬公式做平衡基礎。",
+    "sources": [
+      {
+        "title": "Theory: Aiding Asymmetrical Balance with Frame Data",
+        "url": "https://www.gamedeveloper.com/design/theory-aiding-asymmetrical-balance-with-frame-data",
+        "accessed": "2026-09-17",
+        "note": "Game Developer 文章討論幀數據在平衡設計上的應用"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "hitstun",
+    "zh": "硬直",
+    "en": "Hitstun / Hit Recovery",
+    "aliases": [
+      "Hit Recovery",
+      "受擊硬直"
+    ],
+    "cat": "mechanic",
+    "sub": "幀與判定",
+    "short": "角色被擊中後無法操作的僵直狀態。",
+    "def": "硬直指角色被攻擊命中後，一段時間內無法執行任何操作，詞源來自日文遊戲用語。硬直長度是連段能否成立的關鍵：如果對手的硬直時間長於我方下一擊的啟動幀，就能在對方恢復前再次命中，串成連段。硬直為零則代表打了等於沒打，像打在棉花上；硬直過長又會讓被擊方毫無反抗餘地。格鬥遊戲需要精確到幀的硬直數據，動作RPG則可以抓比較寬鬆的手感。",
+    "features": [
+      "決定連段是否成立",
+      "與擊退、傷害連動",
+      "硬直為零等於沒有反饋",
+      "格鬥遊戲需精確到幀"
+    ],
+    "examples": [
+      {
+        "title": "快打旋風6",
+        "en": "Street Fighter 6",
+        "appid": 1364780,
+        "year": 2023,
+        "why": "格鬥遊戲連段全靠硬直與幀數優勢計算"
+      },
+      {
+        "title": "惡魔獵人5",
+        "en": "Devil May Cry 5",
+        "appid": 601150,
+        "year": 2019,
+        "why": "動作遊戲用硬直銜接華麗連段的代表"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 1743,
+        "en": "Fighting"
+      }
+    ],
+    "compare": [
+      {
+        "with": "stagger",
+        "diff": "硬直是單次攻擊造成的短暫無法行動；蹣跚是資源條歸零後的大範圍失衡狀態，通常伴隨處決機會。"
+      },
+      {
+        "with": "posture-bar",
+        "diff": "硬直逐次攻擊即時觸發；架勢條是累積制，滿條才觸發一次性的大硬直（蹣跚）。"
+      }
+    ],
+    "related": [
+      "combo",
+      "frame-data",
+      "stagger"
+    ],
+    "design": "硬直時間設太長玩家會覺得無力反抗，太短則攻擊沒有重量感。建議依遊戲類型分級調校，並讓受擊動畫與硬直時間視覺上對應，不要讓玩家覺得已經站起來了卻還不能動。",
+    "sources": [
+      {
+        "title": "Stunning Detail: Hitstun in Depth",
+        "url": "https://critpoints.net/2016/08/14/stunning-detail/",
+        "accessed": "2026-09-17",
+        "note": "格鬥遊戲設計部落格對硬直機制的深入分析"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "i-frame",
+    "zh": "無敵幀",
+    "en": "Invincibility Frame (I-Frame)",
+    "aliases": [
+      "I-Frame",
+      "無敵時間"
+    ],
+    "cat": "mechanic",
+    "sub": "幀與判定",
+    "short": "特定動作中受擊判定暫時消失的短暫無敵時間。",
+    "def": "無敵幀指角色執行翻滾、墊步、後跳等特定動作時，受擊判定框暫時消失，此時任何攻擊穿過角色身體都不會造成傷害。這是《黑暗靈魂》系列翻滾閃避的核心機制，熟練玩家能抓準時機穿過敵人攻擊。無敵幀長度可作為難度調節參數，幀數越多越好閃、越少越考驗精準度，設計時通常建議加入除錯視覺化（角色閃爍或變色）方便驗證。",
+    "features": [
+      "動作中的受擊判定暫時消失",
+      "常見於翻滾、閃避、起身",
+      "幀數多寡是難度調節旋鈕",
+      "需搭配視覺回饋讓玩家能學習"
+    ],
+    "examples": [
+      {
+        "title": "艾爾登法環",
+        "en": "Elden Ring",
+        "appid": 1245620,
+        "year": 2022,
+        "why": "翻滾無敵幀是魂系遊戲最核心的閃避手感"
+      },
+      {
+        "title": "Hollow Knight",
+        "en": "Hollow Knight",
+        "appid": 367520,
+        "year": 2017,
+        "why": "2D類魂平台動作同樣依賴衝刺無敵幀"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 29482,
+        "en": "Souls-like"
+      }
+    ],
+    "compare": [
+      {
+        "with": "super-armor",
+        "diff": "無敵幀是完全不會被打中，攻擊直接穿過去；霸體是會被打中扣血，但不會被打斷動作，兩者都能撐過攻擊但原理相反。"
+      }
+    ],
+    "related": [
+      "stamina-system",
+      "super-armor",
+      "perfect-dodge"
+    ],
+    "design": "無敵幀要感覺得到，玩家得靠練習才能掌握精確時機；開發初期就該加入除錯模式的視覺化提示，並注意幀數與動畫長度是否吻合，避免玩家覺得明明躲開了卻還是中。",
+    "sources": [
+      {
+        "title": "Invincibility",
+        "url": "https://www.ssbwiki.com/Invincibility",
+        "accessed": "2026-09-17",
+        "note": "SmashWiki 對無敵幀機制的整理"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "animation-cancel",
+    "zh": "動作取消",
+    "en": "Animation Cancel",
+    "aliases": [
+      "Cancel",
+      "取消"
+    ],
+    "cat": "mechanic",
+    "sub": "幀與判定",
+    "short": "用另一個動作中斷當前動畫恢復幀的技巧。",
+    "def": "動作取消指在招式動畫播放過程中插入另一個動作，藉此中斷、跳過原本的恢復幀（後搖）。常見類型有跳躍取消、翻滾取消、必殺技取消，讓高手玩家能省下恢復時間，把原本不可能串連的招式接在一起，做出更華麗的連段。此機制據信源自《快打旋風2》的程式錯誤，後被開發者正式保留並發展成系統化設計，如《鬼泣》的武器切換取消、《戰神》的多重取消點。",
+    "features": [
+      "用新動作打斷恢復幀",
+      "擴展連段深度與操作上限",
+      "源頭是快打旋風2的程式漏洞",
+      "需要教學讓玩家發現機制存在"
+    ],
+    "examples": [
+      {
+        "title": "惡魔獵人5",
+        "en": "Devil May Cry 5",
+        "appid": 601150,
+        "year": 2019,
+        "why": "武器切換取消是招牌高階連段技巧"
+      },
+      {
+        "title": "快打旋風6",
+        "en": "Street Fighter 6",
+        "appid": 1364780,
+        "year": 2023,
+        "why": "取消系統仍是現代格鬥遊戲平衡核心"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 1646,
+        "en": "Hack and Slash"
+      }
+    ],
+    "compare": [],
+    "related": [
+      "combo",
+      "frame-data",
+      "hitstun"
+    ],
+    "design": "取消機制能大幅拉高操作上限，但要注意可發現性：玩家不知道能取消就等於沒有這個系統。建議用教學關卡或技能說明引導基礎用法，進階連段留給玩家自行摸索與社群分享。",
+    "sources": [
+      {
+        "title": "Combat Canceled: God of War & Action Game Design",
+        "url": "https://gamedeveloper.com/pc/combat-canceled-i-god-of-war-i-action-game-design",
+        "accessed": "2026-09-17",
+        "note": "戰神前戰鬥設計師 Eric Williams 談取消系統設計"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "parry",
+    "zh": "彈反／格擋",
+    "en": "Parry / Deflect / Just Guard",
+    "aliases": [
+      "Parry",
+      "Deflect",
+      "完美格擋",
+      "彈刀"
+    ],
+    "cat": "mechanic",
+    "sub": "防禦與抗性",
+    "short": "在敵人攻擊命中瞬間完美擋開並獲得反擊機會的防禦操作。",
+    "def": "彈反指在敵人攻擊命中的瞬間執行防禦指令，完美擋下攻擊並取得反擊機會，判定窗口通常只有3至10幀。此機制最早見於1994年《侍魂II》，1997年《快打旋風III》的高低段彈反系統讓它廣為人知。《隻狼：暗影雙死》的彈刀把彈反推向新高度，幾乎所有攻擊都需要靠彈反應對，彈反成為核心戰鬥節奏而非額外選項，強調的是主動防禦而非單純迴避。",
+    "features": [
+      "判定窗口極短，通常3至10幀",
+      "成功可完全免傷並獲得反擊",
+      "隻狼把彈反做成核心戰鬥節奏",
+      "多數遊戲投技無法被彈反"
+    ],
+    "examples": [
+      {
+        "title": "隻狼：暗影雙死",
+        "en": "Sekiro: Shadows Die Twice",
+        "appid": 814380,
+        "year": 2019,
+        "why": "彈反（彈刀）是整套戰鬥系統的核心而非選項"
+      },
+      {
+        "title": "快打旋風6",
+        "en": "Street Fighter 6",
+        "appid": 1364780,
+        "year": 2023,
+        "why": "格鬥遊戲彈反系統的當代代表"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 29482,
+        "en": "Souls-like"
+      }
+    ],
+    "compare": [
+      {
+        "with": "super-armor",
+        "diff": "彈反是精準擋下攻擊並獲得反擊的主動技巧，窗口窄、報酬高；霸體是硬吃攻擊不被打斷的被動抗性，不需要精準時機。"
+      }
+    ],
+    "related": [
+      "posture-bar",
+      "i-frame",
+      "super-armor"
+    ],
+    "design": "彈反窗口大小直接決定難度，建議做分層獎勵：普通格擋窗口較大但獎勵少（僅減傷），完美格擋窗口極小但獎勵大（無傷加反擊），讓不同程度玩家都有成就感。",
+    "sources": [
+      {
+        "title": "What goes into a good parry system?",
+        "url": "https://www.gamedeveloper.com/design/what-goes-into-a-good-parry-system-",
+        "accessed": "2026-09-17",
+        "note": "Game Developer 文章分析彈反系統設計要點與歷史"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "super-armor",
+    "zh": "超級裝甲／霸體",
+    "en": "Super Armor / Hyper Armor",
+    "aliases": [
+      "Hyper Armor",
+      "霸體"
+    ],
+    "cat": "mechanic",
+    "sub": "防禦與抗性",
+    "short": "執行特定動作時不會被擊退或打斷的抗性狀態。",
+    "def": "超級裝甲（霸體）指角色執行特定動作時獲得的不會被擊退或擊飛狀態，受到攻擊仍會扣血，但動作不會被中斷。這讓重型武器或特殊技能能硬吃對方攻擊完成出招，創造用血量換取攻擊機會的策略維度。此機制最早見於《快打旋風III》系列，《快打旋風IV》以Focus Attack具現化：霸體消失時傷害會變成可恢復的灰血，短時間未再受擊會回復，再受擊則永久扣除，投技不受霸體保護。",
+    "features": [
+      "扣血但不被打斷或擊退",
+      "重武器硬剛輕武器閃避的戰術基礎",
+      "通常只在特定招式的特定幀數生效",
+      "投技與破防技可直接擊破霸體"
+    ],
+    "examples": [
+      {
+        "title": "艾爾登法環",
+        "en": "Elden Ring",
+        "appid": 1245620,
+        "year": 2022,
+        "why": "重型武器倚賴霸體硬吃攻擊完成出招"
+      },
+      {
+        "title": "黑神話：悟空",
+        "en": "Black Myth: Wukong",
+        "appid": 2358720,
+        "year": 2024,
+        "why": "重擊硬直機制承襲魂系霸體設計"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 29482,
+        "en": "Souls-like"
+      }
+    ],
+    "compare": [
+      {
+        "with": "i-frame",
+        "diff": "霸體會被打中扣血但不中斷動作；無敵幀則是攻擊完全穿過角色身體，不會扣血。"
+      },
+      {
+        "with": "poise",
+        "diff": "霸體是特定招式特定幀數內無敵於中斷的暫時狀態；韌性則是持續存在、會被大招打空的數值資源。"
+      }
+    ],
+    "related": [
+      "poise",
+      "i-frame",
+      "parry"
+    ],
+    "design": "霸體讓不同武器類型有截然不同的戰術風格，輕武器靠速度與閃避、重武器靠霸體硬剛。設計時霸體不該是無條件的，通常只該在特定招式的特定幀數內生效，否則會破壞攻防平衡。",
+    "sources": [
+      {
+        "title": "Super Armor",
+        "url": "https://streetfighter.fandom.com/wiki/Super_Armor",
+        "accessed": "2026-09-17",
+        "note": "Street Fighter Wiki 對霸體機制與灰血規則的整理"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "poise",
+    "zh": "韌性",
+    "en": "Poise",
+    "aliases": [
+      "Poise"
+    ],
+    "cat": "mechanic",
+    "sub": "防禦與抗性",
+    "short": "抵抗小型攻擊打斷動作的持續性數值。",
+    "def": "韌性是《黑暗靈魂》系列決定角色能否抵抗硬直的數值機制。初代設定為：韌性值隨受擊下降，降到零才會硬直；受擊後有一段計時器（預設約5秒，護甲可縮短此時間），期間未再受擊則瞬間回滿。不同武器對韌性的削減量不同，玩家常會刻意配裝湊出特定韌性斷點來壓制對手。與霸體不同，韌性是持續存在、會被大招一次清空的資源，後續作品的運作方式已有明顯調整。",
+    "features": [
+      "受擊累積扣減，歸零才硬直",
+      "一段時間未受擊會回滿",
+      "武器重量與護甲影響韌性值",
+      "黑暗靈魂二代三代機制已調整"
+    ],
+    "examples": [
+      {
+        "title": "艾爾登法環",
+        "en": "Elden Ring",
+        "appid": 1245620,
+        "year": 2022,
+        "why": "重裝流派配裝計算韌性斷點的延續作"
+      },
+      {
+        "title": "Lies of P",
+        "en": "Lies of P",
+        "appid": 1627720,
+        "year": 2023,
+        "why": "非FromSoftware本家沿用韌性抗打斷機制的代表作"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 29482,
+        "en": "Souls-like"
+      }
+    ],
+    "compare": [
+      {
+        "with": "super-armor",
+        "diff": "韌性是持續存在、會被大招耗盡的數值資源；霸體是特定招式特定幀數內的無條件抗打斷狀態。"
+      }
+    ],
+    "related": [
+      "super-armor",
+      "stamina-system",
+      "stagger"
+    ],
+    "design": "韌性讓重裝與輕裝的取捨有意義，重裝緩慢但不易被騷擾，輕裝靈活但一被擊中就破招。數值設定要避免無敵重裝（永遠打不斷）與韌性形同虛設（每招都能打斷）兩個極端。",
+    "sources": [
+      {
+        "title": "Poise (Dark Souls)",
+        "url": "https://darksouls.fandom.com/wiki/Poise_(Dark_Souls)",
+        "accessed": "2026-09-17",
+        "note": "Dark Souls Wiki 對初代韌性計算方式的整理"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "posture-bar",
+    "zh": "架勢條／體幹條",
+    "en": "Posture / Stance Bar",
+    "aliases": [
+      "Posture",
+      "體幹值",
+      "架勢值"
+    ],
+    "cat": "mechanic",
+    "sub": "防禦與抗性",
+    "short": "累積滿即讓敵人失衡陷入可處決狀態的第二資源條。",
+    "def": "架勢條是部分現代動作遊戲在血量之外加入的第二資源條。玩家不只能靠砍血取勝，也能透過攻擊、彈反、重擊持續累積對方的架勢值，架勢滿後敵人陷入崩潰失衡狀態，此時可施展高傷害的處決。此機制在《隻狼：暗影雙死》發揮到極致：Boss血量極厚，直接砍血幾乎不可能贏，必須靠不斷彈反對手攻擊來堆高架勢值，在失衡瞬間處決（忍殺）才是致勝正解。架勢條會隨角色生命值連動回復速度，血越低回復越慢。",
+    "features": [
+      "累積滿即觸發失衡可處決",
+      "把戰鬥從砍血變成節奏博弈",
+      "回復速度隨生命值連動",
+      "需要清楚的視覺呈現"
+    ],
+    "examples": [
+      {
+        "title": "隻狼：暗影雙死",
+        "en": "Sekiro: Shadows Die Twice",
+        "appid": 814380,
+        "year": 2019,
+        "why": "架勢系統把戰鬥重心從血量轉移到彈反節奏的代表作"
+      },
+      {
+        "title": "黑神話：悟空",
+        "en": "Black Myth: Wukong",
+        "appid": 2358720,
+        "year": 2024,
+        "why": "棍勢系統延伸了架勢／體幹條的設計思路"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 29482,
+        "en": "Souls-like"
+      }
+    ],
+    "compare": [
+      {
+        "with": "stagger",
+        "diff": "架勢條是持續累積、有明確UI呈現的資源條；蹣跚是架勢滿之後觸發的失衡結果狀態，兩者是因與果的關係。"
+      },
+      {
+        "with": "hitstun",
+        "diff": "硬直是每次攻擊都會觸發的短暫僵直；架勢條是要累積到滿才會觸發一次性的大硬直（失衡）。"
+      }
+    ],
+    "related": [
+      "stagger",
+      "parry",
+      "hitstun"
+    ],
+    "design": "架勢條把戰鬥從血量賽跑變成節奏博弈，強迫玩家主動出擊而非消極閃避。務必給架勢值清楚的視覺呈現（Boss頭上第二條血條或閃爍特效），否則玩家會搞不懂為什麼沒砍到血卻贏了。",
+    "sources": [
+      {
+        "title": "SEKIRO: SHADOWS DIE TWICE Web Manual — Mechanics",
+        "url": "https://www.fromsoftware.jp/manual/sekiroshadowsdietwice/stadia/mechanics.html",
+        "accessed": "2026-09-17",
+        "note": "FromSoftware 官方線上手冊對架勢系統的說明"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "charged-attack",
+    "zh": "蓄力攻擊",
+    "en": "Charged Attack",
+    "aliases": [
+      "Charge Attack",
+      "蓄力技"
+    ],
+    "cat": "mechanic",
+    "sub": "資源與節奏",
+    "short": "按住攻擊鍵蓄力後釋放，傷害或效果更強的強化攻擊。",
+    "def": "蓄力攻擊指玩家按住攻擊鍵一段時間後放開，施放出傷害更高或帶特殊效果的強化版攻擊。可分兩種類型：累積型透過造成傷害、格擋、等待條自動填滿；按住型按住鍵一段時間後放開釋放。蓄力期間角色通常處於無法移動或防禦的狀態，形成高風險高報酬的取捨。設計精妙的蓄力系統會有多段蓄力效果，或設完美蓄力時機獎勵玩家精準操作。",
+    "features": [
+      "蓄力期間通常無法防禦或移動",
+      "按住型與累積型兩種實作方式",
+      "高風險高報酬的資源取捨",
+      "可設計多段強度或完美時機獎勵"
+    ],
+    "examples": [
+      {
+        "title": "艾爾登法環",
+        "en": "Elden Ring",
+        "appid": 1245620,
+        "year": 2022,
+        "why": "重武器蓄力重擊是承受風險換取破防的核心打法"
+      },
+      {
+        "title": "Dead Cells",
+        "en": "Dead Cells",
+        "appid": 588650,
+        "year": 2018,
+        "why": "Rogue-lite動作遊戲中蓄力武器與一般武器的節奏差異"
+      }
+    ],
+    "steamTags": [],
+    "compare": [],
+    "related": [
+      "critical-hit",
+      "posture-bar",
+      "stamina-system"
+    ],
+    "design": "蓄力攻擊的設計挑戰是讓玩家願意冒這個險，如果普攻DPS已經夠高，蓄力就變成多此一舉。關鍵是讓蓄滿的一擊具備普攻多次的總傷害或普攻打不到的破防效果，創造質變而非量變。",
+    "sources": [
+      {
+        "title": "Charged Attack",
+        "url": "https://tvtropes.org/pmwiki/pmwiki.php/Main/ChargedAttack",
+        "accessed": "2026-09-17",
+        "note": "TV Tropes 對蓄力攻擊機制在各類遊戲中應用的整理"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "critical-hit",
+    "zh": "暴擊／爆擊",
+    "en": "Critical Hit",
+    "aliases": [
+      "Crit",
+      "爆擊"
+    ],
+    "cat": "mechanic",
+    "sub": "資源與節奏",
+    "short": "有機率觸發、傷害顯著提高的一擊。",
+    "def": "暴擊指有機率觸發的高額傷害一擊，通常伴隨特殊視覺效果（血液飛濺、畫面閃光、傷害數字放大）與音效強調。系統由暴擊率（觸發機率）與暴擊傷害（觸發時的傷害倍率）兩個屬性構成，玩家配裝時常需在兩者間取捨。暴擊概念源自桌上角色扮演遊戲擲骰大成功的傳統，1975年《Empire of the Petal Throne》率先引入，1986年《勇者鬥惡龍》把它帶進電玩（固定機率約1/64），如今已是幾乎所有RPG與動作遊戲的標配。",
+    "features": [
+      "由暴擊率與暴擊傷害兩軸構成",
+      "源自桌上RPG的擲骰大成功傳統",
+      "需要誇張的視聽回饋強化爽度",
+      "配裝時常需在機率與倍率間取捨"
+    ],
+    "examples": [
+      {
+        "title": "暗黑破壞神IV",
+        "en": "Diablo IV",
+        "appid": 2344520,
+        "year": 2023,
+        "why": "暴擊率與暴擊傷害是配裝數值的核心兩軸"
+      },
+      {
+        "title": "艾爾登法環",
+        "en": "Elden Ring",
+        "appid": 1245620,
+        "year": 2022,
+        "why": "致命一擊（背刺／處決）是暴擊概念的動作遊戲變體"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 4231,
+        "en": "Action RPG"
+      }
+    ],
+    "compare": [],
+    "related": [
+      "dps",
+      "charged-attack",
+      "headshot"
+    ],
+    "design": "暴擊的視覺與聽覺回饋要夠誇張，同樣是1000點傷害，有暴擊光效和沒有的爽度天差地別。部分遊戲甚至把追求高爆擊率做成玩家配裝的核心循環，設計時要確保這個循環有明確的成長路徑。",
+    "sources": [
+      {
+        "title": "Critical hit",
+        "url": "https://en.wikipedia.org/wiki/Critical_hit",
+        "accessed": "2026-09-17",
+        "note": "Wikipedia 對暴擊機制起源與演變的整理"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "hitbox-hurtbox",
+    "zh": "判定框",
+    "en": "Hitbox / Hurtbox",
+    "aliases": [
+      "Hitbox",
+      "Hurtbox",
+      "攻擊判定",
+      "受擊判定"
+    ],
+    "cat": "mechanic",
+    "sub": "幀與判定",
+    "short": "攻擊判定框與受擊判定框重疊時即判定命中。",
+    "def": "Hitbox（攻擊判定框）是招式動作中實際造成傷害的隱形區域，Hurtbox（受擊判定框）是角色身上可被擊中的隱形區域，兩者在同一幀重疊時系統即判定為命中。另有處理角色間物理推擠、性質不同的collisionbox。這兩個框的大小、形狀、位置、出現時機與持續時間直接決定遊戲的手感與公平性，在格鬥遊戲中是最核心也最耗時的工作之一，每個招式的每一幀都需要手動調整。",
+    "features": [
+      "Hitbox造成傷害，Hurtbox承受傷害",
+      "重疊判定命中，與外觀未必一致",
+      "與處理推擠的collisionbox是不同概念",
+      "格鬥遊戲需逐幀手動調整"
+    ],
+    "examples": [
+      {
+        "title": "快打旋風6",
+        "en": "Street Fighter 6",
+        "appid": 1364780,
+        "year": 2023,
+        "why": "格鬥遊戲判定框精度直接決定競技公平性"
+      },
+      {
+        "title": "鬼武者2",
+        "en": "Onimusha 2: Samurai's Destiny",
+        "appid": 3046600,
+        "year": 2025,
+        "why": "動作遊戲判定框與動畫是否一致影響手感評價"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 1743,
+        "en": "Fighting"
+      }
+    ],
+    "compare": [],
+    "related": [
+      "frame-data",
+      "hitstun",
+      "parry"
+    ],
+    "design": "建議在開發時就做出判定框視覺化除錯工具（不同顏色顯示Hitbox與Hurtbox）。看起來打到了卻沒傷害，或明明沒碰到卻受傷，是最容易讓玩家不滿的體驗，判定必須與動畫的視覺表現一致。",
+    "sources": [
+      {
+        "title": "Hitboxes",
+        "url": "https://www.dustloop.com/w/Hitboxes",
+        "accessed": "2026-09-17",
+        "note": "Dustloop Wiki 對格鬥遊戲判定框系統的技術性整理"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "input-buffer",
+    "zh": "輸入緩衝",
+    "en": "Input Buffer",
+    "aliases": [
+      "Buffer",
+      "先行輸入"
+    ],
+    "cat": "mechanic",
+    "sub": "幀與判定",
+    "short": "允許玩家在當前動作結束前預先輸入下一指令的機制。",
+    "def": "輸入緩衝讓玩家能在角色當前動作尚未播完時，就先輸入下一個指令，系統會將提前輸入的指令暫存起來，在當前動作結束的瞬間立即執行。緩衝窗口通常在5至15幀之間，這讓操作更流暢，大幅減少我明明按了但沒反應的挫折感。日文原始術語稱先行入力，是幾乎所有現代動作與格鬥遊戲的標準配備。",
+    "features": [
+      "提前輸入，動作結束瞬間執行",
+      "緩衝窗口通常5至15幀",
+      "減少操作落差造成的挫折感",
+      "日文原始術語為先行入力"
+    ],
+    "examples": [
+      {
+        "title": "快打旋風6",
+        "en": "Street Fighter 6",
+        "appid": 1364780,
+        "year": 2023,
+        "why": "格鬥遊戲對輸入緩衝窗口精度要求極高"
+      },
+      {
+        "title": "鐵拳8",
+        "en": "Tekken 8",
+        "appid": 1778820,
+        "year": 2024,
+        "why": "連段輸入需要穩定的緩衝視窗才能穩定重現"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 1743,
+        "en": "Fighting"
+      }
+    ],
+    "compare": [
+      {
+        "with": "jump-buffer",
+        "diff": "輸入緩衝是格鬥動作遊戲的通用概念，涵蓋任何指令的預輸入；跳躍緩衝是它在平台跳躍遊戲裡專門針對起跳鍵的應用。"
+      }
+    ],
+    "related": [
+      "frame-data",
+      "jump-buffer",
+      "coyote-time"
+    ],
+    "design": "緩衝窗口過大會讓玩家覺得角色有自己的意志（按了翻滾卻一秒後才動作），過小則操作感覺生硬。建議先抓6至10幀的區間，並考慮提供選項讓進階玩家自行調整。",
+    "sources": [
+      {
+        "title": "Buffer",
+        "url": "https://www.ssbwiki.com/Buffer",
+        "accessed": "2026-09-17",
+        "note": "SmashWiki 對輸入緩衝機制與日文術語先行入力的整理"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "tech-ukemi",
+    "zh": "受身",
+    "en": "Tech / Ukemi",
+    "aliases": [
+      "Ukemi",
+      "Tech",
+      "受け身"
+    ],
+    "cat": "mechanic",
+    "sub": "連段與投技",
+    "short": "被擊飛倒地後，即時輸入指令快速恢復站立的動作。",
+    "def": "受身指角色在被擊飛或倒地後，於特定時機（通常是接觸地面的瞬間）輸入指令快速恢復站立姿勢，縮短倒地時間並可選擇恢復方向，減少被追擊的風險。受身源自日文柔道用語受け身，字面意為接受的身體，指被摔倒時用背部等大面積身體分散衝擊力、安全著地的武術基本功，格鬥遊戲借用此概念，讓被動方也有主動選擇的機會。",
+    "features": [
+      "接觸地面瞬間輸入指令觸發",
+      "可選擇恢復方向影響後續戰況",
+      "詞源來自柔道受け身",
+      "給被動方主動選擇的機會"
+    ],
+    "examples": [
+      {
+        "title": "鐵拳8",
+        "en": "Tekken 8",
+        "appid": 1778820,
+        "year": 2024,
+        "why": "受身方向選擇是攻防讀心的重要一環"
+      },
+      {
+        "title": "快打旋風6",
+        "en": "Street Fighter 6",
+        "appid": 1364780,
+        "year": 2023,
+        "why": "受身時機同樣是2D格鬥攻防讀心的重要一環"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 1743,
+        "en": "Fighting"
+      }
+    ],
+    "compare": [],
+    "related": [
+      "hitstun",
+      "throw",
+      "combo"
+    ],
+    "design": "受身機制給了被動方主動選擇的機會，向左或向右受身會決定後續戰況發展，避免玩家陷入被單方面控制、毫無反應空間的無力感。",
+    "sources": [
+      {
+        "title": "Tech",
+        "url": "https://www.ssbwiki.com/Tech",
+        "accessed": "2026-09-17",
+        "note": "SmashWiki 對受身機制的格鬥遊戲應用說明"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "combo",
+    "zh": "連段",
+    "en": "Combo",
+    "aliases": [
+      "Combo",
+      "連招"
+    ],
+    "cat": "mechanic",
+    "sub": "連段與投技",
+    "short": "串連多個攻擊、對手無法逃脫的攻擊序列。",
+    "def": "連段指把多個攻擊或技能串連成一個對手無法逃脫的攻擊序列，讓動作遊戲有了技術深度與自我表現空間。從簡單的輕攻擊三下接重攻擊，到複雜的浮空、壁彈、空中追加，不同遊戲的連段複雜度差異極大。連段傷害通常隨命中數遞減（傷害修正），避免一套連段直接秒殺對手。此詞取材自武術連續攻擊組合，1991年《快打旋風II》讓連段被玩家大量發現並發揚光大，開發團隊原本並未預期會被這樣使用。",
+    "features": [
+      "攻擊硬直銜接下一擊形成序列",
+      "傷害常隨命中數遞減",
+      "源自快打旋風2玩家的意外發現",
+      "複雜度可從入門到極限連段分層"
+    ],
+    "examples": [
+      {
+        "title": "惡魔獵人5",
+        "en": "Devil May Cry 5",
+        "appid": 601150,
+        "year": 2019,
+        "why": "以連段華麗度與風格分數為核心評分機制"
+      },
+      {
+        "title": "快打旋風6",
+        "en": "Street Fighter 6",
+        "appid": 1364780,
+        "year": 2023,
+        "why": "連段是格鬥遊戲技術深度的核心體現"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 1646,
+        "en": "Hack and Slash"
+      }
+    ],
+    "compare": [],
+    "related": [
+      "hitstun",
+      "animation-cancel",
+      "throw"
+    ],
+    "design": "好的連段設計要有層次：基礎連段（3至4次命中）讓新手能上手，進階連段（7至10次命中以上）讓高手有發揮空間。也要考慮被連段一方的體驗，過長的連段會讓對手感到無聊甚至挫折。",
+    "sources": [
+      {
+        "title": "Combo (video games)",
+        "url": "https://en.wikipedia.org/wiki/Combo_(video_games)",
+        "accessed": "2026-09-17",
+        "note": "Wikipedia 對連段機制起源與快打旋風2意外發現的說明"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "throw",
+    "zh": "投技",
+    "en": "Throw / Command Grab",
+    "aliases": [
+      "Command Grab",
+      "投擲技",
+      "抓投"
+    ],
+    "cat": "mechanic",
+    "sub": "連段與投技",
+    "short": "跳過防禦直接抓住對手造成傷害的技能。",
+    "def": "投技是格鬥與動作遊戲中跳過防禦、直接抓住對手造成傷害的技能，通常無法被一般防禦擋下。投技是攻擊、防禦、投技三竦結構的關鍵：攻擊擊敗投技（因為出招會打到要抓人的對手）、防禦擊敗攻擊、投技擊敗防禦（抓住龜縮的對手）。被投方可透過受身在特定時機按鍵減少傷害或縮短硬直；指令投需輸入特殊指令組合觸發，傷害通常更高、更難閃避，大多不能被受身取消，是投擲型角色的核心武器。",
+    "features": [
+      "無法被一般防禦擋下",
+      "構成攻擊防禦投技三竦結構",
+      "指令投傷害高但難閃避",
+      "被投方可用受身減輕損失"
+    ],
+    "examples": [
+      {
+        "title": "鐵拳8",
+        "en": "Tekken 8",
+        "appid": 1778820,
+        "year": 2024,
+        "why": "投技與防禦讀心是3D格鬥核心攻防之一"
+      },
+      {
+        "title": "快打旋風6",
+        "en": "Street Fighter 6",
+        "appid": 1364780,
+        "year": 2023,
+        "why": "投技破解龜縮防禦的三竦結構代表"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 1743,
+        "en": "Fighting"
+      }
+    ],
+    "compare": [
+      {
+        "with": "throw-esports",
+        "diff": "格鬥遊戲的投技是攻擊手段；電競黑話的 throw 是「把贏的局送掉」。"
+      }
+    ],
+    "related": [
+      "tech-ukemi",
+      "combo",
+      "parry"
+    ],
+    "design": "投技的視覺效果要夠誇張，玩家通常把投技視為羞辱性擊敗，演出越有破壞性越能帶來爽快感。設計上要確保沒有投技的格鬥遊戲容易陷入大家一直蹲防的僵局。",
+    "sources": [
+      {
+        "title": "Grab",
+        "url": "https://www.ssbwiki.com/Grab",
+        "accessed": "2026-09-17",
+        "note": "SmashWiki 對投技機制的整理"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "cooldown",
+    "zh": "冷卻時間",
+    "en": "Cooldown (CD)",
+    "aliases": [
+      "CD",
+      "冷卻"
+    ],
+    "cat": "mechanic",
+    "sub": "資源與節奏",
+    "short": "技能或道具使用後必須等待才能再次使用的時間。",
+    "def": "冷卻時間指技能或道具使用後必須等待一段最短時間才能再次使用，是遊戲平衡最常用的工具之一。有了冷卻時間，強力技能才能又強又公平，一招能打掉對方半血的大絕招，3秒冷卻一次就會破壞遊戲，60秒一次則能成為關鍵決策點。部分設計有變體：全域冷卻（按任何技能後短時間內無法使用其他技能）、共享冷卻、層數式冷卻等，廣泛見於MOBA、MMORPG、卡牌與手遊。",
+    "features": [
+      "使用後進入等待狀態才能再用",
+      "時長通常與技能威力成正比",
+      "有全域冷卻等進階變體",
+      "UI倒數顯示是玩家每秒關注的資訊"
+    ],
+    "examples": [
+      {
+        "title": "英雄聯盟",
+        "en": "League of Legends",
+        "appid": null,
+        "year": 2009,
+        "why": "MOBA技能冷卻是版本平衡與運營節奏的核心槓桿"
+      },
+      {
+        "title": "暗黑破壞神IV",
+        "en": "Diablo IV",
+        "appid": 2344520,
+        "year": 2023,
+        "why": "技能冷卻與連段循環是ARPG配裝規劃的重點"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "cast-time",
+        "diff": "冷卻時間是用完後多久能再用；施法時間是按下去到生效前要等多久，兩者分別管控技能的頻率與即時反應速度。"
+      }
+    ],
+    "related": [
+      "cast-time",
+      "meter-gauge",
+      "dps"
+    ],
+    "design": "CD設計原則是使用頻率決定技能定位，短CD用於日常輸出、長CD用於關鍵時機，最忌讓最強技能同時CD最短。技能圖示的冷卻顯示（扇形填充、數字倒數）是玩家每秒都在看的資訊，視覺回饋必須清晰。",
+    "sources": [
+      {
+        "title": "Glossary of video game terms",
+        "url": "https://en.wikipedia.org/wiki/Glossary_of_video_game_terms",
+        "accessed": "2026-09-17",
+        "note": "Wikipedia 電玩用語詞彙表收錄Cooldown定義"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "cast-time",
+    "zh": "吟唱／施法時間",
+    "en": "Cast Time",
+    "aliases": [
+      "詠唱時間",
+      "施法時間"
+    ],
+    "cat": "mechanic",
+    "sub": "資源與節奏",
+    "short": "施放技能前需要的準備時間，通常可被打斷。",
+    "def": "吟唱時間指角色發動技能前需要的準備時間，通常以進度條呈現，填滿後技能才生效。這段時間內角色通常無法移動，且會被固定在原地，許多遊戲允許敵人用特定技能打斷吟唱，打斷後施法失敗、該技能學派會進入短暫封鎖。相對於瞬發技能，吟唱型技能較慢但威力通常較高，在PvP對戰中容易被針對，近戰職業通常吟唱短或不吟唱、法系職業吟唱長但威力高，是職業差異化的基礎。",
+    "features": [
+      "進度條形式呈現準備時間",
+      "吟唱中通常無法移動",
+      "可被敵方技能打斷",
+      "近戰短吟唱、法系長吟唱作為職業差異"
+    ],
+    "examples": [
+      {
+        "title": "暗黑破壞神IV",
+        "en": "Diablo IV",
+        "appid": 2344520,
+        "year": 2023,
+        "why": "法師系技能吟唱時間與瞬發技能的取捨"
+      },
+      {
+        "title": "Final Fantasy XIV",
+        "en": "Final Fantasy XIV",
+        "appid": null,
+        "year": 2013,
+        "why": "法系職業的吟唱時間與中斷機制是團隊戰術的重要環節"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "telegraphing",
+        "diff": "施法時間是玩家角色發動技能前的準備時間，可被打斷；前搖預警則是敵人攻擊前釋放的視覺音效警示，玩家要做的是閃避而非打斷。"
+      }
+    ],
+    "related": [
+      "cooldown",
+      "telegraphing",
+      "crowd-control"
+    ],
+    "design": "吟唱時間的設計是威力與風險的直接對應，越強的技能吟唱越長，給對手的反應時間也越長。要不要保留一個中斷技能來打斷對方關鍵施法，是重要的戰術層次。",
+    "sources": [
+      {
+        "title": "Cast time",
+        "url": "https://warcraft.wiki.gg/wiki/Cast_time",
+        "accessed": "2026-09-17",
+        "note": "Warcraft Wiki 對施法時間機制的說明"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "aoe",
+    "zh": "範圍攻擊",
+    "en": "Area of Effect (AOE)",
+    "aliases": [
+      "AOE",
+      "範圍傷害",
+      "群攻"
+    ],
+    "cat": "mechanic",
+    "sub": "範圍與控場",
+    "short": "一次影響多個目標的攻擊或效果。",
+    "def": "範圍攻擊指一次影響多個目標的攻擊或效果，常見形狀有圓形、扇形、直線（如閃電鏈）、矩形（地毯式轟炸）等。AOE是對付敵群最有效的手段，但通常單體傷害比單體技能低，以面積換強度。部分遊戲有友傷機制，AOE也會傷到隊友，讓釋放需要更謹慎。AOE的施放指示對PvE與PvP都極重要，業界標準做法是地面出現紅色預警區域，在技能落下前數秒顯示，讓玩家能判斷並閃避。",
+    "features": [
+      "一次影響範圍內多個目標",
+      "形狀常見圓形、扇形、直線、矩形",
+      "通常以低單體傷害換取廣覆蓋",
+      "地面預警是標準的閃避提示做法"
+    ],
+    "examples": [
+      {
+        "title": "暗黑破壞神IV",
+        "en": "Diablo IV",
+        "appid": 2344520,
+        "year": 2023,
+        "why": "清怪效率高度依賴AOE技能的配裝"
+      },
+      {
+        "title": "英雄聯盟",
+        "en": "League of Legends",
+        "appid": null,
+        "year": 2009,
+        "why": "團戰勝負常取決於AOE技能的命中率"
+      }
+    ],
+    "steamTags": [],
+    "compare": [],
+    "related": [
+      "telegraphing",
+      "dot",
+      "crowd-control"
+    ],
+    "design": "AOE的施放指示對PvE與PvP都極重要，玩家必須能清楚看到攻擊會落在哪裡才能閃避。業界標準是地面出現紅色預警區域，在技能落下前數秒顯示，這個提前量要跟技能威力成正比。",
+    "sources": [
+      {
+        "title": "Glossary of video game terms",
+        "url": "https://en.wikipedia.org/wiki/Glossary_of_video_game_terms",
+        "accessed": "2026-09-17",
+        "note": "Wikipedia 詞彙表收錄Area of effect定義"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "aggro",
+    "zh": "仇恨值／威脅值",
+    "en": "Aggro / Threat / Enmity",
+    "aliases": [
+      "Threat",
+      "Enmity",
+      "仇恨"
+    ],
+    "cat": "mechanic",
+    "sub": "範圍與控場",
+    "short": "決定敵人優先攻擊誰的隱藏數值系統。",
+    "def": "仇恨值是多人遊戲或有AI隊友的遊戲中，決定電腦控制的敵人會優先攻擊誰的隱藏數值。坦克角色透過嘲諷技能或持續攻擊累積仇恨，讓Boss專注攻擊自己，保護負責輸出或治療的隊友。這是聖三位一體（坦克、輸出、治療，源自西方MMO團隊分工）的數學基礎：治療行為產生的仇恨等於治療量乘以仇恨係數，攻擊產生的仇恨等於傷害量乘以仇恨係數，坦克的嘲諷技能則直接把仇恨拉到最高。",
+    "features": [
+      "隱藏數值決定敵人攻擊目標",
+      "坦克靠嘲諷技能主動拉高仇恨",
+      "是坦克輸出治療分工的數學基礎",
+      "治療與輸出都會產生仇恨"
+    ],
+    "examples": [
+      {
+        "title": "Final Fantasy XIV",
+        "en": "Final Fantasy XIV",
+        "appid": null,
+        "year": 2013,
+        "why": "聖三位一體團隊分工與仇恨管理的代表MMO"
+      },
+      {
+        "title": "魔獸世界",
+        "en": "World of Warcraft",
+        "appid": null,
+        "year": 2004,
+        "why": "以坦克嘲諷機制建立仇恨管理框架的經典代表"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "crowd-control",
+        "diff": "仇恨值決定敵人打誰；群體控制則是限制敵人能不能行動，兩者都是團隊戰術工具但作用對象不同。"
+      }
+    ],
+    "related": [
+      "crowd-control",
+      "buff-debuff",
+      "dot"
+    ],
+    "design": "仇恨值的計算公式直接影響團隊配合的深度。基本設計是治療仇恨等於治療量乘係數、攻擊仇恨等於傷害量乘係數，坦克嘲諷技能則直接把仇恨拉到最高，務必避免輸出角色一開場全力輸出就把仇恨從坦克手上搶走。",
+    "sources": [
+      {
+        "title": "Rethinking the Trinity of MMO Design",
+        "url": "https://www.gamedeveloper.com/design/rethinking-the-trinity-of-mmo-design",
+        "accessed": "2026-09-17",
+        "note": "Game Developer 文章討論坦克輸出治療聖三位一體與仇恨機制"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "buff-debuff",
+    "zh": "增益／減益",
+    "en": "Buff / Debuff",
+    "aliases": [
+      "Buff",
+      "Debuff",
+      "狀態效果"
+    ],
+    "cat": "mechanic",
+    "sub": "範圍與控場",
+    "short": "暫時提升或降低角色屬性的效果統稱。",
+    "def": "增益（Buff）與減益（Debuff）是狀態效果的兩大分類，屬於對角色屬性或能力的暫時性修改。Buff提供正面加成，如攻擊力提升、移動加快、護盾吸收傷害；Debuff施加負面條件，如速度降低、防禦下降、持續掉血。這兩個詞最早於1999年的MMORPG《無盡的任務》被使用，後經《魔獸世界》（2004）進一步普及。注意Buff在版本更新語境下也是動詞，意為把某東西調強，與這裡的增益狀態是同字雙義。",
+    "features": [
+      "Buff正面加成、Debuff負面條件",
+      "來自1999年無盡的任務的用語",
+      "魔獸世界普及化此術語",
+      "增加戰鬥的狀態管理策略層次"
+    ],
+    "examples": [
+      {
+        "title": "魔獸世界",
+        "en": "World of Warcraft",
+        "appid": null,
+        "year": 2004,
+        "why": "把Buff與Debuff術語系統化並普及化的代表MMO"
+      },
+      {
+        "title": "英雄聯盟",
+        "en": "League of Legends",
+        "appid": null,
+        "year": 2009,
+        "why": "技能增減益效果是MOBA戰術博弈的基礎"
+      }
+    ],
+    "steamTags": [],
+    "compare": [],
+    "related": [
+      "dot",
+      "crowd-control",
+      "aggro"
+    ],
+    "design": "增益減益的視覺回饋極重要，玩家必須能一眼看出身上有哪些效果、還剩多少時間。建議統一圖示系統：Buff在角色上方、Debuff在下方，搭配倒數計時器與顏色標示。",
+    "sources": [
+      {
+        "title": "Status effect",
+        "url": "https://en.wikipedia.org/wiki/Status_effect",
+        "accessed": "2026-09-17",
+        "note": "Wikipedia 對狀態效果（含Buff與Debuff）的定義與歷史"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "crowd-control",
+    "zh": "群體控制",
+    "en": "Crowd Control (CC)",
+    "aliases": [
+      "CC",
+      "控場",
+      "控制技能"
+    ],
+    "cat": "mechanic",
+    "sub": "範圍與控場",
+    "short": "使敵人失去部分或全部行動能力的效果統稱。",
+    "def": "群體控制指能限制目標行動能力或輸出的技能統稱，主要見於MMORPG與MOBA。常見形式包含暈眩（完全無法行動）、冰凍（無法移動與攻擊）、定身（無法移動但可攻擊）、沉默（無法使用技能但可移動與普攻）、擊飛（被推離原位）、催眠（受傷會解除）。CC能力在PvP中尤其強大，往往是決定勝負的關鍵。設計上要避免無限CC鏈，連續控制玩家十幾秒完全無法操作是最糟糕的體驗，常見解法是引入遞減效果（連續受同類CC時效果時間逐次縮短）。",
+    "features": [
+      "涵蓋暈眩、定身、沉默、擊飛等多種形式",
+      "PvP中往往是決定勝負的關鍵",
+      "需避免無限連續控制的死亡連段",
+      "常搭配遞減效果機制防止濫用"
+    ],
+    "examples": [
+      {
+        "title": "英雄聯盟",
+        "en": "League of Legends",
+        "appid": null,
+        "year": 2009,
+        "why": "控制技能的組合連鎖是MOBA團戰的核心策略"
+      },
+      {
+        "title": "Dota 2",
+        "en": "Dota 2",
+        "appid": 570,
+        "year": 2013,
+        "why": "以複雜的控制鏈與解控機制聞名的代表作"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "aggro",
+        "diff": "群體控制限制敵人的行動能力；仇恨值決定敵人攻擊誰，兩者常搭配使用但作用機制不同。"
+      }
+    ],
+    "related": [
+      "aggro",
+      "buff-debuff",
+      "stagger"
+    ],
+    "design": "CC設計要避免無限CC鏈，玩家被連續控制十幾秒完全無法操作是最糟糕的體驗。建議加入遞減效果機制：連續受到同類CC時，效果持續時間逐次縮短，最終短暫免疫。",
+    "sources": [
+      {
+        "title": "Glossary of video game terms",
+        "url": "https://en.wikipedia.org/wiki/Glossary_of_video_game_terms",
+        "accessed": "2026-09-17",
+        "note": "Wikipedia 詞彙表收錄Crowd control定義"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "dot",
+    "zh": "持續傷害",
+    "en": "DOT (Damage Over Time)",
+    "aliases": [
+      "DOT",
+      "持續傷害"
+    ],
+    "cat": "mechanic",
+    "sub": "範圍與控場",
+    "short": "一段時間內持續造成傷害的效果。",
+    "def": "持續傷害指在一段時間內持續造成傷害的效果，常見表現形式包括中毒、燃燒、流血、詛咒等。即時戰鬥遊戲通常以現實時間為間隔（如每秒一次），回合制遊戲則以回合為單位計算。DOT是Debuff的一種子類型，總傷害通常比直接傷害更高，但因分散在數秒甚至數十秒內不會立即致命，適合消耗型的持久戰術；部分遊戲DOT可以疊加，多層中毒的傷害遠超單層。",
+    "features": [
+      "傷害分散在多個時間點造成",
+      "是Debuff的子類型之一",
+      "總傷害通常高於直接傷害但不致命",
+      "部分遊戲支援多層疊加"
+    ],
+    "examples": [
+      {
+        "title": "艾爾登法環",
+        "en": "Elden Ring",
+        "appid": 1245620,
+        "year": 2022,
+        "why": "紅腐與劇毒是招牌的持續傷害狀態設計"
+      },
+      {
+        "title": "暗黑破壞神IV",
+        "en": "Diablo IV",
+        "appid": 2344520,
+        "year": 2023,
+        "why": "毒素流血流派高度依賴DOT疊加機制"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "burst-damage",
+        "diff": "持續傷害把總量分散在數秒到數十秒內慢慢造成，不會立即致命；爆發傷害是一次性打出大量傷害，適合速殺但沒有持續消耗對手的效果。"
+      }
+    ],
+    "related": [
+      "buff-debuff",
+      "burst-damage",
+      "aoe"
+    ],
+    "design": "DOT設計要讓玩家能明確感知自己正受到持續傷害（螢幕邊緣泛紅、角色動作異常等），並提供對應手段（解毒藥、等待消散、特定技能清除），否則玩家只會感到莫名其妙地被慢慢磨死。",
+    "sources": [
+      {
+        "title": "Status effect",
+        "url": "https://en.wikipedia.org/wiki/Status_effect",
+        "accessed": "2026-09-17",
+        "note": "Wikipedia 將持續傷害列為Debuff的一種形式"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "telegraphing",
+    "zh": "前搖預警",
+    "en": "Telegraphing",
+    "aliases": [
+      "Telegraph",
+      "出招預告",
+      "攻擊警示"
+    ],
+    "cat": "mechanic",
+    "sub": "幀與判定",
+    "short": "用動畫、音效或特效預先告知玩家即將發生的攻擊。",
+    "def": "前搖預警指遊戲透過動畫、音效、特效等方式，在敵人攻擊發動前先向玩家預告即將發生的行動，讓玩家有時間判斷並做出閃避、格擋或反擊。這與現實語境中telegraph（無意間洩漏意圖）的負面意涵相反，遊戲設計者是刻意、明確地傳達訊息，確保玩家能理解威脅並做出對應決策。此設計是動作遊戲敵人攻擊模式與MMO地面紅圈警示（即將降下的範圍攻擊）等機制的共同基礎。",
+    "features": [
+      "刻意用視聽線索預告攻擊",
+      "讓玩家有時間判斷並反應",
+      "與啟動幀前搖概念緊密相關",
+      "MMO常見地面紅圈警示做法"
+    ],
+    "examples": [
+      {
+        "title": "艾爾登法環",
+        "en": "Elden Ring",
+        "appid": 1245620,
+        "year": 2022,
+        "why": "Boss出招前的動作與音效預警是攻略核心"
+      },
+      {
+        "title": "黑神話：悟空",
+        "en": "Black Myth: Wukong",
+        "appid": 2358720,
+        "year": 2024,
+        "why": "沿襲魂系清楚的出招預警設計"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 29482,
+        "en": "Souls-like"
+      }
+    ],
+    "compare": [
+      {
+        "with": "cast-time",
+        "diff": "前搖預警是敵人攻擊前的視聽警示，玩家要做的是閃避；吟唱時間是玩家或敵人技能生效前的準備時間，可被打斷。"
+      }
+    ],
+    "related": [
+      "frame-data",
+      "aoe",
+      "stagger"
+    ],
+    "design": "前搖預警必須刻意且明確，不是隨機洩漏。動作要與判定範圍在視覺上完全一致，玩家最痛恨的體驗就是明明看起來躲開了卻還是中招，務必讓動畫、音效與實際判定框同步。",
+    "sources": [
+      {
+        "title": "Enemy Attacks and Telegraphing",
+        "url": "https://www.gamedeveloper.com/design/enemy-attacks-and-telegraphing",
+        "accessed": "2026-09-17",
+        "note": "Game Developer 文章定義並分析前搖預警設計"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "stagger",
+    "zh": "蹣跚／踉蹌",
+    "en": "Stagger",
+    "aliases": [
+      "Stagger",
+      "眩暈",
+      "削韌"
+    ],
+    "cat": "mechanic",
+    "sub": "防禦與抗性",
+    "short": "承受特定條件後進入短暫失衡、無法防禦行動的狀態。",
+    "def": "蹣跚指角色或敵人在承受特定條件（如集中攻擊要害、耐力或架勢槽耗盡）後，進入短暫失衡、無法防禦或行動的狀態，常搭配架勢或削韌數值系統呈現。經典案例包括《隻狼：暗影雙死》的架勢槽機制：角色與敵人皆有隨防禦攻擊變化的架勢條，條滿即進入蹣跚可處決狀態；《魔物獵人》系列的部位破壞與眩暈同屬此類設計，是近代動作遊戲強調攻防節奏而非單純比血量的核心系統。",
+    "features": [
+      "由累積型數值（架勢削韌）觸發",
+      "觸發後短暫無法防禦或行動",
+      "常伴隨高傷害處決機會",
+      "是攻防節奏設計取代純比血量的手段"
+    ],
+    "examples": [
+      {
+        "title": "隻狼：暗影雙死",
+        "en": "Sekiro: Shadows Die Twice",
+        "appid": 814380,
+        "year": 2019,
+        "why": "架勢滿後蹣跚並可忍殺是整套戰鬥的目標"
+      },
+      {
+        "title": "Monster Hunter Wilds",
+        "en": "Monster Hunter Wilds",
+        "appid": 2246340,
+        "year": 2025,
+        "why": "部位破壞與眩暈是魔物獵人系列的核心設計"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 29482,
+        "en": "Souls-like"
+      }
+    ],
+    "compare": [
+      {
+        "with": "hitstun",
+        "diff": "硬直是單次攻擊立即觸發的短暫僵直；蹣跚是累積數值（架勢削韌）歸零或耗盡後觸發的大範圍、通常較長的失衡狀態，常伴隨處決機會。"
+      },
+      {
+        "with": "posture-bar",
+        "diff": "架勢條是持續累積、有明確UI呈現的資源條；蹣跚則是架勢條滿之後觸發的失衡結果狀態本身，兩者是因與果的關係。"
+      }
+    ],
+    "related": [
+      "posture-bar",
+      "hitstun",
+      "charged-attack"
+    ],
+    "design": "蹣跚觸發的瞬間必須有清楚的視覺與音效確認（角色姿態明顯改變、特效爆閃），否則玩家不會意識到破防機會已經出現，也難以學會主動追求蹣跚而非單純比拼血量。",
+    "sources": [
+      {
+        "title": "How I Broke Sekiro Shadows Die Twice",
+        "url": "https://www.gamedeveloper.com/design/how-i-broke-sekiro-shadows-die-twice",
+        "accessed": "2026-09-17",
+        "note": "Game Developer 文章分析隻狼架勢蹣跚機制"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "meter-gauge",
+    "zh": "技能量表",
+    "en": "Meter / Gauge",
+    "aliases": [
+      "Super Meter",
+      "必殺技量表",
+      "能量表"
+    ],
+    "cat": "mechanic",
+    "sub": "資源與節奏",
+    "short": "透過造成或承受傷害累積的資源條，滿條可施放大招。",
+    "def": "技能量表是格鬥遊戲中透過造成或承受傷害、使用特殊技等方式累積的資源條，滿條後可施放大招或強化版特殊技（EX技）。此機制首見於1993年《超級快打旋風II X》，該作引入Super Combo與對應的Super量表，此後幾乎成為所有格鬥遊戲的標準配備，後續作品持續演化出更複雜的多功能量表系統，如《快打旋風6》的Drive Gauge同時管理防禦、取消與爆發技。",
+    "features": [
+      "透過攻防行為累積，滿條可用大招",
+      "1993年超級快打旋風IIX首創",
+      "現代作品常演化成多功能量表",
+      "是資源管理與節奏博弈的核心"
+    ],
+    "examples": [
+      {
+        "title": "快打旋風6",
+        "en": "Street Fighter 6",
+        "appid": 1364780,
+        "year": 2023,
+        "why": "Drive Gauge是同時管理防禦與爆發輸出的多功能量表代表"
+      },
+      {
+        "title": "鐵拳8",
+        "en": "Tekken 8",
+        "appid": 1778820,
+        "year": 2024,
+        "why": "熱血系統延伸了量表資源管理的設計思路"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 1743,
+        "en": "Fighting"
+      }
+    ],
+    "compare": [],
+    "related": [
+      "cooldown",
+      "charged-attack",
+      "critical-hit"
+    ],
+    "design": "量表設計要考慮怎麼賺、怎麼花的雙向決策深度，只靠挨打或只靠攻擊來累積量表，策略層次都不夠；讓進攻、防禦、承受傷害都能有限度地貢獻量表，才能創造豐富的資源博弈。",
+    "sources": [
+      {
+        "title": "Super Street Fighter II Turbo",
+        "url": "https://en.wikipedia.org/wiki/Super_Street_Fighter_II_Turbo",
+        "accessed": "2026-09-17",
+        "note": "Wikipedia 記載該作首度引入Super Combo與量表系統"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "ammo-economy",
+    "zh": "彈藥經濟",
+    "en": "Ammo Economy",
+    "aliases": [
+      "彈藥管理"
+    ],
+    "cat": "mechanic",
+    "sub": "資源與節奏",
+    "short": "彈藥作為有限資源所形成的取捨與節奏機制。",
+    "def": "彈藥經濟指射擊遊戲中彈藥作為有限資源所形成的取捨機制：彈藥充足時玩家開火沒有心理負擔，但當彈藥稀缺或取得困難時，玩家必須謹慎選擇開火時機、武器種類與拾取路線，藉此創造策略張力與資源管理深度。不同遊戲對彈藥經濟的設定差異極大，從生存恐怖遊戲的極度稀缺（強化壓迫感）到快節奏射擊遊戲的相對充裕（強調爽快感），是射擊遊戲節奏與難度設計的重要調控槓桿。",
+    "features": [
+      "彈藥稀缺程度直接影響遊戲節奏",
+      "強迫玩家取捨開火時機與武器選擇",
+      "生存恐怖靠稀缺營造壓迫感",
+      "快節奏射擊靠充裕強調爽快感"
+    ],
+    "examples": [
+      {
+        "title": "Resident Evil Requiem",
+        "en": "Resident Evil Requiem",
+        "appid": 3764200,
+        "year": 2026,
+        "why": "生存恐怖類型倚賴彈藥稀缺營造壓迫感的代表系列"
+      },
+      {
+        "title": "Call of Duty: Black Ops Cold War",
+        "en": "Call of Duty: Black Ops Cold War",
+        "appid": 1985810,
+        "year": 2023,
+        "why": "快節奏射擊以相對充裕的彈藥維持爽快節奏"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 1774,
+        "en": "Shooter"
+      }
+    ],
+    "compare": [],
+    "related": [
+      "reload",
+      "recoil-spread",
+      "hitscan"
+    ],
+    "design": "彈藥經濟的調校要對應遊戲的情緒目標：想做恐懼與壓迫，就讓彈藥稀缺到玩家必須計算這發子彈值不值得打；想做爽快感，就讓彈藥充裕但用其他資源（如過熱、彈匣容量）控制節奏。",
+    "sources": [
+      {
+        "title": "Ammo is a Resource",
+        "url": "https://cxong.github.io/2015/05/ammo-is-a-resource",
+        "accessed": "2026-09-17",
+        "note": "獨立開發者部落格對彈藥資源管理設計的討論"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "reload",
+    "zh": "換彈",
+    "en": "Reload",
+    "aliases": [
+      "Reload",
+      "裝彈"
+    ],
+    "cat": "mechanic",
+    "sub": "資源與節奏",
+    "short": "補充武器彈藥、通常會中斷攻擊節奏的動作。",
+    "def": "換彈指射擊遊戲中補充武器彈藥的動作，通常會中斷玩家的攻擊節奏並產生風險。主動換彈是《戰爭機器》首創且著名的變化機制：換彈進度條上會出現一個目標區間，玩家在正確時機再次按下換彈鍵可縮短換彈時間並額外獲得短暫傷害加成；若按錯時機（黑色區域）則會導致換彈失敗、耗時更久，形成高風險高報酬的小遊戲設計，也是換彈取消概念的知名範例。",
+    "features": [
+      "中斷攻擊節奏，產生戰術風險",
+      "主動換彈可縮短時間並獲得加成",
+      "按錯時機會導致換彈失敗",
+      "戰爭機器首創主動換彈概念"
+    ],
+    "examples": [
+      {
+        "title": "Gears of War: E-Day",
+        "en": "Gears of War: E-Day",
+        "appid": 3010850,
+        "year": 2026,
+        "why": "主動換彈機制的原創系列最新作"
+      },
+      {
+        "title": "Call of Duty: Black Ops Cold War",
+        "en": "Call of Duty: Black Ops Cold War",
+        "appid": 1985810,
+        "year": 2023,
+        "why": "標準換彈與彈藥管理搭配的主流射擊代表"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 1774,
+        "en": "Shooter"
+      }
+    ],
+    "compare": [],
+    "related": [
+      "ammo-economy",
+      "recoil-spread",
+      "cooldown"
+    ],
+    "design": "換彈是天然的節奏斷點，可以拿來當作風險設計的素材（如主動換彈的小遊戲），也可以是單純的節奏喘息。決定要不要讓換彈可被閃避或翻滾取消，會直接影響戰鬥的緊張感。",
+    "sources": [
+      {
+        "title": "Active Reload (Concept)",
+        "url": "https://www.giantbomb.com/active-reload/3015-48/",
+        "accessed": "2026-09-17",
+        "note": "Giant Bomb 遊戲百科對主動換彈機制與判定區間的說明"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "game-juice",
+    "zh": "遊戲果汁",
+    "en": "Game Juice",
+    "aliases": [
+      "Juice",
+      "果汁",
+      "手感回饋"
+    ],
+    "cat": "juice",
+    "sub": "遊戲果汁：核心回饋",
+    "short": "讓遊戲操作感覺活過來的大量疊加式感官回饋總稱。",
+    "def": "遊戲果汁指讓遊戲操作感覺活過來的大量疊加式感官回饋，震動、頓幀、變形、閃白、粒子、音效、手把震動等，單一輸入觸發連鎖的多重反饋，讓平淡的機制變得手感飽滿。此詞在獨立開發圈於2012年前後普及，兩場演講是公認的源頭經典：Vlambeer的Martin Jonasson與Petri Purho在2012年GDC Europe發表Juice it or lose it，示範同一顆按鈕如何靠疊加大量小回饋從乏味變爽快；Jan Willem Nijman（同屬Vlambeer）隨後在2013年INDIGO Classes發表The Art of Screenshake，深入拆解鏡頭震動這個單一手法。沒有Game Juice的遊戲會讓人感覺在打空氣。",
+    "features": [
+      "多重感官回饋疊加成一次爽快體驗",
+      "源自Vlambeer 2012年演講並普及化",
+      "成本低但效果顯著的手感工程",
+      "涵蓋視覺、聽覺、觸覺三個管道"
+    ],
+    "examples": [
+      {
+        "title": "Vampire Survivors",
+        "en": "Vampire Survivors",
+        "appid": 1794680,
+        "year": 2022,
+        "why": "用大量疊加式小回饋把簡單機制變成爽快循環的獨立代表作"
+      },
+      {
+        "title": "Dead Cells",
+        "en": "Dead Cells",
+        "appid": 588650,
+        "year": 2018,
+        "why": "打擊停頓、鏡頭震動與粒子特效搭配到位的動作Roguelite"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "hitstop",
+        "diff": "遊戲果汁是所有打擊感回饋手法的總稱；打擊停頓只是其中成本最低、效果最明顯的單一技法。"
+      }
+    ],
+    "related": [
+      "hitstop",
+      "screen-shake",
+      "particle-feedback"
+    ],
+    "design": "在Unity開發時，建議把果汁元素各自拆成獨立模組（Hitstop管理器、CameraShake元件、Flash Shader、音效播放器等），方便個別調整強度與抽換，不要把回饋邏輯寫死在角色控制腳本裡。",
+    "sources": [
+      {
+        "title": "Juice It or Lose It",
+        "url": "https://gdcvault.com/play/1016789/Juice-It-or-Lose",
+        "accessed": "2026-09-17",
+        "note": "GDC Vault，Martin Jonasson與Petri Purho於2012年GDC Europe Independent Games Summit演講"
+      },
+      {
+        "title": "Jan Willem Nijman - Vlambeer - The art of screenshake",
+        "url": "https://www.youtube.com/watch?v=AJdEqssNZ-U",
+        "accessed": "2026-09-17",
+        "note": "2013年INDIGO Classes演講錄影，Vlambeer的Jan Willem Nijman主講"
+      }
+    ],
+    "status": "verified",
+    "origin": "Juice it or lose it 由Martin Jonasson與Petri Purho於2012年GDC Europe發表；The Art of Screenshake由Jan Willem Nijman於2013年INDIGO Classes發表（非GDC場次），兩者皆為獨立開發圈公認的果汁設計源頭。"
+  },
+  {
+    "id": "hitstop",
+    "zh": "打擊停頓",
+    "en": "Hitstop / Hit Freeze",
+    "aliases": [
+      "Hit Freeze",
+      "Hitlag",
+      "頓幀"
+    ],
+    "cat": "juice",
+    "sub": "遊戲果汁：核心回饋",
+    "short": "攻擊命中瞬間遊戲短暫凍結畫面的效果。",
+    "def": "打擊停頓（亦稱Hit Freeze、Hitlag）指攻擊命中瞬間，遊戲短暫凍結攻守雙方數幀畫面，通常只有2至6幀（約0.03至0.1秒），讓玩家眼睛能確認碰撞確實發生，並強化打擊的重量感，常見於格鬥與動作遊戲。這個極短的停頓配合鏡頭震動、粒子特效、音效，共同構成了遊戲果汁的核心骨幹。即使是簡單的2D遊戲，加入3幀打擊停頓搭配輕微鏡頭震動與命中粒子，手感就會有質的飛躍。",
+    "features": [
+      "命中瞬間凍結畫面2至6幀",
+      "是成本最低效果最明顯的果汁要素",
+      "強化打擊的重量感與確認感",
+      "常與鏡頭震動、粒子特效搭配"
+    ],
+    "examples": [
+      {
+        "title": "黑神話：悟空",
+        "en": "Black Myth: Wukong",
+        "appid": 2358720,
+        "year": 2024,
+        "why": "重擊打擊停頓強化棍法的沉重感"
+      },
+      {
+        "title": "Dead Cells",
+        "en": "Dead Cells",
+        "appid": 588650,
+        "year": 2018,
+        "why": "2D動作Roguelite中頓幀對手感的貢獻極為明顯"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "slow-motion-finisher",
+        "diff": "打擊停頓是每次命中都觸發的極短幀數凍結（通常小於0.1秒），用來強化單次打擊的重量感；慢動作處決是特定時刻（擊殺終結）才觸發的較長時間放慢，用來強調戲劇性演出。"
+      }
+    ],
+    "related": [
+      "game-juice",
+      "screen-shake",
+      "hit-flash"
+    ],
+    "design": "在Unity裡最簡單的做法是用一個獨立的Hitstop管理器，命中時把Time.timeScale短暫壓到接近零並在Coroutine裡用WaitForSecondsRealtime計時還原，避免直接卡住Time.timeScale影響物理與音效的播放速度判斷。",
+    "sources": [
+      {
+        "title": "Hitlag",
+        "url": "https://www.ssbwiki.com/Hitlag",
+        "accessed": "2026-09-17",
+        "note": "SmashWiki 對打擊停頓機制的定義"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "screen-shake",
+    "zh": "鏡頭震動",
+    "en": "Screen Shake",
+    "aliases": [
+      "Camera Shake",
+      "畫面震動"
+    ],
+    "cat": "juice",
+    "sub": "遊戲果汁：核心回饋",
+    "short": "爆炸、受擊等高衝擊事件發生時鏡頭做隨機位移的效果。",
+    "def": "鏡頭震動指在爆炸、受擊、高衝擊事件發生時，讓攝影機做隨機或緩動的短暫位移，以極低成本大幅提升動態感與衝擊力，是遊戲果汁最具代表性的手法之一。Wikipedia的Game Feel條目明確指出，鏡頭震動能強化事件的衝擊力，並引用了Jonasson與Purho的Juice演講作為佐證。設計上通常用Perlin雜訊或彈簧阻尼曲線讓震動自然衰減，避免生硬的瞬間跳動。",
+    "features": [
+      "高衝擊事件觸發攝影機隨機位移",
+      "成本低但視覺衝擊力提升明顯",
+      "常用Perlin雜訊讓震動自然衰減",
+      "過度使用會造成暈眩或畫面難以閱讀"
+    ],
+    "examples": [
+      {
+        "title": "黑神話：悟空",
+        "en": "Black Myth: Wukong",
+        "appid": 2358720,
+        "year": 2024,
+        "why": "重擊與處決時的鏡頭震動強化打擊份量"
+      },
+      {
+        "title": "Vampire Survivors",
+        "en": "Vampire Survivors",
+        "appid": 1794680,
+        "year": 2022,
+        "why": "大量小怪爆炸同時觸發疊加震動的極端案例"
+      }
+    ],
+    "steamTags": [],
+    "compare": [],
+    "related": [
+      "game-juice",
+      "camera-kick",
+      "hitstop"
+    ],
+    "design": "在Unity裡最常見做法是用Cinemachine的Impulse Source在命中點觸發，搭配Impulse Listener接收並套用到虛擬攝影機，或直接對攝影機的local position疊加Perlin雜訊並隨時間衰減，記得依震動強度分級避免每次小命中都用最大幅度。",
+    "sources": [
+      {
+        "title": "Game feel",
+        "url": "https://en.wikipedia.org/wiki/Game_feel",
+        "accessed": "2026-09-17",
+        "note": "Wikipedia 條目提及鏡頭震動強化事件衝擊力並引用Juice演講"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "squash-and-stretch",
+    "zh": "擠壓與拉伸",
+    "en": "Squash and Stretch",
+    "aliases": [
+      "Squash and Stretch"
+    ],
+    "cat": "juice",
+    "sub": "遊戲果汁：動態變形",
+    "short": "用非等比縮放傳達重量感與衝擊力的動畫手法。",
+    "def": "擠壓與拉伸源自迪士尼動畫十二法則之一，套用於遊戲角色與物件動畫時，通常比卡通動畫更收斂，用來傳達重量與衝擊而非誇張變形。角色落地時短暫壓扁（擠壓）、起跳瞬間拉長（拉伸），能讓原本生硬的位移動作變得有彈性與生命力，是傳達物理真實感最基礎也最便宜的手法之一，常搭配緩動曲線讓變形自然回彈。",
+    "features": [
+      "落地擠壓、起跳拉伸傳達彈性",
+      "遊戲應用通常比卡通動畫更收斂",
+      "成本極低但效果立即可見",
+      "需搭配緩動曲線避免生硬回彈"
+    ],
+    "examples": [
+      {
+        "title": "Vampire Survivors",
+        "en": "Vampire Survivors",
+        "appid": 1794680,
+        "year": 2022,
+        "why": "角色與敵人的縮放彈跳強化了輕量化的手感"
+      },
+      {
+        "title": "Dead Cells",
+        "en": "Dead Cells",
+        "appid": 588650,
+        "year": 2018,
+        "why": "像素動畫的擠壓拉伸強化每次命中的打擊回饋"
+      }
+    ],
+    "steamTags": [],
+    "compare": [],
+    "related": [
+      "game-juice",
+      "hit-flash",
+      "knockback"
+    ],
+    "design": "在Unity裡最簡單的做法是用DOTween對transform.localScale做非等比動畫（例如X軸壓扁同時Y軸拉伸再彈回原值），或掛在Animator的Additive Layer上疊加，避免直接覆蓋原本的骨架動畫造成穿模。",
+    "sources": [
+      {
+        "title": "The 12 Principles of Animation, Reframed for Games",
+        "url": "https://anim.works/the-12-principles-of-animation-reframed-for-games/",
+        "accessed": "2026-09-17",
+        "note": "開發者部落格討論擠壓拉伸在遊戲中的收斂式應用"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "hit-flash",
+    "zh": "擊中閃白",
+    "en": "Hit Flash",
+    "aliases": [
+      "Hit Flash",
+      "受擊閃光"
+    ],
+    "cat": "juice",
+    "sub": "遊戲果汁：核心回饋",
+    "short": "受擊瞬間角色被染成單一亮色數幀的視覺確認。",
+    "def": "擊中閃白指角色或敵人受擊瞬間，精靈圖或模型被整體染成單一亮色（通常是白色）數幀，作為攻擊確實命中的即時視覺確認。實作上多用Shader調整或色彩調變方式，不需要額外的動畫資源就能讓玩家瞬間確認命中，是成本最低的果汁手法之一，常與打擊停頓、鏡頭震動同時觸發、組成命中瞬間的完整回饋組合。",
+    "features": [
+      "受擊瞬間整體染成單一亮色",
+      "不需額外動畫資源即可實作",
+      "與打擊停頓、鏡頭震動同時觸發",
+      "是最低成本的果汁手法之一"
+    ],
+    "examples": [
+      {
+        "title": "黑神話：悟空",
+        "en": "Black Myth: Wukong",
+        "appid": 2358720,
+        "year": 2024,
+        "why": "敵人受擊時的閃白是動作回饋的基本配置"
+      },
+      {
+        "title": "Dead Cells",
+        "en": "Dead Cells",
+        "appid": 588650,
+        "year": 2018,
+        "why": "2D動作遊戲敵人受擊閃白是最基本的命中確認手法"
+      }
+    ],
+    "steamTags": [],
+    "compare": [],
+    "related": [
+      "hitstop",
+      "particle-feedback",
+      "game-juice"
+    ],
+    "design": "在Unity裡常見做法是幫材質加一個閃白強度浮點屬性，命中時用Material.SetFloat或MaterialPropertyBlock瞬間拉到最大再用Coroutine或DOTween在幾幀內退回零；2D專案也可以直接用SpriteRenderer.color做插值閃白，避免直接改color造成殘影。",
+    "sources": [
+      {
+        "title": "Enemy Hit Effect/Flash In Unity",
+        "url": "https://medium.com/@dustsoft/enemy-hit-effect-flash-in-unity-c-a9c595c46b9e",
+        "accessed": "2026-09-17",
+        "note": "開發者部落格討論Unity中擊中閃白的實作方式，站台有反爬蟲阻擋但確認出現於搜尋結果中"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "knockback",
+    "zh": "擊退",
+    "en": "Knockback",
+    "aliases": [
+      "Knockback",
+      "擊飛"
+    ],
+    "cat": "juice",
+    "sub": "遊戲果汁：動態變形",
+    "short": "角色受攻擊後被推離原位一段距離的簡化物理效果。",
+    "def": "擊退指角色受攻擊後被推離原位一段距離的簡化物理效果，依傷害或攻擊力度決定推開幅度，可用於格鬥遊戲的場外擊殺，也可用於群體戰分散敵人。《任天堂明星大亂鬥》系列將擊退發展成核心機制：角色的傷害百分比越高，受攻擊時被推開的距離就越遠，取代傳統血量系統，成為該系列最具辨識度的設計。",
+    "features": [
+      "依傷害或力度決定推開幅度",
+      "可用於場外擊殺或分散敵群",
+      "大亂鬥系列以百分比連動擊退幅度",
+      "強化打擊的物理真實感與份量"
+    ],
+    "examples": [
+      {
+        "title": "艾爾登法環",
+        "en": "Elden Ring",
+        "appid": 1245620,
+        "year": 2022,
+        "why": "重武器擊退效果強化了打擊的重量感"
+      },
+      {
+        "title": "快打旋風6",
+        "en": "Street Fighter 6",
+        "appid": 1364780,
+        "year": 2023,
+        "why": "場外擊殺判定倚賴擊退距離的精確計算"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "crowd-control",
+        "diff": "擊退通常是果汁層面的物理回饋，強調視覺與手感；群體控制中的擊飛則是戰術層面的控場工具，用來把敵人推離戰術要地或打斷連段。"
+      }
+    ],
+    "related": [
+      "game-juice",
+      "squash-and-stretch",
+      "crowd-control"
+    ],
+    "design": "在Unity裡最直接的做法是對Rigidbody用AddForce配合Impulse模式朝受擊反方向施力，或用CharacterController疊加一段隨時間衰減的位移向量，記得依角色重量或體型分級擊退幅度，避免小怪被打飛出關卡邊界。",
+    "sources": [
+      {
+        "title": "Super Smash Bros. (video game)",
+        "url": "https://en.wikipedia.org/wiki/Super_Smash_Bros._(video_game)",
+        "accessed": "2026-09-17",
+        "note": "Wikipedia 記載傷害百分比與擊退幅度連動的設計原文"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "particle-feedback",
+    "zh": "粒子回饋",
+    "en": "Particle Feedback",
+    "aliases": [
+      "Particle Effects",
+      "命中特效"
+    ],
+    "cat": "juice",
+    "sub": "遊戲果汁：核心回饋",
+    "short": "命中、死亡、爆炸等事件觸發的短暫粒子特效。",
+    "def": "粒子回饋指命中、死亡、爆炸等事件觸發的短暫粒子特效，如碎屑、火花、煙塵等，強化有事情發生了的視覺確認，是遊戲果汁中最常見也最容易疊加的元素之一。粒子系統通常會依攻擊強度或暴擊與否變化顏色、數量與尺寸，讓玩家不需要看傷害數字也能直覺判斷這次攻擊的份量。",
+    "features": [
+      "命中死亡爆炸觸發短暫粒子效果",
+      "可依攻擊強度或暴擊變化顏色數量",
+      "不需看數字即可直覺判斷攻擊份量",
+      "是最容易疊加也最常被濫用的果汁元素"
+    ],
+    "examples": [
+      {
+        "title": "Vampire Survivors",
+        "en": "Vampire Survivors",
+        "appid": 1794680,
+        "year": 2022,
+        "why": "大量敵人同時死亡觸發密集粒子特效的極端案例"
+      },
+      {
+        "title": "黑神話：悟空",
+        "en": "Black Myth: Wukong",
+        "appid": 2358720,
+        "year": 2024,
+        "why": "棍法特效粒子強化每次命中的份量感"
+      }
+    ],
+    "steamTags": [],
+    "compare": [],
+    "related": [
+      "hit-flash",
+      "screen-shake",
+      "damage-numbers"
+    ],
+    "design": "在Unity裡用ParticleSystem搭配物件池常駐重複觸發，避免頻繁Instantiate或Destroy造成GC壓力；大量同時觸發的場景（如清版動作）要設定粒子數量上限，避免拖垮效能。",
+    "sources": [
+      {
+        "title": "Squeezing more juice out of your game design!",
+        "url": "https://www.gamedeveloper.com/design/squeezing-more-juice-out-of-your-game-design-",
+        "accessed": "2026-09-17",
+        "note": "Game Developer 文章提及碰撞觸發粒子系統的果汁設計"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "camera-kick",
+    "zh": "鏡頭後座力",
+    "en": "Camera Kick",
+    "aliases": [
+      "Weapon Kick",
+      "視角後座"
+    ],
+    "cat": "juice",
+    "sub": "遊戲果汁：核心回饋",
+    "short": "開槍或攻擊瞬間鏡頭做一次性短促位移的回饋。",
+    "def": "鏡頭後座力指開槍或攻擊瞬間，攝影機做一次性的短促位移（而非持續隨機震動），模擬武器後座反饋。與畫面全域隨機震動的鏡頭震動不同，鏡頭後座力通常是可預期、方向固定的視角位移，常與水平垂直復位速度差搭配，讓連續開火需要玩家主動壓制準星，增加射擊的技巧性與物理感。",
+    "features": [
+      "一次性短促位移，非持續隨機震動",
+      "方向通常固定、可被玩家預期並壓制",
+      "與畫面震動是不同層次的回饋手法",
+      "強化武器後座的物理真實感"
+    ],
+    "examples": [
+      {
+        "title": "Call of Duty: Black Ops Cold War",
+        "en": "Call of Duty: Black Ops Cold War",
+        "appid": 1985810,
+        "year": 2023,
+        "why": "每種槍械獨立的鏡頭後座曲線是射擊手感差異化的核心"
+      },
+      {
+        "title": "Counter-Strike 2",
+        "en": "Counter-Strike 2",
+        "appid": 730,
+        "year": 2012,
+        "why": "寫實向射擊遊戲對槍械後座視角有極精細的調校要求"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 1774,
+        "en": "Shooter"
+      }
+    ],
+    "compare": [
+      {
+        "with": "screen-shake",
+        "diff": "鏡頭後座力是開槍瞬間可預期、方向固定的短促視角位移，玩家可以學習並主動壓制；鏡頭震動則是隨機或半隨機的全域畫面晃動，用來強化衝擊感而非提供可操作的回饋。"
+      }
+    ],
+    "related": [
+      "screen-shake",
+      "recoil-spread",
+      "sound-feedback"
+    ],
+    "design": "在Unity裡通常對Camera或Cinemachine虛擬攝影機的local rotation做一次性的短促位移，用AnimationCurve控制踢起與回復的速度差，並讓連續開火時的位移可以疊加，模擬彈匣後段越來越難壓制的手感。",
+    "sources": [
+      {
+        "title": "Making a Gun Come to Life",
+        "url": "https://www.theastronauts.com/2019/03/making-gun-come-to-life/",
+        "accessed": "2026-09-17",
+        "note": "開發者部落格The Astronauts討論武器開火時的鏡頭後座設計"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "controller-rumble",
+    "zh": "手把震動",
+    "en": "Controller Rumble",
+    "aliases": [
+      "Force Feedback",
+      "Haptic Feedback",
+      "震動回饋"
+    ],
+    "cat": "juice",
+    "sub": "遊戲果汁：核心回饋",
+    "short": "命中、受傷等時刻讓手把震動的觸覺回饋。",
+    "def": "手把震動（觸覺回饋）透過手把內建馬達與偏心配重，在命中、受傷、爆炸等時刻讓手把震動，是最早商業化的力回饋方案。1997年任天堂64的Rumble Pak被公認為首款廣為人知的震動週邊，其後Sony PlayStation的DualShock手把跟進並成為標準配備。震動強度與時長通常會依事件重要性分級，過度或不分級的震動反而會讓玩家感到疲勞甚至麻木。",
+    "features": [
+      "靠手把內建馬達與偏心配重產生震動",
+      "1997年任天堂64的Rumble Pak為業界起點",
+      "強度與時長需依事件重要性分級",
+      "過度使用會造成觸覺疲勞"
+    ],
+    "examples": [
+      {
+        "title": "黑神話：悟空",
+        "en": "Black Myth: Wukong",
+        "appid": 2358720,
+        "year": 2024,
+        "why": "重擊與處決時的手把震動強化打擊份量"
+      },
+      {
+        "title": "Gears of War: E-Day",
+        "en": "Gears of War: E-Day",
+        "appid": 3010850,
+        "year": 2026,
+        "why": "處決與爆炸場面搭配手把震動強化沉浸感的代表系列"
+      }
+    ],
+    "steamTags": [],
+    "compare": [],
+    "related": [
+      "game-juice",
+      "sound-feedback",
+      "hitstop"
+    ],
+    "design": "在Unity的新版Input System裡，用Gamepad.current的SetMotorSpeeds方法設定左右馬達強度短暫觸發後歸零；建議把震動強度做成可調選項或提供關閉開關，並避免長時間持續震動導致觸覺疲勞。",
+    "sources": [
+      {
+        "title": "Rumble Pak",
+        "url": "https://en.wikipedia.org/wiki/Rumble_Pak",
+        "accessed": "2026-09-17",
+        "note": "Wikipedia 記載1997年N64 Rumble Pak為業界公認的震動週邊起點"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "slow-motion-finisher",
+    "zh": "慢動作處決",
+    "en": "Slow-motion Finisher",
+    "aliases": [
+      "子彈時間終結技",
+      "慢動作擊殺"
+    ],
+    "cat": "juice",
+    "sub": "遊戲果汁：動態變形",
+    "short": "擊殺或終結技瞬間大幅放慢時間並切換運鏡的演出。",
+    "def": "慢動作處決指擊殺或終結技瞬間，將時間流速大幅放慢並切換運鏡視角，強調該動作的戲劇性與爽感。概念上屬於子彈時間（視覺上時間變慢或停止，而攝影機仍以正常速度運鏡）的一種戰鬥收尾應用，廣泛用於電影與遊戲。《戰爭機器》系列的處決動畫、部分射擊遊戲的慢動作擊殺鏡頭是常見代表，通常會搭配特寫鏡頭與獨立的音效層次，強化該次擊殺的儀式感。",
+    "features": [
+      "擊殺終結技瞬間觸發，非常態機制",
+      "時間流速放慢但攝影機正常運鏡",
+      "屬於子彈時間概念的戰鬥收尾應用",
+      "常搭配特寫鏡頭強化儀式感"
+    ],
+    "examples": [
+      {
+        "title": "Gears of War: E-Day",
+        "en": "Gears of War: E-Day",
+        "appid": 3010850,
+        "year": 2026,
+        "why": "處決動畫是該系列最具辨識度的招牌演出之一"
+      },
+      {
+        "title": "黑神話：悟空",
+        "en": "Black Myth: Wukong",
+        "appid": 2358720,
+        "year": 2024,
+        "why": "擊殺特殊敵人時觸發的慢動作處決演出"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "hitstop",
+        "diff": "慢動作處決是特定時刻（擊殺終結）才觸發的較長時間放慢，用來強調戲劇性演出；打擊停頓是每次命中都觸發的極短幀數凍結，用來強化單次打擊的重量感，兩者頻率與目的都不同。"
+      }
+    ],
+    "related": [
+      "hitstop",
+      "game-juice",
+      "damage-numbers"
+    ],
+    "design": "在Unity裡把Time.timeScale降到0.1到0.3之間，並記得同步調整Time.fixedDeltaTime（乘上相同倍率）避免物理模擬與畫面速度不同步；音效建議另外用AudioSource的pitch屬性做對應調整而非直接跟著timeScale走，否則聲音會變得過度失真。",
+    "sources": [
+      {
+        "title": "Bullet time",
+        "url": "https://en.wikipedia.org/wiki/Bullet_time",
+        "accessed": "2026-09-17",
+        "note": "Wikipedia 對子彈時間視覺效果的定義"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "damage-numbers",
+    "zh": "傷害數字",
+    "en": "Damage Numbers",
+    "aliases": [
+      "飄字",
+      "浮動戰鬥文字"
+    ],
+    "cat": "juice",
+    "sub": "遊戲果汁：核心回饋",
+    "short": "命中時在角色頭頂彈出數值文字的回饋。",
+    "def": "傷害數字（飄字）指命中時在角色頭頂彈出的數值文字，將抽象的傷害計算轉為玩家可即時讀取的回饋。重擊、暴擊常用放大字體或變色（如黃色、橘紅色）來區隔一般傷害，部分遊戲會讓數字帶有彈跳或飛散動畫增加視覺趣味，是RPG與動作遊戲最常見的UI回饋手法之一，也是讓數值向玩家可視化的關鍵橋樑。",
+    "features": [
+      "命中時彈出數值文字於角色頭頂",
+      "暴擊常用放大或變色字體區隔",
+      "可搭配彈跳或飛散動畫增加趣味",
+      "把抽象數值轉為玩家可讀取的回饋"
+    ],
+    "examples": [
+      {
+        "title": "暗黑破壞神IV",
+        "en": "Diablo IV",
+        "appid": 2344520,
+        "year": 2023,
+        "why": "ARPG配裝規劃高度倚賴傷害數字做即時驗證"
+      },
+      {
+        "title": "黑神話：悟空",
+        "en": "Black Myth: Wukong",
+        "appid": 2358720,
+        "year": 2024,
+        "why": "動作RPG中傷害數字兼顧回饋與美術風格的案例"
+      }
+    ],
+    "steamTags": [],
+    "compare": [],
+    "related": [
+      "particle-feedback",
+      "critical-hit",
+      "game-juice"
+    ],
+    "design": "在Unity裡用TextMeshPro動態生成文字物件，搭配DOTween做位移淡出動畫，並用物件池管理避免頻繁生成銷毀造成效能負擔；密集戰鬥場景建議提供關閉或簡化飄字的選項，避免畫面過於雜亂。",
+    "sources": [
+      {
+        "title": "Bring Your Game to Life: Implementing Floating Combat Text in Unity",
+        "url": "https://www.wayline.io/blog/unity-floating-combat-text",
+        "accessed": "2026-09-17",
+        "note": "開發者部落格討論Unity中飄字回饋的實作方式"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "sound-feedback",
+    "zh": "音效打擊感",
+    "en": "Sound Feedback",
+    "aliases": [
+      "Impact Sound",
+      "打擊音效"
+    ],
+    "cat": "juice",
+    "sub": "遊戲果汁：核心回饋",
+    "short": "命中瞬間搭配的短促有力音效，決定打擊感品質的關鍵要素。",
+    "def": "音效打擊感指命中瞬間搭配的短促、有力音效（拳頭聲、爆裂聲、低頻衝擊音等），與打擊停頓、鏡頭控制並列為決定打擊感品質的三大關鍵要素。2022年一篇發表於IEEE遊戲娛樂媒體研討會的學術論文明確指出，打擊停頓、音效一致性與鏡頭控制會強烈影響玩家的衝擊感受。音效缺失或與畫面表現不協調，會直接破壞整體打擊感，即使視覺效果做得再華麗也於事無補。",
+    "features": [
+      "短促有力的音效強化命中確認",
+      "與打擊停頓、鏡頭控制並列三大要素",
+      "音效需與視覺表現時間點精準同步",
+      "缺失或不協調會直接破壞打擊感"
+    ],
+    "examples": [
+      {
+        "title": "黑神話：悟空",
+        "en": "Black Myth: Wukong",
+        "appid": 2358720,
+        "year": 2024,
+        "why": "棍擊音效的層次感是該作打擊感備受好評的原因之一"
+      },
+      {
+        "title": "Dead Cells",
+        "en": "Dead Cells",
+        "appid": 588650,
+        "year": 2018,
+        "why": "武器揮擊音效的層次感是2D動作遊戲手感評價的重點"
+      }
+    ],
+    "steamTags": [],
+    "compare": [],
+    "related": [
+      "hitstop",
+      "game-juice",
+      "screen-shake"
+    ],
+    "design": "在Unity裡用AudioSource的PlayOneShot方法播放並搭配隨機音高微幅變化，避免連續攻擊時聲音重複感過重；同一次命中建議疊加至少兩層音效（如武器揮擊聲加受擊物體反饋聲）增加層次感。",
+    "sources": [
+      {
+        "title": "What Features Influence Impact Feel? A Study of Impact Feedback in Action Games",
+        "url": "https://arxiv.org/abs/2208.06155",
+        "accessed": "2026-09-17",
+        "note": "IEEE CTSoc Games Entertainment Media 2022 學術論文，指出打擊停頓、音效一致性、鏡頭控制對衝擊感的影響"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "perfect-dodge",
+    "zh": "完美迴避／魔女時間",
+    "en": "Perfect Dodge (Witch Time)",
+    "aliases": [
+      "Witch Time",
+      "魔女時間",
+      "完美迴避"
+    ],
+    "cat": "mechanic",
+    "sub": "平台動作手感",
+    "short": "在敵人攻擊命中前一刻迴避，觸發近乎時間停滯的獎勵窗口。",
+    "def": "完美迴避指在敵人攻擊命中前一刻執行迴避指令，除了無傷閃過攻擊，還會觸發特殊獎勵效果。此概念因《魔兵驚天錄》的魔女時間機制而聞名：精準迴避成功後，敵人會進入近乎慢動作的狀態，玩家可以在這段時間內自由連續輸出而不受反擊威脅，完美迴避（在攻擊命中前極短窗口內觸發）還能把魔女時間的持續時間乘以4倍，是該系列戰鬥爽快感的核心設計。",
+    "features": [
+      "精準時機觸發，窗口比一般迴避更窄",
+      "成功後敵人陷入近乎慢動作狀態",
+      "完美觸發可再把持續時間乘倍",
+      "把防禦動作轉化為輸出視窗"
+    ],
+    "examples": [
+      {
+        "title": "Bayonetta",
+        "en": "Bayonetta",
+        "appid": 460790,
+        "year": 2017,
+        "why": "魔女時間是該系列戰鬥系統最具辨識度的核心機制"
+      },
+      {
+        "title": "艾爾登法環",
+        "en": "Elden Ring",
+        "appid": 1245620,
+        "year": 2022,
+        "why": "精準翻滾同樣能創造短暫的有利反擊窗口"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "parry",
+        "diff": "魔女時間型完美迴避獎勵的是躲開後的輸出窗口，不需要反擊指令；彈反獎勵的是擋下後立即反擊，兩者都要求精準時機但操作與回饋方向不同。"
+      },
+      {
+        "with": "i-frame",
+        "diff": "無敵幀是迴避動作中固定存在的無敵區間，任何迴避都有；完美迴避是在無敵幀之上，額外要求命中前極短時機才能觸發的加碼獎勵。"
+      }
+    ],
+    "related": [
+      "i-frame",
+      "parry",
+      "dash"
+    ],
+    "design": "完美迴避的判定窗口要清楚地比安全迴避窄，並給予遠超過安全迴避的報酬（如魔女時間的自由輸出），讓玩家有動機去追求更精準的操作而非消極地提早迴避。",
+    "sources": [
+      {
+        "title": "Witch Time",
+        "url": "https://bayonetta.fandom.com/wiki/Witch_Time",
+        "accessed": "2026-09-17",
+        "note": "Bayonetta Wiki 對魔女時間機制的整理，網站對直接抓取回應403但搜尋摘要可核對內容"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "coyote-time",
+    "zh": "郊狼時間",
+    "en": "Coyote Time",
+    "aliases": [
+      "Coyote Time"
+    ],
+    "cat": "mechanic",
+    "sub": "平台動作手感",
+    "short": "離開平台邊緣後，仍可在極短時間內起跳的寬限機制。",
+    "def": "郊狼時間指角色離開平台邊緣後，系統仍允許玩家在極短時間內（通常100至150毫秒）輸入跳躍指令並視為成功起跳，彌補人類反應速度與精確像素邊緣判定之間的落差。此詞借用卡通《威利狼與嗶嗶鳥》中狼在懸崖外仍能站立片刻的畫面比喻。《Celeste》開發者Maddy Thorson曾公開說明，這類感覺不到卻至關重要的寬限設計，是讓高難度平台跳躍遊戲公平的關鍵，沒有它玩家會把失誤誤判為手感問題而非自己操作失準。",
+    "features": [
+      "離開平台邊緣後仍有極短起跳窗口",
+      "彌補人類反應與像素判定的落差",
+      "玩家通常感覺不到它的存在",
+      "是高難度平台跳躍遊戲公平感的關鍵"
+    ],
+    "examples": [
+      {
+        "title": "Celeste",
+        "en": "Celeste",
+        "appid": 504230,
+        "year": 2018,
+        "why": "開發者公開談過郊狼時間等寬限機制對精確平台跳躍手感的重要性"
+      },
+      {
+        "title": "Hollow Knight",
+        "en": "Hollow Knight",
+        "appid": 367520,
+        "year": 2017,
+        "why": "高難度2D平台動作同樣仰賴類似的起跳寬限設計"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 3877,
+        "en": "Precision Platformer"
+      }
+    ],
+    "compare": [
+      {
+        "with": "jump-buffer",
+        "diff": "郊狼時間是已經離開平台後還能補跳的寬限；跳躍緩衝是落地前提早按跳也算數的寬限，兩者處理的是起跳時機誤差的前後兩端。"
+      }
+    ],
+    "related": [
+      "jump-buffer",
+      "input-buffer",
+      "wall-jump"
+    ],
+    "design": "郊狼時間的長度要抓在玩家感覺不到、但確實能救回誤差的範圍，一般建議100至150毫秒（6至10幀）左右；做太長玩家會覺得角色在空中飄，做太短則等於沒做。",
+    "sources": [
+      {
+        "title": "Glossary of video game terms",
+        "url": "https://en.wikipedia.org/wiki/Glossary_of_video_game_terms#Coyote_time",
+        "accessed": "2026-09-17",
+        "note": "Wikipedia 詞彙表收錄Coyote time定義"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "jump-buffer",
+    "zh": "跳躍緩衝",
+    "en": "Jump Buffer",
+    "aliases": [
+      "Jump Buffer"
+    ],
+    "cat": "mechanic",
+    "sub": "平台動作手感",
+    "short": "落地前提早按跳，落地瞬間仍視為成功起跳的寬限機制。",
+    "def": "跳躍緩衝指玩家在角色尚未落地前提早按下跳躍鍵，系統會把這個提前輸入暫存起來，在角色一落地的瞬間立即執行跳躍，而不是要求玩家精準地在落地那一幀才按鍵。這是輸入緩衝概念在平台跳躍遊戲中專門針對起跳鍵的應用，《Celeste》開發者Maddy Thorson曾具體說明，這類寬限設計讓連續跳躍的操作手感更順暢，減少玩家因為差一幀而跳空的挫折感。",
+    "features": [
+      "落地前提早按跳仍算數",
+      "是輸入緩衝在起跳鍵上的專門應用",
+      "減少連續跳躍因差一幀而落空的挫折",
+      "與郊狼時間互補處理起跳時機誤差"
+    ],
+    "examples": [
+      {
+        "title": "Celeste",
+        "en": "Celeste",
+        "appid": 504230,
+        "year": 2018,
+        "why": "開發者公開談過跳躍緩衝對連續跳躍手感的重要性"
+      },
+      {
+        "title": "Hollow Knight",
+        "en": "Hollow Knight",
+        "appid": 367520,
+        "year": 2017,
+        "why": "高難度2D平台動作同樣需要跳躍緩衝維持連續跳躍的流暢度"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 3877,
+        "en": "Precision Platformer"
+      }
+    ],
+    "compare": [
+      {
+        "with": "input-buffer",
+        "diff": "輸入緩衝是格鬥動作遊戲涵蓋任何指令的通用概念；跳躍緩衝是它在平台跳躍遊戲裡專門針對起跳鍵的應用。"
+      }
+    ],
+    "related": [
+      "coyote-time",
+      "input-buffer",
+      "wall-jump"
+    ],
+    "design": "跳躍緩衝的窗口同樣建議抓在玩家感覺不到的範圍（約幾幀到十幾毫秒等級），並與郊狼時間搭配使用，兩者合力補齊人類反應與精確像素判定之間的落差。",
+    "sources": [
+      {
+        "title": "「セレステ」開発者が語るアクションゲームの操作感を良くする方法",
+        "url": "https://gigazine.net/gsc_news/en/20200317-celeste-action-feel-things/",
+        "accessed": "2026-09-17",
+        "note": "GIGAZINE 引用Celeste開發者Maddy Thorson對跳躍緩衝的原話說明"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "wall-jump",
+    "zh": "蹬牆跳",
+    "en": "Wall Jump",
+    "aliases": [
+      "Wall Jump",
+      "蹬牆"
+    ],
+    "cat": "mechanic",
+    "sub": "平台動作手感",
+    "short": "角色貼牆時可再次起跳，擴展垂直移動範圍的機制。",
+    "def": "蹬牆跳指角色在半空中碰到牆面時，可以再次執行跳躍動作，通常會同時獲得一個遠離牆面的水平推力，讓玩家能透過在兩面牆之間反覆蹬跳來爬升原本無法直接跳上的高度。此機制在《超級瑪利歐64》被廣泛確立並普及，此後成為3D與2D平台跳躍遊戲的標準動作之一，常與二段跳、衝刺等機制組合，構成角色的完整移動能力樹。",
+    "features": [
+      "貼牆時可再次起跳並獲得水平推力",
+      "可在兩面牆間反覆蹬跳爬升",
+      "超級瑪利歐64確立並普及此機制",
+      "常與二段跳、衝刺組成移動能力樹"
+    ],
+    "examples": [
+      {
+        "title": "Hollow Knight",
+        "en": "Hollow Knight",
+        "appid": 367520,
+        "year": 2017,
+        "why": "蹬牆跳是銀河惡魔城式地圖探索能力樹的核心一環"
+      },
+      {
+        "title": "Celeste",
+        "en": "Celeste",
+        "appid": 504230,
+        "year": 2018,
+        "why": "精確平台跳躍中蹬牆跳與衝刺的組合技是高難度關卡的基礎"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 3877,
+        "en": "Precision Platformer"
+      }
+    ],
+    "compare": [],
+    "related": [
+      "dash",
+      "air-control",
+      "coyote-time"
+    ],
+    "design": "蹬牆跳的判定範圍（角色離牆多近才算貼牆）要有一定容錯，過於嚴苛會讓玩家覺得操作生硬；建議搭配貼牆時的視覺提示（角色抓牆動畫或牆面高亮），讓玩家清楚知道現在能不能蹬牆。",
+    "sources": [
+      {
+        "title": "Glossary of video game terms",
+        "url": "https://en.wikipedia.org/wiki/Glossary_of_video_game_terms#Wall_jump",
+        "accessed": "2026-09-17",
+        "note": "Wikipedia 詞彙表收錄Wall jump定義與超級瑪利歐64的普及脈絡"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "dash",
+    "zh": "衝刺",
+    "en": "Dash",
+    "aliases": [
+      "Dash",
+      "衝刺步"
+    ],
+    "cat": "mechanic",
+    "sub": "平台動作手感",
+    "short": "短時間內快速位移的動作，常帶無敵幀。",
+    "def": "衝刺指角色在短時間內快速位移一段距離的動作，常搭配無敵幀，讓玩家能同時達成移動與閃避兩個目的。空中衝刺與二段跳、蹬牆跳並列為平台跳躍遊戲擴展角色移動能力的三大常見手段，在動作遊戲中衝刺則常是主要的迴避手段之一。設計良好的衝刺會有明確的方向控制、距離與冷卻時間，讓它既能救場又不會被無限濫用來規避所有風險。",
+    "features": [
+      "短時間快速位移，常帶無敵幀",
+      "空中衝刺是移動能力樹常見一環",
+      "動作遊戲中常是主要迴避手段",
+      "需要冷卻或耗損資源避免被濫用"
+    ],
+    "examples": [
+      {
+        "title": "Dead Cells",
+        "en": "Dead Cells",
+        "appid": 588650,
+        "year": 2018,
+        "why": "衝刺是Roguelite動作遊戲中兼具移動與閃避的核心動作"
+      },
+      {
+        "title": "Hollow Knight",
+        "en": "Hollow Knight",
+        "appid": 367520,
+        "year": 2017,
+        "why": "衝刺（加速術）是銀河惡魔城地圖探索的關鍵能力"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 3877,
+        "en": "Precision Platformer"
+      }
+    ],
+    "compare": [],
+    "related": [
+      "i-frame",
+      "wall-jump",
+      "momentum"
+    ],
+    "design": "衝刺同時具備移動與閃避兩種功能時，要注意數值上不能太便宜，如果衝刺冷卻短、距離遠、又帶無敵幀，玩家會失去使用其他迴避手段的動機，可以用耗損體力或冷卻時間來平衡它的價值。",
+    "sources": [
+      {
+        "title": "The Art of the Platformer",
+        "url": "https://www.gamedeveloper.com/design/the-art-of-the-platformer",
+        "accessed": "2026-09-17",
+        "note": "Game Developer 文章（Josh Bycer，2012年）討論衝刺等平台跳躍核心動作設計"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "air-control",
+    "zh": "空中控制",
+    "en": "Air Control",
+    "aliases": [
+      "Air Control",
+      "空中位移控制"
+    ],
+    "cat": "mechanic",
+    "sub": "平台動作手感",
+    "short": "角色離地後仍可調整水平移動方向與速度的能力。",
+    "def": "空中控制指角色跳躍離地後，玩家仍能透過方向鍵調整角色在空中的水平移動方向與速度，而非完全依照起跳瞬間的軌跡被動飛行。空中控制的強弱直接影響平台跳躍的手感：控制力道強，玩家能靈活修正落點，適合強調流暢與速度的遊戲；控制力道弱或無，則能製造起跳前必須想清楚的策略性緊張感，常見於強調精確度的硬派平台跳躍遊戲。",
+    "features": [
+      "離地後仍可調整水平移動方向速度",
+      "強弱直接決定平台跳躍的手感取向",
+      "強控制強調流暢，弱控制強調策略性",
+      "需與重力、加速度參數一起調校"
+    ],
+    "examples": [
+      {
+        "title": "Celeste",
+        "en": "Celeste",
+        "appid": 504230,
+        "year": 2018,
+        "why": "精細調校的空中控制是該作被公認手感極佳的關鍵原因之一"
+      },
+      {
+        "title": "Hollow Knight",
+        "en": "Hollow Knight",
+        "appid": 367520,
+        "year": 2017,
+        "why": "銀河惡魔城式探索同樣仰賴精細的空中控制手感"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 3877,
+        "en": "Precision Platformer"
+      }
+    ],
+    "compare": [],
+    "related": [
+      "momentum",
+      "dash",
+      "wall-jump"
+    ],
+    "design": "空中控制的參數（水平加速度上限、方向鍵反應靈敏度）要花大量時間反覆試跳調校，沒有標準答案，建議先做出一個可即時調整數值的除錯介面，邊跳邊調才能找到適合遊戲節奏的手感。",
+    "sources": [
+      {
+        "title": "Platformer Controls: How To Avoid Limpness and Rigidity Feelings",
+        "url": "https://www.gamedeveloper.com/design/platformer-controls-how-to-avoid-limpness-and-rigidity-feelings",
+        "accessed": "2026-09-17",
+        "note": "Game Developer 文章（Yoann Pignole，2014年）分析空中控制對平台跳躍手感的影響"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "momentum",
+    "zh": "動量／慣性",
+    "en": "Momentum",
+    "aliases": [
+      "Momentum",
+      "慣性"
+    ],
+    "cat": "mechanic",
+    "sub": "平台動作手感",
+    "short": "角色速度依物理法則累積並延續的移動手感設計。",
+    "def": "動量指角色的移動速度依物理法則（加速、慣性、摩擦力）累積並延續，而非瞬間達到定值或瞬間歸零。強調動量的遊戲會讓角色下坡加速、上坡減速、轉向需要時間，移動本身變成需要練習的技巧，《音速小子》系列是動量驅動平台跳躍的代表：速度是靠玩家理解地形起伏、主動累積出來的，而非單純按住方向鍵就能跑到最快，這也是該系列與定速平台跳躍最大的手感差異。",
+    "features": [
+      "速度依加速慣性摩擦力等物理法則累積",
+      "下坡加速、上坡減速、轉向需要時間",
+      "移動本身成為需要練習的技巧",
+      "音速小子系列是動量驅動設計的代表"
+    ],
+    "examples": [
+      {
+        "title": "Celeste",
+        "en": "Celeste",
+        "appid": 504230,
+        "year": 2018,
+        "why": "衝刺後保留動量的設計是高階連續跳躍技巧的基礎"
+      },
+      {
+        "title": "音速小子",
+        "en": "Sonic the Hedgehog",
+        "appid": null,
+        "year": 1991,
+        "why": "動量驅動平台跳躍設計的原始代表系列"
+      }
+    ],
+    "steamTags": [],
+    "compare": [],
+    "related": [
+      "air-control",
+      "dash",
+      "coyote-time"
+    ],
+    "design": "動量驅動的移動手感學習曲線較陡，新手容易覺得角色不聽話，建議搭配清楚的視覺回饋（速度線、殘影）讓玩家理解目前的動量狀態，並提供足夠寬敞的關卡空間讓玩家有機會練習累積速度。",
+    "sources": [
+      {
+        "title": "Why Physics Matter So Much To Sonic Games",
+        "url": "https://www.destructoid.com/why-physics-matter-so-much-to-sonic-games/",
+        "accessed": "2026-09-17",
+        "note": "Destructoid 文章（2018年）分析音速小子系列動量驅動移動設計"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "lock-on",
+    "zh": "鎖定",
+    "en": "Lock-on",
+    "aliases": [
+      "Lock-on",
+      "Z-Targeting",
+      "鎖定目標"
+    ],
+    "cat": "mechanic",
+    "sub": "平台動作手感",
+    "short": "鎖定特定目標，讓移動與攻擊都圍繞該目標自動校正的系統。",
+    "def": "鎖定指玩家主動選擇一個目標後，角色的移動、鏡頭朝向與攻擊方向會自動圍繞該目標校正，讓玩家能專心操作進攻與閃避而不必手動對準。此系統由《薩爾達傳說：時之笛》的Z-targeting開創，任天堂官方訪談中曾說明，這套系統是為了解決3D空間中準確對準敵人的操作難題而設計，此後成為3D動作遊戲鎖定敵人的標準做法，也是魂系戰鬥圍繞單一敵人展開攻防的機制基礎。",
+    "features": [
+      "主動選定目標，移動與攻擊自動校正",
+      "薩爾達傳說時之笛的Z-targeting首創",
+      "解決3D空間中對準敵人的操作難題",
+      "是魂系單體戰鬥設計的機制基礎"
+    ],
+    "examples": [
+      {
+        "title": "艾爾登法環",
+        "en": "Elden Ring",
+        "appid": 1245620,
+        "year": 2022,
+        "why": "鎖定系統是魂系遊戲圍繞單一敵人展開攻防的核心操作"
+      },
+      {
+        "title": "隻狼：暗影雙死",
+        "en": "Sekiro: Shadows Die Twice",
+        "appid": 814380,
+        "year": 2019,
+        "why": "鎖定同樣是圍繞單一強敵設計攻防節奏的關鍵操作"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 29482,
+        "en": "Souls-like"
+      }
+    ],
+    "compare": [],
+    "related": [
+      "stamina-system",
+      "air-control",
+      "momentum"
+    ],
+    "design": "鎖定系統要處理好切換目標與解除鎖定的操作直覺性，尤其多敵人同時包圍時，玩家需要快速切換鎖定對象；鏡頭跟隨鎖定目標的速度也要適中，太快容易暈眩，太慢會跟丟目標。",
+    "sources": [
+      {
+        "title": "Nintendo's Iwata Asks: Ocarina of Time 3D interview",
+        "url": "https://iwataasks.nintendo.com/interviews/3ds/zelda-ocarina-of-time/1/2/",
+        "accessed": "2026-09-17",
+        "note": "任天堂官方Iwata Asks訪談，開發團隊說明Z-targeting鎖定系統的設計緣由"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "stamina-system",
+    "zh": "體力系統",
+    "en": "Stamina System",
+    "aliases": [
+      "Stamina",
+      "體力條",
+      "耐力條"
+    ],
+    "cat": "mechanic",
+    "sub": "平台動作手感",
+    "short": "跑動、攻擊、格擋、迴避都會消耗、隨時間回復的資源條。",
+    "def": "體力系統指角色的跑動、攻擊、格擋、迴避等主要行動都會消耗一條隨時間緩慢回復的資源，體力耗盡時角色會陷入行動遲緩或短暫硬直的懲罰狀態。《黑暗靈魂》系列是此設計的代表：玩家必須在多打一下與保留體力隨時能迴避之間持續權衡，體力管理本身就是戰鬥決策的一環，而非單純的攻擊資源，這讓戰鬥節奏比單純血量對拼的遊戲更講究取捨與呼吸感。",
+    "features": [
+      "跑攻擋閃等主要行動共用同一資源",
+      "隨時間緩慢自動回復",
+      "耗盡會陷入遲緩或硬直的懲罰",
+      "把資源管理變成戰鬥決策的一環"
+    ],
+    "examples": [
+      {
+        "title": "艾爾登法環",
+        "en": "Elden Ring",
+        "appid": 1245620,
+        "year": 2022,
+        "why": "體力管理是魂系戰鬥節奏與取捨決策的核心資源"
+      },
+      {
+        "title": "Monster Hunter Wilds",
+        "en": "Monster Hunter Wilds",
+        "appid": 2246340,
+        "year": 2025,
+        "why": "體力條同樣是魔物獵人系列跑動攻擊迴避的共用資源"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 29482,
+        "en": "Souls-like"
+      }
+    ],
+    "compare": [
+      {
+        "with": "poise",
+        "diff": "體力是玩家主動消耗、需要管理的資源，耗盡會受懲罰；韌性是被動抵抗打斷的數值，兩者都限制角色行動但作用方向相反。"
+      },
+      {
+        "with": "energy-system",
+        "diff": "動作遊戲的體力條是戰鬥中秒級回復的資源；手遊的「體力」是以小時計、限制遊玩次數的商業機制。"
+      }
+    ],
+    "related": [
+      "dash",
+      "poise",
+      "momentum"
+    ],
+    "design": "體力回復速度與各動作的消耗量要仔細配平，回復太快等於沒有限制，太慢會讓玩家覺得動彈不得；建議讓格擋消耗明顯高於迴避，藉此鼓勵玩家用走位而非死守盾牌。",
+    "sources": [
+      {
+        "title": "Glossary of video game terms",
+        "url": "https://en.wikipedia.org/wiki/Glossary_of_video_game_terms#Stamina",
+        "accessed": "2026-09-17",
+        "note": "Wikipedia 詞彙表收錄Stamina定義"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "recoil-spread",
+    "zh": "後座力與散布",
+    "en": "Recoil / Spread",
+    "aliases": [
+      "Recoil",
+      "Bloom",
+      "後座力",
+      "彈道散布"
+    ],
+    "cat": "mechanic",
+    "sub": "射擊機制與數值",
+    "short": "槍械連續開火時的準星偏移與彈道隨機擴散機制。",
+    "def": "後座力指連續開火時準星會依固定或半固定模式向特定方向偏移，玩家可以透過反向壓槍學習並修正，是需要練習的技巧型設計；散布則是彈道命中點隨機在一定範圍內擴大，玩家無法預測或修正，只能靠停止射擊等待散布縮小。兩者都用來限制連續開火的精準度，但業界普遍認為隨機散布缺乏技巧性、容易讓玩家覺得不是我的錯，後座力模式因為可學習、可預期，近年更受射擊遊戲設計者青睞。",
+    "features": [
+      "後座力可學習、可用壓槍修正",
+      "隨機散布不可預測、缺乏技巧性",
+      "兩者都限制連續開火的精準度",
+      "近年設計普遍偏好可學習的後座力模式"
+    ],
+    "examples": [
+      {
+        "title": "Counter-Strike 2",
+        "en": "Counter-Strike 2",
+        "appid": 730,
+        "year": 2012,
+        "why": "固定後座力模式讓壓槍成為可練習的核心技巧"
+      },
+      {
+        "title": "Call of Duty: Black Ops Cold War",
+        "en": "Call of Duty: Black Ops Cold War",
+        "appid": 1985810,
+        "year": 2023,
+        "why": "槍械後座力曲線差異是武器平衡的重要一環"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 1774,
+        "en": "Shooter"
+      }
+    ],
+    "compare": [],
+    "related": [
+      "hitscan",
+      "camera-kick",
+      "ammo-economy"
+    ],
+    "design": "若採用可學習的後座力模式，建議讓每把槍的偏移路徑固定且有規律，方便玩家透過練習記憶壓槍軌跡；若使用隨機散布，務必給予清楚的準星視覺回饋，讓玩家至少能看見目前的精準度範圍。",
+    "sources": [
+      {
+        "title": "Bullet Bloom: An FPS Tragedy",
+        "url": "https://critpoints.net/2018/02/21/bullet-bloom-an-fps-tragedy/",
+        "accessed": "2026-09-17",
+        "note": "射擊遊戲設計部落格（Celia Wagar，2018年）批判隨機彈道散布缺乏技巧性"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "hitscan",
+    "zh": "瞬時命中",
+    "en": "Hitscan (vs Projectile)",
+    "aliases": [
+      "Hitscan",
+      "射線判定"
+    ],
+    "cat": "mechanic",
+    "sub": "射擊機制與數值",
+    "short": "開槍瞬間以射線判定命中，無飛行時間的武器判定方式。",
+    "def": "瞬時命中指武器開火的瞬間，系統直接用一條射線判定是否命中目標，子彈沒有實際飛行時間，只要開火瞬間準星對準目標就算命中，多用於手槍、步槍等高速武器。與之相對的是拋射物判定：子彈是有飛行時間、會受重力或速度影響的實體，玩家需要預判目標的移動路徑提前瞄準，多用於火箭筒、弓箭、法術等武器。兩種判定方式代表了射擊遊戲兩種截然不同的瞄準技巧，瞬時命中考驗手速與準度，拋射物考驗預判與空間感。",
+    "features": [
+      "開火瞬間用射線判定，無飛行時間",
+      "多用於手槍步槍等高速武器",
+      "與拋射物判定相對，考驗預判能力",
+      "兩種判定方式代表不同的瞄準技巧"
+    ],
+    "examples": [
+      {
+        "title": "Counter-Strike 2",
+        "en": "Counter-Strike 2",
+        "appid": 730,
+        "year": 2012,
+        "why": "競技射擊遊戲以瞬時命中判定確保槍械對準的即時公平性"
+      },
+      {
+        "title": "Call of Duty: Black Ops Cold War",
+        "en": "Call of Duty: Black Ops Cold War",
+        "appid": 1985810,
+        "year": 2023,
+        "why": "步槍與手槍等主流武器普遍採用瞬時命中判定"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 1774,
+        "en": "Shooter"
+      }
+    ],
+    "compare": [],
+    "related": [
+      "ttk",
+      "aim-assist",
+      "recoil-spread"
+    ],
+    "design": "瞬時命中適合強調反應速度與精準度的競技向射擊遊戲；拋射物判定則能為武器增加預判與空間博弈的深度。設計武器組合時，可以刻意混搭兩種判定方式（如主武器瞬時命中、火箭筒拋射物）創造不同的戰術定位。",
+    "sources": [
+      {
+        "title": "Glossary of video game terms",
+        "url": "https://en.wikipedia.org/wiki/Glossary_of_video_game_terms#Hitscan",
+        "accessed": "2026-09-17",
+        "note": "Wikipedia 詞彙表收錄Hitscan定義"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "ttk",
+    "zh": "擊殺時間",
+    "en": "TTK (Time to Kill)",
+    "aliases": [
+      "TTK",
+      "擊殺時間"
+    ],
+    "cat": "mechanic",
+    "sub": "射擊機制與數值",
+    "short": "從首發命中到擊殺目標所需的平均時間。",
+    "def": "擊殺時間指從第一發子彈命中目標，到造成足夠傷害擊殺目標為止所需的平均時間，是射擊遊戲節奏設計最核心的數值槓桿之一。低TTK遊戲強調第一發命中的重要性，容錯率低、對槍講究先手優勢；高TTK遊戲則給予被擊中一方更多反應與反殺的空間，戰鬥節奏相對從容，兩種設計哲學分別對應不同的競技體驗與玩家技術門檻。",
+    "features": [
+      "從首發命中到擊殺所需的平均時間",
+      "低TTK強調先手優勢與精準度",
+      "高TTK給予反應與反殺的空間",
+      "是射擊遊戲節奏設計的核心槓桿"
+    ],
+    "examples": [
+      {
+        "title": "Counter-Strike 2",
+        "en": "Counter-Strike 2",
+        "appid": 730,
+        "year": 2012,
+        "why": "極低TTK使得先手命中幾乎決定該次對槍勝負"
+      },
+      {
+        "title": "天命2",
+        "en": "Destiny 2",
+        "appid": 1085660,
+        "year": 2019,
+        "why": "相對較高的TTK讓玩家在中彈後仍有反擊機會"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 1774,
+        "en": "Shooter"
+      }
+    ],
+    "compare": [],
+    "related": [
+      "dps",
+      "headshot",
+      "hitscan"
+    ],
+    "design": "TTK的長短要對應遊戲的競技定位：電競向對戰射擊通常壓低TTK以獎勵精準與先手；強調角色扮演與裝備成長的射擊遊戲則傾向拉長TTK，讓走位、技能與團隊配合有發揮空間。調整武器傷害前，務必先確認目標TTK區間。",
+    "sources": [
+      {
+        "title": "Glossary of video game terms",
+        "url": "https://en.wikipedia.org/wiki/Glossary_of_video_game_terms#Time-To-Kill",
+        "accessed": "2026-09-17",
+        "note": "Wikipedia 詞彙表收錄Time-to-kill定義"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "headshot",
+    "zh": "爆頭",
+    "en": "Headshot",
+    "aliases": [
+      "Headshot",
+      "爆頭"
+    ],
+    "cat": "mechanic",
+    "sub": "射擊機制與數值",
+    "short": "命中頭部造成額外傷害甚至即死的判定。",
+    "def": "爆頭指子彈命中角色頭部判定框時，觸發遠高於身體命中的傷害倍率，部分遊戲甚至直接判定即死。此設計的源流可追溯至1994年街機遊戲《Virtua Cop》，其後《惡靈古堡》系列與《007黃金眼》等作品持續發揚，讓瞄準頭部成為射擊遊戲玩家的直覺目標，如今已是幾乎所有寫實向射擊遊戲的標準機制，也是連結精準瞄準操作與高額回報的核心設計。",
+    "features": [
+      "命中頭部觸發遠高於身體的傷害倍率",
+      "源流可追溯至1994年Virtua Cop",
+      "部分遊戲直接判定即死",
+      "把精準瞄準與高額回報直接連結"
+    ],
+    "examples": [
+      {
+        "title": "Counter-Strike 2",
+        "en": "Counter-Strike 2",
+        "appid": 730,
+        "year": 2012,
+        "why": "爆頭即死機制是該系列對槍節奏的核心設計"
+      },
+      {
+        "title": "Call of Duty: Black Ops Cold War",
+        "en": "Call of Duty: Black Ops Cold War",
+        "appid": 1985810,
+        "year": 2023,
+        "why": "爆頭傷害倍率是武器平衡表的標準欄位"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 1774,
+        "en": "Shooter"
+      }
+    ],
+    "compare": [
+      {
+        "with": "critical-hit",
+        "diff": "爆頭是依命中部位觸發額外傷害的判定，通常是固定倍率或即死；暴擊是依機率觸發的額外傷害，兩者都強化命中回報但觸發條件不同。"
+      }
+    ],
+    "related": [
+      "hitscan",
+      "dps",
+      "critical-hit"
+    ],
+    "design": "爆頭判定框要比角色頭部模型稍大一點，過於嚴苛的判定會讓玩家覺得明明瞄準頭卻沒算；同時要給爆頭獨立的音效與畫面回饋（如特殊擊殺音、準星變色），強化瞄準精準的成就感。",
+    "sources": [
+      {
+        "title": "Glossary of video game terms",
+        "url": "https://en.wikipedia.org/wiki/Glossary_of_video_game_terms#Headshot",
+        "accessed": "2026-09-17",
+        "note": "Wikipedia 詞彙表收錄Headshot定義與歷史源流"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "aim-assist",
+    "zh": "輔助瞄準",
+    "en": "Aim Assist",
+    "aliases": [
+      "Aim Assist",
+      "瞄準輔助"
+    ],
+    "cat": "mechanic",
+    "sub": "射擊機制與數值",
+    "short": "幫助手把玩家更容易瞄準目標的自動輔助系統。",
+    "def": "輔助瞄準指遊戲在偵測到玩家使用搖桿等精度較低的輸入裝置時，自動提供瞄準輔助，常見實作方式有三種：減速（準星掃過目標時移動速度自動放慢）、黏附（準星會輕微吸附在目標周圍）、快速鎖定（短暫按鍵即可直接對準目標）。此機制主要用來平衡搖桿與滑鼠在瞄準精準度上的先天差距，讓跨平台或主機射擊遊戲的操作門檻更公平，但強度設定不當也可能引發輔助瞄準過強的公平性爭議。",
+    "features": [
+      "主要用於彌補搖桿與滑鼠的精準度落差",
+      "常見減速、黏附、快速鎖定三種實作",
+      "強度需要精細調校以避免爭議",
+      "跨平台射擊遊戲的公平性重要工具"
+    ],
+    "examples": [
+      {
+        "title": "Call of Duty: Black Ops Cold War",
+        "en": "Call of Duty: Black Ops Cold War",
+        "appid": 1985810,
+        "year": 2023,
+        "why": "主機與手把玩家高度依賴輔助瞄準達到公平對戰"
+      },
+      {
+        "title": "天命2",
+        "en": "Destiny 2",
+        "appid": 1085660,
+        "year": 2019,
+        "why": "主機射擊遊戲手把玩家同樣仰賴瞄準輔助拉近與鍵鼠的差距"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 1774,
+        "en": "Shooter"
+      }
+    ],
+    "compare": [],
+    "related": [
+      "hitscan",
+      "recoil-spread",
+      "headshot"
+    ],
+    "design": "建議依輸入裝置類型分別調校輔助瞄準強度（鍵鼠與手把各自一套數值），並持續監控跨裝置對戰的勝率數據，避免輔助瞄準強度失衡造成特定裝置的玩家不公平地占優勢。",
+    "sources": [
+      {
+        "title": "Aim assist",
+        "url": "https://en.wikipedia.org/wiki/Aim_assist",
+        "accessed": "2026-09-17",
+        "note": "Wikipedia 條目說明輔助瞄準的實作方式與爭議"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "bullet-sponge",
+    "zh": "子彈海綿",
+    "en": "Bullet Sponge",
+    "aliases": [
+      "Bullet Sponge",
+      "肉盾怪"
+    ],
+    "cat": "mechanic",
+    "sub": "射擊機制與數值",
+    "short": "血量高到不合理、需要大量子彈才能擊殺的敵人的貶義稱呼。",
+    "def": "子彈海綿指遊戲中血量設定高到不合理、需要打光大量彈藥才能擊殺的敵人，是玩家社群對此類設計不滿時使用的貶義詞。此問題常見於單純用調高數值來製造難度的射擊遊戲：敵人沒有更聰明的AI行為、沒有更豐富的攻擊模式，只是單純變得更肉，導致戰鬥拖沓乏味而非緊張刺激。健康的難度設計應優先透過敵人行為模式、走位威脅、多目標協同等方式提升挑戰，而非單純堆疊血量數字。",
+    "features": [
+      "血量高到不合理但缺乏對應的行為深度",
+      "玩家社群對此類設計的貶義稱呼",
+      "常見於單純用數值堆疊製造難度的作品",
+      "健康設計應靠行為模式而非血量堆疊"
+    ],
+    "examples": [
+      {
+        "title": "邊緣禁地4",
+        "en": "Borderlands 4",
+        "appid": 1285190,
+        "year": 2025,
+        "why": "高等級敵人血量膨脹常被玩家社群拿來討論子彈海綿問題"
+      },
+      {
+        "title": "天命2",
+        "en": "Destiny 2",
+        "appid": 1085660,
+        "year": 2019,
+        "why": "高難度活動中敵人血量常被玩家社群批評為子彈海綿"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 1774,
+        "en": "Shooter"
+      }
+    ],
+    "compare": [],
+    "related": [
+      "dps",
+      "ttk",
+      "headshot"
+    ],
+    "design": "避免子彈海綿的做法是把難度成長放在敵人行為而非單純血量：更精準的AI走位、更頻繁的協同攻擊、更明確的弱點部位，都比單純疊血量更能維持戰鬥的緊張感與爽快度。",
+    "sources": [
+      {
+        "title": "Glossary of video game terms",
+        "url": "https://en.wikipedia.org/wiki/Glossary_of_video_game_terms#Bullet_sponge",
+        "accessed": "2026-09-17",
+        "note": "Wikipedia 詞彙表收錄Bullet sponge定義"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "dps",
+    "zh": "每秒傷害",
+    "en": "DPS (Damage Per Second)",
+    "aliases": [
+      "DPS",
+      "輸出"
+    ],
+    "cat": "mechanic",
+    "sub": "射擊機制與數值",
+    "short": "衡量武器或角色單位時間輸出量的標準指標，也指輸出向職業。",
+    "def": "每秒傷害指武器或角色在單位時間內能造成的平均傷害量，計算方式大致為單次傷害除以出招時間加上硬直或裝填時間，是比較不同武器與技能配裝效率最常用的量化指標。在多人遊戲的職業分工語境中，DPS也直接指稱負責輸出傷害的職業角色（相對於坦克與治療），是聖三位一體團隊分工中最直觀被理解的一環。",
+    "features": [
+      "計算方式為傷害除以出招與硬直時間",
+      "是比較武器與配裝效率的標準指標",
+      "也直接指稱輸出向職業角色",
+      "是聖三位一體分工中最直觀的一環"
+    ],
+    "examples": [
+      {
+        "title": "暗黑破壞神IV",
+        "en": "Diablo IV",
+        "appid": 2344520,
+        "year": 2023,
+        "why": "DPS數值是配裝與技能循環規劃的核心比較基準"
+      },
+      {
+        "title": "英雄聯盟",
+        "en": "League of Legends",
+        "appid": null,
+        "year": 2009,
+        "why": "DPS職業與輸出循環規劃在MOBA中同樣是配裝討論的核心"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "burst-damage",
+        "diff": "DPS是衡量長時間平均輸出效率的統計指標；爆發傷害則專指短時間內集中打出的高傷害，一個看的是平均值，一個看的是瞬間峰值。"
+      }
+    ],
+    "related": [
+      "aggro",
+      "cooldown",
+      "burst-damage"
+    ],
+    "design": "純粹比較DPS數字容易忽略實際戰鬥中的走位、施法中斷、資源限制等因素，設計配裝系統時建議額外提供有效DPS或戰鬥記錄分析工具，讓玩家能看到理論輸出與實戰輸出的落差。",
+    "sources": [
+      {
+        "title": "Glossary of video game terms",
+        "url": "https://en.wikipedia.org/wiki/Glossary_of_video_game_terms#Damage_per_second",
+        "accessed": "2026-09-17",
+        "note": "Wikipedia 詞彙表收錄Damage per second定義"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "burst-damage",
+    "zh": "爆發傷害",
+    "en": "Burst Damage",
+    "aliases": [
+      "Burst",
+      "爆發輸出"
+    ],
+    "cat": "mechanic",
+    "sub": "射擊機制與數值",
+    "short": "短時間內集中打出大量傷害，與持續輸出相對的輸出型態。",
+    "def": "爆發傷害指角色在短時間內集中使用高傷害技能，打出遠超平均值的瞬間輸出，目標是在對手來不及反應或使用保命手段前將其擊殺，與強調長時間穩定輸出的持續輸出相對。MOBA等競技遊戲的角色設計常沿著這條軸線分化：爆發型角色擅長瞬間斬殺脆皮但技能用完後輸出低迷，持續輸出型角色雖然爆發力弱但能長時間穩定輸出，兩種取向的取捨直接影響團戰中的節奏與角色定位。",
+    "features": [
+      "短時間集中打出遠超平均的傷害",
+      "目標是搶在對手反應前完成擊殺",
+      "與持續輸出互為相對概念",
+      "MOBA角色設計常見的分化軸線之一"
+    ],
+    "examples": [
+      {
+        "title": "英雄聯盟",
+        "en": "League of Legends",
+        "appid": null,
+        "year": 2009,
+        "why": "爆發型刺客與持續輸出型戰士的分化是角色定位的核心軸線"
+      },
+      {
+        "title": "Dota 2",
+        "en": "Dota 2",
+        "appid": 570,
+        "year": 2013,
+        "why": "爆發連段秒殺脆皮是該遊戲常見的戰術主軸之一"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "dot",
+        "diff": "爆發傷害是一次性打出大量傷害，適合速殺但沒有持續消耗對手的效果；持續傷害把總量分散在數秒到數十秒內慢慢造成，不會立即致命。"
+      }
+    ],
+    "related": [
+      "dot",
+      "dps",
+      "critical-hit"
+    ],
+    "design": "爆發型角色的技能組合通常需要集火視窗，玩家要抓準對手技能真空期或走位失誤的瞬間才能完成爆發連段，設計時要確保這個視窗存在但不會大到讓爆發變成無腦碾壓。",
+    "sources": [
+      {
+        "title": "Skill Systems in MOBAs, Part 2",
+        "url": "https://stevesgamedesignblog.wordpress.com/2016/12/20/skills-systems-in-mobas-part-2/",
+        "accessed": "2026-09-17",
+        "note": "遊戲設計部落格（2016年）分析MOBA中爆發與持續輸出的角色分化"
+      }
+    ],
+    "status": "verified"
+  }
+]

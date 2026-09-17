@@ -1,0 +1,20 @@
+{
+  "name": "game-glossary",
+  "version": "3.0.0",
+  "description": "遊戲名詞大百科：結合 Steam 官方標籤的遊戲術語教學查詢系統。單檔離線網頁，每條附代表作、易混淆詞比較與來源。",
+  "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/treefar/game-glossary.git"
+  },
+  "scripts": {
+    "validate": "node scripts/validate.js",
+    "build": "node scripts/build.js",
+    "test": "node --test",
+    "verify": "node scripts/build.js && node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

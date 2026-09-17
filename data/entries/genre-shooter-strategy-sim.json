@@ -1,0 +1,1132 @@
+[
+  {
+    "id": "shooter",
+    "zh": "射擊遊戲（射擊總稱）",
+    "en": "Shooter Game",
+    "aliases": ["Shooter", "槍戰遊戲"],
+    "cat": "genre",
+    "sub": "射擊類型",
+    "short": "以遠程武器擊敗敵人為核心遊玩方式的動作遊戲總稱。",
+    "def": "泛指所有「用槍或遠程武器打敵人」的動作遊戲，是動作遊戲底下最大的一個家族。玩家透過瞄準、射擊、閃避、換彈等操作消滅目標，強調的是反應速度與空間判斷，而不是像 RPG 那樣靠數值成長取勝。射擊遊戲底下又依視角（第一人稱、第三人稱、俯視）、節奏（戰術慢節奏、快節奏割草）、人數（單機、PvP、PvE）分出 FPS、TPS、戰術射擊、英雄射擊、大逃殺、撤離射擊、捲軸射擊等一大票子類型，每個子類型的手感與設計重點都不太一樣。",
+    "features": ["遠程武器為核心互動", "強調瞄準與反應速度", "子類型依視角與節奏細分", "橫跨單機與多人生態"],
+    "examples": [
+      {"title": "戰慄時空 2", "en": "Half-Life 2", "appid": 220, "year": 2004, "why": "確立現代 FPS 物理互動與關卡敘事的教科書級作品"},
+      {"title": "毀滅戰士 永恆", "en": "DOOM Eternal", "appid": 782330, "year": 2020, "why": "把射擊節奏與資源循環（彈藥、血量、護甲互相牽動）做到極致"}
+    ],
+    "steamTags": [{"tagid": 1774, "en": "Shooter"}, {"tagid": 1663, "en": "FPS"}],
+    "compare": [{"with": "fps", "diff": "射擊遊戲是包含 FPS、TPS 等所有子類型的總稱，FPS 只是其中依視角劃分的一支。"}],
+    "related": ["fps", "tps", "tactical-shooter", "hero-shooter"],
+    "design": "做射擊遊戲前要先決定「這是靠反應速度取勝，還是靠戰術資訊取勝」，這個定位會連動視角、地圖尺度、死亡懲罰與 TTK（擊殺所需時間）的設計，混著做容易兩邊都不到位。",
+    "origin": "1962 年《太空戰爭！》被視為最早的射擊遊戲雛型，1992 年《德軍總部 3D》確立第一人稱射擊的基本框架。",
+    "sources": [
+      {"title": "Wikipedia: Shooter game", "url": "https://en.wikipedia.org/wiki/Shooter_game", "accessed": "2026-09-17", "note": "射擊遊戲總稱定義"},
+      {"title": "Steam 標籤頁：Shooter", "url": "https://store.steampowered.com/tags/en/Shooter/", "accessed": "2026-09-17", "note": "標籤存在確認"}
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "fps",
+    "zh": "第一人稱射擊（FPS）",
+    "en": "First-Person Shooter",
+    "aliases": ["FPS"],
+    "cat": "genre",
+    "sub": "射擊類型",
+    "short": "以角色雙眼視角遊玩的射擊遊戲，畫面只看得到武器與雙手。",
+    "def": "玩家透過角色的第一人稱視角遊玩，螢幕上通常只看到手持的武器與偶爾露出的雙手，沒有自己角色的全身畫面。這種視角讓玩家的視野與角色的視野幾乎重合，代入感與瞄準精準度都是所有射擊類型裡最強的，但也最容易讓部分玩家暈 3D。核心互動是瞄準、開槍、換彈、找掩體，依節奏又能再細分成戰術向（如《反恐菁英》）、快節奏向（如《毀滅戰士》）等。FPS 是電競與單機市場都long-run 熱門的類型，也是很多引擎與硬體（滑鼠 DPI、視野角 FOV）發展的主要推力。",
+    "features": ["第一人稱視角", "武器與雙手佔畫面前景", "瞄準精準度要求高", "容易造成暈 3D"],
+    "examples": [
+      {"title": "戰慄時空 2", "en": "Half-Life 2", "appid": 220, "year": 2004, "why": "物理互動與關卡敘事並重的 FPS 經典"},
+      {"title": "毀滅戰士 永恆", "en": "DOOM Eternal", "appid": 782330, "year": 2020, "why": "快節奏 FPS 的現代代表，彈藥／血量／護甲三資源互相牽制"},
+      {"title": "反恐菁英 2", "en": "Counter-Strike 2", "appid": 730, "year": 2012, "why": "戰術向 FPS 電競長青樹"}
+    ],
+    "steamTags": [{"tagid": 1663, "en": "FPS"}],
+    "compare": [
+      {"with": "tps", "diff": "FPS 看不到自己角色全身、代入感強；TPS 鏡頭在角色身後，能看到角色動作與造型。"},
+      {"with": "tactical-shooter", "diff": "FPS 是依視角分類的大類；戰術射擊是依節奏與死亡機制分類，兩者可以重疊（CS2 兩者都是）。"}
+    ],
+    "related": ["tps", "tactical-shooter", "arena-shooter", "boomer-shooter"],
+    "design": "第一人稱視角容易暈 3D，FOV（視野角）、移動慣性、鏡頭震動幅度要做成可調整選項；瞄準手感（滑鼠靈敏度曲線、準心貼圖）差一點就會被硬核玩家嫌棄，這塊建議做大量可調參數而非一組寫死的預設。",
+    "sources": [
+      {"title": "Wikipedia: First-person shooter", "url": "https://en.wikipedia.org/wiki/First-person_shooter", "accessed": "2026-09-17", "note": "定義與視角特徵"},
+      {"title": "Steam 標籤頁：FPS", "url": "https://store.steampowered.com/tags/en/FPS/", "accessed": "2026-09-17", "note": "標籤存在確認"}
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "tps",
+    "zh": "第三人稱射擊（TPS）",
+    "en": "Third-Person Shooter",
+    "aliases": ["TPS"],
+    "cat": "genre",
+    "sub": "射擊類型",
+    "short": "鏡頭在角色身後、能看見角色全身動作的射擊遊戲。",
+    "def": "鏡頭架在角色後上方，玩家能看到自己角色的全身動作與造型，核心機制與 FPS 相同（瞄準、射擊、換彈、掩體），差別在鏡頭位置帶來的空間感與角色辨識度。TPS 因為看得到角色本人，特別適合強調角色造型、服裝、動作演出的作品，也更容易做出貼牆掩體戰、翻滾閃避等第三人稱獨有的動作演出。缺點是準心與角色視線可能有落差，瞄準精準度普遍不如 FPS。部分作品會提供第一／第三人稱切換讓玩家自選。",
+    "features": ["鏡頭在角色身後上方", "看得到角色全身與造型", "常搭配掩體系統", "瞄準精準度略遜 FPS"],
+    "examples": [
+      {"title": "漫威蜘蛛人 重製版", "en": "Marvel's Spider-Man Remastered", "appid": 1817070, "year": 2022, "why": "角色動作與空間移動表現是 TPS 鏡頭的優勢展示"},
+      {"title": "最後生還者 完整版", "en": "The Last of Us Part I", "appid": 1888930, "year": 2023, "why": "掩體戰與角色演出結合敘事的代表作"},
+      {"title": "最後生還者 二部曲 重製版", "en": "The Last of Us Part II Remastered", "appid": 2531310, "year": 2025, "why": "同系列延續，掩體與潛行射擊並重"}
+    ],
+    "steamTags": [{"tagid": 3814, "en": "Third-Person Shooter"}],
+    "compare": [{"with": "fps", "diff": "TPS 看得到角色全身、更適合角色扮演體驗；FPS 沉浸感與瞄準精度更強。"}],
+    "related": ["fps", "hero-shooter"],
+    "design": "第三人稱鏡頭容易被場景卡視角，過肩鏡頭在窄巷、樓梯間要另外設計相機碰撞規則；也要決定「準心中心」與「角色槍口方向」怎麼校準，否則玩家會覺得打不準卻不知道為什麼。",
+    "sources": [
+      {"title": "Wikipedia: Third-person shooter", "url": "https://en.wikipedia.org/wiki/Third-person_shooter", "accessed": "2026-09-17", "note": "定義與鏡頭特徵"},
+      {"title": "Steam 標籤頁：Third-Person Shooter", "url": "https://store.steampowered.com/tags/en/Third-Person%20Shooter/", "accessed": "2026-09-17", "note": "標籤存在確認"}
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "hero-shooter",
+    "zh": "英雄射擊",
+    "en": "Hero Shooter",
+    "aliases": ["角色射擊"],
+    "cat": "genre",
+    "sub": "射擊類型",
+    "short": "每人挑一個有專屬技能組的「英雄」再開打的射擊遊戲。",
+    "def": "FPS／TPS 的現代變體，玩家不是拿一把大家都能拿的槍互射，而是從一組預先設計好的「英雄」角色中選一個，每個英雄有自己專屬的武器、主動技能與大招。這讓射擊遊戲多了一層角色扮演與組隊搭配的策略深度：有人是近戰坦、有人是遠程輸出、有人專門支援隊友。比起純槍法對決，英雄射擊更考驗「這局該選誰」「隊伍陣容夠不夠互補」，也因此很適合做成團隊型電競項目。",
+    "features": ["固定角色池、各有專屬技能", "強調陣容搭配而非純槍法", "團隊分工（坦克／輸出／支援）", "適合電競賽制"],
+    "examples": [
+      {"title": "鬥陣特攻 2", "en": "Overwatch 2", "appid": 2357570, "year": 2023, "why": "確立英雄射擊角色池與職責分工模板的代表作"},
+      {"title": "Apex 英雄", "en": "Apex Legends", "appid": 1172470, "year": 2020, "why": "把英雄射擊嫁接到大逃殺框架的成功案例"},
+      {"title": "漫威爭鋒", "en": "Marvel Rivals", "appid": 2767030, "year": 2024, "why": "以既有 IP 角色快速建立英雄辨識度的新作"}
+    ],
+    "steamTags": [{"tagid": 620519, "en": "Hero Shooter"}],
+    "compare": [
+      {"with": "arena-shooter", "diff": "英雄射擊靠角色技能與組合創造差異；競技場射擊裡大家起點裝備相同，靠撿裝備與純操作分勝負。"},
+      {"with": "tactical-shooter", "diff": "英雄射擊靠角色技能組製造變數；戰術射擊靠資訊博弈與經濟系統，角色能力差異通常很小。"}
+    ],
+    "related": ["arena-shooter", "moba", "fps"],
+    "design": "最大挑戰是平衡「獨特性」與「公平性」：每個英雄要有一眼看出的識別度，但整體強度要接近，否則容易出現「無腦強英雄」讓對局變成選角比賽而非操作比賽。",
+    "sources": [
+      {"title": "Wikipedia: Hero shooter", "url": "https://en.wikipedia.org/wiki/Hero_shooter", "accessed": "2026-09-17", "note": "定義與代表作"},
+      {"title": "Steam 標籤頁：Hero Shooter", "url": "https://store.steampowered.com/tags/en/Hero%20Shooter/", "accessed": "2026-09-17", "note": "標籤存在確認"}
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "tactical-shooter",
+    "zh": "戰術射擊",
+    "en": "Tactical Shooter",
+    "aliases": ["戰術 FPS"],
+    "cat": "genre",
+    "sub": "射擊類型",
+    "short": "強調戰術紀律與資訊博弈、一槍見血的慢節奏射擊遊戲。",
+    "def": "強調戰術紀律與資訊博弈的射擊子類型，涵蓋第一人稱與第三人稱。典型特徵是一命制（這回合死了就要等下回合）、回合經濟系統（靠上一回合表現賺錢買裝備）、高致命性（中一兩槍就可能陣亡）、定點攻防（一隊進攻、一隊防守）。節奏比一般射擊遊戲慢很多，玩家更重視聽腳步聲、抓角度、跟隊友共享情報，而不是靠反應速度硬拚。與強調爆量血量、超快移動速度的 Boomer Shooter 幾乎是光譜的兩端。",
+    "features": ["一命制、死亡不能重生", "回合經濟系統", "高致命性、一槍見血", "重視情報與靜聽"],
+    "examples": [
+      {"title": "反恐菁英 2", "en": "Counter-Strike 2", "appid": 730, "year": 2012, "why": "戰術射擊電競的長青代表"},
+      {"title": "虹彩六號：圍攻行動", "en": "Tom Clancy's Rainbow Six Siege", "appid": 359550, "year": 2015, "why": "破壞地形與攻防不對稱設計的戰術射擊代表"},
+      {"title": "Ready or Not", "en": "Ready or Not", "appid": 1144200, "year": 2023, "why": "強調擬真戰術程序與致命性的現代作品"}
+    ],
+    "steamTags": [],
+    "compare": [
+      {"with": "boomer-shooter", "diff": "戰術射擊慢節奏、重資訊戰、一槍見血；Boomer Shooter 快節奏、血量爆炸、靠走位與火力硬拚。"},
+      {"with": "hero-shooter", "diff": "戰術射擊角色能力差異小、靠戰術與槍法取勝；英雄射擊靠角色技能組製造差異。"}
+    ],
+    "related": ["fps", "extraction-shooter", "milsim"],
+    "design": "地圖設計決定一切：角度要夠複雜才有戰術深度，但太複雜會讓新手迷路；狙擊點不能讓單一角色壟斷整場節奏。經濟系統（買槍成本、連敗補償）也要細調，否則容易出現「一輸全輸」的雪崩局。",
+    "sources": [
+      {"title": "Wikipedia: Tactical shooter", "url": "https://en.wikipedia.org/wiki/Tactical_shooter", "accessed": "2026-09-17", "note": "定義與特徵"}
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "arena-shooter",
+    "zh": "競技場射擊",
+    "en": "Arena Shooter",
+    "aliases": ["競技場 FPS"],
+    "cat": "genre",
+    "sub": "射擊類型",
+    "short": "大家起點裝備相同、靠場上撿道具與純操作分勝負的快節奏射擊。",
+    "def": "強調純粹操作與快節奏死鬥的射擊子類型，代表作是 1999 年前後的《絕命異次元竟技場》系列與《虛幻競技場》。所有玩家開局裝備完全相同，勝負完全取決於場上撿到的武器、護甲、道具與玩家自身的走位、預判、準度。地圖通常是封閉的多層立體競技場，強調高速移動（火箭跳、衝刺跳）與資源控制（誰控制強力武器刷新點）。2010 年代後隨著英雄射擊與大逃殺崛起而式微，但仍是硬核 FPS 玩家心中的操作天花板類型。",
+    "features": ["開局裝備人人平等", "靠撿地圖道具強化", "強調高速移動與走位", "封閉立體競技場地圖"],
+    "examples": [
+      {"title": "雷神之鎚 III 競技場", "en": "Quake III Arena", "appid": null, "year": 1999, "why": "確立競技場射擊死鬥與資源控制設計語言的代表作"},
+      {"title": "虛幻競技場", "en": "Unreal Tournament", "appid": null, "year": 1999, "why": "與雷神之鎚系列並列的競技場射擊經典"}
+    ],
+    "steamTags": [{"tagid": 5547, "en": "Arena Shooter"}],
+    "compare": [{"with": "hero-shooter", "diff": "競技場射擊人人平等、純靠操作與資源控制；英雄射擊靠角色技能組拉開差異，考驗陣容搭配。"}],
+    "related": ["hero-shooter", "boomer-shooter", "fps"],
+    "design": "純操作向的類型市場已很小眾，開發前要想清楚願不願意接受受眾窄；地圖的道具刷新節奏（強力武器多久刷一次）直接決定整場比賽的節奏起伏，是設計核心。",
+    "tw": "台灣玩家多半直接沿用英文「Arena Shooter」或簡稱「競技場」，較少見固定中文譯名。",
+    "sources": [
+      {"title": "Wikipedia: Arena shooter", "url": "https://en.wikipedia.org/wiki/Arena_shooter", "accessed": "2026-09-17", "note": "定義、歷史與代表作"},
+      {"title": "Steam 標籤頁：Arena Shooter", "url": "https://store.steampowered.com/tags/en/Arena%20Shooter/", "accessed": "2026-09-17", "note": "標籤存在確認"}
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "shmup",
+    "zh": "捲軸射擊（STG）",
+    "en": "Shoot 'Em Up",
+    "aliases": ["Shmup", "STG", "清版射擊"],
+    "cat": "genre",
+    "sub": "射擊類型",
+    "short": "俯視或橫向捲軸、操控飛機或角色閃避彈幕並清除敵人的射擊遊戲。",
+    "def": "日文圈稱 STG，泛指以 2D 俯視或橫向捲軸視角遊玩、玩家操控飛機或角色一邊移動一邊射擊敵人的射擊遊戲。1978 年《太空侵略者》確立這個類型的基本雛型，之後衍生出縱向捲軸（如《雷電》系列）、橫向捲軸等分支。核心樂趣是「用最小的操作空間讀懂並閃過複雜的攻擊模式」，判定通常靠很小的碰撞箱（Hitbox）讓玩家能在密集彈幕中鑽縫求生。彈幕（Bullet Hell）是 shmup 底下彈量特別誇張的一支子類型，並非所有 shmup 都是彈幕。",
+    "features": ["2D 俯視或橫向捲軸", "小碰撞箱、靠鑽縫閃彈", "分數與連段（Score Attack）導向", "常見一命通關等硬核遊玩方式"],
+    "examples": [
+      {"title": "東方紅魔鄉：新典", "en": "Touhou: the Embodiment of Scarlet Devil (Remake)", "appid": 4659620, "year": 2026, "why": "東方 Project 系列縱向捲軸彈幕射擊的重製代表"},
+      {"title": "斑鳩", "en": "Ikaruga", "appid": null, "year": 2001, "why": "以雙色極性切換機制聞名的橫向捲軸射擊經典"}
+    ],
+    "steamTags": [{"tagid": 4255, "en": "Shoot 'Em Up"}],
+    "compare": [
+      {"with": "bullet-hell", "diff": "彈幕是 shmup 底下彈量極端誇張、以躲避為核心挑戰的子類型；一般 shmup 的挑戰更平均分布在射擊、走位、資源管理上，彈量不一定爆炸。"},
+      {"with": "twin-stick-shooter", "diff": "傳統 shmup 通常固定往前移動、射擊方向多半固定；雙搖桿射擊則是移動與瞄準方向各自獨立操控，多為俯視單一房間戰鬥而非捲軸關卡。"}
+    ],
+    "related": ["bullet-hell", "twin-stick-shooter", "rail-shooter"],
+    "design": "碰撞箱要做得比角色貼圖小很多，玩家的生存感全靠這個「隱形判定範圍」；關卡節奏要有明確的張弛（一段猛攻接一段喘息），全程同強度的彈幕會讓玩家疲勞而非緊張。",
+    "origin": "源自 1978 年《太空侵略者》，1980 年代《雷電》系列將縱向捲軸射擊推向主流。",
+    "sources": [
+      {"title": "Wikipedia: Shoot 'em up", "url": "https://en.wikipedia.org/wiki/Shoot_'em_up", "accessed": "2026-09-17", "note": "定義、歷史與分支"},
+      {"title": "Steam 標籤頁：Shoot 'Em Up", "url": "https://store.steampowered.com/tags/en/Shoot%20'Em%20Up/", "accessed": "2026-09-17", "note": "標籤存在確認"}
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "bullet-hell",
+    "zh": "彈幕",
+    "en": "Bullet Hell",
+    "aliases": ["Danmaku", "弾幕（日）", "Manic Shooter"],
+    "cat": "genre",
+    "sub": "射擊類型",
+    "short": "畫面塞滿上百上千發子彈、靠極小判定箱鑽縫閃避的高難度射擊子類。",
+    "def": "Shmup 底下彈量特別誇張的子類型，日文原名「弾幕」（Danmaku）意思就是「彈幕／子彈簾幕」，在日本本土反而是比「Bullet Hell」更常用的說法。畫面上同時可能有數百到上千發子彈，但玩家角色的碰撞判定通常只有貼圖中心一個極小的點（俗稱「小當家」判定），核心挑戰不是打得準而是「看得懂彈幕的形狀規律並鑽出一條生路」。這個子類型 1993 年隨《首领蜂》系列崛起，日本開發商東亜プラン（Toaplan）被視為源頭之一，此後《東方 Project》系列讓「彈幕」與東方迷幾乎畫上等號。",
+    "features": ["畫面同時上百上千發子彈", "判定箱極小、靠鑽縫求生", "彈幕常有幾何規律可讀", "與東方 Project 系列高度連結"],
+    "examples": [
+      {"title": "東方地靈殿", "en": "Touhou: Subterranean Animism", "appid": 1100150, "year": 2020, "why": "東方 Project 系列經典彈幕關卡設計代表"},
+      {"title": "東方風神錄", "en": "Touhou: Mountain of Faith", "appid": 1100140, "year": 2020, "why": "另一款以高密度彈幕聞名的東方本傳"}
+    ],
+    "steamTags": [{"tagid": 4885, "en": "Bullet Hell"}],
+    "compare": [
+      {"with": "shmup", "diff": "彈幕是 shmup 的子類型，特色是彈量極端誇張與小判定箱；不是所有 shmup 都走彈幕路線。"},
+      {"with": "survivors-like", "diff": "彈幕是玩家要「閃過」滿畫面的敵方子彈；Bullet Heaven（吸血鬼倖存者類）則反過來，是玩家自己的攻擊自動打滿畫面、清光大量敵人，兩者子彈量爆炸的方向剛好相反。"}
+    ],
+    "related": ["shmup", "twin-stick-shooter"],
+    "design": "彈幕圖案不能只是「亂灑」，要設計成玩家看得出規律、練得出走位路線的幾何圖形，否則會變成純粹的運氣遊戲；判定箱大小與視覺回饋（彈幕顏色、角色發光範圍）要清楚對應，玩家才知道自己實際的生存空間有多小。",
+    "origin": "1993 年《首领蜂》被視為彈幕類型的起點，東亜プラン是公認的源頭開發商之一。",
+    "sources": [
+      {"title": "Wikipedia: Bullet hell", "url": "https://en.wikipedia.org/wiki/Bullet_hell", "accessed": "2026-09-17", "note": "定義、日文原名與歷史起源"},
+      {"title": "Steam 標籤頁：Bullet Hell", "url": "https://store.steampowered.com/tags/en/Bullet%20Hell/", "accessed": "2026-09-17", "note": "標籤存在確認"}
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "twin-stick-shooter",
+    "zh": "雙搖桿射擊",
+    "en": "Twin Stick Shooter",
+    "aliases": ["雙搖桿", "Dual-Stick Shooter"],
+    "cat": "genre",
+    "sub": "射擊類型",
+    "short": "左搖桿控制移動、右搖桿獨立控制瞄準方向的俯視射擊遊戲。",
+    "def": "俯視角射擊遊戲的一支，特色是移動與瞄準完全分離：左搖桿（或 WASD）控制角色移動方向，右搖桿（或滑鼠）獨立控制瞄準與射擊方向，兩者可以完全不同方向，例如往左跑同時往右開槍。這個操作方式最早出現在 1975 年的街機《決鬥》，1982 年《機器人 2084》讓它成名，但真正在家用主機普及要等到雙類比搖桿手把成為標配之後，2005 年《幾何戰爭》的成功帶動這個類型復興，也成為後來 Roguelite 與吸血鬼倖存者類遊戲常用的底層操作方案。",
+    "features": ["移動與瞄準方向各自獨立", "俯視視角為主", "常見於小房間式戰鬥", "手把雙搖桿為理想輸入裝置"],
+    "examples": [
+      {"title": "挺進地牢", "en": "Enter the Gungeon", "appid": 311690, "year": 2016, "why": "雙搖桿射擊與 Roguelite 房間戰鬥結合的代表作"},
+      {"title": "核子拋投", "en": "Nuclear Throne", "appid": null, "year": 2015, "why": "快節奏雙搖桿射擊 Roguelite 的知名作品"}
+    ],
+    "steamTags": [{"tagid": 4758, "en": "Twin Stick Shooter"}],
+    "compare": [{"with": "shmup", "diff": "雙搖桿射擊移動與瞄準方向各自獨立、常在封閉房間內戰鬥；shmup 多半沿固定捲軸方向前進，射擊方向較受限。"}],
+    "related": ["bullet-hell", "shmup"],
+    "design": "移動與瞄準分離會提高操作門檻，教學階段要讓玩家先熟悉「邊跑邊打」這個反直覺動作；用手把雙類比搖桿體驗最佳，若主打滑鼠鍵盤要另外調整瞄準靈敏度與自動瞄準輔助的比例。",
+    "origin": "1975 年街機《決鬥》首次使用雙搖桿操作，1982 年《機器人 2084》使其成名，2005 年《幾何戰爭：復古進化》帶動類型復興。",
+    "sources": [
+      {"title": "Wikipedia: Twin-stick shooter", "url": "https://en.wikipedia.org/wiki/Twin-stick_shooter", "accessed": "2026-09-17", "note": "定義與歷史"},
+      {"title": "Steam 標籤頁：Twin Stick Shooter", "url": "https://store.steampowered.com/tags/en/Twin%20Stick%20Shooter/", "accessed": "2026-09-17", "note": "標籤存在確認"}
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "rail-shooter",
+    "zh": "軌道射擊",
+    "en": "Rail Shooter",
+    "aliases": ["On-Rails Shooter", "光線槍射擊"],
+    "cat": "genre",
+    "sub": "射擊類型",
+    "short": "角色移動路徑固定、玩家只負責瞄準射擊的射擊遊戲。",
+    "def": "玩家角色的移動路徑被鎖死在一條固定軌道上，就像遊樂園的軌道式遊具一樣只能往前走、無法自由探索，玩家唯一要做的是瞄準、射擊、閃避傷害。這個類型源自 1985 年世嘉的《太空哈里爾》與 1987 年《雷電神跡》等街機作品，1993 年任天堂《星際火狐》把它帶進 3D 並發揚光大。因為玩家不用煩惱移動，軌道射擊很適合搭配光線槍等特殊周邊，也是早期 VR 射擊遊戲最常見的入門形式，因為固定路徑能有效降低暈眩感。",
+    "features": ["移動路徑完全固定", "玩家只需瞄準與射擊", "常搭配光線槍等周邊", "適合作 VR 入門形式"],
+    "examples": [
+      {"title": "死亡復甦之屋：重製版", "en": "The House of the Dead: Remake", "appid": 1694600, "year": 2022, "why": "經典街機光線槍軌道射擊的重製代表"},
+      {"title": "死亡復甦之屋 2：重製版", "en": "The House of the Dead 2: Remake", "appid": 3376690, "year": 2025, "why": "系列延續作，維持固定路徑清怪的核心遊玩方式"}
+    ],
+    "steamTags": [{"tagid": 56690, "en": "On-Rails Shooter"}],
+    "compare": [{"with": "fps", "diff": "軌道射擊的移動路徑完全固定、玩家只管瞄準；FPS 移動與瞄準都由玩家自由控制，空間感需求高很多。"}],
+    "related": ["fps", "vr-game"],
+    "design": "路徑設計就是關卡設計的全部，敵人與障礙物出現的時機、角度要跟固定的攝影機運鏡精確對齊；因為玩家無法用移動迴避危險，難度曲線全靠敵人數量與攻擊節奏拿捏，容易一不小心就變成無腦點擊。",
+    "origin": "1985 年《太空哈里爾》與 1987 年《雷電神跡》開創街機軌道射擊，1993 年《星際火狐》將其推向 3D 化與家用主機主流。",
+    "sources": [
+      {"title": "Wikipedia: Rail shooter", "url": "https://en.wikipedia.org/wiki/Rail_shooter", "accessed": "2026-09-17", "note": "定義與歷史"},
+      {"title": "Steam 標籤頁：On-Rails Shooter", "url": "https://store.steampowered.com/tags/en/On-Rails%20Shooter/", "accessed": "2026-09-17", "note": "標籤存在確認"}
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "boomer-shooter",
+    "zh": "老式射擊（Boomer Shooter）",
+    "en": "Boomer Shooter",
+    "aliases": ["Retro FPS", "復古射擊"],
+    "cat": "genre",
+    "sub": "射擊類型",
+    "short": "致敬 1990 年代快節奏 FPS、地上撿血包不自動回血的現代復古射擊。",
+    "def": "致敬 1990 年代《德軍總部 3D》《毀滅戰士》《雷神之鎚》等經典 FPS 的現代作品，特色是極快的移動速度、大量敵人同屏、多樣化的武器庫、迷宮式關卡設計，以及地上撿血包和護甲而非現代射擊遊戲常見的自動回血。「Boomer」這個詞其實不是字面上的「嬰兒潮世代」，而是網路用語裡「老派、過時」的調侃，據開發者 Dave Oshry 說法，這個稱呼在 2018 年《暗黑》推出後由玩家社群自然發展出來。這個類型與慢節奏、重資訊戰的戰術射擊幾乎是光譜的兩個極端。",
+    "features": ["移動速度極快", "地上撿血包護甲、無自動回血", "迷宮式關卡設計", "刻意復古的美術與音效"],
+    "examples": [
+      {"title": "ULTRAKILL", "en": "ULTRAKILL", "appid": 1229490, "year": 2020, "why": "把 Boomer Shooter 快節奏推到極限並加入評分系統的代表作"},
+      {"title": "暗黑", "en": "DUSK", "appid": null, "year": 2018, "why": "帶動「Boomer Shooter」一詞誕生的關鍵作品"}
+    ],
+    "steamTags": [{"tagid": 1023537, "en": "Boomer Shooter"}],
+    "compare": [{"with": "tactical-shooter", "diff": "Boomer Shooter 快節奏、血量爆炸、靠走位與火力硬拚；戰術射擊慢節奏、一槍見血、靠資訊戰取勝，兩者幾乎是對立光譜。"}],
+    "related": ["fps", "arena-shooter"],
+    "design": "手感（Game Feel）是這類遊戲的命脈：移動慣性與加速感、武器切換流暢度、擊中反饋的視覺與聽覺回饋，任何一項做得不夠紮實整體評價就會崩盤；關卡要留給玩家足夠的迂迴空間，否則快節奏會變成硬撞牆。",
+    "origin": "詞彙據信在 2018 年《DUSK》發售後由玩家社群發展成形，genre 本身則可追溯到 1992～1996 年 id Software 的《德軍總部 3D》與《毀滅戰士》系列。",
+    "sources": [
+      {"title": "Inverse: Boomer Shooter meaning and origin", "url": "https://www.inverse.com/gaming/boomer-shooter-definition-origin", "accessed": "2026-09-17", "note": "詞彙來源與定義"},
+      {"title": "Steam 標籤頁：Boomer Shooter", "url": "https://store.steampowered.com/tags/en/Boomer%20Shooter/", "accessed": "2026-09-17", "note": "標籤存在確認"}
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "extraction-shooter",
+    "zh": "撤離射擊",
+    "en": "Extraction Shooter",
+    "aliases": ["Extraction Looter Shooter"],
+    "cat": "genre",
+    "sub": "射擊類型",
+    "short": "帶裝備進場搜刮戰利品，活著撤離才保得住戰果的高風險射擊。",
+    "def": "玩家帶著自己的裝備進入地圖，在地圖中搜刮戰利品與物資，必須在時限內走到指定撤離點並成功離開才能保留所有戰果；若在撤離前死亡，不僅會失去搜刮到的東西，連自己帶進去的裝備也全部沒收。這種「PvPvE」（玩家對玩家、也對環境）加上「一無所有到滿載而歸」的風險結構，讓每一次開門、每一個腳步聲都極度緊張。這個遊玩方式在戰術射擊的基礎上疊加經濟系統，2017 年前後《逃離塔科夫》讓這個子類型正式成型並帶起一波跟風潮。",
+    "features": ["帶自身裝備進場、死亡全損", "限時搜刮＋指定點撤離", "PvPvE 混合威脅", "戰利品經濟系統決定手感"],
+    "examples": [
+      {"title": "逃離塔科夫", "en": "Escape from Tarkov", "appid": 3932890, "year": 2025, "why": "確立撤離射擊高風險高報酬設計語言的開創作品"},
+      {"title": "Dark and Darker", "en": "Dark and Darker", "appid": 2016590, "year": 2024, "why": "把撤離遊玩方式嫁接到奇幻地城題材的成功案例"}
+    ],
+    "steamTags": [{"tagid": 1199779, "en": "Extraction Shooter"}],
+    "compare": [{"with": "battle-royale", "diff": "撤離射擊帶自己的裝備進場、死亡會永久失去裝備，重點在風險管理；大逃殺開局身無寸鐵、靠縮圈強迫交戰，重點在最後存活。"}],
+    "related": ["tactical-shooter", "battle-royale", "looter-shooter"],
+    "design": "經濟系統是命脈：裝備的價值感、戰利品的稀有度、失去裝備的痛感三者要精心平衡。頂級裝備太容易拿到就不心疼失去，太難拿到玩家就不敢真的帶出門用，這個拿捏比戰鬥手感本身更關鍵。",
+    "sources": [
+      {"title": "Wikipedia: Extraction shooter", "url": "https://en.wikipedia.org/wiki/Extraction_shooter", "accessed": "2026-09-17", "note": "定義、代表作與 PvPvE 機制"},
+      {"title": "Steam 標籤頁：Extraction Shooter", "url": "https://store.steampowered.com/tags/en/Extraction%20Shooter/", "accessed": "2026-09-17", "note": "標籤存在確認"}
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "battle-royale",
+    "zh": "大逃殺",
+    "en": "Battle Royale",
+    "aliases": ["吃雞"],
+    "cat": "genre",
+    "sub": "射擊類型",
+    "short": "數十到上百名玩家在不斷縮小的地圖裡搶到最後存活。",
+    "def": "大量玩家（通常 60 至 100 人）同時投入一張會持續縮小的地圖，開局身無寸鐵，必須在地圖中搜刮武器與物資，最後存活的玩家或隊伍獲勝。核心機制包括跳傘選點決定起始位置、開局白手起家的裝備搜刮、俗稱「毒圈」或「縮圈」的安全區域縮減（圈外會持續掉血，強迫所有人往中心靠攏）。這個類型混合了大逃殺式「一局定生死」的緊張感與生存遊戲的搜刮探索元素，自 2017 年《絕地求生》爆紅後至今仍是射擊遊戲最主流的商業模式之一。",
+    "features": ["大量玩家同場、開局白手起家", "縮圈強迫交戰", "一局定生死、沒有重生", "地圖搜刮驅動節奏"],
+    "examples": [
+      {"title": "絕地求生", "en": "PUBG: BATTLEGROUNDS", "appid": 578080, "year": 2017, "why": "帶動整個大逃殺類型爆發的開創作品"},
+      {"title": "Apex 英雄", "en": "Apex Legends", "appid": 1172470, "year": 2020, "why": "把英雄射擊技能組嫁接進大逃殺框架的成功案例"}
+    ],
+    "steamTags": [{"tagid": 176981, "en": "Battle Royale"}],
+    "compare": [{"with": "extraction-shooter", "diff": "大逃殺開局身無寸鐵、靠縮圈逼玩家互相交戰、一局定輸贏；撤離射擊玩家帶自己的裝備進場，死亡才會全損，重點在風險管理而非單純存活到最後。"}],
+    "related": ["extraction-shooter", "hero-shooter"],
+    "design": "節奏比例要拿捏好：前期搜裝時間太長會無聊，後期縮圈太快又容易變成混亂運氣局；縮圈速度、掉血量、地圖資源密度三者要一起調，光改其中一項容易讓整體節奏跑掉。",
+    "origin": "詞彙源自 2000 年日本電影《大逃殺》，2017 年《絕地求生》讓這個遊玩方式正式成為獨立商業類型。",
+    "sources": [
+      {"title": "Wikipedia: Battle royale game", "url": "https://en.wikipedia.org/wiki/Battle_royale_game", "accessed": "2026-09-17", "note": "定義與機制"},
+      {"title": "Steam 標籤頁：Battle Royale", "url": "https://store.steampowered.com/tags/en/Battle%20Royale/", "accessed": "2026-09-17", "note": "標籤存在確認"}
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "rhythm-game",
+    "zh": "節奏遊戲",
+    "en": "Rhythm Game",
+    "aliases": ["音樂遊戲", "Rhythm Action"],
+    "cat": "genre",
+    "sub": "音樂與敘事",
+    "short": "配合音樂節拍精準輸入指令、考驗玩家節奏感的遊戲類型。",
+    "def": "以音樂為核心、挑戰玩家節奏感的動作遊戲類型，玩家需要在正確的時間點按下對應按鍵、敲擊或揮動控制器來配合音樂節拍。判定通常分成「完美／很好／好／錯過」等多個等級，追求全程「完美」（All Perfect）是高手的終極目標。近年 VR 節奏遊戲把這個類型帶上新高峰，讓「打節奏」變成一種結合體感的健身活動。輸入延遲的容忍度極低，毫秒等級的延遲落差就足以毀掉整體手感，因此提供延遲校準功能幾乎是這類遊戲的標配。",
+    "features": ["配合音樂節拍精準輸入", "多段判定等級（Perfect 起跳）", "延遲極度敏感", "常見延遲校準功能"],
+    "examples": [
+      {"title": "節奏光劍", "en": "Beat Saber", "appid": 620980, "year": 2019, "why": "VR 節奏遊戲把體感與音樂節奏結合的代表作"},
+      {"title": "太鼓之達人 咚咚雷音祭", "en": "Taiko no Tatsujin: Rhythm Festival", "appid": 2288630, "year": 2024, "why": "街機節奏遊戲長青系列的 PC 版本"}
+    ],
+    "steamTags": [{"tagid": 1752, "en": "Rhythm"}],
+    "compare": [],
+    "related": [],
+    "design": "輸入延遲是這類遊戲的生死線，音訊與畫面輸出的同步要精準到毫秒級；判定寬容度的設計要照顧到入門玩家（避免一開始就被全錯過打退），同時保留給高手追求極限精準的空間。",
+    "sources": [
+      {"title": "Wikipedia: Rhythm game", "url": "https://en.wikipedia.org/wiki/Rhythm_game", "accessed": "2026-09-17", "note": "定義與判定機制"},
+      {"title": "Steam 標籤頁：Rhythm", "url": "https://store.steampowered.com/tags/en/Rhythm/", "accessed": "2026-09-17", "note": "標籤存在確認"}
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "visual-novel",
+    "zh": "視覺小說",
+    "en": "Visual Novel",
+    "aliases": ["VN", "AVG（日式用法）"],
+    "cat": "genre",
+    "sub": "音樂與敘事",
+    "short": "以文字敘事為核心、搭配角色立繪與背景圖，遊玩方式接近「閱讀」的遊戲。",
+    "def": "源自日本、以文字敘事為核心的遊戲類型，畫面主要是角色立繪加背景圖配上對話框，玩家的操作幾乎只有點擊繼續閱讀，偶爾在分歧點做選擇。依有無選擇分支又細分成沒有分支的 Kinetic Novel（純敘事小說）與分支豐富的 Branching VN。視覺小說在日本是成熟市場，技術門檻是所有遊戲類型裡最低的（有 Ren'Py 等免費引擎），因此也是很多獨立創作者練習敘事設計的入門起點，但正因為門檻低，市場拚的不是技術而是「故事本身夠不夠好」。",
+    "features": ["立繪加背景圖為主要畫面", "遊玩方式核心是閱讀與選擇", "分支結局常見", "開發技術門檻低"],
+    "examples": [
+      {"title": "STEINS;GATE", "en": "STEINS;GATE", "appid": 412830, "year": 2016, "why": "科幻視覺小說裡劇情深度與分支設計的標竿之作"},
+      {"title": "逆轉裁判456 王泥喜精選集", "en": "Apollo Justice: Ace Attorney Trilogy", "appid": 2187220, "year": 2024, "why": "把視覺小說敘事包裝成推理法庭攻防的知名系列"},
+      {"title": "AI：夢境檔案 涅槃肇始", "en": "AI: THE SOMNIUM FILES - nirvanA Initiative", "appid": 1449200, "year": 2022, "why": "融合推理解謎與多視角敘事的近代視覺小說代表"}
+    ],
+    "steamTags": [{"tagid": 3799, "en": "Visual Novel"}],
+    "compare": [{"with": "point-and-click", "diff": "視覺小說幾乎沒有場景互動、遊玩方式是閱讀與選擇；點擊冒險保留場景探索、物品收集與解謎，互動性明顯更高。"}],
+    "related": ["dating-sim", "otome"],
+    "design": "門檻低不代表容易成功，市場競爭的核心永遠是故事品質；分支結構設計要及早規劃（用流程圖畫出所有分歧點與結局），到後期才補分支很容易讓劇本邏輯打結。",
+    "sources": [
+      {"title": "Wikipedia: Visual novel", "url": "https://en.wikipedia.org/wiki/Visual_novel", "accessed": "2026-09-17", "note": "定義與類型特徵"},
+      {"title": "Steam 標籤頁：Visual Novel", "url": "https://store.steampowered.com/tags/en/Visual%20Novel/", "accessed": "2026-09-17", "note": "標籤存在確認"}
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "tower-defense",
+    "zh": "塔防",
+    "en": "Tower Defense",
+    "aliases": ["TD"],
+    "cat": "genre",
+    "sub": "策略與戰棋",
+    "short": "在敵人必經路徑沿線蓋防禦塔、擋下一波波敵人的策略類型。",
+    "def": "玩家在預設路徑沿線建造防禦塔，目標是阻止一波波敵人抵達終點或摧毀玩家的基地／據點。每一波敵人之間通常有準備時間，讓玩家規劃新塔位、升級舊塔、調整策略。變體包括敵人會自己找路的非路徑式塔防、結合 RPG 練等元素的塔防、玩家自己也能下場戰鬥的塔防等。核心數值是「單位時間輸出」與「敵人血量成長曲線」的拉鋸，好的塔防要讓玩家全程覺得「差一點點就要輸了」。",
+    "features": ["沿固定路徑佈置防禦塔", "波次間有準備時間", "塔可升級或組合搭配", "輸出與敵人血量拉鋸平衡"],
+    "examples": [
+      {"title": "王國保衛戰", "en": "Kingdom Rush", "appid": 246420, "year": 2014, "why": "手機到 PC 都長銷的經典塔防代表"},
+      {"title": "植物大戰殭屍 年度版", "en": "Plants vs. Zombies GOTY Edition", "appid": 3590, "year": 2009, "why": "把塔防包裝成輕鬆詼諧題材、大眾化的成功案例"}
+    ],
+    "steamTags": [{"tagid": 1645, "en": "Tower Defense"}],
+    "compare": [{"with": "base-building", "diff": "塔防的核心是佈置固定防禦塔擋路徑上的敵人，玩家不直接操控單位；基地建設更著重整體據點的建造與資源循環，防禦只是其中一環。"}],
+    "related": ["rts", "base-building"],
+    "design": "波次節奏要有高低起伏，不能每波難度都一樣，否則玩家會失去緊張感；平衡性上「太寬鬆沒挑戰、太嚴苛太挫折」的分寸要靠大量playtest 微調，光靠公式試算很難一次到位。",
+    "sources": [
+      {"title": "Wikipedia: Tower defense", "url": "https://en.wikipedia.org/wiki/Tower_defense", "accessed": "2026-09-17", "note": "定義與核心機制"},
+      {"title": "Steam 標籤頁：Tower Defense", "url": "https://store.steampowered.com/tags/en/Tower%20Defense/", "accessed": "2026-09-17", "note": "標籤存在確認"}
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "4x",
+    "zh": "4X",
+    "en": "4X",
+    "aliases": ["探索擴張開發殲滅"],
+    "cat": "genre",
+    "sub": "策略與戰棋",
+    "short": "探索、擴張、開發、殲滅四大核心遊玩方式組成的長時間策略類型。",
+    "def": "名稱來自 eXplore（探索）、eXpand（擴張）、eXploit（開發）、eXterminate（殲滅）四個核心遊玩方式階段，代表作是《文明》系列與《群星》。玩家從一小塊起始領土出發，逐步探索地圖、建立新據點擴張版圖、開發資源與科技、最終透過軍事或其他勝利條件擊敗對手。與大戰略相比，4X 更強調「經營一個文明從無到有」的成長曲線與多重勝利路徑（科技、文化、征服等），而不是聚焦在單一國家在特定時代的外交軍事博弈。一局動輒玩上一整晚，是黏著度極高的長時間策略類型。",
+    "features": ["探索、擴張、開發、殲滅四階段", "多重勝利條件（科技／文化／征服）", "回合制為主流", "一局可玩數十小時"],
+    "examples": [
+      {"title": "席德・梅爾的文明帝國 VI", "en": "Sid Meier's Civilization VI", "appid": 289070, "year": 2016, "why": "4X 類型最具代表性的長青系列"},
+      {"title": "群星", "en": "Stellaris", "appid": 281990, "year": 2016, "why": "把 4X 架構搬到太空科幻題材的成功案例"}
+    ],
+    "steamTags": [{"tagid": 1670, "en": "4X"}],
+    "compare": [{"with": "grand-strategy", "diff": "4X 圍繞探索、擴張、開發、殲滅四階段與多重勝利條件，通常從零開始建立文明；大戰略聚焦在特定歷史時期既有國家的外交、經濟、軍事全方位運作，勝利條件較模糊，更看重「扮演好這個國家」本身。"}],
+    "related": ["grand-strategy", "turn-based-strategy", "city-builder"],
+    "design": "學習曲線通常陡峭（UI 上幾十個按鈕、十幾種資源），入門門檻與硬派深度之間要做取捨；後期回合因為單位與城市數量暴增常出現「操作疲勞」，需要自動化助手或 AI 代管系統來緩解。",
+    "sources": [
+      {"title": "Wikipedia: 4X", "url": "https://en.wikipedia.org/wiki/4X", "accessed": "2026-09-17", "note": "定義與四階段拆解"},
+      {"title": "Steam 標籤頁：4X", "url": "https://store.steampowered.com/tags/en/4X/", "accessed": "2026-09-17", "note": "標籤存在確認"}
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "grand-strategy",
+    "zh": "大戰略",
+    "en": "Grand Strategy",
+    "aliases": ["Grand Strategy Game", "GSG", "P 社策略"],
+    "cat": "genre",
+    "sub": "策略與戰棋",
+    "short": "模擬整個國家在數百年尺度上運作外交、經濟、軍事的策略類型。",
+    "def": "模擬整個國家或文明在長時間尺度（往往橫跨數百年）上如何運作的策略遊戲，涵蓋外交、經濟、宗教、軍事、科技等全方位決策，以 Paradox Interactive（P 社）的系列作為代表。與一般戰略遊戲不同的是，大戰略把「國家等級的資源運用」本身當作策略核心，例如宣戰理由、盟約網絡、繼承制度、貿易路線等擬真歷史機制。一局同樣是玩上一整晚的長時間類型，學習曲線陡峭但黏著度極高，P 社常用大量 DLC 讓系統隨時間逐步疊加深度。",
+    "features": ["國家等級的全方位決策", "橫跨數百年時間尺度", "外交、宗教、經濟系統擬真", "常搭配長期 DLC 疊加深度"],
+    "examples": [
+      {"title": "十字軍之王 III", "en": "Crusader Kings III", "appid": 1158310, "year": 2020, "why": "以封建家族與角色扮演為核心的大戰略代表"},
+      {"title": "維多利亞 3", "en": "Victoria 3", "appid": 529340, "year": 2022, "why": "強調工業化與經濟政治博弈的大戰略作品"},
+      {"title": "歐陸風雲 IV", "en": "Europa Universalis IV", "appid": 236850, "year": 2013, "why": "大航海到近代歐洲版圖擴張的長青代表"}
+    ],
+    "steamTags": [{"tagid": 4364, "en": "Grand Strategy"}],
+    "compare": [
+      {"with": "4x", "diff": "大戰略聚焦既有國家在特定歷史時期的全方位運作，勝利條件模糊；4X 更強調從零開始探索擴張、有明確多重勝利路徑。"},
+      {"with": "wargame", "diff": "大戰略涵蓋外交、經濟、宗教等國家全方位決策；戰爭遊戲聚焦軍事層面的戰略或戰術對抗，較少涉及內政與外交系統。"}
+    ],
+    "related": ["4x", "wargame", "turn-based-strategy"],
+    "design": "入門門檻是最大挑戰：要不要簡化系統來吸引新玩家？過度簡化會流失硬派玩家，過於複雜又會嚇跑新手。多數大戰略遊戲用「先開基礎版、再靠 DLC 逐步疊加系統」的方式化解這個兩難。",
+    "sources": [
+      {"title": "Wikipedia: Grand strategy wargame", "url": "https://en.wikipedia.org/wiki/Grand_strategy_wargame", "accessed": "2026-09-17", "note": "定義"},
+      {"title": "Steam 標籤頁：Grand Strategy", "url": "https://store.steampowered.com/tags/en/Grand%20Strategy/", "accessed": "2026-09-17", "note": "標籤存在確認"}
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "tycoon",
+    "zh": "模擬經營",
+    "en": "Tycoon / Management Sim",
+    "aliases": ["Tycoon Game", "經營遊戲"],
+    "cat": "genre",
+    "sub": "經營與建造模擬",
+    "short": "扮演管理者建造並經營某種事業，處理財務員工顧客的模擬類型。",
+    "def": "玩家扮演管理者，建造並經營某種事業（主題樂園、醫院、動物園、餐廳等），需要處理財務、員工、顧客、設施等多層面的挑戰。核心樂趣是「把一個亂七八糟的系統整理到順暢運作」的成就感，屬於「建造與管理模擬」（Construction and Management Simulation）大類下商業取向的一支，1990 年《鐵路大亨》與 1999 年《過山車大亨》確立了「Tycoon」這個名稱與商業模擬的基本遊玩方式框架。與純沙盒的差別在於：經營遊戲有明確的數值目標（利潤、滿意度等），沙盒則完全讓玩家自訂目標。",
+    "features": ["明確的財務與滿意度目標", "多層面資源與人力管理", "持續冒出新問題的「打地鼠」節奏", "建造與數值調校並重"],
+    "examples": [
+      {"title": "雙點醫院", "en": "Two Point Hospital", "appid": 535930, "year": 2018, "why": "把經營模擬與幽默題材結合的現代代表作"},
+      {"title": "動物園大亨：終極動物合輯", "en": "Zoo Tycoon: Ultimate Animal Collection", "appid": 613880, "year": 2018, "why": "動物園經營題材的長青系列"}
+    ],
+    "steamTags": [{"tagid": 12472, "en": "Management"}],
+    "compare": [{"with": "city-builder", "diff": "模擬經營聚焦單一事業體（樂園、醫院、餐廳）的財務與顧客管理；城市營造管理的是整座城市的區域規劃與公共建設，範疇大很多。"}],
+    "related": ["city-builder", "colony-sim"],
+    "design": "平衡的關鍵是「總是有新問題」：玩家剛解決財務困境，員工就開始抗議；調好員工，顧客又不滿意。這種持續冒出新麻煩的節奏是黏著度的核心，但要注意問題別疊加到讓玩家喘不過氣。",
+    "origin": "1990 年《鐵路大亨》與 1994 年《運輸大亨》奠基，1999 年《過山車大亨》讓「Tycoon」正式成為類型代名詞。",
+    "sources": [
+      {"title": "Wikipedia: Construction and management simulation", "url": "https://en.wikipedia.org/wiki/Construction_and_management_simulation", "accessed": "2026-09-17", "note": "定義與 Tycoon 分支歷史"},
+      {"title": "Steam 標籤頁：Management", "url": "https://store.steampowered.com/tags/en/Management/", "accessed": "2026-09-17", "note": "標籤存在確認"}
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "moba",
+    "zh": "多人線上戰鬥競技場（MOBA）",
+    "en": "Multiplayer Online Battle Arena",
+    "aliases": ["MOBA", "戰鬥競技場"],
+    "cat": "genre",
+    "sub": "團隊競技",
+    "short": "兩隊各五人各控一名英雄、摧毀對方基地的團隊競技類型。",
+    "def": "兩隊各 5 人的團隊競技類型，每人控制一名英雄，目標是摧毀對方基地。地圖通常是三條路加野區的對稱結構，每局從零開始，透過擊殺小兵、英雄、野怪累積金錢與經驗購買裝備、升級技能。策略深度來自三個層次：英雄組合的陣容搭配、對線操作的補兵與換血、團隊宏觀的資源分配與團戰時機。源自《魔獸爭霸 3》玩家自製地圖 DotA，獨立成類型後成為全球最大電競類別之一。",
+    "features": ["兩隊各五人、各控一英雄", "三路加野區對稱地圖", "每局裝備等級歸零重來", "英雄、對線、團隊宏觀三層策略"],
+    "examples": [
+      {"title": "Dota 2", "en": "Dota 2", "appid": 570, "year": 2013, "why": "MOBA 類型源頭 DotA 的官方續作與電競指標賽事主場"},
+      {"title": "英雄聯盟", "en": "League of Legends", "appid": null, "year": 2009, "why": "全球玩家基數最大的 MOBA，未在 Steam 上架"}
+    ],
+    "steamTags": [{"tagid": 1718, "en": "MOBA"}],
+    "compare": [{"with": "auto-battler", "diff": "MOBA 玩家直接操控英雄即時對戰、考驗操作與團隊配合；自走棋只負責賽前佈陣，戰鬥自動進行，考驗的是陣容組合與經濟決策而非手上操作。"}],
+    "related": ["auto-battler", "hero-shooter"],
+    "design": "最大挑戰是英雄平衡與學習曲線：要有上百位英雄維持新鮮感，又要每一位都有可玩性；要讓高手能鑽研深度，又不能讓新手完全看不懂。自走棋可視為 MOBA 學習曲線太陡峭催生出的「輕量版」。",
+    "origin": "源自 2003 年《魔獸爭霸 III》玩家自製地圖 DotA（Defense of the Ancients）。",
+    "sources": [
+      {"title": "Wikipedia: Multiplayer online battle arena", "url": "https://en.wikipedia.org/wiki/Multiplayer_online_battle_arena", "accessed": "2026-09-17", "note": "定義與起源"},
+      {"title": "Steam 標籤頁：MOBA", "url": "https://store.steampowered.com/tags/en/MOBA/", "accessed": "2026-09-17", "note": "標籤存在確認"}
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "deckbuilder",
+    "zh": "牌組構築",
+    "en": "Deckbuilder / Deckbuilding",
+    "aliases": ["Deckbuilding Game"],
+    "cat": "genre",
+    "sub": "牌卡與棋盤",
+    "short": "遊戲過程中一張一張即時組裝自己牌組、而非賽前組好牌的卡牌類型。",
+    "def": "遊戲過程中逐步構築自己牌組的類型，每張牌代表一個動作或效果。與傳統集換式卡牌遊戲（TCG）最大的差異在於：TCG 是賽前就組好牌組帶入對局，牌組構築則是邊玩邊在對局中一張一張組裝——每次戰鬥或事件後獲得新卡，也能花資源移除不需要的牌來精簡牌組。這個機制源自 2008 年桌遊《皇輿爭霸》（Dominion），2019 年電玩《殺戮尖塔》證明這個機制與 Roguelite 結合後的巨大潛力，帶起數位牌組構築遊戲的爆發潮。",
+    "features": ["對局中邊玩邊組牌", "獲得新卡＋移除舊卡雙向調整", "卡牌協同效應為樂趣核心", "常與 Roguelite 結合"],
+    "examples": [
+      {"title": "殺戮尖塔", "en": "Slay the Spire", "appid": 646570, "year": 2019, "why": "確立牌組構築與 Roguelite 結合設計語言的開創作品"},
+      {"title": "巴拉特羅", "en": "Balatro", "appid": 2379780, "year": 2024, "why": "把牌組構築嫁接到撲克牌型的爆款新作"}
+    ],
+    "steamTags": [{"tagid": 32322, "en": "Deckbuilding"}],
+    "compare": [
+      {"with": "roguelike-deckbuilder", "diff": "牌組構築是描述「邊玩邊組牌」這個機制本身，不限定要有永久死亡或程序生成；類 Rogue 牌組製作特指把這個機制放進 Roguelike／Roguelite 框架（局內構築、死亡重來）的作品，兩者是機制與子類型的關係。"},
+      {"with": "card-game", "diff": "牌組構築的牌組是在對局進行中逐步組裝；一般卡牌遊戲（含 TCG／CCG）通常是賽前就組好固定牌組再進場對戰。"}
+    ],
+    "related": ["roguelike-deckbuilder", "card-game", "auto-battler"],
+    "design": "樂趣核心在「組合發現」：卡牌之間要有足夠協同效應，讓玩家自己摸索出「這兩張牌搭在一起會爆炸」的驚喜時刻；卡池要留意詞綴複雜度，太多例外規則會讓新手難以評估每張牌的價值。",
+    "origin": "機制源自 2008 年 Donald X. Vaccarino 設計的桌遊《皇輿爭霸》（Dominion）。",
+    "sources": [
+      {"title": "Wikipedia: Deck-building game", "url": "https://en.wikipedia.org/wiki/Deck-building_game", "accessed": "2026-09-17", "note": "定義與桌遊起源"},
+      {"title": "Steam 標籤頁：Deckbuilding", "url": "https://store.steampowered.com/tags/en/Deckbuilding/", "accessed": "2026-09-17", "note": "標籤存在確認"}
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "auto-battler",
+    "zh": "自走棋",
+    "en": "Auto Battler / Auto Chess",
+    "aliases": ["Auto Chess"],
+    "cat": "genre",
+    "sub": "牌卡與棋盤",
+    "short": "玩家佈置棋子後戰鬥自動進行、無法手動操作的策略類型。",
+    "def": "玩家購買並佈置棋子（角色）於棋盤上，戰鬥階段完全自動進行，玩家無法操控。策略核心在於陣容組合（哪些角色搭配能觸發羈絆加成）、經濟管理（何時存錢賺利息、何時花錢升級或刷新商店）、站位佈局（前後排位置影響生存與輸出）。源自 2019 年《Dota 自走棋》這個玩家自製模組，後來獨立為完整類型，多人同場類似大逃殺賽制，每輪淘汰最弱的玩家直到剩下最後一人。",
+    "features": ["賽前佈陣、戰鬥自動進行", "陣容羈絆組合為策略核心", "經濟管理（存錢／升級／刷新）", "多人同場、逐輪淘汰"],
+    "examples": [
+      {"title": "傳說與戰術自走棋", "appid": 1652250, "year": 2024, "why": "近年上架於 Steam 的自走棋類作品，延續佈陣與羈絆核心機制"},
+      {"title": "Dota Underlords", "en": "Dota Underlords", "appid": null, "year": 2019, "why": "Valve 官方推出、把自走棋類型商業化的重要作品"}
+    ],
+    "steamTags": [{"tagid": 1084988, "en": "Auto Battler"}],
+    "compare": [
+      {"with": "moba", "diff": "自走棋只需賽前佈陣、戰鬥自動進行，考驗經濟與陣容決策；MOBA 玩家全程即時操控英雄，考驗操作與團隊配合。自走棋常被視為 MOBA 學習曲線太陡峭催生出的輕量版。"},
+      {"with": "deckbuilder", "diff": "自走棋佈置的是棋盤上的角色單位，戰鬥自動進行；牌組構築操作的是卡牌與資源，戰鬥多半仍需玩家逐回合下決策。"}
+    ],
+    "related": ["moba", "deckbuilder"],
+    "design": "核心樂趣是經濟決策：連勝連敗機制是關鍵設計，連勝給額外獎勵金讓強者更強、連敗則讓弱者優先選秀追趕，形成動態平衡，這個張力沒設計好整個類型就會失去魅力。",
+    "origin": "源自 2019 年《Dota 自走棋》（Dota Auto Chess）這款玩家自製《Dota 2》模組。",
+    "sources": [
+      {"title": "Wikipedia: Auto battler", "url": "https://en.wikipedia.org/wiki/Auto_battler", "accessed": "2026-09-17", "note": "定義與起源"},
+      {"title": "Steam 標籤頁：Auto Battler", "url": "https://store.steampowered.com/tags/en/Auto%20Battler/", "accessed": "2026-09-17", "note": "標籤存在確認"}
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "factory-builder",
+    "zh": "工廠建造",
+    "en": "Factory Builder / Automation Game",
+    "aliases": ["自動化遊戲", "Automation Game"],
+    "cat": "genre",
+    "sub": "經營與建造模擬",
+    "short": "設計並建造自動化生產線、把原料一路加工成成品的類型。",
+    "def": "玩家設計並建造自動化生產線，將原料透過一連串加工步驟（採礦、冶煉、組裝、包裝等）製成成品。遊戲樂趣在於優化產線效率、消除瓶頸、解決物流問題（輸送帶怎麼配置才不會塞車）、不斷擴展規模。這類遊戲被戲稱為「工程師的遊戲」，因為核心遊玩非常接近實際的系統設計與最佳化思維，玩家常常會為了省下 0.1% 的產能而重新設計整條產線。",
+    "features": ["設計自動化生產鏈", "物流與瓶頸最佳化為核心樂趣", "規模持續擴張", "系統設計思維導向"],
+    "examples": [
+      {"title": "異星工廠", "en": "Factorio", "appid": 427520, "year": 2020, "why": "確立工廠建造類型設計語言的代表作，平均遊戲時數以百小時計"},
+      {"title": "戴森球計劃", "en": "Dyson Sphere Program", "appid": 1366540, "year": 2021, "why": "把工廠建造規模拉到星際尺度的成功案例"}
+    ],
+    "steamTags": [{"tagid": 255534, "en": "Automation"}],
+    "compare": [{"with": "colony-sim", "diff": "工廠建造的核心是生產鏈效率與物流最佳化，角色本身通常不重要；殖民模擬的核心是管理一群有個性、有需求的角色，建設只是輔助他們生存的手段。"}],
+    "related": ["colony-sim", "tycoon"],
+    "design": "複雜度曲線要平滑，每次引入新機制（新資源、新加工步驟）都要搭配足夠過渡期，讓玩家慢慢學習而不是一次被淹沒；UI 上的資訊密度很容易爆炸，要有清楚的統計與視覺化工具幫玩家抓瓶頸。",
+    "sources": [
+      {"title": "Steam 標籤頁：Automation", "url": "https://store.steampowered.com/tags/en/Automation/", "accessed": "2026-09-17", "note": "標籤存在確認"}
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "survival-craft",
+    "zh": "生存工藝",
+    "en": "Survival Craft",
+    "aliases": ["Open World Survival Craft"],
+    "cat": "genre",
+    "sub": "生存與生活模擬",
+    "short": "在危險環境採集資源、製作工具、建庇護所並管理生存數值的類型。",
+    "def": "玩家在危險的開放世界環境中採集資源、製作工具與武器、建造庇護所、管理生存數值。生存數值通常包括飢餓值、口渴值、體溫值、生命值等，玩家必須在探索、戰鬥與維持生存之間取得平衡。這個類型結合了「開放世界」的自由度與「生存」的資源壓力，過去十年是最穩定的熱門類型之一，也是《當個創世神》風潮後最大的獨立與 3A 開發熱點類型。",
+    "features": ["採集資源、製作工具與建築", "多重生存數值需同時管理", "開放世界探索為主", "多人合作建造常見"],
+    "examples": [
+      {"title": "英靈神殿", "en": "Valheim", "appid": 892970, "year": 2021, "why": "北歐神話題材、合作建造與探索並重的生存工藝代表"},
+      {"title": "森林之子", "en": "Sons Of The Forest", "appid": 1326470, "year": 2024, "why": "結合恐怖氛圍與生存工藝機制的知名作品"}
+    ],
+    "steamTags": [{"tagid": 1100689, "en": "Open World Survival Craft"}],
+    "compare": [{"with": "survival", "diff": "生存工藝強調製作、建造與資源採集的完整生產鏈；生存遊戲這個大類更廣，不一定要有建造與工藝系統，也包含純粹靠躲避與應變求生的作品。"}],
+    "related": ["survival", "base-building", "farming-sim"],
+    "design": "生存數值消耗速度是體驗設計的關鍵，太快玩家會疲於奔命只忙著找食物，太慢又失去生存的緊迫感；建議讓玩家在中期就能建立穩定的食物來源，把注意力轉移到探索與戰鬥上。",
+    "sources": [
+      {"title": "Steam 標籤頁：Open World Survival Craft", "url": "https://store.steampowered.com/tags/en/Open%20World%20Survival%20Craft/", "accessed": "2026-09-17", "note": "標籤存在確認"},
+      {"title": "Wikipedia: Survival game", "url": "https://en.wikipedia.org/wiki/Survival_game", "accessed": "2026-09-17", "note": "生存遊戲大類定義"}
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "survival",
+    "zh": "生存遊戲",
+    "en": "Survival Game",
+    "aliases": [],
+    "cat": "genre",
+    "sub": "生存與生活模擬",
+    "short": "設定在充滿敵意的開放世界中、以活下去為主要目標的動作遊戲大類。",
+    "def": "維基百科將其定義為動作遊戲的子類型，通常設定在充滿敵意、緊張的開放世界環境。玩家的核心目標是「活下去」，具體手段依作品而異：可能是採集製作（生存工藝）、可能是躲避喪屍或掠奪者、可能是應付飢餓與疾病等環境威脅。這是一個範圍很廣的傘狀分類，底下涵蓋生存工藝、殭屍生存、極限環境生存（如水下、極地）等更細的子類型，共通點是「資源匱乏」與「持續存在的威脅」帶來的緊張感。",
+    "features": ["以「活下去」為核心目標", "資源匱乏帶來持續壓力", "常設在敵意開放世界", "涵蓋多種更細子類型"],
+    "examples": [
+      {"title": "Rust", "en": "Rust", "appid": 252490, "year": 2018, "why": "以玩家對玩家掠奪與資源競爭聞名的硬核生存代表"},
+      {"title": "森林之子", "en": "Sons Of The Forest", "appid": 1326470, "year": 2024, "why": "結合恐怖與生存壓力的近期熱門作品"}
+    ],
+    "steamTags": [{"tagid": 1662, "en": "Survival"}],
+    "compare": [{"with": "survival-craft", "diff": "生存遊戲是涵蓋所有「以活下去為目標」作品的大分類；生存工藝特指其中有完整採集、製作、建造循環的子類型。"}],
+    "related": ["survival-craft", "battle-royale"],
+    "design": "「威脅來源」要設計清楚且可預期，玩家死亡時要能歸因於自己的決策疏失（沒補給、沒防備）而非隨機惡意，否則挫折感會壓過成就感。",
+    "sources": [
+      {"title": "Wikipedia: Survival game", "url": "https://en.wikipedia.org/wiki/Survival_game", "accessed": "2026-09-17", "note": "定義"},
+      {"title": "Steam 標籤頁：Survival", "url": "https://store.steampowered.com/tags/en/Survival/", "accessed": "2026-09-17", "note": "標籤存在確認"}
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "farming-sim",
+    "zh": "農場模擬",
+    "en": "Farm Life Sim",
+    "aliases": ["牧場物語式", "Farm Sim"],
+    "cat": "genre",
+    "sub": "生存與生活模擬",
+    "short": "扮演農夫種田養家畜、與 NPC 培養關係、依季節推進的生活模擬類型。",
+    "def": "生活模擬底下融合社交模擬、戀愛要素與農場經營的一支，玩家扮演到鄉間接手農場的主角，種植作物、飼養家畜賺錢，同時與一整群 NPC 角色互動培養關係，並依季節變化規劃活動。這個子類型源自 1996 年開始的《牧場物語》（美版譯名 Harvest Moon）系列，長期幾乎是這個類型的唯一代表，直到 2016 年《星露谷物語》這款受其啟發的獨立作品爆紅，才讓「農場生活模擬」成為獨立於母系列之外、被廣泛認可的類型名稱。與強調精細機械化的《模擬農場》系列走的是完全不同路線。",
+    "features": ["種田養家畜為主要遊玩方式", "與 NPC 培養關係、可結婚", "季節與行事曆驅動節奏", "美術風格多走溫馨可愛路線"],
+    "examples": [
+      {"title": "星露谷物語", "en": "Stardew Valley", "appid": 413150, "year": 2016, "why": "把農場生活模擬推向獨立遊戲主流的關鍵作品"},
+      {"title": "沙石鎮時光", "en": "My Time at Sandrock", "appid": 1084600, "year": 2023, "why": "結合工藝製作與小鎮社交的近期代表作"}
+    ],
+    "steamTags": [{"tagid": 87918, "en": "Farming Sim"}],
+    "compare": [
+      {"with": "cozy-game", "diff": "農場模擬是具體遊玩方式內容（種田、養家畜、跑行事曆）的類型；舒適遊戲是描述整體體驗氛圍（低壓力、療癒、沒有死亡懲罰）的標籤，農場模擬常常同時符合舒適遊戲的氛圍但不是必然。"},
+      {"with": "life-sim", "diff": "農場模擬聚焦農場經營與鄉村社交的固定遊玩方式框架；生活模擬範圍更廣，只要是「扮演並經營一個角色的生活」都算，不一定要有種田要素。"}
+    ],
+    "related": ["life-sim", "cozy-game", "dating-sim"],
+    "design": "行事曆（季節、節慶、作物生長天數）是這類遊戲的骨架，所有系統都繞著它轉，設計時要避免玩家出現「必須每天照表操課否則浪費一天」的壓力感，這會直接破壞舒適向遊戲該有的體驗。",
+    "origin": "系列源頭是 1996 年《牧場物語》，2016 年《星露谷物語》讓這個類型獨立於原系列並廣為人知。",
+    "sources": [
+      {"title": "Wikipedia: Farm life sim", "url": "https://en.wikipedia.org/wiki/Farm_life_sim", "accessed": "2026-09-17", "note": "定義、起源與 Stardew Valley 的類型化角色"},
+      {"title": "Steam 標籤頁：Farming Sim", "url": "https://store.steampowered.com/tags/en/Farming%20Sim/", "accessed": "2026-09-17", "note": "標籤存在確認"}
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "life-sim",
+    "zh": "生活模擬",
+    "en": "Life Sim",
+    "aliases": ["Life Simulation Game"],
+    "cat": "genre",
+    "sub": "生存與生活模擬",
+    "short": "扮演並經營一個或多個虛擬角色的生活、範圍很廣的模擬遊戲大類。",
+    "def": "模擬遊戲底下的一個廣義子類型，玩家扮演並掌控一個或多個虛擬角色（人類或其他生物）的生活。可以是圍繞個體與人際關係展開，也可以是模擬一整個生態系。這個大分類底下包含神獸養成、社交模擬、農場生活模擬等更細的子類型，甚至連神視角的創世神遊戲（God Game）都被歸類在生活模擬的傘下，因為兩者都圍繞「培養並維持某種生命形式」這個核心。代表作《模擬市民》系列讓「操控一群人的日常生活」成為家喻戶曉的遊玩方式。",
+    "features": ["扮演並經營虛擬角色生活", "涵蓋人際、養成、生態多種面向", "開放式目標、自由度高", "與農場模擬、創世神遊戲有交集"],
+    "examples": [
+      {"title": "沙石鎮時光", "en": "My Time at Sandrock", "appid": 1084600, "year": 2023, "why": "融合生活經營、工藝與社交的近期代表"},
+      {"title": "米斯特利亞的田野", "en": "Fields of Mistria", "appid": 2142790, "year": 2024, "why": "延續生活模擬與農場元素結合傳統的新作"}
+    ],
+    "steamTags": [{"tagid": 10235, "en": "Life Sim"}],
+    "compare": [{"with": "farming-sim", "diff": "生活模擬是範圍最廣的傘狀分類，只要是「經營虛擬角色生活」都算；農場模擬是其中固定加入種田、養家畜、鄉村社交遊玩方式的具體子類型。"}],
+    "related": ["farming-sim", "cozy-game", "god-game"],
+    "design": "因為目標開放，玩家很容易失去方向感，建議提供軟性引導（成就清單、每日建議事項）而非硬性任務鏈，保留自由度的同時避免玩家茫然不知道「接下來要幹嘛」。",
+    "sources": [
+      {"title": "Wikipedia: Life simulation game", "url": "https://en.wikipedia.org/wiki/Life_simulation_game", "accessed": "2026-09-17", "note": "定義與涵蓋範圍"},
+      {"title": "Steam 標籤頁：Life Sim", "url": "https://store.steampowered.com/tags/en/Life%20Sim/", "accessed": "2026-09-17", "note": "標籤存在確認"}
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "rts",
+    "zh": "即時戰略（RTS）",
+    "en": "Real-Time Strategy",
+    "aliases": ["RTS"],
+    "cat": "genre",
+    "sub": "策略與戰棋",
+    "short": "所有玩家同時、連續地管理資源與指揮單位，沒有輪流等待的策略類型。",
+    "def": "策略遊戲的一支子類型，所有玩家同時、連續地管理資源、建造基地、指揮單位來達成目標，不像回合制那樣輪流行動、彼此等待。典型遊玩方式是「採集資源、蓋建築、造兵、打對手」的循環，考驗玩家的總體經濟運作（俗稱「宏觀」）與微操單位戰鬥（俗稱「微操」）雙重能力，也因為要求極高的手速與多工能力，長期是電競賽事的重要項目之一。",
+    "features": ["所有玩家同時連續行動", "採集、建造、造兵循環", "宏觀經濟與微操並重", "重手速與多工能力"],
+    "examples": [
+      {"title": "世紀帝國 IV：週年紀念版", "en": "Age of Empires IV: Anniversary Edition", "appid": 1466860, "year": 2021, "why": "歷史題材即時戰略長青系列的現代作品"},
+      {"title": "世紀帝國 II：決定版", "en": "Age of Empires II: Definitive Edition", "appid": 813780, "year": 2019, "why": "即時戰略史上最長壽也最具代表性的系列之一"}
+    ],
+    "steamTags": [{"tagid": 1676, "en": "RTS"}],
+    "compare": [{"with": "turn-based-strategy", "diff": "即時戰略所有玩家同時連續行動、比拚手速與多工；回合制策略輪流行動、彼此等待，比拚的是每一步決策的思考深度而非速度。"}],
+    "related": ["turn-based-strategy", "wargame", "4x"],
+    "design": "上手門檻高是最大的行銷挑戰：新手光是「採礦、蓋房、造兵」三件事同時做就手忙腳亂，設計時要有循序漸進的教學關卡與可調整的遊戲速度，否則玩家還沒摸到策略深度就先被操作門檻勸退。",
+    "sources": [
+      {"title": "Wikipedia: Real-time strategy", "url": "https://en.wikipedia.org/wiki/Real-time_strategy", "accessed": "2026-09-17", "note": "定義"},
+      {"title": "Steam 標籤頁：RTS", "url": "https://store.steampowered.com/tags/en/RTS/", "accessed": "2026-09-17", "note": "標籤存在確認"}
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "turn-based-strategy",
+    "zh": "回合制策略",
+    "en": "Turn-Based Strategy",
+    "aliases": ["TBS"],
+    "cat": "genre",
+    "sub": "策略與戰棋",
+    "short": "玩家輪流行動、彼此等待，用來與即時戰略區分的策略遊戲類型。",
+    "def": "這個名稱主要是為了與即時戰略（RTS）做區隔而存在，泛指玩家依序輪流行動、每個人輪到自己時才能下指令的電腦策略遊戲。少了即時戰略的手速壓力，回合制策略把重心完全放在每一步決策的思考深度上，玩家有充裕時間評估資源分配、單位調度、科技樹規劃等長期規劃。這個特性讓回合制策略特別適合作深度系統堆疊（如 4X、大戰略），也是桌上戰棋轉譯到電玩最自然的形式。",
+    "features": ["玩家依序輪流行動", "無即時手速壓力", "重視長期規劃與深度決策", "常見於 4X 與戰棋類作品"],
+    "examples": [
+      {"title": "席德・梅爾的文明帝國 VI", "en": "Sid Meier's Civilization VI", "appid": 289070, "year": 2016, "why": "回合制策略與 4X 結合的長青代表"},
+      {"title": "打破邊界", "en": "Into the Breach", "appid": null, "year": 2018, "why": "資訊完全透明、每步皆可預判的高評價回合制策略作品"}
+    ],
+    "steamTags": [{"tagid": 1741, "en": "Turn-Based Strategy"}],
+    "compare": [
+      {"with": "rts", "diff": "回合制策略玩家輪流行動、沒有手速壓力，重視思考深度；即時戰略所有人同時連續行動，重視手速與多工。"},
+      {"with": "turn-based-tactics", "diff": "回合制策略關注較大尺度的資源、科技、版圖規劃；回合制戰術聚焦小規模戰場上的單位調度與地形運用，戰略層決策較少。"}
+    ],
+    "related": ["rts", "turn-based-tactics", "4x"],
+    "design": "回合制最大的敵人是「等待感」：AI 回合思考時間過長、玩家單局動作太多都會拖慢節奏，需要靠平行運算、跳過動畫選項、清楚的行動提示來壓縮非決策時間。",
+    "sources": [
+      {"title": "Wikipedia: Turn-based strategy", "url": "https://en.wikipedia.org/wiki/Turn-based_strategy", "accessed": "2026-09-17", "note": "定義與名稱由來"},
+      {"title": "Steam 標籤頁：Turn-Based Strategy", "url": "https://store.steampowered.com/tags/en/Turn-Based%20Strategy/", "accessed": "2026-09-17", "note": "標籤存在確認"}
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "turn-based-tactics",
+    "zh": "回合制戰術",
+    "en": "Turn-Based Tactics",
+    "aliases": ["TBT"],
+    "cat": "genre",
+    "sub": "策略與戰棋",
+    "short": "在小規模戰場上、以回合制指揮有限單位作戰的戰術類型。",
+    "def": "策略遊戲的子類型，模擬小規模戰場上的戰術對抗，與回合制策略相比更聚焦「戰術」而非宏觀「戰略」層面。玩家通常只能使用遊戲給定的有限兵力來完成任務，強調地形（高低差、掩體、視野）帶來的戰術意義，因此環境細節通常比一般策略遊戲更複雜精細。這個類型的根源可以追溯到戰術與微縮模型桌上戰棋（miniature wargaming），用模型或紙製標記重現戰鬥場景。",
+    "features": ["小規模戰場、有限兵力", "地形高低差與視野影響戰術", "回合輪流行動", "根源於桌上戰棋"],
+    "examples": [
+      {"title": "XCOM 2", "en": "XCOM 2", "appid": 268500, "year": 2016, "why": "地形掩體與命中率機制深植人心的戰術經典"},
+      {"title": "XCOM：未知敵人", "en": "XCOM: Enemy Unknown", "appid": 200510, "year": 2012, "why": "重啟系列、確立現代回合制戰術框架的代表作"}
+    ],
+    "steamTags": [{"tagid": 14139, "en": "Turn-Based Tactics"}],
+    "compare": [{"with": "turn-based-strategy", "diff": "回合制戰術聚焦小規模戰場上有限單位的地形運用與調度；回合制策略關注更大尺度的資源、科技、版圖等宏觀規劃。"}],
+    "related": ["turn-based-strategy", "wargame"],
+    "design": "地形與視野系統要做得經得起推敲，因為戰術類型的樂趣幾乎全靠「這個掩體到底擋不擋得住」「這個高地有沒有命中加成」這類可預判的規則，規則不透明玩家就無法做出有意義的決策。",
+    "sources": [
+      {"title": "Wikipedia: Turn-based tactics", "url": "https://en.wikipedia.org/wiki/Turn-based_tactics", "accessed": "2026-09-17", "note": "定義與桌上戰棋根源"},
+      {"title": "Steam 標籤頁：Turn-Based Tactics", "url": "https://store.steampowered.com/tags/en/Turn-Based%20Tactics/", "accessed": "2026-09-17", "note": "標籤存在確認"}
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "wargame",
+    "zh": "戰爭遊戲",
+    "en": "Wargame",
+    "aliases": ["Computer Wargame"],
+    "cat": "genre",
+    "sub": "策略與戰棋",
+    "short": "強調戰略或戰術層面戰爭模擬、常追求歷史準確性的策略子類。",
+    "def": "策略遊戲底下強調地圖上戰略或戰術層面戰爭對抗，並追求歷史或近乎歷史準確性的子類型。這個類型源自更早的桌上戰爭遊戲傳統，電玩戰爭遊戲雖然主題與遊玩方式都呼應桌遊戰棋的傳統，但為了照顧更廣泛的休閒玩家，通常會比原始桌遊寫實度略低一些以增加易上手度。很多作品會重現特定歷史戰役，範圍可以是整場戰爭，也可以是單一戰役甚至更小規模的交戰。",
+    "features": ["強調戰略或戰術層面戰爭模擬", "追求歷史或近歷史準確性", "常重現特定歷史戰役", "源自桌上戰爭遊戲傳統"],
+    "examples": [
+      {"title": "鋼鐵雄心 IV", "en": "Hearts of Iron IV", "appid": 394360, "year": 2016, "why": "二戰題材戰略層級戰爭遊戲與大戰略的交集代表"},
+      {"title": "指揮與征服：統一 II", "en": "Unity of Command II", "appid": null, "year": 2021, "why": "聚焦戰術層級後勤與補給線的知名戰爭遊戲"}
+    ],
+    "steamTags": [{"tagid": 4684, "en": "Wargame"}],
+    "compare": [{"with": "grand-strategy", "diff": "戰爭遊戲聚焦軍事層面的戰略或戰術對抗、追求歷史準確性；大戰略涵蓋外交、經濟、宗教等國家全方位決策，軍事只是其中一環。"}],
+    "related": ["grand-strategy", "turn-based-tactics"],
+    "design": "歷史準確性與可玩性常常互相拉扯，過度寫實的後勤與補給系統對新手極不友善；建議提供難度分級或簡化模式，讓硬核戰史玩家與一般策略玩家都能找到合適的入口。",
+    "sources": [
+      {"title": "Wikipedia: Wargame (video games)", "url": "https://en.wikipedia.org/wiki/Wargame_(video_games)", "accessed": "2026-09-17", "note": "定義與桌遊淵源"},
+      {"title": "Steam 標籤頁：Wargame", "url": "https://store.steampowered.com/tags/en/Wargame/", "accessed": "2026-09-17", "note": "標籤存在確認"}
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "city-builder",
+    "zh": "城市營造",
+    "en": "City-Building Game",
+    "aliases": ["City Builder", "Citybuilder", "都市規劃遊戲"],
+    "cat": "genre",
+    "sub": "經營與建造模擬",
+    "short": "玩家從空中視角規劃並管理一座城市成長的模擬遊戲類型。",
+    "def": "模擬遊戲的一支，玩家扮演整體規劃者與領導人，從空中俯瞰視角管理一座城市或城鎮的成長。玩家決定建築物的擺放位置，並管理薪資、工作優先順序等城市管理項目，城市會依這些決策相應發展。這個類型被視為建造與管理模擬（Construction and Management Simulation）的一種，最早的城市營造遊戲可追溯到 1964 年的文字型大型主機遊戲《蘇美人遊戲》，但真正確立現代遊玩方式框架的是 1989 年的《模擬城市》。",
+    "features": ["俯視視角規劃城市", "建築擺放與薪資政策互相牽動", "交通、電力、水資源等基礎建設系統", "長期成長曲線"],
+    "examples": [
+      {"title": "城市：天際線 II", "en": "Cities: Skylines II", "appid": 949230, "year": 2023, "why": "現代城市營造在交通與區域模擬深度上的代表作"},
+      {"title": "城市：天際線", "en": "Cities: Skylines", "appid": 255710, "year": 2015, "why": "取代模擬城市系列地位、長期熱門的城市營造作品"}
+    ],
+    "steamTags": [{"tagid": 4328, "en": "City Builder"}],
+    "compare": [{"with": "colony-sim", "diff": "城市營造管理的是抽象化的城市系統（交通、分區、稅收），居民多半是統計數字而非個別角色；殖民模擬管理的是一小群有名字、有需求、有情緒的個別角色，失敗時玩家記得的是「人」而不是版面。"}],
+    "related": ["colony-sim", "tycoon", "grand-strategy"],
+    "design": "城市系統之間環環相扣（交通壅塞影響污染、污染影響地價、地價影響稅收），設計時要提供清楚的視覺化圖層（熱力圖、交通流量圖）幫玩家定位問題根源，否則玩家只會看到「城市變差了」卻不知道為什麼。",
+    "origin": "1964 年《蘇美人遊戲》被視為最早雛型，1989 年《模擬城市》確立現代城市營造的遊玩方式框架。",
+    "sources": [
+      {"title": "Wikipedia: City-building game", "url": "https://en.wikipedia.org/wiki/City-building_game", "accessed": "2026-09-17", "note": "定義與歷史起源"},
+      {"title": "Steam 標籤頁：City Builder", "url": "https://store.steampowered.com/tags/en/City%20Builder/", "accessed": "2026-09-17", "note": "標籤存在確認"}
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "colony-sim",
+    "zh": "殖民模擬",
+    "en": "Colony Sim",
+    "aliases": ["Colony Simulation"],
+    "cat": "genre",
+    "sub": "經營與建造模擬",
+    "short": "透過間接控制管理一群有個性角色存活、每個居民都有名字與故事的模擬類型。",
+    "def": "以「透過間接控制讓一群人存活下去」為核心的管理遊戲，玩家規劃據點、承受資源壓力、應對隨機發生的事件，但通常不能像 RTS 那樣直接命令個別角色做什麼。最關鍵的特徵是「個體角色模擬」：殖民地居民不是可互換的單位，而是各自帶有特質、技能、人際關係、甚至精神狀態的獨立個體，這些特質會直接影響他們能做與願意做的事。這個類型與城市營造、生存遊戲、生活模擬、工廠建造都有重疊，但它的招牌是「親密的失敗」——玩家記住的是那些角色的故事，而不只是版面配置。",
+    "features": ["間接控制、不直接下令個別角色", "居民各有特質與人際關係", "資源壓力與隨機事件驅動敘事", "常見「親密的失敗」體驗"],
+    "examples": [
+      {"title": "邊緣世界", "en": "RimWorld", "appid": 294100, "year": 2018, "why": "把角色個體模擬與突發事件敘事做到極致的殖民模擬代表作"},
+      {"title": "缺氧", "en": "Oxygen Not Included", "appid": null, "year": 2019, "why": "把殖民模擬結合精密氣體與熱力系統模擬的知名作品"}
+    ],
+    "steamTags": [{"tagid": 220585, "en": "Colony Sim"}],
+    "compare": [{"with": "city-builder", "diff": "殖民模擬管理的是一小群有名字、有故事的個別角色，失敗時記住的是「人」；城市營造管理的是抽象化的城市系統，居民多半只是統計數字。"}],
+    "related": ["city-builder", "base-building", "survival"],
+    "design": "角色個體差異是這類遊戲的靈魂，特質與心理狀態系統要設計得夠深，才能產生「這個角色因為某個特質而崩潰」這種讓玩家津津樂道的突發故事；隨機事件的頻率要抓準，太密集會讓玩家疲於救火，太稀疏又會失去張力。",
+    "origin": "受 2006 年《矮人要塞》啟發，2018 年《邊緣世界》讓這個類型廣為人知並獨立成一個公認分類。",
+    "sources": [
+      {"title": "Steam 標籤頁：Colony Sim", "url": "https://store.steampowered.com/tags/en/Colony%20Sim/", "accessed": "2026-09-17", "note": "標籤存在確認"}
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "base-building",
+    "zh": "基地建設",
+    "en": "Base Building",
+    "aliases": [],
+    "cat": "genre",
+    "sub": "經營與建造模擬",
+    "short": "建造並強化一個據點以抵禦威脅或支援生產的機制導向類型。",
+    "def": "以建造並強化一個核心據點為主要遊玩方式的類型或機制標籤，玩家透過規劃建築配置、升級防禦設施、管理資源產出來讓據點從脆弱走向堅固。這個標籤常和其他類型疊加出現：搭配生存遊戲就是「邊求生邊蓋基地」，搭配塔防就是「敵人越打越猛、基地要越蓋越硬」，搭配即時戰略則是傳統的「開局蓋主堡再逐步擴張」。核心張力是資源投入的優先順序：先顧防禦還是先顧生產，往往沒有標準答案。",
+    "features": ["核心據點建造與升級", "防禦與生產設施互相排擠資源", "常與生存、塔防、RTS 疊加", "波次或威脅逐步升級"],
+    "examples": [
+      {"title": "億萬僵屍", "en": "They Are Billions", "appid": 644930, "year": 2019, "why": "把基地建設與殭屍潮防禦壓力結合到極致的代表作"},
+      {"title": "泥灘地 2", "en": "Grounded 2", "appid": 2661300, "year": 2025, "why": "縮小視角生存生活中據點建造與防禦並重的續作"}
+    ],
+    "steamTags": [{"tagid": 7332, "en": "Base Building"}],
+    "compare": [{"with": "tower-defense", "diff": "基地建設核心是據點本身的建造與資源循環，防禦只是其中一環；塔防的核心單純是沿路徑佈置防禦塔擋敵人，通常沒有完整的據點經營系統。"}],
+    "related": ["tower-defense", "colony-sim", "survival-craft"],
+    "design": "要想清楚「威脅節奏」跟「建造節奏」誰主導誰：如果威脅升級太快，玩家會覺得建設永遠追不上；如果太慢，基地建設就變成單純的擺放遊戲、失去緊張感。",
+    "sources": [
+      {"title": "Steam 標籤頁：Base Building", "url": "https://store.steampowered.com/tags/en/Base%20Building/", "accessed": "2026-09-17", "note": "標籤存在確認"}
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "god-game",
+    "zh": "創世神遊戲",
+    "en": "God Game",
+    "aliases": ["God Sim", "創世神模擬"],
+    "cat": "genre",
+    "sub": "經營與建造模擬",
+    "short": "玩家扮演擁有神力的存在、間接引導一群信眾聚落發展的模擬類型。",
+    "def": "一種人工生命模擬遊戲，讓玩家站在掌控大局的位置，扮演具有神力或超自然力量的存在、偉大領袖，或沒有明確身分的角色，負責照看並影響設定中一整群自主行動的角色。與其他策略遊戲不同的是，玩家通常無法直接命令個別單位做什麼，而是透過放置目標標記、施展天災或祝福等方式間接影響信眾的行為。這個類型與建造管理模擬的分野在於：創世神遊戲的遊玩方式核心是培養並運用超自然力量來間接引導人口，而不是直接規劃建設。1989 年《P 大帝》被公認催生並確立「God Game」這個名稱。",
+    "features": ["扮演神力存在間接引導信眾", "無法直接命令個別單位", "常見天災、祝福等間接互動手段", "與生活模擬、策略遊戲皆有重疊"],
+    "examples": [
+      {"title": "孢子", "en": "Spore", "appid": 17390, "year": 2008, "why": "把創世神遊玩方式延伸到物種演化尺度的知名作品"},
+      {"title": "上帝也瘋狂", "en": "Populous", "appid": null, "year": 1989, "why": "確立並使「God Game」一詞成形的開創性作品"}
+    ],
+    "steamTags": [{"tagid": 5300, "en": "God Game"}],
+    "compare": [{"with": "city-builder", "diff": "創世神遊戲透過超自然力量間接引導信眾發展、無法直接下令；城市營造是直接規劃建築配置與市政政策，兩者互動方式的抽象層級不同。"}],
+    "related": ["life-sim", "city-builder"],
+    "design": "「間接控制」是這個類型的靈魂也是最大設計難題：要讓玩家清楚感受到自己的神力有影響力，但又不能簡化成直接下命令，否則就變回一般策略遊戲，這個分寸需要細膩的回饋設計（信眾行為的視覺化、因果關係的清楚呈現）。",
+    "origin": "1989 年《上帝也瘋狂》（Populous）被視為革命性的作品，並催生了「God Game」這個名稱。",
+    "sources": [
+      {"title": "Wikipedia: God game", "url": "https://en.wikipedia.org/wiki/God_game", "accessed": "2026-09-17", "note": "定義、機制與起源"},
+      {"title": "Steam 標籤頁：God Game", "url": "https://store.steampowered.com/tags/en/God%20Game/", "accessed": "2026-09-17", "note": "標籤存在確認"}
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "cozy-game",
+    "zh": "舒適遊戲",
+    "en": "Cozy Game",
+    "aliases": ["Cozy", "愜意遊戲"],
+    "cat": "genre",
+    "sub": "生存與生活模擬",
+    "short": "強調非暴力與放鬆、沒有死亡懲罰與時間壓力的療癒體驗標籤。",
+    "def": "強調非暴力與放鬆體驗的遊戲，最初衍生自生活模擬類型，常見活動包括採集、種植與照顧其他角色，通常有開放式的目標鼓勵玩家自我表達，而不是硬性的通關條件。開發者提到這種風格早在 1985 年《小小電腦人》甚至 2000 年《模擬市民》就已出現雛型，但真正成為常用詞彙是在 2016 年《星露谷物語》與 2020 年《集合啦！動物森友會》相繼爆紅之後。核心特徵是玩家透過採集、耕種、培育與幫助他人等非暴力行為進行自我表達，進度目標通常是開放式的，整體定義取決於它帶給玩家的情緒感受，而非固定的遊玩方式規則。",
+    "features": ["非暴力、低壓力體驗", "無死亡懲罰或嚴苛時限", "開放式目標、重視自我表達", "常見採集、照顧、裝飾等活動"],
+    "examples": [
+      {"title": "星露谷物語", "en": "Stardew Valley", "appid": 413150, "year": 2016, "why": "讓「舒適遊戲」一詞廣為流傳的關鍵作品之一"},
+      {"title": "米斯特利亞的田野", "en": "Fields of Mistria", "appid": 2142790, "year": 2024, "why": "延續舒適向農場生活體驗的近期新作"}
+    ],
+    "steamTags": [{"tagid": 97376, "en": "Cozy"}],
+    "compare": [
+      {"with": "farming-sim", "diff": "舒適遊戲是描述體驗氛圍的標籤（低壓力、療癒、沒有死亡懲罰），不限定遊玩方式；農場模擬是具體的種田養家畜遊玩方式類型，兩者高度重疊但不是同一件事——恐怖農場遊戲理論上也能存在，只是很少見。"},
+      {"with": "life-sim", "diff": "舒適遊戲是氛圍與情緒導向的標籤；生活模擬是遊玩方式框架的類型分類，兩者常同時出現但分類基礎不同。"}
+    ],
+    "related": ["farming-sim", "life-sim", "wholesome"],
+    "design": "「不施加壓力」是設計金律：即使是溫和的時間限制、輕微的失敗懲罰，都可能破壞舒適氛圍。要注意的是玩家依然需要「進度感」，開放式目標不等於沒有目標，完全沒有方向感一樣會讓玩家流失。",
+    "sources": [
+      {"title": "Wikipedia: Cozy game", "url": "https://en.wikipedia.org/wiki/Cozy_game", "accessed": "2026-09-17", "note": "定義、歷史脈絡與特徵"},
+      {"title": "Steam 標籤頁：Cozy", "url": "https://store.steampowered.com/tags/en/Cozy/", "accessed": "2026-09-17", "note": "標籤存在確認"}
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "point-and-click",
+    "zh": "點擊冒險",
+    "en": "Point-and-Click Adventure",
+    "aliases": ["點擊解謎冒險"],
+    "cat": "genre",
+    "sub": "解謎與休閒",
+    "short": "以滑鼠點擊場景物件互動、解謎推進劇情的圖像冒險遊戲類型。",
+    "def": "以滑鼠操作為主要介面的圖像冒險遊戲類型，玩家點擊畫面上的物件來讓角色與環境互動：撿東西、檢查、跟 NPC 對話、組合道具解謎。這個類型是文字冒險遊戲加上圖形介面後的自然演化，1980 年代到 2000 年代初是全盛期，其中 LucasArts 是這個類型的代表廠商，出品了多款經典系列。核心樂趣是解謎的邏輯感與探索場景的敘事氛圍，而不是反應速度或操作技巧，因此對手殘玩家非常友善。",
+    "features": ["滑鼠點擊為主要操作", "物品收集與組合解謎", "場景探索與對話驅動敘事", "無操作技巧門檻"],
+    "examples": [
+      {"title": "極樂迪斯可：最終剪輯版", "en": "Disco Elysium - The Final Cut", "appid": 632470, "year": 2019, "why": "把點擊冒險的探索與對話推向文學高度的代表作"},
+      {"title": "重返猴島", "en": "Return to Monkey Island", "appid": null, "year": 2022, "why": "LucasArts 點擊冒險黃金時代代表系列的最新續作"}
+    ],
+    "steamTags": [{"tagid": 1698, "en": "Point & Click"}],
+    "compare": [{"with": "visual-novel", "diff": "點擊冒險保留場景探索、物品收集與環境解謎，互動性較高；視覺小說幾乎沒有場景互動，遊玩方式核心是閱讀文字與在分歧點做選擇。"}],
+    "related": ["visual-novel", "puzzle-game"],
+    "design": "最容易踩的雷是「像素獵人」（Pixel Hunting）——把關鍵物件藏得太隱密，逼玩家對著畫面每個角落亂點；謎題邏輯要能讓玩家「事後回想合理」，避免那種只有作者自己想得到的跳躍式解法。",
+    "sources": [
+      {"title": "Wikipedia: Point and click adventure", "url": "https://en.wikipedia.org/wiki/Point_and_click_adventure", "accessed": "2026-09-17", "note": "定義與歷史"},
+      {"title": "Steam 標籤頁：Point & Click", "url": "https://store.steampowered.com/tags/en/Point%20%26%20Click/", "accessed": "2026-09-17", "note": "標籤存在確認"}
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "puzzle-game",
+    "zh": "解謎遊戲",
+    "en": "Puzzle Game",
+    "aliases": [],
+    "cat": "genre",
+    "sub": "解謎與休閒",
+    "short": "以邏輯推理與規則探索為核心挑戰、而非反應速度的遊戲類型。",
+    "def": "強調邏輯推理、規則探索、空間思考等腦力挑戰的遊戲類型，玩家透過理解遊戲規則的運作方式，找出解決特定關卡或情境的方法。挑戰核心通常不是反應速度或手眼協調，而是「想通」的那個頓悟時刻。底下涵蓋範圍極廣，從實體物理益智（如推箱子）、機關解謎（如《Portal》的傳送門）、規則本身就是謎題（如《Baba Is You》），到消除類（三消）都算在內，是所有遊戲類型裡最不吃操作技巧、最吃思考的一支。",
+    "features": ["核心挑戰是邏輯與規則理解", "不吃反應速度", "常有明確的「頓悟」時刻", "涵蓋機關、消除、推理等多種形式"],
+    "examples": [
+      {"title": "傳送門 2", "en": "Portal 2", "appid": 620, "year": 2011, "why": "用單一機制（傳送門）推導出大量空間解謎變化的教科書之作"},
+      {"title": "Baba Is You", "en": "Baba Is You", "appid": 736260, "year": 2019, "why": "把「規則本身可被玩家改寫」變成謎題核心的創新代表"}
+    ],
+    "steamTags": [{"tagid": 1664, "en": "Puzzle"}],
+    "compare": [{"with": "match-3", "diff": "解謎遊戲範圍廣泛、核心是邏輯規則探索；三消是其中規則單一、以「湊齊同款圖案消除」為固定遊玩方式的具體子類型。"}],
+    "related": ["match-3", "sokoban", "point-and-click"],
+    "design": "難度曲線要靠「機制的排列組合」而非單純加大數字：先教一個規則，再逐步疊加變體，讓玩家用已學會的邏輯去推導新謎題，這是解謎遊戲關卡設計最核心的方法論。",
+    "sources": [
+      {"title": "Steam 標籤頁：Puzzle", "url": "https://store.steampowered.com/tags/en/Puzzle/", "accessed": "2026-09-17", "note": "標籤存在確認"}
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "match-3",
+    "zh": "三消",
+    "en": "Match 3",
+    "aliases": ["消除遊戲", "Tile-Matching"],
+    "cat": "genre",
+    "sub": "解謎與休閒",
+    "short": "移動或交換圖塊、湊齊三個以上相同圖案就消除的解謎子類型。",
+    "def": "圖塊消除遊戲（Tile-Matching Video Game）底下最常見的一支，玩家操作圖塊讓相同種類的圖案相鄰排列以觸發消除，這個「湊齊數量」最常見設定就是三個，因此稱為「三消」。手機遊戲市場中三消常被包裝成「消除＋輕度數值養成」的組合（俗稱 Match-3 RPG），例如把戰鬥結果跟消除表現綁在一起。核心樂趣是視覺上的圖案辨識速度與連鎖反應（Combo）帶來的爽感，操作門檻極低，是休閒與手機市場的長青類型。",
+    "features": ["交換或移動圖塊觸發消除", "湊齊三個以上相同圖案", "連鎖消除帶來爽感", "常見於手機休閒市場"],
+    "examples": [
+      {"title": "寶石方塊 3", "en": "Bejeweled 3", "appid": 78000, "year": 2010, "why": "確立現代三消規則與視覺回饋設計的代表作"},
+      {"title": "MARVEL 益智任務", "en": "Marvel Puzzle Quest", "appid": 234330, "year": 2013, "why": "把三消與角色養成、IP 收集結合的成功案例"}
+    ],
+    "steamTags": [{"tagid": 1665, "en": "Match 3"}],
+    "compare": [{"with": "puzzle-game", "diff": "三消是規則固定（湊齊同款圖案消除）的具體遊玩方式；解謎遊戲是涵蓋各種邏輯與規則挑戰的大分類，三消只是其中一支。"}],
+    "related": ["puzzle-game", "idle-incremental"],
+    "design": "隨機盤面要精心設計而非純亂數，避免出現「無解盤」或「開局就送 Combo」這種破壞公平感的情況；結合數值養成（Match-3 RPG）時要注意別讓數值成長取代消除本身的樂趣，否則玩家只是在「代練」而不是在「解謎」。",
+    "sources": [
+      {"title": "Wikipedia: Tile-matching video game", "url": "https://en.wikipedia.org/wiki/Tile-matching_video_game", "accessed": "2026-09-17", "note": "定義與三消命名由來"},
+      {"title": "Steam 標籤頁：Match 3", "url": "https://store.steampowered.com/tags/en/Match%203/", "accessed": "2026-09-17", "note": "標籤存在確認"}
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "racing-game",
+    "zh": "競速遊戲",
+    "en": "Racing Video Game",
+    "aliases": ["賽車遊戲"],
+    "cat": "genre",
+    "sub": "競速與運動",
+    "short": "玩家參與賽車競速的遊戲類型，依真實度分成擬真與街機兩大路線。",
+    "def": "玩家參與賽車競速活動的遊戲類型，介於兩個極端之間形成一道光譜：擬真賽車（Sim Racing）力求逼真重現真實車輛的操控手感，強調正確的過彎技巧與精準的賽道駕駛，物理引擎極度講究；街機賽車（Arcade Racing）則追求爽快與快節奏體驗，物理規則寬鬆自由，鼓勵甩尾過彎，操作門檻低。介於兩者之間還有俗稱「卡丁車」（Kart Racing）的分支，通常加入道具戰鬥元素（如《瑪利歐賽車》），把競速變成更休閒、更適合多人同樂的形式。",
+    "features": ["擬真到街機的真實度光譜", "過彎手感是核心體驗差異", "卡丁車分支加入道具戰鬥", "常見多人競速與時間排名"],
+    "examples": [
+      {"title": "極限競速：地平線 5", "en": "Forza Horizon 5", "appid": 1551360, "year": 2021, "why": "在開放世界中融合擬真操控與街機爽快感的代表作"},
+      {"title": "沖出重圍", "en": "Trackmania", "appid": 2225070, "year": 2023, "why": "極端物理與時間競速結合、社群共創賽道盛行的街機競速代表"}
+    ],
+    "steamTags": [{"tagid": 699, "en": "Racing"}],
+    "compare": [{"with": "sports-game", "diff": "競速遊戲的競技對象是賽道與時間，玩家主要操控的是載具；運動遊戲多半模擬有身體對抗或球類規則的體育項目，玩家操控的是運動員角色。"}],
+    "related": ["sports-game", "combat-racing"],
+    "design": "先定位好自己在「擬真到街機」光譜上的位置，這會連動操控手把是否必要、彎道容錯率、AI 對手難度曲線；混著做容易讓硬核賽車玩家嫌太輕浮、休閒玩家又覺得太難上手。",
+    "sources": [
+      {"title": "Wikipedia: Racing video game", "url": "https://en.wikipedia.org/wiki/Racing_video_game", "accessed": "2026-09-17", "note": "定義與擬真／街機光譜"},
+      {"title": "Steam 標籤頁：Racing", "url": "https://store.steampowered.com/tags/en/Racing/", "accessed": "2026-09-17", "note": "標籤存在確認"}
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "sports-game",
+    "zh": "運動遊戲",
+    "en": "Sports Video Game",
+    "aliases": ["體育遊戲"],
+    "cat": "genre",
+    "sub": "競速與運動",
+    "short": "以模擬各項體育活動為核心遊玩方式的遊戲類型，涵蓋球類到極限運動。",
+    "def": "以模擬體育活動為核心遊玩方式的遊戲類型，涵蓋團隊球類運動（足球、籃球、棒球等）、田徑、射擊運動、極限運動、格鬥運動等各種項目。多數作品會盡量重現該運動的真實規則與操作邏輯，部分知名系列每年固定改版並取得官方授權（球隊、球員肖像），成為長銷的年度作品。也有走誇張化路線、犧牲真實規則換取更容易上手與更有趣互動的作品（如街機風足球）。這個類型與競速遊戲常被放在一起討論，因為兩者都以「規則明確的競技」為核心體驗，但運動遊戲通常涉及更複雜的隊伍與規則系統。",
+    "features": ["模擬真實體育規則與項目", "常見官方授權年度改版", "團隊戰術與個人操作並重", "涵蓋擬真到街機誇張化多種路線"],
+    "examples": [
+      {"title": "EA SPORTS FC 26", "en": "EA SPORTS FC 26", "appid": 3405690, "year": 2025, "why": "足球模擬年度改版系列的最新代表"},
+      {"title": "NBA 2K25", "en": "NBA 2K25", "appid": 2878980, "year": 2024, "why": "籃球模擬系列長期年度改版的代表作"}
+    ],
+    "steamTags": [{"tagid": 701, "en": "Sports"}],
+    "compare": [{"with": "racing-game", "diff": "運動遊戲模擬有身體對抗或球類規則的體育項目，玩家操控運動員角色；競速遊戲玩家主要操控載具，競技對象是賽道與時間。"}],
+    "related": ["racing-game"],
+    "design": "年度改版系列最大的壓力是「差異化」：每年要讓玩家覺得值得再買一次，通常靠球員數值更新、新賽制、動作捕捉細節升級來製造新鮮感；官方授權（球隊、聯盟、球員肖像）的取得成本與續約風險也是這類作品的重要開發考量。",
+    "sources": [
+      {"title": "Wikipedia: Sports video game", "url": "https://en.wikipedia.org/wiki/Sports_video_game", "accessed": "2026-09-17", "note": "定義"},
+      {"title": "Steam 標籤頁：Sports", "url": "https://store.steampowered.com/tags/en/Sports/", "accessed": "2026-09-17", "note": "標籤存在確認"}
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "card-game",
+    "zh": "卡牌遊戲",
+    "en": "Card Game",
+    "aliases": ["TCG", "CCG", "數位卡牌"],
+    "cat": "genre",
+    "sub": "牌卡與棋盤",
+    "short": "以卡牌為核心互動媒介的遊戲類型，涵蓋傳統紙牌到集換式對戰卡牌。",
+    "def": "以卡牌作為核心互動媒介的遊戲類型，數位化後涵蓋範圍很廣：從撲克、接龍等傳統紙牌遊戲的電子版，到集換式卡牌遊戲（TCG／CCG，玩家蒐集卡片、賽前組好固定牌組再對戰）都算。與牌組構築（Deckbuilder）不同的是，一般卡牌遊戲（尤其 TCG／CCG）的牌組通常是在對局開始前就組好、對局中不會再改變，勝負更多取決於賽前構築的策略與臨場的出牌時機判斷，而不是邊玩邊組牌。",
+    "features": ["卡牌為核心互動媒介", "TCG／CCG 賽前組好固定牌組", "涵蓋傳統紙牌到集換式對戰", "臨場出牌時機判斷為關鍵"],
+    "examples": [
+      {"title": "遊戲王 Master Duel", "en": "Yu-Gi-Oh! Master Duel", "appid": 1449850, "year": 2022, "why": "老牌集換式卡牌 IP 數位化的代表作"},
+      {"title": "Marvel Snap", "en": "Marvel Snap", "appid": null, "year": 2022, "why": "以極短對局時間與漫威角色收集聞名的新生代數位卡牌遊戲"}
+    ],
+    "steamTags": [{"tagid": 1666, "en": "Card Game"}],
+    "compare": [{"with": "deckbuilder", "diff": "一般卡牌遊戲（含 TCG／CCG）通常賽前就組好固定牌組進場對戰；牌組構築的牌組是在對局進行中一張一張逐步組裝，兩者的策略重心不同。"}],
+    "related": ["deckbuilder", "auto-battler"],
+    "design": "卡池平衡是長期營運的核心難題：新卡要有足夠吸引力促使玩家課金或蒐集，但又不能強到破壞既有環境（俗稱「版本答案」），這需要長期的數據監控與定期調整節奏。",
+    "sources": [
+      {"title": "Steam 標籤頁：Card Game", "url": "https://store.steampowered.com/tags/en/Card%20Game/", "accessed": "2026-09-17", "note": "標籤存在確認"}
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "idle-incremental",
+    "zh": "放置／遞增遊戲",
+    "en": "Incremental Game",
+    "aliases": ["Idle Game", "放置遊戲", "掛機遊戲"],
+    "cat": "genre",
+    "sub": "解謎與休閒",
+    "short": "透過重複操作或自動化逐步累積資源、數值持續膨脹成長的遊戲類型。",
+    "def": "以資源的漸進累積為核心，透過重複性動作或自動化機制，讓玩家逐步、往往呈指數成長地推進遊戲進度。這類遊戲常見快速攀升的成本與獎勵，數值經常以科學記號或特殊命名系統表示極大的數字。常見機制包括「聲望重置」（Prestige System，玩家自願重置進度換取永久加成）。強調「自動化與最少互動即可持續推進」的一支稱為放置遊戲（Idle Game），核心互動是規劃自動化系統而不是手動操作。",
+    "features": ["數值指數成長為核心", "常見聲望重置機制", "強調自動化與離線收益", "數值常用科學記號表示"],
+    "examples": [
+      {"title": "Melvor Idle", "en": "Melvor Idle", "appid": 1267910, "year": 2021, "why": "把 RPG 技能養成框架完全放置化的代表作"},
+      {"title": "NGU 冒險", "en": "NGU Idle", "appid": null, "year": 2018, "why": "以龐大數值膨脹與多重放置系統聞名的社群長青作品"}
+    ],
+    "steamTags": [{"tagid": 615955, "en": "Idler"}, {"tagid": 560542, "en": "Incremental"}],
+    "compare": [{"with": "clicker", "diff": "放置遊戲強調自動化與離線收益、玩家規劃系統後可以少操作；點擊遊戲強調主動重複點擊來產生資源，互動頻率高很多，兩者是遞增遊戲底下的一體兩面，很多作品同時具備兩種元素。"}],
+    "related": ["clicker"],
+    "design": "數值曲線設計是核心工程：成長速度、成本膨脹率、重置後的加成幅度要互相配平，太快玩家會失去「規劃感」，太慢則失去持續遊玩的動力；離線收益的上限設計也要拿捏，避免玩家覺得「不玩比玩更划算」。",
+    "origin": "2013 年前後的《Cookie Clicker》與《Progress Quest》等作品被視為奠定這個類型的早期代表。",
+    "sources": [
+      {"title": "Wikipedia: Incremental game", "url": "https://en.wikipedia.org/wiki/Incremental_game", "accessed": "2026-09-17", "note": "定義、機制與與 Clicker／Idle 的關係"},
+      {"title": "Steam 標籤頁：Incremental", "url": "https://store.steampowered.com/tags/en/Incremental/", "accessed": "2026-09-17", "note": "標籤存在確認"}
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "clicker",
+    "zh": "點擊遊戲",
+    "en": "Clicker Game",
+    "aliases": ["Cookie Clicker 式遊戲"],
+    "cat": "genre",
+    "sub": "解謎與休閒",
+    "short": "透過重複點擊按鈕產生資源、逐步解鎖自動化的遞增遊戲子類。",
+    "def": "遞增遊戲（Incremental Game）底下強調主動輸入的一支，玩家透過重複點擊某個按鈕或物件來直接產生資源，早期進度幾乎完全依賴玩家手動點擊的頻率，之後才逐步用賺到的資源購買自動化設施來減少手動負擔。這類遊戲的成癮性設計核心是「數字持續變大」帶來的多巴胺回饋，2013 年網頁遊戲《Cookie Clicker》被公認是讓這個遊玩方式模式廣為人知並定型的代表作，之後衍生出大量主題各異但機制雷同的模仿作品。",
+    "features": ["重複點擊直接產生資源", "早期進度高度依賴手動輸入", "逐步購買自動化減少操作", "數字持續變大帶來成癮感"],
+    "examples": [
+      {"title": "Cookie Clicker", "en": "Cookie Clicker", "appid": 1454400, "year": 2021, "why": "定型點擊遊戲遊玩方式模式、影響力最大的代表作（2013 年原始網頁版首發）"},
+      {"title": "AdVenture Capitalist", "en": "AdVenture Capitalist", "appid": null, "year": 2014, "why": "把點擊遊戲包裝成商業帝國養成題材的知名作品"}
+    ],
+    "steamTags": [],
+    "compare": [{"with": "idle-incremental", "diff": "點擊遊戲強調玩家主動重複點擊來產生資源，互動頻率高；放置遊戲強調自動化與離線收益，玩家規劃好系統後可以長時間不操作，兩者常在同一款作品裡並存。"}],
+    "related": ["idle-incremental"],
+    "design": "純點擊很快會讓手指疲勞也讓樂趣枯竭，關鍵是設計「從手動到自動」的過渡節奏：初期靠點擊建立參與感，中期逐步把重複勞動交給自動化系統，讓玩家的注意力轉移到策略規劃（買什麼、升級順序）上。",
+    "origin": "2013 年網頁遊戲《Cookie Clicker》被公認是定型這個遊玩方式模式的代表作。",
+    "sources": [
+      {"title": "Wikipedia: Incremental game", "url": "https://en.wikipedia.org/wiki/Incremental_game", "accessed": "2026-09-17", "note": "定義中明確區分 Clicker 與 Idle 兩種強調方向"}
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "physics-sandbox",
+    "zh": "物理沙盒",
+    "en": "Physics Sandbox",
+    "aliases": ["Physics-Based Game"],
+    "cat": "genre",
+    "sub": "解謎與休閒",
+    "short": "以真實或誇張化物理模擬（如布娃娃系統）為核心遊玩方式賣點的沙盒類型。",
+    "def": "強烈聚焦於真實或誇張化物理模擬的遊戲類型，涵蓋從擬真重力碰撞到誇張布娃娃（Ragdoll）效果的各種呈現方式。遊玩方式核心通常沒有固定目標，而是讓玩家自由組裝、拆解、碰撞各種物件，觀察物理引擎如何反應——這種「玩物理引擎本身」的樂趣，讓這類遊戲常常靠創意遊玩方式影片與迷因在社群自然擴散。物理沙盒與一般沙盒遊戲的差別在於：一般沙盒可以完全不涉及物理模擬（如純建造型沙盒），物理沙盒則是把「符合物理規律的互動」本身當成核心賣點。",
+    "features": ["以物理引擎互動為核心賣點", "常無固定目標、自由創作", "布娃娃或誇張物理效果常見", "易產生迷因式傳播內容"],
+    "examples": [
+      {"title": "Garry's Mod", "en": "Garry's Mod", "appid": 4000, "year": 2006, "why": "以自由物理實驗與玩家自創內容聞名的物理沙盒開創代表"},
+      {"title": "人類：一敗塗地", "en": "Human Fall Flat", "appid": 477160, "year": 2016, "why": "把布娃娃物理與解謎合作遊玩方式結合的成功案例"}
+    ],
+    "steamTags": [{"tagid": 3968, "en": "Physics"}, {"tagid": 3810, "en": "Sandbox"}],
+    "compare": [{"with": "god-game", "diff": "物理沙盒的樂趣核心是觀察與操弄物理規律本身，通常沒有明確目標；創世神遊戲雖然也常是開放式目標，但核心是透過超自然力量間接引導一群自主角色，而非單純物理互動。"}],
+    "related": ["sandbox"],
+    "design": "物理引擎的穩定性直接決定遊戲評價，穿模、卡頓、非預期彈飛都會被玩家當成笑點放大傳播（有時反而變成賣點），但過度不穩定會傷害操作手感；要清楚決定「哪些不穩定是特色、哪些是要修的 bug」。",
+    "sources": [
+      {"title": "Wikipedia: Category:Physics-based video games", "url": "https://en.wikipedia.org/wiki/Category:Physics-based_video_games", "accessed": "2026-09-17", "note": "分類頁確認此為公認的遊戲類型標籤"},
+      {"title": "Steam 標籤頁：Physics", "url": "https://store.steampowered.com/tags/en/Physics/", "accessed": "2026-09-17", "note": "標籤存在確認"}
+    ],
+    "status": "verified"
+  }
+]

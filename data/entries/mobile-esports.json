@@ -1,0 +1,2396 @@
+[
+  {
+    "id": "energy-system",
+    "zh": "體力系統（Stamina / Energy System）",
+    "en": "Stamina / Energy System",
+    "aliases": [
+      "體力",
+      "能量系統",
+      "EP系統",
+      "樹脂（原神用語）",
+      "AP（FGO用語）"
+    ],
+    "cat": "mobile",
+    "sub": "手遊留存機制",
+    "short": "限制玩家每日遊玩時間、需等待或課金恢復的資源系統。",
+    "def": "手遊裡限制玩家能連續遊玩多久的資源，玩家進副本或戰鬥會消耗體力，體力歸零就得等待恢復（例如每幾分鐘回一點）或用道具、課金立即補滿。源自早期社群遊戲時代，目的是確保玩家每天固定時段回來報到，而不是一次玩到飽後就流失。現代手遊多採「平時體力花不完，大型活動才吃緊」的寬鬆設計，避免過度限制引發反感。",
+    "features": [
+      "消耗行為觸發扣點",
+      "隨時間自動恢復",
+      "道具或課金可立即回滿",
+      "上限隨等級提升",
+      "活動期間常額外放送"
+    ],
+    "examples": [
+      {
+        "title": "原神",
+        "en": "Genshin Impact",
+        "appid": null,
+        "year": 2020,
+        "why": "樹脂系統是體力機制在開放世界手遊的代表案例"
+      },
+      {
+        "title": "楓之谷M",
+        "en": "MapleStory M",
+        "appid": 3969080,
+        "year": 2018,
+        "why": "傳統韓系手遊體力機制的長壽案例"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "stamina-system",
+        "diff": "手遊的體力是限制「一天能玩幾次」的計時貨幣；動作遊戲的體力條是限制「一次能連續做幾個動作」的即時資源。"
+      }
+    ],
+    "related": [
+      "daily-weekly-quest",
+      "sweep",
+      "idle-rewards"
+    ],
+    "design": "企劃要抓「限制」與「自由」的平衡：太緊會讓玩家覺得沒玩幾分鐘就被鎖住而流失，太鬆則體力系統形同虛設。建議先抓目標玩家的每日遊玩時長，再回推恢復速度與上限。",
+    "sources": [
+      {
+        "title": "Stamina System - Gaming Glossary",
+        "url": "https://www.larksuite.com/en_us/topics/gaming-glossary/stamina-system",
+        "accessed": "2026-09-17",
+        "note": "體力／能量系統定義與商業目的"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "daily-weekly-quest",
+    "zh": "每日／每週任務（Daily / Weekly Quest）",
+    "en": "Daily / Weekly Quest",
+    "aliases": [
+      "日常任務",
+      "週常任務",
+      "每日簽到任務"
+    ],
+    "cat": "mobile",
+    "sub": "手遊留存機制",
+    "short": "每天或每週重置、養成登入習慣的固定任務。",
+    "def": "每天或每週重置一次的任務系統，完成後獲得固定獎勵，設計目的是讓玩家養成「打開遊戲就順便做一下」的習慣。典型任務如擊敗若干敵人、消耗一定體力、單純登入即可，多半設計在五到十五分鐘內能做完。是目前幾乎所有服務型手遊的標準配備，也是分析玩家流失率最常拿來看的行為指標之一。",
+    "features": [
+      "每日或每週固定重置",
+      "獎勵固定不隨機",
+      "多為短時間可完成",
+      "常搭配登入獎勵出現",
+      "可委託或一鍵完成"
+    ],
+    "examples": [
+      {
+        "title": "原神",
+        "en": "Genshin Impact",
+        "appid": null,
+        "year": 2020,
+        "why": "委託任務是每日任務搭配自動化完成的代表"
+      },
+      {
+        "title": "楓之谷M",
+        "en": "MapleStory M",
+        "appid": 3969080,
+        "year": 2018,
+        "why": "每日與週常任務並行的韓系手遊範例"
+      }
+    ],
+    "steamTags": [],
+    "compare": [],
+    "related": [
+      "energy-system",
+      "idle-rewards"
+    ],
+    "design": "陷阱在於設計得太繁瑣會讓玩家覺得「被迫上班」而非享受遊戲。建議提供委託、一鍵完成等功能讓老玩家快速消化，任務內容也要跟核心遊戲內容連動，不要淪為純數字打卡。",
+    "sources": [
+      {
+        "title": "Daily Quests - Gaming Glossary",
+        "url": "https://www.larksuite.com/en_us/topics/gaming-glossary/daily-quests",
+        "accessed": "2026-09-17",
+        "note": "每日任務定義與留存目的"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "reroll",
+    "zh": "首抽洗帳（Reroll）",
+    "en": "Reroll",
+    "aliases": [
+      "洗初始",
+      "洗帳號",
+      "重抽"
+    ],
+    "cat": "mobile",
+    "sub": "手遊課金與抽卡",
+    "short": "開新帳號重複抽初始角色直到滿意才正式開玩。",
+    "def": "玩家在遊戲剛開始時，利用新帳號的免費抽卡資源，反覆刪除重建帳號抽卡，直到抽到心儀角色才正式開始遊玩的行為。對營運方是兩難：一方面 Reroll 會浪費伺服器資源、破壞經濟平衡；另一方面活躍的 Reroll 攻略社群本身也是遊戲熱度的展現，代表玩家真的在乎抽卡結果。",
+    "features": [
+      "利用新帳號免費資源",
+      "反覆刪除重建帳號",
+      "目標是抽到指定角色",
+      "社群會整理洗帳教學",
+      "可能被官方機制限制"
+    ],
+    "examples": [
+      {
+        "title": "鳴潮",
+        "en": "Wuthering Waves",
+        "appid": 3513350,
+        "year": 2024,
+        "why": "開服首抽是近年討論度最高的 Reroll 案例之一"
+      },
+      {
+        "title": "原神",
+        "en": "Genshin Impact",
+        "appid": null,
+        "year": 2020,
+        "why": "教學章節後綁定帳號、限制洗帳的代表設計"
+      }
+    ],
+    "steamTags": [],
+    "compare": [],
+    "related": [
+      "gacha-culture",
+      "launch-dash",
+      "banner"
+    ],
+    "design": "Reroll 的便利性本身是設計選擇：可用「特定章節後綁定帳號」等機制提高洗帳門檻，或反過來提供遊客帳號、加碼首抽資源歡迎玩家嘗試，兩種方向沒有絕對對錯，取決於營運策略。",
+    "sources": [
+      {
+        "title": "Rerolling in Gacha Games: Striving for Optimal Starts",
+        "url": "https://medium.com/illumination-gaming/rerolling-in-gacha-games-striving-for-optimal-starts-cbbfd8f04362",
+        "accessed": "2026-09-17",
+        "note": "Reroll 行為定義與玩家動機"
+      },
+      {
+        "title": "Gacha game - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Gacha_game",
+        "accessed": "2026-09-17",
+        "note": "提及玩家透過刪除重建帳號進行 Reroll"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "gacha-culture",
+    "zh": "課金文化與抽卡黑話（Gacha Culture）",
+    "en": "Gacha Culture",
+    "aliases": [
+      "抽卡",
+      "轉蛋",
+      "氪金（中）",
+      "榨菜（中，指抽卡機率極低）"
+    ],
+    "cat": "mobile",
+    "sub": "手遊課金與抽卡",
+    "short": "圍繞抽卡課金行為發展出的玩家用語與社群文化。",
+    "def": "「課金」是台灣通用說法，源自日文「課金」（計費之意），指玩家用真實貨幣購買遊戲內貨幣或直接抽卡；中國慣用「氪金」，兩者意思相同但用語不同，本百科一律用「課金」。圍繞課金衍生大量黑話：「課長」指重度付費玩家，「無課」指完全不花錢，「保底」「井」「天井」指抽卡的保底機制，「歪」指保底時沒抽到限定角色反而抽到常駐角色。這些詞彙構成手遊社群獨有的溝通語言，機制設計面向請見「保底機制」詞條。",
+    "features": [
+      "圍繞真實貨幣購買抽卡機會",
+      "衍生大量社群黑話",
+      "課長／無課／微課分級稱呼",
+      "保底、歪、井等結果用語",
+      "與賭博心理機制相似引發爭議"
+    ],
+    "examples": [
+      {
+        "title": "鳴潮",
+        "en": "Wuthering Waves",
+        "appid": 3513350,
+        "year": 2024,
+        "why": "近年討論度極高的課金與保底黑話案例"
+      },
+      {
+        "title": "原神",
+        "en": "Genshin Impact",
+        "appid": null,
+        "year": 2020,
+        "why": "「歪」「井」等黑話多半源自這款遊戲的玩家社群"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "whale",
+        "diff": "gacha-culture 是課金與抽卡整體的黑話文化；whale 專指其中課金金額最高的極端玩家。"
+      }
+    ],
+    "related": [
+      "pity-counter",
+      "banner",
+      "whale",
+      "f2p-player"
+    ],
+    "design": "這是文化與黑話面的整理，機制設計本身（保底機率如何配置）請對照「gacha」與「保底機制」詞條。企劃在社群溝通或行銷文案上使用黑話時，要注意台灣與中國用語不能混用，玩家對用詞很敏感。",
+    "tw": "台灣一律說「課金」「課長」，中國多用「氪金」；台灣也常說「儲值」。",
+    "sources": [
+      {
+        "title": "Gacha game - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Gacha_game",
+        "accessed": "2026-09-17",
+        "note": "課金、保底、鯨魚等術語的英文定義來源"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "collab-event",
+    "zh": "聯動活動（Collaboration / Collab）",
+    "en": "Collaboration (Collab)",
+    "aliases": [
+      "聯動",
+      "跨界合作",
+      "IP聯名"
+    ],
+    "cat": "mobile",
+    "sub": "手遊社交與活動",
+    "short": "兩個 IP 跨界合作推出限時角色或劇情的活動。",
+    "def": "兩個不同 IP 之間的跨界合作限時活動，常見形式是把動漫或其他遊戲的角色以聯名造型、客串劇情的方式放進遊戲。目的是吸引新玩家、喚回老玩家、帶動社群話題，但成本極高，需要同時談版權費與雙方檔期協調。成功的聯動不只是把客串角色塞進去賣，而是讓兩邊粉絲都覺得這個組合是認真做的。",
+    "features": [
+      "兩個獨立 IP 跨界合作",
+      "限時角色或劇情",
+      "版權與協調成本高",
+      "常伴隨限定造型與抽卡池",
+      "雙方粉絲群同時導流"
+    ],
+    "examples": [
+      {
+        "title": "Fortnite",
+        "en": "Fortnite",
+        "appid": null,
+        "year": 2017,
+        "why": "漫威、星際大戰等大型聯動的代表案例"
+      },
+      {
+        "title": "Fate/Grand Order",
+        "en": "Fate/Grand Order",
+        "appid": null,
+        "year": 2015,
+        "why": "與多部動漫作品跨界聯動是這款手遊代表性的商業模式"
+      }
+    ],
+    "steamTags": [],
+    "compare": [],
+    "related": [
+      "limited-time-event",
+      "banner"
+    ],
+    "design": "聯動的設計目標不只是賣角色，要在劇情或內容上打造兩個世界交會的橋段，而非單純把客串角色丟進轉蛋池。企劃談聯動時，授權範圍、上線時間與雙方行銷步調要提早鎖死。",
+    "sources": [
+      {
+        "title": "List of crossovers in video games - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/List_of_crossovers_in_video_games",
+        "accessed": "2026-09-17",
+        "note": "電玩跨界聯動列表與定義"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "tier-list",
+    "zh": "強度排行榜（Tier List）",
+    "en": "Tier List",
+    "aliases": [
+      "T表",
+      "強度表",
+      "角色強度排名"
+    ],
+    "cat": "mobile",
+    "sub": "手遊社交與活動",
+    "short": "玩家社群對角色或陣容強度由 S 到 D／F 分級的排名。",
+    "def": "玩家社群對角色、英雄或陣容強度的排名系統，通常從 S（Super Tier，最強）排到 D 或 F（最弱）。手遊、格鬥遊戲、MOBA 等所有有角色選擇的遊戲都會發展出強度表，它影響新玩家的抽卡決策、競技玩家的選角策略，也是平衡性討論的起點。官方通常不會自己發布強度表，避免玩家對被列為弱角的角色不滿，但會密切關注社群排名作為調整依據。",
+    "features": [
+      "S 到 D／F 分級呈現",
+      "由玩家社群自發整理",
+      "影響抽卡與選角決策",
+      "反映版本強度變化",
+      "官方多半不主動公布"
+    ],
+    "examples": [
+      {
+        "title": "英雄聯盟",
+        "en": "League of Legends",
+        "appid": null,
+        "year": 2009,
+        "why": "每個版本更新後強度表都會大幅變動的代表遊戲"
+      },
+      {
+        "title": "鳴潮",
+        "en": "Wuthering Waves",
+        "appid": 3513350,
+        "year": 2024,
+        "why": "手遊角色強度表影響玩家抽卡決策的近例"
+      }
+    ],
+    "steamTags": [],
+    "compare": [],
+    "related": [
+      "balance-patch",
+      "patch-meta"
+    ],
+    "design": "健康的強度表分布應該是每個等級都有數個角色，而不是只有兩個 S 級角色輾壓全部。企劃做平衡調整時可以把社群強度表當參考，但不用照單全收，畢竟排名常受限於當下流行打法而非長期數據。",
+    "sources": [
+      {
+        "title": "Tier list - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Tier_list",
+        "accessed": "2026-09-17",
+        "note": "強度排行榜的起源與定義"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "sweep",
+    "zh": "掃蕩（Sweep / Auto Clear）",
+    "en": "Sweep / Auto Clear",
+    "aliases": [
+      "一鍵掃蕩",
+      "自動通關",
+      "快速戰鬥"
+    ],
+    "cat": "mobile",
+    "sub": "手遊留存機制",
+    "short": "用體力直接領副本獎勵、跳過戰鬥過程的功能。",
+    "def": "手遊中讓玩家用體力或特定道具直接獲得副本獎勵、不需重新看一次戰鬥過程的功能，通常要先實際打贏過一次副本或拿到滿星評價才會解鎖。這是對「重複刷取」很重要的體驗改善：如果玩家已經打過同一關卡上百次，逼他每次都看完幾分鐘的戰鬥動畫等於是折磨。沒有掃蕩功能的手遊常被評價為肝、老派。",
+    "features": [
+      "需先手動通關解鎖",
+      "跳過戰鬥直接領獎勵",
+      "常有每日掃蕩次數上限",
+      "可批次連續掃蕩",
+      "VIP 或課金可提升上限"
+    ],
+    "examples": [
+      {
+        "title": "楓之谷M",
+        "en": "MapleStory M",
+        "appid": 3969080,
+        "year": 2018,
+        "why": "韓系手遊常見的每日掃蕩次數限制設計"
+      },
+      {
+        "title": "鳴潮",
+        "en": "Wuthering Waves",
+        "appid": 3513350,
+        "year": 2024,
+        "why": "開放世界手遊也導入副本快速掃蕩機制"
+      }
+    ],
+    "steamTags": [],
+    "compare": [],
+    "related": [
+      "energy-system",
+      "auto-battle"
+    ],
+    "design": "掃蕩門檻的拿捏是學問：太早開放會讓戰鬥內容被跳過、失去曝光；太晚開放則折磨玩家。企劃通常會設「首通不能掃、需滿星或通關 N 次後解鎖」的規則。",
+    "sources": [
+      {
+        "title": "Lords Mobile Guide - Auto Farm Hero Stages",
+        "url": "https://gamebots.run/news/Lords-Mobile-Guide--Auto-Farm-Hero-Stages-on-Lords-Mobile-for-More-Rewards-3156",
+        "accessed": "2026-09-17",
+        "note": "手遊掃蕩／自動刷關機制實例"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "limited-time-event",
+    "zh": "限時活動（Limited-Time Event）",
+    "en": "Limited-Time Event",
+    "aliases": [
+      "期間限定活動",
+      "限時任務"
+    ],
+    "cat": "mobile",
+    "sub": "手遊留存機制",
+    "short": "特定期間才能參加、結束就消失獎勵的活動。",
+    "def": "只在特定時間內開放、結束後獎勵無法再取得的活動，設計上利用「怕錯過症」心理促使玩家定期上線。典型週期包含大型改版、節日活動、週年慶等。過度依賴限時稀缺感會讓玩家疲勞進而退坑，健康做法是把核心獎勵設計成常駐或未來可復刻，真正稀缺的只留給不影響戰鬥力的限定造型。",
+    "features": [
+      "時間到就永久結束",
+      "製造錯過即失去的心理壓力",
+      "常搭配活動限定造型",
+      "核心獎勵可考慮日後復刻",
+      "週期與大型改版連動"
+    ],
+    "examples": [
+      {
+        "title": "原神",
+        "en": "Genshin Impact",
+        "appid": null,
+        "year": 2020,
+        "why": "版本活動與限定造型是限時活動的典型案例"
+      },
+      {
+        "title": "鳴潮",
+        "en": "Wuthering Waves",
+        "appid": 3513350,
+        "year": 2024,
+        "why": "版本活動的限定角色與道具同樣走限時稀缺設計"
+      }
+    ],
+    "steamTags": [],
+    "compare": [],
+    "related": [
+      "collab-event",
+      "event-shop",
+      "banner"
+    ],
+    "design": "過度濫用「怕錯過症」會讓玩家長期疲勞。建議把戰力相關的核心獎勵設計成常駐或可復刻取得，把真正的稀缺感留給不影響數值的裝扮內容。",
+    "sources": [
+      {
+        "title": "How video games abuse the fear of missing out",
+        "url": "https://www.gamedeveloper.com/design/how-video-games-abuse-the-fear-of-missing-out",
+        "accessed": "2026-09-17",
+        "note": "限時活動與怕錯過症心理機制分析"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "auto-battle",
+    "zh": "自動戰鬥（Auto Battle）",
+    "en": "Auto Battle",
+    "aliases": [
+      "掛機戰鬥",
+      "一鍵自動",
+      "託管戰鬥"
+    ],
+    "cat": "mobile",
+    "sub": "手遊戰鬥設計",
+    "short": "讓 AI 代替玩家操作戰鬥過程的功能。",
+    "def": "讓 AI 代替玩家控制角色進行戰鬥的功能，是手遊圈長年的爭議設計：支持者認為它解放了玩家雙手，適合通勤等零碎時間；反對者認為讓遊戲自己玩自己會失去操作樂趣。現代手遊多採折衷，日常內容可以掛機自動打，但關鍵 Boss 戰或 PvP 對戰則強制手動操作，藉此保留核心體驗的技術含量。",
+    "features": [
+      "AI 代替玩家操作",
+      "日常內容常態開放",
+      "高難度或 PvP 常強制手動",
+      "可調整自動戰鬥策略",
+      "與掃蕩常搭配使用"
+    ],
+    "examples": [
+      {
+        "title": "原神",
+        "en": "Genshin Impact",
+        "appid": null,
+        "year": 2020,
+        "why": "僅在部分內容開放有限度自動戰鬥的代表"
+      },
+      {
+        "title": "鳴潮",
+        "en": "Wuthering Waves",
+        "appid": 3513350,
+        "year": 2024,
+        "why": "動作戰鬥手遊也提供自動託管功能"
+      }
+    ],
+    "steamTags": [],
+    "compare": [],
+    "related": [
+      "sweep",
+      "idle-rewards"
+    ],
+    "design": "設計挑戰在於 AI 的策略再怎樣都不如頂尖玩家，但如果 AI 表現太差玩家又會覺得浪費體力。實務上讓 AI 做到七八成正確率即可，太聰明反而會壓縮手動遊玩的價值感。",
+    "sources": [
+      {
+        "title": "Auto battler - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Auto_battler",
+        "accessed": "2026-09-17",
+        "note": "自動戰鬥相關機制的定義背景"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "guild-war",
+    "zh": "公會戰（Guild War / Alliance War）",
+    "en": "Guild War / Alliance War",
+    "aliases": [
+      "聯盟戰",
+      "跨公會戰",
+      "公會競賽"
+    ],
+    "cat": "mobile",
+    "sub": "手遊社交與活動",
+    "short": "玩家公會之間互相競賽的手遊模式。",
+    "def": "手遊中由玩家組成的公會或聯盟之間進行的競賽模式，形式多樣：跨公會共同挑戰 Boss 比傷害排名、公會對公會一對一互打，或是佔領地圖格子的領地爭奪。公會戰真正的價值不是獎勵本身，而是創造隊友需要我的社交壓力，讓玩家因為不想讓公會失望而持續上線，是提升留存率的重要武器。",
+    "features": [
+      "以玩家公會為單位競賽",
+      "形式含 Boss 賽、對戰、領地爭奪",
+      "製造隊友互相需要的社交壓力",
+      "常有固定開打時段",
+      "獎勵依貢獻或排名分配"
+    ],
+    "examples": [
+      {
+        "title": "七大罪：光與闇之交戰",
+        "en": "The Seven Deadly Sins: Grand Cross",
+        "appid": null,
+        "year": 2019,
+        "why": "公會戰是其社交內容的招牌系統之一"
+      },
+      {
+        "title": "夢幻模擬戰",
+        "en": "Langrisser Mobile",
+        "appid": null,
+        "year": 2018,
+        "why": "戰棋手遊結合公會戰的代表案例"
+      }
+    ],
+    "steamTags": [],
+    "compare": [],
+    "related": [
+      "daily-weekly-quest",
+      "limited-time-event"
+    ],
+    "design": "公會戰是留存率的大殺器，但要避免強迫全員固定時段上線的壓力，特別是有時區差的跨國公會。可提供不參加沒有懲罰、參加才有額外獎勵的柔性誘因。",
+    "sources": [
+      {
+        "title": "Guild War - Hero Wars: Alliance",
+        "url": "https://support-hwa.nexters.com/hc/en-us/articles/6094698021266-Guild-War",
+        "accessed": "2026-09-17",
+        "note": "手遊公會戰官方說明頁面"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "elo-mmr",
+    "zh": "評分與段位系統（ELO／MMR／Ranked Tier）",
+    "en": "ELO / MMR / Ranked Tier",
+    "aliases": [
+      "天梯分數",
+      "隱藏分數",
+      "段位"
+    ],
+    "cat": "esports",
+    "sub": "電競賽制與規則",
+    "short": "評估玩家實力、用於配對與分級的評分機制。",
+    "def": "ELO 是源自西洋棋的評分系統，勝者從敗者處拿走分數，雙方分數差越大，每場能變動的分數就越小。MMR 是遊戲內部用來配對的隱藏分數；段位則是把 MMR 映射成青銅、白銀、黃金等玩家看得到的視覺化階層。三者概念不同：ELO 是計算方法，MMR 是真正拿來配對的數字，段位只是把 MMR 包裝成好懂的外顯標籤，兩者有時不一致，例如新玩家段位偏低但系統判定的 MMR 其實已經很高。",
+    "features": [
+      "勝負決定分數增減",
+      "MMR 用於配對隱藏於玩家",
+      "段位是 MMR 的外顯呈現",
+      "分差越大變動幅度越小",
+      "新帳號需要校準期"
+    ],
+    "examples": [
+      {
+        "title": "Dota 2",
+        "en": "Dota 2",
+        "appid": 570,
+        "year": 2013,
+        "why": "公開顯示 MMR 數值的代表競技遊戲"
+      },
+      {
+        "title": "英雄聯盟",
+        "en": "League of Legends",
+        "appid": null,
+        "year": 2009,
+        "why": "段位視覺化系統的教科書案例"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 5055,
+        "en": "eSports"
+      }
+    ],
+    "compare": [
+      {
+        "with": "ranked",
+        "diff": "elo-mmr 講的是評分與配對的計算機制本身；ranked 指官方提供、把這套機制包裝成賽季與分級的對戰模式。"
+      }
+    ],
+    "related": [
+      "ban-pick",
+      "smurf-boosting"
+    ],
+    "design": "段位系統要同時兼顧挑戰感（升段有成就感）與挫折感（連續降段會讓玩家退坑）。業界常見折衷是設保護段，讓低段位不會因連敗一路掉到更低分級。",
+    "sources": [
+      {
+        "title": "Elo rating system - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Elo_rating_system",
+        "accessed": "2026-09-17",
+        "note": "ELO 評分機制原理與歷史"
+      },
+      {
+        "title": "Skill-based matchmaking - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Skill-based_matchmaking",
+        "accessed": "2026-09-17",
+        "note": "MMR 與技能配對定義"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "ban-pick",
+    "zh": "禁選階段（Ban / Pick Phase）",
+    "en": "Ban / Pick Phase",
+    "aliases": [
+      "BP",
+      "選角階段",
+      "選人階段",
+      "Draft Phase"
+    ],
+    "cat": "esports",
+    "sub": "電競賽制與規則",
+    "short": "對戰前雙方輪流禁用與選用角色的階段。",
+    "def": "競技遊戲開賽前，雙方輪流禁止對方使用特定角色（Ban）、再選擇自己要用的角色（Pick）的階段，也稱作 Draft Phase。這是策略層面的延伸：透過禁掉對方擅長的角色、搭配己方陣容的協同效果，勝負往往在對戰真正開始前就已經定了一半，電競賽事的 BP 環節常常比對戰本身更有看點。BP 系統的複雜度要跟角色池大小匹配，角色破百的遊戲必須有 BP，否則強勢陣容會過度單一。",
+    "features": [
+      "雙方輪流禁用角色",
+      "禁完才進入選角",
+      "陣容搭配與反制對手並重",
+      "角色池越大 BP 越重要",
+      "常見於 MOBA 與戰術射擊"
+    ],
+    "examples": [
+      {
+        "title": "英雄聯盟",
+        "en": "League of Legends",
+        "appid": null,
+        "year": 2009,
+        "why": "職業賽事 BP 環節最具代表性的遊戲"
+      },
+      {
+        "title": "Dota 2",
+        "en": "Dota 2",
+        "appid": 570,
+        "year": 2013,
+        "why": "隊長模式的禁選機制歷史悠久"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 1718,
+        "en": "MOBA"
+      }
+    ],
+    "compare": [],
+    "related": [
+      "elo-mmr",
+      "patch-meta",
+      "roster-lock"
+    ],
+    "design": "BP 環節設計要考慮觀賽節奏，禁選時間拖太長會讓轉播冷場；也要留意先選劣勢問題，通常用交替選角或加碼先選方其他補償來平衡。",
+    "sources": [
+      {
+        "title": "Team drafting - League of Legends Wiki",
+        "url": "https://wiki.leagueoflegends.com/en-us/Team_drafting",
+        "accessed": "2026-09-17",
+        "note": "英雄聯盟禁選階段官方說明"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "balance-patch",
+    "zh": "版本平衡更新（Balance Patch）",
+    "en": "Balance Patch",
+    "aliases": [
+      "平衡性更新",
+      "調整補丁"
+    ],
+    "cat": "esports",
+    "sub": "電競版本與競技倫理",
+    "short": "定期調整角色與機制強弱以維持競技健康的更新。",
+    "def": "開發商定期釋出、用來調整角色、裝備或機制強弱的更新，目標是維持遊戲的競技健康度。做法包含削弱過強的角色（Nerf）、強化被冷落的角色（Buff），有時也會微調核心機制讓版本環境產生變化。頻率通常是每兩到四週一次小型調整，每三到六個月一次大改版。平衡的最高境界不是所有角色勝率都五成，而是每個角色在某種情境下都值得被選，無法被選擇的角色形同不存在。",
+    "features": [
+      "定期釋出調整",
+      "削弱過強角色 Nerf",
+      "強化冷門角色 Buff",
+      "影響版本環境",
+      "小改版與大改版交錯"
+    ],
+    "examples": [
+      {
+        "title": "英雄聯盟",
+        "en": "League of Legends",
+        "appid": null,
+        "year": 2009,
+        "why": "每兩週一次平衡更新的長年案例"
+      },
+      {
+        "title": "Dota 2",
+        "en": "Dota 2",
+        "appid": 570,
+        "year": 2013,
+        "why": "不定期大版本調整對版本環境影響巨大"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 5055,
+        "en": "eSports"
+      }
+    ],
+    "compare": [
+      {
+        "with": "patch-meta",
+        "diff": "balance-patch 是官方發布的調整更新本身；patch-meta 是玩家社群對目前版本最強打法的解讀與追隨結果。"
+      }
+    ],
+    "related": [
+      "tier-list",
+      "patch-meta"
+    ],
+    "design": "平衡調整節奏要跟賽事行事曆配合，職業聯賽開打前通常會凍結版本，避免選手練好的陣容一夕報廢。調整幅度也要抓分寸，一次改動過猛容易讓版本環境洗牌到玩家跟不上。",
+    "sources": [
+      {
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-us/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "accessed": "2026-09-17",
+        "note": "官方平衡更新公告範例"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "spectator-replay",
+    "zh": "觀戰與重播系統（Spectator Mode / Replay System）",
+    "en": "Spectator Mode / Replay System",
+    "aliases": [
+      "觀戰模式",
+      "比賽錄影",
+      "戰績回放"
+    ],
+    "cat": "esports",
+    "sub": "電競轉播與呈現",
+    "short": "讓玩家觀看他人對戰或回顧自己過去比賽的功能。",
+    "def": "讓玩家觀看他人即時對戰、或事後回放自己過去比賽的功能。觀戰是電競賽事轉播的核心技術，通常需要延遲播放與導播視角等功能防止利用觀戰資訊作弊；重播則讓選手能分析自己的失誤，是電競訓練不可或缺的工具。設計上通常記錄輸入資料而非整段影片，檔案極小又能任意切換視角，但版本更新後常讓舊重播檔失效，是業界長年的技術難題。",
+    "features": [
+      "觀戰含延遲防作弊機制",
+      "重播可調整播放速度",
+      "多以輸入資料而非影片儲存",
+      "支援自由切換視角",
+      "版本更新可能使舊檔失效"
+    ],
+    "examples": [
+      {
+        "title": "《鬥陣特攻®》",
+        "en": "Overwatch 2",
+        "appid": 2357570,
+        "year": 2023,
+        "why": "具備完整觀戰與重播系統的代表射擊遊戲"
+      },
+      {
+        "title": "Dota 2",
+        "en": "Dota 2",
+        "appid": 570,
+        "year": 2013,
+        "why": "重播檔可下載並切換多視角觀看"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 5055,
+        "en": "eSports"
+      }
+    ],
+    "compare": [],
+    "related": [
+      "caster",
+      "high-refresh-low-latency"
+    ],
+    "design": "設計重播系統建議優先儲存輸入資料而非畫面影片，檔案體積差距可能是數百倍；但要提早規劃版本相容性策略，否則每次更新都會讓舊重播全部報銷。",
+    "sources": [
+      {
+        "title": "Spectator Mode - League of Legends Wiki",
+        "url": "https://wiki.leagueoflegends.com/en-us/Spectator_Mode",
+        "accessed": "2026-09-17",
+        "note": "電競觀戰模式定義與歷史"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "bo3-bo5",
+    "zh": "三戰兩勝／五戰三勝制（Best of Three / Best of Five）",
+    "en": "Best of Three / Best of Five",
+    "aliases": [
+      "BO3",
+      "BO5",
+      "BO7"
+    ],
+    "cat": "esports",
+    "sub": "電競賽制與規則",
+    "short": "電競比賽的多局制勝出規則。",
+    "def": "電競比賽常見的勝出制度。BO3 是三戰兩勝制，先贏兩場者勝；BO5 是五戰三勝制，先贏三場者勝；重大決賽有時採 BO7。局數越長的賽制越能減少單場運氣或狀態波動的影響，也能測試選手在不同地圖或陣容策略下的全面實力，是目前絕大多數大型電競賽事採用的標準格式。",
+    "features": [
+      "先贏指定局數者獲勝",
+      "局數越多越降低運氣因素",
+      "常依賽程輪次調整局數",
+      "決賽多採較長局數",
+      "可測試多套戰術與陣容"
+    ],
+    "examples": [
+      {
+        "title": "Dota 2",
+        "en": "Dota 2",
+        "appid": 570,
+        "year": 2013,
+        "why": "國際邀請賽淘汰賽採用 BO3／BO5 賽制"
+      },
+      {
+        "title": "Counter-Strike 2",
+        "en": "Counter-Strike 2",
+        "appid": 730,
+        "year": 2023,
+        "why": "大型賽事依輪次切換 BO1、BO3、BO5"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 5055,
+        "en": "eSports"
+      }
+    ],
+    "compare": [],
+    "related": [
+      "bracket",
+      "lan-vs-online"
+    ],
+    "design": "賽制選擇會直接影響觀眾體驗：BO1 節奏快但結果容易被單場運氣左右，BO5 深度足夠但耗時長。實務上小組賽多用 BO1 或 BO3，淘汰賽用 BO3 或 BO5。",
+    "sources": [
+      {
+        "title": "What Is Best of Three (Bo3)? Match Guide",
+        "url": "https://readyraider.com/what-is-best-of-three",
+        "accessed": "2026-09-17",
+        "note": "BO3／BO5 賽制定義與各賽事採用情形"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "smurf-boosting",
+    "zh": "小號與代練（Smurf / Boosting）",
+    "en": "Smurf / Boosting",
+    "aliases": [
+      "養小號",
+      "馬甲帳號",
+      "代打段位"
+    ],
+    "cat": "esports",
+    "sub": "電競版本與競技倫理",
+    "short": "高手開小帳號虐新手、或付費請人代打段位的爭議行為。",
+    "def": "兩種都有爭議的競技遊戲行為。小號指高段位玩家刻意創建新帳號，跑到低段位對局虐殺新手，因為新帳號 MMR 從零開始，但實際操作水準遠超當前段位；代練則是花錢請高手用你的帳號打到更高段位，是明確違反規則的付費作弊。差別在於：小號是本人操作但帳號等級失真，代練是帳號等級由別人操作出來的假象；共同點是都會讓對戰配對失去公平性。",
+    "features": [
+      "小號為本人操作的新帳號",
+      "代練為付費代打服務",
+      "都破壞配對公平性",
+      "多數遊戲明文禁止",
+      "難以完全杜絕只能控管"
+    ],
+    "examples": [
+      {
+        "title": "Counter-Strike 2",
+        "en": "Counter-Strike 2",
+        "appid": 730,
+        "year": 2023,
+        "why": "Steam 已把小號與代練列入行為規範明文禁止"
+      },
+      {
+        "title": "Dota 2",
+        "en": "Dota 2",
+        "appid": 570,
+        "year": 2013,
+        "why": "小號問題長年是社群討論的競技環境爭議之一"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 5055,
+        "en": "eSports"
+      }
+    ],
+    "compare": [],
+    "related": [
+      "elo-mmr"
+    ],
+    "design": "防堵小號的常見手段有手機或信用卡綁定帳號識別、初期加速讓高手小號快速衝出低段位、以及優先審查高勝率新帳號的舉報。完全杜絕不可能，目標只能放在把影響控制在可接受範圍。",
+    "sources": [
+      {
+        "title": "The ethics of smurfing",
+        "url": "https://www.pcgamer.com/the-ethics-of-smurfing/",
+        "accessed": "2026-09-17",
+        "note": "小號行為的定義、動機與爭議"
+      },
+      {
+        "title": "Boosting: Rank and skill deception in esports",
+        "url": "https://www.sciencedirect.com/science/article/pii/S1875952120301014",
+        "accessed": "2026-09-17",
+        "note": "代練行為的學術分析"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "caster",
+    "zh": "主播與賽評（Caster / Commentator）",
+    "en": "Caster / Commentator",
+    "aliases": [
+      "主播",
+      "賽評",
+      "實況主播",
+      "解說（中）"
+    ],
+    "cat": "esports",
+    "sub": "電競轉播與呈現",
+    "short": "電競賽事的現場講評人員。",
+    "def": "電競賽事轉播的現場講評人。Play-by-Play Caster（主播）負責即時描述正在發生的動作，語速快、節奏感強，像體育轉播的播報員；Color Commentator（賽評）則負責深度分析戰術、補充背景故事與數據，兩人搭檔是最常見的轉播組合。台灣慣用主播與賽評兩個稱呼分工，中國則常把賽評稱作解說，用語不同但角色功能相同。",
+    "features": [
+      "主播負責即時實況播報",
+      "賽評負責戰術與背景分析",
+      "雙人搭檔為主流轉播形式",
+      "需高度熟悉遊戲機制",
+      "影響觀眾對比賽的理解與投入"
+    ],
+    "examples": [
+      {
+        "title": "英雄聯盟",
+        "en": "League of Legends",
+        "appid": null,
+        "year": 2009,
+        "why": "LPL／LCK／LCS 等國際賽事轉播團隊制度成熟"
+      },
+      {
+        "title": "Dota 2",
+        "en": "Dota 2",
+        "appid": 570,
+        "year": 2013,
+        "why": "國際邀請賽轉播團隊同樣採用主播與賽評雙人搭檔"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 5055,
+        "en": "eSports"
+      }
+    ],
+    "compare": [],
+    "related": [
+      "spectator-replay"
+    ],
+    "design": "優秀的主播與賽評能讓普通比賽顯得精彩、精彩比賽顯得史詩。對賽事主辦方而言，培養講評人才的重要性不亞於培養選手。",
+    "tw": "台灣稱「主播」與「賽評」，中國多稱「解說」。",
+    "sources": [
+      {
+        "title": "Color commentator - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Color_commentator",
+        "accessed": "2026-09-17",
+        "note": "賽評／色彩講評角色定義"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "high-refresh-low-latency",
+    "zh": "高更新率與低延遲（High Refresh Rate / Low Latency）",
+    "en": "High Refresh Rate / Low Latency",
+    "aliases": [
+      "電競螢幕",
+      "144Hz／240Hz",
+      "輸入延遲"
+    ],
+    "cat": "esports",
+    "sub": "電競轉播與呈現",
+    "short": "電競級硬體對高更新率與低輸入延遲的講究。",
+    "def": "電競比賽對硬體規格的高標準要求。高更新率螢幕能在同一秒顯示更多畫面，讓玩家更快抓到對手動作；低延遲則要求從按鍵到畫面顯示的總延遲盡可能短，頂級電競場地能把延遲壓到 10 毫秒以下。換算下來，60Hz 每格畫面約 16.7 毫秒，144Hz 約 6.9 毫秒，240Hz 約 4.2 毫秒，差距雖小，但職業選手普遍能感受到差異。",
+    "features": [
+      "更新率越高每秒畫面越多",
+      "延遲涵蓋螢幕與網路等環節",
+      "職業賽事場地採頂規硬體",
+      "對一般玩家差異不明顯",
+      "常搭配無邊框視窗模式"
+    ],
+    "examples": [
+      {
+        "title": "Counter-Strike 2",
+        "en": "Counter-Strike 2",
+        "appid": 730,
+        "year": 2023,
+        "why": "職業選手普遍要求高更新率與低延遲環境的代表射擊遊戲"
+      },
+      {
+        "title": "英雄聯盟",
+        "en": "League of Legends",
+        "appid": null,
+        "year": 2009,
+        "why": "職業選手同樣要求高更新率與低延遲的競技環境"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 5055,
+        "en": "eSports"
+      }
+    ],
+    "compare": [],
+    "related": [
+      "spectator-replay",
+      "lan-vs-online"
+    ],
+    "design": "為電競設計的遊戲要在程式層面支援低輸入延遲模式、提供無邊框視窗模式，並公布明確的幀率上限。這些細節對一般玩家影響不大，卻是職業選手選擇設備的關鍵。",
+    "sources": [
+      {
+        "title": "144Hz vs 240Hz: Only 2.8ms Apart in Esports",
+        "url": "https://shattered.io/144hz-vs-240hz/",
+        "accessed": "2026-09-17",
+        "note": "不同更新率的延遲換算數據"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "whale",
+    "zh": "鯨魚玩家（Whale）",
+    "en": "Whale",
+    "aliases": [
+      "大課",
+      "土豪（中）",
+      "課長之王"
+    ],
+    "cat": "mobile",
+    "sub": "手遊課金與抽卡",
+    "short": "花費金額遠超一般玩家、貢獻大部分營收的重度付費玩家。",
+    "def": "手遊營收中花費金額最高的一小群玩家，術語借自賭場文化，原指賭場裡一擲千金的豪客。免費手遊的付費玩家通常可分成鯨魚、海豚、小魚三層，鯨魚人數占比可能只有百分之一到十，卻能貢獻遊戲一半甚至更高的總營收，是課金經濟模型的核心支柱。極端案例下，單一鯨魚一個月可能花費數千甚至數萬美元在抽卡或戰鬥通行證上。",
+    "features": [
+      "占玩家人數極小比例",
+      "貢獻營收比例極高",
+      "術語借自賭場豪客文化",
+      "營運常有專屬客服與活動",
+      "消費集中在抽卡與戰力道具"
+    ],
+    "examples": [
+      {
+        "title": "原神",
+        "en": "Genshin Impact",
+        "appid": null,
+        "year": 2020,
+        "why": "角色與武器池的高額課金玩家是常被討論的鯨魚案例"
+      },
+      {
+        "title": "鳴潮",
+        "en": "Wuthering Waves",
+        "appid": 3513350,
+        "year": 2024,
+        "why": "近年手遊上線初期的高額課金玩家同樣被稱為鯨魚"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 113,
+        "en": "Free to Play"
+      }
+    ],
+    "compare": [
+      {
+        "with": "f2p-player",
+        "diff": "whale 是花費金額最高、貢獻大部分營收的極端付費玩家；f2p-player 是完全不花錢或只花極少金額的玩家。"
+      }
+    ],
+    "related": [
+      "f2p-player",
+      "gacha-culture"
+    ],
+    "design": "商業設計上要注意倫理界線：轉蛋類機制的心理效果與賭博相似，對青少年與經濟弱勢玩家影響尤其明顯，部分國家已把特定轉蛋形式認定為賭博並加以限制。企劃設計課金誘因時需衡量長期玩家福祉，不只是短期營收數字。",
+    "sources": [
+      {
+        "title": "Free-to-play - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Free-to-play",
+        "accessed": "2026-09-17",
+        "note": "鯨魚、海豚、小魚玩家分層的營收比例數據"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "f2p-player",
+    "zh": "免費玩家（F2P Player）",
+    "en": "F2P Player",
+    "aliases": [
+      "白嫖",
+      "無課",
+      "微課",
+      "月卡黨"
+    ],
+    "cat": "mobile",
+    "sub": "手遊課金與抽卡",
+    "short": "完全不花錢或只花極少金額遊玩的玩家。",
+    "def": "在免費遊玩的商業模式下，完全不課金或只花少量金額（例如只買月卡）的玩家統稱，台灣玩家常自稱無課、微課，月卡等級的小額固定消費則稱月卡黨。F2P 模式讓遊戲能透過龐大的免費玩家基數撐起社群活躍度與配對品質，即使這群玩家幾乎不貢獻營收，仍是遊戲生態不可或缺的一環，因為對戰、社交與內容討論都需要足夠的人數規模。",
+    "features": [
+      "不花錢或只花極少金額",
+      "占玩家人數多數",
+      "仍需靠時間與練度累積戰力",
+      "撐起社群活躍與配對品質",
+      "常搭配免費資源設計友善度"
+    ],
+    "examples": [
+      {
+        "title": "原神",
+        "en": "Genshin Impact",
+        "appid": null,
+        "year": 2020,
+        "why": "零課玩家社群長期分享免費資源分配攻略"
+      },
+      {
+        "title": "鳴潮",
+        "en": "Wuthering Waves",
+        "appid": 3513350,
+        "year": 2024,
+        "why": "零課玩家社群同樣會分享免費資源分配攻略"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 113,
+        "en": "Free to Play"
+      }
+    ],
+    "compare": [
+      {
+        "with": "whale",
+        "diff": "f2p-player 幾乎不貢獻營收但構成玩家人數主體；whale 人數極少卻貢獻絕大部分收入。"
+      }
+    ],
+    "related": [
+      "whale",
+      "monthly-card"
+    ],
+    "design": "企劃要在讓免費玩家玩得下去與讓付費玩家感受到價值之間抓平衡。完全犧牲免費玩家體驗會讓社群失去活力與口碑擴散力，但福利給太多又會削弱付費誘因。",
+    "sources": [
+      {
+        "title": "Free-to-play - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Free-to-play",
+        "accessed": "2026-09-17",
+        "note": "F2P 商業模式與玩家分層定義"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "pity-counter",
+    "zh": "保底機制（Pity Counter）",
+    "en": "Pity System",
+    "aliases": [
+      "保底",
+      "井",
+      "天井",
+      "硬保底",
+      "軟保底"
+    ],
+    "cat": "mobile",
+    "sub": "手遊課金與抽卡",
+    "short": "累積抽數達門檻就保證取得高稀有度物品的機制。",
+    "def": "手遊抽卡系統的保底計數，避免玩家運氣過差、連續抽不到高稀有度物品的保護機制。常見分兩種：軟保底是接近門檻前掉落率逐步提升；硬保底是累積到固定抽數（俗稱天井）就直接保證取得，這個累積過程玩家俗稱「挖井」。若保底時拿到的是限定角色以外的常駐角色，玩家稱為「歪」。此機制與純機率不同：純機率每次抽取都是獨立事件、沒有記憶性；保底則是刻意設計的機率遞增與強制保證，本質是限制玩家連續不出貨的最大痛苦上限。",
+    "features": [
+      "累積抽數不出貨會提升機率",
+      "硬保底為固定抽數保證",
+      "軟保底為機率漸進上升",
+      "歪指保底命中非目標角色",
+      "多國法規要求機率公開揭露"
+    ],
+    "examples": [
+      {
+        "title": "原神",
+        "en": "Genshin Impact",
+        "appid": null,
+        "year": 2020,
+        "why": "90 抽硬保底、50/50 機制是最常被引用的保底範例"
+      },
+      {
+        "title": "鳴潮",
+        "en": "Wuthering Waves",
+        "appid": 3513350,
+        "year": 2024,
+        "why": "近年上線的保底機制被玩家拿來與原神比較"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "rng",
+        "diff": "pity-counter 是刻意設計的累積保證機制，抽數會被記憶並影響後續機率；rng 是每次獨立、彼此互不影響的純機率結果。"
+      }
+    ],
+    "related": [
+      "gacha-culture",
+      "banner",
+      "character-banner-rate-up"
+    ],
+    "design": "保底門檻高低直接決定玩家對課金金額的心理預期，企劃調整抽數時要同步試算最高保證花費，並注意多國法規已要求機率必須公開揭露，這是合規硬性要求而非選配。",
+    "sources": [
+      {
+        "title": "Gacha game - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Gacha_game",
+        "accessed": "2026-09-17",
+        "note": "軟保底、硬保底機制的正式定義"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "banner",
+    "zh": "卡池（Banner）",
+    "en": "Banner",
+    "aliases": [
+      "池子",
+      "復刻池",
+      "限定池"
+    ],
+    "cat": "mobile",
+    "sub": "手遊課金與抽卡",
+    "short": "手遊抽卡系統裡限定角色或道具的抽卡池。",
+    "def": "抽卡系統裡玩家實際抽取的物品池，可能常駐開放，也可能限時上架，是手遊營運排程的基本單位。Banner 原意是介面上宣傳角色美術的橫幅廣告，後來直接演變成指稱這個機率池本身。玩家常說「拉這個卡池」，指的就是在特定物品池裡抽卡，池子下架後若角色再度上架則稱為「復刻」。",
+    "features": [
+      "可為常駐或限時開放",
+      "是營運活動排程的基本單位",
+      "下架後可能復刻重新上架",
+      "通常搭配限定角色美術宣傳",
+      "與保底計數綁定計算"
+    ],
+    "examples": [
+      {
+        "title": "原神",
+        "en": "Genshin Impact",
+        "appid": null,
+        "year": 2020,
+        "why": "角色活動祈願卡池是這個詞最常見的使用情境"
+      },
+      {
+        "title": "鳴潮",
+        "en": "Wuthering Waves",
+        "appid": 3513350,
+        "year": 2024,
+        "why": "限定與常駐卡池並行的近期案例"
+      }
+    ],
+    "steamTags": [],
+    "compare": [],
+    "related": [
+      "pity-counter",
+      "character-banner-rate-up",
+      "gacha-culture"
+    ],
+    "design": "卡池排程本身就是留存設計的一環，企劃安排復刻節奏要考慮新舊角色的營收平衡，太快復刻會壓縮新角色的稀缺感，太慢復刻則讓錯過的玩家長期無法入手。",
+    "sources": [
+      {
+        "title": "Gacha game - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Gacha_game",
+        "accessed": "2026-09-17",
+        "note": "卡池定義與常駐、限時分類"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "ssr-tiers",
+    "zh": "稀有度分級（SSR／SR／R Tiers）",
+    "en": "Rarity Tiers (SSR/SR/R)",
+    "aliases": [
+      "星級",
+      "稀有度階級",
+      "N卡"
+    ],
+    "cat": "mobile",
+    "sub": "手遊課金與抽卡",
+    "short": "用星級或字母標示角色與道具稀有度高低的分級。",
+    "def": "手遊常見用來標示角色或道具稀有度的分級字母，常見排序由低到高是 N（普通）、R（稀有）、SR（超稀有）、SSR（超超稀有），部分遊戲更上層還有 UR（究極稀有）。字母越多層通常代表越難取得也越強力，玩家會圍繞它建立整套戰略。每款遊戲的字母命名與對應機率都不同，即使同樣叫 SSR，不同遊戲的實際掉落率可能差非常多，不能直接跨遊戲比較。",
+    "features": [
+      "以字母或星級標示稀有度",
+      "越高階通常越稀有越強",
+      "各遊戲字母命名不統一",
+      "機率通常需公開揭露",
+      "常與保底機制連動設計"
+    ],
+    "examples": [
+      {
+        "title": "原神",
+        "en": "Genshin Impact",
+        "appid": null,
+        "year": 2020,
+        "why": "以四星、五星取代字母的稀有度分級變體"
+      },
+      {
+        "title": "鳴潮",
+        "en": "Wuthering Waves",
+        "appid": 3513350,
+        "year": 2024,
+        "why": "同樣以星級呈現角色稀有度的近例"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "rarity-tier",
+        "diff": "ssr-tiers 專指手遊抽卡常見的 N／R／SR／SSR 字母分級慣例；rarity-tier 是泛指所有遊戲類型（含裝備掉落）的稀有度分級概念。"
+      }
+    ],
+    "related": [
+      "banner",
+      "pity-counter",
+      "dupes"
+    ],
+    "design": "企劃設計稀有度分級時，層數越多，數值與美術製作成本會等比放大，建議先確定總層數與各層機率區間，再回頭設計對應的保底與復刻節奏，避免中途加開新最高階層打亂既有機率結構。",
+    "sources": [
+      {
+        "title": "What Are Gacha Rarity Levels? (R, SR, SSR)",
+        "url": "https://www.fandomspot.com/gacha-rarity-levels/",
+        "accessed": "2026-09-17",
+        "note": "SSR／SR／R 稀有度分級定義與範例"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "dupes",
+    "zh": "重複角色／命座（Dupes）",
+    "en": "Duplicate Characters (Dupes)",
+    "aliases": [
+      "凸",
+      "命座",
+      "突破"
+    ],
+    "cat": "mobile",
+    "sub": "手遊課金與抽卡",
+    "short": "抽到已擁有角色的重複副本、可用來強化角色的機制。",
+    "def": "玩家抽到已經擁有的角色時得到的重複副本，多數手遊不會讓重複直接浪費，而是轉換成強化該角色的資源，讓玩家有動機持續抽同一個角色。台灣玩家常用「凸」稱呼這個強化階段；《原神》稱為「命座」，其他遊戲也有類似的對應設計。集滿全部重複、達到最高強化階段，玩家俗稱「畢業」。",
+    "features": [
+      "重複抽取轉為強化資源",
+      "不同遊戲命名不同（命座、凸等）",
+      "通常需多次重複才能點滿",
+      "強化幅度可能大幅改變戰力",
+      "是課金誘因設計的重要環節"
+    ],
+    "examples": [
+      {
+        "title": "原神",
+        "en": "Genshin Impact",
+        "appid": null,
+        "year": 2020,
+        "why": "命座系統是重複角色轉強化資源最知名的案例"
+      },
+      {
+        "title": "鳴潮",
+        "en": "Wuthering Waves",
+        "appid": 3513350,
+        "year": 2024,
+        "why": "共鳴解放系統同樣是重複角色轉強化資源的設計"
+      }
+    ],
+    "steamTags": [],
+    "compare": [],
+    "related": [
+      "ssr-tiers",
+      "gacha-culture",
+      "banner"
+    ],
+    "design": "命座、凸這類重複強化系統的幅度要謹慎拿捏：如果零重複與滿重複的戰鬥力差距過大，會讓免費玩家在高難度內容被明顯拉開差距，形成隱性的付費才能破台壓力，容易引發社群反彈。",
+    "sources": [
+      {
+        "title": "What to do with Duplicate Characters and Weapons",
+        "url": "https://www.appgamer.com/genshin-impact/strategy-guide/what-to-do-with-duplicate-characters-and-weapons",
+        "accessed": "2026-09-17",
+        "note": "原神重複角色轉命座機制說明"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "launch-dash",
+    "zh": "開服衝刺（Launch Dash）",
+    "en": "Launch Dash",
+    "aliases": [
+      "首抽衝刺",
+      "開服首週",
+      "上線衝刺"
+    ],
+    "cat": "mobile",
+    "sub": "手遊課金與抽卡",
+    "short": "手遊剛上線時集中資源衝首抽與初期進度的階段。",
+    "def": "手遊剛上線第一週到第一個月，玩家與營運雙方都高度關注的黃金階段。玩家會集中運用開服釋出的大量免費抽卡資源衝刺首抽，並卡位搶先解鎖初期強力角色；營運方則會加碼新手資源、開放限時衝刺活動，藉此拉高留存與社群討論熱度，為後續長線營運打底。這段期間的玩家行為也常被業界當成判斷一款新遊戲能否長銷的先行指標。",
+    "features": [
+      "集中在上線初期一到四週",
+      "營運會加碼新手資源",
+      "玩家搶先解鎖初期強力角色",
+      "洗帳與攻略討論熱度集中於此",
+      "常作為判斷長線熱度的指標"
+    ],
+    "examples": [
+      {
+        "title": "鳴潮",
+        "en": "Wuthering Waves",
+        "appid": 3513350,
+        "year": 2024,
+        "why": "開服首週資源與角色池規劃是近年討論度高的案例"
+      },
+      {
+        "title": "原神",
+        "en": "Genshin Impact",
+        "appid": null,
+        "year": 2020,
+        "why": "2020 年上線初期的首抽熱潮是開服衝刺的經典案例"
+      }
+    ],
+    "steamTags": [],
+    "compare": [],
+    "related": [
+      "reroll",
+      "banner"
+    ],
+    "design": "企劃規劃開服首週資源時，要同時考慮讓新玩家有感、又不能一次放太多資源導致後期通膨，過度慷慨的開服禮包會讓玩家對日後正常節奏的資源投放感到失落。",
+    "sources": [
+      {
+        "title": "The Gacha Gamer's Glossary",
+        "url": "https://gachago.com/en/features/the-gacha-gamers-glossary-terms-everyone-uses-but-few-understand",
+        "accessed": "2026-09-17",
+        "note": "開服新手資源與首抽相關黑話整理"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "endgame-content",
+    "zh": "終局內容（Endgame Content）",
+    "en": "Endgame Content",
+    "aliases": [
+      "畢業內容",
+      "高難度常駐內容"
+    ],
+    "cat": "mobile",
+    "sub": "手遊戰鬥設計",
+    "short": "角色練滿後用來持續挑戰、測試練度的高難度內容。",
+    "def": "專門給練度已經練到一定程度的玩家挑戰的高難度常駐內容，目的是讓畢業玩家還有事情可做，也順便驗證玩家隊伍搭配與練度是否足夠扎實。這類內容通常每期會輪換關卡條件或敵方組合，避免玩家用同一套隊伍一路推到底而失去挑戰性，也是遊戲用來持續發布高強度素材需求、間接延長遊戲壽命的設計手段。",
+    "features": [
+      "面向高練度玩家的常駐挑戰",
+      "定期輪換關卡條件",
+      "驗證隊伍搭配與數值強度",
+      "獎勵通常是稀缺養成素材",
+      "缺乏此內容易讓老玩家流失"
+    ],
+    "examples": [
+      {
+        "title": "原神",
+        "en": "Genshin Impact",
+        "appid": null,
+        "year": 2020,
+        "why": "深境螺旋是終局內容長年被討論的代表案例"
+      },
+      {
+        "title": "鳴潮",
+        "en": "Wuthering Waves",
+        "appid": 3513350,
+        "year": 2024,
+        "why": "高難度常駐關卡同樣考驗隊伍練度與搭配"
+      }
+    ],
+    "steamTags": [],
+    "compare": [],
+    "related": [
+      "roguelike-mode-in-gacha",
+      "dupes"
+    ],
+    "design": "終局內容如果長期缺乏更新，畢業玩家會失去持續遊玩的理由而流失；但更新太快、難度曲線太陡，又會讓一般玩家覺得追不上而放棄。企劃需規劃穩定的更新節奏，並提供多套可行解法而非單一標準隊伍。",
+    "sources": [
+      {
+        "title": "Genshin Impact Devs Won't Be Adding More Endgame Content And Players Are Pissed",
+        "url": "https://kotaku.com/genshin-impact-hoyoverse-spiral-abyss-endgame-1849616683",
+        "accessed": "2026-09-17",
+        "note": "終局內容更新頻率對玩家留存影響的報導"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "idle-rewards",
+    "zh": "掛機收益（Idle Rewards）",
+    "en": "Idle Rewards",
+    "aliases": [
+      "離線收益",
+      "放置收益"
+    ],
+    "cat": "mobile",
+    "sub": "手遊留存機制",
+    "short": "玩家離線期間也持續累積資源的機制。",
+    "def": "玩家沒有實際操作、甚至完全離線時，遊戲仍持續在背景累積資源與經驗值的機制，回到遊戲時可以一次領取這段時間的收益。這個機制起源於放置類遊戲，後來被廣泛借用到一般手遊的日常資源系統，讓沒空長時間遊玩的玩家也能感覺到穩定進度，多數設計會設定收益上限，避免玩家完全不打開遊戲就能無限累積。",
+    "features": [
+      "離線期間持續累積資源",
+      "回歸時一次性領取",
+      "通常設有累積時數上限",
+      "起源於放置類遊戲設計",
+      "可搭配課金提升收益效率"
+    ],
+    "examples": [
+      {
+        "title": "楓之谷M",
+        "en": "MapleStory M",
+        "appid": 3969080,
+        "year": 2018,
+        "why": "掛機經驗與資源累積是韓系手遊常見設計"
+      },
+      {
+        "title": "原神",
+        "en": "Genshin Impact",
+        "appid": null,
+        "year": 2020,
+        "why": "探索派遣等系統提供類似的離線收益體驗"
+      }
+    ],
+    "steamTags": [],
+    "compare": [],
+    "related": [
+      "auto-battle",
+      "energy-system"
+    ],
+    "design": "掛機收益的核心是讓玩家感覺時間也是一種投入，設計時要抓好收益曲線，太慷慨會讓玩家覺得不用打開遊戲也沒差，太保守則失去吸引玩家定期回歸的效果。",
+    "sources": [
+      {
+        "title": "Incremental game - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Incremental_game",
+        "accessed": "2026-09-17",
+        "note": "放置與離線收益機制的定義起源"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "monthly-card",
+    "zh": "月卡（Monthly Card）",
+    "en": "Monthly Card",
+    "aliases": [
+      "小月卡",
+      "大月卡",
+      "訂閱制福利"
+    ],
+    "cat": "mobile",
+    "sub": "手遊課金與抽卡",
+    "short": "每月固定小額付費、換取每日額外資源的訂閱式優惠。",
+    "def": "手遊常見的低門檻訂閱制商品，玩家每月付一筆固定小額費用，換取每天登入可額外領取的資源，例如額外貨幣或體力。相較於單次抽卡的高風險高波動，月卡是穩賺不賠的入門課金選項，性價比通常被玩家認為很高，也是許多無課轉微課玩家的第一步。部分遊戲會再分小月卡與大月卡兩種等級，福利與價格皆不同。",
+    "features": [
+      "每月固定小額付費",
+      "每日登入可領額外資源",
+      "性價比通常優於單抽",
+      "常分小月卡與大月卡等級",
+      "是微課玩家常見入門選項"
+    ],
+    "examples": [
+      {
+        "title": "原神",
+        "en": "Genshin Impact",
+        "appid": null,
+        "year": 2020,
+        "why": "月卡是業界知名的高性價比課金範例"
+      },
+      {
+        "title": "楓之谷M",
+        "en": "MapleStory M",
+        "appid": 3969080,
+        "year": 2018,
+        "why": "韓系手遊同樣提供每日登入額外資源的月卡選項"
+      }
+    ],
+    "steamTags": [],
+    "compare": [],
+    "related": [
+      "f2p-player",
+      "event-shop"
+    ],
+    "design": "月卡設計的重點是低門檻、高感知價值，企劃要確保換算下來的性價比明顯優於其他課金選項，才能有效把免費玩家轉化成第一次付費的微課玩家，是整體付費漏斗最重要的第一階。",
+    "sources": [
+      {
+        "title": "Battle pass - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Battle_pass",
+        "accessed": "2026-09-17",
+        "note": "訂閱式付費機制的相關定義背景，月卡為其低單價變體"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "event-shop",
+    "zh": "活動商店（Event Shop）",
+    "en": "Event Shop",
+    "aliases": [
+      "活動兌換所",
+      "限定商店"
+    ],
+    "cat": "mobile",
+    "sub": "手遊課金與抽卡",
+    "short": "用活動限定貨幣兌換獎勵的限時商店。",
+    "def": "限時活動期間開放、只能用活動限定貨幣兌換的商店，玩家透過完成活動任務賺取專屬貨幣，再拿到這個商店裡換取角色、道具或養成素材。活動商店讓遊戲經濟系統可以獨立於主線之外運作，設計師能更自由地放送稀有素材而不擔心打亂日常經濟平衡，活動結束後這批限定貨幣通常會失效或折算成少量常規貨幣。",
+    "features": [
+      "僅限活動期間開放",
+      "使用專屬活動貨幣兌換",
+      "與主線經濟系統分離",
+      "活動結束貨幣多半作廢或折算",
+      "常用來放送稀缺養成素材"
+    ],
+    "examples": [
+      {
+        "title": "原神",
+        "en": "Genshin Impact",
+        "appid": null,
+        "year": 2020,
+        "why": "版本活動商店提供限定素材兌換的常見設計"
+      },
+      {
+        "title": "鳴潮",
+        "en": "Wuthering Waves",
+        "appid": 3513350,
+        "year": 2024,
+        "why": "版本活動同樣設有限定貨幣兌換商店"
+      }
+    ],
+    "steamTags": [],
+    "compare": [],
+    "related": [
+      "limited-time-event",
+      "monthly-card"
+    ],
+    "design": "活動商店的兌換項目排序要讓玩家一眼看懂優先順序，建議把稀缺度最高、換算成本最貴的項目放最上面，並提醒截止時間，避免玩家忘記兌換而浪費活動貨幣。",
+    "sources": [
+      {
+        "title": "12 Types of Mobile Game Currencies You Need to Know",
+        "url": "https://www.blog.udonis.co/mobile-marketing/mobile-games/mobile-game-currencies",
+        "accessed": "2026-09-17",
+        "note": "活動貨幣與活動商店機制說明"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "roguelike-mode-in-gacha",
+    "zh": "抽卡手遊的爬塔／深淵模式（Roguelike Mode in Gacha）",
+    "en": "Tower Challenge / Roguelike Mode in Gacha Games",
+    "aliases": [
+      "深淵",
+      "爬塔",
+      "無限樓層挑戰"
+    ],
+    "cat": "mobile",
+    "sub": "手遊戰鬥設計",
+    "short": "手遊裡借用 Roguelike 元素、逐層加難的高難度挑戰模式。",
+    "def": "抽卡手遊常見的一種終局內容，借用 Roguelike 類型逐層深入、難度遞增的骨架，讓玩家組隊挑戰一層比一層更難的關卡，藉此測試角色練度與隊伍搭配深度。但它通常不是嚴格意義的 Roguelike：多數版本沒有真正的隨機關卡生成，也沒有失敗即從頭重來的永久死亡，玩家練度與裝備依然全部延續，只是借用爬塔的框架包裝成高難度常駐內容，設計核心與純粹的 Roguelike 差異很大。",
+    "features": [
+      "逐層或逐輪加深難度",
+      "借用 Roguelike 骨架但無永久死亡",
+      "練度與裝備全部延續",
+      "通常有時間或血量限制條件",
+      "是終局內容的常見形式之一"
+    ],
+    "examples": [
+      {
+        "title": "原神",
+        "en": "Genshin Impact",
+        "appid": null,
+        "year": 2020,
+        "why": "深境螺旋是這類爬塔模式最常被引用的案例"
+      },
+      {
+        "title": "鳴潮",
+        "en": "Wuthering Waves",
+        "appid": 3513350,
+        "year": 2024,
+        "why": "高難度爬塔內容同樣借用逐層加難的框架"
+      }
+    ],
+    "steamTags": [],
+    "compare": [
+      {
+        "with": "roguelike",
+        "diff": "roguelike-mode-in-gacha 借用爬塔逐層加難的外形，但沒有隨機生成與永久死亡；roguelike 本體要求局內全部重置與死亡即重來。"
+      }
+    ],
+    "related": [
+      "endgame-content",
+      "roguelike"
+    ],
+    "design": "這類模式的關卡條件設計要兼顧測試練度深度與避免變成純粹拚數值大小，適度加入戰術限制（例如角色重複使用限制、特殊環境條件）能提升遊玩策略性，避免變成單純比誰課得多。",
+    "sources": [
+      {
+        "title": "Beyond the Spiral Abyss: Genshin Impact's Endgame Problem",
+        "url": "https://bitspindle.com/blog/news/beyond-the-spiral-abyss-genshin-impacts-endgame-problem-and-the-struggle-for-player-retention/",
+        "accessed": "2026-09-17",
+        "note": "深境螺旋作為終局爬塔模式的分析"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "character-banner-rate-up",
+    "zh": "角色池機率提升（Character Banner Rate-Up）",
+    "en": "Character Banner Rate-Up",
+    "aliases": [
+      "UP角色",
+      "機率UP",
+      "限定UP"
+    ],
+    "cat": "mobile",
+    "sub": "手遊課金與抽卡",
+    "short": "卡池中特定角色被拉高中獎機率的抽卡設計。",
+    "def": "抽卡系統裡，卡池中被指定為 UP 的角色，其抽中機率會被特別拉高，通常是從同稀有度整體機率裡切出一部分分給這個角色，而不是額外加碼提升總機率。舉例來說，若最高稀有度整體出率是百分之零點六，UP 角色可能占去其中一半，玩家抽中最高稀有度時大約一半機率是 UP 角色、一半是常駐池角色，也就是俗稱的 50/50，沒抽中 UP 角色就是玩家常說的「歪」。",
+    "features": [
+      "機率從同稀有度總量中切分",
+      "常見為 50/50 式設計",
+      "與保底機制搭配計算",
+      "限時卡池結束後 UP 角色下架",
+      "可能有大保底保證下次必中"
+    ],
+    "examples": [
+      {
+        "title": "原神",
+        "en": "Genshin Impact",
+        "appid": null,
+        "year": 2020,
+        "why": "50/50 機制是 UP 角色機率設計最常被引用的案例"
+      },
+      {
+        "title": "鳴潮",
+        "en": "Wuthering Waves",
+        "appid": 3513350,
+        "year": 2024,
+        "why": "限定角色同樣採用機率提升與保底搭配設計"
+      }
+    ],
+    "steamTags": [],
+    "compare": [],
+    "related": [
+      "banner",
+      "pity-counter"
+    ],
+    "design": "企劃調整 UP 機率與是否加入大保底（歪一次後下次保證中 UP）時，要用試算模型評估玩家的期望花費，機率結構稍微改動就可能引發社群強烈反應。",
+    "sources": [
+      {
+        "title": "The Gacha Gamer's Glossary: Terms Everyone Uses But Few Understand",
+        "url": "https://gachago.com/en/features/the-gacha-gamers-glossary-terms-everyone-uses-but-few-understand",
+        "accessed": "2026-09-17",
+        "note": "UP角色／Rate-up 機制定義"
+      },
+      {
+        "title": "Gacha game - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Gacha_game",
+        "accessed": "2026-09-17",
+        "note": "卡池與機率結構的正式描述"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "lan-vs-online",
+    "zh": "線下賽與線上賽（LAN vs Online）",
+    "en": "LAN vs Online Tournament",
+    "aliases": [
+      "現場賽",
+      "線下決賽",
+      "線上預賽"
+    ],
+    "cat": "esports",
+    "sub": "電競賽制與規則",
+    "short": "電競賽事在實體場地連線與在家連網比賽的差異。",
+    "def": "電競賽事的兩種舉辦形式。LAN 賽事是選手齊聚同一場地、透過區域網路連線比賽，優點是網路延遲穩定、也能防止選手利用網路優勢或觀戰資訊作弊，是職業聯賽公認的競技公平標準；線上賽事則是選手各自在家連網比賽，優點是不需選手長途跋涉、參賽門檻低、能觸及更多地區的隊伍。目前主流做法是混合模式：例行賽與資格賽線上進行，重要的季後賽或總決賽才移師 LAN 現場。",
+    "features": [
+      "LAN 為同場地區域網路連線",
+      "線上賽選手各自在家比賽",
+      "LAN 被視為公平性最高標準",
+      "線上賽參賽門檻與成本較低",
+      "混合模式已成為主流賽制"
+    ],
+    "examples": [
+      {
+        "title": "Dota 2",
+        "en": "Dota 2",
+        "appid": 570,
+        "year": 2013,
+        "why": "國際邀請賽等大型賽事堅持採用 LAN 決賽"
+      },
+      {
+        "title": "英雄聯盟",
+        "en": "League of Legends",
+        "appid": null,
+        "year": 2009,
+        "why": "世界賽等重大賽事同樣堅持在 LAN 現場舉行"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 5055,
+        "en": "eSports"
+      }
+    ],
+    "compare": [],
+    "related": [
+      "bracket",
+      "high-refresh-low-latency"
+    ],
+    "design": "賽事籌辦要衡量預算與公平性的取捨：LAN 現場能提供最佳競技公平性與觀賽氣氛，但成本遠高於線上賽，中小型賽事常用線上資格賽搭配 LAN 決賽的混合模式。",
+    "sources": [
+      {
+        "title": "The Role of LAN vs Online Events in Esports Competition",
+        "url": "https://esportsmatchleague.com/lan-and-online-events/",
+        "accessed": "2026-09-17",
+        "note": "LAN 與線上賽事的差異與各自優劣勢"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "patch-meta",
+    "zh": "版本答案（Patch Meta）",
+    "en": "Patch Meta",
+    "aliases": [
+      "版本T0",
+      "版本強勢陣容",
+      "現版本最優解"
+    ],
+    "cat": "esports",
+    "sub": "電競版本與競技倫理",
+    "short": "特定版本更新後，社群公認最有效的打法或角色組合。",
+    "def": "某個版本更新後，玩家社群或職業圈公認目前最有效的策略，也就是台灣玩家常說的「版本答案」。Meta 是 Metagame 的縮寫，指的不是規則本身，而是玩家對規則的最佳因應策略。每次平衡更新調整角色或機制強弱後，版本答案往往會跟著劇烈變動，職業選手與內容創作者會在新版本上線第一時間搶著找出新答案，搶先掌握等於搶到比賽優勢。",
+    "features": [
+      "由社群共識形成而非官方定義",
+      "隨每次平衡更新變動",
+      "職業圈與內容創作者搶先研究",
+      "可能出現多套並存的答案",
+      "舊版本強勢角色可能因規則不變而回歸"
+    ],
+    "examples": [
+      {
+        "title": "英雄聯盟",
+        "en": "League of Legends",
+        "appid": null,
+        "year": 2009,
+        "why": "每次改版後版本答案劇烈變動的代表遊戲"
+      },
+      {
+        "title": "Dota 2",
+        "en": "Dota 2",
+        "appid": 570,
+        "year": 2013,
+        "why": "版本更新後職業圈同樣會搶先研究新版本答案"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 5055,
+        "en": "eSports"
+      }
+    ],
+    "compare": [
+      {
+        "with": "balance-patch",
+        "diff": "patch-meta 是玩家社群對版本強勢打法的解讀與共識；balance-patch 是官方實際發布、造成這個共識改變的調整更新本身。"
+      }
+    ],
+    "related": [
+      "balance-patch",
+      "tier-list"
+    ],
+    "design": "職業戰隊研究版本答案的速度往往決定短期戰績，但企劃端要留意：如果每次改版都讓版本答案一面倒集中在少數選擇，代表角色池深度不足，需要檢討平衡設計而不只是等玩家找答案。",
+    "sources": [
+      {
+        "title": "Meta in Gaming: The Full Story",
+        "url": "https://plarium.com/en/blog/meta-in-gaming/",
+        "accessed": "2026-09-17",
+        "note": "Meta／版本答案的定義與形成過程"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "scrim",
+    "zh": "對練賽（Scrim）",
+    "en": "Scrim (Scrimmage)",
+    "aliases": [
+      "訓練賽",
+      "練習賽",
+      "模擬賽"
+    ],
+    "cat": "esports",
+    "sub": "電競賽制與規則",
+    "short": "職業隊伍間私下進行、不公開觀戰的練習對戰。",
+    "def": "Scrim 是 Scrimmage 的縮寫，指職業或半職業隊伍私下約定的練習對戰，不對外公開直播、也不計入正式戰績。與正式排位對戰的差別在於：排位賽目標是贏球拿分，Scrim 的目標是測試新戰術、磨合陣容默契，就算輸了也沒有段位或獎金損失，隊伍可以放心嘗試平常不敢用的冒險策略。職業隊伍通常會固定安排每週多場對練賽作為訓練日常。",
+    "features": [
+      "隊伍間私下約定不公開直播",
+      "不計入正式戰績或段位",
+      "目的是測試戰術與磨合默契",
+      "可放心嘗試冒險策略",
+      "職業隊伍多固定排入訓練日程"
+    ],
+    "examples": [
+      {
+        "title": "英雄聯盟",
+        "en": "League of Legends",
+        "appid": null,
+        "year": 2009,
+        "why": "職業戰隊賽前密集對練賽是常態訓練方式"
+      },
+      {
+        "title": "Dota 2",
+        "en": "Dota 2",
+        "appid": 570,
+        "year": 2013,
+        "why": "職業隊伍出賽前同樣安排密集對練賽磨合陣容"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 5055,
+        "en": "eSports"
+      }
+    ],
+    "compare": [
+      {
+        "with": "ranked",
+        "diff": "scrim 是隊伍私下約定、不計正式戰績的練習賽；ranked 是公開的正式分級對戰，結果會影響段位與排名。"
+      }
+    ],
+    "related": [
+      "roster-lock",
+      "patch-meta"
+    ],
+    "design": "安排對練賽對手時要挑選實力相近或略強的隊伍，太弱練不出東西，太強又容易挫敗士氣；對練賽對手名單本身也常被視為戰術情報，職業隊伍會刻意保密。",
+    "sources": [
+      {
+        "title": "What does scrim mean in gaming and esports?",
+        "url": "https://www.noypigeeks.com/gaming/scrim-gaming-esports/",
+        "accessed": "2026-09-17",
+        "note": "Scrim 定義、用途與職業隊伍訓練實務"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "roster-lock",
+    "zh": "名單鎖定（Roster Lock）",
+    "en": "Roster Lock",
+    "aliases": [
+      "名單凍結",
+      "轉會截止"
+    ],
+    "cat": "esports",
+    "sub": "電競賽制與規則",
+    "short": "賽事開打前設定的最後名單異動截止時間。",
+    "def": "賽事主辦方在比賽開打前設定的截止時間，過了這個時間點，隊伍就不能再對出賽名單做任何異動，包括新增選手或把替補選手調上正式名單。這個規則確保賽事開打後所有隊伍的陣容是公平、透明且事先公告過的。名單鎖定通常搭配轉會期概念運作：轉會期是允許簽約與釋出選手的時間段，名單鎖定則是宣告這段調整期正式結束。",
+    "features": [
+      "賽事開打前設定截止時間",
+      "鎖定後禁止異動出賽名單",
+      "確保賽事開打時陣容公平透明",
+      "與轉會期概念前後銜接",
+      "違規異動通常有明確罰則"
+    ],
+    "examples": [
+      {
+        "title": "英雄聯盟",
+        "en": "League of Legends",
+        "appid": null,
+        "year": 2009,
+        "why": "職業聯賽轉會規則含明確名單鎖定期"
+      },
+      {
+        "title": "Dota 2",
+        "en": "Dota 2",
+        "appid": 570,
+        "year": 2013,
+        "why": "國際邀請賽同樣設有明確的名單鎖定期"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 5055,
+        "en": "eSports"
+      }
+    ],
+    "compare": [],
+    "related": [
+      "ban-pick",
+      "scrim"
+    ],
+    "design": "賽事主辦方公告名單鎖定的時間點要留給隊伍足夠準備緩衝，太晚鎖定隊伍來不及磨合新選手，太早鎖定又可能讓臨時受傷或狀態不佳的選手無法替換，規則要明訂例外處理方式。",
+    "sources": [
+      {
+        "title": "roster lock - VLR.gg",
+        "url": "https://www.vlr.gg/258949/roster-lock",
+        "accessed": "2026-09-17",
+        "note": "職業電競名單鎖定實際案例"
+      },
+      {
+        "title": "Transfer window - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Transfer_window",
+        "accessed": "2026-09-17",
+        "note": "轉會期概念的一般定義，電競賽事借用此框架"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "bracket",
+    "zh": "賽程表（Bracket）",
+    "en": "Tournament Bracket",
+    "aliases": [
+      "對戰表",
+      "單敗淘汰",
+      "雙敗淘汰"
+    ],
+    "cat": "esports",
+    "sub": "電競賽制與規則",
+    "short": "標示賽事對戰順序與晉級路徑的樹狀圖表。",
+    "def": "電競賽事用來呈現對戰順序與晉級路徑的樹狀圖表，最常見的兩種形式是單敗淘汰（輸一場就直接出局）與雙敗淘汰（輸兩場才會出局，第一敗會被移到敗部繼續比賽爭取重返冠軍賽）。單敗淘汰賽程短、節奏快，但一場失常就可能讓實力強隊提前出局；雙敗淘汰能讓強隊有一次犯錯空間、賽程也更公平，但相對耗時更久，賽事規模通常取二的次方數以避免輪空。",
+    "features": [
+      "以樹狀圖呈現晉級路徑",
+      "單敗淘汰輸一場即出局",
+      "雙敗淘汰輸兩場才出局",
+      "敗部提供二次挑戰機會",
+      "隊伍數常取二的次方以避免輪空"
+    ],
+    "examples": [
+      {
+        "title": "Dota 2",
+        "en": "Dota 2",
+        "appid": 570,
+        "year": 2013,
+        "why": "國際邀請賽採用雙敗淘汰賽程的代表案例"
+      },
+      {
+        "title": "英雄聯盟",
+        "en": "League of Legends",
+        "appid": null,
+        "year": 2009,
+        "why": "世界賽淘汰賽同樣採用樹狀賽程圖呈現晉級路徑"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 5055,
+        "en": "eSports"
+      }
+    ],
+    "compare": [],
+    "related": [
+      "bo3-bo5",
+      "lan-vs-online"
+    ],
+    "design": "選賽制時要考量賽事天數與強隊保護：雙敗淘汰更公平但天數要拉長；如果天數有限，單敗淘汰搭配種子排位（強隊分散到不同對戰區塊）是常見折衷方案。",
+    "sources": [
+      {
+        "title": "Double-elimination tournament - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Double-elimination_tournament",
+        "accessed": "2026-09-17",
+        "note": "雙敗淘汰賽程結構定義"
+      },
+      {
+        "title": "Single-elimination tournament - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Single-elimination_tournament",
+        "accessed": "2026-09-17",
+        "note": "單敗淘汰賽程結構定義"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "throw-esports",
+    "zh": "送頭／丟局（Throw）",
+    "en": "Throw",
+    "aliases": [
+      "送局",
+      "自爆",
+      "主動放水"
+    ],
+    "cat": "esports",
+    "sub": "電競操作與心理",
+    "short": "明明有機會贏卻因失誤或衝動送掉比賽優勢。",
+    "def": "原意是把贏面拱手讓人，指隊伍或選手明明已經取得明顯優勢、幾乎穩贏，卻因為低級失誤、衝動決策或心態崩潰而把優勢揮霍殆盡、最終輸掉比賽。這個詞帶有強烈懊悔語氣，通常是賽後檢討時用來形容不該輸卻輸了的比賽。與單純打輸不同，Throw 強調的是原本贏面很大、卻因人為失誤而斷送的過程，常與對手後來居上的 Comeback 互為對照。",
+    "features": [
+      "原本贏面明顯優勢",
+      "因失誤或心態崩潰葬送優勢",
+      "帶有強烈懊悔語氣",
+      "常用於賽後檢討",
+      "與 Comeback 互為對照視角"
+    ],
+    "examples": [
+      {
+        "title": "Dota 2",
+        "en": "Dota 2",
+        "appid": 570,
+        "year": 2013,
+        "why": "高額經濟優勢後被翻盤的比賽常被玩家稱為經典 Throw"
+      },
+      {
+        "title": "英雄聯盟",
+        "en": "League of Legends",
+        "appid": null,
+        "year": 2009,
+        "why": "職業賽事史上多次經濟優勢被葬送的比賽同樣被稱為 Throw"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 5055,
+        "en": "eSports"
+      }
+    ],
+    "compare": [
+      {
+        "with": "throw",
+        "diff": "電競黑話的「送」是把優勢局丟掉；格鬥遊戲的投技是一種抓取攻擊，兩者只是英文同字。"
+      }
+    ],
+    "related": [
+      "comeback"
+    ],
+    "design": "企劃設計逆轉機制（例如落後方加成、翻盤道具）時要有意識地承認 Throw 與 Comeback 是一體兩面，適度的逆轉空間能讓比賽更好看，但過度的逆轉機制會讓前期優勢失去意義。",
+    "sources": [
+      {
+        "title": "\"Throwing\": Did You Lose on Purpose?",
+        "url": "https://www.translateen.com/blog/viral-trends-slang/throwing-the-game-meaning/",
+        "accessed": "2026-09-17",
+        "note": "Throw 一詞的定義與用法"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "comeback",
+    "zh": "逆轉／翻盤（Comeback）",
+    "en": "Comeback",
+    "aliases": [
+      "逆轉勝",
+      "翻盤",
+      "絕地反擊"
+    ],
+    "cat": "esports",
+    "sub": "電競操作與心理",
+    "short": "從明顯落後的局勢中扭轉戰局並贏得比賽。",
+    "def": "選手或隊伍原本處於明顯劣勢，卻在後續扭轉局勢並最終獲勝的過程，是所有競技運動共通的戲劇性時刻，也是電競賽事最容易被剪成精華、廣為流傳的橋段。逆轉的發生常伴隨對手的送頭，一方失去原有優勢，另一方趁勢反撲，兩個詞經常在賽後討論裡成對出現。設計良好的遊戲機制能提高逆轉發生的頻率，讓比賽在任何時間點都保有懸念。",
+    "features": [
+      "原本明顯落後最終逆轉獲勝",
+      "常與對手送頭互為因果",
+      "是最容易被剪輯傳播的精華片段",
+      "遊戲機制可調整逆轉發生機率",
+      "提升比賽全程觀賞張力"
+    ],
+    "examples": [
+      {
+        "title": "英雄聯盟",
+        "en": "League of Legends",
+        "appid": null,
+        "year": 2009,
+        "why": "職業賽事史上多場經典逆轉勝廣為流傳"
+      },
+      {
+        "title": "Dota 2",
+        "en": "Dota 2",
+        "appid": 570,
+        "year": 2013,
+        "why": "國際邀請賽也曾出現多次經濟劣勢下的絕地翻盤"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 5055,
+        "en": "eSports"
+      }
+    ],
+    "compare": [
+      {
+        "with": "clutch",
+        "diff": "comeback 指整場比賽從落後逆轉到獲勝的較長過程；clutch 通常指單一回合或單一時刻裡個人扛住壓力完成關鍵表現，兩者常同時發生但尺度不同。"
+      }
+    ],
+    "related": [
+      "throw-esports",
+      "clutch"
+    ],
+    "design": "逆轉機制的設計要拿捏懸念與前期努力被抹平的平衡，過強的落後加成會讓玩家覺得前期打得再好都沒意義，變相鼓勵消極打法，等於懲罰了原本領先的一方。",
+    "sources": [
+      {
+        "title": "Comeback (sports) - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Comeback_(sports)",
+        "accessed": "2026-09-17",
+        "note": "逆轉勝的一般定義，適用於電競賽事語境"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "mechanics-vs-macro",
+    "zh": "操作與大局觀（Mechanics vs Macro）",
+    "en": "Micro (Mechanics) vs Macro",
+    "aliases": [
+      "微操",
+      "運營",
+      "大局觀"
+    ],
+    "cat": "esports",
+    "sub": "電競操作與心理",
+    "short": "個體操作精準度與整體資源戰略規劃的兩種競技能力。",
+    "def": "競技遊戲裡常被拿來比較的兩種能力。操作（Micro，微操）指對單一單位、角色或連段的精準即時控制，考驗手速與反應；大局觀（Macro，宏觀運營）指資源分配、地圖控制、團戰時機判斷等整體戰略規劃能力，考驗判斷力與經驗。兩者缺一不可，但真正拉開職業選手與業餘玩家差距的常常是大局觀，因為操作可靠練習手速補足，大局觀卻需要長期比賽經驗累積。",
+    "features": [
+      "Micro 考驗手速與精準操作",
+      "Macro 考驗資源與戰略判斷",
+      "兩者是評估選手能力的常見框架",
+      "大局觀通常需要更長時間養成",
+      "職業與業餘差距常見於大局觀"
+    ],
+    "examples": [
+      {
+        "title": "Dota 2",
+        "en": "Dota 2",
+        "appid": 570,
+        "year": 2013,
+        "why": "微操與運營並重是這類遊戲的核心競技維度"
+      },
+      {
+        "title": "英雄聯盟",
+        "en": "League of Legends",
+        "appid": null,
+        "year": 2009,
+        "why": "操作與運營並重同樣是這款遊戲的核心競技維度"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 5055,
+        "en": "eSports"
+      }
+    ],
+    "compare": [],
+    "related": [
+      "apm",
+      "clutch"
+    ],
+    "design": "遊戲機制設計上，如果過度獎勵單純的操作速度，會讓遊戲對新手不友善且觀賞性偏向炫技；適度加重大局觀的權重，能讓比賽更講策略縱深，也更適合長期經營電競生態。",
+    "sources": [
+      {
+        "title": "micromanagement - Wiktionary",
+        "url": "https://en.wiktionary.org/wiki/micromanagement",
+        "accessed": "2026-09-17",
+        "note": "電競語境下 micro 的定義"
+      },
+      {
+        "title": "macromanagement - Wiktionary",
+        "url": "https://en.wiktionary.org/wiki/macromanagement",
+        "accessed": "2026-09-17",
+        "note": "電競語境下 macro 的定義"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "apm",
+    "zh": "每分鐘操作數（APM）",
+    "en": "Actions Per Minute (APM)",
+    "aliases": [
+      "手速指標",
+      "操作頻率"
+    ],
+    "cat": "esports",
+    "sub": "電競操作與心理",
+    "short": "玩家每分鐘實際下達操作指令的次數統計。",
+    "def": "Actions Per Minute 的縮寫，統計玩家每分鐘實際下達多少次操作指令，源自即時戰略遊戲社群，後來延伸到其他強調手速的競技類型。高 APM 通常代表這名玩家既知道該做什麼、也有足夠手部靈活度即時執行；但 APM 並非絕對的實力指標，因為刷無意義的重複操作也會拉高數字，卻不代表真正的決策品質，因此職業圈評估選手時通常會搭配更精細的統計方式一起參考。",
+    "features": [
+      "統計每分鐘操作指令次數",
+      "源自即時戰略遊戲社群",
+      "高手速常伴隨高 APM",
+      "無效重複操作會虛灌數字",
+      "常搭配更精細指標一起參考"
+    ],
+    "examples": [
+      {
+        "title": "Dota 2",
+        "en": "Dota 2",
+        "appid": 570,
+        "year": 2013,
+        "why": "職業選手 APM 常被拿來分析比較的即時戰略類遊戲後裔"
+      },
+      {
+        "title": "英雄聯盟",
+        "en": "League of Legends",
+        "appid": null,
+        "year": 2009,
+        "why": "職業選手手速與操作頻率同樣是分析重點"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 5055,
+        "en": "eSports"
+      }
+    ],
+    "compare": [],
+    "related": [
+      "mechanics-vs-macro"
+    ],
+    "design": "用 APM 評估選手或做新手教學指標時要小心陷阱：單純鼓勵拉高 APM 數字，可能讓玩家養成無意義瘋狂點擊的壞習慣，教學設計應該引導玩家追求有效操作而非單純追求數字好看。",
+    "sources": [
+      {
+        "title": "Actions per minute - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Actions_per_minute",
+        "accessed": "2026-09-17",
+        "note": "APM 定義、應用與侷限性"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "clutch",
+    "zh": "關鍵一擊／穩住全場（Clutch）",
+    "en": "Clutch",
+    "aliases": [
+      "Carry全場",
+      "一打多",
+      "神之一手"
+    ],
+    "cat": "esports",
+    "sub": "電競操作與心理",
+    "short": "在極端劣勢或高壓時刻仍成功扭轉局勢的表現。",
+    "def": "指選手在極端不利或高壓的關鍵時刻，仍然成功完成任務、扭轉局勢的表現，最經典的情境是一打多：隊友全部陣亡，只剩自己一人卻仍反殺對方多人並贏得回合。這個詞既可當動詞也可當形容詞，核心精神都是在壓力最大的那一刻仍然扛得住。與純粹的操作精準不同，Clutch 更強調心理素質，同樣操作水準，心態穩定的選手在關鍵局更容易發揮。",
+    "features": [
+      "發生在極端劣勢或高壓時刻",
+      "經典情境為一打多反殺",
+      "可作動詞或形容詞使用",
+      "強調心理素質而非單純操作",
+      "與比賽逆轉常相伴出現"
+    ],
+    "examples": [
+      {
+        "title": "Counter-Strike 2",
+        "en": "Counter-Strike 2",
+        "appid": 730,
+        "year": 2023,
+        "why": "一打多的 Clutch 局是這類戰術射擊遊戲最具代表性的高光時刻"
+      },
+      {
+        "title": "Dota 2",
+        "en": "Dota 2",
+        "appid": 570,
+        "year": 2013,
+        "why": "一打多逆轉的關鍵時刻同樣是這款遊戲的經典畫面"
+      }
+    ],
+    "steamTags": [
+      {
+        "tagid": 5055,
+        "en": "eSports"
+      }
+    ],
+    "compare": [
+      {
+        "with": "comeback",
+        "diff": "clutch 通常指單一回合或單一時刻裡個人扛住壓力完成關鍵表現；comeback 指整場比賽從落後逆轉到獲勝的較長過程，兩者常同時發生但尺度不同。"
+      }
+    ],
+    "related": [
+      "comeback",
+      "mechanics-vs-macro"
+    ],
+    "design": "好的競技遊戲設計會讓一打多在數值上仍然合理困難但並非不可能，如果做得太容易，會讓前期團隊配合的意義被削弱；如果完全不可能，比賽就少了最具戲劇性的翻盤看點。",
+    "sources": [
+      {
+        "title": "clutch - Wiktionary",
+        "url": "https://en.wiktionary.org/wiki/clutch",
+        "accessed": "2026-09-17",
+        "note": "Clutch 作為動詞與形容詞在遊戲語境的定義"
+      }
+    ],
+    "status": "verified"
+  }
+]

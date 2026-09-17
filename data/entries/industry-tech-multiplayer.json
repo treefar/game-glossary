@@ -1,0 +1,1609 @@
+[
+{
+  "id": "pvp-pve",
+  "zh": "PvP／PvE／PvPvE",
+  "en": "Player vs Player / Player vs Environment",
+  "aliases": ["玩家對玩家", "玩家對環境", "PvPvE"],
+  "cat": "multiplayer",
+  "sub": "對戰與社群機制",
+  "short": "玩家對戰、玩家打電腦、或兩者混合的三種基本對抗結構。",
+  "def": "PvP 指玩家與玩家直接對抗；PvE 指玩家對抗電腦控制的敵人；PvPvE 是近年流行的混合設計，玩家在對抗 AI 敵人的同時也要提防其他真人玩家偷襲，例如一邊打王一邊被別隊摸走戰利品。三者代表遊戲最基本的對抗軸線，決定了社群氛圍：PvP 較競技緊張，PvE 較合作放鬆，PvPvE 則同時要求警覺與團隊默契，是抽取式射擊等類型的核心張力來源。",
+  "features": ["PvP 靠玩家實力對抗", "PvE 靠關卡與怪物設計", "PvPvE 混合兩種威脅", "影響社群氣氛與難度曲線"],
+  "examples": [
+    {"title": "天命2", "en": "Destiny 2", "appid": 1085660, "year": 2019, "why": "同時經營 PvP（熔爐）與 PvE（副本）雙軌內容"},
+    {"title": "Escape from Tarkov", "en": "Escape from Tarkov", "appid": 3932890, "year": 2025, "why": "PvPvE 撤離射擊的代表作，AI 守衛與真人玩家同場競爭"}
+  ],
+  "steamTags": [{"tagid": 1775, "en": "PvP"}, {"tagid": 6730, "en": "PvE"}],
+  "compare": [{"with": "extraction-shooter", "diff": "PvPvE 是一種對抗結構，撤離射擊是套用此結構的具體類型。"}],
+  "related": ["coop-versus", "sbmm"],
+  "design": "PvE 敵人太弱，PvPvE 就退化成單純 PvP；太強則玩家無暇顧及其他玩家。設計時要精算 AI 威脅與真人威脅的比重，避免其中一方喧賓奪主。",
+  "sources": [
+    {"title": "Wikipedia: Player versus player", "url": "https://en.wikipedia.org/wiki/Player_versus_player", "accessed": "2026-09-17", "note": "PvP／PvE 基本定義"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "coop-versus",
+  "zh": "協力模式／對戰模式",
+  "en": "Co-op / Versus",
+  "aliases": ["合作模式", "Cooperative"],
+  "cat": "multiplayer",
+  "sub": "對戰與社群機制",
+  "short": "多人共同對抗挑戰，或玩家彼此互相對抗的兩種基本模式。",
+  "def": "Co-op（協力）是多名玩家共同對抗電腦或解決挑戰的合作模式；Versus（對戰）則是玩家彼此對抗。不少遊戲同時提供兩種模式以擴大受眾。協力模式設計的核心是「每個玩家都有不可取代的角色」，好的協力遊戲讓隊友合作比單打獨鬥更快更有趣，而不只是多一個人幫忙打怪；失敗的協力設計常淪為「一人扛團隊、其他人跟班」。",
+  "features": ["Co-op 玩家目標一致", "Versus 玩家互相競爭", "常見於同一款遊戲並存", "角色分工是協力成敗關鍵"],
+  "examples": [
+    {"title": "雙人成行", "en": "It Takes Two", "appid": 1426210, "year": 2021, "why": "純協力設計，兩名玩家能力完全互補、缺一不可"},
+    {"title": "Left 4 Dead 2", "en": "Left 4 Dead 2", "appid": 550, "year": 2009, "why": "協力對抗殭屍潮的經典範例"}
+  ],
+  "steamTags": [{"tagid": 1685, "en": "Co-op"}, {"tagid": 3843, "en": "Online Co-Op"}],
+  "compare": [],
+  "related": ["pvp-pve", "matchmaking"],
+  "design": "協力模式最常見的失敗是「一人帶三個廢物」。設計時要讓每個位置都有獨特貢獻，例如治療職只有他能救人、坦克職只有他能嘲諷。",
+  "sources": [
+    {"title": "Wikipedia: Cooperative gameplay", "url": "https://en.wikipedia.org/wiki/Cooperative_gameplay", "accessed": "2026-09-17", "note": "協力玩法定義與設計歷史"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "sbmm",
+  "zh": "技能配對",
+  "en": "SBMM (Skill-Based Matchmaking)",
+  "aliases": ["技術配對", "隱藏分數配對", "MMR 配對"],
+  "cat": "multiplayer",
+  "sub": "對戰與社群機制",
+  "short": "依玩家實力配對對手，讓每場對戰勢均力敵的系統。",
+  "def": "根據玩家的技術水平（通常使用隱藏的 MMR，Matchmaking Rating）進行配對，確保玩家與實力相近的對手競爭。SBMM 是遊戲社群最具爭議的話題之一：支持者認為它保護新手不被高手血洗，反對者認為它讓每場遊戲都像在「上班」，因為永遠遇到同等級對手、無法輕鬆碾壓或放鬆遊玩。強度是關鍵設計決策——太強讓高手玩家永遠沒有輕鬆一局，太弱則讓新手被虐殺後流失。",
+  "features": ["依隱藏 MMR 分數配對", "保護新手體驗", "高手抱怨永遠打硬仗", "常搭配休閒／排位雙軌制"],
+  "examples": [
+    {"title": "《Apex 英雄》", "en": "Apex Legends", "appid": 1172470, "year": 2020, "why": "公開討論 SBMM 強度爭議的代表作之一"},
+    {"title": "決勝時刻®：現代戰域™", "en": "Call of Duty: Warzone", "appid": 1962663, "year": 2022, "why": "社群長期爭論 SBMM 是否過嚴"}
+  ],
+  "steamTags": [{"tagid": 3878, "en": "Competitive"}],
+  "compare": [{"with": "matchmaking", "diff": "matchmaking 是配對的統稱；SBMM 特指以技術等級為配對依據的一種做法。"}],
+  "related": ["ranked", "matchmaking"],
+  "design": "休閒模式可降低 SBMM 強度換取放鬆體驗，排位模式則應嚴格配對。強度沒有標準答案，需依遊戲目標受眾持續調整並公開透明。",
+  "sources": [
+    {"title": "Wikipedia: Skill-based matchmaking", "url": "https://en.wikipedia.org/wiki/Skill-based_matchmaking", "accessed": "2026-09-17", "note": "定義、歷史與 Xbox Live 起源"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "latency-ping",
+  "zh": "延遲／Ping",
+  "en": "Latency / Ping",
+  "aliases": ["延遲", "網路延遲", "封包遺失", "抖動"],
+  "cat": "multiplayer",
+  "sub": "網路與連線機制",
+  "short": "資料在玩家與伺服器間往返所花的時間，以毫秒計。",
+  "def": "Ping 是資料從玩家裝置傳到伺服器再回來所花的時間，以毫秒（ms）為單位，值越低操作越即時：30ms 以下近乎無感、60ms 內可接受、100ms 以上開始感到「頓」、200ms 以上幾乎無法進行競技遊戲。Ping 受物理距離限制，因此遊戲會設置多個伺服器區讓玩家連最近機房。相關概念還有封包遺失（資料包在傳輸中丟失）與抖動（Ping 值不穩定地跳動），兩者都會讓操作手感變差。",
+  "features": ["以毫秒為單位", "受地理距離限制", "伺服器分區可降低延遲", "抖動與封包遺失同樣影響體驗"],
+  "examples": [
+    {"title": "《Apex 英雄》", "en": "Apex Legends", "appid": 1172470, "year": 2020, "why": "介面即時顯示連線品質供玩家判斷"},
+    {"title": "Counter-Strike 2", "en": "Counter-Strike 2", "appid": 730, "year": 2012, "why": "競技射擊對延遲極度敏感的代表"}
+  ],
+  "steamTags": [],
+  "compare": [{"with": "tick-rate", "diff": "延遲是玩家到伺服器的傳輸時間；tick rate 是伺服器本身更新世界狀態的頻率，兩者相加才是玩家實際感受到的總延遲。"}],
+  "related": ["rollback-netcode", "dedicated-server", "hit-registration"],
+  "design": "面向競技的遊戲應顯示即時 Ping 值。Ping 過高時應給明確提示與建議（例如建議切換伺服器），而非讓玩家困惑為何打不中人。",
+  "sources": [
+    {"title": "Wikipedia: Lag (video games)", "url": "https://en.wikipedia.org/wiki/Lag_(video_games)", "accessed": "2026-09-17", "note": "延遲、ping、抖動與封包遺失定義"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "rollback-netcode",
+  "zh": "回滾網路碼",
+  "en": "Rollback Netcode",
+  "aliases": ["Rollback", "GGPO"],
+  "cat": "multiplayer",
+  "sub": "網路與連線機制",
+  "short": "先預測對手操作、猜錯才回溯重算的先進連線技術。",
+  "def": "本地端先假設遠端玩家會延續上一幀的操作，並據此繼續模擬遊戲；等對方實際操作資料抵達後，預測正確就繼續，錯誤則「回滾」到上一個確認狀態並快速重新模擬到目前幀。相較於等雙方資料都到齊才推進畫面的延遲型網路碼（Delay-based Netcode），回滾網路碼能在高延遲環境下仍提供接近本地的流暢操作感，近年已成為格鬥遊戲的標準配備，開源函式庫 GGPO 是常見起點。",
+  "features": ["預測對手輸入", "猜錯才回滾重算", "格鬥遊戲標準配備", "體驗優於延遲型但實作難度高"],
+  "examples": [
+    {"title": "Street Fighter 6", "en": "Street Fighter 6", "appid": 1364780, "year": 2023, "why": "3A 格鬥導入回滾網路碼的代表作"},
+    {"title": "GUILTY GEAR -STRIVE-", "en": "Guilty Gear Strive", "appid": 1384160, "year": 2021, "why": "以優秀回滾體驗獲玩家高度肯定"}
+  ],
+  "steamTags": [{"tagid": 3878, "en": "Competitive"}],
+  "compare": [{"with": "delay-based-netcode", "diff": "延遲型網路碼等雙方輸入都到齊才推進畫面、實作簡單但高延遲下明顯卡頓；回滾網路碼靠預測與回溯換取流暢，實作複雜但體驗遠優。"}],
+  "related": ["latency-ping", "tick-rate", "desync"],
+  "design": "回滾網路碼的實作難度高，但玩家體驗遠優於延遲型方案，是任何含 PvP 格鬥要素遊戲值得投資的技術選擇。",
+  "sources": [
+    {"title": "GGPO 官方網站", "url": "https://www.ggpo.net/", "accessed": "2026-09-17", "note": "回滾網路碼函式庫的起源與用途"},
+    {"title": "Wikipedia: Netcode", "url": "https://en.wikipedia.org/wiki/Netcode", "accessed": "2026-09-17", "note": "網路碼與同步問題的一般定義"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "anti-cheat",
+  "zh": "反外掛",
+  "en": "Anti-cheat",
+  "aliases": ["反作弊", "EAC", "VAC"],
+  "cat": "multiplayer",
+  "sub": "對戰與社群機制",
+  "short": "偵測並阻止玩家使用外掛程式的系統。",
+  "def": "反外掛系統用於偵測並阻止自動瞄準、透視牆壁、無後座力等外掛行為。主要分兩派：使用者模式運行在遊戲本身權限內，較弱但無隱私疑慮；核心模式深入作業系統核心，如 Valorant 的 Vanguard、決勝時刻的 Ricochet，偵測有效但常引發隱私爭議。反外掛是線上競技遊戲的生死線，一款遊戲一旦被判定「滿街外掛」很快會流失玩家，因此需要與遊戲一起從第一天規劃並持續更新。",
+  "features": ["使用者模式 vs 核心模式", "核心模式偵測力強但引發隱私爭議", "需搭配伺服器端統計偵測", "需要玩家回報系統輔助"],
+  "examples": [
+    {"title": "《虹彩六號：圍攻行動》", "en": "Rainbow Six Siege", "appid": 359550, "year": 2015, "why": "長年與外掛問題纏鬥的知名競技遊戲"},
+    {"title": "Escape from Tarkov", "en": "Escape from Tarkov", "appid": 3932890, "year": 2025, "why": "外掛問題長期是玩家社群焦點"}
+  ],
+  "steamTags": [{"tagid": 3878, "en": "Competitive"}],
+  "compare": [],
+  "related": ["sbmm", "dedicated-server"],
+  "design": "反外掛不能後補，必須從第一天與遊戲一起規劃。建議同時投資伺服器端異常偵測與玩家回報系統，外掛者會持續進化，反外掛也需要持續更新。",
+  "sources": [
+    {"title": "Wikipedia: Cheating in video games", "url": "https://en.wikipedia.org/wiki/Cheating_in_video_games", "accessed": "2026-09-17", "note": "提及 PunkBuster、GameGuard、Valve Anti-Cheat 等反外掛工具"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "lobby",
+  "zh": "大廳／房間系統",
+  "en": "Lobby / Room System",
+  "aliases": ["房間系統", "大廳"],
+  "cat": "multiplayer",
+  "sub": "對戰與社群機制",
+  "short": "玩家在遊戲開始前等待、組隊與設定規則的區域。",
+  "def": "大廳是玩家在正式對局開始前的等待與組織區域，典型功能包含公開大廳列表、私人房間、好友邀請、快速配對、角色選擇、地圖投票等。大廳設計直接影響「開一局遊戲有多麻煩」，過於繁瑣的流程會讓玩家在真正開始前就放棄配對。現代趨勢是無縫配對，玩家按一顆按鈕就能直接進入遊戲，不需手動設定；但對有複雜自訂規則需求的遊戲，完整房間系統仍有其必要性。",
+  "features": ["開局前的等待與組織區", "公開大廳與私人房間並存", "現代趨勢走向無縫配對", "複雜規則遊戲仍需完整房間功能"],
+  "examples": [
+    {"title": "Among Us", "en": "Among Us", "appid": 945360, "year": 2018, "why": "私人房間代碼制的簡潔範例"},
+    {"title": "Dota 2", "en": "Dota 2", "appid": 570, "year": 2013, "why": "自訂房間與快速配對並存的代表"}
+  ],
+  "steamTags": [{"tagid": 3859, "en": "Multiplayer"}],
+  "compare": [{"with": "matchmaking", "diff": "大廳是配對前的組織介面；matchmaking 是背後決定誰跟誰對戰的演算過程，兩者常搭配但不是同一件事。"}],
+  "related": ["matchmaking", "cross-play"],
+  "design": "現代趨勢是「無縫配對」讓玩家一鍵進入遊戲；但保留完整房間系統，能服務有自訂規則、指定地圖需求的核心玩家。",
+  "sources": [
+    {"title": "Wikipedia: Matchmaking (video games)", "url": "https://en.wikipedia.org/wiki/Matchmaking_(video_games)", "accessed": "2026-09-17", "note": "大廳與配對系統的關聯說明"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "cross-play",
+  "zh": "跨平台遊玩",
+  "en": "Cross-play / Cross-platform",
+  "aliases": ["跨平台", "跨平台存檔", "Cross-save"],
+  "cat": "multiplayer",
+  "sub": "對戰與社群機制",
+  "short": "不同平台的玩家能在同一伺服器一起遊玩的功能。",
+  "def": "不同平台（PC、PlayStation、Xbox、Nintendo Switch、手機）的玩家可在同一伺服器一起遊玩的功能，對維持線上遊戲玩家數量至關重要，能避免每個平台的玩家池過小導致配對時間過長。跨平台存檔則是讓玩家在不同平台間共用進度的相關功能。跨平台需考慮輸入設備的公平性，鍵盤滑鼠的瞄準精度通常遠高於手把，常見解法是允許玩家選擇只與相同輸入設備配對；各平台廠商的帳號互通與商店分潤政策也是實務上的挑戰。",
+  "features": ["不同平台玩家共用伺服器", "跨平台存檔延伸此概念", "輸入設備公平性是難題", "受平台政策限制"],
+  "examples": [
+    {"title": "Warframe", "en": "Warframe", "appid": 230410, "year": 2013, "why": "PC 與主機玩家長期共享同一遊戲世界"},
+    {"title": "《暗黑破壞神® IV》", "en": "Diablo IV", "appid": 2344520, "year": 2023, "why": "全平台跨玩與跨進度存檔的代表作"}
+  ],
+  "steamTags": [{"tagid": 3859, "en": "Multiplayer"}],
+  "compare": [],
+  "related": ["lobby", "matchmaking"],
+  "design": "常見解法是「只與相同輸入設備配對」以解決鍵鼠 vs 手把的公平性問題；同時要提前談妥各平台商店的帳號互通與分潤條款。",
+  "sources": [
+    {"title": "Wikipedia: Cross-platform play", "url": "https://en.wikipedia.org/wiki/Cross-platform_play", "accessed": "2026-09-17", "note": "跨平台遊玩的定義與技術／商業障礙"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "asynchronous-multiplayer",
+  "zh": "非同步多人",
+  "en": "Asynchronous Multiplayer",
+  "aliases": ["異步多人"],
+  "cat": "multiplayer",
+  "sub": "對戰與社群機制",
+  "short": "玩家不需同時在線也能互動的多人機制。",
+  "def": "玩家不需要同時在線即可互動的多人機制：玩家 A 的遊戲行為（留言、紀錄、建造物等）會被伺服器儲存，並在玩家 B 遊玩時出現在其世界中。《艾爾登法環》系列的血跡與幻影系統是經典範例——玩家能看到其他人死亡地點的血跡與臨終前的幻影動畫，還能在地上留字警告或誤導其他玩家，創造「孤獨卻不孤單」的獨特體驗。非同步多人的開發成本與技術門檻遠低於即時多人，卻能提供強大的社群連結感，非常適合獨立開發者採用。",
+  "features": ["玩家不必同時在線", "以留言／血跡／幻影等形式互動", "開發成本遠低於即時多人", "社群連結感強"],
+  "examples": [
+    {"title": "艾爾登法環", "en": "Elden Ring", "appid": 1245620, "year": 2022, "why": "血跡與幻影系統的代表作"},
+    {"title": "DEATH STRANDING DIRECTOR'S CUT", "en": "Death Stranding", "appid": 1850570, "year": 2022, "why": "玩家建設物跨世界共享的非同步社交設計"}
+  ],
+  "steamTags": [{"tagid": 17770, "en": "Asynchronous Multiplayer"}],
+  "compare": [{"with": "coop-versus", "diff": "協力／對戰是玩家同時在線的即時互動；非同步多人的雙方根本不需要同時在線。"}],
+  "related": ["coop-versus"],
+  "design": "非同步多人不需處理即時網路同步問題，開發門檻低，非常適合獨立團隊在有限資源下做出強烈社群連結感。",
+  "sources": [
+    {"title": "Steam 標籤頁：Asynchronous Multiplayer", "url": "https://store.steampowered.com/tags/en/Asynchronous%20Multiplayer/", "accessed": "2026-09-17", "note": "標籤存在與代表作"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "dedicated-server",
+  "zh": "專屬伺服器",
+  "en": "Dedicated Server",
+  "aliases": ["獨立伺服器"],
+  "cat": "multiplayer",
+  "sub": "網路與連線機制",
+  "short": "由一台獨立機器統一運算並仲裁所有玩家連線的架構。",
+  "def": "由一台獨立於任何玩家裝置的機器，專門負責運算遊戲邏輯、管理連線並仲裁勝負判定的架構。相較於由某位玩家裝置擔任主機的點對點連線，專屬伺服器提供穩定、中立且不受單一玩家硬體或網路品質影響的環境，通常延遲較低、較難被作弊者竄改判定，也更方便進行反外掛偵測與紀錄回放。代價是需要開發商長期負擔主機租用與維運成本，對小型獨立團隊是不小的負擔。",
+  "features": ["獨立機器統一運算", "延遲與公平性通常優於點對點", "利於反外掛與伺服器端偵測", "需長期負擔維運成本"],
+  "examples": [
+    {"title": "Counter-Strike 2", "en": "Counter-Strike 2", "appid": 730, "year": 2012, "why": "競技射擊採專屬伺服器確保判定公正的代表"},
+    {"title": "《虹彩六號：圍攻行動》", "en": "Rainbow Six Siege", "appid": 359550, "year": 2015, "why": "以專屬伺服器支援高強度戰術對戰"}
+  ],
+  "steamTags": [{"tagid": 3859, "en": "Multiplayer"}],
+  "compare": [{"with": "p2p", "diff": "專屬伺服器由中立機器仲裁，公平穩定但成本高；點對點由某位玩家的裝置擔任主機，成本低但容易受該玩家網路品質與作弊風險影響。"}],
+  "related": ["p2p", "tick-rate", "anti-cheat"],
+  "design": "競技向遊戲建議優先投資專屬伺服器換取公平性與可維運性；休閒向協力遊戲可視預算改採點對點降低成本。",
+  "sources": [
+    {"title": "Wikipedia: Client–server model", "url": "https://en.wikipedia.org/wiki/Client%E2%80%93server_model", "accessed": "2026-09-17", "note": "伺服器仲裁架構的基礎概念"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "p2p",
+  "zh": "點對點連線",
+  "en": "Peer-to-Peer (P2P)",
+  "aliases": ["P2P", "主機遷移"],
+  "cat": "multiplayer",
+  "sub": "網路與連線機制",
+  "short": "由某位玩家的裝置擔任主機、其餘玩家連線到他的架構。",
+  "def": "多人連線由參與對局的其中一位玩家裝置擔任「主機」，負責運算遊戲邏輯並將狀態同步給其他玩家，不需要開發商長期租用獨立伺服器。優點是成本低、部署簡單，缺點是遊戲體驗高度依賴主機玩家的網路品質與硬體效能，主機玩家離線常導致整場對局中斷（需靠「主機遷移」轉移主機角色補救），且判定資料掌握在某位玩家手上，更容易被竄改作弊。常見於預算有限的獨立多人遊戲與部分主機遊戲的協力模式。",
+  "features": ["某位玩家裝置擔任主機", "部署成本遠低於專屬伺服器", "體驗受主機玩家品質牽連", "較易被作弊竄改判定"],
+  "examples": [
+    {"title": "雙人成行", "en": "It Takes Two", "appid": 1426210, "year": 2021, "why": "小型協力遊戲採點對點降低伺服器成本的常見做法"},
+    {"title": "Terraria", "en": "Terraria", "appid": 105600, "year": 2011, "why": "獨立遊戲以玩家主機連線支援多人的經典範例"}
+  ],
+  "steamTags": [{"tagid": 3859, "en": "Multiplayer"}],
+  "compare": [{"with": "dedicated-server", "diff": "點對點成本低但公平性與穩定性較差；專屬伺服器公平穩定但需長期維運成本。"}],
+  "related": ["dedicated-server", "desync"],
+  "design": "預算有限的小型多人遊戲可先採點對點快速上線，等玩家規模成長或涉及競技排名時再評估遷移到專屬伺服器。",
+  "sources": [
+    {"title": "Wikipedia: Peer-to-peer", "url": "https://en.wikipedia.org/wiki/Peer-to-peer", "accessed": "2026-09-17", "note": "點對點架構的一般定義"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "tick-rate",
+  "zh": "更新頻率",
+  "en": "Tick Rate",
+  "aliases": ["Tick Rate", "伺服器更新率"],
+  "cat": "multiplayer",
+  "sub": "網路與連線機制",
+  "short": "伺服器每秒重新計算並更新一次世界狀態的次數。",
+  "def": "伺服器每秒更新一次遊戲世界狀態（角色位置、傷害判定等）的次數，以赫茲（Hz）為單位，例如 64 tick 代表每秒更新 64 次。更新頻率越高，伺服器對玩家操作的判定就越即時精準，但同時消耗更多運算資源、需要更多伺服器主機來服務同樣人數的玩家。更新頻率會影響任何非回合制遊戲，第一人稱射擊遊戲受影響最大，因為子彈命中判定的精確度直接取決於伺服器多久重新取樣一次世界狀態。",
+  "features": ["以赫茲為單位", "越高判定越即時精準", "消耗更多伺服器資源", "FPS 遊戲受影響最明顯"],
+  "examples": [
+    {"title": "Counter-Strike 2", "en": "Counter-Strike 2", "appid": 730, "year": 2012, "why": "官方伺服器採 64 tick，長期是社群討論焦點"},
+    {"title": "Team Fortress 2", "en": "Team Fortress 2", "appid": 440, "year": 2007, "why": "官方伺服器採 66 tick 的 Source 引擎代表作"}
+  ],
+  "steamTags": [],
+  "compare": [{"with": "latency-ping", "diff": "延遲是玩家到伺服器的傳輸時間；更新頻率是伺服器本身重算世界的快慢，兩者相加才是玩家實際感受到的判定延遲。"}],
+  "related": ["latency-ping", "hit-registration", "dedicated-server"],
+  "design": "競技射擊遊戲應公開伺服器更新頻率，讓玩家理解命中判定的精確度來源；更新頻率不是越高越好，需與伺服器成本與目標玩家規模平衡。",
+  "sources": [
+    {"title": "Wikipedia: Counter-Strike 2", "url": "https://en.wikipedia.org/wiki/Counter-Strike_2", "accessed": "2026-09-17", "note": "提及官方伺服器 tick rate 設定"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "hit-registration",
+  "zh": "命中判定",
+  "en": "Hit Registration",
+  "aliases": ["Hit Reg", "打擊判定"],
+  "cat": "multiplayer",
+  "sub": "網路與連線機制",
+  "short": "伺服器判斷一次射擊是否真的命中目標的機制。",
+  "def": "線上射擊遊戲判斷「玩家瞄準射出的子彈是否真的打中目標」的整套演算流程。玩家端把射擊方向送給伺服器，伺服器再依當下（或延遲補償後回溯的）世界狀態計算是否命中。命中判定被視為連線多人射擊遊戲中最複雜的數學課題之一，因為玩家看到的畫面與伺服器實際判定的時間點存在落差，玩家常抱怨的「明明打中卻沒傷害」多半源自這個落差，而非單純的外掛或壞連線。",
+  "features": ["伺服器端計算是否命中", "與延遲補償密切相關", "玩家視角與伺服器判定有落差", "常被誤認成外掛或壞連線"],
+  "examples": [
+    {"title": "戰地風雲™ 6", "en": "Battlefield 6", "appid": 2807960, "year": 2025, "why": "大型戰場的命中判定長期是玩家熱議焦點"},
+    {"title": "Counter-Strike 2", "en": "Counter-Strike 2", "appid": 730, "year": 2012, "why": "命中判定精確度直接影響競技公平性"}
+  ],
+  "steamTags": [],
+  "compare": [{"with": "desync", "diff": "命中判定是「這一發子彈算不算中」的計算結果；失步是更廣義的「雙方看到的世界狀態不一致」，命中判定異常只是失步的其中一種表現。"}],
+  "related": ["tick-rate", "latency-ping", "desync"],
+  "design": "命中判定的爭議多半來自玩家端與伺服器端的時間落差，開發時應搭配延遲補償機制，並在除錯工具中能重播雙方視角以快速定位問題。",
+  "sources": [
+    {"title": "Wikipedia: Netcode", "url": "https://en.wikipedia.org/wiki/Netcode", "accessed": "2026-09-17", "note": "命中判定與網路同步問題的一般說明"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "desync",
+  "zh": "失步",
+  "en": "Desync (Desynchronization)",
+  "aliases": ["Desync", "不同步"],
+  "cat": "multiplayer",
+  "sub": "網路與連線機制",
+  "short": "不同玩家或客戶端與伺服器對世界狀態認知不一致的狀況。",
+  "def": "多人連線遊戲中，不同玩家的畫面、或某位玩家的畫面與伺服器實際狀態出現不一致的現象，例如一扇門在某玩家眼中是開著的、在另一玩家眼中卻是關著的。成因包含連線不穩、封包遺失、伺服器負載過高、或程式本身的同步邏輯有誤。失步是玩家口中「爛網路碼」最常見的具體症狀之一，嚴重時會直接導致命中判定失準、角色瞬移或對局崩潰，是連線多人遊戲除錯時最棘手的問題之一。",
+  "features": ["雙方對世界狀態認知不一致", "成因包含延遲、封包遺失、同步邏輯錯誤", "常伴隨命中判定異常", "除錯難度高"],
+  "examples": [
+    {"title": "戰地風雲™ 6", "en": "Battlefield 6", "appid": 2807960, "year": 2025, "why": "上市後玩家社群大量討論的失步與命中判定問題"},
+    {"title": "S.T.A.L.K.E.R. 2: Heart of Chornobyl", "en": "S.T.A.L.K.E.R. 2", "appid": 1643320, "year": 2024, "why": "大型多人／協力場景常見的同步挑戰案例"}
+  ],
+  "steamTags": [],
+  "compare": [{"with": "hit-registration", "diff": "失步是雙方世界狀態不一致的廣義現象；命中判定是其中最常被玩家感知到的具體症狀之一。"}],
+  "related": ["hit-registration", "tick-rate", "p2p"],
+  "design": "降低失步需要嚴謹的狀態同步架構與充分的壓力測試，開發時應建立能重現失步情境的除錯工具，而非只靠玩家回報事後補救。",
+  "sources": [
+    {"title": "Wikipedia: Netcode", "url": "https://en.wikipedia.org/wiki/Netcode", "accessed": "2026-09-17", "note": "同步問題（desync）的一般定義"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "ranked",
+  "zh": "排位模式",
+  "en": "Ranked Mode",
+  "aliases": ["排位賽", "積分賽"],
+  "cat": "multiplayer",
+  "sub": "對戰與社群機制",
+  "short": "以段位與積分嚴格配對、勝負影響排名的競技模式。",
+  "def": "與休閒模式相對的競技向對戰模式，玩家累積積分或段位，勝場加分、敗場扣分，配對通常採用嚴格的技能配對確保勢均力敵。排位模式的段位（如青銅、白銀、黃金……或數字積分）本身成為玩家追逐的長期目標，是遊戲留存率的重要引擎，但也帶來「等級焦慮」「掉分邊緣不敢玩」等副作用。多數競技遊戲採賽季制，每季重置或壓縮段位，讓玩家有重新出發的動力。",
+  "features": ["勝負影響段位與積分", "配對通常比休閒模式嚴格", "多採賽季重置制", "是長期留存的重要引擎"],
+  "examples": [
+    {"title": "《Apex 英雄》", "en": "Apex Legends", "appid": 1172470, "year": 2020, "why": "賽季制排位段位系統的代表作"},
+    {"title": "Dota 2", "en": "Dota 2", "appid": 570, "year": 2013, "why": "MMR 積分排位的長壽經典案例"}
+  ],
+  "steamTags": [{"tagid": 3878, "en": "Competitive"}],
+  "compare": [{"with": "sbmm", "diff": "SBMM 是配對的技術手段；排位模式是把配對結果轉換成段位、積分等可見進度系統的遊戲模式。"}],
+  "related": ["sbmm", "matchmaking"],
+  "design": "賽季重置節奏要拿捏得當，太頻繁會讓玩家疲於「重新爬分」，太少則段位失去代表當下實力的意義。",
+  "sources": [
+    {"title": "Wikipedia: Skill-based matchmaking", "url": "https://en.wikipedia.org/wiki/Skill-based_matchmaking", "accessed": "2026-09-17", "note": "排位與 MMR 積分制度的關聯說明"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "matchmaking",
+  "zh": "配對系統",
+  "en": "Matchmaking",
+  "aliases": ["自動配對", "快速配對"],
+  "cat": "multiplayer",
+  "sub": "對戰與社群機制",
+  "short": "自動把玩家分組成一場對局的系統，是各種配對邏輯的統稱。",
+  "def": "自動將等待中的玩家分組、組成一場對局的系統，是各種配對邏輯的統稱：可以單純依連線品質與等待時間就近配對，也可以是依技能配對（SBMM）、依隊伍人數與職業組成配對等更複雜的規則。配對系統的品質直接決定「玩家等多久才能開始一局」與「這一局好不好玩」，等待時間過長會讓玩家流失，配對品質太差則會讓對局失衡。是所有多人遊戲上線前必須設計的基礎設施之一。",
+  "features": ["自動分組成局", "可簡單依連線就近配對", "也可依技能等複雜規則配對", "等待時間與配對品質互相拉扯"],
+  "examples": [
+    {"title": "《Apex 英雄》", "en": "Apex Legends", "appid": 1172470, "year": 2020, "why": "結合技能與連線品質的現代配對系統代表"},
+    {"title": "Overcooked! 2", "en": "Overcooked! 2", "appid": 728880, "year": 2018, "why": "休閒協力遊戲以簡單快速配對降低門檻"}
+  ],
+  "steamTags": [{"tagid": 3859, "en": "Multiplayer"}],
+  "compare": [{"with": "sbmm", "diff": "配對系統是廣義的自動分組機制；SBMM 是其中特別以技術等級為主要依據的一種做法。"}],
+  "related": ["sbmm", "lobby", "ranked"],
+  "design": "配對規則要在「等待時間」與「對局品質」間取捨，休閒向遊戲可優先降低等待時間，競技向遊戲則應優先追求配對品質。",
+  "sources": [
+    {"title": "Wikipedia: Matchmaking (video games)", "url": "https://en.wikipedia.org/wiki/Matchmaking_(video_games)", "accessed": "2026-09-17", "note": "配對系統的一般定義"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "game-engine",
+  "zh": "遊戲引擎",
+  "en": "Game Engine",
+  "aliases": ["引擎"],
+  "cat": "tech",
+  "sub": "引擎與工具",
+  "short": "整合渲染、物理、動畫、腳本等核心系統的開發平台。",
+  "def": "提供遊戲開發所需核心技術框架與工具集的軟體平台，整合渲染、物理、動畫、音訊、AI、網路、腳本、編輯器等系統，讓開發者能專注在遊戲設計本身而非從頭寫基礎建設。主流商用引擎包括 Unity、Unreal Engine、Godot；CAPCOM 的 RE Engine、FromSoftware 的自製引擎則屬於自製引擎（In-house Engine），針對自家遊戲特性深度最佳化。引擎選擇沒有絕對最佳，取決於團隊規模、專案類型、成員經驗與授權預算。",
+  "features": ["整合渲染、物理、動畫等系統", "提供編輯器與腳本環境", "分商用引擎與自製引擎", "選擇取決於團隊與專案需求"],
+  "examples": [
+    {"title": "黑神話：悟空", "en": "Black Myth: Wukong", "appid": 2358720, "year": 2024, "why": "以 Unreal Engine 5 開發的 3A 級畫面代表"},
+    {"title": "Brotato", "en": "Brotato", "appid": 1942280, "year": 2023, "why": "以 Godot 開發並取得商業成功的獨立遊戲代表"}
+  ],
+  "steamTags": [],
+  "compare": [{"with": "unity-engine", "diff": "遊戲引擎是這類軟體平台的總稱；Unity、Unreal、Godot 是其中三套具體商用／開源產品，各有定位差異。"}],
+  "related": ["unity-engine", "unreal-engine", "godot-engine", "physics-engine"],
+  "design": "引擎是工具不是信仰，不同專案可用不同引擎。教學建議學生先學入門門檻最低、教材最豐富的 Unity，再視需求擴展到其他引擎。",
+  "sources": [
+    {"title": "Unity 官方網站", "url": "https://unity.com/", "accessed": "2026-09-17", "note": "商用遊戲引擎產品頁"},
+    {"title": "Godot Engine 官方文件：Introduction", "url": "https://docs.godotengine.org/en/stable/about/introduction.html", "accessed": "2026-09-17", "note": "開源引擎定義與特色"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "rasterization",
+  "zh": "光柵化",
+  "en": "Rasterization",
+  "aliases": ["柵格化"],
+  "cat": "tech",
+  "sub": "渲染與圖形技術",
+  "short": "把 3D 三角形投影到 2D 螢幕、逐像素上色的傳統渲染技術。",
+  "def": "過去三十年來即時 3D 遊戲畫面的技術基礎：將 3D 空間中的三角形投影到 2D 螢幕平面，再逐一計算每個像素的顏色。光柵化的優點是快，現代 GPU 每秒能處理數十億個三角形；缺點是光影效果必須靠陰影貼圖、環境光遮蔽、立方體反射貼圖等各種「近似技巧」拼湊，而這些技巧都有各自限制，例如傳統陰影貼圖的鋸齒、反射只能做水面這類平面。2018 年光線追蹤硬體出現後，遊戲畫面開始從純光柵化轉向光柵化與光線追蹤混合。",
+  "features": ["三角形投影到 2D 螢幕", "逐像素計算顏色", "速度快但光影靠近似技巧", "現代常與光線追蹤混合使用"],
+  "examples": [
+    {"title": "Team Fortress 2", "en": "Team Fortress 2", "appid": 440, "year": 2007, "why": "純光柵化時代的代表作"},
+    {"title": "Terraria", "en": "Terraria", "appid": 105600, "year": 2011, "why": "2D 光柵化渲染的長銷代表"}
+  ],
+  "steamTags": [],
+  "compare": [{"with": "ray-tracing", "diff": "光柵化用近似技巧模擬光影、速度快；光線追蹤實際模擬光線物理行為、更真實但運算成本高，現代遊戲常混合兩者。"}],
+  "related": ["ray-tracing", "shader", "draw-call"],
+  "design": "即使在光線追蹤時代，光柵化仍是效能基礎。學生學習 3D 圖學應先掌握光柵化原理（頂點著色、像素著色、深度測試等），這是理解所有進階技術的根基。",
+  "sources": [
+    {"title": "NVIDIA GeForce：DLSS 5 技術頁", "url": "https://www.nvidia.com/en-us/geforce/news/dlss-5-3d-guided-neural-rendering/", "accessed": "2026-09-17", "note": "對照光柵化與新一代渲染技術的定位"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "shader",
+  "zh": "著色器",
+  "en": "Shader",
+  "aliases": ["Shader"],
+  "cat": "tech",
+  "sub": "渲染與圖形技術",
+  "short": "在 GPU 上執行、負責計算每個像素最終顏色的小程式。",
+  "def": "在 GPU 上執行的小程式，負責計算畫面上每個像素的最終顏色。主要類型包括頂點著色器（處理每個頂點的位置與屬性）、片段／像素著色器（處理每個像素的顏色計算）、計算著色器（用於粒子、流體模擬等通用平行計算）。材質質感（金屬、布料、皮膚）、特效（火焰、煙霧、水）、後處理（景深、動態模糊、色調映射）全都由著色器實現。Unity 有自家的 Shader Graph／ShaderLab，Unreal 可用材質編輯器以節點視覺化建構著色器。",
+  "features": ["在 GPU 上逐像素或逐頂點運算", "決定材質、特效與後處理效果", "可用程式碼或節點視覺化撰寫", "是技術美術的核心技能"],
+  "examples": [
+    {"title": "Cyberpunk 2077", "en": "Cyberpunk 2077", "appid": 1091500, "year": 2020, "why": "大量自訂著色器打造霓虹與雨夜質感的代表"},
+    {"title": "Cuphead", "en": "Cuphead", "appid": 268910, "year": 2017, "why": "以著色器重現 1930 年代手繪動畫質感"}
+  ],
+  "steamTags": [],
+  "compare": [],
+  "related": ["rasterization", "ray-tracing", "physics-engine"],
+  "design": "學習著色器是進階美術與技術美術的核心技能，建議從線上程式 Shader 平台入門，再進階到 Unity Shader Graph 或 Unreal 材質編輯器，理解「看似魔法」的效果其實是幾行程式碼。",
+  "sources": [
+    {"title": "Unity 官方文件：Shaders in Unity", "url": "https://docs.unity3d.com/Manual/Shaders.html", "accessed": "2026-09-17", "note": "著色器類型與用途說明"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "ray-tracing",
+  "zh": "光線追蹤",
+  "en": "Ray Tracing",
+  "aliases": ["RT", "即時光線追蹤"],
+  "cat": "tech",
+  "sub": "渲染與圖形技術",
+  "short": "模擬光線在場景中真實反射、折射行為的渲染技術。",
+  "def": "模擬光線在 3D 空間中真實物理行為的渲染技術：對螢幕上每個像素，從虛擬攝影機射出光線，追蹤它與場景物體的互動（反射、折射、吸收、散射等）以計算最終顏色。相較傳統光柵化，光線追蹤能提供真實反射（如角色在水面上的完整倒影）、精準陰影與自然的全局光照。2018 年 NVIDIA RTX 20 系列首次將硬體光線追蹤帶入消費市場，之後 PlayStation 5 與 Xbox Series X|S 也支援，因極度消耗運算資源，通常搭配 DLSS、FSR 等 AI 升頻技術維持可接受幀率。",
+  "features": ["逐像素追蹤光線反射與折射", "提供真實倒影與柔和陰影", "2018 年 RTX 20 系列導入硬體支援", "常搭配 AI 升頻換取效能"],
+  "examples": [
+    {"title": "Cyberpunk 2077", "en": "Cyberpunk 2077", "appid": 1091500, "year": 2020, "why": "RT Overdrive 模式讓大眾認識光線追蹤威力"},
+    {"title": "黑神話：悟空", "en": "Black Myth: Wukong", "appid": 2358720, "year": 2024, "why": "以光線追蹤呈現東方神話場景光影"}
+  ],
+  "steamTags": [],
+  "compare": [{"with": "path-tracing", "diff": "光線追蹤通常只選擇性計算反射、陰影等特定效果並與光柵化混合；路徑追蹤則統一模擬所有光線反彈路徑，是光線追蹤的完全體。"}],
+  "related": ["rasterization", "path-tracing", "global-illumination"],
+  "design": "光線追蹤導入需考量目標平台與玩家硬體，建議提供多級開關選項；卡通或像素畫風的遊戲未必需要，反而是不必要的效能成本。",
+  "sources": [
+    {"title": "NVIDIA GeForce：光線追蹤技術頁", "url": "https://www.nvidia.com/en-us/geforce/technologies/ray-tracing/", "accessed": "2026-09-17", "note": "光線追蹤硬體與代表作說明"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "path-tracing",
+  "zh": "路徑追蹤",
+  "en": "Path Tracing",
+  "aliases": ["全局光線追蹤"],
+  "cat": "tech",
+  "sub": "渲染與圖形技術",
+  "short": "統一模擬光子多次反彈的電影級渲染技術，光線追蹤的完全體。",
+  "def": "光線追蹤的完全體、電影級渲染的終極技術：相較傳統光線追蹤只選擇性計算特定光照效果並仍混合光柵化，路徑追蹤讓相機射出的每道光線在場景中多次反彈，完整模擬光子在現實中的行為——直接光、間接光、漫反射、鏡面反射、焦散、次表面散射全部由同一套物理公式統一計算，效果最接近離線渲染的電影 CG 品質。代價極高，即便旗艦顯卡在 4K 開啟路徑追蹤，也必須搭配 AI 升頻的效能模式才能維持流暢幀率。",
+  "features": ["統一模擬所有光線反彈路徑", "涵蓋焦散、次表面散射等效果", "畫質最接近電影級離線渲染", "運算成本極高，需搭配 AI 升頻"],
+  "examples": [
+    {"title": "Cyberpunk 2077", "en": "Cyberpunk 2077", "appid": 1091500, "year": 2020, "why": "RT Overdrive 模式是首個讓大眾認識路徑追蹤威力的作品"},
+    {"title": "黑神話：悟空", "en": "Black Myth: Wukong", "appid": 2358720, "year": 2024, "why": "提供路徑追蹤選項的東方題材 3A 代表"}
+  ],
+  "steamTags": [],
+  "compare": [{"with": "ray-tracing", "diff": "光線追蹤通常混合光柵化、只算特定效果；路徑追蹤是統一物理模擬所有光線反彈的「完全體」，效果更真實但成本遠高於前者。"}],
+  "related": ["ray-tracing", "global-illumination", "ai-upscaling"],
+  "design": "路徑追蹤目前是技術展示而非主流體驗，設計時應視為「效能怪獸選項」：大多玩家不會開，但能為硬體發燒友留下令人驚嘆的畫面。",
+  "sources": [
+    {"title": "NVIDIA GeForce：光線追蹤技術頁", "url": "https://www.nvidia.com/en-us/geforce/technologies/ray-tracing/", "accessed": "2026-09-17", "note": "路徑追蹤與光線追蹤的技術定位"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "global-illumination",
+  "zh": "全局光照",
+  "en": "Global Illumination (GI)",
+  "aliases": ["GI", "Lumen"],
+  "cat": "tech",
+  "sub": "渲染與圖形技術",
+  "short": "模擬光線在場景中多次反彈、照亮間接區域的技術。",
+  "def": "模擬光線在場景中多次反彈、照亮間接區域的技術。沒有全局光照的遊戲，陰影中的物體就是死黑一片；有了全局光照，陽光照在紅牆上反彈到地板，會讓地板染上一層淡淡紅色調，這種光的「溫暖感」正是電影級畫面的關鍵。傳統做法是預先計算並存成貼圖的烘焙全局光照，省效能但只能用於靜態場景；Unreal Engine 5 的 Lumen 則是即時動態全局光照系統，光線隨物體移動即時重算，讓動態世界有了真實的間接光。",
+  "features": ["模擬光線多次反彈", "分烘焙式與即時動態兩種做法", "對室內與有色光源場景提升明顯", "即時 GI 是昂貴的效能選項"],
+  "examples": [
+    {"title": "黑神話：悟空", "en": "Black Myth: Wukong", "appid": 2358720, "year": 2024, "why": "使用 Unreal Engine 5 Lumen 的代表作"},
+    {"title": "無人深空", "en": "No Man's Sky", "appid": 275850, "year": 2016, "why": "長年持續強化全局光照畫質的代表"}
+  ],
+  "steamTags": [],
+  "compare": [{"with": "ray-tracing", "diff": "全局光照專注於間接光照的模擬，可用烘焙或光線追蹤等不同技術實現；光線追蹤是實現全局光照等效果的其中一種手段。"}],
+  "related": ["ray-tracing", "path-tracing"],
+  "design": "全局光照對室內場景與有色光源（霓虹燈、火焰、水中反光）的質感提升最明顯，對純戶外陽光場景提升有限；小型團隊採烘焙 GI 仍是合理選擇。",
+  "sources": [
+    {"title": "Unreal Engine 官方文件：Lumen Global Illumination", "url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/lumen-global-illumination-and-reflections-in-unreal-engine", "accessed": "2026-09-17", "note": "Lumen 即時全局光照系統說明"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "ai-upscaling",
+  "zh": "AI 升頻",
+  "en": "DLSS / FSR / XeSS (AI Upscaling)",
+  "aliases": ["DLSS", "FSR", "XeSS", "幀生成", "Frame Generation"],
+  "cat": "tech",
+  "sub": "渲染與圖形技術",
+  "short": "以 AI 把低解析度畫面放大到目標解析度、兼顧畫質與效能的技術。",
+  "def": "AI 驅動的畫面升頻技術，可在較低內部解析度渲染畫面後，透過 AI 模型放大到目標解析度，兼顧畫質與效能。NVIDIA 的 DLSS 需要 RTX 系列顯卡的 Tensor Core；AMD 的 FSR 採開源方案、不限廠商；Intel 的 XeSS 是 Arc 顯卡方案但也提供跨廠商版本。2026 年的 DLSS 4.5 further 進化到「動態多幀生成」，AI 實際繪製畫面中絕大多數像素、僅少數像素由傳統渲染產生，在 RTX 50 系列上最多可產生數倍幀率。幀生成（Frame Generation）技術與升頻常搭配使用、目的重疊，此條目一併涵蓋。",
+  "features": ["AI 把低解析度放大到目標解析度", "三大廠各自方案：DLSS／FSR／XeSS", "幀生成技術與升頻常搭配使用", "已是現代 GPU 渲染管線的必要部分"],
+  "examples": [
+    {"title": "Cyberpunk 2077", "en": "Cyberpunk 2077", "appid": 1091500, "year": 2020, "why": "同時支援 DLSS、FSR、XeSS 三方案的代表作"},
+    {"title": "黑神話：悟空", "en": "Black Myth: Wukong", "appid": 2358720, "year": 2024, "why": "依賴 AI 升頻維持路徑追蹤流暢度的代表"}
+  ],
+  "steamTags": [],
+  "compare": [{"with": "neural-rendering", "diff": "AI 升頻的目標是「用更少運算換取同等或更高解析度／幀率」；神經渲染（DLSS 5）的目標則是讓 AI 接管光照與材質運算，提升的是畫面的視覺真實度而非效能。"}],
+  "related": ["neural-rendering", "frame-rate", "ray-tracing"],
+  "design": "AI 升頻已是現代 GPU 渲染管線的必要部分而非選配，開發時應同時支援多種方案涵蓋所有硬體；原生解析度與升頻後的視覺差異要經過美術確認，避免細節被過度平滑或產生鬼影。",
+  "origin": "DLSS 首次隨 2018 年 NVIDIA RTX 20 系列顯卡推出；FSR、XeSS 隨後由 AMD、Intel 跟進推出對應方案。",
+  "sources": [
+    {"title": "NVIDIA GeForce：DLSS 技術頁", "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/", "accessed": "2026-09-17", "note": "DLSS 升頻與幀生成技術說明"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "neural-rendering",
+  "zh": "神經渲染（DLSS 5）",
+  "en": "DLSS 5 / Real-time Neural Rendering",
+  "aliases": ["DLSS 5", "3D 引導神經渲染", "3D-Guided Neural Rendering"],
+  "cat": "tech",
+  "sub": "渲染與圖形技術",
+  "short": "NVIDIA 於 2026 年推出、用 AI 接管光照與材質運算的渲染技術。",
+  "def": "NVIDIA 於 2026 年 3 月 16 日 GTC 大會發表、同年 9 月 3 日隨 NBA 2K27 首發上市的新一代渲染技術，執行長黃仁勳稱其為「圖形領域的 GPT 時刻」。與前幾代 DLSS 專注提升效能不同，DLSS 5 的核心是提升視覺保真度：它在 DLSS 4.5 的升頻與多幀生成基礎上，再用神經網路模型接管光照與材質運算——輸入遊戲當前幀的顏色與運動向量，由 AI 為場景注入接近照片等級的光照、皮膚次表面散射與布料質感，且錨定於開發者原本的美術風格。目前為 RTX 50 系列專屬功能，首發合作廠商包含 Bethesda、CAPCOM、Ubisoft、Warner Bros. Games、網易、騰訊、NCSOFT 等。",
+  "features": ["2026 年 3 月發表、9 月上市", "AI 接管光照與材質而非只是升頻", "目前為 RTX 50 系列專屬", "首發搭配 NBA 2K27 等大廠遊戲"],
+  "examples": [
+    {"title": "《NBA 2K27》", "en": "NBA 2K27", "appid": 4356430, "year": 2026, "why": "DLSS 5 神經渲染的首發支援遊戲"},
+    {"title": "Resident Evil Requiem", "en": "Resident Evil Requiem", "appid": 3764200, "year": 2026, "why": "官方公布的 DLSS 5 首發合作遊戲之一"}
+  ],
+  "steamTags": [],
+  "compare": [{"with": "ai-upscaling", "diff": "AI 升頻換取的是效能（更高幀率或解析度）；神經渲染換取的是視覺保真度，讓 AI 直接參與光照與材質的生成。"}],
+  "related": ["ai-upscaling", "ray-tracing", "path-tracing"],
+  "design": "建議將 DLSS 5 視為「可選的畫質增益」而非強制渲染管線，保留原生渲染作為美術風格的保底；部分社群質疑 AI 介入可能稀釋美術方向的掌控力，需持續關注。",
+  "sources": [
+    {"title": "NVIDIA Newsroom：DLSS 5 Delivers AI-Powered Breakthrough in Visual Fidelity for Games", "url": "https://nvidianews.nvidia.com/news/nvidia-dlss-5-delivers-ai-powered-breakthrough-in-visual-fidelity-for-games", "accessed": "2026-09-17", "note": "DLSS 5 官方發表內容、發表與上市日期、首發合作廠商"},
+    {"title": "NVIDIA GeForce News：DLSS 5 3D-Guided Neural Rendering", "url": "https://www.nvidia.com/en-us/geforce/news/dlss-5-3d-guided-neural-rendering/", "accessed": "2026-09-17", "note": "首發支援遊戲 NBA 2K27 與技術細節"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "frame-rate",
+  "zh": "幀率",
+  "en": "Frame Rate (FPS)",
+  "aliases": ["FPS", "畫面更新率"],
+  "cat": "tech",
+  "sub": "效能與體感",
+  "short": "每秒顯示的畫面數，數值與穩定性都影響操作手感。",
+  "def": "每秒顯示的畫面數，單位是 FPS（Frames Per Second）。常見標準：30FPS 偏電影感、省效能，舊主機常見；60FPS 流暢、是現代主流標準；120FPS 屬競技級，現世代主機可選；144FPS 以上則是 PC 高刷新率電競螢幕的領域。穩定性比絕對數值更重要，穩定的 30FPS 體感往往優於忽高忽低的 45FPS。現代主機提供畫質模式（30FPS 換畫質）與效能模式（60FPS 換畫質）讓玩家自選。",
+  "features": ["以 FPS 為單位", "穩定性比絕對數值重要", "主機常提供畫質／效能雙模式", "目標幀率依遊戲類型而定"],
+  "examples": [
+    {"title": "Street Fighter 6", "en": "Street Fighter 6", "appid": 1364780, "year": 2023, "why": "硬直幀數以 60FPS 為標準設計的格鬥代表"},
+    {"title": "文明帝國VII", "en": "Civilization VII", "appid": 1295660, "year": 2025, "why": "回合制策略對幀率要求相對寬鬆的代表"}
+  ],
+  "steamTags": [],
+  "compare": [{"with": "frame-time", "diff": "幀率是「每秒幾張畫面」的平均值；影格時間（frame time）是「每一張畫面各花了多久」，能看出幀率背後是否忽快忽慢的頓挫。"}],
+  "related": ["frame-time", "vsync-tearing", "input-lag"],
+  "design": "目標幀率應依遊戲類型決定：競技射擊至少 60FPS，動作格鬥建議 60FPS，回合制策略 30FPS 即可。切勿在設計階段追求極致畫質卻無法達成目標幀率，玩家能忍受略醜但不能忍受卡頓。",
+  "sources": [
+    {"title": "Wikipedia: Frame rate", "url": "https://en.wikipedia.org/wiki/Frame_rate", "accessed": "2026-09-17", "note": "幀率定義與遊戲應用"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "hdr",
+  "zh": "高動態範圍",
+  "en": "High Dynamic Range (HDR)",
+  "aliases": ["HDR", "HDR10", "Dolby Vision"],
+  "cat": "tech",
+  "sub": "渲染與圖形技術",
+  "short": "讓畫面明暗對比拉得更大、更接近人眼實際感受的顯示技術。",
+  "def": "讓畫面的明暗對比拉得更大：亮的地方更亮（如正午太陽、雷射、霓虹燈），暗的地方更暗但仍保留細節。HDR 需要螢幕硬體支援（標有「HDR10」「Dolby Vision」等規格），並配合遊戲內 HDR 模式才能生效，對夜景、夕陽、光影對比強烈的場景提升最明顯。HDR 的校正極為重要，錯誤的設定會讓畫面偏暗或過曝，好的遊戲會提供引導式的 HDR 校正畫面，通常顯示不同亮度的太陽讓玩家調整。",
+  "features": ["需螢幕硬體支援", "拉大明暗對比範圍", "對夜景與強光影場景提升明顯", "校正錯誤易導致偏暗或過曝"],
+  "examples": [
+    {"title": "Resident Evil Village", "en": "Resident Evil Village", "appid": 1196590, "year": 2021, "why": "強烈明暗對比場景受益於 HDR 的代表"},
+    {"title": "Red Dead Redemption 2", "en": "Red Dead Redemption 2", "appid": 1174180, "year": 2019, "why": "日夜光影變化豐富、HDR 表現受推崇的開放世界代表"}
+  ],
+  "steamTags": [],
+  "compare": [],
+  "related": ["frame-rate", "global-illumination"],
+  "design": "建議開發時購買 HDR 參考螢幕進行實際測試，並提供引導式校正畫面，避免多數玩家因螢幕差異或設定錯誤而看到偏暗、過曝的畫面。",
+  "sources": [
+    {"title": "Wikipedia: High-dynamic-range rendering", "url": "https://en.wikipedia.org/wiki/High-dynamic-range_rendering", "accessed": "2026-09-17", "note": "HDR 渲染的定義與顯示需求"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "lod",
+  "zh": "細節層級",
+  "en": "Level of Detail (LOD)",
+  "aliases": ["LOD", "多邊形簡化"],
+  "cat": "tech",
+  "sub": "渲染與圖形技術",
+  "short": "依物件離攝影機遠近動態切換模型精細度的技術。",
+  "def": "根據物件距離攝影機的遠近，動態切換不同精細度模型的技術：近距離使用高多邊形模型（LOD0，完整細節），中距離使用簡化模型（LOD1、LOD2），遠距離則用低模型甚至一張公告板貼圖。這對大場景效能至關重要，假如一張城市地圖所有建築都用最高細節渲染，再強的顯卡也會撐不住。Unreal Engine 5 的 Nanite 技術讓 LOD 自動化，開發者丟進電影級高模，引擎自動在即時運算中決定每個像素需要多少三角形。",
+  "features": ["依距離切換模型精細度", "對大場景效能至關重要", "設計不當會出現 Pop-in 現象", "Nanite 等技術可自動化此流程"],
+  "examples": [
+    {"title": "黑神話：悟空", "en": "Black Myth: Wukong", "appid": 2358720, "year": 2024, "why": "使用 Unreal Engine 5 Nanite 自動化 LOD 的代表"},
+    {"title": "無人深空", "en": "No Man's Sky", "appid": 275850, "year": 2016, "why": "大型開放世界依賴 LOD 系統維持效能的代表"}
+  ],
+  "steamTags": [],
+  "compare": [],
+  "related": ["draw-call", "occlusion-culling", "texture-streaming"],
+  "design": "LOD 切換距離設計不好會出現「Pop-in」現象，物件在玩家眼前突然變清晰或模糊；LOD 模型製作也要確保輪廓相似，避免距離變化時物體形狀跳變。",
+  "sources": [
+    {"title": "Unreal Engine 官方文件：Nanite Virtualized Geometry", "url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/nanite-virtualized-geometry-in-unreal-engine", "accessed": "2026-09-17", "note": "LOD 自動化技術 Nanite 說明"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "ragdoll",
+  "zh": "布娃娃物理",
+  "en": "Ragdoll Physics",
+  "aliases": ["Ragdoll"],
+  "cat": "tech",
+  "sub": "效能與體感",
+  "short": "角色失去平衡後由物理引擎接管關節動作的技術。",
+  "def": "角色死亡或失去平衡後，身體關節不再由動畫驅動、改由物理引擎接管的技術，名字源自布娃娃被拋擲時的隨意姿態——每個關節都有合理的物理連接但沒有主動運動。布娃娃物理讓敵人死亡時的姿勢每次都不同，被打到頭與被打到腳的倒下姿勢不同，大幅增加戰鬥的視覺豐富度。作為早期案例的《侏羅紀公園：入侵者》1998 年就展示過此技術，之後隨物理引擎進步而在動作與射擊遊戲中普及。",
+  "features": ["死亡或失衡時由物理引擎接管", "每次倒下姿勢皆不同", "增加戰鬥視覺豐富度", "參數調整是隱藏工作量"],
+  "examples": [
+    {"title": "Red Dead Redemption 2", "en": "Red Dead Redemption 2", "appid": 1174180, "year": 2019, "why": "以細膩布娃娃物理呈現角色倒地反應的代表"},
+    {"title": "Human Fall Flat", "en": "Human Fall Flat", "appid": 477160, "year": 2016, "why": "把布娃娃物理直接變成核心操作機制的特例"}
+  ],
+  "steamTags": [{"tagid": 3968, "en": "Physics"}],
+  "compare": [],
+  "related": ["physics-engine"],
+  "design": "布娃娃物理的參數調整是工作量極大的隱藏工作，關節硬度、摩擦力、質量分布都會影響倒下的自然度，過硬像木偶、過軟則像果凍。",
+  "sources": [
+    {"title": "Wikipedia: Ragdoll physics", "url": "https://en.wikipedia.org/wiki/Ragdoll_physics", "accessed": "2026-09-17", "note": "布娃娃物理的定義與遊戲史"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "motion-capture",
+  "zh": "動作捕捉",
+  "en": "Motion Capture (MoCap)",
+  "aliases": ["MoCap", "表情捕捉"],
+  "cat": "tech",
+  "sub": "效能與體感",
+  "short": "用感測器記錄真人演員動作、表情轉換為角色動畫的技術。",
+  "def": "用感測器或攝影機記錄真人演員的動作、表情、聲音，轉換為遊戲角色動畫的技術。現代動作捕捉分全身動作（穿感測器服或標記點服進入攝影棚）與表情捕捉（戴頭盔攝影機對準臉部記錄肌肉細節）。電影級動作捕捉如《最後生還者二部曲》的表演已與真人電影沒有區別，但成本極高（攝影棚、演員、後期清理），是 3A 與獨立遊戲差距最明顯之處。替代方案包含購買現成動作資料庫（如 Mixamo）、使用 AI 輔助的單一攝影機動作捕捉。",
+  "features": ["分全身與表情捕捉", "能產生手 K 動畫難達到的自然感", "成本極高", "可用現成資料庫或 AI 輔助替代"],
+  "examples": [
+    {"title": "DEATH STRANDING 2: ON THE BEACH", "en": "Death Stranding 2", "appid": 3280350, "year": 2026, "why": "以電影級動作捕捉聞名的小島工作室代表作"},
+    {"title": "Red Dead Redemption 2", "en": "Red Dead Redemption 2", "appid": 1174180, "year": 2019, "why": "大規模全身與表情捕捉的 3A 代表"}
+  ],
+  "steamTags": [{"tagid": 4145, "en": "Cinematic"}],
+  "compare": [],
+  "related": ["ragdoll"],
+  "design": "動作捕捉成本極高，中小團隊可考慮購買現成動作資料庫或使用 AI 輔助的單一攝影機捕捉技術，但目前品質仍有限，需人工後製把關。",
+  "sources": [
+    {"title": "Wikipedia: Motion capture", "url": "https://en.wikipedia.org/wiki/Motion_capture", "accessed": "2026-09-17", "note": "動作捕捉技術定義與遊戲產業應用"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "xr",
+  "zh": "VR／AR／MR／XR",
+  "en": "VR / AR / MR / XR",
+  "aliases": ["虛擬實境", "擴增實境", "混合實境", "延展實境"],
+  "cat": "tech",
+  "sub": "效能與體感",
+  "short": "沉浸式媒體的四個術語，涵蓋虛擬到現實疊加的不同程度。",
+  "def": "沉浸式媒體的四個術語：VR（虛擬實境）用頭戴裝置將玩家完全帶入虛擬世界；AR（擴增實境）在現實世界上疊加虛擬資訊；MR（混合實境）是 AR 的進階版，虛擬物件會與真實環境互動；XR（延展實境）是以上全部的統稱。VR 開發有其特殊挑戰：暈 3D、手部操作設計、UI 不能直接貼在畫面上而必須存在於 3D 空間中、效能要求極高（需穩定 90FPS 以上否則玩家容易暈眩），因此不建議把既有 2D 遊戲直接移植到 VR，而應從頭設計適合的互動方式。",
+  "features": ["VR 完全沉浸、AR 疊加現實", "MR 虛實可互動、XR 為統稱", "效能需求極高避免暈眩", "UI 須以 3D 空間方式設計"],
+  "examples": [
+    {"title": "Half-Life: Alyx", "en": "Half-Life: Alyx", "appid": 546560, "year": 2020, "why": "證明 VR 可做出 3A 等級完整體驗的代表作"},
+    {"title": "VRChat", "en": "VRChat", "appid": 438100, "year": 2017, "why": "VR 社交平台的長壽代表"}
+  ],
+  "steamTags": [{"tagid": 21978, "en": "VR"}],
+  "compare": [],
+  "related": ["haptics"],
+  "design": "VR 開發不要把 2D 遊戲直接「移植」過去，必須從頭設計適合 VR 的互動；效能必須穩定維持高幀率，否則玩家會暈眩而放棄遊戲。",
+  "sources": [
+    {"title": "Steam 標籤頁：VR", "url": "https://store.steampowered.com/tags/en/VR/", "accessed": "2026-09-17", "note": "VR 標籤存在與代表作"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "haptics",
+  "zh": "觸覺回饋／自適應扳機",
+  "en": "Haptic Feedback / Adaptive Triggers",
+  "aliases": ["觸覺回饋", "自適應扳機", "DualSense"],
+  "cat": "tech",
+  "sub": "效能與體感",
+  "short": "PS5 手把引入、能模擬細膩觸感與扳機阻力的兩項技術。",
+  "def": "PlayStation 5 DualSense 手把引入的兩項技術。觸覺回饋取代傳統震動馬達，使用高精度線性執行器，能模擬雨滴打在金屬上的清脆感、在沙地行走的沉重感、弓弦拉緊的緊繃感等細膩觸感。自適應扳機則是 L2／R2 扳機內部有可變阻力機構，能模擬武器不同的操作手感，例如拉弓時扳機隨拉力逐漸變硬、扳機卡在卡彈狀態、或有兩段式射擊點。兩項技術結合讓遊戲體驗擁有前所未有的物理感，但目前僅 PS5 支援，PC 版透過 DualSense 連線可部分支援。",
+  "features": ["線性執行器模擬細膩觸感", "扳機內建可變阻力機構", "目前為 PS5 DualSense 專屬", "PC 需連線 DualSense 部分支援"],
+  "examples": [
+    {"title": "Resident Evil Village", "en": "Resident Evil Village", "appid": 1196590, "year": 2021, "why": "支援 DualSense 觸覺回饋與自適應扳機的代表作"},
+    {"title": "Marvel's Spider-Man Remastered", "en": "Marvel's Spider-Man Remastered", "appid": 1817070, "year": 2022, "why": "以觸覺回饋呈現盪網張力的代表案例"}
+  ],
+  "steamTags": [],
+  "compare": [],
+  "related": ["xr"],
+  "design": "開發多平台版本時，應把 DualSense 的獨特體驗視為 PS5 版的加分項，而非所有平台都要具備的基本功能。",
+  "sources": [
+    {"title": "Wikipedia: DualSense", "url": "https://en.wikipedia.org/wiki/DualSense", "accessed": "2026-09-17", "note": "觸覺回饋與自適應扳機的硬體規格說明"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "unity-engine",
+  "zh": "Unity 引擎",
+  "en": "Unity",
+  "aliases": ["Unity"],
+  "cat": "tech",
+  "sub": "引擎與工具",
+  "short": "以 C# 腳本、跨平台友善著稱的商用遊戲引擎。",
+  "def": "由 Unity Technologies 開發的跨平台商用遊戲引擎，以 C# 為主要腳本語言，長期是中小型團隊與獨立開發者的首選，入門門檻低、教材資源豐富、支援平台廣泛（PC、主機、行動裝置、VR 等）。2023 年的執行時費爭議與後續的產業信任流失，讓部分開發者轉向 Unreal 或 Godot，但 Unity 目前仍是全球最多 Steam 新遊戲採用的引擎。2D 遊戲、手機遊戲與需要快速迭代的中小型專案，Unity 通常仍是效率最高的選擇。",
+  "features": ["主要腳本語言為 C#", "跨平台支援廣泛", "2D 與中小型專案效率高", "教學資源與資產商店豐富"],
+  "examples": [
+    {"title": "Among Us", "en": "Among Us", "appid": 945360, "year": 2018, "why": "以 Unity 開發的現象級獨立多人遊戲"},
+    {"title": "Brotato", "en": "Brotato", "appid": 1942280, "year": 2023, "why": "小型團隊用 Unity 快速迭代取得商業成功的代表"}
+  ],
+  "steamTags": [],
+  "compare": [{"with": "unreal-engine", "diff": "Unity 以 C# 與跨平台效率見長、入門門檻低；Unreal 以 C++／藍圖與畫面表現力見長、是多數 3A／AA 團隊首選；兩者是定位差異，不是優劣。"}],
+  "related": ["unreal-engine", "godot-engine", "game-engine"],
+  "design": "學生入門建議先學 Unity，教材最豐富、上手最快；中大型 3D 專案或追求電影級畫質時再評估轉向 Unreal。",
+  "sources": [
+    {"title": "Unity 官方網站", "url": "https://unity.com/", "accessed": "2026-09-17", "note": "Unity 引擎產品定位與功能"},
+    {"title": "GDC 2026 State of the Game Industry", "url": "https://gdconf.com/article/gdc-2026-state-of-the-game-industry-reveals-impact-of-layoffs-generative-ai-and-more/", "accessed": "2026-09-17", "note": "2026 年開發者引擎使用率調查，Unity 與 Unreal 消長趨勢"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "unreal-engine",
+  "zh": "Unreal 引擎",
+  "en": "Unreal Engine",
+  "aliases": ["Unreal", "UE", "UE5"],
+  "cat": "tech",
+  "sub": "引擎與工具",
+  "short": "以 C++ 與藍圖、頂尖畫質表現著稱的商用遊戲引擎。",
+  "def": "由 Epic Games 開發的商用遊戲引擎，以 C++ 搭配視覺化的藍圖腳本為主要開發方式，畫質表現力強大，是多數 3A 與近年 AA 團隊的首選。Unreal Engine 5 引入的 Nanite（自動化多邊形細節）與 Lumen（即時全局光照）技術大幅降低了追求電影級畫面的門檻。根據 2026 年 GDC 年度產業調查，Unreal 在開發者偏好度上首度超越 Unity，AA／AAA 規模的工作室採用率明顯高於 Unity，但 Unity 目前在新上架 Steam 遊戲的絕對數量上仍領先。",
+  "features": ["C++ 搭配藍圖視覺化腳本", "Nanite 與 Lumen 大幅降低畫質門檻", "AA／AAA 團隊採用率高", "授權採營收分潤制"],
+  "examples": [
+    {"title": "黑神話：悟空", "en": "Black Myth: Wukong", "appid": 2358720, "year": 2024, "why": "Unreal Engine 5 畫質表現的指標性代表作"},
+    {"title": "PUBG: BATTLEGROUNDS", "en": "PUBG: BATTLEGROUNDS", "appid": 578080, "year": 2017, "why": "Unreal Engine 開發的大逃殺始祖級代表"}
+  ],
+  "steamTags": [],
+  "compare": [{"with": "unity-engine", "diff": "Unreal 以畫質表現力與藍圖視覺化腳本見長，是多數 3A／AA 團隊首選；Unity 以 C# 與跨平台效率見長，是中小型與 2D 專案的常見選擇。"}],
+  "related": ["unity-engine", "godot-engine"],
+  "design": "追求電影級畫質或大型 3D 世界時，Unreal 的 Nanite／Lumen 能大幅降低開發門檻；但學習曲線與硬體需求也相對較高，需評估團隊經驗與專案規模。",
+  "sources": [
+    {"title": "Unreal Engine 官方網站", "url": "https://www.unrealengine.com/", "accessed": "2026-09-17", "note": "Unreal Engine 產品定位與功能"},
+    {"title": "GDC 2026 State of the Game Industry", "url": "https://gdconf.com/article/gdc-2026-state-of-the-game-industry-reveals-impact-of-layoffs-generative-ai-and-more/", "accessed": "2026-09-17", "note": "2026 年 Unreal 開發者偏好度首度超越 Unity 的調查結果"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "godot-engine",
+  "zh": "Godot 引擎",
+  "en": "Godot Engine",
+  "aliases": ["Godot"],
+  "cat": "tech",
+  "sub": "引擎與工具",
+  "short": "完全免費開源、輕量、適合 2D 與獨立遊戲的引擎。",
+  "def": "完全免費且開源的跨平台遊戲引擎，可從統一介面製作 2D 與 3D 遊戲，不收取任何授權費或營收分潤，原始碼公開可自由修改。相較 Unity 與 Unreal，Godot 更輕量、啟動快、2D 工具鏈特別成熟，近年因 Unity 的執行時費爭議吸引不少開發者轉入，在較新成立的獨立團隊中採用率上升，但在已建立資深團隊與大型 3D 專案中的採用率仍明顯低於 Unity 與 Unreal。",
+  "features": ["完全免費開源、無分潤", "2D 工具鏈成熟", "體積輕量、啟動快", "獨立與新創團隊採用率上升"],
+  "examples": [
+    {"title": "Brotato", "en": "Brotato", "appid": 1942280, "year": 2023, "why": "以 Godot 開發並取得商業成功的獨立遊戲代表"},
+    {"title": "Dead Cells", "en": "Dead Cells", "appid": 588650, "year": 2018, "why": "團隊後續作品採用 Godot 的知名獨立工作室案例"}
+  ],
+  "steamTags": [],
+  "compare": [{"with": "unity-engine", "diff": "Godot 完全免費開源、2D 表現成熟，適合預算有限的獨立團隊；Unity 生態系與資產商店更龐大、3D 與跨平台工具更全面，但需留意授權條款變動風險。"}],
+  "related": ["unity-engine", "unreal-engine"],
+  "design": "Godot 適合預算有限、以 2D 或中小型 3D 專案為主的獨立團隊；若專案需要大型 3D 世界或高階視覺特效，目前生態系與範例資源仍不如 Unity／Unreal 成熟。",
+  "sources": [
+    {"title": "Godot Engine 官方文件：Introduction", "url": "https://docs.godotengine.org/en/stable/about/introduction.html", "accessed": "2026-09-17", "note": "Godot 引擎定義、授權與特色"},
+    {"title": "GDC 2026 State of the Game Industry", "url": "https://gdconf.com/article/gdc-2026-state-of-the-game-industry-reveals-impact-of-layoffs-generative-ai-and-more/", "accessed": "2026-09-17", "note": "新成立獨立團隊採用 Godot 比例上升的調查數據"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "draw-call",
+  "zh": "繪製呼叫",
+  "en": "Draw Call",
+  "aliases": ["Draw Call", "繪圖指令"],
+  "cat": "tech",
+  "sub": "渲染與圖形技術",
+  "short": "CPU 送給 GPU、要求繪製某一組幾何物件的一次指令。",
+  "def": "CPU 透過圖形 API 送給 GPU 的一次繪製指令，內含要繪製哪個網格、用哪個材質與著色器、套用什麼狀態等資訊。繪製呼叫的數量與畫面效能高度相關：每一次繪製呼叫都需要 CPU 與驅動程式的額外設置時間，這些時間本身不產生任何畫面內容，卻會被浪費掉；繪製呼叫過多會讓 CPU 成為瓶頸，即使 GPU 還有餘裕，畫面依然會卡頓。常見最佳化手法是批次處理（Batching）與材質圖集，把多個相似物件合併成更少的繪製呼叫。",
+  "features": ["CPU 送給 GPU 的繪製指令", "數量過多會拖累 CPU 效能", "與 GPU 實際運算能力是不同瓶頸", "可用批次處理與圖集降低數量"],
+  "examples": [
+    {"title": "無人深空", "en": "No Man's Sky", "appid": 275850, "year": 2016, "why": "程序生成大量物件、需嚴格控管繪製呼叫數量的代表"},
+    {"title": "Cities: Skylines II", "en": "Cities: Skylines II", "appid": 949230, "year": 2023, "why": "城市建造類遊戲大量建築物件對繪製呼叫的挑戰"}
+  ],
+  "steamTags": [],
+  "compare": [{"with": "lod", "diff": "LOD 降低的是單一物件的多邊形數量；批次處理降低的是繪製呼叫的總次數，兩者是互補而非相同的最佳化手段。"}],
+  "related": ["lod", "occlusion-culling", "shader"],
+  "design": "行動裝置與 VR 等效能敏感平台應嚴格控管繪製呼叫數量，開發初期就建立效能預算，而不是等到專案後期才回頭最佳化。",
+  "sources": [
+    {"title": "Unity 官方文件：Introduction to optimizing draw calls", "url": "https://docs.unity3d.com/Manual/optimizing-draw-calls.html", "accessed": "2026-09-17", "note": "繪製呼叫定義與最佳化手法"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "frame-time",
+  "zh": "影格時間",
+  "en": "Frame Time",
+  "aliases": ["Frame Time", "幀時間"],
+  "cat": "tech",
+  "sub": "效能與體感",
+  "short": "產生每一張畫面各自花費的時間，能看出幀率背後的頓挫。",
+  "def": "產生每一張畫面所花費的實際時間，通常以毫秒為單位，與幀率互為倒數關係（60FPS 理論上代表平均每張畫面耗時約 16.7 毫秒）。幀率只呈現「平均每秒幾張」，容易掩蓋忽快忽慢的問題；影格時間圖表能顯示每一張畫面各自花了多久，一旦出現忽高忽低的尖峰（俗稱 frame time spike），即使平均幀率數字好看，玩家仍會感受到明顯頓挫。硬體評測媒體與遊戲最佳化工程師常以影格時間曲線而非單純平均 FPS 來評估流暢度。",
+  "features": ["與幀率互為倒數關係", "能揭露幀率平均值掩蓋的頓挫", "尖峰俗稱 frame time spike", "評測與最佳化常用此指標"],
+  "examples": [
+    {"title": "S.T.A.L.K.E.R. 2: Heart of Chornobyl", "en": "S.T.A.L.K.E.R. 2", "appid": 1643320, "year": 2024, "why": "上市初期影格時間不穩定引發玩家討論的案例"},
+    {"title": "黑神話：悟空", "en": "Black Myth: Wukong", "appid": 2358720, "year": 2024, "why": "重度圖形效果下影格時間穩定性受評測關注的代表"}
+  ],
+  "steamTags": [],
+  "compare": [{"with": "frame-rate", "diff": "幀率是每秒畫面數的平均值；影格時間是每一張畫面各自花費的時間，更能反映玩家實際感受到的頓挫與流暢度。"}],
+  "related": ["frame-rate", "vsync-tearing"],
+  "design": "最佳化時應同時檢視影格時間曲線而非只看平均 FPS，找出造成尖峰的特定場景或系統（如大量物件載入、特效爆發），針對性解決而非整體降畫質。",
+  "sources": [
+    {"title": "Wikipedia: Frame rate", "url": "https://en.wikipedia.org/wiki/Frame_rate", "accessed": "2026-09-17", "note": "幀率與影格時間的關聯定義"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "vsync-tearing",
+  "zh": "垂直同步／畫面撕裂",
+  "en": "V-Sync / Screen Tearing",
+  "aliases": ["VSync", "垂直同步", "Screen Tearing"],
+  "cat": "tech",
+  "sub": "效能與體感",
+  "short": "螢幕更新與 GPU 輸出不同步時出現的畫面撕裂，與其解法。",
+  "def": "畫面撕裂是螢幕正在更新畫面的過程中，GPU 又送來了下一張新畫面，導致螢幕上半部與下半部顯示不同時間點的畫面，出現一條明顯的水平錯位線。垂直同步（V-Sync）是解決方式之一，強制 GPU 只在螢幕每次更新完成後才送出新畫面，消除撕裂但可能引入額外輸入延遲；現代顯示器的可變更新率技術（如 NVIDIA G-Sync、AMD FreeSync）則讓螢幕更新率動態跟隨 GPU 輸出速度，同時解決撕裂與延遲問題，被視為比傳統垂直同步更好的方案。",
+  "features": ["撕裂源於螢幕與 GPU 更新不同步", "垂直同步消除撕裂但可能增加延遲", "可變更新率技術是更好的解法", "電競玩家常關閉垂直同步換取低延遲"],
+  "examples": [
+    {"title": "Counter-Strike 2", "en": "Counter-Strike 2", "appid": 730, "year": 2012, "why": "競技玩家普遍關閉垂直同步以追求最低延遲的代表"},
+    {"title": "Cyberpunk 2077", "en": "Cyberpunk 2077", "appid": 1091500, "year": 2020, "why": "提供多種同步與更新率選項的畫質導向代表"}
+  ],
+  "steamTags": [],
+  "compare": [{"with": "input-lag", "diff": "垂直同步是解決畫面撕裂的手段之一，但其等待螢幕更新完成的機制往往會增加輸入延遲，兩者是設計上的取捨關係。"}],
+  "related": ["input-lag", "frame-time"],
+  "design": "應提供垂直同步的開關選項，讓追求極致低延遲的競技玩家能自行關閉；若螢幕支援可變更新率技術，建議優先引導玩家使用該方案而非傳統垂直同步。",
+  "sources": [
+    {"title": "Wikipedia: Screen tearing", "url": "https://en.wikipedia.org/wiki/Screen_tearing", "accessed": "2026-09-17", "note": "畫面撕裂成因與垂直同步解法"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "input-lag",
+  "zh": "輸入延遲",
+  "en": "Input Lag",
+  "aliases": ["操作延遲"],
+  "cat": "tech",
+  "sub": "效能與體感",
+  "short": "玩家按下按鍵到畫面反映該操作之間的時間差。",
+  "def": "玩家按下按鍵或搖桿到畫面實際反映該操作之間的時間差，來源包含輸入裝置本身的掃描頻率、遊戲邏輯的處理時間、渲染管線的緩衝張數、垂直同步的等待、以及顯示器自身的處理延遲，是多個環節疊加的總和而非單一成因。格鬥遊戲與競技射擊對輸入延遲極度敏感，數十毫秒的差異就可能決定招式能否成功打出；因此這類遊戲常提供「效能模式」「低延遲模式」等選項，犧牲部分畫質換取最低的操作延遲。",
+  "features": ["是多環節延遲的總和", "格鬥與競技射擊尤其敏感", "垂直同步是常見成因之一", "常有低延遲模式可犧牲畫質換取"],
+  "examples": [
+    {"title": "Street Fighter 6", "en": "Street Fighter 6", "appid": 1364780, "year": 2023, "why": "對輸入延遲極度敏感、硬直幀數精確設計的格鬥代表"},
+    {"title": "Counter-Strike 2", "en": "Counter-Strike 2", "appid": 730, "year": 2012, "why": "競技射擊玩家高度重視輸入延遲的代表"}
+  ],
+  "steamTags": [],
+  "compare": [{"with": "vsync-tearing", "diff": "垂直同步是造成輸入延遲的常見成因之一；輸入延遲則是涵蓋輸入裝置、遊戲邏輯、渲染與顯示器在內的整體延遲總和。"}],
+  "related": ["vsync-tearing", "frame-rate"],
+  "design": "格鬥與競技類遊戲應提供低延遲模式選項，並在硬直幀數等數值設計時明確標註是以哪個幀率為基準，避免不同平台體感不一致。",
+  "sources": [
+    {"title": "NVIDIA GeForce：System Latency 技術頁", "url": "https://www.nvidia.com/en-us/geforce/technologies/reflex/", "accessed": "2026-09-17", "note": "輸入延遲的成因拆解與低延遲技術說明"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "occlusion-culling",
+  "zh": "遮蔽剔除",
+  "en": "Occlusion Culling",
+  "aliases": ["視錐剔除", "Frustum Culling"],
+  "cat": "tech",
+  "sub": "渲染與圖形技術",
+  "short": "不渲染被其他物件完全擋住、玩家看不到的物件的最佳化技術。",
+  "def": "在渲染前先判斷哪些物件被其他物件完全擋住而玩家根本看不到，並直接跳過這些物件的渲染，藉此節省 GPU 與繪製呼叫的資源，是大型場景效能最佳化的基礎技術之一。與其常搭配使用的視錐剔除（Frustum Culling）則是剔除位於攝影機視野範圍之外的物件。室內場景（例如一棟建築內的多個房間）與建築密集的城市場景受益最明顯，因為大量物件實際上被牆壁完全遮擋。多數引擎提供烘焙式的遮蔽剔除資料，也有即時動態計算的進階方案。",
+  "features": ["跳過完全被擋住的物件渲染", "常與視錐剔除搭配使用", "室內與密集場景受益最明顯", "可烘焙或即時動態計算"],
+  "examples": [
+    {"title": "Cities: Skylines II", "en": "Cities: Skylines II", "appid": 949230, "year": 2023, "why": "密集城市場景依賴遮蔽剔除維持效能的代表"},
+    {"title": "Ready or Not", "en": "Ready or Not", "appid": 1144200, "year": 2023, "why": "室內戰術場景大量運用遮蔽剔除的代表"}
+  ],
+  "steamTags": [],
+  "compare": [{"with": "lod", "diff": "遮蔽剔除是「完全不畫看不到的物件」；細節層級是「近處畫細、遠處畫粗」，兩者常一起用來降低整體渲染負擔。"}],
+  "related": ["lod", "draw-call", "texture-streaming"],
+  "design": "室內或建築密集的場景應優先投資遮蔽剔除系統，開放的戶外場景則相對效益較低，應把最佳化資源優先放在 LOD 與貼圖串流。",
+  "sources": [
+    {"title": "Unity 官方文件：Occlusion culling", "url": "https://docs.unity3d.com/Manual/OcclusionCulling.html", "accessed": "2026-09-17", "note": "遮蔽剔除定義與使用時機"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "texture-streaming",
+  "zh": "貼圖串流",
+  "en": "Texture Streaming",
+  "aliases": ["虛擬材質", "Virtual Texturing"],
+  "cat": "tech",
+  "sub": "渲染與圖形技術",
+  "short": "只在需要時才把高解析度貼圖載入記憶體的技術。",
+  "def": "只在物件靠近攝影機、真正需要高解析度細節時，才把對應的高解析度貼圖從硬碟載入顯示卡記憶體；遠處物件則只保留低解析度版本，藉此讓大型開放世界能使用遠超顯示卡記憶體容量的總貼圖資料量。進階實作方式為虛擬材質（Virtual Texturing），把貼圖切成許多小格，只載入畫面實際會用到的格子。若硬碟讀取速度不足或串流策略設計不當，玩家會看到貼圖從模糊逐漸變清晰的「貼圖跑圖」現象，是開放世界遊戲常見的技術瑕疵。",
+  "features": ["按需載入高解析度貼圖", "讓總貼圖量可超過顯存容量", "進階做法為虛擬材質", "設計不當會出現貼圖跑圖"],
+  "examples": [
+    {"title": "無人深空", "en": "No Man's Sky", "appid": 275850, "year": 2016, "why": "超大規模開放世界依賴貼圖串流的代表"},
+    {"title": "黑神話：悟空", "en": "Black Myth: Wukong", "appid": 2358720, "year": 2024, "why": "高解析度材質場景搭配貼圖串流維持效能的代表"}
+  ],
+  "steamTags": [],
+  "compare": [],
+  "related": ["lod", "occlusion-culling", "draw-call"],
+  "design": "貼圖串流的效果高度依賴儲存裝置速度，建議把 SSD 列為最低規格需求之一，並在玩家快速移動或瞬間傳送的場景加入緩衝設計，避免明顯的貼圖跑圖。",
+  "sources": [
+    {"title": "Unreal Engine 官方文件：Texture Streaming", "url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/texture-streaming-in-unreal-engine", "accessed": "2026-09-17", "note": "貼圖串流機制與虛擬材質說明"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "physics-engine",
+  "zh": "物理引擎",
+  "en": "Physics Engine",
+  "aliases": ["物理系統"],
+  "cat": "tech",
+  "sub": "引擎與工具",
+  "short": "負責模擬碰撞、重力、力學互動的引擎子系統或獨立函式庫。",
+  "def": "負責模擬碰撞偵測、重力、剛體運動、關節連接等力學互動的引擎子系統或獨立函式庫，是布娃娃物理、載具操控、拼圖解謎等大量機制的技術基礎。主流商用遊戲引擎多半內建物理引擎（如 Unity 的 PhysX、Unreal 的 Chaos Physics），也有獨立的跨引擎函式庫（如 Havok、Bullet）。物理引擎的精確度與效能是設計上的取捨：完全精確的物理模擬運算成本極高，多數遊戲會在「夠真實」與「夠穩定、夠快」之間找到平衡，而非追求物理學上的絕對正確。",
+  "features": ["模擬碰撞、重力與剛體運動", "常內建於主流商用引擎", "也有跨引擎的獨立函式庫", "精確度與效能需權衡取捨"],
+  "examples": [
+    {"title": "Human Fall Flat", "en": "Human Fall Flat", "appid": 477160, "year": 2016, "why": "把物理引擎模擬直接變成核心玩法的代表"},
+    {"title": "Chained Together", "en": "Chained Together", "appid": 2567870, "year": 2024, "why": "以物理引擎驅動連鎖攀爬玩法的獨立代表"}
+  ],
+  "steamTags": [{"tagid": 3968, "en": "Physics"}],
+  "compare": [],
+  "related": ["ragdoll", "game-engine"],
+  "design": "物理引擎不必追求絕對真實，設計時應優先確保「手感穩定、結果可預期」，過度真實但不可預測的物理反而會傷害操控體驗。",
+  "sources": [
+    {"title": "Unity 官方文件：Physics", "url": "https://docs.unity3d.com/Manual/PhysicsSection.html", "accessed": "2026-09-17", "note": "物理引擎子系統的功能說明"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "gdd",
+  "zh": "遊戲設計文件",
+  "en": "GDD (Game Design Document)",
+  "aliases": ["GDD", "企劃書"],
+  "cat": "industry",
+  "sub": "開發流程與里程碑",
+  "short": "描述遊戲設計各層面、作為團隊工作藍圖的正式文件。",
+  "def": "描述遊戲設計各層面的正式文件，是企劃團隊的工作藍圖。典型內容包含遊戲概念（能在 30 秒內說清的電梯簡報）、目標玩家、核心玩法、系統設計、關卡設計、劇情大綱、美術風格、音效方向、技術需求、開發時程與預算規劃等。現代 GDD 已從一份巨大的 Word 檔演化為「活文件」，改用 Confluence、Notion 等協作工具建立可持續更新的線上文件庫。學生常犯的錯誤是把 GDD 寫成小說，花大量篇幅描述劇情卻缺乏機制細節，實務上每一段文字都要能回答「這段怎麼實作、需要多少時間」。",
+  "features": ["涵蓋概念到技術需求的全層面", "現代趨勢是可持續更新的活文件", "目的是讓各職能能據此動工", "常見錯誤是寫成劇情小說"],
+  "examples": [
+    {"title": "巴拉特羅", "en": "Balatro", "appid": 2379780, "year": 2024, "why": "核心機制清晰、常被引用為設計文件聚焦典範的獨立代表"},
+    {"title": "空洞騎士", "en": "Hollow Knight", "appid": 367520, "year": 2017, "why": "系統與關卡高度整合、常作為 GDD 教學範例的代表作"}
+  ],
+  "steamTags": [],
+  "compare": [],
+  "related": ["vertical-slice", "prototype"],
+  "design": "GDD 的目的是讓工程師能開始寫程式、美術能開始製作資產、音樂家能開始作曲，每一段描述都應該具體到可以被拆解成任務與時程估計。",
+  "sources": [
+    {"title": "Wikipedia: Game design document", "url": "https://en.wikipedia.org/wiki/Game_design_document", "accessed": "2026-09-17", "note": "GDD 定義、內容結構與演變"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "alpha-beta",
+  "zh": "Alpha／Beta 版本",
+  "en": "Alpha / Beta Build",
+  "aliases": ["內測", "封測", "公測", "Gold Master"],
+  "cat": "industry",
+  "sub": "開發流程與里程碑",
+  "short": "遊戲開發進度的里程碑，代表功能完整度與測試開放範圍。",
+  "def": "遊戲開發進度的里程碑。Alpha 版本代表所有主要功能都已實作、內容完整可玩，但有大量錯誤與不平衡，屬於內部測試階段；Beta 版本代表功能完整、內容鎖定、只做錯誤修復與平衡調整，屬於外部測試階段，可能包含少數玩家參與的封閉測試與所有人可參加的公開測試。Gold Master 則是最終出片版本。小團隊常混淆兩者，功能還沒做完就開公測是常見錯誤，因為回饋的錯誤大多是已知問題，浪費了寶貴的測試機會；嚴格分辨的準則是「能不能動」是 Alpha，「爽不爽玩」是 Beta。",
+  "features": ["Alpha 代表功能完整但錯誤多", "Beta 代表內容鎖定、只修錯與調平衡", "分封閉測試與公開測試", "Gold Master 是最終出片版本"],
+  "examples": [
+    {"title": "巴拉特羅", "en": "Balatro", "appid": 2379780, "year": 2024, "why": "上市前經過完整內外部測試流程的代表"},
+    {"title": "英靈神殿", "en": "Valheim", "appid": 892970, "year": 2026, "why": "搶先體驗期間持續公開測試新內容的代表"}
+  ],
+  "steamTags": [{"tagid": 493, "en": "Early Access"}],
+  "compare": [{"with": "early-access", "diff": "Alpha／Beta 是內部開發階段的里程碑判斷；搶先體驗是把 Alpha／Beta 階段的遊戲直接開放給付費玩家的商業模式。"}],
+  "related": ["early-access", "vertical-slice", "playtest"],
+  "design": "嚴格分辨開發階段：功能還不完整就不該進入公開測試，否則玩家回報的多是團隊早已知道的問題，浪費寶貴的外部回饋機會。",
+  "sources": [
+    {"title": "Wikipedia: Software release life cycle", "url": "https://en.wikipedia.org/wiki/Software_release_life_cycle", "accessed": "2026-09-17", "note": "Alpha／Beta／Gold Master 等開發里程碑定義"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "aaa",
+  "zh": "3A／AAA 遊戲",
+  "en": "AAA Game",
+  "aliases": ["3A", "3A 遊戲"],
+  "cat": "industry",
+  "sub": "商業模式與規模",
+  "short": "擁有極高預算、大型團隊與全球行銷投入的大型遊戲。",
+  "def": "業界術語，指擁有極高預算、大型開發團隊、全球行銷投入的大型遊戲，預算通常從數千萬到數億美元，開發團隊數百至上千人，開發週期三至七年。3A 遊戲追求技術與製作品質的頂峰，但也承擔巨大財務風險，近年多款 3A 遊戲的商業失敗讓業界開始重新思考這個模式。「AA」（雙 A）與「3A」的分界模糊，近年 AA 反而有復興趨勢，成本較低（數百萬至千萬美元）、團隊中型、敢於嘗試獨特玩法，對小團隊來說 AA 比 3A 更有存活空間。",
+  "features": ["預算數千萬到數億美元", "團隊規模數百至上千人", "開發週期三至七年", "財務風險與獲利壓力極高"],
+  "examples": [
+    {"title": "Red Dead Redemption 2", "en": "Red Dead Redemption 2", "appid": 1174180, "year": 2019, "why": "預算與開發規模的典型 3A 代表"},
+    {"title": "黑神話：悟空", "en": "Black Myth: Wukong", "appid": 2358720, "year": 2024, "why": "近年亞洲 3A 崛起的代表作"}
+  ],
+  "steamTags": [],
+  "compare": [{"with": "aa-game", "diff": "3A 預算與團隊規模最大、風險也最高；AA（雙 A）成本較低、團隊中型，近年反而更敢嘗試獨特玩法；獨立遊戲則完全不依賴大型發行商資金。"}, {"with": "indie", "diff": "3A 是產業規模分級的頂端，強調技術與製作規模；獨立遊戲強調創意自由與不依賴大型發行商資金，兩者的分界不只是預算，更是開發精神。"}],
+  "related": ["indie", "publisher-developer"],
+  "design": "3A 並非唯一目標，近年 AA 復興顯示中型預算、獨特玩法也能存活。對學生與新創團隊，理解自己資源落在哪個規模區間，比盲目追求 3A 規格更重要。",
+  "sources": [
+    {"title": "Wikipedia: AAA (video game industry)", "url": "https://en.wikipedia.org/wiki/AAA_(video_game_industry)", "accessed": "2026-09-17", "note": "3A 遊戲的定義、預算規模與產業風險"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "indie",
+  "zh": "獨立遊戲",
+  "en": "Indie Game",
+  "aliases": ["獨立製作"],
+  "cat": "industry",
+  "sub": "商業模式與規模",
+  "short": "由獨立開發者或小型團隊製作、不依賴大型發行商資金的遊戲。",
+  "def": "由獨立開發者或小型團隊製作、不依賴大型發行商資金的遊戲，優勢在於創意自由、決策靈活、能承擔實驗性風險，劣勢則是預算有限、行銷與技術資源不足。Steam、Itch.io、Epic Games Store 等數位平台大幅降低了獨立遊戲的發行門檻。「獨立」如今已不只是規模標籤，更是精神標籤——《空洞騎士》最初只是兩人團隊製作，品質與影響力卻超越許多 3A 作品。對學生作品而言，獨立遊戲路線是最可行的目標：鎖定一個清晰的核心玩法，做到極致。",
+  "features": ["不依賴大型發行商資金", "創意自由、決策靈活", "預算與行銷資源有限", "數位平台大幅降低發行門檻"],
+  "examples": [
+    {"title": "空洞騎士", "en": "Hollow Knight", "appid": 367520, "year": 2017, "why": "兩人團隊製作、品質超越多數 3A 的代表作"},
+    {"title": "星露谷物語", "en": "Stardew Valley", "appid": 413150, "year": 2016, "why": "一人開發、商業與口碑雙成功的獨立代表"}
+  ],
+  "steamTags": [{"tagid": 492, "en": "Indie"}],
+  "compare": [{"with": "aaa", "diff": "獨立遊戲強調創意自由與不依賴大型發行商資金；3A 強調技術與製作規模的頂峰，兩者分界不只是預算，更是開發精神。"}],
+  "related": ["aaa", "crowdfunding", "early-access"],
+  "design": "對小團隊與學生專題，「獨立遊戲」是最可行的定位：鎖定一個清晰的核心玩法做到極致，而非模仿 3A 的規模與廣度。",
+  "sources": [
+    {"title": "Wikipedia: Indie game", "url": "https://en.wikipedia.org/wiki/Indie_game", "accessed": "2026-09-17", "note": "獨立遊戲定義、平台生態與代表作"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "early-access",
+  "zh": "搶先體驗",
+  "en": "Early Access",
+  "aliases": ["搶先體驗", "EA 版"],
+  "cat": "industry",
+  "sub": "商業模式與規模",
+  "short": "遊戲尚未完成前就開放販售並讓玩家遊玩、蒐集回饋的模式。",
+  "def": "遊戲尚未正式完成前就開始販售並允許玩家遊玩的模式，玩家的回饋會持續影響後續開發方向。這種模式讓開發者能提前獲得收入支持開發，但也有風險，有些遊戲永遠停留在搶先體驗狀態，即俗稱的「搶先體驗地獄」。成功案例如《死亡細胞》從搶先體驗成長為完整作品，失敗案例則是無數從此消失的專案。進入搶先體驗需要清晰的承諾：什麼時候推出正式版、會新增哪些內容、定價何時調整，Steam 對此也有明確規範，違規會被下架。",
+  "features": ["未完成即開放販售與遊玩", "玩家回饋影響後續開發", "需明確承諾內容與時程", "存在永久卡在此狀態的風險"],
+  "examples": [
+    {"title": "Dead Cells", "en": "Dead Cells", "appid": 588650, "year": 2018, "why": "從搶先體驗成功轉為完整作品的代表"},
+    {"title": "英靈神殿", "en": "Valheim", "appid": 892970, "year": 2026, "why": "長期搶先體驗期間持續擴充內容的代表"}
+  ],
+  "steamTags": [{"tagid": 493, "en": "Early Access"}],
+  "compare": [{"with": "demo", "diff": "搶先體驗是付費購買未完成的正式遊戲、長期參與開發過程；試玩版是免費、短時間體驗、通常內容固定不再更新。"}, {"with": "playtest", "diff": "搶先體驗是商業銷售行為，玩家已付費擁有遊戲；封閉／公開測試是免費邀請玩家測試、目的是蒐集回饋而非銷售。"}],
+  "related": ["demo", "playtest", "alpha-beta"],
+  "design": "進入搶先體驗前應規劃清晰的路線圖與正式版時程承諾，避免因長期停滯而損害玩家信任與品牌聲譽。",
+  "sources": [
+    {"title": "Wikipedia: Early access", "url": "https://en.wikipedia.org/wiki/Early_access", "accessed": "2026-09-17", "note": "搶先體驗模式的定義與案例"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "dlc-season-pass",
+  "zh": "DLC／季票／擴充包",
+  "en": "DLC / Season Pass / Expansion",
+  "aliases": ["DLC", "季票", "擴充包", "追加內容"],
+  "cat": "industry",
+  "sub": "商業模式與規模",
+  "short": "遊戲上市後的付費追加內容，依份量分為三種等級。",
+  "def": "遊戲上市後的付費追加內容。DLC 是泛稱，涵蓋從服飾造型到完整新劇情；擴充包是內容份量最大的 DLC，可視為「半款新遊戲」，加入新地圖、新職業、新劇情；季票則是預購多個未來 DLC 的組合優惠。DLC 的設計原則是基礎遊戲本身必須是完整體驗，DLC 是「上方的糖霜」而非「缺失的拼圖」，如果玩家買完本體後感覺內容不完整、被逼著再買 DLC，會嚴重傷害品牌信任。",
+  "features": ["DLC 是泛稱、擴充包份量最大", "季票是預購多個未來內容的優惠", "基礎遊戲須是完整體驗", "設計失衡易傷害玩家信任"],
+  "examples": [
+    {"title": "巫師 3：狂獵 - 完全版", "en": "The Witcher 3: Wild Hunt", "appid": 292030, "year": 2015, "why": "業界公認 DLC 典範的擴充包代表"},
+    {"title": "艾爾登法環 黑夜君臨", "en": "Elden Ring Nightreign", "appid": 2622380, "year": 2025, "why": "大型擴充內容延伸原作世界觀的代表"}
+  ],
+  "steamTags": [],
+  "compare": [{"with": "monetization", "diff": "DLC／季票是內容追加的具體商品形式；monetization（營利手法）是更廣義的概念，涵蓋 DLC 之外的訂閱、廣告、抽卡等所有收費設計。"}],
+  "related": ["cosmetics", "live-ops"],
+  "design": "DLC 設計要確保本體是完整體驗，追加內容應是錦上添花而非補完缺失的拼圖，否則玩家會感覺被迫二次消費。",
+  "sources": [
+    {"title": "Wikipedia: Downloadable content", "url": "https://en.wikipedia.org/wiki/Downloadable_content", "accessed": "2026-09-17", "note": "DLC、擴充包、季票的定義區分"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "day-one-patch",
+  "zh": "首日更新",
+  "en": "Day One Patch",
+  "aliases": ["首日補丁"],
+  "cat": "industry",
+  "sub": "開發流程與里程碑",
+  "short": "遊戲正式發售當天推送的更新檔。",
+  "def": "遊戲正式發售當天推送的更新檔。來源是實體光碟印製需要在發售前數月完成，但開發團隊直到最後幾週都還在修正錯誤與調整平衡，這些修改會包在首日更新中一併釋出。現代玩家已普遍視首日更新為標配，但若更新檔案過大（例如數十 GB），會暗示遊戲在光碟階段其實尚未完成就出貨。首日更新不應包含「開場後才能玩」的核心內容，因為部分網路較慢的玩家可能在完整更新下載完成前就開始遊玩。",
+  "features": ["發售當天推送的更新檔", "源於光碟印製與開發時程落差", "過大檔案暗示未完成就出貨", "核心內容不應僅存在於更新檔中"],
+  "examples": [
+    {"title": "電馭叛客2077", "en": "Cyberpunk 2077", "appid": 1091500, "year": 2020, "why": "發售當天與後續大型更新皆備受矚目的代表"},
+    {"title": "S.T.A.L.K.E.R. 2: Heart of Chornobyl", "en": "S.T.A.L.K.E.R. 2", "appid": 1643320, "year": 2024, "why": "首日更新與後續修補持續調整的代表"}
+  ],
+  "steamTags": [],
+  "compare": [],
+  "related": ["gold-master", "live-ops"],
+  "design": "核心可遊玩內容必須存在於光碟或基礎安裝包中，首日更新只應處理錯誤修正與平衡調整，避免讓網路較慢的玩家在遊戲初期就卡關。",
+  "sources": [
+    {"title": "Wikipedia: Day-one patch", "url": "https://en.wikipedia.org/wiki/Day-one_patch", "accessed": "2026-09-17", "note": "首日更新的成因與產業現況"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "publisher-developer",
+  "zh": "發行商與開發商",
+  "en": "Publisher vs Developer",
+  "aliases": ["發行商", "開發商"],
+  "cat": "industry",
+  "sub": "商業模式與規模",
+  "short": "做遊戲的團隊與出錢、行銷、發行的公司，是兩個常被混淆的角色。",
+  "def": "開發商是實際製作遊戲的團隊；發行商是出錢、行銷、發行的公司，兩者可能是不同公司，也可能同一家公司兩者皆做（如任天堂、CAPCOM）。發行商提供資金與行銷，但通常也掌握 IP 所有權，這是許多工作室與發行商關係緊張的根本原因。學生與獨立開發者需理解，找發行商不是「幫你賣」而是「與你分拆利潤」，典型分潤可能是發行商拿走五成到七成；完全獨立發行則需要自備行銷與客服能力。",
+  "features": ["開發商做遊戲、發行商出資與行銷", "同公司可能兩者皆做", "發行商通常掌握 IP 所有權", "分潤比例可能高達五到七成"],
+  "examples": [
+    {"title": "艾爾登法環", "en": "Elden Ring", "appid": 1245620, "year": 2022, "why": "開發商 FromSoftware 與發行商角色分工的代表案例"},
+    {"title": "柏德之門3", "en": "Baldur's Gate 3", "appid": 1086940, "year": 2023, "why": "開發商同時自行發行、掌握完整 IP 主導權的代表"}
+  ],
+  "steamTags": [],
+  "compare": [],
+  "related": ["crowdfunding", "aaa"],
+  "design": "獨立開發者評估是否簽發行合約時，要清楚計算分潤後的實際收入，並理解簽約往往意味著讓出部分 IP 主導權，不是單純「找人幫忙賣遊戲」。",
+  "sources": [
+    {"title": "Wikipedia: Video game publisher", "url": "https://en.wikipedia.org/wiki/Video_game_publisher", "accessed": "2026-09-17", "note": "發行商與開發商的角色定義區分"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "vertical-slice",
+  "zh": "垂直切片",
+  "en": "Vertical Slice",
+  "aliases": ["垂直切片"],
+  "cat": "industry",
+  "sub": "開發流程與里程碑",
+  "short": "展示遊戲最終品質、涵蓋所有主要系統的完整體驗片段。",
+  "def": "展示遊戲最終品質的完整體驗片段，涵蓋所有主要系統但範圍較小，可用於內部評估、向投資者展示，或向媒體展示。典型垂直切片可能是十五到三十分鐘的完整遊玩體驗，但其中每個元素（美術、音效、關卡設計、機制）都要達到最終遊戲的品質標準，通常發生在原型與引擎驗證完成之後、正式全面生產開始之前。垂直切片是申請資金（政府補助、創投）與媒體展示的利器，製作成本比原型高但比完整遊戲低，是中間的平衡點。",
+  "features": ["涵蓋所有主要系統的小範圍完整體驗", "每個元素都須達最終品質標準", "常用於募資與媒體展示", "成本介於原型與完整遊戲之間"],
+  "examples": [
+    {"title": "柏德之門3", "en": "Baldur's Gate 3", "appid": 1086940, "year": 2023, "why": "以高品質開頭章節展示做為垂直切片延伸成完整遊戲的代表"},
+    {"title": "巴拉特羅", "en": "Balatro", "appid": 2379780, "year": 2024, "why": "早期展示片段即完整呈現核心玩法品質的代表"}
+  ],
+  "steamTags": [],
+  "compare": [],
+  "related": ["gdd", "prototype", "demo"],
+  "design": "對學生專題作品而言，一個完整的垂直切片比一個不完整的大型專案更有說服力，能具體證明團隊有能力把任何一個部分做到最終品質。",
+  "sources": [
+    {"title": "Wikipedia: Vertical slice", "url": "https://en.wikipedia.org/wiki/Vertical_slice", "accessed": "2026-09-17", "note": "垂直切片定義、用途與製作時機"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "localization",
+  "zh": "在地化",
+  "en": "Localization (L10N)",
+  "aliases": ["L10N", "當地化", "文化調適"],
+  "cat": "industry",
+  "sub": "商業模式與規模",
+  "short": "把遊戲翻譯並適應當地文化與法規的完整過程。",
+  "def": "將遊戲翻譯並適應當地文化的過程，不只是文字翻譯（介面、對話、劇情、網站），還包括語音配音、文化調整（符號、顏色、手勢在不同文化的含義不同）、法律合規（分級制度）與支付方式在地化。優秀的在地化能讓遊戲在新市場獲得成功，糟糕的在地化則會毀掉一款好遊戲。「L10N」是 Localization 的縮寫，取字首 L、字尾 N，中間省略十個字母。台灣遊戲企劃常忽略繁體與簡體的差異不只是字形，用詞、語氣、梗都不同。",
+  "features": ["涵蓋文字、語音與文化調整", "包含分級與支付方式在地化", "繁簡差異不只是字形", "品質直接影響新市場成敗"],
+  "examples": [
+    {"title": "艾爾登法環", "en": "Elden Ring", "appid": 1245620, "year": 2022, "why": "多語言在地化品質獲廣泛肯定的代表"},
+    {"title": "霍格華茲的傳承", "en": "Hogwarts Legacy", "appid": 990080, "year": 2023, "why": "多語音與文化在地化投入的 3A 代表"}
+  ],
+  "steamTags": [],
+  "compare": [],
+  "related": ["age-rating"],
+  "design": "台灣市場的在地化不能直接沿用中國大陸的簡體翻譯，用詞、語氣與梗都需重新在地調整，才能真正貼近台灣玩家的語感。",
+  "sources": [
+    {"title": "Wikipedia: Video game localization", "url": "https://en.wikipedia.org/wiki/Video_game_localization", "accessed": "2026-09-17", "note": "在地化的定義、範圍與案例"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "age-rating",
+  "zh": "年齡分級",
+  "en": "Age Rating",
+  "aliases": ["內容分級", "ESRB", "PEGI", "CERO", "GSRR"],
+  "cat": "industry",
+  "sub": "商業模式與規模",
+  "short": "各國官方或業界組織對遊戲內容的分級標示。",
+  "def": "各國官方或行業組織對遊戲內容的分級標示。北美採 ESRB（Everyone、E10+、Teen、Mature、Adults Only）；歐洲採 PEGI（3、7、12、16、18）；日本採 CERO（A 到 Z）；台灣則採「遊戲軟體分級管理辦法」下的 GSRR 制度，分為普遍級、六歲以上、十二歲以上、十五歲以上、十八歲以上五級。分級會影響遊戲能在哪些平台與店面販售，最高級別在多數實體通路會被拒絕上架。分級不只是被動申請，開發時就應決定目標分級並據此調整內容，為了「限制級才酷」而加入不必要的暴力或色情內容，會失去大量潛在玩家。",
+  "features": ["各國制度不同（ESRB／PEGI／CERO／GSRR）", "台灣採 GSRR 五級制", "分級影響上架通路", "應在開發初期就決定目標分級"],
+  "examples": [
+    {"title": "電馭叛客2077", "en": "Cyberpunk 2077", "appid": 1091500, "year": 2020, "why": "高年齡分級內容規劃明確的代表作"},
+    {"title": "星露谷物語", "en": "Stardew Valley", "appid": 413150, "year": 2016, "why": "全年齡分級、內容規劃清楚的獨立代表"}
+  ],
+  "steamTags": [],
+  "compare": [],
+  "related": ["localization"],
+  "design": "分級應在開發初期就明確設定為目標，並據此規劃內容尺度，而非等到送審才臨時調整，否則容易造成大幅度的內容刪減或重製成本。",
+  "sources": [
+    {"title": "Wikipedia: Video game content rating system", "url": "https://en.wikipedia.org/wiki/Video_game_content_rating_system", "accessed": "2026-09-17", "note": "ESRB、PEGI、CERO 與台灣 GSRR 制度比較"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "crowdfunding",
+  "zh": "群眾募資",
+  "en": "Crowdfunding",
+  "aliases": ["群眾集資", "Kickstarter"],
+  "cat": "industry",
+  "sub": "商業模式與規模",
+  "short": "透過網路平台向大眾募集遊戲開發資金的模式。",
+  "def": "透過 Kickstarter、Indiegogo 等平台向一般大眾募集遊戲開發資金的模式。成功案例眾多，失敗案例亦不勝枚舉——募資達成但遊戲難產或無法交付。群眾募資的本質是「預售加行銷」，開發者實際上是在遊戲尚未完成前就先銷售它。建議在募資前準備完整的試玩內容與明確的時程規劃，否則延遲交付會嚴重傷害開發者的長期聲譽，近年部分市場對群眾募資的熱情已不如以往，成功案例更集中在有既有粉絲基礎或口碑作品的獨立開發者。",
+  "features": ["向大眾募集開發資金", "本質是預售加行銷", "成敗差距極大", "延遲交付會嚴重傷害聲譽"],
+  "examples": [
+    {"title": "Hollow Knight: Silksong", "en": "Hollow Knight: Silksong", "appid": 1030300, "year": 2025, "why": "原作以 Kickstarter 募資起家、系列延續的代表案例"},
+    {"title": "神界：原罪2 - 終極版", "en": "Divinity: Original Sin 2", "appid": 435150, "year": 2017, "why": "2016 年 Kickstarter 募資成功、進而帶動系列聲量的代表案例"}
+  ],
+  "steamTags": [],
+  "compare": [],
+  "related": ["indie", "publisher-developer"],
+  "design": "進入群眾募資前應有完整的可玩 Demo 與明確時程規劃，並誠實評估延遲風險，避免因無法兌現承諾而傷害開發者信譽。",
+  "sources": [
+    {"title": "Wikipedia: Crowdfunding", "url": "https://en.wikipedia.org/wiki/Crowdfunding", "accessed": "2026-09-17", "note": "群眾募資模式的一般定義與遊戲產業應用"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "crunch",
+  "zh": "Crunch 時期",
+  "en": "Crunch",
+  "aliases": ["血汗趕工", "加班文化"],
+  "cat": "industry",
+  "sub": "商業模式與規模",
+  "short": "遊戲開發後期為趕上發行日期而進行的長時間強制加班。",
+  "def": "遊戲開發後期為了趕上發行日期而進行的長時間加班，原意是「用力壓榨」。Crunch 期間員工每週工作六十五到八十小時、週末無休、甚至數月不能正常休息是常態，常被用來壓低開發成本，但會對開發者造成負面健康影響，並降低工作品質，長期驅使人才離開產業。近年產業開始反思 Crunch 文化，但在部分大型工作室仍然存在。健康的遊戲開發應該避免 Crunch，良好的專案管理、合理的範圍控制、願意延期而非強迫員工犧牲，才是根本解方。",
+  "features": ["每週工作六十五到八十小時常態化", "多發生於開發後期趕發售日", "對健康與工作品質皆有負面影響", "缺乏工會組織常被視為根源之一"],
+  "examples": [
+    {"title": "電馭叛客2077", "en": "Cyberpunk 2077", "appid": 1091500, "year": 2020, "why": "2020 年發售前 Crunch 爭議引發全球媒體關注的代表案例"},
+    {"title": "Red Dead Redemption 2", "en": "Red Dead Redemption 2", "appid": 1174180, "year": 2019, "why": "開發過程長工時爭議被廣泛報導的代表案例"}
+  ],
+  "steamTags": [],
+  "compare": [],
+  "related": ["gdd", "vertical-slice"],
+  "design": "作為企劃或主管，應主動觀察團隊狀態並優先推動延期決策，而非以犧牲員工健康換取準時發售；合理的範圍控制應從專案初期規劃就開始。",
+  "sources": [
+    {"title": "Wikipedia: Crunch (video games)", "url": "https://en.wikipedia.org/wiki/Crunch_(video_games)", "accessed": "2026-09-17", "note": "Crunch 的定義、工時與產業影響"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "remaster",
+  "zh": "重製／重製版／重開機",
+  "en": "Remaster / Remake / Reboot",
+  "aliases": ["重製版", "Remake", "重開機", "移植"],
+  "cat": "industry",
+  "sub": "商業模式與規模",
+  "short": "三種常被混淆的舊作再利用方式，差別在改動幅度。",
+  "def": "三種常被混淆但改動幅度不同的舊作再利用方式。重製版（Remaster）忠於原作玩法，僅提升解析度、材質等視覺呈現，資產與引擎大致沿用原版；重製（Remake）則是以原作為藍本、貼近原始劇情與關卡設計，但用新引擎重新製作所有資產，玩法也可能因應現代習慣調整；重開機（Reboot）沿用既有品牌名稱，但概念與世界觀可能與原作截然不同，是最大幅度的重新出發。三者常被玩家混用，但對開發規模、成本與玩家期待的影響差異極大。",
+  "features": ["重製版只提升畫質、沿用資產", "重製用新引擎重做所有資產", "重開機概念可完全不同於原作", "改動幅度直接影響開發成本"],
+  "examples": [
+    {"title": "Resident Evil 2", "en": "Resident Evil 2", "appid": 883710, "year": 2019, "why": "以新引擎全面重做的重製代表作"},
+    {"title": "零 ～紅蝶～ REMAKE", "en": "Fatal Frame: Crimson Butterfly Remake", "appid": 3920610, "year": 2026, "why": "貼近原作劇情但全面重製資產的近期代表"}
+  ],
+  "steamTags": [{"tagid": 5708, "en": "Remake"}],
+  "compare": [{"with": "backward-compatibility", "diff": "重製系列是重新製作或提升舊作內容；回溯相容則是讓新硬體直接執行未經修改的舊版遊戲，兩者處理舊作的方式完全不同。"}],
+  "related": ["backward-compatibility"],
+  "design": "決定要做重製版、重製還是重開機之前，應先釐清玩家對「忠於原作」的期待邊界，改動幅度與玩家期待落差過大時，最容易引發社群反彈。",
+  "sources": [
+    {"title": "Wikipedia: Video game remake", "url": "https://en.wikipedia.org/wiki/Video_game_remake", "accessed": "2026-09-17", "note": "重製版、重製、重開機三者的定義區分與範例"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "storefront-cut",
+  "zh": "平台抽成",
+  "en": "Storefront Cut",
+  "aliases": ["平台分潤", "商店抽成"],
+  "cat": "industry",
+  "sub": "商業模式與規模",
+  "short": "數位商店從遊戲銷售額中抽取的分潤比例。",
+  "def": "數位商店從遊戲銷售額中抽取的分潤比例。Steam 自 2018 年起改採階梯式分潤：年營收 1000 萬美元以下抽 30%，1000 萬至 5000 萬美元區間降為 25%，超過 5000 萬美元的部分再降為 20%，此制度用意是留住大型發行商，降低他們自建商店的誘因。Epic Games Store 則祭出更低的固定抽成，年營收前 100 萬美元完全免抽成，超過部分抽 12%，以此作為與 Steam 競爭的核心賣點之一。抽成比例直接影響開發者實際到手的收入，是選擇發行平台時的重要考量。",
+  "features": ["Steam 採階梯式 30／25／20%", "Epic 前 100 萬美元免抽、之後抽 12%", "抽成是平台間競爭的核心賣點", "直接影響開發者實際收入"],
+  "examples": [
+    {"title": "柏德之門3", "en": "Baldur's Gate 3", "appid": 1086940, "year": 2023, "why": "高銷量作品實際受惠於 Steam 階梯式降低抽成的代表"}
+  ],
+  "steamTags": [],
+  "compare": [],
+  "related": ["publisher-developer", "f2p"],
+  "design": "選擇發行平台時，除了抽成比例，也要衡量各平台的玩家規模、行銷曝光與技術支援，抽成低不必然等於整體收益更高。",
+  "sources": [
+    {"title": "Variety: Valve Introduces New Revenue Split Changes For Steam Sales", "url": "https://variety.com/2018/gaming/news/valve-revenue-split-changes-1203078700/", "accessed": "2026-09-17", "note": "Steam 2018 年階梯式分潤制度細節"},
+    {"title": "Epic Games Store: Updates Revenue Share", "url": "https://store.epicgames.com/en-US/news/epic-games-store-updates-revenue-share-keep-100-of-the-first-1m-per-product-per-year", "accessed": "2026-09-17", "note": "Epic Games Store 前 100 萬美元免抽成、之後 12% 分潤政策"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "f2p",
+  "zh": "免費遊玩",
+  "en": "Free-to-Play (F2P)",
+  "aliases": ["F2P", "免費制"],
+  "cat": "industry",
+  "sub": "商業模式與規模",
+  "short": "讓玩家免費取得大部分內容、靠內購或廣告營利的模式。",
+  "def": "讓玩家免費存取遊戲大部分內容的商業模式，開發者透過微交易（購買造型、角色、道具、貨幣等）或廣告等方式營利，而非在購買當下就收取一次性費用。免費遊玩大幅降低了玩家的嘗試門檻，讓遊戲能觸及更龐大的玩家基數，但也對長期的營利設計提出更高要求——內容要免費到能吸引人持續遊玩，又要讓付費項目有足夠吸引力。部分免費遊玩作品因付費項目直接影響遊戲平衡而被貼上「付費碾壓」標籤，是設計上必須嚴肅面對的爭議。",
+  "features": ["取得遊戲本身不需付費", "靠微交易或廣告營利", "大幅降低嘗試門檻", "平衡設計不當易招致批評"],
+  "examples": [
+    {"title": "Warframe", "en": "Warframe", "appid": 230410, "year": 2013, "why": "長年被視為免費遊玩商業模式典範的代表"},
+    {"title": "Dota 2", "en": "Dota 2", "appid": 570, "year": 2013, "why": "免費遊玩、僅靠造型等外觀道具營利的競技代表"}
+  ],
+  "steamTags": [{"tagid": 113, "en": "Free to Play"}],
+  "compare": [{"with": "p2w", "diff": "免費遊玩指的是「取得遊戲不用付費」這種商業模式；付費碾壓則是免費遊玩底下的一種爭議設計，指付費項目直接帶來遊戲內的競爭優勢。"}],
+  "related": ["p2w", "monetization", "cosmetics"],
+  "design": "免費遊玩的設計核心是讓付費項目盡量集中在外觀與便利性，而非直接的數值強度，才能兼顧營收與玩家對公平性的觀感。",
+  "sources": [
+    {"title": "Wikipedia: Free-to-play", "url": "https://en.wikipedia.org/wiki/Free-to-play", "accessed": "2026-09-17", "note": "免費遊玩模式定義與付費碾壓爭議"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "p2w",
+  "zh": "付費碾壓",
+  "en": "Pay-to-Win (P2W)",
+  "aliases": ["課金碾壓", "P2W"],
+  "cat": "industry",
+  "sub": "商業模式與規模",
+  "short": "玩家能靠課金直接取得遊戲內競爭優勢的爭議設計。",
+  "def": "免費遊玩底下一種備受爭議的設計，指玩家能透過付費直接取得遊戲內的競爭優勢，而非單純外觀或便利性道具，例如花錢就能取得更強的裝備、角色或加速進度，導致付費多寡直接決定勝負，而非玩家的操作與策略。付費碾壓的爭議在於破壞了競技公平性，容易引發不付費玩家的強烈反感，並讓遊戲被貼上負面標籤，長期損害口碑與留存率。相對地，只販售外觀造型或省時道具的免費遊玩作品通常較能避開這類批評。",
+  "features": ["付費可直接取得競爭優勢", "破壞玩家間的公平競技", "常引發社群強烈反感", "與純外觀營利的免費遊玩形成對比"],
+  "examples": [
+    {"title": "Warframe", "en": "Warframe", "appid": 230410, "year": 2013, "why": "刻意避開付費碾壓、僅靠時間或外觀營利的正面對照案例"}
+  ],
+  "steamTags": [],
+  "compare": [{"with": "f2p", "diff": "免費遊玩是取得遊戲本身不收費的商業模式；付費碾壓是該模式下付費直接帶來競爭優勢的具體爭議設計，並非所有免費遊玩作品都有付費碾壓問題。"}],
+  "related": ["f2p", "monetization"],
+  "design": "設計付費項目時應優先考慮外觀、便利性與省時效果，避免直接販售數值強度，才能在營收與玩家公平感受之間取得平衡。",
+  "sources": [
+    {"title": "Wikipedia: Free-to-play", "url": "https://en.wikipedia.org/wiki/Free-to-play", "accessed": "2026-09-17", "note": "付費碾壓作為免費遊玩爭議設計的定義"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "steam-review-tiers",
+  "zh": "Steam 評價九級",
+  "en": "Steam Review Score Tiers",
+  "aliases": ["Steam 評分等級", "好評率"],
+  "cat": "industry",
+  "sub": "發行與社群",
+  "short": "Steam 依好評率與評論數量把遊戲評價分成的九個等級。",
+  "def": "Steam 商店頁面依「好評百分比」與「評論總數」兩項門檻，把每款遊戲的玩家評論摘要自動分成九個等級，由高到低為：壓倒性好評、極度好評、大多好評、好評如潮（少量評論的正面標示）、褒貶不一、大多負評、負評、極度負評、壓倒性負評。等級不只看百分比，還要求最低評論數（例如壓倒性好評通常需要至少 500 則評論且好評率 95% 以上），因此同樣 95% 好評率的兩款遊戲，評論數不足的一方可能只會顯示較低的等級。Valve 從未公布正式門檻表，但這套等級多年來維持穩定，被玩家與媒體廣泛引用為選購遊戲的重要參考。",
+  "features": ["依好評率與評論數雙重門檻分級", "由壓倒性好評到壓倒性負評共九級", "Valve 未正式公布確切門檻數字", "是玩家選購遊戲的重要參考指標"],
+  "examples": [
+    {"title": "Hades II", "en": "Hades II", "appid": 1145350, "year": 2025, "why": "長期維持壓倒性好評等級的代表作"},
+    {"title": "巴拉特羅", "en": "Balatro", "appid": 2379780, "year": 2024, "why": "上市後迅速累積大量評論並達到壓倒性好評的代表"}
+  ],
+  "steamTags": [],
+  "compare": [],
+  "related": ["wishlist", "demo"],
+  "design": "評價等級門檻同時看百分比與評論數量，新遊戲上市初期評論數不足時，即使好評率極高也可能只顯示較低等級，開發者應理解這是暫時現象，持續累積評論後等級會更準確反映實際評價。",
+  "sources": [
+    {"title": "Hades II Steam 商店頁（繁體中文）", "url": "https://store.steampowered.com/app/1145350/Hades_II/?l=tchinese", "accessed": "2026-09-17", "note": "直接確認「壓倒性好評」為官方繁體中文用語"},
+    {"title": "Steam Page Analyzer: Steam Review Labels", "url": "https://www.steampageanalyzer.com/blog/steam-review-score-thresholds", "accessed": "2026-09-17", "note": "九級門檻的社群整理與百分比／評論數對照"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "demo",
+  "zh": "試玩版",
+  "en": "Demo",
+  "aliases": ["試玩", "Demo"],
+  "cat": "industry",
+  "sub": "開發流程與里程碑",
+  "short": "免費、內容固定、讓玩家搶先體驗部分遊戲內容的版本。",
+  "def": "免費提供給玩家的遊戲片段，內容通常固定不再更新，目的是讓玩家在購買前搶先體驗部分玩法、判斷是否喜歡這款遊戲。Steam Next Fest 等活動讓試玩版成為近年提升遊戲能見度與願望清單數量的重要行銷工具，許多獨立開發者會刻意把試玩版做成一個精心打磨的垂直切片，作為爭取媒體與玩家關注的敲門磚。試玩版與搶先體驗、封閉測試的差異在於：試玩版是免費、短時間、內容固定的行銷工具，而非長期參與開發或蒐集回饋的機制。",
+  "features": ["免費、內容通常固定不更新", "目的是購買前的體驗與行銷", "常搭配 Steam Next Fest 等活動", "與搶先體驗、封閉測試性質不同"],
+  "examples": [
+    {"title": "巴拉特羅", "en": "Balatro", "appid": 2379780, "year": 2024, "why": "試玩版成功帶動願望清單成長的代表案例"}
+  ],
+  "steamTags": [],
+  "compare": [{"with": "early-access", "diff": "試玩版免費、內容固定、以行銷為主要目的；搶先體驗則是付費購買尚未完成的正式遊戲，並長期參與後續開發。"}, {"with": "playtest", "diff": "試玩版面向所有潛在玩家、以行銷曝光為目的；封閉／公開測試則面向受邀或報名玩家、以蒐集開發回饋為目的。"}],
+  "related": ["early-access", "playtest", "wishlist"],
+  "design": "試玩版的品質應視同正式產品的門面，內容雖可有限，但每個環節都應打磨到位，因為這往往是玩家對遊戲的第一印象。",
+  "sources": [
+    {"title": "Wikipedia: Game demo", "url": "https://en.wikipedia.org/wiki/Game_demo", "accessed": "2026-09-17", "note": "試玩版的定義與行銷功能"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "playtest",
+  "zh": "封閉／公開測試",
+  "en": "Playtest",
+  "aliases": ["封測", "公測", "遊玩測試"],
+  "cat": "industry",
+  "sub": "開發流程與里程碑",
+  "short": "邀請玩家實際遊玩、以蒐集回饋為目的的測試活動。",
+  "def": "在遊戲正式發售前，邀請一部分玩家（封閉測試）或所有申請者（公開測試）實際遊玩，目的是蒐集回饋、發現錯誤、驗證平衡性與新手引導是否順暢。與試玩版不同，遊玩測試的核心目的不是行銷曝光，而是取得真實玩家的資料與意見來調整設計；與搶先體驗不同，遊玩測試通常免費、期程有限，玩家不會因此擁有遊戲的長期使用權。有效的遊玩測試需要搭配明確的回饋管道與問卷設計，否則蒐集到的多是零散的抱怨而非可執行的洞察。",
+  "features": ["核心目的是蒐集開發回饋", "分封閉測試與公開測試", "與行銷導向的試玩版目的不同", "需搭配明確回饋管道才有效"],
+  "examples": [
+    {"title": "巫師之塔", "en": "The Witcher: Sirens of the Deep", "appid": 2679100, "year": 2026, "why": "上市前安排玩家測試蒐集回饋的近期案例"}
+  ],
+  "steamTags": [],
+  "compare": [{"with": "alpha-beta", "diff": "Alpha／Beta 是開發團隊內部對功能完整度的階段判斷；封閉／公開測試是實際邀請外部玩家參與、通常發生在 Beta 階段前後的具體活動。"}],
+  "related": ["alpha-beta", "demo"],
+  "design": "遊玩測試前應設計明確的回饋問卷與可量化的觀察指標（如新手關卡完成率、平均死亡次數），避免只蒐集到主觀而零散的抱怨。",
+  "sources": [
+    {"title": "Wikipedia: Playtest", "url": "https://en.wikipedia.org/wiki/Playtest", "accessed": "2026-09-17", "note": "遊玩測試的定義與遊戲產業應用"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "wishlist",
+  "zh": "願望清單",
+  "en": "Wishlist",
+  "aliases": ["願望清單", "收藏清單"],
+  "cat": "industry",
+  "sub": "發行與社群",
+  "short": "玩家把還沒買的遊戲加入追蹤清單、上市時會收到通知的功能。",
+  "def": "玩家在 Steam 等商店把感興趣但尚未購買的遊戲加入個人清單的功能，加入後若遊戲降價、推出重大更新或正式上市，玩家會收到通知。願望清單數量是開發者評估市場興趣、規劃行銷時程的重要先行指標，數字龐大通常代表上市首週銷量會有相應的表現，因此不少獨立開發者會把「累積願望清單」設為上市前最重要的行銷目標之一，透過試玩版、Steam Next Fest、社群曝光等手法持續衝高數字。",
+  "features": ["玩家主動追蹤感興趣的遊戲", "降價或上市會觸發通知", "是評估市場興趣的先行指標", "常搭配試玩版與展會衝高數字"],
+  "examples": [
+    {"title": "巴拉特羅", "en": "Balatro", "appid": 2379780, "year": 2024, "why": "以龐大願望清單數量預示上市成功的代表案例"}
+  ],
+  "steamTags": [],
+  "compare": [],
+  "related": ["demo", "steam-review-tiers"],
+  "design": "願望清單的成長速度應被視為行銷成效的即時儀表板，開發者可透過持續釋出資訊、參與展會活動來驗證不同行銷手法對數字的實際影響。",
+  "sources": [
+    {"title": "Steamworks 文件：Wishlists", "url": "https://partner.steamgames.com/doc/marketing/Wishlists", "accessed": "2026-09-17", "note": "Steam 願望清單功能與數據回報的官方說明"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "generative-ai-assist",
+  "zh": "生成式 AI 輔助",
+  "en": "Generative AI Assistance",
+  "aliases": ["AI 輔助開發", "生成式 AI"],
+  "cat": "ai",
+  "sub": "生成式 AI 應用",
+  "short": "用大語言模型、擴散模型等生成式工具輔助遊戲開發。",
+  "def": "使用大語言模型、擴散模型等生成式 AI 工具輔助遊戲開發。典型應用包含用語言模型協助撰寫劇本大綱與 NPC 對話、用影像生成模型產出概念圖、用音樂生成工具產生音樂草稿、用語音合成工具生成語音。這些工具大幅降低了小型團隊的製作門檻，但也引發倫理爭議：訓練資料是否有版權問題、AI 作品的版權歸屬、是否會取代人類創作者。Steam 自 2024 年起要求開發者在商店頁面揭露 AI 使用情況，商業作品若過度依賴 AI（特別是容易被辨識出的角色插圖）可能影響玩家接受度。",
+  "features": ["涵蓋文字、美術、音樂、語音多面向", "大幅降低小型團隊製作門檻", "Steam 要求揭露 AI 使用情況", "版權與創作者取代是核心爭議"],
+  "examples": [
+    {"title": "巴拉特羅", "en": "Balatro", "appid": 2379780, "year": 2024, "why": "以人力手作美術聞名、常被拿來與 AI 生成作品對照討論的代表"}
+  ],
+  "steamTags": [],
+  "compare": [],
+  "related": ["ai-npc", "pcgml"],
+  "design": "建議把生成式 AI 定位為輔助工具以加速流程，關鍵美術與劇情仍由人類主導把關，並依 Steam 規範誠實揭露 AI 使用範圍，避免事後爭議。",
+  "sources": [
+    {"title": "Wikipedia: Generative artificial intelligence", "url": "https://en.wikipedia.org/wiki/Generative_artificial_intelligence", "accessed": "2026-09-17", "note": "生成式 AI 的一般定義與應用範圍"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "ai-npc",
+  "zh": "AI NPC",
+  "en": "AI NPC / LLM-Driven NPC",
+  "aliases": ["語言模型 NPC", "智慧 NPC"],
+  "cat": "ai",
+  "sub": "生成式 AI 應用",
+  "short": "搭載大語言模型、能開放式對話並產生獨特反應的遊戲角色。",
+  "def": "搭載大語言模型的遊戲角色，能進行開放式對話、依情境產生獨特反應。傳統 NPC 只能說預設對話，AI NPC 則可回應玩家的任何問題。NVIDIA ACE（Avatar Cloud Engine）等技術讓 AI NPC 能即時生成回應、表情動畫與語音。情緒運算與 NPC 的整合是目前學術與業界的熱點，讓 NPC 不只能說話，還能表達情緒、記得與玩家的互動歷史。主要挑戰包含雲端運算延遲、如何確保 NPC 不會說出破壞世界觀的內容、以及每次對話都要呼叫語言模型的成本，目前最實用的方式是混合式設計——關鍵劇情對話照腳本走，自由聊天才交給 AI。",
+  "features": ["能開放式對話、依情境反應", "常搭配即時語音與表情生成", "面臨延遲、一致性與成本挑戰", "混合式設計是目前最實用做法"],
+  "examples": [
+    {"title": "蔚藍檔案", "en": "Blue Archive", "appid": 3557620, "year": 2025, "why": "角色互動與情感連結受重視的代表類型，是 AI NPC 技術潛在應用場景"}
+  ],
+  "steamTags": [],
+  "compare": [],
+  "related": ["generative-ai-assist", "behavior-tree-fsm", "voice-ai"],
+  "design": "目前最實用的方式是混合式設計：關鍵劇情對話仍照腳本走以確保世界觀一致，自由聊天才交給語言模型即時生成，兼顧可控性與互動深度。",
+  "sources": [
+    {"title": "NVIDIA ACE 官方頁面", "url": "https://www.nvidia.com/en-us/geforce/technologies/ace/", "accessed": "2026-09-17", "note": "NVIDIA ACE 技術驅動 AI NPC 的官方說明"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "pcgml",
+  "zh": "機器學習程序生成",
+  "en": "Procedural Content Generation via ML (PCGML)",
+  "aliases": ["PCGML"],
+  "cat": "ai",
+  "sub": "生成式 AI 應用",
+  "short": "用機器學習從範例中學習風格、自動生成遊戲內容的技術。",
+  "def": "使用機器學習技術自動生成遊戲內容，與傳統基於規則演算法的程序生成不同之處在於：PCGML 能從既有範例中學習風格，例如訓練模型從經典平台遊戲關卡學習，生成風格相似的新關卡；或學習玩家的遊玩習慣，生成適合該玩家的個人化挑戰。PCGML 主要源自學術研究社群，目前商業應用仍相當有限，最大挑戰是品質控制——AI 生成的關卡可能不可通關、難度不合理、或缺乏樂趣，需要人類設計師進行篩選與後製，才能真正用於正式產品。",
+  "features": ["從既有範例中學習生成風格", "與規則式程序生成不同機制", "目前多屬學術研究階段", "品質控制是最大挑戰"],
+  "examples": [
+    {"title": "無人深空", "en": "No Man's Sky", "appid": 275850, "year": 2016, "why": "大規模程序生成內容的代表，常被引用作為 PCGML 應用潛力的對照案例"}
+  ],
+  "steamTags": [{"tagid": 5125, "en": "Procedural Generation"}],
+  "compare": [{"with": "procedural-generation", "diff": "傳統程序生成依靠開發者手寫的規則演算法；PCGML 則讓機器學習模型從既有範例中學習生成風格，兩者手段不同但目的相近。"}],
+  "related": ["generative-ai-assist"],
+  "design": "PCGML 仍在研究階段，商業導入時務必保留人類設計師的篩選與後製流程，不宜直接把未經檢驗的生成結果放進正式關卡。",
+  "sources": [
+    {"title": "Wikipedia: Procedural generation", "url": "https://en.wikipedia.org/wiki/Procedural_generation", "accessed": "2026-09-17", "note": "程序生成技術總覽，含機器學習方法的延伸說明"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "behavior-tree-fsm",
+  "zh": "行為樹／狀態機",
+  "en": "Behavior Tree / Finite State Machine",
+  "aliases": ["行為樹", "有限狀態機", "FSM"],
+  "cat": "ai",
+  "sub": "遊戲 AI 技術",
+  "short": "AI 敵人行為邏輯的兩種主流實作方式。",
+  "def": "AI 敵人行為邏輯的兩種主流實作方式。有限狀態機把 AI 分為巡邏、追擊、攻擊、撤退等離散狀態，用條件規則在狀態間切換，簡單易寫但容易出現行為僵硬、狀態數一多就難以維護；行為樹則是樹狀結構，讓 AI 依序嘗試各種行為直到找到能執行的一個，更靈活、更易擴充，是現代遊戲的標準做法。在 Unity 中可用 Behavior Designer 等外掛建立行為樹，在 Unreal 中則有內建的行為樹編輯器。對於動作或射擊遊戲，建議學習行為樹而非有限狀態機，因為其可擴展性遠優於後者。",
+  "features": ["狀態機用離散狀態與規則切換", "行為樹用樹狀結構依序嘗試", "行為樹更靈活、更易擴充", "是現代 3D 遊戲 AI 的標準做法"],
+  "examples": [
+    {"title": "Ready or Not", "en": "Ready or Not", "appid": 1144200, "year": 2023, "why": "敵人與隊友 AI 行為複雜度高、適合以行為樹實作的代表"},
+    {"title": "Monster Hunter Wilds", "en": "Monster Hunter Wilds", "appid": 2246340, "year": 2025, "why": "大型魔物行為邏輯複雜、依賴行為樹架構的代表"}
+  ],
+  "steamTags": [],
+  "compare": [{"with": "dda", "diff": "行為樹／狀態機決定單一 AI 角色「該做什麼動作」；動態難度調整（DDA，屬另一檔案）決定的是整體遊戲對玩家表現的難度回應，兩者作用層級不同。"}],
+  "related": ["ai-npc"],
+  "design": "對於行為種類會持續增加的專案，建議一開始就採用行為樹架構；只有極少數狀態、邏輯單純的小型敵人，才適合用有限狀態機快速實作。",
+  "sources": [
+    {"title": "Unreal Engine 官方文件：Behavior Trees", "url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/behavior-trees-in-unreal-engine", "accessed": "2026-09-17", "note": "行為樹的架構與使用方式"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "voice-ai",
+  "zh": "即時語音 AI",
+  "en": "Real-time Voice AI",
+  "aliases": ["AI 配音", "語音克隆", "Voice Cloning"],
+  "cat": "ai",
+  "sub": "生成式 AI 應用",
+  "short": "將 AI 生成的語音即時套用到遊戲角色的技術。",
+  "def": "將 AI 生成的語音即時套用到遊戲角色上的技術。典型應用包含 AI NPC 的即時語音回應、玩家自訂角色的客製化配音、遊戲中的即時語音翻譯（例如玩家說中文、隊友聽到英文）。部分平台已能提供品質接近真人配音的即時語音合成服務。語音 AI 帶來的倫理議題相當直接：使用他人聲音訓練出的 AI 聲音（語音克隆）是否侵權，配音演員的工作是否會被取代。建議開發者使用授權明確的語音平台，並在遊戲中清楚揭露 AI 語音的使用範圍。",
+  "features": ["即時生成並套用角色語音", "可支援即時語音翻譯", "品質已接近真人配音", "語音克隆的授權爭議需謹慎處理"],
+  "examples": [
+    {"title": "蔚藍檔案", "en": "Blue Archive", "appid": 3557620, "year": 2025, "why": "角色語音互動需求高、是即時語音 AI 潛在應用場景的代表類型"}
+  ],
+  "steamTags": [],
+  "compare": [],
+  "related": ["ai-npc", "generative-ai-assist"],
+  "design": "使用語音 AI 前務必確認聲音來源的授權明確，並在遊戲中清楚標示 AI 語音的使用範圍，避免配音演員權益與玩家知情權的爭議。",
+  "sources": [
+    {"title": "NVIDIA ACE 官方頁面", "url": "https://www.nvidia.com/en-us/geforce/technologies/ace/", "accessed": "2026-09-17", "note": "即時語音生成技術於遊戲角色的應用說明"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "cloud-gaming",
+  "zh": "雲端遊戲",
+  "en": "Cloud Gaming",
+  "aliases": ["遊戲串流", "Game Streaming"],
+  "cat": "ai",
+  "sub": "新興技術與爭議",
+  "short": "遊戲在雲端伺服器運算、畫面即時串流到玩家裝置的服務。",
+  "def": "遊戲在雲端伺服器運算、畫面串流到玩家裝置的服務，玩家不需要高階硬體，手機、平板、低階 PC 都能跑出高階顯卡等級的畫質。主要服務包括 GeForce Now、Xbox Cloud Gaming、Amazon Luna 等。限制是網路要求極高（通常需穩定 25 Mbps 以上）與無法避免的輸入延遲。雲端遊戲在亞洲（特別是台灣）受網路基礎建設與資料中心位置限制，延遲通常高於歐美，目前更適合作為「補充」用途，例如讓玩家在低階裝置上先行體驗，而非取代本地運算作為主要遊玩管道。",
+  "features": ["運算在雲端、畫面即時串流", "免除玩家端高階硬體需求", "對網路穩定性要求極高", "亞洲地區延遲通常高於歐美"],
+  "examples": [
+    {"title": "eFootball™", "en": "eFootball", "appid": 1665460, "year": 2021, "why": "支援跨裝置雲端串流體驗的代表案例"}
+  ],
+  "steamTags": [],
+  "compare": [],
+  "related": ["latency-ping"],
+  "design": "雲端遊戲目前更適合作為補充管道，例如讓玩家在低階裝置上預覽或短時間體驗，而非承諾作為主要遊玩方式，需明確告知玩家延遲風險。",
+  "sources": [
+    {"title": "Wikipedia: Cloud gaming", "url": "https://en.wikipedia.org/wiki/Cloud_gaming", "accessed": "2026-09-17", "note": "雲端遊戲定義、主要服務與技術限制"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "blockchain-game",
+  "zh": "區塊鏈遊戲／Web3",
+  "en": "Blockchain Game / Web3 Gaming / NFT",
+  "aliases": ["NFT 遊戲", "Web3 遊戲", "Play-to-Earn"],
+  "cat": "ai",
+  "sub": "新興技術與爭議",
+  "short": "遊戲道具以 NFT 形式存在、玩家可自由交易的區塊鏈遊戲。",
+  "def": "使用區塊鏈技術的遊戲，核心概念是遊戲道具（角色、裝備、土地）以 NFT 形式存在，玩家真正「擁有」這些資產、可在二級市場自由交易。2021 至 2022 年的《Axie Infinity》曾掀起「邊玩邊賺」（Play-to-Earn）熱潮，隨後因經濟模型崩壞、加密貨幣市場走弱等因素快速衰退，目前區塊鏈遊戲仍是小眾領域。主流遊戲玩家對 NFT 普遍有強烈反感，Steam 已禁止含 NFT 的遊戲上架，多家大型發行商的 NFT 嘗試也均以失敗收場，作為開發者，納入 NFT 需要極謹慎評估社群反應。",
+  "features": ["道具以 NFT 形式存在可交易", "曾有邊玩邊賺的熱潮與崩壞", "Steam 已禁止 NFT 遊戲上架", "主流玩家普遍反感"],
+  "examples": [
+    {"title": "Big Ambitions", "en": "Big Ambitions", "appid": 1331550, "year": 2026, "why": "商業模擬類型中偶被提及與區塊鏈經濟概念對照討論的近期作品"}
+  ],
+  "steamTags": [],
+  "compare": [],
+  "related": ["metaverse"],
+  "design": "作為開發者，納入 NFT 或區塊鏈元素前，應先評估目標社群的接受度，多數主流玩家對此類設計高度反感，貿然導入容易引發負面輿論而非正面話題。",
+  "sources": [
+    {"title": "Wikipedia: Blockchain game", "url": "https://en.wikipedia.org/wiki/Blockchain_game", "accessed": "2026-09-17", "note": "區塊鏈遊戲定義、Play-to-Earn 熱潮與衰退"}
+  ],
+  "status": "verified"
+},
+{
+  "id": "metaverse",
+  "zh": "元宇宙",
+  "en": "Metaverse",
+  "aliases": ["元宇宙", "3D 互動平台"],
+  "cat": "ai",
+  "sub": "新興技術與爭議",
+  "short": "持續性、跨平台、集合虛擬世界與社交經濟的概念框架。",
+  "def": "一個持續性、跨平台、集合虛擬世界、社交、經濟、數位身份的概念框架。2021 年 Meta（原 Facebook）改名引發元宇宙炒作熱潮，但隨後實際產品（Horizon Worlds）表現不如預期，熱度已明顯消退。目前最接近「元宇宙」概念的實際產品是 Roblox、Fortnite Creative、VRChat 等大型多人平台，但這些嚴格來說更接近「沙盒加社交」的遊戲平台。「元宇宙」作為行銷詞已過熱，業界逐漸回歸務實用語，如「3D 互動平台」「虛擬社交空間」，對開發者的啟示是：創造有意義的社交連結比追逐虛幻概念更重要。",
+  "features": ["持續性、跨平台的概念框架", "2021 年因 Meta 改名掀起熱潮", "實際產品多為沙盒加社交平台", "業界逐漸回歸務實用語"],
+  "examples": [
+    {"title": "VRChat", "en": "VRChat", "appid": 438100, "year": 2017, "why": "常被引用為最接近元宇宙概念的社交平台代表"}
+  ],
+  "steamTags": [],
+  "compare": [{"with": "blockchain-game", "diff": "元宇宙是強調持續性虛擬世界與社交經濟的概念框架；區塊鏈遊戲是以 NFT 等技術實現資產所有權的具體遊戲類型，兩者概念常被一併討論但並非同一件事。"}],
+  "related": ["blockchain-game", "xr"],
+  "design": "與其追逐「元宇宙」這個行銷詞彙本身，開發者更應聚焦在具體可執行的目標：創造有意義的玩家社交連結與持續性的世界內容更新。",
+  "sources": [
+    {"title": "Wikipedia: Metaverse", "url": "https://en.wikipedia.org/wiki/Metaverse", "accessed": "2026-09-17", "note": "元宇宙概念定義、2021 年熱潮與後續發展"}
+  ],
+  "status": "verified"
+}
+]
