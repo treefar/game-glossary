@@ -187,21 +187,33 @@
         "en": "Super Mario 3D World",
         "appid": null,
         "year": 2013,
-        "why": "宮本茂與林田浩一公開表示此作關卡設計採用起承轉結邏輯"
+        "why": "宮本茂與林田浩一公開表示此作關卡設計採用起承轉結邏輯",
+        "imageUrl": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000034439/ccb69a8bf2746b2dc0a9b11a9e48c9893baa1631486326f0d681b7a36385221f",
+        "sourceUrl": "https://www.nintendo.com/us/store/products/super-mario-3d-world-plus-bowsers-fury-switch/",
+        "imageKind": "官方宣傳圖",
+        "accessed": "2026-10-02"
       },
       {
         "title": "超級瑪利歐銀河",
         "en": "Super Mario Galaxy",
         "appid": null,
         "year": 2007,
-        "why": "每個星球關卡先教學新機制再帶出變化，是起承轉結套用在關卡設計的代表"
+        "why": "每個星球關卡先教學新機制再帶出變化，是起承轉結套用在關卡設計的代表",
+        "imageUrl": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000104187/7ccc1c07ba3995da1dbd7320e726e063eaba9445a5741281d19c3b8fb1c144df",
+        "sourceUrl": "https://www.nintendo.com/us/store/products/super-mario-galaxy-switch/",
+        "imageKind": "官方宣傳圖",
+        "accessed": "2026-10-02"
       },
       {
         "title": "薩爾達傳說",
         "en": "The Legend of Zelda",
         "appid": null,
         "year": 1986,
-        "why": "宮本茂主導的另一代表系列，迷宮設計同樣強調非衝突導向的探索節奏"
+        "why": "宮本茂主導的另一代表系列，迷宮設計同樣強調非衝突導向的探索節奏",
+        "imageUrl": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/virtual_console_nintendo_3ds_7/SI_3DSVC_TheLegendOfZelda.jpg",
+        "sourceUrl": "https://www.nintendo.com/es-es/Juegos/NES/The-Legend-of-Zelda-796345.html",
+        "imageKind": "官方宣傳圖",
+        "accessed": "2026-10-02"
       }
     ],
     "steamTags": [],
@@ -227,6 +239,24 @@
         "url": "https://en.wikipedia.org/wiki/Kish%C5%8Dtenketsu",
         "accessed": "2026-09-17",
         "note": "確認起承轉結的定義、源自中國詩詞的歷史，以及宮本茂、林田浩一在超級瑪利歐銀河與3D世界的應用"
+      },
+      {
+        "title": "官方遊戲介紹：Super Mario 3D World",
+        "url": "https://www.nintendo.com/us/store/products/super-mario-3d-world-plus-bowsers-fury-switch/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方宣傳圖）"
+      },
+      {
+        "title": "官方遊戲介紹：Super Mario Galaxy",
+        "url": "https://www.nintendo.com/us/store/products/super-mario-galaxy-switch/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方宣傳圖）"
+      },
+      {
+        "title": "官方遊戲介紹：The Legend of Zelda",
+        "url": "https://www.nintendo.com/es-es/Juegos/NES/The-Legend-of-Zelda-796345.html",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方宣傳圖）"
       }
     ],
     "status": "verified"
@@ -736,7 +766,11 @@
         "en": "Super Mario 3D World",
         "appid": null,
         "year": 2013,
-        "why": "逐關導入新機制、給予練習時間、再綜合考驗，是難度曲線設計的教科書範例"
+        "why": "逐關導入新機制、給予練習時間、再綜合考驗，是難度曲線設計的教科書範例",
+        "imageUrl": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000034439/ccb69a8bf2746b2dc0a9b11a9e48c9893baa1631486326f0d681b7a36385221f",
+        "sourceUrl": "https://www.nintendo.com/us/store/products/super-mario-3d-world-plus-bowsers-fury-switch/",
+        "imageKind": "官方宣傳圖",
+        "accessed": "2026-10-02"
       },
       {
         "title": "Celeste",
@@ -768,6 +802,12 @@
         "url": "https://en.wikipedia.org/wiki/Game_balance",
         "accessed": "2026-09-17",
         "note": "確認難度應隨遊戲進度提升、且需兼顧不製造不公平挑戰的設計原則"
+      },
+      {
+        "title": "官方遊戲介紹：Super Mario 3D World",
+        "url": "https://www.nintendo.com/us/store/products/super-mario-3d-world-plus-bowsers-fury-switch/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方宣傳圖）"
       }
     ],
     "status": "verified"
@@ -2550,7 +2590,11 @@
         "en": "The Legend of Zelda",
         "appid": null,
         "year": 1986,
-        "why": "林克數十年來維持沉默主角形象，是該系列的招牌設計"
+        "why": "林克數十年來維持沉默主角形象，是該系列的招牌設計",
+        "imageUrl": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/virtual_console_nintendo_3ds_7/SI_3DSVC_TheLegendOfZelda.jpg",
+        "sourceUrl": "https://www.nintendo.com/es-es/Juegos/NES/The-Legend-of-Zelda-796345.html",
+        "imageKind": "官方宣傳圖",
+        "accessed": "2026-10-02"
       },
       {
         "title": "傳送門2",
@@ -2585,6 +2629,12 @@
         "url": "https://store.steampowered.com/tags/en/Silent%20Protagonist/",
         "accessed": "2026-09-17",
         "note": "確認 Silent Protagonist 為 Steam 官方商店標籤"
+      },
+      {
+        "title": "官方遊戲介紹：The Legend of Zelda",
+        "url": "https://www.nintendo.com/es-es/Juegos/NES/The-Legend-of-Zelda-796345.html",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方宣傳圖）"
       }
     ],
     "status": "verified"
@@ -2623,11 +2673,15 @@
         "why": "主角對自身身分與記憶的認知隨劇情推進被不斷推翻"
       },
       {
-        "title": "惡靈勢力：直線",
+        "title": "Spec Ops: The Line",
         "en": "Spec Ops: The Line",
-        "appid": null,
+        "appid": 50300,
         "year": 2012,
-        "why": "主角沃克的敘述與玩家看到的畫面逐漸出現落差，揭露戰爭創傷造成的認知扭曲"
+        "why": "主角沃克的敘述與玩家看到的畫面逐漸出現落差，揭露戰爭創傷造成的認知扭曲",
+        "sourceUrl": "https://store.steampowered.com/app/50300/",
+        "accessed": "2026-10-02",
+        "selectionNote": "玩法代表性；Steam 全語言累積好評 93.4%（56,394 則，2026-10-02）。",
+        "reviewSource": "https://store.steampowered.com/appreviews/50300?json=1&language=all&purchase_type=all&filter=summary"
       },
       {
         "title": "往日之影：利維坦",
@@ -2651,6 +2705,12 @@
         "url": "https://en.wikipedia.org/wiki/Unreliable_narrator",
         "accessed": "2026-09-17",
         "note": "定義不可靠敘事者的文學技法與揭露方式"
+      },
+      {
+        "title": "Steam 官方：Spec Ops: The Line",
+        "url": "https://store.steampowered.com/app/50300/",
+        "accessed": "2026-10-02",
+        "note": "範例版本、圖片與遊戲介紹"
       }
     ],
     "status": "verified"
@@ -2697,11 +2757,16 @@
         "why": "旁白不斷嘗試與玩家講道理，甚至懇求玩家停止遊玩"
       },
       {
-        "title": "潛龍諜影",
-        "en": "Metal Gear Solid",
-        "appid": null,
+        "title": "潛龍諜影（Master Collection 版）",
+        "en": "METAL GEAR SOLID - Master Collection Version",
+        "appid": 2131630,
         "year": 1998,
-        "why": "要求玩家把控制器實際放到脖子上模擬按摩，混淆虛構與現實的邊界"
+        "why": "要求玩家把控制器實際放到脖子上模擬按摩，混淆虛構與現實的邊界",
+        "imageKind": "官方遊玩截圖（原作移植版）",
+        "sourceUrl": "https://store.steampowered.com/app/2131630/",
+        "accessed": "2026-10-02",
+        "selectionNote": "玩法代表性；Steam 全語言累積好評 83.2%（6,156 則，2026-10-02）。",
+        "reviewSource": "https://store.steampowered.com/appreviews/2131630?json=1&language=all&purchase_type=all&filter=summary"
       }
     ],
     "steamTags": [],
@@ -2718,6 +2783,12 @@
         "url": "https://en.wikipedia.org/wiki/Fourth_wall",
         "accessed": "2026-09-17",
         "note": "專節討論遊戲中打破第四面牆的定義困難，並舉《心跳文學社》《史丹利的寓言》《潛龍諜影》為例"
+      },
+      {
+        "title": "Steam 官方：METAL GEAR SOLID - Master Collection Version",
+        "url": "https://store.steampowered.com/app/2131630/",
+        "accessed": "2026-10-02",
+        "note": "範例版本、圖片與遊戲介紹"
       }
     ],
     "status": "verified"
@@ -2747,7 +2818,11 @@
         "en": "Fallen London",
         "appid": null,
         "year": 2009,
-        "why": "Failbetter Games 以 StoryNexus 引擎打造，是故事片段系統的代表作與概念發源地之一"
+        "why": "Failbetter Games 以 StoryNexus 引擎打造，是故事片段系統的代表作與概念發源地之一",
+        "imageUrl": "https://www.failbettergames.com/assets/images/uploads/headers/_1200x630_crop_center-center_82_none_ns/fallen-london-header-220124.jpg?mtime=1723472724",
+        "sourceUrl": "https://www.failbettergames.com/games/fallen-london",
+        "imageKind": "官方宣傳圖",
+        "accessed": "2026-10-02"
       },
       {
         "title": "深淵之海",
@@ -2784,6 +2859,12 @@
         "url": "https://emshort.blog/2019/11/29/storylets-you-want-them/",
         "accessed": "2026-09-17",
         "note": "艾蜜莉．蕭特定義故事片段的三要素（內容、前提、效果），並說明相對於分支敘事的彈性優勢"
+      },
+      {
+        "title": "官方遊戲介紹：Fallen London",
+        "url": "https://www.failbettergames.com/games/fallen-london",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方宣傳圖）"
       }
     ],
     "status": "verified"
@@ -2957,7 +3038,11 @@
         "en": "AI Dungeon",
         "appid": null,
         "year": 2019,
-        "why": "結合語言模型生成內容，把純文字敘事帶入生成式互動的新階段"
+        "why": "結合語言模型生成內容，把純文字敘事帶入生成式互動的新階段",
+        "imageUrl": "https://assets.super.so/311da5e0-9a02-4177-9f6a-b89435645aea/images/8e65fa5e-075a-4dd4-b5b2-b5745e3d7adf/TAT_1.gif",
+        "sourceUrl": "https://help.aidungeon.com/faq/how-to-play",
+        "imageKind": "官方介面示範",
+        "accessed": "2026-10-02"
       },
       {
         "title": "八十天環遊世界",
@@ -2997,6 +3082,12 @@
         "url": "https://en.wikipedia.org/wiki/Interactive_fiction",
         "accessed": "2026-09-17",
         "note": "定義純文字互動小說的指令輸入機制、第二人稱敘述風格與《魔域》等經典案例"
+      },
+      {
+        "title": "官方遊戲介紹：AI Dungeon",
+        "url": "https://help.aidungeon.com/faq/how-to-play",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方介面示範）"
       }
     ],
     "status": "verified"
@@ -3022,11 +3113,15 @@
     ],
     "examples": [
       {
-        "title": "惡靈勢力：直線",
+        "title": "Spec Ops: The Line",
         "en": "Spec Ops: The Line",
-        "appid": null,
+        "appid": 50300,
         "year": 2012,
-        "why": "以事後審視的敘事口吻包裹前線的戰爭經歷，強化主角心理崩壞的框架"
+        "why": "以事後審視的敘事口吻包裹前線的戰爭經歷，強化主角心理崩壞的框架",
+        "sourceUrl": "https://store.steampowered.com/app/50300/",
+        "accessed": "2026-10-02",
+        "selectionNote": "玩法代表性；Steam 全語言累積好評 93.4%（56,394 則，2026-10-02）。",
+        "reviewSource": "https://store.steampowered.com/appreviews/50300?json=1&language=all&purchase_type=all&filter=summary"
       },
       {
         "title": "艾迪芬奇的記憶",
@@ -3064,6 +3159,12 @@
         "url": "https://en.wikipedia.org/wiki/Frame_story",
         "accessed": "2026-09-17",
         "note": "定義敘事框架的組織功能與經典案例，如《一千零一夜》"
+      },
+      {
+        "title": "Steam 官方：Spec Ops: The Line",
+        "url": "https://store.steampowered.com/app/50300/",
+        "accessed": "2026-10-02",
+        "note": "範例版本、圖片與遊戲介紹"
       }
     ],
     "status": "verified"

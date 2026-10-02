@@ -931,7 +931,11 @@
         "en": "League of Legends",
         "appid": null,
         "year": 2009,
-        "why": "MOBA技能冷卻是版本平衡與營運節奏的核心槓桿"
+        "why": "MOBA技能冷卻是版本平衡與營運節奏的核心槓桿",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+        "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "imageKind": "官方教學示意圖",
+        "accessed": "2026-10-02"
       },
       {
         "title": "暗黑破壞神IV",
@@ -960,6 +964,12 @@
         "url": "https://en.wikipedia.org/wiki/Glossary_of_video_game_terms",
         "accessed": "2026-09-17",
         "note": "Wikipedia 電玩用語詞彙表收錄Cooldown定義"
+      },
+      {
+        "title": "官方遊戲介紹：League of Legends",
+        "url": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方教學示意圖）"
       }
     ],
     "status": "verified"
@@ -992,10 +1002,14 @@
       },
       {
         "title": "Final Fantasy XIV",
-        "en": "Final Fantasy XIV",
-        "appid": null,
+        "en": "FINAL FANTASY XIV Online",
+        "appid": 39210,
         "year": 2013,
-        "why": "法系職業的吟唱時間與中斷機制是團隊戰術的重要環節"
+        "why": "法系職業的吟唱時間與中斷機制是團隊戰術的重要環節",
+        "sourceUrl": "https://store.steampowered.com/app/39210/",
+        "accessed": "2026-10-02",
+        "selectionNote": "玩法代表性；Steam 全語言累積好評 86.5%（85,855 則，2026-10-02）。",
+        "reviewSource": "https://store.steampowered.com/appreviews/39210?json=1&language=all&purchase_type=all&filter=summary"
       }
     ],
     "steamTags": [],
@@ -1017,6 +1031,12 @@
         "url": "https://warcraft.wiki.gg/wiki/Cast_time",
         "accessed": "2026-09-17",
         "note": "Warcraft Wiki 對施法時間機制的說明"
+      },
+      {
+        "title": "Steam 官方：FINAL FANTASY XIV Online",
+        "url": "https://store.steampowered.com/app/39210/",
+        "accessed": "2026-10-02",
+        "note": "範例版本、圖片與遊戲介紹"
       }
     ],
     "status": "verified"
@@ -1053,7 +1073,11 @@
         "en": "League of Legends",
         "appid": null,
         "year": 2009,
-        "why": "團戰勝負常取決於AOE技能的命中率"
+        "why": "團戰勝負常取決於AOE技能的命中率",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+        "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "imageKind": "官方教學示意圖",
+        "accessed": "2026-10-02"
       }
     ],
     "steamTags": [],
@@ -1070,6 +1094,12 @@
         "url": "https://en.wikipedia.org/wiki/Glossary_of_video_game_terms",
         "accessed": "2026-09-17",
         "note": "Wikipedia 詞彙表收錄Area of effect定義"
+      },
+      {
+        "title": "官方遊戲介紹：League of Legends",
+        "url": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方教學示意圖）"
       }
     ],
     "status": "verified"
@@ -1096,17 +1126,25 @@
     "examples": [
       {
         "title": "Final Fantasy XIV",
-        "en": "Final Fantasy XIV",
-        "appid": null,
+        "en": "FINAL FANTASY XIV Online",
+        "appid": 39210,
         "year": 2013,
-        "why": "聖三位一體團隊分工與仇恨管理的代表MMO"
+        "why": "聖三位一體團隊分工與仇恨管理的代表MMO",
+        "sourceUrl": "https://store.steampowered.com/app/39210/",
+        "accessed": "2026-10-02",
+        "selectionNote": "玩法代表性；Steam 全語言累積好評 86.5%（85,855 則，2026-10-02）。",
+        "reviewSource": "https://store.steampowered.com/appreviews/39210?json=1&language=all&purchase_type=all&filter=summary"
       },
       {
         "title": "魔獸世界",
         "en": "World of Warcraft",
         "appid": null,
         "year": 2004,
-        "why": "以坦克嘲諷機制建立仇恨管理框架的經典代表"
+        "why": "以坦克嘲諷機制建立仇恨管理框架的經典代表",
+        "imageUrl": "https://blz-contentstack-images.akamaized.net/v3/assets/blt9c12f249ac15c7ec/bltb5a24e5ab1e2cfb0/6a88e3589b942efdb6f74110/wow-thumbnail-homepage.jpg",
+        "sourceUrl": "https://worldofwarcraft.blizzard.com/",
+        "imageKind": "官方宣傳圖",
+        "accessed": "2026-10-02"
       }
     ],
     "steamTags": [],
@@ -1128,6 +1166,18 @@
         "url": "https://www.gamedeveloper.com/design/rethinking-the-trinity-of-mmo-design",
         "accessed": "2026-09-17",
         "note": "Game Developer 文章討論坦克輸出治療聖三位一體與仇恨機制"
+      },
+      {
+        "title": "Steam 官方：FINAL FANTASY XIV Online",
+        "url": "https://store.steampowered.com/app/39210/",
+        "accessed": "2026-10-02",
+        "note": "範例版本、圖片與遊戲介紹"
+      },
+      {
+        "title": "官方遊戲介紹：World of Warcraft",
+        "url": "https://worldofwarcraft.blizzard.com/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方宣傳圖）"
       }
     ],
     "status": "verified"
@@ -1157,14 +1207,22 @@
         "en": "World of Warcraft",
         "appid": null,
         "year": 2004,
-        "why": "把Buff與Debuff術語系統化並普及化的代表MMO"
+        "why": "把Buff與Debuff術語系統化並普及化的代表MMO",
+        "imageUrl": "https://blz-contentstack-images.akamaized.net/v3/assets/blt9c12f249ac15c7ec/bltb5a24e5ab1e2cfb0/6a88e3589b942efdb6f74110/wow-thumbnail-homepage.jpg",
+        "sourceUrl": "https://worldofwarcraft.blizzard.com/",
+        "imageKind": "官方宣傳圖",
+        "accessed": "2026-10-02"
       },
       {
         "title": "英雄聯盟",
         "en": "League of Legends",
         "appid": null,
         "year": 2009,
-        "why": "技能增減益效果是MOBA戰術博弈的基礎"
+        "why": "技能增減益效果是MOBA戰術博弈的基礎",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+        "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "imageKind": "官方教學示意圖",
+        "accessed": "2026-10-02"
       }
     ],
     "steamTags": [],
@@ -1181,6 +1239,18 @@
         "url": "https://en.wikipedia.org/wiki/Status_effect",
         "accessed": "2026-09-17",
         "note": "Wikipedia 對狀態效果（含Buff與Debuff）的定義與歷史"
+      },
+      {
+        "title": "官方遊戲介紹：World of Warcraft",
+        "url": "https://worldofwarcraft.blizzard.com/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方宣傳圖）"
+      },
+      {
+        "title": "官方遊戲介紹：League of Legends",
+        "url": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方教學示意圖）"
       }
     ],
     "status": "verified"
@@ -1210,7 +1280,11 @@
         "en": "League of Legends",
         "appid": null,
         "year": 2009,
-        "why": "控制技能的組合連鎖是MOBA團戰的核心策略"
+        "why": "控制技能的組合連鎖是MOBA團戰的核心策略",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+        "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "imageKind": "官方教學示意圖",
+        "accessed": "2026-10-02"
       },
       {
         "title": "Dota 2",
@@ -1239,6 +1313,12 @@
         "url": "https://en.wikipedia.org/wiki/Glossary_of_video_game_terms",
         "accessed": "2026-09-17",
         "note": "Wikipedia 詞彙表收錄Crowd control定義"
+      },
+      {
+        "title": "官方遊戲介紹：League of Legends",
+        "url": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方教學示意圖）"
       }
     ],
     "status": "verified"
@@ -2651,11 +2731,15 @@
         "why": "衝刺後保留動量的設計是高階連續跳躍技巧的基礎"
       },
       {
-        "title": "音速小子",
-        "en": "Sonic the Hedgehog",
-        "appid": null,
-        "year": 1991,
-        "why": "動量驅動平台跳躍設計的原始代表系列"
+        "title": "Sonic Mania",
+        "en": "Sonic Mania",
+        "appid": 584400,
+        "year": 2017,
+        "why": "以經典 2D 音速小子玩法展示坡面加速、慣性與高速路線，適合觀察動量如何連結地形與操作。",
+        "sourceUrl": "https://store.steampowered.com/app/584400/",
+        "accessed": "2026-10-02",
+        "selectionNote": "玩法代表性；Steam 全語言累積好評 93.9%（28,952 則，2026-10-02）。",
+        "reviewSource": "https://store.steampowered.com/appreviews/584400?json=1&language=all&purchase_type=all&filter=summary"
       }
     ],
     "steamTags": [],
@@ -2672,6 +2756,12 @@
         "url": "https://www.destructoid.com/why-physics-matter-so-much-to-sonic-games/",
         "accessed": "2026-09-17",
         "note": "Destructoid 文章（2018年）分析音速小子系列動量驅動移動設計"
+      },
+      {
+        "title": "Steam 官方：Sonic Mania",
+        "url": "https://store.steampowered.com/app/584400/",
+        "accessed": "2026-10-02",
+        "note": "範例版本、圖片與遊戲介紹"
       }
     ],
     "status": "verified"
@@ -3181,7 +3271,11 @@
         "en": "League of Legends",
         "appid": null,
         "year": 2009,
-        "why": "DPS職業與輸出循環規劃在MOBA中同樣是配裝討論的核心"
+        "why": "DPS職業與輸出循環規劃在MOBA中同樣是配裝討論的核心",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+        "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "imageKind": "官方教學示意圖",
+        "accessed": "2026-10-02"
       }
     ],
     "steamTags": [],
@@ -3203,6 +3297,12 @@
         "url": "https://en.wikipedia.org/wiki/Glossary_of_video_game_terms#Damage_per_second",
         "accessed": "2026-09-17",
         "note": "Wikipedia 詞彙表收錄Damage per second定義"
+      },
+      {
+        "title": "官方遊戲介紹：League of Legends",
+        "url": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方教學示意圖）"
       }
     ],
     "status": "verified"
@@ -3231,7 +3331,11 @@
         "en": "League of Legends",
         "appid": null,
         "year": 2009,
-        "why": "爆發型刺客與持續輸出型戰士的分化是角色定位的核心軸線"
+        "why": "爆發型刺客與持續輸出型戰士的分化是角色定位的核心軸線",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+        "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "imageKind": "官方教學示意圖",
+        "accessed": "2026-10-02"
       },
       {
         "title": "Dota 2",
@@ -3260,6 +3364,12 @@
         "url": "https://stevesgamedesignblog.wordpress.com/2016/12/20/skills-systems-in-mobas-part-2/",
         "accessed": "2026-09-17",
         "note": "遊戲設計部落格（2016年）分析MOBA中爆發與持續輸出的角色分化"
+      },
+      {
+        "title": "官方遊戲介紹：League of Legends",
+        "url": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方教學示意圖）"
       }
     ],
     "status": "verified"

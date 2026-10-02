@@ -413,7 +413,11 @@
         "en": "Devotion",
         "appid": null,
         "year": 2019,
-        "why": "以台灣民間信仰與辦桌文化包裝的家庭悲劇恐怖"
+        "why": "以台灣民間信仰與辦桌文化包裝的家庭悲劇恐怖",
+        "imageUrl": "https://redcandlegames.com/presskit/devotion/images/Home3.png",
+        "sourceUrl": "https://redcandlegames.com/presskit/sheet.php?p=devotion",
+        "imageKind": "官方遊玩截圖",
+        "accessed": "2026-10-02"
       },
       {
         "title": "Pathologic 2",
@@ -456,6 +460,12 @@
         "url": "https://www.bfi.org.uk/features/where-begin-with-folk-horror",
         "accessed": "2026-09-17",
         "note": "類型脈絡與代表作介紹"
+      },
+      {
+        "title": "官方遊戲介紹：Devotion",
+        "url": "https://redcandlegames.com/presskit/sheet.php?p=devotion",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方遊玩截圖）"
       }
     ],
     "status": "verified"
@@ -552,7 +562,11 @@
         "en": "Devotion",
         "appid": null,
         "year": 2019,
-        "why": "以台灣辦桌與民間信仰包裝的家庭悲劇"
+        "why": "以台灣辦桌與民間信仰包裝的家庭悲劇",
+        "imageUrl": "https://redcandlegames.com/presskit/devotion/images/Home3.png",
+        "sourceUrl": "https://redcandlegames.com/presskit/sheet.php?p=devotion",
+        "imageKind": "官方遊玩截圖",
+        "accessed": "2026-10-02"
       },
       {
         "title": "女鬼橋二 釋魂路",
@@ -599,6 +613,12 @@
         "url": "https://en.wikipedia.org/wiki/Red_Candle_Games",
         "accessed": "2026-09-17",
         "note": "赤燭遊戲工作室資訊"
+      },
+      {
+        "title": "官方遊戲介紹：Devotion",
+        "url": "https://redcandlegames.com/presskit/sheet.php?p=devotion",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方遊玩截圖）"
       }
     ],
     "status": "verified"

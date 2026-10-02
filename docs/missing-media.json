@@ -1,0 +1,1530 @@
+[
+  {
+    "entry": "interactive-fiction",
+    "term": "互動小說（Interactive Fiction）",
+    "definition": "以文字指令或選項推進、幾乎沒有畫面呈現的敘事遊戲。",
+    "title": "王權",
+    "en": "Reigns",
+    "appid": null,
+    "year": 2016,
+    "why": "以左右滑動選項推進劇情的極簡互動小說代表"
+  },
+  {
+    "entry": "sokoban",
+    "term": "倉庫番（Sokoban）",
+    "definition": "把箱子推到指定位置、講究步數與路線規劃的推箱子解謎。",
+    "title": "Sokobond",
+    "en": "Sokobond",
+    "appid": null,
+    "year": 2013,
+    "why": "把推箱子規則與化學鍵結合的變體解謎代表"
+  },
+  {
+    "entry": "sokoban",
+    "term": "倉庫番（Sokoban）",
+    "definition": "把箱子推到指定位置、講究步數與路線規劃的推箱子解謎。",
+    "title": "史蒂芬的香腸捲",
+    "en": "Stephen's Sausage Roll",
+    "appid": null,
+    "year": 2016,
+    "why": "以極高難度聞名的倉庫番變體，被視為解謎設計教科書"
+  },
+  {
+    "entry": "escape-room",
+    "term": "密室逃脫遊戲（Escape Room）",
+    "definition": "在封閉房間內解謎、找出離開方法的點擊冒險子類型。",
+    "title": "The Room 系列",
+    "en": "The Room",
+    "appid": null,
+    "year": 2012,
+    "why": "以精緻機關道具與觸控互動聞名，帶動手機密室解謎風潮的代表"
+  },
+  {
+    "entry": "escape-room",
+    "term": "密室逃脫遊戲（Escape Room）",
+    "definition": "在封閉房間內解謎、找出離開方法的點擊冒險子類型。",
+    "title": "逃脫模擬器",
+    "en": "Escape Simulator",
+    "appid": null,
+    "year": 2021,
+    "why": "支援多人合作、可自製關卡的 PC 密室逃脫代表作"
+  },
+  {
+    "entry": "hidden-object",
+    "term": "隱藏物件遊戲（Hidden Object）",
+    "definition": "在畫面中依清單找出隱藏物品的休閒解謎類型。",
+    "title": "謎案調查系列",
+    "en": "Mystery Case Files",
+    "appid": null,
+    "why": "奠定現代隱藏物件遊戲格式的長壽系列代表"
+  },
+  {
+    "entry": "hidden-object",
+    "term": "隱藏物件遊戲（Hidden Object）",
+    "definition": "在畫面中依清單找出隱藏物品的休閒解謎類型。",
+    "title": "六月之旅",
+    "en": "June's Journey",
+    "appid": null,
+    "year": 2019,
+    "why": "結合裝飾與敘事的當代熱門手機隱藏物件遊戲"
+  },
+  {
+    "entry": "hidden-object",
+    "term": "隱藏物件遊戲（Hidden Object）",
+    "definition": "在畫面中依清單找出隱藏物品的休閒解謎類型。",
+    "title": "隱藏之民",
+    "en": "Hidden Folks",
+    "appid": null,
+    "year": 2017,
+    "why": "以手繪黑白畫風重新詮釋找物玩法的獨立代表"
+  },
+  {
+    "entry": "semi-open-world",
+    "term": "半開放世界（Semi-Open World）",
+    "definition": "由多個有先後順序的中樞區域組成，兼顧自由與節奏。",
+    "title": "戰神（2018）",
+    "en": "God of War (2018)",
+    "appid": null,
+    "year": 2018,
+    "why": "以中樞區域串聯多個主題關卡的半開放世界標竿"
+  },
+  {
+    "entry": "hakoniwa",
+    "term": "箱庭遊戲（Hakoniwa）",
+    "definition": "在精心設計的封閉空間內追求極高密度互動的設計。",
+    "title": "超級瑪利歐 奧德賽",
+    "en": "Super Mario Odyssey",
+    "appid": null,
+    "year": 2017,
+    "why": "延續箱庭探索設計哲學的招牌續作"
+  },
+  {
+    "entry": "hakoniwa",
+    "term": "箱庭遊戲（Hakoniwa）",
+    "definition": "在精心設計的封閉空間內追求極高密度互動的設計。",
+    "title": "薩爾達傳說 王國之淚",
+    "en": "The Legend of Zelda: Tears of the Kingdom",
+    "appid": null,
+    "year": 2023,
+    "why": "把箱庭密度延伸進更大空間尺度的代表"
+  },
+  {
+    "entry": "boomer-shooter",
+    "term": "老式射擊（Boomer Shooter）",
+    "definition": "致敬 1990 年代快節奏 FPS、地上撿血包不自動回血的現代復古射擊。",
+    "title": "暗黑",
+    "en": "DUSK",
+    "appid": null,
+    "year": 2018,
+    "why": "帶動「Boomer Shooter」一詞誕生的關鍵作品"
+  },
+  {
+    "entry": "milsim",
+    "term": "軍事模擬射擊（MilSim）",
+    "definition": "強調真實彈道、後座力與戰術流程的高擬真射擊類型。",
+    "title": "武裝突襲3",
+    "en": "Arma 3",
+    "appid": null,
+    "year": 2013,
+    "why": "PC 硬核軍事模擬的代表作，龐大模組社群延伸出各種戰術玩法"
+  },
+  {
+    "entry": "milsim",
+    "term": "軍事模擬射擊（MilSim）",
+    "definition": "強調真實彈道、後座力與戰術流程的高擬真射擊類型。",
+    "title": "Squad",
+    "en": "Squad",
+    "appid": null,
+    "year": 2020,
+    "why": "強調大規模步兵協同與指揮系統的代表作"
+  },
+  {
+    "entry": "arena-shooter",
+    "term": "競技場射擊",
+    "definition": "大家起點裝備相同、靠場上撿道具與純操作分勝負的快節奏射擊。",
+    "title": "虛幻競技場",
+    "en": "Unreal Tournament",
+    "appid": null,
+    "year": 1999,
+    "why": "與雷神之鎚系列並列的競技場射擊經典"
+  },
+  {
+    "entry": "social-deduction",
+    "term": "社交推理遊戲（Social Deduction）",
+    "definition": "玩家靠對話與觀察揪出隱藏身份或臥底陣營的多人類型。",
+    "title": "薩勒姆小鎮",
+    "en": "Town of Salem",
+    "appid": null,
+    "year": 2014,
+    "why": "早期把《狼人殺》規則完整數位化的代表作之一"
+  },
+  {
+    "entry": "asymmetric-multiplayer",
+    "term": "非對稱多人遊戲（Asymmetric Multiplayer）",
+    "definition": "玩家間角色、能力與遊玩體驗明顯不同的多人設計。",
+    "title": "進化",
+    "en": "Evolve",
+    "appid": null,
+    "year": 2015,
+    "why": "一名巨獸玩家對四名獵人的非對稱對戰代表作"
+  },
+  {
+    "entry": "board-game-digital",
+    "term": "數位桌遊（Digital Board Game）",
+    "definition": "把實體桌遊、卡牌或角色扮演規則搬上電腦與行動裝置的改編類型。",
+    "title": "塔利斯曼：數位版",
+    "en": "Talisman: Digital Edition",
+    "appid": null,
+    "year": 2013,
+    "why": "經典奇幻桌遊的忠實數位改編代表"
+  },
+  {
+    "entry": "mmorpg",
+    "term": "大型多人線上角色扮演（MMORPG）",
+    "definition": "數千玩家共存的持續性世界 RPG。",
+    "title": "魔獸世界",
+    "en": "World of Warcraft",
+    "appid": null,
+    "year": 2004,
+    "why": "定義現代 MMORPG 副本與職業分工的長青作品"
+  },
+  {
+    "entry": "mmorpg",
+    "term": "大型多人線上角色扮演（MMORPG）",
+    "definition": "數千玩家共存的持續性世界 RPG。",
+    "title": "Final Fantasy XIV",
+    "en": "Final Fantasy XIV",
+    "appid": null,
+    "year": 2013,
+    "why": "以劇情深度與版本更新節奏聞名的當代代表"
+  },
+  {
+    "entry": "mmo",
+    "term": "大型多人線上遊戲（MMO）",
+    "definition": "數百至數千玩家同時互動的線上遊戲總稱。",
+    "title": "魔獸世界",
+    "en": "World of Warcraft",
+    "appid": null,
+    "year": 2004,
+    "why": "最具代表性的大型多人線上世界"
+  },
+  {
+    "entry": "srpg",
+    "term": "戰略角色扮演（SRPG）",
+    "definition": "在方格戰場上排兵佈陣的日式戰棋 RPG。",
+    "title": "火焰之紋章 Engage",
+    "en": "Fire Emblem Engage",
+    "appid": null,
+    "year": 2023,
+    "why": "確立永久死亡與職業戰棋公式的長青系列"
+  },
+  {
+    "entry": "moba",
+    "term": "多人線上戰鬥競技場（MOBA）",
+    "definition": "兩隊各五人各控一名英雄、摧毀對方基地的團隊競技類型。",
+    "title": "英雄聯盟",
+    "en": "League of Legends",
+    "appid": null,
+    "year": 2009,
+    "why": "全球玩家基數最大的 MOBA，未在 Steam 上架"
+  },
+  {
+    "entry": "otome",
+    "term": "乙女遊戲（Otome）",
+    "definition": "以女性主角視角、與多位男性角色發展戀愛的敘事類型。",
+    "title": "項圈×束縛",
+    "en": "Collar x Malice",
+    "appid": null,
+    "year": 2016,
+    "why": "Otomate 代表作，警探題材與多結局分支設計典型"
+  },
+  {
+    "entry": "otome",
+    "term": "乙女遊戲（Otome）",
+    "definition": "以女性主角視角、與多位男性角色發展戀愛的敘事類型。",
+    "title": "緋色的碎片：薄暮之戀",
+    "en": "Piofiore: Fated Memories",
+    "appid": null,
+    "why": "黑幫題材乙女遊戲代表作之一，有英語與繁中在地化版本"
+  },
+  {
+    "entry": "dating-sim",
+    "term": "戀愛模擬（Dating Sim）",
+    "definition": "透過時間管理與好感度系統培養戀愛關係的模擬類型。",
+    "title": "夢想老爸",
+    "en": "Dream Daddy: A Dad Dating Simulator",
+    "appid": null,
+    "year": 2017,
+    "why": "以單親爸爸社群為題材、廣受好評的戀愛模擬代表作"
+  },
+  {
+    "entry": "dating-sim",
+    "term": "戀愛模擬（Dating Sim）",
+    "definition": "透過時間管理與好感度系統培養戀愛關係的模擬類型。",
+    "title": "怪物舞會",
+    "en": "Monster Prom",
+    "appid": null,
+    "year": 2018,
+    "why": "多人同樂、限時搶攻對象的喜劇戀愛模擬代表"
+  },
+  {
+    "entry": "taiwan-horror",
+    "term": "台式恐怖（Taiwan Horror）",
+    "definition": "以台灣歷史、民間信仰與校園鄉野傳說為底色的本土恐怖類型。",
+    "title": "還願",
+    "en": "Devotion",
+    "appid": null,
+    "year": 2019,
+    "why": "以台灣辦桌與民間信仰包裝的家庭悲劇"
+  },
+  {
+    "entry": "folk-horror",
+    "term": "民俗恐怖（Folk Horror）",
+    "definition": "恐懼來自偏遠社群的民俗信仰、儀式與孤立感，而非超自然怪物。",
+    "title": "還願",
+    "en": "Devotion",
+    "appid": null,
+    "year": 2019,
+    "why": "以台灣民間信仰與辦桌文化包裝的家庭悲劇恐怖"
+  },
+  {
+    "entry": "unreliable-narrator",
+    "term": "不可靠敘事者",
+    "definition": "敘事者提供的資訊不完全可信，玩家得自行判斷真假。",
+    "title": "惡靈勢力：直線",
+    "en": "Spec Ops: The Line",
+    "appid": null,
+    "year": 2012,
+    "why": "主角沃克的敘述與玩家看到的畫面逐漸出現落差，揭露戰爭創傷造成的認知扭曲"
+  },
+  {
+    "entry": "fourth-wall",
+    "term": "打破第四面牆／後設",
+    "definition": "角色察覺自己身處遊戲之中，直接對玩家說話或互動。",
+    "title": "潛龍諜影",
+    "en": "Metal Gear Solid",
+    "appid": null,
+    "year": 1998,
+    "why": "要求玩家把控制器實際放到脖子上模擬按摩，混淆虛構與現實的邊界"
+  },
+  {
+    "entry": "silent-protagonist",
+    "term": "沉默主角",
+    "definition": "全程幾乎不開口說話的玩家角色，把詮釋空間留給玩家。",
+    "title": "薩爾達傳說",
+    "en": "The Legend of Zelda",
+    "appid": null,
+    "year": 1986,
+    "why": "林克數十年來維持沉默主角形象，是該系列的招牌設計"
+  },
+  {
+    "entry": "storylet",
+    "term": "故事片段系統",
+    "definition": "由條件、內容與效果組成的可重組敘事單元，取代固定分支。",
+    "title": "墮落倫敦",
+    "en": "Fallen London",
+    "appid": null,
+    "year": 2009,
+    "why": "Failbetter Games 以 StoryNexus 引擎打造，是故事片段系統的代表作與概念發源地之一"
+  },
+  {
+    "entry": "text-based",
+    "term": "純文字敘事",
+    "definition": "幾乎全靠文字呈現內容與互動，不倚賴圖像或語音的敘事形式。",
+    "title": "AI 地下城",
+    "en": "AI Dungeon",
+    "appid": null,
+    "year": 2019,
+    "why": "結合語言模型生成內容，把純文字敘事帶入生成式互動的新階段"
+  },
+  {
+    "entry": "kishotenketsu",
+    "term": "起承轉結",
+    "definition": "東亞傳統的起、承、轉、結四段敘事，不依賴衝突也能成立",
+    "title": "超級瑪利歐 3D 世界",
+    "en": "Super Mario 3D World",
+    "appid": null,
+    "year": 2013,
+    "why": "宮本茂與林田浩一公開表示此作關卡設計採用起承轉結邏輯"
+  },
+  {
+    "entry": "kishotenketsu",
+    "term": "起承轉結",
+    "definition": "東亞傳統的起、承、轉、結四段敘事，不依賴衝突也能成立",
+    "title": "超級瑪利歐銀河",
+    "en": "Super Mario Galaxy",
+    "appid": null,
+    "year": 2007,
+    "why": "每個星球關卡先教學新機制再帶出變化，是起承轉結套用在關卡設計的代表"
+  },
+  {
+    "entry": "kishotenketsu",
+    "term": "起承轉結",
+    "definition": "東亞傳統的起、承、轉、結四段敘事，不依賴衝突也能成立",
+    "title": "薩爾達傳說",
+    "en": "The Legend of Zelda",
+    "appid": null,
+    "year": 1986,
+    "why": "宮本茂主導的另一代表系列，迷宮設計同樣強調非衝突導向的探索節奏"
+  },
+  {
+    "entry": "framing-device",
+    "term": "敘事框架／套層敘事",
+    "definition": "用一層外部敘事包住主線故事，如回憶錄、審訊或旁白回溯。",
+    "title": "惡靈勢力：直線",
+    "en": "Spec Ops: The Line",
+    "appid": null,
+    "year": 2012,
+    "why": "以事後審視的敘事口吻包裹前線的戰爭經歷，強化主角心理崩壞的框架"
+  },
+  {
+    "entry": "momentum",
+    "term": "動量／慣性",
+    "definition": "角色速度依物理法則累積並延續的移動手感設計。",
+    "title": "音速小子",
+    "en": "Sonic the Hedgehog",
+    "appid": null,
+    "year": 1991,
+    "why": "動量驅動平台跳躍設計的原始代表系列"
+  },
+  {
+    "entry": "dps",
+    "term": "每秒傷害",
+    "definition": "衡量武器或角色單位時間輸出量的標準指標，也指輸出向職業。",
+    "title": "英雄聯盟",
+    "en": "League of Legends",
+    "appid": null,
+    "year": 2009,
+    "why": "DPS職業與輸出循環規劃在MOBA中同樣是配裝討論的核心"
+  },
+  {
+    "entry": "burst-damage",
+    "term": "爆發傷害",
+    "definition": "短時間內集中打出大量傷害，與持續輸出相對的輸出型態。",
+    "title": "英雄聯盟",
+    "en": "League of Legends",
+    "appid": null,
+    "year": 2009,
+    "why": "爆發型刺客與持續輸出型戰士的分化是角色定位的核心軸線"
+  },
+  {
+    "entry": "cooldown",
+    "term": "冷卻時間",
+    "definition": "技能或道具使用後必須等待才能再次使用的時間。",
+    "title": "英雄聯盟",
+    "en": "League of Legends",
+    "appid": null,
+    "year": 2009,
+    "why": "MOBA技能冷卻是版本平衡與營運節奏的核心槓桿"
+  },
+  {
+    "entry": "cast-time",
+    "term": "吟唱／施法時間",
+    "definition": "施放技能前需要的準備時間，通常可被打斷。",
+    "title": "Final Fantasy XIV",
+    "en": "Final Fantasy XIV",
+    "appid": null,
+    "year": 2013,
+    "why": "法系職業的吟唱時間與中斷機制是團隊戰術的重要環節"
+  },
+  {
+    "entry": "aggro",
+    "term": "仇恨值／威脅值",
+    "definition": "決定敵人優先攻擊誰的隱藏數值系統。",
+    "title": "Final Fantasy XIV",
+    "en": "Final Fantasy XIV",
+    "appid": null,
+    "year": 2013,
+    "why": "聖三位一體團隊分工與仇恨管理的代表MMO"
+  },
+  {
+    "entry": "aggro",
+    "term": "仇恨值／威脅值",
+    "definition": "決定敵人優先攻擊誰的隱藏數值系統。",
+    "title": "魔獸世界",
+    "en": "World of Warcraft",
+    "appid": null,
+    "year": 2004,
+    "why": "以坦克嘲諷機制建立仇恨管理框架的經典代表"
+  },
+  {
+    "entry": "crowd-control",
+    "term": "群體控制",
+    "definition": "使敵人失去部分或全部行動能力的效果統稱。",
+    "title": "英雄聯盟",
+    "en": "League of Legends",
+    "appid": null,
+    "year": 2009,
+    "why": "控制技能的組合連鎖是MOBA團戰的核心策略"
+  },
+  {
+    "entry": "buff-debuff",
+    "term": "增益／減益",
+    "definition": "暫時提升或降低角色屬性的效果統稱。",
+    "title": "魔獸世界",
+    "en": "World of Warcraft",
+    "appid": null,
+    "year": 2004,
+    "why": "把Buff與Debuff術語系統化並普及化的代表MMO"
+  },
+  {
+    "entry": "buff-debuff",
+    "term": "增益／減益",
+    "definition": "暫時提升或降低角色屬性的效果統稱。",
+    "title": "英雄聯盟",
+    "en": "League of Legends",
+    "appid": null,
+    "year": 2009,
+    "why": "技能增減益效果是MOBA戰術博弈的基礎"
+  },
+  {
+    "entry": "aoe",
+    "term": "範圍攻擊",
+    "definition": "一次影響多個目標的攻擊或效果。",
+    "title": "英雄聯盟",
+    "en": "League of Legends",
+    "appid": null,
+    "year": 2009,
+    "why": "團戰勝負常取決於AOE技能的命中率"
+  },
+  {
+    "entry": "tutorialization",
+    "term": "教學設計",
+    "definition": "把遊戲規則與操作方式融入遊玩過程的具體教學技巧。",
+    "title": "超級瑪利歐 奧德賽",
+    "en": "Super Mario Odyssey",
+    "appid": null,
+    "year": 2017,
+    "why": "以關卡佈局自然教學而非文字說明的代表作"
+  },
+  {
+    "entry": "affordance",
+    "term": "預示性",
+    "definition": "物件外觀本身暗示了它可以被如何互動。",
+    "title": "薩爾達傳說 曠野之息",
+    "en": "The Legend of Zelda: Breath of the Wild",
+    "appid": null,
+    "year": 2017,
+    "why": "可攀爬表面的材質紋理暗示玩家攀爬可能性"
+  },
+  {
+    "entry": "hidden-information",
+    "term": "隱藏資訊",
+    "definition": "刻意對部分玩家隱藏某些遊戲狀態的機制。",
+    "title": "爐石戰記",
+    "en": "Hearthstone",
+    "appid": null,
+    "year": 2014,
+    "why": "對手手牌內容為隱藏資訊，驅動讀牌與猜測"
+  },
+  {
+    "entry": "flow-state",
+    "term": "心流",
+    "definition": "挑戰與技能完美匹配時的最佳專注體驗狀態。",
+    "title": "俄羅斯方塊",
+    "en": "Tetris",
+    "appid": null,
+    "year": 1984,
+    "why": "速度隨等級提升維持挑戰與技能平衡的經典案例"
+  },
+  {
+    "entry": "feedback-loop",
+    "term": "回饋循環",
+    "definition": "遊戲表現優劣連動獎勵或懲罰、進而放大差距或拉近差距的機制。",
+    "title": "瑪利歐賽車8 豪華版",
+    "en": "Mario Kart 8 Deluxe",
+    "appid": null,
+    "year": 2017,
+    "why": "落後者取得更強道具的經典負回饋案例"
+  },
+  {
+    "entry": "dda",
+    "term": "動態難度調整",
+    "definition": "遊戲依玩家即時表現自動調整挑戰強度的系統。",
+    "title": "瑪利歐賽車8 豪華版",
+    "en": "Mario Kart 8 Deluxe",
+    "appid": null,
+    "year": 2017,
+    "why": "落後名次玩家取得更強道具的橡皮筋機制"
+  },
+  {
+    "entry": "unlockables",
+    "term": "解鎖要素",
+    "definition": "達成特定條件後才會開放的額外遊戲內容。",
+    "title": "任天堂明星大亂鬥 特別版",
+    "en": "Super Smash Bros. Ultimate",
+    "appid": null,
+    "year": 2018,
+    "why": "隱藏角色需達成特定條件解鎖的長年系列傳統"
+  },
+  {
+    "entry": "rng",
+    "term": "隨機數生成器",
+    "definition": "決定遊戲中所有隨機事件的底層機制。",
+    "title": "爐石戰記",
+    "en": "Hearthstone",
+    "appid": null,
+    "year": 2014,
+    "why": "抽牌隨機性直接決定牌局走向"
+  },
+  {
+    "entry": "difficulty-curve",
+    "term": "難度曲線",
+    "definition": "遊戲難度隨進度變化的節奏設計，理想狀態是起伏而非一路上升",
+    "title": "超級瑪利歐 3D 世界",
+    "en": "Super Mario 3D World",
+    "appid": null,
+    "year": 2013,
+    "why": "逐關導入新機制、給予練習時間、再綜合考驗，是難度曲線設計的教科書範例"
+  },
+  {
+    "entry": "crafting",
+    "term": "合成／鍛造／附魔",
+    "definition": "透過收集材料製作、強化或改造裝備的系統。",
+    "title": "當個創世神",
+    "en": "Minecraft",
+    "appid": null,
+    "year": 2011,
+    "why": "合成系統本身就是核心玩法而非附屬系統"
+  },
+  {
+    "entry": "roster",
+    "term": "角色名冊",
+    "definition": "玩家可選用的全部角色或隊伍成員清單。",
+    "title": "任天堂明星大亂鬥 特別版",
+    "en": "Super Smash Bros. Ultimate",
+    "appid": null,
+    "year": 2018,
+    "why": "收錄系列有史以來最大規模角色名冊的代表作"
+  },
+  {
+    "entry": "roster",
+    "term": "角色名冊",
+    "definition": "玩家可選用的全部角色或隊伍成員清單。",
+    "title": "特戰英豪",
+    "en": "VALORANT",
+    "appid": null,
+    "year": 2020,
+    "why": "探員名冊定期擴充並強調功能差異化設計"
+  },
+  {
+    "entry": "synergy",
+    "term": "協同效應",
+    "definition": "多個遊戲元素組合後效果大於各自單獨加總。",
+    "title": "爐石戰記",
+    "en": "Hearthstone",
+    "appid": null,
+    "year": 2014,
+    "why": "套牌構築圍繞卡牌間協同效應展開"
+  },
+  {
+    "entry": "prestige-reset",
+    "term": "聲望重置",
+    "definition": "玩家主動清空進度以換取象徵性榮譽標記的系統。",
+    "title": "特戰英豪",
+    "en": "VALORANT",
+    "appid": null,
+    "year": 2020,
+    "why": "賽季段位軟重置提供類似的長期目標感"
+  },
+  {
+    "entry": "meta",
+    "term": "Meta／最佳策略",
+    "definition": "競爭遊戲中當前被認為最有效的策略與配置。",
+    "title": "英雄聯盟",
+    "en": "League of Legends",
+    "appid": null,
+    "year": 2009,
+    "why": "版本改動牽動全球 Meta 討論的代表作"
+  },
+  {
+    "entry": "meta",
+    "term": "Meta／最佳策略",
+    "definition": "競爭遊戲中當前被認為最有效的策略與配置。",
+    "title": "特戰英豪",
+    "en": "VALORANT",
+    "appid": null,
+    "year": 2020,
+    "why": "角色池與武器 Meta 隨版本更新快速輪動"
+  },
+  {
+    "entry": "meta",
+    "term": "Meta／最佳策略",
+    "definition": "競爭遊戲中當前被認為最有效的策略與配置。",
+    "title": "爐石戰記",
+    "en": "Hearthstone",
+    "appid": null,
+    "year": 2014,
+    "why": "卡牌強度改版直接重塑套牌 Meta"
+  },
+  {
+    "entry": "hub-world",
+    "term": "中樞世界",
+    "definition": "連接其他關卡或區域的中央樞紐空間。",
+    "title": "超級瑪利歐 奧德賽",
+    "en": "Super Mario Odyssey",
+    "appid": null,
+    "year": 2017,
+    "why": "奧德賽號飛船作為連接各王國的中樞載具"
+  },
+  {
+    "entry": "ability-gating",
+    "term": "能力關卡限制",
+    "definition": "用特定能力或道具鎖住路徑，取得後才能通過並回溯。",
+    "title": "銀河戰士 追加代號 龍三合一",
+    "en": "Metroid Dread",
+    "appid": null,
+    "year": 2021,
+    "why": "類型名稱源頭之一，能力關卡限制的原型設計"
+  },
+  {
+    "entry": "emergent-gameplay",
+    "term": "湧現式遊玩",
+    "definition": "玩家透過系統互動，創造出開發者未預設的玩法。",
+    "title": "薩爾達傳說 曠野之息",
+    "en": "The Legend of Zelda: Breath of the Wild",
+    "appid": null,
+    "year": 2017,
+    "why": "化學引擎讓火、風、水、電相互作用產生無數解法"
+  },
+  {
+    "entry": "procedural-generation",
+    "term": "程序化生成",
+    "definition": "用演算法自動生成地圖、關卡或物品的技術。",
+    "title": "當個創世神",
+    "en": "Minecraft",
+    "appid": null,
+    "year": 2011,
+    "why": "以 Perlin 雜訊生成無限世界的代表作"
+  },
+  {
+    "entry": "seed",
+    "term": "種子",
+    "definition": "用來初始化程序化生成演算法的數字或字串。",
+    "title": "當個創世神",
+    "en": "Minecraft",
+    "appid": null,
+    "year": 2011,
+    "why": "玩家社群長期分享稀有地形種子的代表案例"
+  },
+  {
+    "entry": "mda-framework",
+    "term": "MDA 框架",
+    "definition": "拆解遊戲為機制、動態、美學三層的形式化分析框架。",
+    "title": "俄羅斯方塊",
+    "en": "Tetris",
+    "appid": null,
+    "year": 1984,
+    "why": "常被引用示範單純機制如何產生「挑戰」美學的教學案例"
+  },
+  {
+    "entry": "pity-system",
+    "term": "保底機制",
+    "definition": "連續多次未中最高稀有度後，保證下一次必中的機制。",
+    "title": "原神",
+    "en": "Genshin Impact",
+    "appid": null,
+    "year": 2020,
+    "why": "九十抽硬保底、七十四抽起軟保底的知名設計"
+  },
+  {
+    "entry": "pity-system",
+    "term": "保底機制",
+    "definition": "連續多次未中最高稀有度後，保證下一次必中的機制。",
+    "title": "崩壞：星穹鐵道",
+    "en": "Honkai: Star Rail",
+    "appid": null,
+    "year": 2023,
+    "why": "承襲同廠牌保底機制設計的代表作"
+  },
+  {
+    "entry": "economy-sink-faucet",
+    "term": "經濟水龍頭與排水口",
+    "definition": "遊戲經濟中資源的產出來源與消耗去處的平衡設計。",
+    "title": "魔獸世界",
+    "en": "World of Warcraft",
+    "appid": null,
+    "year": 2004,
+    "why": "長年被引用為水龍頭排水口理論範例的 MMORPG"
+  },
+  {
+    "entry": "gaas",
+    "term": "遊戲即服務",
+    "definition": "遊戲上線後持續營運更新，而非一次性買斷產品。",
+    "title": "要塞英雄",
+    "en": "Fortnite",
+    "appid": null,
+    "year": 2017,
+    "why": "以季節內容與聯名活動推動 GaaS 商業模式"
+  },
+  {
+    "entry": "battle-pass",
+    "term": "戰鬥通行證",
+    "definition": "以季度為週期、透過任務解鎖獎勵路徑的系統。",
+    "title": "要塞英雄",
+    "en": "Fortnite",
+    "appid": null,
+    "year": 2017,
+    "why": "帶動戰鬥通行證成為業界標配的關鍵作品"
+  },
+  {
+    "entry": "gacha",
+    "term": "轉蛋／抽卡（系統設計）",
+    "definition": "花費虛擬貨幣隨機抽取角色或道具的機率型付費機制。",
+    "title": "原神",
+    "en": "Genshin Impact",
+    "appid": null,
+    "year": 2020,
+    "why": "90 抽保底機制的代表性設計案例"
+  },
+  {
+    "entry": "gacha",
+    "term": "轉蛋／抽卡（系統設計）",
+    "definition": "花費虛擬貨幣隨機抽取角色或道具的機率型付費機制。",
+    "title": "Fate/Grand Order",
+    "en": "Fate/Grand Order",
+    "appid": null,
+    "year": 2015,
+    "why": "早期高難度轉蛋機率設計引發討論的代表作"
+  },
+  {
+    "entry": "cosmetics",
+    "term": "外觀道具（Cosmetics）",
+    "definition": "只改變外觀、不影響遊戲平衡的付費或掉落道具。",
+    "title": "要塞英雄",
+    "en": "Fortnite",
+    "appid": null,
+    "year": 2017,
+    "why": "以角色外觀與聯名造型為主力營收來源的代表作"
+  },
+  {
+    "entry": "backward-compatibility",
+    "term": "回溯相容（Backward Compatibility）",
+    "definition": "新硬體或新版本仍可執行舊世代遊戲的能力。",
+    "title": "Wii 回溯相容 GameCube 遊戲",
+    "en": "Wii Backward Compatibility with GameCube",
+    "appid": null,
+    "year": 2006,
+    "why": "Wikipedia 引用的經典案例，Wii 內建光碟插槽可直接執行 GameCube 遊戲片"
+  },
+  {
+    "entry": "backward-compatibility",
+    "term": "回溯相容（Backward Compatibility）",
+    "definition": "新硬體或新版本仍可執行舊世代遊戲的能力。",
+    "title": "Xbox Series X|S 回溯相容計畫",
+    "en": "Xbox Series X|S Backward Compatibility",
+    "appid": null,
+    "year": 2020,
+    "why": "涵蓋大量 Xbox 360 與 Xbox One 遊戲庫的當代大型回溯相容案例"
+  },
+  {
+    "entry": "loot-box",
+    "term": "戰利品箱（Loot Box）",
+    "definition": "花錢購買、開出隨機虛擬道具的消耗型機制。",
+    "title": "星際大戰：戰場前線2",
+    "en": "Star Wars Battlefront II",
+    "appid": null,
+    "year": 2017,
+    "why": "因戰利品箱設計引發全球輿論與規管關注的指標性爭議案例"
+  },
+  {
+    "entry": "loot-box",
+    "term": "戰利品箱（Loot Box）",
+    "definition": "花錢購買、開出隨機虛擬道具的消耗型機制。",
+    "title": "鬥陣特攻",
+    "en": "Overwatch",
+    "appid": null,
+    "year": 2016,
+    "why": "早期以外觀型戰利品箱為主力營利、後續也捲入規管討論的代表作"
+  },
+  {
+    "entry": "monetization",
+    "term": "營利手法（Monetization）",
+    "definition": "遊戲用來產生營收的各種商業設計統稱。",
+    "title": "要塞英雄",
+    "en": "Fortnite",
+    "appid": null,
+    "year": 2017,
+    "why": "免費遊玩加外觀內購與戰鬥通行證的營利模式代表"
+  },
+  {
+    "entry": "live-ops",
+    "term": "營運維運（Live Ops）",
+    "definition": "遊戲上線後負責日常活動、版本與伺服器狀況的持續營運工作。",
+    "title": "要塞英雄",
+    "en": "Fortnite",
+    "appid": null,
+    "year": 2017,
+    "why": "以高頻率活動與聯名內容聞名的 live ops 代表作"
+  },
+  {
+    "entry": "aa-game",
+    "term": "雙 A 遊戲（AA Game）",
+    "definition": "介於獨立與 3A 之間、預算中等且較敢嘗試特色玩法的遊戲。",
+    "title": "控制",
+    "en": "Control",
+    "appid": null,
+    "year": 2019,
+    "why": "Remedy Entertainment 以獨特美術與敘事風格聞名的雙 A 代表作"
+  },
+  {
+    "entry": "roadmap",
+    "term": "路線圖（Roadmap）",
+    "definition": "開發團隊公開揭露未來一段時間更新內容與時程的規劃圖。",
+    "title": "無人深空",
+    "en": "No Man's Sky",
+    "appid": null,
+    "year": 2016,
+    "why": "靠長年持續兌現路線圖內容、被廣泛引用為產業逆轉口碑典範的代表作"
+  },
+  {
+    "entry": "mod-workshop",
+    "term": "模組工坊（Mod／Steam Workshop）",
+    "definition": "讓玩家上傳、分享與訂閱遊戲模組與自製內容的平台機制。",
+    "title": "天際：上古卷軸5",
+    "en": "The Elder Scrolls V: Skyrim",
+    "appid": null,
+    "year": 2011,
+    "why": "模組生態最活躍、被視為模組文化教科書等級的代表作"
+  },
+  {
+    "entry": "gold-master",
+    "term": "金盤／送廠版本（Gold Master, GM）",
+    "definition": "確定為最終發售版本、送去量產或上架審核的定案版本。",
+    "title": "薩爾達傳說：曠野之息",
+    "en": "The Legend of Zelda: Breath of the Wild",
+    "appid": null,
+    "year": 2017,
+    "why": "主機遊戲需送交平台審核與實體壓片流程的代表性案例類型"
+  },
+  {
+    "entry": "guild-war",
+    "term": "公會戰（Guild War／Alliance War）",
+    "definition": "玩家公會之間互相競賽的手遊模式。",
+    "title": "七大罪：光與闇之交戰",
+    "en": "The Seven Deadly Sins: Grand Cross",
+    "appid": null,
+    "year": 2019,
+    "why": "公會戰是其社交內容的招牌系統之一"
+  },
+  {
+    "entry": "guild-war",
+    "term": "公會戰（Guild War／Alliance War）",
+    "definition": "玩家公會之間互相競賽的手遊模式。",
+    "title": "夢幻模擬戰",
+    "en": "Langrisser Mobile",
+    "appid": null,
+    "year": 2018,
+    "why": "戰棋手遊結合公會戰的代表案例"
+  },
+  {
+    "entry": "tier-list",
+    "term": "強度排行榜（Tier List）",
+    "definition": "玩家社群對角色或陣容強度由 S 到 D／F 分級的排名。",
+    "title": "英雄聯盟",
+    "en": "League of Legends",
+    "appid": null,
+    "year": 2009,
+    "why": "每個版本更新後強度表都會大幅變動的代表遊戲"
+  },
+  {
+    "entry": "collab-event",
+    "term": "聯動活動（Collaboration／Collab）",
+    "definition": "兩個 IP 跨界合作推出限時角色或劇情的活動。",
+    "title": "Fortnite",
+    "en": "Fortnite",
+    "appid": null,
+    "year": 2017,
+    "why": "漫威、星際大戰等大型聯動的代表案例"
+  },
+  {
+    "entry": "collab-event",
+    "term": "聯動活動（Collaboration／Collab）",
+    "definition": "兩個 IP 跨界合作推出限時角色或劇情的活動。",
+    "title": "Fate/Grand Order",
+    "en": "Fate/Grand Order",
+    "appid": null,
+    "year": 2015,
+    "why": "與多部動漫作品跨界聯動是這款手遊代表性的商業模式"
+  },
+  {
+    "entry": "daily-weekly-quest",
+    "term": "每日／每週任務（Daily／Weekly Quest）",
+    "definition": "每天或每週重置、養成登入習慣的固定任務。",
+    "title": "原神",
+    "en": "Genshin Impact",
+    "appid": null,
+    "year": 2020,
+    "why": "委託任務是每日任務搭配自動化完成的代表"
+  },
+  {
+    "entry": "limited-time-event",
+    "term": "限時活動（Limited-Time Event）",
+    "definition": "特定期間才能參加、結束就消失獎勵的活動。",
+    "title": "原神",
+    "en": "Genshin Impact",
+    "appid": null,
+    "year": 2020,
+    "why": "版本活動與限定造型是限時活動的典型案例"
+  },
+  {
+    "entry": "idle-rewards",
+    "term": "掛機收益（Idle Rewards）",
+    "definition": "玩家離線期間也持續累積資源的機制。",
+    "title": "原神",
+    "en": "Genshin Impact",
+    "appid": null,
+    "year": 2020,
+    "why": "探索派遣等系統提供類似的離線收益體驗"
+  },
+  {
+    "entry": "energy-system",
+    "term": "體力系統（Stamina／Energy System）",
+    "definition": "限制玩家每日遊玩時間、需等待或課金恢復的資源系統。",
+    "title": "原神",
+    "en": "Genshin Impact",
+    "appid": null,
+    "year": 2020,
+    "why": "樹脂系統是體力機制在開放世界手遊的代表案例"
+  },
+  {
+    "entry": "monthly-card",
+    "term": "月卡（Monthly Card）",
+    "definition": "每月固定小額付費、換取每日額外資源的訂閱式優惠。",
+    "title": "原神",
+    "en": "Genshin Impact",
+    "appid": null,
+    "year": 2020,
+    "why": "月卡是業界知名的高性價比課金範例"
+  },
+  {
+    "entry": "banner",
+    "term": "卡池（Banner）",
+    "definition": "手遊抽卡系統裡限定角色或道具的抽卡池。",
+    "title": "原神",
+    "en": "Genshin Impact",
+    "appid": null,
+    "year": 2020,
+    "why": "角色活動祈願卡池是這個詞最常見的使用情境"
+  },
+  {
+    "entry": "f2p-player",
+    "term": "免費玩家（F2P Player）",
+    "definition": "完全不花錢或只花極少金額遊玩的玩家。",
+    "title": "原神",
+    "en": "Genshin Impact",
+    "appid": null,
+    "year": 2020,
+    "why": "零課玩家社群長期分享免費資源分配攻略"
+  },
+  {
+    "entry": "character-banner-rate-up",
+    "term": "角色池機率提升（Character Banner Rate-Up）",
+    "definition": "卡池中特定角色被拉高中獎機率的抽卡設計。",
+    "title": "原神",
+    "en": "Genshin Impact",
+    "appid": null,
+    "year": 2020,
+    "why": "50/50 機制是 UP 角色機率設計最常被引用的案例"
+  },
+  {
+    "entry": "pity-counter",
+    "term": "保底機制（Pity Counter）",
+    "definition": "累積抽數達門檻就保證取得高稀有度物品的機制。",
+    "title": "原神",
+    "en": "Genshin Impact",
+    "appid": null,
+    "year": 2020,
+    "why": "90 抽硬保底、50/50 機制是最常被引用的保底範例"
+  },
+  {
+    "entry": "event-shop",
+    "term": "活動商店（Event Shop）",
+    "definition": "用活動限定貨幣兌換獎勵的限時商店。",
+    "title": "原神",
+    "en": "Genshin Impact",
+    "appid": null,
+    "year": 2020,
+    "why": "版本活動商店提供限定素材兌換的常見設計"
+  },
+  {
+    "entry": "dupes",
+    "term": "重複角色／命座（Dupes）",
+    "definition": "抽到已擁有角色的重複副本、可用來強化角色的機制。",
+    "title": "原神",
+    "en": "Genshin Impact",
+    "appid": null,
+    "year": 2020,
+    "why": "命座系統是重複角色轉強化資源最知名的案例"
+  },
+  {
+    "entry": "reroll",
+    "term": "首抽洗帳（Reroll）",
+    "definition": "開新帳號重複抽初始角色直到滿意才正式開玩。",
+    "title": "原神",
+    "en": "Genshin Impact",
+    "appid": null,
+    "year": 2020,
+    "why": "教學章節後綁定帳號、限制洗帳的代表設計"
+  },
+  {
+    "entry": "ssr-tiers",
+    "term": "稀有度分級（SSR／SR／R Tiers）",
+    "definition": "用星級或字母標示角色與道具稀有度高低的分級。",
+    "title": "原神",
+    "en": "Genshin Impact",
+    "appid": null,
+    "year": 2020,
+    "why": "以四星、五星取代字母的稀有度分級變體"
+  },
+  {
+    "entry": "launch-dash",
+    "term": "開服衝刺（Launch Dash）",
+    "definition": "手遊剛上線時集中資源衝首抽與初期進度的階段。",
+    "title": "原神",
+    "en": "Genshin Impact",
+    "appid": null,
+    "year": 2020,
+    "why": "2020 年上線初期的首抽熱潮是開服衝刺的經典案例"
+  },
+  {
+    "entry": "gacha-culture",
+    "term": "課金文化與抽卡黑話（Gacha Culture）",
+    "definition": "圍繞抽卡課金行為發展出的玩家用語與社群文化。",
+    "title": "原神",
+    "en": "Genshin Impact",
+    "appid": null,
+    "year": 2020,
+    "why": "「歪」「井」等黑話多半源自這款遊戲的玩家社群"
+  },
+  {
+    "entry": "whale",
+    "term": "鯨魚玩家（Whale）",
+    "definition": "花費金額遠超一般玩家、貢獻大部分營收的重度付費玩家。",
+    "title": "原神",
+    "en": "Genshin Impact",
+    "appid": null,
+    "year": 2020,
+    "why": "角色與武器池的高額課金玩家是常被討論的鯨魚案例"
+  },
+  {
+    "entry": "auto-battle",
+    "term": "自動戰鬥（Auto Battle）",
+    "definition": "讓 AI 代替玩家操作戰鬥過程的功能。",
+    "title": "原神",
+    "en": "Genshin Impact",
+    "appid": null,
+    "year": 2020,
+    "why": "僅在部分內容開放有限度自動戰鬥的代表"
+  },
+  {
+    "entry": "roguelike-mode-in-gacha",
+    "term": "抽卡手遊的爬塔／深淵模式（Roguelike Mode in Gacha）",
+    "definition": "手遊裡借用 Roguelike 元素、逐層加難的高難度挑戰模式。",
+    "title": "原神",
+    "en": "Genshin Impact",
+    "appid": null,
+    "year": 2020,
+    "why": "深境螺旋是這類爬塔模式最常被引用的案例"
+  },
+  {
+    "entry": "endgame-content",
+    "term": "終局內容（Endgame Content）",
+    "definition": "角色練滿後用來持續挑戰、測試練度的高難度內容。",
+    "title": "原神",
+    "en": "Genshin Impact",
+    "appid": null,
+    "year": 2020,
+    "why": "深境螺旋是終局內容長年被討論的代表案例"
+  },
+  {
+    "entry": "balance-patch",
+    "term": "版本平衡更新（Balance Patch）",
+    "definition": "定期調整角色與機制強弱以維持競技健康的更新。",
+    "title": "英雄聯盟",
+    "en": "League of Legends",
+    "appid": null,
+    "year": 2009,
+    "why": "每兩週一次平衡更新的長年案例"
+  },
+  {
+    "entry": "patch-meta",
+    "term": "版本答案（Patch Meta）",
+    "definition": "特定版本更新後，社群公認最有效的打法或角色組合。",
+    "title": "英雄聯盟",
+    "en": "League of Legends",
+    "appid": null,
+    "year": 2009,
+    "why": "每次改版後版本答案劇烈變動的代表遊戲"
+  },
+  {
+    "entry": "apm",
+    "term": "每分鐘操作數（APM）",
+    "definition": "玩家每分鐘實際下達操作指令的次數統計。",
+    "title": "英雄聯盟",
+    "en": "League of Legends",
+    "appid": null,
+    "year": 2009,
+    "why": "職業選手手速與操作頻率同樣是分析重點"
+  },
+  {
+    "entry": "throw-esports",
+    "term": "送頭／丟局（Throw）",
+    "definition": "明明有機會贏卻因失誤或衝動送掉比賽優勢。",
+    "title": "英雄聯盟",
+    "en": "League of Legends",
+    "appid": null,
+    "year": 2009,
+    "why": "職業賽事史上多次經濟優勢被葬送的比賽同樣被稱為 Throw"
+  },
+  {
+    "entry": "comeback",
+    "term": "逆轉／翻盤（Comeback）",
+    "definition": "從明顯落後的局勢中扭轉戰局並贏得比賽。",
+    "title": "英雄聯盟",
+    "en": "League of Legends",
+    "appid": null,
+    "year": 2009,
+    "why": "職業賽事史上多場經典逆轉勝廣為流傳"
+  },
+  {
+    "entry": "mechanics-vs-macro",
+    "term": "操作與大局觀（Mechanics vs Macro）",
+    "definition": "個體操作精準度與整體資源戰略規劃的兩種競技能力。",
+    "title": "英雄聯盟",
+    "en": "League of Legends",
+    "appid": null,
+    "year": 2009,
+    "why": "操作與運營並重同樣是這款遊戲的核心競技維度"
+  },
+  {
+    "entry": "roster-lock",
+    "term": "名單鎖定（Roster Lock）",
+    "definition": "賽事開打前設定的最後名單異動截止時間。",
+    "title": "英雄聯盟",
+    "en": "League of Legends",
+    "appid": null,
+    "year": 2009,
+    "why": "職業聯賽轉會規則含明確名單鎖定期"
+  },
+  {
+    "entry": "elo-mmr",
+    "term": "評分與段位系統（ELO／MMR／Ranked Tier）",
+    "definition": "評估玩家實力、用於配對與分級的評分機制。",
+    "title": "英雄聯盟",
+    "en": "League of Legends",
+    "appid": null,
+    "year": 2009,
+    "why": "段位視覺化系統的教科書案例"
+  },
+  {
+    "entry": "ban-pick",
+    "term": "禁選階段（Ban／Pick Phase）",
+    "definition": "對戰前雙方輪流禁用與選用角色的階段。",
+    "title": "英雄聯盟",
+    "en": "League of Legends",
+    "appid": null,
+    "year": 2009,
+    "why": "職業賽事 BP 環節最具代表性的遊戲"
+  },
+  {
+    "entry": "scrim",
+    "term": "對練賽（Scrim）",
+    "definition": "職業隊伍間私下進行、不公開觀戰的練習對戰。",
+    "title": "英雄聯盟",
+    "en": "League of Legends",
+    "appid": null,
+    "year": 2009,
+    "why": "職業戰隊賽前密集對練賽是常態訓練方式"
+  },
+  {
+    "entry": "lan-vs-online",
+    "term": "線下賽與線上賽（LAN vs Online）",
+    "definition": "電競賽事在實體場地連線與在家連網比賽的差異。",
+    "title": "英雄聯盟",
+    "en": "League of Legends",
+    "appid": null,
+    "year": 2009,
+    "why": "世界賽等重大賽事同樣堅持在 LAN 現場舉行"
+  },
+  {
+    "entry": "bracket",
+    "term": "賽程表（Bracket）",
+    "definition": "標示賽事對戰順序與晉級路徑的樹狀圖表。",
+    "title": "英雄聯盟",
+    "en": "League of Legends",
+    "appid": null,
+    "year": 2009,
+    "why": "世界賽淘汰賽同樣採用樹狀賽程圖呈現晉級路徑"
+  },
+  {
+    "entry": "caster",
+    "term": "主播與賽評（Caster／Commentator）",
+    "definition": "電競賽事的現場講評人員。",
+    "title": "英雄聯盟",
+    "en": "League of Legends",
+    "appid": null,
+    "year": 2009,
+    "why": "LPL／LCK／LCS 等國際賽事轉播團隊制度成熟"
+  },
+  {
+    "entry": "high-refresh-low-latency",
+    "term": "高更新率與低延遲（High Refresh Rate／Low Latency）",
+    "definition": "電競級硬體對高更新率與低輸入延遲的講究。",
+    "title": "英雄聯盟",
+    "en": "League of Legends",
+    "appid": null,
+    "year": 2009,
+    "why": "職業選手同樣要求高更新率與低延遲的競技環境"
+  },
+  {
+    "entry": "jungler",
+    "term": "打野（Jungler）",
+    "definition": "在野區打怪並機動支援各路的角色。",
+    "title": "英雄聯盟",
+    "en": "League of Legends",
+    "appid": null,
+    "year": 2009,
+    "why": "打野是官方五個分路位置之一，也是節奏掌控核心"
+  },
+  {
+    "entry": "support-role",
+    "term": "輔助（Support）",
+    "definition": "不主要輸出，靠支援保護隊友。",
+    "title": "英雄聯盟",
+    "en": "League of Legends",
+    "appid": null,
+    "year": 2009,
+    "why": "輔助是官方五個分路位置之一，負責保護 ADC 與提供視野"
+  },
+  {
+    "entry": "dps-role",
+    "term": "輸出（DPS／打手）",
+    "definition": "專門造成傷害的角色。",
+    "title": "英雄聯盟",
+    "en": "League of Legends",
+    "appid": null,
+    "year": 2009,
+    "why": "ADC 是官方五個分路位置之一"
+  },
+  {
+    "entry": "bench-warmer",
+    "term": "板凳／廢料（沒人用的角色）",
+    "definition": "完全沒有競爭力、被打入冷宮的角色。",
+    "title": "英雄聯盟",
+    "en": "League of Legends",
+    "appid": null,
+    "year": 2009,
+    "why": "強度排行榜最底層（T序位）常被稱為板凳角色"
+  },
+  {
+    "entry": "version-answer",
+    "term": "版本答案（版本賤男）",
+    "definition": "這個版本公認最強的選擇。",
+    "title": "英雄聯盟",
+    "en": "League of Legends",
+    "appid": null,
+    "year": 2009,
+    "why": "每個版本都會出現公認的「版本答案」英雄，帶動選角率暴增"
+  },
+  {
+    "entry": "number-slang",
+    "term": "666／777（讚嘆用語）",
+    "definition": "用數字諧音讚嘆操作很溜。",
+    "title": "英雄聯盟",
+    "en": "League of Legends",
+    "appid": null,
+    "year": 2009,
+    "why": "電競直播彈幕中常見的讚嘆刷屏用語"
+  },
+  {
+    "entry": "smurf",
+    "term": "小號（Smurf）",
+    "definition": "高手開小帳號虐低段位玩家。",
+    "title": "英雄聯盟",
+    "en": "League of Legends",
+    "appid": null,
+    "year": 2009,
+    "why": "官方多次公開打擊 Smurf 帳號的偵測與懲罰措施"
+  },
+  {
+    "entry": "gg",
+    "term": "GG（Good Game）",
+    "definition": "「這局結束了」的萬用嘆詞。",
+    "title": "英雄聯盟",
+    "en": "League of Legends",
+    "appid": null,
+    "year": 2009,
+    "why": "投降或戰敗時常見的聊天室用語"
+  },
+  {
+    "entry": "leet-slang-484-94",
+    "term": "484／94（數字諧音）",
+    "definition": "用數字諧音代替常用口語詞。",
+    "title": "英雄聯盟",
+    "en": "League of Legends",
+    "appid": null,
+    "year": 2009,
+    "why": "直播彈幕與遊戲內快速聊天中常見的數字諧音縮寫用法"
+  },
+  {
+    "entry": "tilt",
+    "term": "上頭爆走（Tilt）",
+    "definition": "情緒失衡導致表現越打越差。",
+    "title": "英雄聯盟",
+    "en": "League of Legends",
+    "appid": null,
+    "year": 2009,
+    "why": "連續掉分後的Tilt狀態是排位賽玩家常見的自我檢討話題"
+  },
+  {
+    "entry": "mother-tang",
+    "term": "母湯（不可以）",
+    "definition": "台語「毋通」的諧音，意思是「不可以」。",
+    "title": "英雄聯盟",
+    "en": "League of Legends",
+    "appid": null,
+    "year": 2009,
+    "why": "台灣實況主直播彈幕中常見用於勸阻危險操作的用語"
+  },
+  {
+    "entry": "toxic",
+    "term": "毒（Toxic，惡意言行）",
+    "definition": "散播負面情緒、辱罵、抱怨的惡意言行。",
+    "title": "英雄聯盟",
+    "en": "League of Legends",
+    "appid": null,
+    "year": 2009,
+    "why": "官方長期投入研究並公開對抗Toxic行為的社群治理措施，是業界指標案例"
+  },
+  {
+    "entry": "ragequit",
+    "term": "氣到退出（Ragequit）",
+    "definition": "因憤怒或挫敗而中途退出遊戲。",
+    "title": "英雄聯盟",
+    "en": "League of Legends",
+    "appid": null,
+    "year": 2009,
+    "why": "排位賽中途離開會受到明確的懲罰機制約束"
+  },
+  {
+    "entry": "meta-slave",
+    "term": "跟風（Meta Slave）",
+    "definition": "只跟著版本強度排行選角，沒有自己想法。",
+    "title": "英雄聯盟",
+    "en": "League of Legends",
+    "appid": null,
+    "year": 2009,
+    "why": "每個版本強度排行公布後，社群常討論跟風選角現象"
+  },
+  {
+    "entry": "pro-player-slang",
+    "term": "大佬／巴哥／大神",
+    "definition": "對高手玩家的尊稱。",
+    "title": "英雄聯盟",
+    "en": "League of Legends",
+    "appid": null,
+    "year": 2009,
+    "why": "高分段玩家在社群討論中常被尊稱為大神或大佬"
+  },
+  {
+    "entry": "forum-flooding",
+    "term": "洗版／洗樓",
+    "definition": "在討論板或聊天室連續發大量訊息。",
+    "title": "英雄聯盟",
+    "en": "League of Legends",
+    "appid": null,
+    "year": 2009,
+    "why": "重大版本更新公告下方常出現大量洗版留言"
+  },
+  {
+    "entry": "landmine-teammate",
+    "term": "雷包（豬隊友）",
+    "definition": "戲稱隊友很爛、拖累團隊。",
+    "title": "英雄聯盟",
+    "en": "League of Legends",
+    "appid": null,
+    "year": 2009,
+    "why": "單排配對制度下，隊友素質參差是玩家最常見的抱怨來源"
+  },
+  {
+    "entry": "ultimate-skill-slang",
+    "term": "大招（Ult）",
+    "definition": "角色最強的終極技能。",
+    "title": "英雄聯盟",
+    "en": "League of Legends",
+    "appid": null,
+    "year": 2009,
+    "why": "R 鍵固定綁定大招，是團戰決策的核心資訊"
+  },
+  {
+    "entry": "pc-key-slang",
+    "term": "WASD／QWER（PC 預設按鍵）",
+    "definition": "PC 遊戲的移動鍵與技能鍵組合。",
+    "title": "英雄聯盟",
+    "en": "League of Legends",
+    "appid": null,
+    "year": 2009,
+    "why": "QWER 為官方預設的四個技能鍵位配置"
+  },
+  {
+    "entry": "dive",
+    "term": "越塔（Dive）",
+    "definition": "明知會被塔打還是衝進去強殺。",
+    "title": "英雄聯盟",
+    "en": "League of Legends",
+    "appid": null,
+    "year": 2009,
+    "why": "職業比賽中越塔強殺是常見的高光操作"
+  },
+  {
+    "entry": "snowball",
+    "term": "滾雪球（Snowball）",
+    "definition": "優勢越滾越大，越打越難翻盤。",
+    "title": "英雄聯盟",
+    "en": "League of Legends",
+    "appid": null,
+    "year": 2009,
+    "why": "職業賽事解說最常用來形容一方優勢擴大的現象"
+  },
+  {
+    "entry": "poke",
+    "term": "騷擾（Poke）",
+    "definition": "用遠程技能反覆消耗對手血量。",
+    "title": "英雄聯盟",
+    "en": "League of Legends",
+    "appid": null,
+    "year": 2009,
+    "why": "遠程法師陣容常見的核心打法"
+  },
+  {
+    "entry": "carry",
+    "term": "Carry（帶飛）",
+    "definition": "靠一人實力扛起整隊贏下比賽。",
+    "title": "英雄聯盟",
+    "en": "League of Legends",
+    "appid": null,
+    "year": 2009,
+    "why": "電競轉播中最常聽到「Carry」的來源"
+  },
+  {
+    "entry": "farm",
+    "term": "Farm（種田／補兵，含 CS）",
+    "definition": "靠打小兵野怪賺錢升級。",
+    "title": "英雄聯盟",
+    "en": "League of Legends",
+    "appid": null,
+    "year": 2009,
+    "why": "CS 分數是官方戰績頁面直接顯示的數據"
+  },
+  {
+    "entry": "gank",
+    "term": "Gank（圍殺／偷襲）",
+    "definition": "多打少偷襲落單的敵人。",
+    "title": "英雄聯盟",
+    "en": "League of Legends",
+    "appid": null,
+    "year": 2009,
+    "why": "電競轉播常見戰術用語"
+  }
+]

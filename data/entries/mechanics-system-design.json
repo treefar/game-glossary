@@ -161,7 +161,11 @@
         "en": "Minecraft",
         "appid": null,
         "year": 2011,
-        "why": "以 Perlin 雜訊生成無限世界的代表作"
+        "why": "以 Perlin 雜訊生成無限世界的代表作",
+        "imageUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/screenshots/CREATE_BuildAlmostAnything.png",
+        "sourceUrl": "https://www.minecraft.net/en-us/about-minecraft",
+        "imageKind": "官方遊玩截圖",
+        "accessed": "2026-10-02"
       },
       {
         "title": "無人深空",
@@ -202,6 +206,12 @@
         "url": "https://en.wikipedia.org/wiki/Procedural_generation",
         "accessed": "2026-09-17",
         "note": "定義、用途與代表作"
+      },
+      {
+        "title": "官方遊戲介紹：Minecraft",
+        "url": "https://www.minecraft.net/en-us/about-minecraft",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方遊玩截圖）"
       }
     ],
     "status": "verified"
@@ -230,7 +240,13 @@
         "en": "The Legend of Zelda: Breath of the Wild",
         "appid": null,
         "year": 2017,
-        "why": "化學引擎讓火、風、水、電相互作用產生無數解法"
+        "why": "化學引擎讓火、風、水、電相互作用產生無數解法",
+        "imageUrl": "https://assets.nintendo.com/image/upload/ar_16%3A9%2Cc_lpad%2Cw_1240/b_white/f_auto/q_auto/ncom/en_US/products/games/switch/the-legend-of-zelda-breath-of-the-wild/105208-switch-the-legend-of-zelda-breath-of-the-wild-us-1200x675",
+        "sourceUrl": "https://www.nintendo.com/us/store/products/the-legend-of-zelda-breath-of-the-wild-us/",
+        "imageKind": "官方宣傳圖",
+        "accessed": "2026-10-02",
+        "selectionNote": "玩法代表性；列入任天堂官方 Switch 主要軟體累積銷量表（截至 2026-06-30）。",
+        "selectionSource": "https://www.nintendo.co.jp/ir/en/finance/software/switch.html"
       },
       {
         "title": "諾伊塔",
@@ -266,6 +282,12 @@
         "url": "https://en.wikipedia.org/wiki/Emergent_gameplay",
         "accessed": "2026-09-17",
         "note": "定義與意圖性湧現的歷史"
+      },
+      {
+        "title": "官方遊戲介紹：The Legend of Zelda: Breath of the Wild",
+        "url": "https://www.nintendo.com/us/store/products/the-legend-of-zelda-breath-of-the-wild-us/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方宣傳圖）"
       }
     ],
     "status": "verified"
@@ -301,7 +323,11 @@
         "en": "Fortnite",
         "appid": null,
         "year": 2017,
-        "why": "以季節內容與聯名活動推動 GaaS 商業模式"
+        "why": "以季節內容與聯名活動推動 GaaS 商業模式",
+        "imageUrl": "https://cms-assets.unrealengine.com/cm6l5gfpm05kr07my04cqgy2x/cmqbdhpbt1hv007obyg3sf57r",
+        "sourceUrl": "https://www.fortnite.com/news?lang=en-US",
+        "imageKind": "官方宣傳圖",
+        "accessed": "2026-10-02"
       },
       {
         "title": "Apex 英雄",
@@ -330,6 +356,12 @@
         "url": "https://en.wikipedia.org/wiki/Live_service_game",
         "accessed": "2026-09-17",
         "note": "定義、歷史與商業模式"
+      },
+      {
+        "title": "官方遊戲介紹：Fortnite",
+        "url": "https://www.fortnite.com/news?lang=en-US",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方宣傳圖）"
       }
     ],
     "status": "verified"
@@ -358,7 +390,11 @@
         "en": "Fortnite",
         "appid": null,
         "year": 2017,
-        "why": "帶動戰鬥通行證成為業界標配的關鍵作品"
+        "why": "帶動戰鬥通行證成為業界標配的關鍵作品",
+        "imageUrl": "https://cms-assets.unrealengine.com/cm6l5gfpm05kr07my04cqgy2x/cmqbdhpbt1hv007obyg3sf57r",
+        "sourceUrl": "https://www.fortnite.com/news?lang=en-US",
+        "imageKind": "官方宣傳圖",
+        "accessed": "2026-10-02"
       },
       {
         "title": "Apex 英雄",
@@ -394,6 +430,12 @@
         "url": "https://en.wikipedia.org/wiki/Battle_pass",
         "accessed": "2026-09-17",
         "note": "起源、機制與商業模式"
+      },
+      {
+        "title": "官方遊戲介紹：Fortnite",
+        "url": "https://www.fortnite.com/news?lang=en-US",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方宣傳圖）"
       }
     ],
     "status": "verified"
@@ -422,7 +464,11 @@
         "en": "Genshin Impact",
         "appid": null,
         "year": 2020,
-        "why": "90 抽保底機制的代表性設計案例"
+        "why": "90 抽保底機制的代表性設計案例",
+        "imageUrl": "https://upload-static.hoyoverse.com/hk4e/upload/fb/common.jpg",
+        "sourceUrl": "https://genshin.hoyoverse.com/en/news/103756",
+        "imageKind": "官方宣傳圖",
+        "accessed": "2026-10-02"
       },
       {
         "title": "蔚藍檔案",
@@ -436,7 +482,11 @@
         "en": "Fate/Grand Order",
         "appid": null,
         "year": 2015,
-        "why": "早期高難度轉蛋機率設計引發討論的代表作"
+        "why": "早期高難度轉蛋機率設計引發討論的代表作",
+        "imageUrl": "https://fate-go.us/images/fate_card_1800.png",
+        "sourceUrl": "https://fate-go.us/",
+        "imageKind": "官方宣傳圖",
+        "accessed": "2026-10-02"
       }
     ],
     "steamTags": [],
@@ -459,6 +509,18 @@
         "url": "https://en.wikipedia.org/wiki/Gacha_game",
         "accessed": "2026-09-17",
         "note": "機制定義、歷史與爭議"
+      },
+      {
+        "title": "官方遊戲介紹：Genshin Impact",
+        "url": "https://genshin.hoyoverse.com/en/news/103756",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方宣傳圖）"
+      },
+      {
+        "title": "官方遊戲介紹：Fate/Grand Order",
+        "url": "https://fate-go.us/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方宣傳圖）"
       }
     ],
     "status": "verified"
@@ -488,21 +550,33 @@
         "en": "League of Legends",
         "appid": null,
         "year": 2009,
-        "why": "版本改動牽動全球 Meta 討論的代表作"
+        "why": "版本改動牽動全球 Meta 討論的代表作",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+        "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "imageKind": "官方教學示意圖",
+        "accessed": "2026-10-02"
       },
       {
         "title": "特戰英豪",
         "en": "VALORANT",
         "appid": null,
         "year": 2020,
-        "why": "角色池與武器 Meta 隨版本更新快速輪動"
+        "why": "角色池與武器 Meta 隨版本更新快速輪動",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/10a5609d1ba39e965d01362d976f1b59fefc232f-1920x1080.jpg",
+        "sourceUrl": "https://playvalorant.com/en-us/news/announcements/beginners-guide/",
+        "imageKind": "官方教學畫面",
+        "accessed": "2026-10-02"
       },
       {
         "title": "爐石戰記",
         "en": "Hearthstone",
         "appid": null,
         "year": 2014,
-        "why": "卡牌強度改版直接重塑套牌 Meta"
+        "why": "卡牌強度改版直接重塑套牌 Meta",
+        "imageUrl": "https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/1u/1UMV7OIA2UM11774552928199.jpg",
+        "sourceUrl": "https://hearthstone.blizzard.com/en-us/news/24271853",
+        "imageKind": "官方宣傳圖",
+        "accessed": "2026-10-02"
       }
     ],
     "steamTags": [],
@@ -524,6 +598,24 @@
         "url": "https://esportstower.com/news/metagaming-using-the-most-effective-tactics-available/",
         "accessed": "2026-09-17",
         "note": "Meta 一詞的詞源辨析（backronym）與定義"
+      },
+      {
+        "title": "官方遊戲介紹：League of Legends",
+        "url": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方教學示意圖）"
+      },
+      {
+        "title": "官方遊戲介紹：VALORANT",
+        "url": "https://playvalorant.com/en-us/news/announcements/beginners-guide/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方教學畫面）"
+      },
+      {
+        "title": "官方遊戲介紹：Hearthstone",
+        "url": "https://hearthstone.blizzard.com/en-us/news/24271853",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方宣傳圖）"
       }
     ],
     "status": "verified"
@@ -769,7 +861,11 @@
         "en": "Minecraft",
         "appid": null,
         "year": 2011,
-        "why": "合成系統本身就是核心玩法而非附屬系統"
+        "why": "合成系統本身就是核心玩法而非附屬系統",
+        "imageUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/screenshots/CREATE_BuildAlmostAnything.png",
+        "sourceUrl": "https://www.minecraft.net/en-us/about-minecraft",
+        "imageKind": "官方遊玩截圖",
+        "accessed": "2026-10-02"
       },
       {
         "title": "泰拉瑞亞",
@@ -803,6 +899,12 @@
         "url": "https://en.wikipedia.org/wiki/Crafting_(gaming)",
         "accessed": "2026-09-17",
         "note": "合成機制的定義與 MMO 應用"
+      },
+      {
+        "title": "官方遊戲介紹：Minecraft",
+        "url": "https://www.minecraft.net/en-us/about-minecraft",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方遊玩截圖）"
       }
     ],
     "status": "verified"
@@ -844,9 +946,13 @@
       {
         "title": "上古卷軸5：無界天際",
         "en": "The Elder Scrolls V: Skyrim",
-        "appid": 489830,
+        "appid": 72850,
         "year": 2011,
-        "why": "重量制庫存搭配負重過重的移動懲罰"
+        "why": "重量制庫存搭配負重過重的移動懲罰",
+        "sourceUrl": "https://store.steampowered.com/app/72850/",
+        "accessed": "2026-10-02",
+        "selectionNote": "玩法代表性；Steam 全語言累積好評 94.8%（317,800 則，2026-10-02）。",
+        "reviewSource": "https://store.steampowered.com/appreviews/72850?json=1&language=all&purchase_type=all&filter=summary"
       }
     ],
     "steamTags": [
@@ -873,6 +979,12 @@
         "url": "https://en.wikipedia.org/wiki/Item_(game_terminology)",
         "accessed": "2026-09-17",
         "note": "庫存系統在 RPG／冒險遊戲中的定義"
+      },
+      {
+        "title": "Steam 官方：The Elder Scrolls V: Skyrim",
+        "url": "https://store.steampowered.com/app/72850/",
+        "accessed": "2026-10-02",
+        "note": "範例版本、圖片與遊戲介紹"
       }
     ],
     "status": "verified"
@@ -964,9 +1076,13 @@
       {
         "title": "上古卷軸5：無界天際",
         "en": "The Elder Scrolls V: Skyrim",
-        "appid": 489830,
+        "appid": 72850,
         "year": 2011,
-        "why": "任意已知地點皆可直接傳送的自由式設計"
+        "why": "任意已知地點皆可直接傳送的自由式設計",
+        "sourceUrl": "https://store.steampowered.com/app/72850/",
+        "accessed": "2026-10-02",
+        "selectionNote": "玩法代表性；Steam 全語言累積好評 94.8%（317,800 則，2026-10-02）。",
+        "reviewSource": "https://store.steampowered.com/appreviews/72850?json=1&language=all&purchase_type=all&filter=summary"
       },
       {
         "title": "艾爾登法環",
@@ -1007,6 +1123,12 @@
         "url": "https://en.wikipedia.org/wiki/Fast_travel",
         "accessed": "2026-09-17",
         "note": "定義、運作方式與批評"
+      },
+      {
+        "title": "Steam 官方：The Elder Scrolls V: Skyrim",
+        "url": "https://store.steampowered.com/app/72850/",
+        "accessed": "2026-10-02",
+        "note": "範例版本、圖片與遊戲介紹"
       }
     ],
     "status": "verified"
@@ -1356,11 +1478,15 @@
     ],
     "examples": [
       {
-        "title": "俄羅斯方塊",
-        "en": "Tetris",
-        "appid": null,
-        "year": 1984,
-        "why": "速度隨等級提升維持挑戰與技能平衡的經典案例"
+        "title": "俄羅斯方塊效應：連結",
+        "en": "Tetris Effect: Connected",
+        "appid": 1003590,
+        "year": 2020,
+        "why": "方塊下落速度與音畫節奏逐步提高，讓玩家在熟練操作與持續挑戰之間維持專注，可觀察心流條件。",
+        "sourceUrl": "https://store.steampowered.com/app/1003590/",
+        "accessed": "2026-10-02",
+        "selectionNote": "玩法代表性；Steam 全語言累積好評 94.5%（9,047 則，2026-10-02）。",
+        "reviewSource": "https://store.steampowered.com/appreviews/1003590?json=1&language=all&purchase_type=all&filter=summary"
       },
       {
         "title": "空洞騎士",
@@ -1396,6 +1522,12 @@
         "url": "https://en.wikipedia.org/wiki/Mihaly_Csikszentmihalyi",
         "accessed": "2026-09-17",
         "note": "心流理論提出者與核心概念"
+      },
+      {
+        "title": "Steam 官方：Tetris® Effect: Connected",
+        "url": "https://store.steampowered.com/app/1003590/",
+        "accessed": "2026-10-02",
+        "note": "範例版本、圖片與遊戲介紹"
       }
     ],
     "status": "verified"
@@ -1439,7 +1571,13 @@
         "en": "Mario Kart 8 Deluxe",
         "appid": null,
         "year": 2017,
-        "why": "落後名次玩家取得更強道具的橡皮筋機制"
+        "why": "落後名次玩家取得更強道具的橡皮筋機制",
+        "imageUrl": "https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.5/store/software/switch/70010000000153/de697f487a36d802dd9a5ff0341f717c8486221f2f1219b675af37aca63bc453",
+        "sourceUrl": "https://www.nintendo.com/us/store/products/mario-kart-8-deluxe-switch/",
+        "imageKind": "官方宣傳圖",
+        "accessed": "2026-10-02",
+        "selectionNote": "玩法代表性；列入任天堂官方 Switch 主要軟體累積銷量表（截至 2026-06-30）。",
+        "selectionSource": "https://www.nintendo.co.jp/ir/en/finance/software/switch.html"
       }
     ],
     "steamTags": [],
@@ -1461,6 +1599,12 @@
         "url": "https://en.wikipedia.org/wiki/Dynamic_game_difficulty_balancing",
         "accessed": "2026-09-17",
         "note": "定義、可調整參數與設計目的"
+      },
+      {
+        "title": "官方遊戲介紹：Mario Kart 8 Deluxe",
+        "url": "https://www.nintendo.com/us/store/products/mario-kart-8-deluxe-switch/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方宣傳圖）"
       }
     ],
     "status": "verified"
@@ -1497,7 +1641,11 @@
         "en": "Hearthstone",
         "appid": null,
         "year": 2014,
-        "why": "抽牌隨機性直接決定牌局走向"
+        "why": "抽牌隨機性直接決定牌局走向",
+        "imageUrl": "https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/1u/1UMV7OIA2UM11774552928199.jpg",
+        "sourceUrl": "https://hearthstone.blizzard.com/en-us/news/24271853",
+        "imageKind": "官方宣傳圖",
+        "accessed": "2026-10-02"
       },
       {
         "title": "暗黑破壞神 IV",
@@ -1526,6 +1674,12 @@
         "url": "https://en.wikipedia.org/wiki/Random_number_generation",
         "accessed": "2026-09-17",
         "note": "隨機數生成的技術定義"
+      },
+      {
+        "title": "官方遊戲介紹：Hearthstone",
+        "url": "https://hearthstone.blizzard.com/en-us/news/24271853",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方宣傳圖）"
       }
     ],
     "status": "verified"
@@ -1778,7 +1932,11 @@
         "en": "Hearthstone",
         "appid": null,
         "year": 2014,
-        "why": "套牌構築圍繞卡牌間協同效應展開"
+        "why": "套牌構築圍繞卡牌間協同效應展開",
+        "imageUrl": "https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/1u/1UMV7OIA2UM11774552928199.jpg",
+        "sourceUrl": "https://hearthstone.blizzard.com/en-us/news/24271853",
+        "imageKind": "官方宣傳圖",
+        "accessed": "2026-10-02"
       }
     ],
     "steamTags": [],
@@ -1800,6 +1958,12 @@
         "url": "https://en.wikipedia.org/wiki/Synergy",
         "accessed": "2026-09-17",
         "note": "文中提及協同效應在集換式卡牌遊戲中的應用"
+      },
+      {
+        "title": "官方遊戲介紹：Hearthstone",
+        "url": "https://hearthstone.blizzard.com/en-us/news/24271853",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方宣傳圖）"
       }
     ],
     "status": "verified"
@@ -1892,7 +2056,11 @@
         "en": "Hearthstone",
         "appid": null,
         "year": 2014,
-        "why": "對手手牌內容為隱藏資訊，驅動讀牌與猜測"
+        "why": "對手手牌內容為隱藏資訊，驅動讀牌與猜測",
+        "imageUrl": "https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/1u/1UMV7OIA2UM11774552928199.jpg",
+        "sourceUrl": "https://hearthstone.blizzard.com/en-us/news/24271853",
+        "imageKind": "官方宣傳圖",
+        "accessed": "2026-10-02"
       },
       {
         "title": "文明帝國VII",
@@ -1927,6 +2095,12 @@
         "url": "https://en.wikipedia.org/wiki/Information_set_(game_theory)",
         "accessed": "2026-09-17",
         "note": "資訊集的賽局理論定義，對應隱藏資訊機制"
+      },
+      {
+        "title": "官方遊戲介紹：Hearthstone",
+        "url": "https://hearthstone.blizzard.com/en-us/news/24271853",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方宣傳圖）"
       }
     ],
     "status": "verified"
@@ -2153,7 +2327,13 @@
         "en": "Super Mario Odyssey",
         "appid": null,
         "year": 2017,
-        "why": "以關卡佈局自然教學而非文字說明的代表作"
+        "why": "以關卡佈局自然教學而非文字說明的代表作",
+        "imageUrl": "https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.5/ncom/en_US/products/games/switch/super-mario-odyssey/105879-switch-super-mario-odyssey-us-1200x675",
+        "sourceUrl": "https://www.nintendo.com/us/store/products/super-mario-odyssey-105879/",
+        "imageKind": "官方宣傳圖",
+        "accessed": "2026-10-02",
+        "selectionNote": "玩法代表性；列入任天堂官方 Switch 主要軟體累積銷量表（截至 2026-06-30）。",
+        "selectionSource": "https://www.nintendo.co.jp/ir/en/finance/software/switch.html"
       },
       {
         "title": "傳送門2",
@@ -2194,6 +2374,12 @@
         "url": "https://en.wikipedia.org/wiki/Tutorial_(video_games)",
         "accessed": "2026-09-17",
         "note": "教學設計的定義、型態與對第一印象的影響"
+      },
+      {
+        "title": "官方遊戲介紹：Super Mario Odyssey",
+        "url": "https://www.nintendo.com/us/store/products/super-mario-odyssey-105879/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方宣傳圖）"
       }
     ],
     "status": "verified"
@@ -2229,7 +2415,13 @@
         "en": "The Legend of Zelda: Breath of the Wild",
         "appid": null,
         "year": 2017,
-        "why": "可攀爬表面的材質紋理暗示玩家攀爬可能性"
+        "why": "可攀爬表面的材質紋理暗示玩家攀爬可能性",
+        "imageUrl": "https://assets.nintendo.com/image/upload/ar_16%3A9%2Cc_lpad%2Cw_1240/b_white/f_auto/q_auto/ncom/en_US/products/games/switch/the-legend-of-zelda-breath-of-the-wild/105208-switch-the-legend-of-zelda-breath-of-the-wild-us-1200x675",
+        "sourceUrl": "https://www.nintendo.com/us/store/products/the-legend-of-zelda-breath-of-the-wild-us/",
+        "imageKind": "官方宣傳圖",
+        "accessed": "2026-10-02",
+        "selectionNote": "玩法代表性；列入任天堂官方 Switch 主要軟體累積銷量表（截至 2026-06-30）。",
+        "selectionSource": "https://www.nintendo.co.jp/ir/en/finance/software/switch.html"
       },
       {
         "title": "戰神",
@@ -2259,6 +2451,12 @@
         "url": "https://en.wikipedia.org/wiki/Affordance",
         "accessed": "2026-09-17",
         "note": "Gibson 的原始定義與後續在設計領域的應用"
+      },
+      {
+        "title": "官方遊戲介紹：The Legend of Zelda: Breath of the Wild",
+        "url": "https://www.nintendo.com/us/store/products/the-legend-of-zelda-breath-of-the-wild-us/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方宣傳圖）"
       }
     ],
     "status": "verified"
@@ -2419,11 +2617,15 @@
         "why": "新能力持續開啟地圖新區域與捷徑的典範"
       },
       {
-        "title": "銀河戰士 追加代號 龍三合一",
+        "title": "Metroid Dread",
         "en": "Metroid Dread",
         "appid": null,
         "year": 2021,
-        "why": "類型名稱源頭之一，能力關卡限制的原型設計"
+        "why": "類型名稱源頭之一，能力關卡限制的原型設計",
+        "imageUrl": "https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.5/store/software/switch/70010000042924/4f2c683f0196210ec212a2ab8bf6952223c0b88e827b820953407a2ba61c9cb2",
+        "sourceUrl": "https://www.nintendo.com/us/store/products/70010000042924/",
+        "imageKind": "官方宣傳圖",
+        "accessed": "2026-10-02"
       },
       {
         "title": "空洞騎士：絲之歌",
@@ -2452,6 +2654,12 @@
         "url": "https://en.wikipedia.org/wiki/Metroidvania",
         "accessed": "2026-09-17",
         "note": "能力關卡限制與回溯探索的定義"
+      },
+      {
+        "title": "官方遊戲介紹：Metroid Dread",
+        "url": "https://www.nintendo.com/us/store/products/70010000042924/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方宣傳圖）"
       }
     ],
     "status": "verified"
@@ -2625,9 +2833,13 @@
       {
         "title": "上古卷軸5：無界天際",
         "en": "The Elder Scrolls V: Skyrim",
-        "appid": 489830,
+        "appid": 72850,
         "year": 2011,
-        "why": "自由存檔制度讓存讀作弊幾乎沒有限制"
+        "why": "自由存檔制度讓存讀作弊幾乎沒有限制",
+        "sourceUrl": "https://store.steampowered.com/app/72850/",
+        "accessed": "2026-10-02",
+        "selectionNote": "玩法代表性；Steam 全語言累積好評 94.8%（317,800 則，2026-10-02）。",
+        "reviewSource": "https://store.steampowered.com/appreviews/72850?json=1&language=all&purchase_type=all&filter=summary"
       }
     ],
     "steamTags": [],
@@ -2649,6 +2861,12 @@
         "url": "https://tvtropes.org/pmwiki/pmwiki.php/Main/SaveScumming",
         "accessed": "2026-09-17",
         "note": "定義、Roguelike 社群態度與常見應用場景"
+      },
+      {
+        "title": "Steam 官方：The Elder Scrolls V: Skyrim",
+        "url": "https://store.steampowered.com/app/72850/",
+        "accessed": "2026-10-02",
+        "note": "範例版本、圖片與遊戲介紹"
       }
     ],
     "status": "verified"
@@ -2678,7 +2896,11 @@
         "en": "Minecraft",
         "appid": null,
         "year": 2011,
-        "why": "玩家社群長期分享稀有地形種子的代表案例"
+        "why": "玩家社群長期分享稀有地形種子的代表案例",
+        "imageUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/screenshots/CREATE_BuildAlmostAnything.png",
+        "sourceUrl": "https://www.minecraft.net/en-us/about-minecraft",
+        "imageKind": "官方遊玩截圖",
+        "accessed": "2026-10-02"
       },
       {
         "title": "泰拉瑞亞",
@@ -2719,6 +2941,12 @@
         "url": "https://en.wikipedia.org/wiki/Map_seed",
         "accessed": "2026-09-17",
         "note": "定義、運作原理與支援種子的代表遊戲"
+      },
+      {
+        "title": "官方遊戲介紹：Minecraft",
+        "url": "https://www.minecraft.net/en-us/about-minecraft",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方遊玩截圖）"
       }
     ],
     "status": "verified"
@@ -2818,7 +3046,11 @@
         "en": "Genshin Impact",
         "appid": null,
         "year": 2020,
-        "why": "九十抽硬保底、七十四抽起軟保底的知名設計"
+        "why": "九十抽硬保底、七十四抽起軟保底的知名設計",
+        "imageUrl": "https://upload-static.hoyoverse.com/hk4e/upload/fb/common.jpg",
+        "sourceUrl": "https://genshin.hoyoverse.com/en/news/103756",
+        "imageKind": "官方宣傳圖",
+        "accessed": "2026-10-02"
       },
       {
         "title": "蔚藍檔案",
@@ -2832,7 +3064,11 @@
         "en": "Honkai: Star Rail",
         "appid": null,
         "year": 2023,
-        "why": "承襲同廠牌保底機制設計的代表作"
+        "why": "承襲同廠牌保底機制設計的代表作",
+        "imageUrl": "https://fastcdn.hoyoverse.com/mi18n/hkrpg_global/m20260904hy5hcii9ds/upload/f0981b5c04af1c7a720d0bd65d958c52_1494770406828241360.png",
+        "sourceUrl": "https://hsr.hoyoverse.com/en-us/",
+        "imageKind": "官方宣傳圖",
+        "accessed": "2026-10-02"
       }
     ],
     "steamTags": [],
@@ -2854,6 +3090,18 @@
         "url": "https://screenrant.com/genshin-impact-pity-system-pull-rates-works-how/",
         "accessed": "2026-09-17",
         "note": "硬保底與軟保底機制的具體數值案例"
+      },
+      {
+        "title": "官方遊戲介紹：Genshin Impact",
+        "url": "https://genshin.hoyoverse.com/en/news/103756",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方宣傳圖）"
+      },
+      {
+        "title": "官方遊戲介紹：Honkai: Star Rail",
+        "url": "https://hsr.hoyoverse.com/en-us/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方宣傳圖）"
       }
     ],
     "status": "verified"
@@ -2895,9 +3143,13 @@
       {
         "title": "上古卷軸5：無界天際",
         "en": "The Elder Scrolls V: Skyrim",
-        "appid": 489830,
+        "appid": 72850,
         "year": 2011,
-        "why": "重複施放法術提升熟練度的技能刷等系統"
+        "why": "重複施放法術提升熟練度的技能刷等系統",
+        "sourceUrl": "https://store.steampowered.com/app/72850/",
+        "accessed": "2026-10-02",
+        "selectionNote": "玩法代表性；Steam 全語言累積好評 94.8%（317,800 則，2026-10-02）。",
+        "reviewSource": "https://store.steampowered.com/appreviews/72850?json=1&language=all&purchase_type=all&filter=summary"
       }
     ],
     "steamTags": [],
@@ -2919,6 +3171,12 @@
         "url": "https://en.wikipedia.org/wiki/Grinding_(video_games)",
         "accessed": "2026-09-17",
         "note": "定義、動機與 MMORPG 中的角色"
+      },
+      {
+        "title": "Steam 官方：The Elder Scrolls V: Skyrim",
+        "url": "https://store.steampowered.com/app/72850/",
+        "accessed": "2026-10-02",
+        "note": "範例版本、圖片與遊戲介紹"
       }
     ],
     "status": "verified"
@@ -2954,7 +3212,11 @@
         "en": "World of Warcraft",
         "appid": null,
         "year": 2004,
-        "why": "長年被引用為水龍頭排水口理論範例的 MMORPG"
+        "why": "長年被引用為水龍頭排水口理論範例的 MMORPG",
+        "imageUrl": "https://blz-contentstack-images.akamaized.net/v3/assets/blt9c12f249ac15c7ec/bltb5a24e5ab1e2cfb0/6a88e3589b942efdb6f74110/wow-thumbnail-homepage.jpg",
+        "sourceUrl": "https://worldofwarcraft.blizzard.com/",
+        "imageKind": "官方宣傳圖",
+        "accessed": "2026-10-02"
       },
       {
         "title": "暗黑破壞神 IV",
@@ -2988,6 +3250,12 @@
         "url": "https://www.gamedeveloper.com/design/the-f-words-of-mmos-faucets",
         "accessed": "2026-09-17",
         "note": "水龍頭與排水口框架的定義與平衡原則"
+      },
+      {
+        "title": "官方遊戲介紹：World of Warcraft",
+        "url": "https://worldofwarcraft.blizzard.com/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方宣傳圖）"
       }
     ],
     "status": "verified"
@@ -3014,9 +3282,13 @@
       {
         "title": "上古卷軸5：無界天際",
         "en": "The Elder Scrolls V: Skyrim",
-        "appid": 489830,
+        "appid": 72850,
         "year": 2011,
-        "why": "依實際使用技能類型成長的活動制進度系統"
+        "why": "依實際使用技能類型成長的活動制進度系統",
+        "sourceUrl": "https://store.steampowered.com/app/72850/",
+        "accessed": "2026-10-02",
+        "selectionNote": "玩法代表性；Steam 全語言累積好評 94.8%（317,800 則，2026-10-02）。",
+        "reviewSource": "https://store.steampowered.com/appreviews/72850?json=1&language=all&purchase_type=all&filter=summary"
       },
       {
         "title": "暗黑破壞神 IV",
@@ -3052,6 +3324,12 @@
         "url": "https://en.wikipedia.org/wiki/Experience_point",
         "accessed": "2026-09-17",
         "note": "等級制、活動制等多種進度系統類型說明"
+      },
+      {
+        "title": "Steam 官方：The Elder Scrolls V: Skyrim",
+        "url": "https://store.steampowered.com/app/72850/",
+        "accessed": "2026-10-02",
+        "note": "範例版本、圖片與遊戲介紹"
       }
     ],
     "status": "verified"
@@ -3080,7 +3358,13 @@
         "en": "Super Smash Bros. Ultimate",
         "appid": null,
         "year": 2018,
-        "why": "隱藏角色需達成特定條件解鎖的長年系列傳統"
+        "why": "隱藏角色需達成特定條件解鎖的長年系列傳統",
+        "imageUrl": "https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.5/ncom/en_US/products/games/switch/super-smash-bros-ultimate/108043-switch-super-smash-bros-ultimate-us-1200x675",
+        "sourceUrl": "https://www.nintendo.com/us/store/products/super-smash-bros-ultimate-us/",
+        "imageKind": "官方宣傳圖",
+        "accessed": "2026-10-02",
+        "selectionNote": "玩法代表性；列入任天堂官方 Switch 主要軟體累積銷量表（截至 2026-06-30）。",
+        "selectionSource": "https://www.nintendo.co.jp/ir/en/finance/software/switch.html"
       },
       {
         "title": "空洞騎士",
@@ -3116,6 +3400,12 @@
         "url": "https://en.wikipedia.org/wiki/Unlockable_(gaming)",
         "accessed": "2026-09-17",
         "note": "收錄於遊戲術語總表的解鎖內容條目"
+      },
+      {
+        "title": "官方遊戲介紹：Super Smash Bros. Ultimate",
+        "url": "https://www.nintendo.com/us/store/products/super-smash-bros-ultimate-us/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方宣傳圖）"
       }
     ],
     "status": "verified"
@@ -3158,7 +3448,11 @@
         "en": "VALORANT",
         "appid": null,
         "year": 2020,
-        "why": "賽季段位軟重置提供類似的長期目標感"
+        "why": "賽季段位軟重置提供類似的長期目標感",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/10a5609d1ba39e965d01362d976f1b59fefc232f-1920x1080.jpg",
+        "sourceUrl": "https://playvalorant.com/en-us/news/announcements/beginners-guide/",
+        "imageKind": "官方教學畫面",
+        "accessed": "2026-10-02"
       }
     ],
     "steamTags": [],
@@ -3180,6 +3474,12 @@
         "url": "https://en.wikipedia.org/wiki/Call_of_Duty_4:_Modern_Warfare",
         "accessed": "2026-09-17",
         "note": "Prestige 模式的原始機制說明"
+      },
+      {
+        "title": "官方遊戲介紹：VALORANT",
+        "url": "https://playvalorant.com/en-us/news/announcements/beginners-guide/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方教學畫面）"
       }
     ],
     "status": "verified"
@@ -3346,9 +3646,13 @@
       {
         "title": "上古卷軸5：無界天際",
         "en": "The Elder Scrolls V: Skyrim",
-        "appid": 489830,
+        "appid": 72850,
         "year": 2011,
-        "why": "調整後的等級縮放機制，緩解前作爭議"
+        "why": "調整後的等級縮放機制，緩解前作爭議",
+        "sourceUrl": "https://store.steampowered.com/app/72850/",
+        "accessed": "2026-10-02",
+        "selectionNote": "玩法代表性；Steam 全語言累積好評 94.8%（317,800 則，2026-10-02）。",
+        "reviewSource": "https://store.steampowered.com/appreviews/72850?json=1&language=all&purchase_type=all&filter=summary"
       },
       {
         "title": "邊緣禁地3",
@@ -3377,6 +3681,12 @@
         "url": "https://en.wikipedia.org/wiki/The_Elder_Scrolls_IV:_Oblivion",
         "accessed": "2026-09-17",
         "note": "等級縮放機制的設計初衷與失衡爭議"
+      },
+      {
+        "title": "Steam 官方：The Elder Scrolls V: Skyrim",
+        "url": "https://store.steampowered.com/app/72850/",
+        "accessed": "2026-10-02",
+        "note": "範例版本、圖片與遊戲介紹"
       }
     ],
     "status": "verified"
@@ -3420,7 +3730,13 @@
         "en": "Super Mario Odyssey",
         "appid": null,
         "year": 2017,
-        "why": "奧德賽號飛船作為連接各王國的中樞載具"
+        "why": "奧德賽號飛船作為連接各王國的中樞載具",
+        "imageUrl": "https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.5/ncom/en_US/products/games/switch/super-mario-odyssey/105879-switch-super-mario-odyssey-us-1200x675",
+        "sourceUrl": "https://www.nintendo.com/us/store/products/super-mario-odyssey-105879/",
+        "imageKind": "官方宣傳圖",
+        "accessed": "2026-10-02",
+        "selectionNote": "玩法代表性；列入任天堂官方 Switch 主要軟體累積銷量表（截至 2026-06-30）。",
+        "selectionSource": "https://www.nintendo.co.jp/ir/en/finance/software/switch.html"
       }
     ],
     "steamTags": [],
@@ -3442,6 +3758,12 @@
         "url": "https://en.wikipedia.org/wiki/Hub_world",
         "accessed": "2026-09-17",
         "note": "定義與功能說明"
+      },
+      {
+        "title": "官方遊戲介紹：Super Mario Odyssey",
+        "url": "https://www.nintendo.com/us/store/products/super-mario-odyssey-105879/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方宣傳圖）"
       }
     ],
     "status": "verified"
@@ -3482,9 +3804,13 @@
       {
         "title": "上古卷軸5：無界天際",
         "en": "The Elder Scrolls V: Skyrim",
-        "appid": 489830,
+        "appid": 72850,
         "year": 2011,
-        "why": "大量重複性委託任務支撐長期遊玩時數的案例"
+        "why": "大量重複性委託任務支撐長期遊玩時數的案例",
+        "sourceUrl": "https://store.steampowered.com/app/72850/",
+        "accessed": "2026-10-02",
+        "selectionNote": "玩法代表性；Steam 全語言累積好評 94.8%（317,800 則，2026-10-02）。",
+        "reviewSource": "https://store.steampowered.com/appreviews/72850?json=1&language=all&purchase_type=all&filter=summary"
       }
     ],
     "steamTags": [],
@@ -3506,6 +3832,12 @@
         "url": "https://en.wikipedia.org/wiki/Quest_(video_gaming)",
         "accessed": "2026-09-17",
         "note": "任務的定義與在 RPG／MMO 中的功能"
+      },
+      {
+        "title": "Steam 官方：The Elder Scrolls V: Skyrim",
+        "url": "https://store.steampowered.com/app/72850/",
+        "accessed": "2026-10-02",
+        "note": "範例版本、圖片與遊戲介紹"
       }
     ],
     "status": "verified"
@@ -3864,7 +4196,13 @@
         "en": "Super Smash Bros. Ultimate",
         "appid": null,
         "year": 2018,
-        "why": "收錄系列有史以來最大規模角色名冊的代表作"
+        "why": "收錄系列有史以來最大規模角色名冊的代表作",
+        "imageUrl": "https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.5/ncom/en_US/products/games/switch/super-smash-bros-ultimate/108043-switch-super-smash-bros-ultimate-us-1200x675",
+        "sourceUrl": "https://www.nintendo.com/us/store/products/super-smash-bros-ultimate-us/",
+        "imageKind": "官方宣傳圖",
+        "accessed": "2026-10-02",
+        "selectionNote": "玩法代表性；列入任天堂官方 Switch 主要軟體累積銷量表（截至 2026-06-30）。",
+        "selectionSource": "https://www.nintendo.co.jp/ir/en/finance/software/switch.html"
       },
       {
         "title": "鬥陣特攻",
@@ -3878,7 +4216,11 @@
         "en": "VALORANT",
         "appid": null,
         "year": 2020,
-        "why": "探員名冊定期擴充並強調功能差異化設計"
+        "why": "探員名冊定期擴充並強調功能差異化設計",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/10a5609d1ba39e965d01362d976f1b59fefc232f-1920x1080.jpg",
+        "sourceUrl": "https://playvalorant.com/en-us/news/announcements/beginners-guide/",
+        "imageKind": "官方教學畫面",
+        "accessed": "2026-10-02"
       }
     ],
     "steamTags": [],
@@ -3900,6 +4242,18 @@
         "url": "https://en.wikipedia.org/wiki/Super_Smash_Bros._Ultimate",
         "accessed": "2026-09-17",
         "note": "提及收錄超過七十位可用角色的名冊規模"
+      },
+      {
+        "title": "官方遊戲介紹：Super Smash Bros. Ultimate",
+        "url": "https://www.nintendo.com/us/store/products/super-smash-bros-ultimate-us/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方宣傳圖）"
+      },
+      {
+        "title": "官方遊戲介紹：VALORANT",
+        "url": "https://playvalorant.com/en-us/news/announcements/beginners-guide/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方教學畫面）"
       }
     ],
     "status": "unverified"
@@ -3994,7 +4348,13 @@
         "en": "Mario Kart 8 Deluxe",
         "appid": null,
         "year": 2017,
-        "why": "落後者取得更強道具的經典負回饋案例"
+        "why": "落後者取得更強道具的經典負回饋案例",
+        "imageUrl": "https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.5/store/software/switch/70010000000153/de697f487a36d802dd9a5ff0341f717c8486221f2f1219b675af37aca63bc453",
+        "sourceUrl": "https://www.nintendo.com/us/store/products/mario-kart-8-deluxe-switch/",
+        "imageKind": "官方宣傳圖",
+        "accessed": "2026-10-02",
+        "selectionNote": "玩法代表性；列入任天堂官方 Switch 主要軟體累積銷量表（截至 2026-06-30）。",
+        "selectionSource": "https://www.nintendo.co.jp/ir/en/finance/software/switch.html"
       },
       {
         "title": "世紀帝國IV 週年紀念版",
@@ -4030,6 +4390,12 @@
         "url": "https://en.wikipedia.org/wiki/Game_balance",
         "accessed": "2026-09-17",
         "note": "正／負回饋循環的定義與範例"
+      },
+      {
+        "title": "官方遊戲介紹：Mario Kart 8 Deluxe",
+        "url": "https://www.nintendo.com/us/store/products/mario-kart-8-deluxe-switch/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方宣傳圖）"
       }
     ],
     "status": "verified"
@@ -4182,11 +4548,15 @@
     ],
     "examples": [
       {
-        "title": "俄羅斯方塊",
-        "en": "Tetris",
-        "appid": null,
-        "year": 1984,
-        "why": "常被引用示範單純機制如何產生「挑戰」美學的教學案例"
+        "title": "俄羅斯方塊效應：連結",
+        "en": "Tetris Effect: Connected",
+        "appid": 1003590,
+        "year": 2020,
+        "why": "以俄羅斯方塊的旋轉、消行規則，分析玩家決策形成的動態與音畫回饋帶來的美感體驗。",
+        "sourceUrl": "https://store.steampowered.com/app/1003590/",
+        "accessed": "2026-10-02",
+        "selectionNote": "玩法代表性；Steam 全語言累積好評 94.5%（9,047 則，2026-10-02）。",
+        "reviewSource": "https://store.steampowered.com/appreviews/1003590?json=1&language=all&purchase_type=all&filter=summary"
       },
       {
         "title": "黑帝斯",
@@ -4229,6 +4599,12 @@
         "url": "https://users.cs.northwestern.edu/~hunicke/MDA.pdf",
         "accessed": "2026-09-17",
         "note": "論文全文 PDF，作者 Robin Hunicke 個人網頁提供"
+      },
+      {
+        "title": "Steam 官方：Tetris® Effect: Connected",
+        "url": "https://store.steampowered.com/app/1003590/",
+        "accessed": "2026-10-02",
+        "note": "範例版本、圖片與遊戲介紹"
       }
     ],
     "status": "verified"

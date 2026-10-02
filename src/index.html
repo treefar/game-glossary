@@ -302,14 +302,16 @@ function headHtml(e){
 }
 function gameCard(x){
   const c=x.appid?CARDS[x.appid]:null;
-  if(x.sourceUrl){
-    const shot=c&&c.screenshot;
-    return `<div class="game">${shot?`<a href="${esc(c.fullScreenshot||x.sourceUrl)}" target="_blank" rel="noopener"><img loading="lazy" src="${esc(shot)}" alt="${esc(x.title)} 官方遊玩截圖" onerror="this.hidden=true"></a>`:`<div class="nothumb">${esc(x.title)}</div>`}<div class="t">${esc(x.title)}</div><div class="w">${esc(x.why)}</div><div class="w"><a href="${esc(x.sourceUrl)}" target="_blank" rel="noopener">官方介紹與畫面 ↗</a>${shot?` · <a href="${esc(c.fullScreenshot||x.sourceUrl)}" target="_blank" rel="noopener">開啟大圖 ↗</a>`:""}</div><div class="y">來源查證：${esc(x.accessed)}</div></div>`;
-  }
-  const inner=`${c&&c.img?`<img loading="lazy" src="${esc(c.img)}" alt="">`:`<div class="nothumb">${esc(x.title)}</div>`}
+  const shot=x.imageUrl||(c&&(c.screenshot||c.img));
+  const source=x.sourceUrl||(c&&c.mediaSource)||(x.appid?`https://store.steampowered.com/app/${Number(x.appid)}/`:null);
+  const large=x.fullImageUrl||(c&&c.fullScreenshot)||shot;
+  const kind=x.imageKind||(c&&c.screenshot?'官方遊玩截圖':'官方宣傳圖');
+  return `<div class="game">${shot?`<a href="${esc(large)}" target="_blank" rel="noopener"><img loading="lazy" referrerpolicy="no-referrer" src="${esc(shot)}" alt="${esc(x.title)} ${esc(kind)}"></a>`:`<div class="nothumb">${esc(x.title)}</div>`}
     <div class="t">${esc(x.title)}${x.en&&x.en!==x.title?` <span style="font-weight:400;color:var(--muted)">${esc(x.en)}</span>`:""}</div>
-    <div class="y">${esc(x.year||(c&&c.year)||"")}</div>${x.why?`<div class="w">${esc(x.why)}</div>`:""}`;
-  return x.appid?`<a class="game" href="https://store.steampowered.com/app/${Number(x.appid)}/" target="_blank" rel="noopener">${inner}</a>`:`<div class="game">${inner}</div>`;
+    <div class="y">${esc(x.year||(c&&c.year)||"")}${shot?` · ${esc(kind)}`:''}</div>${x.why?`<div class="w">${esc(x.why)}</div>`:""}
+    ${source?`<div class="w"><a href="${esc(source)}" target="_blank" rel="noopener">官方介紹與畫面 ↗</a>${large?` · <a href="${esc(large)}" target="_blank" rel="noopener">開啟大圖 ↗</a>`:''}</div>`:''}
+    ${x.selectionNote?`<div class="w">選例依據：${esc(x.selectionNote)}${x.selectionSource||x.reviewSource?` <a href="${esc(x.selectionSource||x.reviewSource)}" target="_blank" rel="noopener">查證來源 ↗</a>`:''}</div>`:''}
+    ${x.accessed?`<div class="y">來源查證：${esc(x.accessed)}</div>`:''}</div>`;
 }
 function bodyHtml(e){
   const cmp=(e.compare||[]).map(c=>{const o=byId.get(c.with);return `<tr><th>${o?`<a href="#${esc(o.id)}">${esc(o.zh)}</a>`:esc(c.with)}</th><td>${esc(c.diff)}</td></tr>`;}).join("");

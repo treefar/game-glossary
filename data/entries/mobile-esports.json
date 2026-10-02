@@ -27,7 +27,11 @@
         "en": "Genshin Impact",
         "appid": null,
         "year": 2020,
-        "why": "樹脂系統是體力機制在開放世界手遊的代表案例"
+        "why": "樹脂系統是體力機制在開放世界手遊的代表案例",
+        "imageUrl": "https://upload-static.hoyoverse.com/hk4e/upload/fb/common.jpg",
+        "sourceUrl": "https://genshin.hoyoverse.com/en/news/103756",
+        "imageKind": "官方宣傳圖",
+        "accessed": "2026-10-02"
       },
       {
         "title": "楓之谷M",
@@ -56,6 +60,12 @@
         "url": "https://www.larksuite.com/en_us/topics/gaming-glossary/stamina-system",
         "accessed": "2026-09-17",
         "note": "體力／能量系統定義與商業目的"
+      },
+      {
+        "title": "官方遊戲介紹：Genshin Impact",
+        "url": "https://genshin.hoyoverse.com/en/news/103756",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方宣傳圖）"
       }
     ],
     "status": "verified"
@@ -86,7 +96,11 @@
         "en": "Genshin Impact",
         "appid": null,
         "year": 2020,
-        "why": "委託任務是每日任務搭配自動化完成的代表"
+        "why": "委託任務是每日任務搭配自動化完成的代表",
+        "imageUrl": "https://upload-static.hoyoverse.com/hk4e/upload/fb/common.jpg",
+        "sourceUrl": "https://genshin.hoyoverse.com/en/news/103756",
+        "imageKind": "官方宣傳圖",
+        "accessed": "2026-10-02"
       },
       {
         "title": "楓之谷M",
@@ -109,6 +123,12 @@
         "url": "https://www.larksuite.com/en_us/topics/gaming-glossary/daily-quests",
         "accessed": "2026-09-17",
         "note": "每日任務定義與留存目的"
+      },
+      {
+        "title": "官方遊戲介紹：Genshin Impact",
+        "url": "https://genshin.hoyoverse.com/en/news/103756",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方宣傳圖）"
       }
     ],
     "status": "verified"
@@ -146,7 +166,11 @@
         "en": "Genshin Impact",
         "appid": null,
         "year": 2020,
-        "why": "教學章節後綁定帳號、限制洗帳的代表設計"
+        "why": "教學章節後綁定帳號、限制洗帳的代表設計",
+        "imageUrl": "https://upload-static.hoyoverse.com/hk4e/upload/fb/common.jpg",
+        "sourceUrl": "https://genshin.hoyoverse.com/en/news/103756",
+        "imageKind": "官方宣傳圖",
+        "accessed": "2026-10-02"
       }
     ],
     "steamTags": [],
@@ -169,6 +193,12 @@
         "url": "https://en.wikipedia.org/wiki/Gacha_game",
         "accessed": "2026-09-17",
         "note": "提及玩家透過刪除重建帳號進行 Reroll"
+      },
+      {
+        "title": "官方遊戲介紹：Genshin Impact",
+        "url": "https://genshin.hoyoverse.com/en/news/103756",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方宣傳圖）"
       }
     ],
     "status": "verified"
@@ -207,7 +237,11 @@
         "en": "Genshin Impact",
         "appid": null,
         "year": 2020,
-        "why": "「歪」「井」等黑話多半源自這款遊戲的玩家社群"
+        "why": "「歪」「井」等黑話多半源自這款遊戲的玩家社群",
+        "imageUrl": "https://upload-static.hoyoverse.com/hk4e/upload/fb/common.jpg",
+        "sourceUrl": "https://genshin.hoyoverse.com/en/news/103756",
+        "imageKind": "官方宣傳圖",
+        "accessed": "2026-10-02"
       }
     ],
     "steamTags": [],
@@ -231,6 +265,12 @@
         "url": "https://en.wikipedia.org/wiki/Gacha_game",
         "accessed": "2026-09-17",
         "note": "課金、保底、鯨魚等術語的英文定義來源"
+      },
+      {
+        "title": "官方遊戲介紹：Genshin Impact",
+        "url": "https://genshin.hoyoverse.com/en/news/103756",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方宣傳圖）"
       }
     ],
     "status": "verified"
@@ -261,14 +301,22 @@
         "en": "Fortnite",
         "appid": null,
         "year": 2017,
-        "why": "漫威、星際大戰等大型聯動的代表案例"
+        "why": "漫威、星際大戰等大型聯動的代表案例",
+        "imageUrl": "https://cms-assets.unrealengine.com/cm6l5gfpm05kr07my04cqgy2x/cmqbdhpbt1hv007obyg3sf57r",
+        "sourceUrl": "https://www.fortnite.com/news?lang=en-US",
+        "imageKind": "官方宣傳圖",
+        "accessed": "2026-10-02"
       },
       {
         "title": "Fate/Grand Order",
         "en": "Fate/Grand Order",
         "appid": null,
         "year": 2015,
-        "why": "與多部動漫作品跨界聯動是這款手遊代表性的商業模式"
+        "why": "與多部動漫作品跨界聯動是這款手遊代表性的商業模式",
+        "imageUrl": "https://fate-go.us/images/fate_card_1800.png",
+        "sourceUrl": "https://fate-go.us/",
+        "imageKind": "官方宣傳圖",
+        "accessed": "2026-10-02"
       }
     ],
     "steamTags": [],
@@ -284,6 +332,18 @@
         "url": "https://en.wikipedia.org/wiki/List_of_crossovers_in_video_games",
         "accessed": "2026-09-17",
         "note": "電玩跨界聯動列表與定義"
+      },
+      {
+        "title": "官方遊戲介紹：Fate/Grand Order",
+        "url": "https://fate-go.us/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方宣傳圖）"
+      },
+      {
+        "title": "官方遊戲介紹：Fortnite",
+        "url": "https://www.fortnite.com/news?lang=en-US",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方宣傳圖）"
       }
     ],
     "status": "verified"
@@ -314,7 +374,11 @@
         "en": "League of Legends",
         "appid": null,
         "year": 2009,
-        "why": "每個版本更新後強度表都會大幅變動的代表遊戲"
+        "why": "每個版本更新後強度表都會大幅變動的代表遊戲",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+        "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "imageKind": "官方教學示意圖",
+        "accessed": "2026-10-02"
       },
       {
         "title": "鳴潮",
@@ -337,6 +401,12 @@
         "url": "https://en.wikipedia.org/wiki/Tier_list",
         "accessed": "2026-09-17",
         "note": "強度排行榜的起源與定義"
+      },
+      {
+        "title": "官方遊戲介紹：League of Legends",
+        "url": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方教學示意圖）"
       }
     ],
     "status": "verified"
@@ -419,7 +489,11 @@
         "en": "Genshin Impact",
         "appid": null,
         "year": 2020,
-        "why": "版本活動與限定造型是限時活動的典型案例"
+        "why": "版本活動與限定造型是限時活動的典型案例",
+        "imageUrl": "https://upload-static.hoyoverse.com/hk4e/upload/fb/common.jpg",
+        "sourceUrl": "https://genshin.hoyoverse.com/en/news/103756",
+        "imageKind": "官方宣傳圖",
+        "accessed": "2026-10-02"
       },
       {
         "title": "鳴潮",
@@ -443,6 +517,12 @@
         "url": "https://www.gamedeveloper.com/design/how-video-games-abuse-the-fear-of-missing-out",
         "accessed": "2026-09-17",
         "note": "限時活動與怕錯過症心理機制分析"
+      },
+      {
+        "title": "官方遊戲介紹：Genshin Impact",
+        "url": "https://genshin.hoyoverse.com/en/news/103756",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方宣傳圖）"
       }
     ],
     "status": "verified"
@@ -469,18 +549,24 @@
     ],
     "examples": [
       {
-        "title": "原神",
-        "en": "Genshin Impact",
+        "title": "崩壞：星穹鐵道",
+        "en": "Honkai: Star Rail",
         "appid": null,
-        "year": 2020,
-        "why": "僅在部分內容開放有限度自動戰鬥的代表"
+        "year": 2023,
+        "why": "回合制戰鬥可由系統代為選擇目標與技能；官方更新公告持續調整自動戰鬥邏輯，適合分析便利性與手動決策的取捨。",
+        "imageUrl": "https://fastcdn.hoyoverse.com/mi18n/hkrpg_global/m20260904hy5hcii9ds/upload/f0981b5c04af1c7a720d0bd65d958c52_1494770406828241360.png",
+        "sourceUrl": "https://hsr.hoyoverse.com/en-us/",
+        "imageKind": "官方宣傳圖",
+        "accessed": "2026-10-02"
       },
       {
-        "title": "鳴潮",
-        "en": "Wuthering Waves",
-        "appid": 3513350,
-        "year": 2024,
-        "why": "動作戰鬥手遊也提供自動託管功能"
+        "title": "楓之谷M",
+        "en": "MapleStory M",
+        "appid": 3969080,
+        "year": 2018,
+        "why": "橫向卷軸 MMORPG 的自動練功代表案例，官方介紹明載自動戰鬥選項與成長系統。",
+        "sourceUrl": "https://store.steampowered.com/app/3969080/",
+        "accessed": "2026-10-02"
       }
     ],
     "steamTags": [],
@@ -496,6 +582,24 @@
         "url": "https://en.wikipedia.org/wiki/Auto_battler",
         "accessed": "2026-09-17",
         "note": "自動戰鬥相關機制的定義背景"
+      },
+      {
+        "title": "官方遊戲介紹：Genshin Impact",
+        "url": "https://genshin.hoyoverse.com/en/news/103756",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方宣傳圖）"
+      },
+      {
+        "title": "崩壞：星穹鐵道官方 4.2 更新公告",
+        "url": "https://www.hoyolab.com/article/44742273",
+        "accessed": "2026-10-02",
+        "note": "自動戰鬥目標與技能選擇邏輯調整"
+      },
+      {
+        "title": "楓之谷M Steam 官方介紹",
+        "url": "https://store.steampowered.com/app/3969080/",
+        "accessed": "2026-10-02",
+        "note": "官方明列 auto-battle options"
       }
     ],
     "status": "verified"
@@ -526,14 +630,22 @@
         "en": "The Seven Deadly Sins: Grand Cross",
         "appid": null,
         "year": 2019,
-        "why": "公會戰是其社交內容的招牌系統之一"
+        "why": "公會戰是其社交內容的招牌系統之一",
+        "imageUrl": "https://sgimage.netmarble.com/images/netmarble/nanagb/20250617/wjue1750129105793.jpg",
+        "sourceUrl": "https://7dsgc.netmarble.com/en/pcclient/n/n/nHvala",
+        "imageKind": "官方宣傳圖",
+        "accessed": "2026-10-02"
       },
       {
         "title": "夢幻模擬戰",
         "en": "Langrisser Mobile",
         "appid": null,
         "year": 2018,
-        "why": "戰棋手遊結合公會戰的代表案例"
+        "why": "戰棋手遊結合公會戰的代表案例",
+        "imageUrl": "https://play-lh.googleusercontent.com/Y2OX5Y8C_S84YJY6wrQ4R0pnh7hBJXEKU4sG_P3glM72e-jjBfE-g2ouxTPX1mdEmRsJhwY427Y8dvrM8v-H2Q=w526-h296",
+        "sourceUrl": "https://play.google.com/store/apps/details?id=com.zlongame.un.mhmnz",
+        "imageKind": "官方商店遊玩畫面",
+        "accessed": "2026-10-02"
       }
     ],
     "steamTags": [],
@@ -549,6 +661,18 @@
         "url": "https://support-hwa.nexters.com/hc/en-us/articles/6094698021266-Guild-War",
         "accessed": "2026-09-17",
         "note": "手遊公會戰官方說明頁面"
+      },
+      {
+        "title": "官方遊戲介紹：The Seven Deadly Sins: Grand Cross",
+        "url": "https://7dsgc.netmarble.com/en/pcclient/n/n/nHvala",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方宣傳圖）"
+      },
+      {
+        "title": "官方遊戲介紹：Langrisser Mobile",
+        "url": "https://play.google.com/store/apps/details?id=com.zlongame.un.mhmnz",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方商店遊玩畫面）"
       }
     ],
     "status": "verified"
@@ -586,7 +710,11 @@
         "en": "League of Legends",
         "appid": null,
         "year": 2009,
-        "why": "段位視覺化系統的教科書案例"
+        "why": "段位視覺化系統的教科書案例",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+        "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "imageKind": "官方教學示意圖",
+        "accessed": "2026-10-02"
       }
     ],
     "steamTags": [
@@ -618,6 +746,12 @@
         "url": "https://en.wikipedia.org/wiki/Skill-based_matchmaking",
         "accessed": "2026-09-17",
         "note": "MMR 與技能配對定義"
+      },
+      {
+        "title": "官方遊戲介紹：League of Legends",
+        "url": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方教學示意圖）"
       }
     ],
     "status": "verified"
@@ -649,7 +783,11 @@
         "en": "League of Legends",
         "appid": null,
         "year": 2009,
-        "why": "職業賽事 BP 環節最具代表性的遊戲"
+        "why": "職業賽事 BP 環節最具代表性的遊戲",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+        "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "imageKind": "官方教學示意圖",
+        "accessed": "2026-10-02"
       },
       {
         "title": "Dota 2",
@@ -678,6 +816,12 @@
         "url": "https://wiki.leagueoflegends.com/en-us/Team_drafting",
         "accessed": "2026-09-17",
         "note": "英雄聯盟禁選階段官方說明"
+      },
+      {
+        "title": "官方遊戲介紹：League of Legends",
+        "url": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方教學示意圖）"
       }
     ],
     "status": "verified"
@@ -707,7 +851,11 @@
         "en": "League of Legends",
         "appid": null,
         "year": 2009,
-        "why": "每兩週一次平衡更新的長年案例"
+        "why": "每兩週一次平衡更新的長年案例",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+        "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "imageKind": "官方教學示意圖",
+        "accessed": "2026-10-02"
       },
       {
         "title": "Dota 2",
@@ -740,6 +888,12 @@
         "url": "https://www.leagueoflegends.com/en-us/news/game-updates/league-of-legends-patch-26-16-notes/",
         "accessed": "2026-09-17",
         "note": "官方平衡更新公告範例"
+      },
+      {
+        "title": "官方遊戲介紹：League of Legends",
+        "url": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方教學示意圖）"
       }
     ],
     "status": "verified"
@@ -950,7 +1104,11 @@
         "en": "League of Legends",
         "appid": null,
         "year": 2009,
-        "why": "LPL／LCK／LCS 等國際賽事轉播團隊制度成熟"
+        "why": "LPL／LCK／LCS 等國際賽事轉播團隊制度成熟",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+        "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "imageKind": "官方教學示意圖",
+        "accessed": "2026-10-02"
       },
       {
         "title": "Dota 2",
@@ -978,6 +1136,12 @@
         "url": "https://en.wikipedia.org/wiki/Color_commentator",
         "accessed": "2026-09-17",
         "note": "賽評／色彩講評角色定義"
+      },
+      {
+        "title": "官方遊戲介紹：League of Legends",
+        "url": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方教學示意圖）"
       }
     ],
     "status": "verified"
@@ -1015,7 +1179,11 @@
         "en": "League of Legends",
         "appid": null,
         "year": 2009,
-        "why": "職業選手同樣要求高更新率與低延遲的競技環境"
+        "why": "職業選手同樣要求高更新率與低延遲的競技環境",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+        "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "imageKind": "官方教學示意圖",
+        "accessed": "2026-10-02"
       }
     ],
     "steamTags": [
@@ -1036,6 +1204,12 @@
         "url": "https://shattered.io/144hz-vs-240hz/",
         "accessed": "2026-09-17",
         "note": "不同更新率的延遲換算數據"
+      },
+      {
+        "title": "官方遊戲介紹：League of Legends",
+        "url": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方教學示意圖）"
       }
     ],
     "status": "verified"
@@ -1066,7 +1240,11 @@
         "en": "Genshin Impact",
         "appid": null,
         "year": 2020,
-        "why": "角色與武器池的高額課金玩家是常被討論的鯨魚案例"
+        "why": "角色與武器池的高額課金玩家是常被討論的鯨魚案例",
+        "imageUrl": "https://upload-static.hoyoverse.com/hk4e/upload/fb/common.jpg",
+        "sourceUrl": "https://genshin.hoyoverse.com/en/news/103756",
+        "imageKind": "官方宣傳圖",
+        "accessed": "2026-10-02"
       },
       {
         "title": "鳴潮",
@@ -1099,6 +1277,12 @@
         "url": "https://en.wikipedia.org/wiki/Free-to-play",
         "accessed": "2026-09-17",
         "note": "鯨魚、海豚、小魚玩家分層的營收比例數據"
+      },
+      {
+        "title": "官方遊戲介紹：Genshin Impact",
+        "url": "https://genshin.hoyoverse.com/en/news/103756",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方宣傳圖）"
       }
     ],
     "status": "verified"
@@ -1130,7 +1314,11 @@
         "en": "Genshin Impact",
         "appid": null,
         "year": 2020,
-        "why": "零課玩家社群長期分享免費資源分配攻略"
+        "why": "零課玩家社群長期分享免費資源分配攻略",
+        "imageUrl": "https://upload-static.hoyoverse.com/hk4e/upload/fb/common.jpg",
+        "sourceUrl": "https://genshin.hoyoverse.com/en/news/103756",
+        "imageKind": "官方宣傳圖",
+        "accessed": "2026-10-02"
       },
       {
         "title": "鳴潮",
@@ -1163,6 +1351,12 @@
         "url": "https://en.wikipedia.org/wiki/Free-to-play",
         "accessed": "2026-09-17",
         "note": "F2P 商業模式與玩家分層定義"
+      },
+      {
+        "title": "官方遊戲介紹：Genshin Impact",
+        "url": "https://genshin.hoyoverse.com/en/news/103756",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方宣傳圖）"
       }
     ],
     "status": "verified"
@@ -1195,7 +1389,11 @@
         "en": "Genshin Impact",
         "appid": null,
         "year": 2020,
-        "why": "90 抽硬保底、50/50 機制是最常被引用的保底範例"
+        "why": "90 抽硬保底、50/50 機制是最常被引用的保底範例",
+        "imageUrl": "https://upload-static.hoyoverse.com/hk4e/upload/fb/common.jpg",
+        "sourceUrl": "https://genshin.hoyoverse.com/en/news/103756",
+        "imageKind": "官方宣傳圖",
+        "accessed": "2026-10-02"
       },
       {
         "title": "鳴潮",
@@ -1224,6 +1422,12 @@
         "url": "https://en.wikipedia.org/wiki/Gacha_game",
         "accessed": "2026-09-17",
         "note": "軟保底、硬保底機制的正式定義"
+      },
+      {
+        "title": "官方遊戲介紹：Genshin Impact",
+        "url": "https://genshin.hoyoverse.com/en/news/103756",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方宣傳圖）"
       }
     ],
     "status": "verified"
@@ -1254,7 +1458,11 @@
         "en": "Genshin Impact",
         "appid": null,
         "year": 2020,
-        "why": "角色活動祈願卡池是這個詞最常見的使用情境"
+        "why": "角色活動祈願卡池是這個詞最常見的使用情境",
+        "imageUrl": "https://upload-static.hoyoverse.com/hk4e/upload/fb/common.jpg",
+        "sourceUrl": "https://genshin.hoyoverse.com/en/news/103756",
+        "imageKind": "官方宣傳圖",
+        "accessed": "2026-10-02"
       },
       {
         "title": "鳴潮",
@@ -1278,6 +1486,12 @@
         "url": "https://en.wikipedia.org/wiki/Gacha_game",
         "accessed": "2026-09-17",
         "note": "卡池定義與常駐、限時分類"
+      },
+      {
+        "title": "官方遊戲介紹：Genshin Impact",
+        "url": "https://genshin.hoyoverse.com/en/news/103756",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方宣傳圖）"
       }
     ],
     "status": "verified"
@@ -1308,7 +1522,11 @@
         "en": "Genshin Impact",
         "appid": null,
         "year": 2020,
-        "why": "以四星、五星取代字母的稀有度分級變體"
+        "why": "以四星、五星取代字母的稀有度分級變體",
+        "imageUrl": "https://upload-static.hoyoverse.com/hk4e/upload/fb/common.jpg",
+        "sourceUrl": "https://genshin.hoyoverse.com/en/news/103756",
+        "imageKind": "官方宣傳圖",
+        "accessed": "2026-10-02"
       },
       {
         "title": "鳴潮",
@@ -1337,6 +1555,12 @@
         "url": "https://www.fandomspot.com/gacha-rarity-levels/",
         "accessed": "2026-09-17",
         "note": "SSR／SR／R 稀有度分級定義與範例"
+      },
+      {
+        "title": "官方遊戲介紹：Genshin Impact",
+        "url": "https://genshin.hoyoverse.com/en/news/103756",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方宣傳圖）"
       }
     ],
     "status": "verified"
@@ -1367,7 +1591,11 @@
         "en": "Genshin Impact",
         "appid": null,
         "year": 2020,
-        "why": "命座系統是重複角色轉強化資源最知名的案例"
+        "why": "命座系統是重複角色轉強化資源最知名的案例",
+        "imageUrl": "https://upload-static.hoyoverse.com/hk4e/upload/fb/common.jpg",
+        "sourceUrl": "https://genshin.hoyoverse.com/en/news/103756",
+        "imageKind": "官方宣傳圖",
+        "accessed": "2026-10-02"
       },
       {
         "title": "鳴潮",
@@ -1391,6 +1619,12 @@
         "url": "https://www.appgamer.com/genshin-impact/strategy-guide/what-to-do-with-duplicate-characters-and-weapons",
         "accessed": "2026-09-17",
         "note": "原神重複角色轉命座機制說明"
+      },
+      {
+        "title": "官方遊戲介紹：Genshin Impact",
+        "url": "https://genshin.hoyoverse.com/en/news/103756",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方宣傳圖）"
       }
     ],
     "status": "verified"
@@ -1428,7 +1662,11 @@
         "en": "Genshin Impact",
         "appid": null,
         "year": 2020,
-        "why": "2020 年上線初期的首抽熱潮是開服衝刺的經典案例"
+        "why": "2020 年上線初期的首抽熱潮是開服衝刺的經典案例",
+        "imageUrl": "https://upload-static.hoyoverse.com/hk4e/upload/fb/common.jpg",
+        "sourceUrl": "https://genshin.hoyoverse.com/en/news/103756",
+        "imageKind": "官方宣傳圖",
+        "accessed": "2026-10-02"
       }
     ],
     "steamTags": [],
@@ -1444,6 +1682,12 @@
         "url": "https://gachago.com/en/features/the-gacha-gamers-glossary-terms-everyone-uses-but-few-understand",
         "accessed": "2026-09-17",
         "note": "開服新手資源與首抽相關黑話整理"
+      },
+      {
+        "title": "官方遊戲介紹：Genshin Impact",
+        "url": "https://genshin.hoyoverse.com/en/news/103756",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方宣傳圖）"
       }
     ],
     "status": "unverified"
@@ -1473,7 +1717,11 @@
         "en": "Genshin Impact",
         "appid": null,
         "year": 2020,
-        "why": "深境螺旋是終局內容長年被討論的代表案例"
+        "why": "深境螺旋是終局內容長年被討論的代表案例",
+        "imageUrl": "https://upload-static.hoyoverse.com/hk4e/upload/fb/common.jpg",
+        "sourceUrl": "https://genshin.hoyoverse.com/en/news/103756",
+        "imageKind": "官方宣傳圖",
+        "accessed": "2026-10-02"
       },
       {
         "title": "鳴潮",
@@ -1496,6 +1744,12 @@
         "url": "https://kotaku.com/genshin-impact-hoyoverse-spiral-abyss-endgame-1849616683",
         "accessed": "2026-09-17",
         "note": "終局內容更新頻率對玩家留存影響的報導"
+      },
+      {
+        "title": "官方遊戲介紹：Genshin Impact",
+        "url": "https://genshin.hoyoverse.com/en/news/103756",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方宣傳圖）"
       }
     ],
     "status": "verified"
@@ -1532,7 +1786,11 @@
         "en": "Genshin Impact",
         "appid": null,
         "year": 2020,
-        "why": "探索派遣等系統提供類似的離線收益體驗"
+        "why": "探索派遣等系統提供類似的離線收益體驗",
+        "imageUrl": "https://upload-static.hoyoverse.com/hk4e/upload/fb/common.jpg",
+        "sourceUrl": "https://genshin.hoyoverse.com/en/news/103756",
+        "imageKind": "官方宣傳圖",
+        "accessed": "2026-10-02"
       }
     ],
     "steamTags": [],
@@ -1548,6 +1806,12 @@
         "url": "https://en.wikipedia.org/wiki/Incremental_game",
         "accessed": "2026-09-17",
         "note": "放置與離線收益機制的定義起源"
+      },
+      {
+        "title": "官方遊戲介紹：Genshin Impact",
+        "url": "https://genshin.hoyoverse.com/en/news/103756",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方宣傳圖）"
       }
     ],
     "status": "verified"
@@ -1578,7 +1842,11 @@
         "en": "Genshin Impact",
         "appid": null,
         "year": 2020,
-        "why": "月卡是業界知名的高性價比課金範例"
+        "why": "月卡是業界知名的高性價比課金範例",
+        "imageUrl": "https://upload-static.hoyoverse.com/hk4e/upload/fb/common.jpg",
+        "sourceUrl": "https://genshin.hoyoverse.com/en/news/103756",
+        "imageKind": "官方宣傳圖",
+        "accessed": "2026-10-02"
       },
       {
         "title": "楓之谷M",
@@ -1601,6 +1869,12 @@
         "url": "https://en.wikipedia.org/wiki/Battle_pass",
         "accessed": "2026-09-17",
         "note": "訂閱式付費機制的相關定義背景，月卡為其低單價變體"
+      },
+      {
+        "title": "官方遊戲介紹：Genshin Impact",
+        "url": "https://genshin.hoyoverse.com/en/news/103756",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方宣傳圖）"
       }
     ],
     "status": "verified"
@@ -1630,7 +1904,11 @@
         "en": "Genshin Impact",
         "appid": null,
         "year": 2020,
-        "why": "版本活動商店提供限定素材兌換的常見設計"
+        "why": "版本活動商店提供限定素材兌換的常見設計",
+        "imageUrl": "https://upload-static.hoyoverse.com/hk4e/upload/fb/common.jpg",
+        "sourceUrl": "https://genshin.hoyoverse.com/en/news/103756",
+        "imageKind": "官方宣傳圖",
+        "accessed": "2026-10-02"
       },
       {
         "title": "鳴潮",
@@ -1653,6 +1931,12 @@
         "url": "https://www.blog.udonis.co/mobile-marketing/mobile-games/mobile-game-currencies",
         "accessed": "2026-09-17",
         "note": "活動貨幣與活動商店機制說明"
+      },
+      {
+        "title": "官方遊戲介紹：Genshin Impact",
+        "url": "https://genshin.hoyoverse.com/en/news/103756",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方宣傳圖）"
       }
     ],
     "status": "verified"
@@ -1679,18 +1963,22 @@
     ],
     "examples": [
       {
-        "title": "原神",
-        "en": "Genshin Impact",
+        "title": "崩壞：星穹鐵道",
+        "en": "Honkai: Star Rail",
         "appid": null,
-        "year": 2020,
-        "why": "深境螺旋是這類爬塔模式最常被引用的案例"
+        "year": 2023,
+        "why": "模擬宇宙將多場戰鬥串成一局，透過隨機事件、祝福與奇物形成局內組合，是抽卡遊戲加入 Roguelike 模式的代表案例。",
+        "imageUrl": "https://fastcdn.hoyoverse.com/mi18n/hkrpg_global/m20260904hy5hcii9ds/upload/f0981b5c04af1c7a720d0bd65d958c52_1494770406828241360.png",
+        "sourceUrl": "https://hsr.hoyoverse.com/en-us/",
+        "imageKind": "官方宣傳圖",
+        "accessed": "2026-10-02"
       },
       {
         "title": "鳴潮",
         "en": "Wuthering Waves",
         "appid": 3513350,
         "year": 2024,
-        "why": "高難度爬塔內容同樣借用逐層加難的框架"
+        "why": "「深境幻境」以局內增益與重複挑戰形成組合變化；比較時應觀察隨機性與局內成長，而非只看爬塔難度。"
       }
     ],
     "steamTags": [],
@@ -1711,6 +1999,18 @@
         "url": "https://bitspindle.com/blog/news/beyond-the-spiral-abyss-genshin-impacts-endgame-problem-and-the-struggle-for-player-retention/",
         "accessed": "2026-09-17",
         "note": "深境螺旋作為終局爬塔模式的分析"
+      },
+      {
+        "title": "官方遊戲介紹：Genshin Impact",
+        "url": "https://genshin.hoyoverse.com/en/news/103756",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方宣傳圖）"
+      },
+      {
+        "title": "崩壞：星穹鐵道官方模擬宇宙介紹",
+        "url": "https://www.hoyolab.com/article/17237205",
+        "accessed": "2026-10-02",
+        "note": "隨機事件、祝福與奇物"
       }
     ],
     "status": "verified"
@@ -1741,7 +2041,11 @@
         "en": "Genshin Impact",
         "appid": null,
         "year": 2020,
-        "why": "50/50 機制是 UP 角色機率設計最常被引用的案例"
+        "why": "50/50 機制是 UP 角色機率設計最常被引用的案例",
+        "imageUrl": "https://upload-static.hoyoverse.com/hk4e/upload/fb/common.jpg",
+        "sourceUrl": "https://genshin.hoyoverse.com/en/news/103756",
+        "imageKind": "官方宣傳圖",
+        "accessed": "2026-10-02"
       },
       {
         "title": "鳴潮",
@@ -1770,6 +2074,12 @@
         "url": "https://en.wikipedia.org/wiki/Gacha_game",
         "accessed": "2026-09-17",
         "note": "卡池與機率結構的正式描述"
+      },
+      {
+        "title": "官方遊戲介紹：Genshin Impact",
+        "url": "https://genshin.hoyoverse.com/en/news/103756",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方宣傳圖）"
       }
     ],
     "status": "verified"
@@ -1807,7 +2117,11 @@
         "en": "League of Legends",
         "appid": null,
         "year": 2009,
-        "why": "世界賽等重大賽事同樣堅持在 LAN 現場舉行"
+        "why": "世界賽等重大賽事同樣堅持在 LAN 現場舉行",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+        "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "imageKind": "官方教學示意圖",
+        "accessed": "2026-10-02"
       }
     ],
     "steamTags": [
@@ -1828,6 +2142,12 @@
         "url": "https://esportsmatchleague.com/lan-and-online-events/",
         "accessed": "2026-09-17",
         "note": "LAN 與線上賽事的差異與各自優劣勢"
+      },
+      {
+        "title": "官方遊戲介紹：League of Legends",
+        "url": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方教學示意圖）"
       }
     ],
     "status": "verified"
@@ -1858,7 +2178,11 @@
         "en": "League of Legends",
         "appid": null,
         "year": 2009,
-        "why": "每次改版後版本答案劇烈變動的代表遊戲"
+        "why": "每次改版後版本答案劇烈變動的代表遊戲",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+        "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "imageKind": "官方教學示意圖",
+        "accessed": "2026-10-02"
       },
       {
         "title": "Dota 2",
@@ -1891,6 +2215,12 @@
         "url": "https://plarium.com/en/blog/meta-in-gaming/",
         "accessed": "2026-09-17",
         "note": "Meta／版本答案的定義與形成過程"
+      },
+      {
+        "title": "官方遊戲介紹：League of Legends",
+        "url": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方教學示意圖）"
       }
     ],
     "status": "verified"
@@ -1921,7 +2251,11 @@
         "en": "League of Legends",
         "appid": null,
         "year": 2009,
-        "why": "職業戰隊賽前密集對練賽是常態訓練方式"
+        "why": "職業戰隊賽前密集對練賽是常態訓練方式",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+        "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "imageKind": "官方教學示意圖",
+        "accessed": "2026-10-02"
       },
       {
         "title": "Dota 2",
@@ -1954,6 +2288,12 @@
         "url": "https://www.noypigeeks.com/gaming/scrim-gaming-esports/",
         "accessed": "2026-09-17",
         "note": "Scrim 定義、用途與職業隊伍訓練實務"
+      },
+      {
+        "title": "官方遊戲介紹：League of Legends",
+        "url": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方教學示意圖）"
       }
     ],
     "status": "verified"
@@ -1983,7 +2323,11 @@
         "en": "League of Legends",
         "appid": null,
         "year": 2009,
-        "why": "職業聯賽轉會規則含明確名單鎖定期"
+        "why": "職業聯賽轉會規則含明確名單鎖定期",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+        "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "imageKind": "官方教學示意圖",
+        "accessed": "2026-10-02"
       },
       {
         "title": "Dota 2",
@@ -2017,6 +2361,12 @@
         "url": "https://en.wikipedia.org/wiki/Transfer_window",
         "accessed": "2026-09-17",
         "note": "轉會期概念的一般定義，電競賽事借用此框架"
+      },
+      {
+        "title": "官方遊戲介紹：League of Legends",
+        "url": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方教學示意圖）"
       }
     ],
     "status": "verified"
@@ -2054,7 +2404,11 @@
         "en": "League of Legends",
         "appid": null,
         "year": 2009,
-        "why": "世界賽淘汰賽同樣採用樹狀賽程圖呈現晉級路徑"
+        "why": "世界賽淘汰賽同樣採用樹狀賽程圖呈現晉級路徑",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+        "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "imageKind": "官方教學示意圖",
+        "accessed": "2026-10-02"
       }
     ],
     "steamTags": [
@@ -2081,6 +2435,12 @@
         "url": "https://en.wikipedia.org/wiki/Single-elimination_tournament",
         "accessed": "2026-09-17",
         "note": "單敗淘汰賽程結構定義"
+      },
+      {
+        "title": "官方遊戲介紹：League of Legends",
+        "url": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方教學示意圖）"
       }
     ],
     "status": "verified"
@@ -2118,7 +2478,11 @@
         "en": "League of Legends",
         "appid": null,
         "year": 2009,
-        "why": "職業賽事史上多次經濟優勢被葬送的比賽同樣被稱為 Throw"
+        "why": "職業賽事史上多次經濟優勢被葬送的比賽同樣被稱為 Throw",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+        "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "imageKind": "官方教學示意圖",
+        "accessed": "2026-10-02"
       }
     ],
     "steamTags": [
@@ -2143,6 +2507,12 @@
         "url": "https://www.translateen.com/blog/viral-trends-slang/throwing-the-game-meaning/",
         "accessed": "2026-09-17",
         "note": "Throw 一詞的定義與用法"
+      },
+      {
+        "title": "官方遊戲介紹：League of Legends",
+        "url": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方教學示意圖）"
       }
     ],
     "status": "verified"
@@ -2173,7 +2543,11 @@
         "en": "League of Legends",
         "appid": null,
         "year": 2009,
-        "why": "職業賽事史上多場經典逆轉勝廣為流傳"
+        "why": "職業賽事史上多場經典逆轉勝廣為流傳",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+        "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "imageKind": "官方教學示意圖",
+        "accessed": "2026-10-02"
       },
       {
         "title": "Dota 2",
@@ -2206,6 +2580,12 @@
         "url": "https://en.wikipedia.org/wiki/Comeback_(sports)",
         "accessed": "2026-09-17",
         "note": "逆轉勝的一般定義，適用於電競賽事語境"
+      },
+      {
+        "title": "官方遊戲介紹：League of Legends",
+        "url": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方教學示意圖）"
       }
     ],
     "status": "verified"
@@ -2243,7 +2623,11 @@
         "en": "League of Legends",
         "appid": null,
         "year": 2009,
-        "why": "操作與運營並重同樣是這款遊戲的核心競技維度"
+        "why": "操作與運營並重同樣是這款遊戲的核心競技維度",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+        "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "imageKind": "官方教學示意圖",
+        "accessed": "2026-10-02"
       }
     ],
     "steamTags": [
@@ -2270,6 +2654,12 @@
         "url": "https://en.wiktionary.org/wiki/macromanagement",
         "accessed": "2026-09-17",
         "note": "電競語境下 macro 的定義"
+      },
+      {
+        "title": "官方遊戲介紹：League of Legends",
+        "url": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方教學示意圖）"
       }
     ],
     "status": "verified"
@@ -2306,7 +2696,11 @@
         "en": "League of Legends",
         "appid": null,
         "year": 2009,
-        "why": "職業選手手速與操作頻率同樣是分析重點"
+        "why": "職業選手手速與操作頻率同樣是分析重點",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+        "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "imageKind": "官方教學示意圖",
+        "accessed": "2026-10-02"
       }
     ],
     "steamTags": [
@@ -2326,6 +2720,12 @@
         "url": "https://en.wikipedia.org/wiki/Actions_per_minute",
         "accessed": "2026-09-17",
         "note": "APM 定義、應用與侷限性"
+      },
+      {
+        "title": "官方遊戲介紹：League of Legends",
+        "url": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方教學示意圖）"
       }
     ],
     "status": "verified"

@@ -23,14 +23,14 @@
       {
         "title": "武裝突襲3",
         "en": "Arma 3",
-        "appid": null,
+        "appid": 107410,
         "year": 2013,
         "why": "PC 硬核軍事模擬的代表作，龐大模組社群延伸出各種戰術玩法"
       },
       {
         "title": "Squad",
         "en": "Squad",
-        "appid": null,
+        "appid": 393380,
         "year": 2020,
         "why": "強調大規模步兵協同與指揮系統的代表作"
       },
@@ -105,13 +105,21 @@
         "en": "Collar x Malice",
         "appid": null,
         "year": 2016,
-        "why": "Otomate 代表作，警探題材與多結局分支設計典型"
+        "why": "Otomate 代表作，警探題材與多結局分支設計典型",
+        "imageUrl": "https://store.aksysgames.com/cdn/shop/products/NS_JCF_CXM_1200x1200.png?v=1586452377",
+        "sourceUrl": "https://store.aksysgames.com/products/collar-x-malice-nintendo-switch",
+        "imageKind": "官方商品圖",
+        "accessed": "2026-10-02"
       },
       {
-        "title": "緋色的碎片：薄暮之戀",
+        "title": "Piofiore: Fated Memories",
         "en": "Piofiore: Fated Memories",
         "appid": null,
-        "why": "黑幫題材乙女遊戲代表作之一，有英語與繁中在地化版本"
+        "why": "黑幫題材乙女遊戲代表作之一，有英語與繁中在地化版本",
+        "imageUrl": "https://store.aksysgames.com/cdn/shop/products/CG_1106_1200x1200.jpg?v=1607039528",
+        "sourceUrl": "https://store.aksysgames.com/products/piofiore-fated-memories-nintendo-switch",
+        "imageKind": "官方劇情畫面",
+        "accessed": "2026-10-02"
       }
     ],
     "steamTags": [
@@ -143,6 +151,18 @@
         "url": "https://store.steampowered.com/tags/en/Otome/",
         "accessed": "2026-09-17",
         "note": "確認 Otome 標籤存在"
+      },
+      {
+        "title": "官方遊戲介紹：Collar x Malice",
+        "url": "https://store.aksysgames.com/products/collar-x-malice-nintendo-switch",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方商品圖）"
+      },
+      {
+        "title": "官方遊戲介紹：Piofiore: Fated Memories",
+        "url": "https://store.aksysgames.com/products/piofiore-fated-memories-nintendo-switch",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方劇情畫面）"
       }
     ],
     "status": "verified"
@@ -170,7 +190,7 @@
       {
         "title": "夢想老爸",
         "en": "Dream Daddy: A Dad Dating Simulator",
-        "appid": null,
+        "appid": 654880,
         "year": 2017,
         "why": "以單親爸爸社群為題材、廣受好評的戀愛模擬代表作"
       },
@@ -184,7 +204,7 @@
       {
         "title": "怪物舞會",
         "en": "Monster Prom",
-        "appid": null,
+        "appid": 743450,
         "year": 2018,
         "why": "多人同樂、限時搶攻對象的喜劇戀愛模擬代表"
       }
@@ -255,9 +275,13 @@
       {
         "title": "王權",
         "en": "Reigns",
-        "appid": null,
+        "appid": 474750,
         "year": 2016,
-        "why": "以左右滑動選項推進劇情的極簡互動小說代表"
+        "why": "以左右滑動選項推進劇情的極簡互動小說代表",
+        "sourceUrl": "https://store.steampowered.com/app/474750/",
+        "accessed": "2026-10-02",
+        "selectionNote": "玩法代表性；Steam 全語言累積好評 86.8%（8,137 則，2026-10-02）。",
+        "reviewSource": "https://store.steampowered.com/appreviews/474750?json=1&language=all&purchase_type=all&filter=summary"
       }
     ],
     "steamTags": [
@@ -289,6 +313,12 @@
         "url": "https://store.steampowered.com/tags/en/Interactive%20Fiction/",
         "accessed": "2026-09-17",
         "note": "確認 Interactive Fiction 標籤存在"
+      },
+      {
+        "title": "Steam 官方：Reigns",
+        "url": "https://store.steampowered.com/app/474750/",
+        "accessed": "2026-10-02",
+        "note": "範例版本、圖片與遊戲介紹"
       }
     ],
     "status": "verified"
@@ -316,7 +346,7 @@
       {
         "title": "Sokobond",
         "en": "Sokobond",
-        "appid": null,
+        "appid": 290260,
         "year": 2013,
         "why": "把推箱子規則與化學鍵結合的變體解謎代表"
       },
@@ -330,7 +360,7 @@
       {
         "title": "史蒂芬的香腸捲",
         "en": "Stephen's Sausage Roll",
-        "appid": null,
+        "appid": 353540,
         "year": 2016,
         "why": "以極高難度聞名的倉庫番變體，被視為解謎設計教科書"
       }
@@ -391,22 +421,30 @@
     ],
     "examples": [
       {
-        "title": "謎案調查系列",
-        "en": "Mystery Case Files",
-        "appid": null,
-        "why": "奠定現代隱藏物件遊戲格式的長壽系列代表"
+        "title": "Mystery Case Files: Ravenhearst",
+        "en": "Mystery Case Files: Ravenhearst",
+        "appid": 50990,
+        "why": "從謎案調查系列選出 Ravenhearst，觀察清單找物、場景調查與日記線索的結合。",
+        "sourceUrl": "https://store.steampowered.com/app/50990/",
+        "accessed": "2026-10-02",
+        "selectionNote": "玩法代表性；Steam 全語言累積好評 89.8%（187 則，2026-10-02）。",
+        "reviewSource": "https://store.steampowered.com/appreviews/50990?json=1&language=all&purchase_type=all&filter=summary"
       },
       {
         "title": "六月之旅",
         "en": "June's Journey",
         "appid": null,
         "year": 2019,
-        "why": "結合裝飾與敘事的當代熱門手機隱藏物件遊戲"
+        "why": "結合裝飾與敘事的當代熱門手機隱藏物件遊戲",
+        "imageUrl": "https://junes-journey-production.fra1.cdn.digitaloceanspaces.com/_media/1.jpeg",
+        "sourceUrl": "https://www.junesjourney.com/",
+        "imageKind": "官方宣傳圖",
+        "accessed": "2026-10-02"
       },
       {
         "title": "隱藏之民",
         "en": "Hidden Folks",
-        "appid": null,
+        "appid": 435400,
         "year": 2017,
         "why": "以手繪黑白畫風重新詮釋找物玩法的獨立代表"
       }
@@ -440,6 +478,18 @@
         "url": "https://store.steampowered.com/tags/en/Hidden%20Object/",
         "accessed": "2026-09-17",
         "note": "確認 Hidden Object 標籤存在"
+      },
+      {
+        "title": "Steam 官方：Mystery Case Files: Ravenhearst®",
+        "url": "https://store.steampowered.com/app/50990/",
+        "accessed": "2026-10-02",
+        "note": "範例版本、圖片與遊戲介紹"
+      },
+      {
+        "title": "官方遊戲介紹：June's Journey",
+        "url": "https://www.junesjourney.com/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方宣傳圖）"
       }
     ],
     "status": "verified"
@@ -468,14 +518,14 @@
       {
         "title": "The Room 系列",
         "en": "The Room",
-        "appid": null,
+        "appid": 288160,
         "year": 2012,
         "why": "以精緻機關道具與觸控互動聞名，帶動手機密室解謎風潮的代表"
       },
       {
         "title": "逃脫模擬器",
         "en": "Escape Simulator",
-        "appid": null,
+        "appid": 1435790,
         "year": 2021,
         "why": "支援多人合作、可自製關卡的 PC 密室逃脫代表作"
       }
@@ -538,10 +588,14 @@
       },
       {
         "title": "塔利斯曼：數位版",
-        "en": "Talisman: Digital Edition",
-        "appid": null,
+        "en": "Talisman: Digital Classic Edition",
+        "appid": 247000,
         "year": 2013,
-        "why": "經典奇幻桌遊的忠實數位改編代表"
+        "why": "經典奇幻桌遊的忠實數位改編代表",
+        "sourceUrl": "https://store.steampowered.com/app/247000/",
+        "accessed": "2026-10-02",
+        "selectionNote": "玩法代表性；Steam 全語言累積好評 78.2%（10,031 則，2026-10-02）。",
+        "reviewSource": "https://store.steampowered.com/appreviews/247000?json=1&language=all&purchase_type=all&filter=summary"
       }
     ],
     "steamTags": [
@@ -577,6 +631,12 @@
         "url": "https://store.steampowered.com/tags/en/Board%20Game/",
         "accessed": "2026-09-17",
         "note": "確認 Board Game 標籤存在"
+      },
+      {
+        "title": "Steam 官方：Talisman: Digital Classic Edition",
+        "url": "https://store.steampowered.com/app/247000/",
+        "accessed": "2026-10-02",
+        "note": "範例版本、圖片與遊戲介紹"
       }
     ],
     "status": "verified"
@@ -619,7 +679,7 @@
       {
         "title": "薩勒姆小鎮",
         "en": "Town of Salem",
-        "appid": null,
+        "appid": 334230,
         "year": 2014,
         "why": "早期把《狼人殺》規則完整數位化的代表作之一"
       }
@@ -680,11 +740,15 @@
         "why": "一名殺手對四名倖存者，非對稱多人類型最具代表性的作品"
       },
       {
-        "title": "進化",
-        "en": "Evolve",
-        "appid": null,
-        "year": 2015,
-        "why": "一名巨獸玩家對四名獵人的非對稱對戰代表作"
+        "title": "惡靈勢力 2（對抗模式）",
+        "en": "Left 4 Dead 2",
+        "appid": 550,
+        "year": 2009,
+        "why": "對抗模式讓一隊扮演倖存者、一隊扮演特殊感染者；雙方能力、資訊與操作體驗不同，是非對稱對戰的代表案例。",
+        "sourceUrl": "https://store.steampowered.com/app/550/",
+        "accessed": "2026-10-02",
+        "selectionNote": "玩法代表性；Steam 全語言累積好評 97.5%（1,060,609 則，2026-10-02）。",
+        "reviewSource": "https://store.steampowered.com/appreviews/550?json=1&language=all&purchase_type=all&filter=summary"
       }
     ],
     "steamTags": [],
@@ -705,6 +769,12 @@
         "url": "https://en.wikipedia.org/wiki/Asymmetric_gameplay",
         "accessed": "2026-09-17",
         "note": "非對稱多人定義，並列舉黎明死線、Evolve 為代表"
+      },
+      {
+        "title": "Steam 官方：Left 4 Dead 2",
+        "url": "https://store.steampowered.com/app/550/",
+        "accessed": "2026-10-02",
+        "note": "範例版本、圖片與遊戲介紹"
       }
     ],
     "status": "verified"
@@ -860,9 +930,13 @@
       {
         "title": "天際：上古卷軸5",
         "en": "The Elder Scrolls V: Skyrim",
-        "appid": null,
+        "appid": 72850,
         "year": 2011,
-        "why": "模組生態最活躍、被視為模組文化教科書等級的代表作"
+        "why": "模組生態最活躍、被視為模組文化教科書等級的代表作",
+        "sourceUrl": "https://store.steampowered.com/app/72850/",
+        "accessed": "2026-10-02",
+        "selectionNote": "玩法代表性；Steam 全語言累積好評 94.8%（317,800 則，2026-10-02）。",
+        "reviewSource": "https://store.steampowered.com/appreviews/72850?json=1&language=all&purchase_type=all&filter=summary"
       },
       {
         "title": "Garry's Mod",
@@ -903,6 +977,12 @@
         "url": "https://en.wikipedia.org/wiki/Steam_Workshop",
         "accessed": "2026-09-17",
         "note": "Steam Workshop 定義與起源沿革"
+      },
+      {
+        "title": "Steam 官方：The Elder Scrolls V: Skyrim",
+        "url": "https://store.steampowered.com/app/72850/",
+        "accessed": "2026-10-02",
+        "note": "範例版本、圖片與遊戲介紹"
       }
     ],
     "status": "verified"
@@ -1056,7 +1136,13 @@
         "en": "The Legend of Zelda: Breath of the Wild",
         "appid": null,
         "year": 2017,
-        "why": "主機遊戲需送交平台審核與實體壓片流程的代表性案例類型"
+        "why": "主機遊戲需送交平台審核與實體壓片流程的代表性案例類型",
+        "imageUrl": "https://assets.nintendo.com/image/upload/ar_16%3A9%2Cc_lpad%2Cw_1240/b_white/f_auto/q_auto/ncom/en_US/products/games/switch/the-legend-of-zelda-breath-of-the-wild/105208-switch-the-legend-of-zelda-breath-of-the-wild-us-1200x675",
+        "sourceUrl": "https://www.nintendo.com/us/store/products/the-legend-of-zelda-breath-of-the-wild-us/",
+        "imageKind": "官方宣傳圖",
+        "accessed": "2026-10-02",
+        "selectionNote": "玩法代表性；列入任天堂官方 Switch 主要軟體累積銷量表（截至 2026-06-30）。",
+        "selectionSource": "https://www.nintendo.co.jp/ir/en/finance/software/switch.html"
       },
       {
         "title": "電馭叛客2077",
@@ -1085,6 +1171,12 @@
         "url": "https://en.wikipedia.org/wiki/Software_release_life_cycle",
         "accessed": "2026-09-17",
         "note": "Gold master／Going gold／RTM 定義"
+      },
+      {
+        "title": "官方遊戲介紹：The Legend of Zelda: Breath of the Wild",
+        "url": "https://www.nintendo.com/us/store/products/the-legend-of-zelda-breath-of-the-wild-us/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方宣傳圖）"
       }
     ],
     "status": "verified"
@@ -1110,18 +1202,26 @@
     ],
     "examples": [
       {
-        "title": "Wii 回溯相容 GameCube 遊戲",
-        "en": "Wii Backward Compatibility with GameCube",
+        "title": "超級瑪利歐 奧德賽（Switch → Switch 2）",
+        "en": "Super Mario Odyssey",
         "appid": null,
-        "year": 2006,
-        "why": "Wikipedia 引用的經典案例，Wii 內建光碟插槽可直接執行 GameCube 遊戲片"
+        "year": 2017,
+        "why": "原 Switch 遊戲可在 Switch 2 繼續遊玩；官方另提供免費更新改善新主機上的體驗，可區分回溯相容與獨立重製版。",
+        "imageUrl": "https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.5/ncom/en_US/products/games/switch/super-mario-odyssey/105879-switch-super-mario-odyssey-us-1200x675",
+        "sourceUrl": "https://en-americas-support.nintendo.com/app/answers/detail/a_id/27783",
+        "imageKind": "官方宣傳圖",
+        "accessed": "2026-10-02"
       },
       {
         "title": "Xbox Series X|S 回溯相容計畫",
         "en": "Xbox Series X|S Backward Compatibility",
         "appid": null,
         "year": 2020,
-        "why": "涵蓋大量 Xbox 360 與 Xbox One 遊戲庫的當代大型回溯相容案例"
+        "why": "涵蓋大量 Xbox 360 與 Xbox One 遊戲庫的當代大型回溯相容案例",
+        "imageUrl": "https://assets.xboxservices.com/assets/02/d8/02d8c5c0-d3ed-415c-b9ed-07e57c9cab6b.jpg?n=Back-Compat_Sneaky-Slider-1084_Our-Promise_1600x675_01.jpg",
+        "sourceUrl": "https://www.xbox.com/en-US/games/backward-compatibility",
+        "imageKind": "官方宣傳圖",
+        "accessed": "2026-10-02"
       }
     ],
     "steamTags": [],
@@ -1141,6 +1241,18 @@
         "url": "https://en.wikipedia.org/wiki/Backward_compatibility",
         "accessed": "2026-09-17",
         "note": "回溯相容定義，並以 Wii 相容 GameCube 遊戲為例"
+      },
+      {
+        "title": "官方遊戲介紹：Xbox Series X|S Backward Compatibility",
+        "url": "https://www.xbox.com/en-US/games/backward-compatibility",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方宣傳圖）"
+      },
+      {
+        "title": "官方遊戲介紹：Super Mario Odyssey",
+        "url": "https://en-americas-support.nintendo.com/app/answers/detail/a_id/27783",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方宣傳圖）"
       }
     ],
     "status": "verified"
@@ -1177,7 +1289,11 @@
         "en": "Fortnite",
         "appid": null,
         "year": 2017,
-        "why": "免費遊玩加外觀內購與戰鬥通行證的營利模式代表"
+        "why": "免費遊玩加外觀內購與戰鬥通行證的營利模式代表",
+        "imageUrl": "https://cms-assets.unrealengine.com/cm6l5gfpm05kr07my04cqgy2x/cmqbdhpbt1hv007obyg3sf57r",
+        "sourceUrl": "https://www.fortnite.com/news?lang=en-US",
+        "imageKind": "官方宣傳圖",
+        "accessed": "2026-10-02"
       }
     ],
     "steamTags": [],
@@ -1200,6 +1316,12 @@
         "url": "https://en.wikipedia.org/wiki/Video_game_monetization",
         "accessed": "2026-09-17",
         "note": "遊戲營利手法定義與常見形式"
+      },
+      {
+        "title": "官方遊戲介紹：Fortnite",
+        "url": "https://www.fortnite.com/news?lang=en-US",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方宣傳圖）"
       }
     ],
     "status": "verified"
@@ -1230,7 +1352,11 @@
         "en": "Fortnite",
         "appid": null,
         "year": 2017,
-        "why": "以角色外觀與聯名造型為主力營收來源的代表作"
+        "why": "以角色外觀與聯名造型為主力營收來源的代表作",
+        "imageUrl": "https://cms-assets.unrealengine.com/cm6l5gfpm05kr07my04cqgy2x/cmqbdhpbt1hv007obyg3sf57r",
+        "sourceUrl": "https://www.fortnite.com/news?lang=en-US",
+        "imageKind": "官方宣傳圖",
+        "accessed": "2026-10-02"
       },
       {
         "title": "Apex 英雄",
@@ -1259,6 +1385,12 @@
         "url": "https://en.wikipedia.org/wiki/Microtransaction",
         "accessed": "2026-09-17",
         "note": "區分外觀型與功能型微交易的定義說明"
+      },
+      {
+        "title": "官方遊戲介紹：Fortnite",
+        "url": "https://www.fortnite.com/news?lang=en-US",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方宣傳圖）"
       }
     ],
     "status": "verified"
@@ -1287,14 +1419,14 @@
       {
         "title": "星際大戰：戰場前線2",
         "en": "Star Wars Battlefront II",
-        "appid": null,
+        "appid": 1237950,
         "year": 2017,
         "why": "因戰利品箱設計引發全球輿論與規管關注的指標性爭議案例"
       },
       {
         "title": "鬥陣特攻",
         "en": "Overwatch",
-        "appid": null,
+        "appid": 2357570,
         "year": 2016,
         "why": "早期以外觀型戰利品箱為主力營利、後續也捲入規管討論的代表作"
       }
@@ -1350,11 +1482,15 @@
         "why": "法國中型工作室 Asobo Studio 常被引用的雙 A 代表作"
       },
       {
-        "title": "控制",
-        "en": "Control",
-        "appid": null,
+        "title": "Control Ultimate Edition",
+        "en": "CONTROL Ultimate Edition",
+        "appid": 870780,
         "year": 2019,
-        "why": "Remedy Entertainment 以獨特美術與敘事風格聞名的雙 A 代表作"
+        "why": "Remedy Entertainment 以獨特美術與敘事風格聞名的雙 A 代表作",
+        "sourceUrl": "https://store.steampowered.com/app/870780/",
+        "accessed": "2026-10-02",
+        "selectionNote": "玩法代表性；Steam 全語言累積好評 86.1%（65,249 則，2026-10-02）。",
+        "reviewSource": "https://store.steampowered.com/appreviews/870780?json=1&language=all&purchase_type=all&filter=summary"
       }
     ],
     "steamTags": [],
@@ -1379,6 +1515,12 @@
         "url": "https://en.wikipedia.org/wiki/AA_(video_game_industry)",
         "accessed": "2026-09-17",
         "note": "雙 A 遊戲定義與產業定位說明"
+      },
+      {
+        "title": "Steam 官方：CONTROL Ultimate Edition",
+        "url": "https://store.steampowered.com/app/870780/",
+        "accessed": "2026-10-02",
+        "note": "範例版本、圖片與遊戲介紹"
       }
     ],
     "status": "verified"
@@ -1471,7 +1613,7 @@
       {
         "title": "無人深空",
         "en": "No Man's Sky",
-        "appid": null,
+        "appid": 275850,
         "year": 2016,
         "why": "靠長年持續兌現路線圖內容、被廣泛引用為產業逆轉口碑典範的代表作"
       },
@@ -1538,7 +1680,11 @@
         "en": "Fortnite",
         "appid": null,
         "year": 2017,
-        "why": "以高頻率活動與聯名內容聞名的 live ops 代表作"
+        "why": "以高頻率活動與聯名內容聞名的 live ops 代表作",
+        "imageUrl": "https://cms-assets.unrealengine.com/cm6l5gfpm05kr07my04cqgy2x/cmqbdhpbt1hv007obyg3sf57r",
+        "sourceUrl": "https://www.fortnite.com/news?lang=en-US",
+        "imageKind": "官方宣傳圖",
+        "accessed": "2026-10-02"
       },
       {
         "title": "Apex 英雄",
@@ -1567,6 +1713,12 @@
         "url": "https://en.wikipedia.org/wiki/Games_as_a_service",
         "accessed": "2026-09-17",
         "note": "服務型遊戲上線後持續更新與支援的一般性描述；未直接使用 live ops 一詞，見 report 說明"
+      },
+      {
+        "title": "官方遊戲介紹：Fortnite",
+        "url": "https://www.fortnite.com/news?lang=en-US",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方宣傳圖）"
       }
     ],
     "status": "unverified"

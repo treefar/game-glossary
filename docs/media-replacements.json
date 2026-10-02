@@ -1,0 +1,529 @@
+[
+  {
+    "entry": "mmorpg",
+    "original": {
+      "title": "Final Fantasy XIV",
+      "en": "Final Fantasy XIV",
+      "appid": null,
+      "year": 2013,
+      "why": "以劇情深度與版本更新節奏聞名的當代代表"
+    },
+    "repaired": {
+      "title": "Final Fantasy XIV",
+      "en": "FINAL FANTASY XIV Online",
+      "appid": 39210,
+      "year": 2013,
+      "why": "以劇情深度與版本更新節奏聞名的當代代表",
+      "sourceUrl": "https://store.steampowered.com/app/39210/",
+      "accessed": "2026-10-02",
+      "selectionNote": "玩法代表性；Steam 全語言累積好評 86.5%（85,855 則，2026-10-02）。",
+      "reviewSource": "https://store.steampowered.com/appreviews/39210?json=1&language=all&purchase_type=all&filter=summary"
+    },
+    "officialName": "FINAL FANTASY XIV Online"
+  },
+  {
+    "entry": "semi-open-world",
+    "original": {
+      "title": "戰神（2018）",
+      "en": "God of War (2018)",
+      "appid": null,
+      "year": 2018,
+      "why": "以中樞區域串聯多個主題關卡的半開放世界標竿"
+    },
+    "repaired": {
+      "title": "戰神（2018）",
+      "en": "God of War (2018)",
+      "appid": 1593500,
+      "year": 2018,
+      "why": "以中樞區域串聯多個主題關卡的半開放世界標竿",
+      "sourceUrl": "https://store.steampowered.com/app/1593500/",
+      "accessed": "2026-10-02",
+      "selectionNote": "玩法代表性；Steam 全語言累積好評 95.9%（185,248 則，2026-10-02）。",
+      "reviewSource": "https://store.steampowered.com/appreviews/1593500?json=1&language=all&purchase_type=all&filter=summary"
+    },
+    "officialName": "God of War"
+  },
+  {
+    "entry": "arena-shooter",
+    "original": {
+      "title": "虛幻競技場",
+      "en": "Unreal Tournament",
+      "appid": null,
+      "year": 1999,
+      "why": "與雷神之鎚系列並列的競技場射擊經典"
+    },
+    "repaired": {
+      "title": "虛幻競技場：年度遊戲版",
+      "en": "Unreal Tournament: Game of the Year Edition",
+      "appid": 13240,
+      "year": 1999,
+      "why": "與雷神之鎚系列並列的競技場射擊經典",
+      "sourceUrl": "https://store.steampowered.com/app/13240/",
+      "accessed": "2026-10-02",
+      "selectionNote": "玩法代表性；Steam 全語言累積好評 96.7%（4,466 則，2026-10-02）。",
+      "reviewSource": "https://store.steampowered.com/appreviews/13240?json=1&language=all&purchase_type=all&filter=summary"
+    },
+    "officialName": "Unreal Tournament: Game of the Year Edition"
+  },
+  {
+    "entry": "cast-time",
+    "original": {
+      "title": "Final Fantasy XIV",
+      "en": "Final Fantasy XIV",
+      "appid": null,
+      "year": 2013,
+      "why": "法系職業的吟唱時間與中斷機制是團隊戰術的重要環節"
+    },
+    "repaired": {
+      "title": "Final Fantasy XIV",
+      "en": "FINAL FANTASY XIV Online",
+      "appid": 39210,
+      "year": 2013,
+      "why": "法系職業的吟唱時間與中斷機制是團隊戰術的重要環節",
+      "sourceUrl": "https://store.steampowered.com/app/39210/",
+      "accessed": "2026-10-02",
+      "selectionNote": "玩法代表性；Steam 全語言累積好評 86.5%（85,855 則，2026-10-02）。",
+      "reviewSource": "https://store.steampowered.com/appreviews/39210?json=1&language=all&purchase_type=all&filter=summary"
+    },
+    "officialName": "FINAL FANTASY XIV Online"
+  },
+  {
+    "entry": "aggro",
+    "original": {
+      "title": "Final Fantasy XIV",
+      "en": "Final Fantasy XIV",
+      "appid": null,
+      "year": 2013,
+      "why": "聖三位一體團隊分工與仇恨管理的代表MMO"
+    },
+    "repaired": {
+      "title": "Final Fantasy XIV",
+      "en": "FINAL FANTASY XIV Online",
+      "appid": 39210,
+      "year": 2013,
+      "why": "聖三位一體團隊分工與仇恨管理的代表MMO",
+      "sourceUrl": "https://store.steampowered.com/app/39210/",
+      "accessed": "2026-10-02",
+      "selectionNote": "玩法代表性；Steam 全語言累積好評 86.5%（85,855 則，2026-10-02）。",
+      "reviewSource": "https://store.steampowered.com/appreviews/39210?json=1&language=all&purchase_type=all&filter=summary"
+    },
+    "officialName": "FINAL FANTASY XIV Online"
+  },
+  {
+    "entry": "momentum",
+    "original": {
+      "title": "音速小子",
+      "en": "Sonic the Hedgehog",
+      "appid": null,
+      "year": 1991,
+      "why": "動量驅動平台跳躍設計的原始代表系列"
+    },
+    "repaired": {
+      "title": "Sonic Mania",
+      "en": "Sonic Mania",
+      "appid": 584400,
+      "year": 2017,
+      "why": "以經典 2D 音速小子玩法展示坡面加速、慣性與高速路線，適合觀察動量如何連結地形與操作。",
+      "sourceUrl": "https://store.steampowered.com/app/584400/",
+      "accessed": "2026-10-02",
+      "selectionNote": "玩法代表性；Steam 全語言累積好評 93.9%（28,952 則，2026-10-02）。",
+      "reviewSource": "https://store.steampowered.com/appreviews/584400?json=1&language=all&purchase_type=all&filter=summary"
+    },
+    "officialName": "Sonic Mania"
+  },
+  {
+    "entry": "inventory",
+    "original": {
+      "title": "上古卷軸5：無界天際",
+      "en": "The Elder Scrolls V: Skyrim",
+      "appid": 489830,
+      "year": 2011,
+      "why": "重量制庫存搭配負重過重的移動懲罰"
+    },
+    "repaired": {
+      "title": "上古卷軸5：無界天際",
+      "en": "The Elder Scrolls V: Skyrim",
+      "appid": 72850,
+      "year": 2011,
+      "why": "重量制庫存搭配負重過重的移動懲罰",
+      "sourceUrl": "https://store.steampowered.com/app/72850/",
+      "accessed": "2026-10-02",
+      "selectionNote": "玩法代表性；Steam 全語言累積好評 94.8%（317,800 則，2026-10-02）。",
+      "reviewSource": "https://store.steampowered.com/appreviews/72850?json=1&language=all&purchase_type=all&filter=summary"
+    },
+    "officialName": "The Elder Scrolls V: Skyrim"
+  },
+  {
+    "entry": "fast-travel",
+    "original": {
+      "title": "上古卷軸5：無界天際",
+      "en": "The Elder Scrolls V: Skyrim",
+      "appid": 489830,
+      "year": 2011,
+      "why": "任意已知地點皆可直接傳送的自由式設計"
+    },
+    "repaired": {
+      "title": "上古卷軸5：無界天際",
+      "en": "The Elder Scrolls V: Skyrim",
+      "appid": 72850,
+      "year": 2011,
+      "why": "任意已知地點皆可直接傳送的自由式設計",
+      "sourceUrl": "https://store.steampowered.com/app/72850/",
+      "accessed": "2026-10-02",
+      "selectionNote": "玩法代表性；Steam 全語言累積好評 94.8%（317,800 則，2026-10-02）。",
+      "reviewSource": "https://store.steampowered.com/appreviews/72850?json=1&language=all&purchase_type=all&filter=summary"
+    },
+    "officialName": "The Elder Scrolls V: Skyrim"
+  },
+  {
+    "entry": "flow-state",
+    "original": {
+      "title": "俄羅斯方塊",
+      "en": "Tetris",
+      "appid": null,
+      "year": 1984,
+      "why": "速度隨等級提升維持挑戰與技能平衡的經典案例"
+    },
+    "repaired": {
+      "title": "俄羅斯方塊效應：連結",
+      "en": "Tetris Effect: Connected",
+      "appid": 1003590,
+      "year": 2020,
+      "why": "方塊下落速度與音畫節奏逐步提高，讓玩家在熟練操作與持續挑戰之間維持專注，可觀察心流條件。",
+      "sourceUrl": "https://store.steampowered.com/app/1003590/",
+      "accessed": "2026-10-02",
+      "selectionNote": "玩法代表性；Steam 全語言累積好評 94.5%（9,047 則，2026-10-02）。",
+      "reviewSource": "https://store.steampowered.com/appreviews/1003590?json=1&language=all&purchase_type=all&filter=summary"
+    },
+    "officialName": "Tetris® Effect: Connected"
+  },
+  {
+    "entry": "save-scumming",
+    "original": {
+      "title": "上古卷軸5：無界天際",
+      "en": "The Elder Scrolls V: Skyrim",
+      "appid": 489830,
+      "year": 2011,
+      "why": "自由存檔制度讓存讀作弊幾乎沒有限制"
+    },
+    "repaired": {
+      "title": "上古卷軸5：無界天際",
+      "en": "The Elder Scrolls V: Skyrim",
+      "appid": 72850,
+      "year": 2011,
+      "why": "自由存檔制度讓存讀作弊幾乎沒有限制",
+      "sourceUrl": "https://store.steampowered.com/app/72850/",
+      "accessed": "2026-10-02",
+      "selectionNote": "玩法代表性；Steam 全語言累積好評 94.8%（317,800 則，2026-10-02）。",
+      "reviewSource": "https://store.steampowered.com/appreviews/72850?json=1&language=all&purchase_type=all&filter=summary"
+    },
+    "officialName": "The Elder Scrolls V: Skyrim"
+  },
+  {
+    "entry": "grind",
+    "original": {
+      "title": "上古卷軸5：無界天際",
+      "en": "The Elder Scrolls V: Skyrim",
+      "appid": 489830,
+      "year": 2011,
+      "why": "重複施放法術提升熟練度的技能刷等系統"
+    },
+    "repaired": {
+      "title": "上古卷軸5：無界天際",
+      "en": "The Elder Scrolls V: Skyrim",
+      "appid": 72850,
+      "year": 2011,
+      "why": "重複施放法術提升熟練度的技能刷等系統",
+      "sourceUrl": "https://store.steampowered.com/app/72850/",
+      "accessed": "2026-10-02",
+      "selectionNote": "玩法代表性；Steam 全語言累積好評 94.8%（317,800 則，2026-10-02）。",
+      "reviewSource": "https://store.steampowered.com/appreviews/72850?json=1&language=all&purchase_type=all&filter=summary"
+    },
+    "officialName": "The Elder Scrolls V: Skyrim"
+  },
+  {
+    "entry": "progression-system",
+    "original": {
+      "title": "上古卷軸5：無界天際",
+      "en": "The Elder Scrolls V: Skyrim",
+      "appid": 489830,
+      "year": 2011,
+      "why": "依實際使用技能類型成長的活動制進度系統"
+    },
+    "repaired": {
+      "title": "上古卷軸5：無界天際",
+      "en": "The Elder Scrolls V: Skyrim",
+      "appid": 72850,
+      "year": 2011,
+      "why": "依實際使用技能類型成長的活動制進度系統",
+      "sourceUrl": "https://store.steampowered.com/app/72850/",
+      "accessed": "2026-10-02",
+      "selectionNote": "玩法代表性；Steam 全語言累積好評 94.8%（317,800 則，2026-10-02）。",
+      "reviewSource": "https://store.steampowered.com/appreviews/72850?json=1&language=all&purchase_type=all&filter=summary"
+    },
+    "officialName": "The Elder Scrolls V: Skyrim"
+  },
+  {
+    "entry": "level-scaling",
+    "original": {
+      "title": "上古卷軸5：無界天際",
+      "en": "The Elder Scrolls V: Skyrim",
+      "appid": 489830,
+      "year": 2011,
+      "why": "調整後的等級縮放機制，緩解前作爭議"
+    },
+    "repaired": {
+      "title": "上古卷軸5：無界天際",
+      "en": "The Elder Scrolls V: Skyrim",
+      "appid": 72850,
+      "year": 2011,
+      "why": "調整後的等級縮放機制，緩解前作爭議",
+      "sourceUrl": "https://store.steampowered.com/app/72850/",
+      "accessed": "2026-10-02",
+      "selectionNote": "玩法代表性；Steam 全語言累積好評 94.8%（317,800 則，2026-10-02）。",
+      "reviewSource": "https://store.steampowered.com/appreviews/72850?json=1&language=all&purchase_type=all&filter=summary"
+    },
+    "officialName": "The Elder Scrolls V: Skyrim"
+  },
+  {
+    "entry": "quest-design",
+    "original": {
+      "title": "上古卷軸5：無界天際",
+      "en": "The Elder Scrolls V: Skyrim",
+      "appid": 489830,
+      "year": 2011,
+      "why": "大量重複性委託任務支撐長期遊玩時數的案例"
+    },
+    "repaired": {
+      "title": "上古卷軸5：無界天際",
+      "en": "The Elder Scrolls V: Skyrim",
+      "appid": 72850,
+      "year": 2011,
+      "why": "大量重複性委託任務支撐長期遊玩時數的案例",
+      "sourceUrl": "https://store.steampowered.com/app/72850/",
+      "accessed": "2026-10-02",
+      "selectionNote": "玩法代表性；Steam 全語言累積好評 94.8%（317,800 則，2026-10-02）。",
+      "reviewSource": "https://store.steampowered.com/appreviews/72850?json=1&language=all&purchase_type=all&filter=summary"
+    },
+    "officialName": "The Elder Scrolls V: Skyrim"
+  },
+  {
+    "entry": "mda-framework",
+    "original": {
+      "title": "俄羅斯方塊",
+      "en": "Tetris",
+      "appid": null,
+      "year": 1984,
+      "why": "常被引用示範單純機制如何產生「挑戰」美學的教學案例"
+    },
+    "repaired": {
+      "title": "俄羅斯方塊效應：連結",
+      "en": "Tetris Effect: Connected",
+      "appid": 1003590,
+      "year": 2020,
+      "why": "以俄羅斯方塊的旋轉、消行規則，分析玩家決策形成的動態與音畫回饋帶來的美感體驗。",
+      "sourceUrl": "https://store.steampowered.com/app/1003590/",
+      "accessed": "2026-10-02",
+      "selectionNote": "玩法代表性；Steam 全語言累積好評 94.5%（9,047 則，2026-10-02）。",
+      "reviewSource": "https://store.steampowered.com/appreviews/1003590?json=1&language=all&purchase_type=all&filter=summary"
+    },
+    "officialName": "Tetris® Effect: Connected"
+  },
+  {
+    "entry": "interactive-fiction",
+    "original": {
+      "title": "王權",
+      "en": "Reigns",
+      "appid": null,
+      "year": 2016,
+      "why": "以左右滑動選項推進劇情的極簡互動小說代表"
+    },
+    "repaired": {
+      "title": "王權",
+      "en": "Reigns",
+      "appid": 474750,
+      "year": 2016,
+      "why": "以左右滑動選項推進劇情的極簡互動小說代表",
+      "sourceUrl": "https://store.steampowered.com/app/474750/",
+      "accessed": "2026-10-02",
+      "selectionNote": "玩法代表性；Steam 全語言累積好評 86.8%（8,137 則，2026-10-02）。",
+      "reviewSource": "https://store.steampowered.com/appreviews/474750?json=1&language=all&purchase_type=all&filter=summary"
+    },
+    "officialName": "Reigns"
+  },
+  {
+    "entry": "hidden-object",
+    "original": {
+      "title": "謎案調查系列",
+      "en": "Mystery Case Files",
+      "appid": null,
+      "why": "奠定現代隱藏物件遊戲格式的長壽系列代表"
+    },
+    "repaired": {
+      "title": "Mystery Case Files: Ravenhearst",
+      "en": "Mystery Case Files: Ravenhearst",
+      "appid": 50990,
+      "why": "從謎案調查系列選出 Ravenhearst，觀察清單找物、場景調查與日記線索的結合。",
+      "sourceUrl": "https://store.steampowered.com/app/50990/",
+      "accessed": "2026-10-02",
+      "selectionNote": "玩法代表性；Steam 全語言累積好評 89.8%（187 則，2026-10-02）。",
+      "reviewSource": "https://store.steampowered.com/appreviews/50990?json=1&language=all&purchase_type=all&filter=summary"
+    },
+    "officialName": "Mystery Case Files: Ravenhearst®"
+  },
+  {
+    "entry": "board-game-digital",
+    "original": {
+      "title": "塔利斯曼：數位版",
+      "en": "Talisman: Digital Edition",
+      "appid": null,
+      "year": 2013,
+      "why": "經典奇幻桌遊的忠實數位改編代表"
+    },
+    "repaired": {
+      "title": "塔利斯曼：數位版",
+      "en": "Talisman: Digital Classic Edition",
+      "appid": 247000,
+      "year": 2013,
+      "why": "經典奇幻桌遊的忠實數位改編代表",
+      "sourceUrl": "https://store.steampowered.com/app/247000/",
+      "accessed": "2026-10-02",
+      "selectionNote": "玩法代表性；Steam 全語言累積好評 78.2%（10,031 則，2026-10-02）。",
+      "reviewSource": "https://store.steampowered.com/appreviews/247000?json=1&language=all&purchase_type=all&filter=summary"
+    },
+    "officialName": "Talisman: Digital Classic Edition"
+  },
+  {
+    "entry": "asymmetric-multiplayer",
+    "original": {
+      "title": "進化",
+      "en": "Evolve",
+      "appid": null,
+      "year": 2015,
+      "why": "一名巨獸玩家對四名獵人的非對稱對戰代表作"
+    },
+    "repaired": {
+      "title": "惡靈勢力 2（對抗模式）",
+      "en": "Left 4 Dead 2",
+      "appid": 550,
+      "year": 2009,
+      "why": "對抗模式讓一隊扮演倖存者、一隊扮演特殊感染者；雙方能力、資訊與操作體驗不同，是非對稱對戰的代表案例。",
+      "sourceUrl": "https://store.steampowered.com/app/550/",
+      "accessed": "2026-10-02",
+      "selectionNote": "玩法代表性；Steam 全語言累積好評 97.5%（1,060,609 則，2026-10-02）。",
+      "reviewSource": "https://store.steampowered.com/appreviews/550?json=1&language=all&purchase_type=all&filter=summary"
+    },
+    "officialName": "Left 4 Dead 2"
+  },
+  {
+    "entry": "mod-workshop",
+    "original": {
+      "title": "天際：上古卷軸5",
+      "en": "The Elder Scrolls V: Skyrim",
+      "appid": null,
+      "year": 2011,
+      "why": "模組生態最活躍、被視為模組文化教科書等級的代表作"
+    },
+    "repaired": {
+      "title": "天際：上古卷軸5",
+      "en": "The Elder Scrolls V: Skyrim",
+      "appid": 72850,
+      "year": 2011,
+      "why": "模組生態最活躍、被視為模組文化教科書等級的代表作",
+      "sourceUrl": "https://store.steampowered.com/app/72850/",
+      "accessed": "2026-10-02",
+      "selectionNote": "玩法代表性；Steam 全語言累積好評 94.8%（317,800 則，2026-10-02）。",
+      "reviewSource": "https://store.steampowered.com/appreviews/72850?json=1&language=all&purchase_type=all&filter=summary"
+    },
+    "officialName": "The Elder Scrolls V: Skyrim"
+  },
+  {
+    "entry": "aa-game",
+    "original": {
+      "title": "控制",
+      "en": "Control",
+      "appid": null,
+      "year": 2019,
+      "why": "Remedy Entertainment 以獨特美術與敘事風格聞名的雙 A 代表作"
+    },
+    "repaired": {
+      "title": "Control Ultimate Edition",
+      "en": "CONTROL Ultimate Edition",
+      "appid": 870780,
+      "year": 2019,
+      "why": "Remedy Entertainment 以獨特美術與敘事風格聞名的雙 A 代表作",
+      "sourceUrl": "https://store.steampowered.com/app/870780/",
+      "accessed": "2026-10-02",
+      "selectionNote": "玩法代表性；Steam 全語言累積好評 86.1%（65,249 則，2026-10-02）。",
+      "reviewSource": "https://store.steampowered.com/appreviews/870780?json=1&language=all&purchase_type=all&filter=summary"
+    },
+    "officialName": "CONTROL Ultimate Edition"
+  },
+  {
+    "entry": "unreliable-narrator",
+    "original": {
+      "title": "惡靈勢力：直線",
+      "en": "Spec Ops: The Line",
+      "appid": null,
+      "year": 2012,
+      "why": "主角沃克的敘述與玩家看到的畫面逐漸出現落差，揭露戰爭創傷造成的認知扭曲"
+    },
+    "repaired": {
+      "title": "Spec Ops: The Line",
+      "en": "Spec Ops: The Line",
+      "appid": 50300,
+      "year": 2012,
+      "why": "主角沃克的敘述與玩家看到的畫面逐漸出現落差，揭露戰爭創傷造成的認知扭曲",
+      "sourceUrl": "https://store.steampowered.com/app/50300/",
+      "accessed": "2026-10-02",
+      "selectionNote": "玩法代表性；Steam 全語言累積好評 93.4%（56,394 則，2026-10-02）。",
+      "reviewSource": "https://store.steampowered.com/appreviews/50300?json=1&language=all&purchase_type=all&filter=summary"
+    },
+    "officialName": "Spec Ops: The Line"
+  },
+  {
+    "entry": "fourth-wall",
+    "original": {
+      "title": "潛龍諜影",
+      "en": "Metal Gear Solid",
+      "appid": null,
+      "year": 1998,
+      "why": "要求玩家把控制器實際放到脖子上模擬按摩，混淆虛構與現實的邊界"
+    },
+    "repaired": {
+      "title": "潛龍諜影（Master Collection 版）",
+      "en": "METAL GEAR SOLID - Master Collection Version",
+      "appid": 2131630,
+      "year": 1998,
+      "why": "要求玩家把控制器實際放到脖子上模擬按摩，混淆虛構與現實的邊界",
+      "imageKind": "官方遊玩截圖（原作移植版）",
+      "sourceUrl": "https://store.steampowered.com/app/2131630/",
+      "accessed": "2026-10-02",
+      "selectionNote": "玩法代表性；Steam 全語言累積好評 83.2%（6,156 則，2026-10-02）。",
+      "reviewSource": "https://store.steampowered.com/appreviews/2131630?json=1&language=all&purchase_type=all&filter=summary"
+    },
+    "officialName": "METAL GEAR SOLID - Master Collection Version"
+  },
+  {
+    "entry": "framing-device",
+    "original": {
+      "title": "惡靈勢力：直線",
+      "en": "Spec Ops: The Line",
+      "appid": null,
+      "year": 2012,
+      "why": "以事後審視的敘事口吻包裹前線的戰爭經歷，強化主角心理崩壞的框架"
+    },
+    "repaired": {
+      "title": "Spec Ops: The Line",
+      "en": "Spec Ops: The Line",
+      "appid": 50300,
+      "year": 2012,
+      "why": "以事後審視的敘事口吻包裹前線的戰爭經歷，強化主角心理崩壞的框架",
+      "sourceUrl": "https://store.steampowered.com/app/50300/",
+      "accessed": "2026-10-02",
+      "selectionNote": "玩法代表性；Steam 全語言累積好評 93.4%（56,394 則，2026-10-02）。",
+      "reviewSource": "https://store.steampowered.com/appreviews/50300?json=1&language=all&purchase_type=all&filter=summary"
+    },
+    "officialName": "Spec Ops: The Line"
+  }
+]

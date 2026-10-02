@@ -2,16 +2,22 @@
   "schema_version": 1,
   "meta": {
     "project": "遊戲名詞大百科",
-    "title": "十詞條擴充狀態",
+    "title": "全站圖片修復狀態",
     "generated": "2026-10-02",
     "authorities": [
       {
         "path": "data/glossary.json",
-        "role": "詞條、代表作與創作重點"
+        "role": "詞條與代表作"
+      },
+      {
+        "path": "docs/all-media-audit.json",
+        "role": "遠端圖片 HTTP 與內容格式查證"
       }
     ],
     "notes": [
-      "工具驗證：npm run verify 8/8；使用者尚未確認呈現。圖片採遠端載入。"
+      "建置與回歸測試 9/9 通過；圖片以官方遠端網址嵌入。",
+      "資料、工具驗證與使用者確認分開紀錄；尚未取得使用者呈現確認。",
+      "原 153 處無圖與 4 處失效影片縮圖已修復。十個創作解析詞條仍各有兩款遊戲。"
     ]
   },
   "status_levels": [
@@ -23,8 +29,14 @@
     },
     {
       "key": "tested",
-      "label": "測試通過",
+      "label": "圖片驗證通過",
       "tone": "ok",
+      "layer": "tool"
+    },
+    {
+      "key": "blocked",
+      "label": "圖片待修",
+      "tone": "danger",
       "layer": "tool"
     },
     {
@@ -37,7 +49,7 @@
   "summary_cards": [
     {
       "id": "built",
-      "label": "擴充詞條",
+      "label": "詞條",
       "layer": "data",
       "rule": {
         "count": "entries"
@@ -45,7 +57,7 @@
     },
     {
       "id": "games",
-      "label": "範例遊戲",
+      "label": "範例卡片",
       "layer": "data",
       "rule": {
         "sum": "entries",
@@ -53,14 +65,12 @@
       }
     },
     {
-      "id": "tested",
-      "label": "結構驗證",
+      "id": "images",
+      "label": "有效圖片",
       "layer": "tool",
       "rule": {
-        "count": "entries",
-        "where": {
-          "tool": "tested"
-        }
+        "sum": "entries",
+        "field": "images"
       }
     },
     {
@@ -78,7 +88,7 @@
   "sections": [
     {
       "id": "entries",
-      "title": "詞條層級進度",
+      "title": "全站詞條圖片",
       "row_key": "id",
       "columns": [
         {
@@ -105,6 +115,11 @@
           "key": "examples",
           "title": "範例數",
           "type": "number"
+        },
+        {
+          "key": "images",
+          "title": "有效圖片",
+          "type": "number"
         }
       ],
       "detail_fields": [
@@ -121,6 +136,100 @@
       ],
       "rows": [
         {
+          "id": "interactive-fiction",
+          "name": "互動小說（Interactive Fiction）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "魔域",
+            "八十天環遊世界",
+            "王權"
+          ]
+        },
+        {
+          "id": "sokoban",
+          "name": "倉庫番（Sokoban）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "Sokobond",
+            "派翠克的方盒子",
+            "史蒂芬的香腸捲"
+          ]
+        },
+        {
+          "id": "escape-room",
+          "name": "密室逃脫遊戲（Escape Room）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "The Room 系列",
+            "逃脫模擬器"
+          ]
+        },
+        {
+          "id": "hidden-object",
+          "name": "隱藏物件遊戲（Hidden Object）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "Mystery Case Files: Ravenhearst",
+            "六月之旅",
+            "隱藏之民"
+          ]
+        },
+        {
+          "id": "semi-open-world",
+          "name": "半開放世界（Semi-Open World）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "STAR WARS 絕地：組織殞落",
+            "戰神（2018）"
+          ]
+        },
+        {
+          "id": "walking-sim",
+          "name": "步行模擬器（Walking Simulator）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "看火人",
+            "回家"
+          ]
+        },
+        {
+          "id": "immersive-sim",
+          "name": "沉浸式模擬（Immersive Sim）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "冤罪殺機",
+            "殺出重圍：人類革命 導演剪輯版"
+          ]
+        },
+        {
           "id": "sandbox",
           "name": "沙盒遊戲（Sandbox）",
           "data": "built",
@@ -134,6 +243,97 @@
           ]
         },
         {
+          "id": "open-world",
+          "name": "開放世界（Open World）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "艾爾登法環",
+            "巫師3：狂獵 完全版"
+          ]
+        },
+        {
+          "id": "stealth",
+          "name": "潛行遊戲（Stealth Game）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "冤罪殺機",
+            "刺客任務：全球暗殺行動"
+          ]
+        },
+        {
+          "id": "hakoniwa",
+          "name": "箱庭遊戲（Hakoniwa）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "超級瑪利歐 奧德賽",
+            "薩爾達傳說 王國之淚"
+          ]
+        },
+        {
+          "id": "linear-game",
+          "name": "線性遊戲（Linear Game）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "最後生還者",
+            "最後生還者 二部曲"
+          ]
+        },
+        {
+          "id": "2d-platformer",
+          "name": "2D 平台（2D Platformer）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "空洞騎士",
+            "死亡細胞"
+          ]
+        },
+        {
+          "id": "3d-platformer",
+          "name": "3D 平台（3D Platformer）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Psychonauts 2",
+            "Super Meat Boy 3D"
+          ]
+        },
+        {
+          "id": "puzzle-platformer",
+          "name": "平台解謎（Puzzle Platformer）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "傳送門2",
+            "Baba Is You"
+          ]
+        },
+        {
           "id": "platformer",
           "name": "平台遊戲（Platformer）",
           "data": "built",
@@ -144,6 +344,665 @@
           "games": [
             "Celeste",
             "Super Meat Boy"
+          ]
+        },
+        {
+          "id": "party-game",
+          "name": "派對遊戲（Party Game）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "胡鬧廚房 2",
+            "胡鬧廚房：全員系列合輯"
+          ]
+        },
+        {
+          "id": "fighting-game",
+          "name": "格鬥遊戲（Fighting Game）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Street Fighter 6",
+            "鐵拳8"
+          ]
+        },
+        {
+          "id": "beat-em-up",
+          "name": "清版動作（Beat 'em Up）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "忍者龜：施萊德的復仇",
+            "怒之鐵拳4"
+          ]
+        },
+        {
+          "id": "precision-platformer",
+          "name": "精確平台（Precision Platformer）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "蔚藍",
+            "Jump King"
+          ]
+        },
+        {
+          "id": "boss-rush",
+          "name": "競速魔王戰（Boss Rush）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Cuphead",
+            "Furi"
+          ]
+        },
+        {
+          "id": "survival-craft",
+          "name": "生存工藝",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "英靈神殿",
+            "森林之子"
+          ]
+        },
+        {
+          "id": "survival",
+          "name": "生存遊戲",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Rust",
+            "森林之子"
+          ]
+        },
+        {
+          "id": "life-sim",
+          "name": "生活模擬",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "沙石鎮時光",
+            "米斯特利亞的田野"
+          ]
+        },
+        {
+          "id": "cozy-game",
+          "name": "舒適遊戲（Cozy）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "星露谷物語",
+            "米斯特利亞的田野"
+          ]
+        },
+        {
+          "id": "farming-sim",
+          "name": "農場模擬",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "星露谷物語",
+            "沙石鎮時光"
+          ]
+        },
+        {
+          "id": "vr-game",
+          "name": "VR 遊戲（虛擬實境遊戲）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "戰慄時空：艾莉克絲",
+            "節奏光劍",
+            "VRChat"
+          ]
+        },
+        {
+          "id": "hero-collector",
+          "name": "角色收集（Hero Collector）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "蔚藍檔案",
+            "七大罪：Origin"
+          ]
+        },
+        {
+          "id": "looter-shooter",
+          "name": "刷寶射擊（Looter Shooter）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "邊緣禁地4",
+            "天命2"
+          ]
+        },
+        {
+          "id": "looter",
+          "name": "刷寶遊戲（Looter）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "暗黑破壞神 IV",
+            "流亡黯道2"
+          ]
+        },
+        {
+          "id": "monster-tamer",
+          "name": "怪物收集（Monster Tamer／Creature Collector）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Cassette Beasts",
+            "Coromon"
+          ]
+        },
+        {
+          "id": "visual-novel",
+          "name": "視覺小說",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "STEINS;GATE",
+            "逆轉裁判456 王泥喜精選集",
+            "AI：夢境檔案 涅槃肇始"
+          ]
+        },
+        {
+          "id": "rhythm-game",
+          "name": "節奏遊戲",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "節奏光劍",
+            "太鼓之達人 咚咚雷音祭"
+          ]
+        },
+        {
+          "id": "battle-royale",
+          "name": "大逃殺",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "絕地求生",
+            "Apex 英雄"
+          ]
+        },
+        {
+          "id": "boomer-shooter",
+          "name": "老式射擊（Boomer Shooter）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "ULTRAKILL",
+            "暗黑"
+          ]
+        },
+        {
+          "id": "hero-shooter",
+          "name": "英雄射擊",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "鬥陣特攻 2",
+            "Apex 英雄",
+            "漫威爭鋒"
+          ]
+        },
+        {
+          "id": "rail-shooter",
+          "name": "軌道射擊",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "死亡之屋：重製版",
+            "死亡之屋 2：重製版"
+          ]
+        },
+        {
+          "id": "milsim",
+          "name": "軍事模擬射擊（MilSim）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "武裝突襲3",
+            "Squad",
+            "地獄解放"
+          ]
+        },
+        {
+          "id": "shooter",
+          "name": "射擊遊戲（射擊總稱）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "戰慄時空 2",
+            "毀滅戰士 永恆"
+          ]
+        },
+        {
+          "id": "shmup",
+          "name": "捲軸射擊（STG）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "東方紅魔鄉：新典",
+            "斑鳩"
+          ]
+        },
+        {
+          "id": "fps",
+          "name": "第一人稱射擊（FPS）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "戰慄時空 2",
+            "毀滅戰士 永恆",
+            "Counter-Strike 2"
+          ]
+        },
+        {
+          "id": "tps",
+          "name": "第三人稱射擊（TPS）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "漫威蜘蛛人 重製版",
+            "最後生還者",
+            "最後生還者 二部曲"
+          ]
+        },
+        {
+          "id": "bullet-hell",
+          "name": "彈幕",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "東方地靈殿",
+            "東方風神錄"
+          ]
+        },
+        {
+          "id": "extraction-shooter",
+          "name": "撤離射擊",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "逃離塔科夫",
+            "Dark and Darker"
+          ]
+        },
+        {
+          "id": "tactical-shooter",
+          "name": "戰術射擊",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "Counter-Strike 2",
+            "虹彩六號：圍攻行動",
+            "Ready or Not"
+          ]
+        },
+        {
+          "id": "twin-stick-shooter",
+          "name": "雙搖桿射擊",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "挺進地牢",
+            "核子拋投"
+          ]
+        },
+        {
+          "id": "arena-shooter",
+          "name": "競技場射擊",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "雷神之鎚 III 競技場",
+            "虛幻競技場：年度遊戲版"
+          ]
+        },
+        {
+          "id": "social-deduction",
+          "name": "社交推理遊戲（Social Deduction）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "Among Us",
+            "極地寒冬計畫",
+            "薩勒姆小鎮"
+          ]
+        },
+        {
+          "id": "asymmetric-multiplayer",
+          "name": "非對稱多人遊戲（Asymmetric Multiplayer）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "黎明死線",
+            "惡靈勢力 2（對抗模式）"
+          ]
+        },
+        {
+          "id": "board-game-digital",
+          "name": "數位桌遊（Digital Board Game）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "桌上模擬器",
+            "塔利斯曼：數位版"
+          ]
+        },
+        {
+          "id": "mmorpg",
+          "name": "大型多人線上角色扮演（MMORPG）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "魔獸世界",
+            "Final Fantasy XIV"
+          ]
+        },
+        {
+          "id": "mmo",
+          "name": "大型多人線上遊戲（MMO）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "魔獸世界",
+            "EVE Online"
+          ]
+        },
+        {
+          "id": "jrpg",
+          "name": "日式角色扮演（JRPG）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "女神異聞錄5 皇家版",
+            "勇者鬥惡龍 VII Reimagined"
+          ]
+        },
+        {
+          "id": "wrpg",
+          "name": "西式角色扮演（WRPG）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "巫師3：狂獵 完全版",
+            "上古卷軸5：無界天際 特別版"
+          ]
+        },
+        {
+          "id": "rpg",
+          "name": "角色扮演遊戲（RPG）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "柏德之門3",
+            "女神異聞錄5 皇家版"
+          ]
+        },
+        {
+          "id": "arpg",
+          "name": "動作角色扮演（ARPG）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "暗黑破壞神 IV",
+            "艾爾登法環"
+          ]
+        },
+        {
+          "id": "action-game",
+          "name": "動作遊戲（ACT）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "惡魔獵人5",
+            "隻狼：暗影雙死"
+          ]
+        },
+        {
+          "id": "crpg",
+          "name": "電腦角色扮演（CRPG）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "柏德之門3",
+            "神諭：原罪加強版"
+          ]
+        },
+        {
+          "id": "srpg",
+          "name": "戰略角色扮演（SRPG）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "火焰之紋章 Engage",
+            "三角戰略"
+          ]
+        },
+        {
+          "id": "tactical-rpg",
+          "name": "戰術角色扮演（Tactical RPG）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "XCOM 2",
+            "XCOM：未知敵人"
+          ]
+        },
+        {
+          "id": "card-game",
+          "name": "卡牌遊戲",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "遊戲王 Master Duel",
+            "Marvel Snap"
+          ]
+        },
+        {
+          "id": "auto-battler",
+          "name": "自走棋",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "傳說與戰術自走棋",
+            "Dota Underlords"
+          ]
+        },
+        {
+          "id": "deckbuilder",
+          "name": "牌組構築",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "殺戮尖塔",
+            "巴拉特羅"
+          ]
+        },
+        {
+          "id": "4x",
+          "name": "4X",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "席德・梅爾的文明帝國 VI",
+            "群星"
+          ]
+        },
+        {
+          "id": "grand-strategy",
+          "name": "大戰略",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "十字軍之王 III",
+            "維多利亞 3",
+            "歐陸風雲 IV"
+          ]
+        },
+        {
+          "id": "turn-based-strategy",
+          "name": "回合制策略",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "席德・梅爾的文明帝國 VI",
+            "打破邊界"
           ]
         },
         {
@@ -186,6 +1045,71 @@
           ]
         },
         {
+          "id": "wargame",
+          "name": "戰爭遊戲",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "鋼鐵雄心 IV",
+            "指揮與征服：統一 II"
+          ]
+        },
+        {
+          "id": "character-action",
+          "name": "角色動作遊戲（Character Action）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "惡魔獵人5",
+            "獵天使魔女"
+          ]
+        },
+        {
+          "id": "hack-and-slash",
+          "name": "砍殺遊戲（Hack and Slash）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "暗黑破壞神 IV",
+            "真．三國無雙7 with 猛將傳"
+          ]
+        },
+        {
+          "id": "musou",
+          "name": "割草遊戲（無雙／Musou）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "真．三國無雙7 with 猛將傳",
+            "真．三國無雙2 with 猛將傳 重製版"
+          ]
+        },
+        {
+          "id": "survivors-like",
+          "name": "類吸血鬼倖存者（Survivors-like）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "吸血鬼倖存者",
+            "Brotato"
+          ]
+        },
+        {
           "id": "metroidvania",
           "name": "類銀河戰士惡魔城（Metroidvania）",
           "data": "built",
@@ -209,6 +1133,280 @@
           "games": [
             "DARK SOULS III",
             "Lies of P"
+          ]
+        },
+        {
+          "id": "factory-builder",
+          "name": "工廠建造",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "異星工廠",
+            "戴森球計劃"
+          ]
+        },
+        {
+          "id": "city-builder",
+          "name": "城市營造",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "城市：天際線 II",
+            "城市：天際線"
+          ]
+        },
+        {
+          "id": "base-building",
+          "name": "基地建設",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "億萬殭屍",
+            "Grounded 2"
+          ]
+        },
+        {
+          "id": "god-game",
+          "name": "創世神遊戲",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "孢子",
+            "上帝也瘋狂"
+          ]
+        },
+        {
+          "id": "colony-sim",
+          "name": "殖民模擬",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "環世界",
+            "缺氧"
+          ]
+        },
+        {
+          "id": "tycoon",
+          "name": "模擬經營",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "雙點醫院",
+            "動物園大亨：終極動物合輯"
+          ]
+        },
+        {
+          "id": "match-3",
+          "name": "三消",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "寶石方塊 3",
+            "MARVEL 益智任務"
+          ]
+        },
+        {
+          "id": "idle-incremental",
+          "name": "放置／遞增遊戲",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Melvor Idle",
+            "NGU 冒險"
+          ]
+        },
+        {
+          "id": "physics-sandbox",
+          "name": "物理沙盒",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Garry's Mod",
+            "人類：一敗塗地"
+          ]
+        },
+        {
+          "id": "puzzle-game",
+          "name": "解謎遊戲",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "傳送門 2",
+            "Baba Is You"
+          ]
+        },
+        {
+          "id": "point-and-click",
+          "name": "點擊冒險",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "極樂迪斯可：最終剪輯版",
+            "重返猴島"
+          ]
+        },
+        {
+          "id": "clicker",
+          "name": "點擊遊戲",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Cookie Clicker",
+            "AdVenture Capitalist"
+          ]
+        },
+        {
+          "id": "moba",
+          "name": "多人線上戰鬥競技場（MOBA）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Dota 2",
+            "英雄聯盟"
+          ]
+        },
+        {
+          "id": "sports-game",
+          "name": "運動遊戲",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "EA SPORTS FC 26",
+            "NBA 2K25"
+          ]
+        },
+        {
+          "id": "racing-game",
+          "name": "競速遊戲",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "極限競速：地平線 5",
+            "Trackmania"
+          ]
+        },
+        {
+          "id": "otome",
+          "name": "乙女遊戲（Otome）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "項圈×束縛",
+            "Piofiore: Fated Memories"
+          ]
+        },
+        {
+          "id": "dating-sim",
+          "name": "戀愛模擬（Dating Sim）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "夢想老爸",
+            "心跳文學部！",
+            "怪物舞會"
+          ]
+        },
+        {
+          "id": "dungeon-crawler",
+          "name": "地城探索（Dungeon Crawler）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "暗黑地牢",
+            "暗黑地牢2"
+          ]
+        },
+        {
+          "id": "action-roguelike",
+          "name": "動作類 Rogue（Action Roguelike）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "黑帝斯",
+            "挺進地牢"
+          ]
+        },
+        {
+          "id": "traditional-roguelike",
+          "name": "傳統 Roguelike（Traditional Roguelike）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Caves of Qud",
+            "NetHack"
+          ]
+        },
+        {
+          "id": "roguelike-deckbuilder",
+          "name": "Roguelike 牌組構築（Roguelike Deckbuilder）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "殺戮尖塔",
+            "巴拉特羅"
           ]
         },
         {
@@ -238,6 +1436,1174 @@
           ]
         },
         {
+          "id": "slice-of-life",
+          "name": "日常寫實（Slice of Life）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Coffee Talk",
+            "Night in the Woods"
+          ]
+        },
+        {
+          "id": "cute",
+          "name": "可愛（Cute）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "以撒的結合：重生",
+            "茶杯頭"
+          ]
+        },
+        {
+          "id": "crime",
+          "name": "犯罪（Crime）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "極樂迪斯可",
+            "L.A. Noire"
+          ]
+        },
+        {
+          "id": "philosophical",
+          "name": "哲理（Philosophical）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "極樂迪斯可"
+          ]
+        },
+        {
+          "id": "school-life",
+          "name": "校園生活（School Life）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "女神異聞錄5皇家版",
+            "返校"
+          ]
+        },
+        {
+          "id": "meme-game",
+          "name": "迷因遊戲（Meme Game）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "Surgeon Simulator"
+          ]
+        },
+        {
+          "id": "detective",
+          "name": "偵探（Detective）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "逆轉裁判456 王泥喜精選集",
+            "Phoenix Wright: Ace Attorney Trilogy"
+          ]
+        },
+        {
+          "id": "isekai",
+          "name": "異世界（Isekai）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "數碼寶貝物語 時空異客"
+          ]
+        },
+        {
+          "id": "comedy",
+          "name": "喜劇（Comedy）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "茶杯頭"
+          ]
+        },
+        {
+          "id": "emotional",
+          "name": "感性（Emotional）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "艾迪芬奇的記憶",
+            "奇異人生"
+          ]
+        },
+        {
+          "id": "satire",
+          "name": "諷刺（Satire）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "Papers, Please"
+          ]
+        },
+        {
+          "id": "mystery",
+          "name": "懸疑（Mystery）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "艾迪芬奇的記憶",
+            "極樂迪斯可"
+          ]
+        },
+        {
+          "id": "post-apocalyptic",
+          "name": "後末日（Post-apocalyptic）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "最後生還者 二部曲",
+            "Days Gone"
+          ]
+        },
+        {
+          "id": "zombie",
+          "name": "殭屍（Zombie）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "7 Days to Die",
+            "隔離區-喪尸末日生存"
+          ]
+        },
+        {
+          "id": "space-opera",
+          "name": "太空歌劇（Space Opera）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "群星",
+            "EVE Online"
+          ]
+        },
+        {
+          "id": "solarpunk",
+          "name": "太陽龐克（Solarpunk）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "Terra Nil"
+          ]
+        },
+        {
+          "id": "low-fantasy",
+          "name": "低奇幻（Low Fantasy）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "天國：拯救2",
+            "巫師 3：狂獵"
+          ]
+        },
+        {
+          "id": "sci-fi",
+          "name": "科幻（Sci-fi）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "群星",
+            "星際拓荒"
+          ]
+        },
+        {
+          "id": "gothic",
+          "name": "哥德（Gothic）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "血咒之城：夜之儀式",
+            "黑帝斯"
+          ]
+        },
+        {
+          "id": "dieselpunk",
+          "name": "柴油龐克（Dieselpunk）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "生化奇兵：無限之城 完全版",
+            "Iron Harvest"
+          ]
+        },
+        {
+          "id": "high-fantasy",
+          "name": "高奇幻（High Fantasy）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "柏德之門3",
+            "艾爾登法環"
+          ]
+        },
+        {
+          "id": "dark-fantasy",
+          "name": "黑暗奇幻（Dark Fantasy）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "巫師 3：狂獵",
+            "暗黑地牢"
+          ]
+        },
+        {
+          "id": "steampunk",
+          "name": "蒸氣龐克（Steampunk）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "冤罪殺機"
+          ]
+        },
+        {
+          "id": "cyberpunk",
+          "name": "賽博龐克（Cyberpunk）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "電馭叛客2077",
+            "VA-11 Hall-A: Cyberpunk Bartender Action"
+          ]
+        },
+        {
+          "id": "relaxing",
+          "name": "放鬆（Relaxing）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "Unpacking"
+          ]
+        },
+        {
+          "id": "atmospheric",
+          "name": "氛圍導向（Atmospheric）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "SOMA",
+            "層層恐懼"
+          ]
+        },
+        {
+          "id": "surreal",
+          "name": "超現實（Surreal）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "層層恐懼"
+          ]
+        },
+        {
+          "id": "dark",
+          "name": "黑暗（Dark）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "暗黑地牢"
+          ]
+        },
+        {
+          "id": "wholesome",
+          "name": "溫馨（Wholesome）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "星露谷物語"
+          ]
+        },
+        {
+          "id": "dreamlike",
+          "name": "夢境感（Dreamlike）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "OMORI"
+          ]
+        },
+        {
+          "id": "psychological-horror",
+          "name": "心理恐怖（Psychological Horror）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "沉默之丘2",
+            "層層恐懼",
+            "返校"
+          ]
+        },
+        {
+          "id": "taiwan-horror",
+          "name": "台式恐怖（Taiwan Horror）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "返校",
+            "還願",
+            "女鬼橋二 釋魂路"
+          ]
+        },
+        {
+          "id": "folk-horror",
+          "name": "民俗恐怖（Folk Horror）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "還願",
+            "Pathologic 2"
+          ]
+        },
+        {
+          "id": "survival-horror",
+          "name": "生存恐怖（Survival Horror）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "惡靈古堡2",
+            "惡靈古堡7 biohazard",
+            "惡靈古堡：村莊"
+          ]
+        },
+        {
+          "id": "cosmic-horror",
+          "name": "克蘇魯恐怖／宇宙恐怖（Cosmic Horror）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "暗黑地牢",
+            "SOMA",
+            "The Mound: Omen of Cthulhu"
+          ]
+        },
+        {
+          "id": "body-horror",
+          "name": "身體恐怖（Body Horror）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "絕命異次元",
+            "惡靈古堡7 biohazard"
+          ]
+        },
+        {
+          "id": "jump-scare",
+          "name": "突發驚嚇（Jump Scare）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "The Outlast Trials",
+            "Phasmophobia 恐鬼症"
+          ]
+        },
+        {
+          "id": "horror",
+          "name": "恐怖遊戲（Horror Game）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "惡靈古堡2",
+            "心靈殺手",
+            "層層恐懼"
+          ]
+        },
+        {
+          "id": "medieval",
+          "name": "中世紀（Medieval）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "天國：拯救2",
+            "騎馬與砍殺2：領主"
+          ]
+        },
+        {
+          "id": "mythology",
+          "name": "神話（Mythology）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "黑帝斯 2",
+            "刺客教條：奧德賽"
+          ]
+        },
+        {
+          "id": "urban-legend",
+          "name": "都市傳說（Urban Legend）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "女鬼橋二 釋魂路"
+          ]
+        },
+        {
+          "id": "historical",
+          "name": "歷史（Historical）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "刺客教條：奧德賽",
+            "決勝時刻：WWII"
+          ]
+        },
+        {
+          "id": "dystopian",
+          "name": "反烏托邦（Dystopian）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Papers, Please",
+            "電馭叛客2077"
+          ]
+        },
+        {
+          "id": "western",
+          "name": "西部（Western）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "碧血狂殺2",
+            "碧血狂殺"
+          ]
+        },
+        {
+          "id": "military-theme",
+          "name": "軍事題材（Military）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "決勝時刻：WWII",
+            "決勝時刻®：現代戰域"
+          ]
+        },
+        {
+          "id": "occult",
+          "name": "神秘學（Occult）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "暗黑地牢",
+            "The Mound: Omen of Cthulhu"
+          ]
+        },
+        {
+          "id": "retro-theme",
+          "name": "復古風格（Retro）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "茶杯頭",
+            "Katana ZERO"
+          ]
+        },
+        {
+          "id": "noir",
+          "name": "黑色（Noir）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "L.A. Noire",
+            "極樂迪斯可"
+          ]
+        },
+        {
+          "id": "supernatural",
+          "name": "靈異超自然（Supernatural）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "Phasmophobia 恐鬼症"
+          ]
+        },
+        {
+          "id": "hand-drawn",
+          "name": "手繪風",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "茶杯頭",
+            "空洞騎士"
+          ]
+        },
+        {
+          "id": "cartoon-style",
+          "name": "卡通風",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "茶杯頭",
+            "胡鬧廚房 2"
+          ]
+        },
+        {
+          "id": "fmv",
+          "name": "全動態影像",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "她的故事",
+            "The Bunker"
+          ]
+        },
+        {
+          "id": "low-poly",
+          "name": "低多邊形",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "超閾限空間",
+            "人類：一敗塗地"
+          ]
+        },
+        {
+          "id": "abstract",
+          "name": "抽象風",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Rez Infinite",
+            "幾何衝刺"
+          ]
+        },
+        {
+          "id": "stylized",
+          "name": "風格化",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "絕地要塞 2",
+            "鬥陣特攻"
+          ]
+        },
+        {
+          "id": "anime-style",
+          "name": "動漫風",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "聖騎士之戰-STRIVE-",
+            "Muse Dash"
+          ]
+        },
+        {
+          "id": "minimalist",
+          "name": "極簡風",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Baba Is You",
+            "湯瑪士孤身一人"
+          ]
+        },
+        {
+          "id": "pixel-art",
+          "name": "像素風",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "傳說之下",
+            "武士刀ZERO"
+          ]
+        },
+        {
+          "id": "realistic",
+          "name": "寫實風",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "碧血狂殺2",
+            "巫師3：狂獵"
+          ]
+        },
+        {
+          "id": "cel-shaded",
+          "name": "賽璐璐渲染",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "聖騎士之戰-STRIVE-",
+            "邊緣禁地3"
+          ]
+        },
+        {
+          "id": "voxel",
+          "name": "體素風",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Teardown",
+            "Trove"
+          ]
+        },
+        {
+          "id": "ps1-style",
+          "name": "PS1風格／初代3D復古風",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "惡靈古堡（1996）",
+            "惡靈古堡2（1998）"
+          ]
+        },
+        {
+          "id": "2-5d",
+          "name": "2.5D",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "歧路旅人",
+            "歧路旅人II"
+          ]
+        },
+        {
+          "id": "fixed-camera",
+          "name": "固定鏡頭",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "惡靈古堡（1996）",
+            "惡靈古堡2（1998）"
+          ]
+        },
+        {
+          "id": "top-down",
+          "name": "俯視角",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "星露谷物語",
+            "東方風神錄"
+          ]
+        },
+        {
+          "id": "first-person",
+          "name": "第一人稱視角",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "戰慄時空2",
+            "傳送門",
+            "毀滅戰士：永恆"
+          ]
+        },
+        {
+          "id": "third-person",
+          "name": "第三人稱視角",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "古墓奇兵：年度紀念版",
+            "最後生還者"
+          ]
+        },
+        {
+          "id": "isometric",
+          "name": "等角視角",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "神諭：原罪加強版",
+            "暗黑破壞神IV"
+          ]
+        },
+        {
+          "id": "side-scroller",
+          "name": "橫向捲軸",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "空洞騎士",
+            "蔚藍"
+          ]
+        },
+        {
+          "id": "three-act-structure",
+          "name": "三幕劇結構",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "巫師 3：狂獵",
+            "戰慄時空：艾莉克絲",
+            "FINAL FANTASY VII REBIRTH"
+          ]
+        },
+        {
+          "id": "unreliable-narrator",
+          "name": "不可靠敘事者",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 4,
+          "images": 4,
+          "games": [
+            "史丹利的寓言",
+            "SOMA",
+            "Spec Ops: The Line",
+            "往日之影：利維坦"
+          ]
+        },
+        {
+          "id": "worldbuilding",
+          "name": "世界觀建構",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 4,
+          "images": 4,
+          "games": [
+            "上古卷軸V：無界天際 特別版",
+            "上古卷軸Online",
+            "地平線：期待黎明 完整版",
+            "天命2"
+          ]
+        },
+        {
+          "id": "lore-rich",
+          "name": "世界觀資料豐富",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 4,
+          "images": 4,
+          "games": [
+            "上古卷軸V：無界天際 特別版",
+            "空洞騎士",
+            "天命2",
+            "黑暗靈魂"
+          ]
+        },
+        {
+          "id": "fourth-wall",
+          "name": "打破第四面牆／後設",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 4,
+          "images": 4,
+          "games": [
+            "心跳文學社",
+            "傳說之下",
+            "史丹利的寓言",
+            "潛龍諜影（Master Collection 版）"
+          ]
+        },
+        {
+          "id": "foreshadowing-macguffin",
+          "name": "伏筆／麥高芬",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "尼爾：自動人形",
+            "荒野大鏢客2",
+            "戰慄時空：艾莉克絲"
+          ]
+        },
+        {
+          "id": "silent-protagonist",
+          "name": "沉默主角",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 4,
+          "images": 4,
+          "games": [
+            "戰慄時空",
+            "戰慄時空2",
+            "薩爾達傳說",
+            "傳送門2"
+          ]
+        },
+        {
+          "id": "character-arc",
+          "name": "角色弧線",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 4,
+          "images": 4,
+          "games": [
+            "最後生還者",
+            "最後生還者 二部曲",
+            "奇異人生",
+            "戰神"
+          ]
+        },
+        {
+          "id": "nonlinear",
+          "name": "非線性敘事／非線性結構",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 4,
+          "images": 4,
+          "games": [
+            "星際拓荒",
+            "畫中世界：歐布拉丁號的回歸",
+            "聖佩特懺悔錄",
+            "八十天環遊世界"
+          ]
+        },
+        {
+          "id": "storylet",
+          "name": "故事片段系統",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "墮落倫敦",
+            "深淵之海",
+            "異端模擬器"
+          ]
+        },
+        {
+          "id": "heros-journey",
+          "name": "英雄之旅",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "FINAL FANTASY VII REBIRTH",
+            "勇者鬥惡龍 VII Reimagined",
+            "大神"
+          ]
+        },
+        {
+          "id": "text-based",
+          "name": "純文字敘事",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 4,
+          "images": 4,
+          "games": [
+            "魔域",
+            "AI 地下城",
+            "八十天環遊世界",
+            "一間黑暗小屋"
+          ]
+        },
+        {
+          "id": "kishotenketsu",
+          "name": "起承轉結",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "超級瑪利歐 3D 世界",
+            "超級瑪利歐銀河",
+            "薩爾達傳說"
+          ]
+        },
+        {
+          "id": "framing-device",
+          "name": "敘事框架／套層敘事",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 4,
+          "images": 4,
+          "games": [
+            "Spec Ops: The Line",
+            "艾迪芬奇的記憶",
+            "畫中世界：歐布拉丁號的回歸",
+            "公路奇談"
+          ]
+        },
+        {
+          "id": "emergent-narrative",
+          "name": "湧現式敘事",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 4,
+          "images": 4,
+          "games": [
+            "環世界",
+            "模擬市民4",
+            "十字軍之王III",
+            "矮人要塞"
+          ]
+        },
+        {
+          "id": "cutscene",
+          "name": "過場動畫",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 4,
+          "images": 4,
+          "games": [
+            "尼爾：自動人形",
+            "地平線：期待黎明 完整版",
+            "死亡擱淺",
+            "最終幻想7 重製版"
+          ]
+        },
+        {
+          "id": "dialogue-wheel",
+          "name": "對話輪盤",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "質量效應",
+            "異塵餘生4",
+            "闇龍紀元：異端審判"
+          ]
+        },
+        {
+          "id": "story-rich",
+          "name": "劇情豐富",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 4,
+          "images": 4,
+          "games": [
+            "極樂迪斯可",
+            "艾迪芬奇的記憶",
+            "陰屍路",
+            "奇異人生"
+          ]
+        },
+        {
+          "id": "choices-matter",
+          "name": "選擇具重要性",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 4,
+          "images": 4,
+          "games": [
+            "奇異人生",
+            "底特律：變人",
+            "陰屍路：第二季",
+            "巫師3：狂獵"
+          ]
+        },
+        {
           "id": "branching-narrative",
           "name": "分支敘事",
           "data": "built",
@@ -248,6 +2614,4429 @@
           "games": [
             "Detroit: Become Human",
             "The Walking Dead"
+          ]
+        },
+        {
+          "id": "multiple-endings",
+          "name": "多重結局／真結局",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "尼爾：自動人形",
+            "Undertale",
+            "女神異聞錄5皇家版"
+          ]
+        },
+        {
+          "id": "player-agency",
+          "name": "玩家代理感",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "柏德之門3",
+            "異塵餘生：新維加斯",
+            "極樂迪斯可"
+          ]
+        },
+        {
+          "id": "ludonarrative-dissonance",
+          "name": "遊戲敘事失調",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "生化奇兵：無限之城 完全版",
+            "祕境探險",
+            "最後生還者"
+          ]
+        },
+        {
+          "id": "dialogue-tree",
+          "name": "對話樹",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "極樂迪斯可",
+            "柏德之門3",
+            "異塵餘生：新維加斯"
+          ]
+        },
+        {
+          "id": "environmental-storytelling",
+          "name": "環境敘事",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "戰慄時空：艾莉克絲",
+            "生化奇兵：無限之城 完全版",
+            "返校"
+          ]
+        },
+        {
+          "id": "perfect-dodge",
+          "name": "完美迴避／魔女時間",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Bayonetta",
+            "艾爾登法環"
+          ]
+        },
+        {
+          "id": "air-control",
+          "name": "空中控制",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Celeste",
+            "Hollow Knight"
+          ]
+        },
+        {
+          "id": "coyote-time",
+          "name": "郊狼時間",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Celeste",
+            "Hollow Knight"
+          ]
+        },
+        {
+          "id": "momentum",
+          "name": "動量／慣性",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Celeste",
+            "Sonic Mania"
+          ]
+        },
+        {
+          "id": "jump-buffer",
+          "name": "跳躍緩衝",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Celeste",
+            "Hollow Knight"
+          ]
+        },
+        {
+          "id": "dash",
+          "name": "衝刺",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Dead Cells",
+            "Hollow Knight"
+          ]
+        },
+        {
+          "id": "lock-on",
+          "name": "鎖定",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "艾爾登法環",
+            "隻狼：暗影雙死"
+          ]
+        },
+        {
+          "id": "wall-jump",
+          "name": "蹬牆跳",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Hollow Knight",
+            "Celeste"
+          ]
+        },
+        {
+          "id": "stamina-system",
+          "name": "體力系統",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "艾爾登法環",
+            "Monster Hunter Wilds"
+          ]
+        },
+        {
+          "id": "posture-bar",
+          "name": "架勢條／體幹條",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "隻狼：暗影雙死",
+            "黑神話：悟空"
+          ]
+        },
+        {
+          "id": "super-armor",
+          "name": "超級裝甲／霸體",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "艾爾登法環",
+            "黑神話：悟空"
+          ]
+        },
+        {
+          "id": "poise",
+          "name": "韌性",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "艾爾登法環",
+            "Lies of P"
+          ]
+        },
+        {
+          "id": "parry",
+          "name": "彈反／格擋",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "隻狼：暗影雙死",
+            "快打旋風6"
+          ]
+        },
+        {
+          "id": "stagger",
+          "name": "蹣跚／踉蹌",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "隻狼：暗影雙死",
+            "Monster Hunter Wilds"
+          ]
+        },
+        {
+          "id": "bullet-sponge",
+          "name": "子彈海綿",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "邊緣禁地4",
+            "天命2"
+          ]
+        },
+        {
+          "id": "dps",
+          "name": "每秒傷害",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "暗黑破壞神IV",
+            "英雄聯盟"
+          ]
+        },
+        {
+          "id": "recoil-spread",
+          "name": "後座力與散布",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Counter-Strike 2",
+            "Call of Duty: Black Ops Cold War"
+          ]
+        },
+        {
+          "id": "aim-assist",
+          "name": "輔助瞄準",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Call of Duty: Black Ops Cold War",
+            "天命2"
+          ]
+        },
+        {
+          "id": "ttk",
+          "name": "擊殺時間",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Counter-Strike 2",
+            "天命2"
+          ]
+        },
+        {
+          "id": "hitscan",
+          "name": "瞬時命中",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Counter-Strike 2",
+            "Call of Duty: Black Ops Cold War"
+          ]
+        },
+        {
+          "id": "burst-damage",
+          "name": "爆發傷害",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "英雄聯盟",
+            "Dota 2"
+          ]
+        },
+        {
+          "id": "headshot",
+          "name": "爆頭",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Counter-Strike 2",
+            "Call of Duty: Black Ops Cold War"
+          ]
+        },
+        {
+          "id": "throw",
+          "name": "投技",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "鐵拳8",
+            "快打旋風6"
+          ]
+        },
+        {
+          "id": "tech-ukemi",
+          "name": "受身",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "鐵拳8",
+            "快打旋風6"
+          ]
+        },
+        {
+          "id": "combo",
+          "name": "連段",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "惡魔獵人5",
+            "快打旋風6"
+          ]
+        },
+        {
+          "id": "hitbox-hurtbox",
+          "name": "判定框",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "快打旋風6",
+            "鬼武者2"
+          ]
+        },
+        {
+          "id": "telegraphing",
+          "name": "前搖預警",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "艾爾登法環",
+            "黑神話：悟空"
+          ]
+        },
+        {
+          "id": "animation-cancel",
+          "name": "動作取消",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "惡魔獵人5",
+            "快打旋風6"
+          ]
+        },
+        {
+          "id": "frame-data",
+          "name": "幀數據",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "快打旋風6",
+            "鐵拳8"
+          ]
+        },
+        {
+          "id": "i-frame",
+          "name": "無敵幀",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "艾爾登法環",
+            "Hollow Knight"
+          ]
+        },
+        {
+          "id": "hitstun",
+          "name": "硬直",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "快打旋風6",
+            "惡魔獵人5"
+          ]
+        },
+        {
+          "id": "input-buffer",
+          "name": "輸入緩衝",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "快打旋風6",
+            "鐵拳8"
+          ]
+        },
+        {
+          "id": "cooldown",
+          "name": "冷卻時間",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "英雄聯盟",
+            "暗黑破壞神IV"
+          ]
+        },
+        {
+          "id": "cast-time",
+          "name": "吟唱／施法時間",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "暗黑破壞神IV",
+            "Final Fantasy XIV"
+          ]
+        },
+        {
+          "id": "meter-gauge",
+          "name": "技能量表",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "快打旋風6",
+            "鐵拳8"
+          ]
+        },
+        {
+          "id": "reload",
+          "name": "換彈",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Gears of War: E-Day",
+            "Call of Duty: Black Ops Cold War"
+          ]
+        },
+        {
+          "id": "charged-attack",
+          "name": "蓄力攻擊",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "艾爾登法環",
+            "Dead Cells"
+          ]
+        },
+        {
+          "id": "ammo-economy",
+          "name": "彈藥經濟",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Resident Evil Requiem",
+            "Call of Duty: Black Ops Cold War"
+          ]
+        },
+        {
+          "id": "critical-hit",
+          "name": "暴擊／爆擊",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "暗黑破壞神IV",
+            "艾爾登法環"
+          ]
+        },
+        {
+          "id": "aggro",
+          "name": "仇恨值／威脅值",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Final Fantasy XIV",
+            "魔獸世界"
+          ]
+        },
+        {
+          "id": "dot",
+          "name": "持續傷害",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "艾爾登法環",
+            "暗黑破壞神IV"
+          ]
+        },
+        {
+          "id": "crowd-control",
+          "name": "群體控制",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "英雄聯盟",
+            "Dota 2"
+          ]
+        },
+        {
+          "id": "buff-debuff",
+          "name": "增益／減益",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "魔獸世界",
+            "英雄聯盟"
+          ]
+        },
+        {
+          "id": "aoe",
+          "name": "範圍攻擊",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "暗黑破壞神IV",
+            "英雄聯盟"
+          ]
+        },
+        {
+          "id": "controller-rumble",
+          "name": "手把震動",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "黑神話：悟空",
+            "Gears of War: E-Day"
+          ]
+        },
+        {
+          "id": "hitstop",
+          "name": "打擊停頓",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "黑神話：悟空",
+            "Dead Cells"
+          ]
+        },
+        {
+          "id": "sound-feedback",
+          "name": "音效打擊感",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "黑神話：悟空",
+            "Dead Cells"
+          ]
+        },
+        {
+          "id": "particle-feedback",
+          "name": "粒子回饋",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Vampire Survivors",
+            "黑神話：悟空"
+          ]
+        },
+        {
+          "id": "damage-numbers",
+          "name": "傷害數字",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "暗黑破壞神IV",
+            "黑神話：悟空"
+          ]
+        },
+        {
+          "id": "game-juice",
+          "name": "遊戲果汁",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Vampire Survivors",
+            "Dead Cells"
+          ]
+        },
+        {
+          "id": "hit-flash",
+          "name": "擊中閃白",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "黑神話：悟空",
+            "Dead Cells"
+          ]
+        },
+        {
+          "id": "camera-kick",
+          "name": "鏡頭後座力",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Call of Duty: Black Ops Cold War",
+            "Counter-Strike 2"
+          ]
+        },
+        {
+          "id": "screen-shake",
+          "name": "鏡頭震動",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "黑神話：悟空",
+            "Vampire Survivors"
+          ]
+        },
+        {
+          "id": "slow-motion-finisher",
+          "name": "慢動作處決",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Gears of War: E-Day",
+            "黑神話：悟空"
+          ]
+        },
+        {
+          "id": "knockback",
+          "name": "擊退",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "艾爾登法環",
+            "快打旋風6"
+          ]
+        },
+        {
+          "id": "squash-and-stretch",
+          "name": "擠壓與拉伸",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Vampire Survivors",
+            "Dead Cells"
+          ]
+        },
+        {
+          "id": "minimap",
+          "name": "小地圖",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "Dota 2",
+            "巫師 3：狂獵",
+            "世紀帝國II 決定版"
+          ]
+        },
+        {
+          "id": "hud",
+          "name": "平視顯示介面",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "毀滅戰士：永恆",
+            "最後生還者",
+            "艾爾登法環"
+          ]
+        },
+        {
+          "id": "diegetic-ui",
+          "name": "敘事內介面",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "絕命異次元",
+            "最後生還者",
+            "戰慄時空2"
+          ]
+        },
+        {
+          "id": "tutorialization",
+          "name": "教學設計",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "超級瑪利歐 奧德賽",
+            "傳送門2",
+            "空洞騎士"
+          ]
+        },
+        {
+          "id": "onboarding",
+          "name": "新手引導",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "星露谷物語",
+            "傳送門2",
+            "黑帝斯"
+          ]
+        },
+        {
+          "id": "signposting",
+          "name": "路標引導",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "最後生還者",
+            "秘境探險",
+            "戰神"
+          ]
+        },
+        {
+          "id": "affordance",
+          "name": "預示性",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "戰慄時空2",
+            "薩爾達傳說 曠野之息",
+            "戰神"
+          ]
+        },
+        {
+          "id": "fog-of-war",
+          "name": "戰爭迷霧",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "世紀帝國II 決定版",
+            "Dota 2",
+            "文明帝國VII"
+          ]
+        },
+        {
+          "id": "hidden-information",
+          "name": "隱藏資訊",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "爐石戰記",
+            "文明帝國VII",
+            "Dota 2"
+          ]
+        },
+        {
+          "id": "run",
+          "name": "一局／一輪",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "黑帝斯",
+            "殺戮尖塔",
+            "雨中冒險2"
+          ]
+        },
+        {
+          "id": "flow-state",
+          "name": "心流",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "俄羅斯方塊效應：連結",
+            "空洞騎士",
+            "惡靈古堡4"
+          ]
+        },
+        {
+          "id": "permadeath",
+          "name": "永久死亡",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "黑帝斯",
+            "以撒的結合：重生",
+            "死亡細胞"
+          ]
+        },
+        {
+          "id": "feedback-loop",
+          "name": "回饋循環",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "瑪利歐賽車8 豪華版",
+            "世紀帝國IV 週年紀念版",
+            "文明帝國VII"
+          ]
+        },
+        {
+          "id": "achievement",
+          "name": "成就／獎盃",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "艾爾登法環",
+            "空洞騎士",
+            "黑帝斯"
+          ]
+        },
+        {
+          "id": "qte",
+          "name": "快速反應事件",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "戰神",
+            "底特律：變人",
+            "惡靈古堡4"
+          ]
+        },
+        {
+          "id": "grind",
+          "name": "刷等／刷刷刷",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "魔物獵人：世界",
+            "流亡黯道2",
+            "上古卷軸5：無界天際"
+          ]
+        },
+        {
+          "id": "risk-reward",
+          "name": "風險與回報",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "暗黑地牢",
+            "邊緣禁地4",
+            "殺戮尖塔"
+          ]
+        },
+        {
+          "id": "dda",
+          "name": "動態難度調整",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "惡靈古堡4",
+            "Left 4 Dead 2",
+            "瑪利歐賽車8 豪華版"
+          ]
+        },
+        {
+          "id": "tension-release",
+          "name": "張弛節奏",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "Left 4 Dead 2",
+            "戰慄時空2",
+            "惡靈古堡2"
+          ]
+        },
+        {
+          "id": "easter-egg",
+          "name": "彩蛋",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "俠盜獵車手5",
+            "柏德之門3",
+            "巫師 3：狂獵"
+          ]
+        },
+        {
+          "id": "push-your-luck",
+          "name": "得寸進尺機制",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "暗黑地牢",
+            "雨中冒險2",
+            "殺戮尖塔"
+          ]
+        },
+        {
+          "id": "accessibility",
+          "name": "無障礙設計",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "最後生還者",
+            "戰神：諸神黃昏",
+            "柏德之門3"
+          ]
+        },
+        {
+          "id": "level-scaling",
+          "name": "等級縮放",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "上古卷軸4：遺忘之都",
+            "上古卷軸5：無界天際",
+            "邊緣禁地3"
+          ]
+        },
+        {
+          "id": "pacing",
+          "name": "節奏掌控",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "Left 4 Dead 2",
+            "戰慄時空2",
+            "黑帝斯"
+          ]
+        },
+        {
+          "id": "unlockables",
+          "name": "解鎖要素",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "任天堂明星大亂鬥 特別版",
+            "空洞騎士",
+            "鬼武者2"
+          ]
+        },
+        {
+          "id": "game-loop",
+          "name": "遊戲迴圈／核心迴圈",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "魔物獵人：世界",
+            "黑帝斯",
+            "星露谷物語"
+          ]
+        },
+        {
+          "id": "rng",
+          "name": "隨機數生成器",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "XCOM 2",
+            "爐石戰記",
+            "暗黑破壞神 IV"
+          ]
+        },
+        {
+          "id": "difficulty-curve",
+          "name": "難度曲線",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "超級瑪利歐 3D 世界",
+            "Celeste",
+            "Hollow Knight"
+          ]
+        },
+        {
+          "id": "difficulty-modes",
+          "name": "難度模式",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "艾爾登法環",
+            "最後生還者",
+            "惡靈古堡2"
+          ]
+        },
+        {
+          "id": "new-game-plus",
+          "name": "二周目",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "黑帝斯",
+            "尼爾：自動人形",
+            "女神異聞錄5皇家版"
+          ]
+        },
+        {
+          "id": "save-point-checkpoint",
+          "name": "存檔點／檢查點",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "黑暗靈魂：終極版",
+            "惡靈古堡2",
+            "空洞騎士"
+          ]
+        },
+        {
+          "id": "save-scumming",
+          "name": "存讀作弊",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "文明帝國VII",
+            "柏德之門3",
+            "上古卷軸5：無界天際"
+          ]
+        },
+        {
+          "id": "fast-travel",
+          "name": "快速旅行",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "上古卷軸5：無界天際",
+            "艾爾登法環",
+            "碧血狂殺2"
+          ]
+        },
+        {
+          "id": "crafting",
+          "name": "合成／鍛造／附魔",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "魔物獵人：世界",
+            "當個創世神",
+            "泰拉瑞亞"
+          ]
+        },
+        {
+          "id": "meta-progression",
+          "name": "局外成長",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "黑帝斯",
+            "雨中冒險2",
+            "吸血鬼倖存者"
+          ]
+        },
+        {
+          "id": "skill-tree",
+          "name": "技能樹／天賦樹",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "流亡黯道",
+            "暗黑破壞神 IV",
+            "邊緣禁地4"
+          ]
+        },
+        {
+          "id": "roster",
+          "name": "角色名冊",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "任天堂明星大亂鬥 特別版",
+            "鬥陣特攻",
+            "特戰英豪"
+          ]
+        },
+        {
+          "id": "synergy",
+          "name": "協同效應",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "殺戮尖塔",
+            "吸血鬼倖存者",
+            "爐石戰記"
+          ]
+        },
+        {
+          "id": "inventory",
+          "name": "背包／庫存系統",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "惡靈古堡4",
+            "暗黑破壞神 IV",
+            "上古卷軸5：無界天際"
+          ]
+        },
+        {
+          "id": "loot-table",
+          "name": "掉落表",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "暗黑破壞神 IV",
+            "流亡黯道2",
+            "邊緣禁地4"
+          ]
+        },
+        {
+          "id": "rarity-tier",
+          "name": "稀有度階層",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "暗黑破壞神 IV",
+            "邊緣禁地3",
+            "蔚藍檔案"
+          ]
+        },
+        {
+          "id": "progression-system",
+          "name": "進度系統",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "上古卷軸5：無界天際",
+            "暗黑破壞神 IV",
+            "星露谷物語"
+          ]
+        },
+        {
+          "id": "min-max",
+          "name": "極限配裝",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "暗黑破壞神 IV",
+            "流亡黯道",
+            "柏德之門3"
+          ]
+        },
+        {
+          "id": "resource-management",
+          "name": "資源管理",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "缺氧",
+            "戰國時代",
+            "星露谷物語"
+          ]
+        },
+        {
+          "id": "prestige-reset",
+          "name": "聲望重置",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "決勝時刻4：現代戰爭",
+            "Apex 英雄",
+            "特戰英豪"
+          ]
+        },
+        {
+          "id": "build",
+          "name": "Build／配裝",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "流亡黯道",
+            "暗黑破壞神 IV",
+            "柏德之門3"
+          ]
+        },
+        {
+          "id": "meta",
+          "name": "Meta／最佳策略",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "英雄聯盟",
+            "特戰英豪",
+            "爐石戰記"
+          ]
+        },
+        {
+          "id": "hub-world",
+          "name": "中樞世界",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "戰神",
+            "空洞騎士",
+            "超級瑪利歐 奧德賽"
+          ]
+        },
+        {
+          "id": "critical-path",
+          "name": "主線流程",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "艾爾登法環",
+            "巫師 3：狂獵",
+            "黑暗靈魂：終極版"
+          ]
+        },
+        {
+          "id": "quest-design",
+          "name": "任務設計",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "巫師 3：狂獵",
+            "柏德之門3",
+            "上古卷軸5：無界天際"
+          ]
+        },
+        {
+          "id": "spatial-narrative",
+          "name": "空間敘事",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "生化奇兵",
+            "死亡擱淺",
+            "黑暗靈魂：終極版"
+          ]
+        },
+        {
+          "id": "ubisoft-formula",
+          "name": "育碧公式",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "刺客教條：起源",
+            "刺客教條：奧德賽",
+            "極地戰嚎5"
+          ]
+        },
+        {
+          "id": "ability-gating",
+          "name": "能力關卡限制",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "空洞騎士",
+            "Metroid Dread",
+            "空洞騎士：絲之歌"
+          ]
+        },
+        {
+          "id": "emergent-gameplay",
+          "name": "湧現式遊玩",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "薩爾達傳說 曠野之息",
+            "諾伊塔",
+            "巴巴是你"
+          ]
+        },
+        {
+          "id": "procedural-generation",
+          "name": "程序化生成",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "當個創世神",
+            "無人深空",
+            "洞穴探險"
+          ]
+        },
+        {
+          "id": "seed",
+          "name": "種子",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "當個創世神",
+            "泰拉瑞亞",
+            "洞穴探險"
+          ]
+        },
+        {
+          "id": "encounter-design",
+          "name": "遭遇戰設計",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "毀滅戰士：永恆",
+            "柏德之門3",
+            "戰神：諸神黃昏"
+          ]
+        },
+        {
+          "id": "level-design",
+          "name": "關卡設計",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "隻狼：暗影雙死",
+            "戰慄時空 2",
+            "黑暗靈魂：終極版"
+          ]
+        },
+        {
+          "id": "boss-design",
+          "name": "Boss 戰設計",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "隻狼：暗影雙死",
+            "戰神",
+            "艾爾登法環"
+          ]
+        },
+        {
+          "id": "mda-framework",
+          "name": "MDA 框架",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "俄羅斯方塊效應：連結",
+            "黑帝斯",
+            "文明帝國VII"
+          ]
+        },
+        {
+          "id": "pity-system",
+          "name": "保底機制",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "原神",
+            "蔚藍檔案",
+            "崩壞：星穹鐵道"
+          ]
+        },
+        {
+          "id": "economy-sink-faucet",
+          "name": "經濟水龍頭與排水口",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "流亡黯道2",
+            "魔獸世界",
+            "暗黑破壞神 IV"
+          ]
+        },
+        {
+          "id": "gaas",
+          "name": "遊戲即服務",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "天命2",
+            "要塞英雄",
+            "Apex 英雄"
+          ]
+        },
+        {
+          "id": "battle-pass",
+          "name": "戰鬥通行證",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "要塞英雄",
+            "Apex 英雄",
+            "Dota 2"
+          ]
+        },
+        {
+          "id": "gacha",
+          "name": "轉蛋／抽卡（系統設計）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "原神",
+            "蔚藍檔案",
+            "Fate/Grand Order"
+          ]
+        },
+        {
+          "id": "lobby",
+          "name": "大廳／房間系統",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Among Us",
+            "Dota 2"
+          ]
+        },
+        {
+          "id": "anti-cheat",
+          "name": "反外掛",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "《虹彩六號：圍攻行動》",
+            "Escape from Tarkov"
+          ]
+        },
+        {
+          "id": "sbmm",
+          "name": "技能配對",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "《Apex 英雄》",
+            "決勝時刻®：現代戰域™"
+          ]
+        },
+        {
+          "id": "coop-versus",
+          "name": "協力模式／對戰模式",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "雙人成行",
+            "Left 4 Dead 2"
+          ]
+        },
+        {
+          "id": "asynchronous-multiplayer",
+          "name": "非同步多人",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "艾爾登法環",
+            "DEATH STRANDING DIRECTOR'S CUT"
+          ]
+        },
+        {
+          "id": "matchmaking",
+          "name": "配對系統",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "《Apex 英雄》",
+            "Overcooked! 2"
+          ]
+        },
+        {
+          "id": "ranked",
+          "name": "排位模式",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "《Apex 英雄》",
+            "Dota 2"
+          ]
+        },
+        {
+          "id": "cross-play",
+          "name": "跨平台遊玩",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Warframe",
+            "《暗黑破壞神® IV》"
+          ]
+        },
+        {
+          "id": "pvp-pve",
+          "name": "PvP／PvE／PvPvE",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "天命2",
+            "Escape from Tarkov"
+          ]
+        },
+        {
+          "id": "desync",
+          "name": "失步",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "戰地風雲™ 6",
+            "S.T.A.L.K.E.R. 2: Heart of Chornobyl"
+          ]
+        },
+        {
+          "id": "rollback-netcode",
+          "name": "回滾網路碼",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Street Fighter 6",
+            "GUILTY GEAR -STRIVE-"
+          ]
+        },
+        {
+          "id": "tick-rate",
+          "name": "更新頻率",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Counter-Strike 2",
+            "Team Fortress 2"
+          ]
+        },
+        {
+          "id": "hit-registration",
+          "name": "命中判定",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "戰地風雲™ 6",
+            "Counter-Strike 2"
+          ]
+        },
+        {
+          "id": "latency-ping",
+          "name": "延遲／Ping",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "《Apex 英雄》",
+            "Counter-Strike 2"
+          ]
+        },
+        {
+          "id": "dedicated-server",
+          "name": "專屬伺服器",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Counter-Strike 2",
+            "《虹彩六號：圍攻行動》"
+          ]
+        },
+        {
+          "id": "p2p",
+          "name": "點對點連線",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "雙人成行",
+            "Terraria"
+          ]
+        },
+        {
+          "id": "physics-engine",
+          "name": "物理引擎",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Human Fall Flat",
+            "Chained Together"
+          ]
+        },
+        {
+          "id": "game-engine",
+          "name": "遊戲引擎",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "黑神話：悟空",
+            "Brotato"
+          ]
+        },
+        {
+          "id": "godot-engine",
+          "name": "Godot 引擎",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Brotato",
+            "Dead Cells"
+          ]
+        },
+        {
+          "id": "unity-engine",
+          "name": "Unity 引擎",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Among Us",
+            "Brotato"
+          ]
+        },
+        {
+          "id": "unreal-engine",
+          "name": "Unreal 引擎",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "黑神話：悟空",
+            "PUBG: BATTLEGROUNDS"
+          ]
+        },
+        {
+          "id": "ragdoll",
+          "name": "布娃娃物理",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Red Dead Redemption 2",
+            "Human Fall Flat"
+          ]
+        },
+        {
+          "id": "vsync-tearing",
+          "name": "垂直同步／畫面撕裂",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Counter-Strike 2",
+            "Cyberpunk 2077"
+          ]
+        },
+        {
+          "id": "motion-capture",
+          "name": "動作捕捉",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "DEATH STRANDING 2: ON THE BEACH",
+            "Red Dead Redemption 2"
+          ]
+        },
+        {
+          "id": "frame-rate",
+          "name": "幀率",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Street Fighter 6",
+            "文明帝國VII"
+          ]
+        },
+        {
+          "id": "frame-time",
+          "name": "影格時間",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+            "黑神話：悟空"
+          ]
+        },
+        {
+          "id": "input-lag",
+          "name": "輸入延遲",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Street Fighter 6",
+            "Counter-Strike 2"
+          ]
+        },
+        {
+          "id": "haptics",
+          "name": "觸覺回饋／自適應扳機",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Resident Evil Village",
+            "Marvel's Spider-Man Remastered"
+          ]
+        },
+        {
+          "id": "xr",
+          "name": "VR／AR／MR／XR",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Half-Life: Alyx",
+            "VRChat"
+          ]
+        },
+        {
+          "id": "rasterization",
+          "name": "光柵化",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Team Fortress 2",
+            "Terraria"
+          ]
+        },
+        {
+          "id": "ray-tracing",
+          "name": "光線追蹤",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Cyberpunk 2077",
+            "黑神話：悟空"
+          ]
+        },
+        {
+          "id": "global-illumination",
+          "name": "全域光照",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "黑神話：悟空",
+            "無人深空"
+          ]
+        },
+        {
+          "id": "neural-rendering",
+          "name": "神經渲染（DLSS 5）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "《NBA 2K27》",
+            "Resident Evil Requiem"
+          ]
+        },
+        {
+          "id": "hdr",
+          "name": "高動態範圍",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Resident Evil Village",
+            "Red Dead Redemption 2"
+          ]
+        },
+        {
+          "id": "lod",
+          "name": "細節層級",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "黑神話：悟空",
+            "無人深空"
+          ]
+        },
+        {
+          "id": "shader",
+          "name": "著色器",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Cyberpunk 2077",
+            "Cuphead"
+          ]
+        },
+        {
+          "id": "texture-streaming",
+          "name": "貼圖串流",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "無人深空",
+            "黑神話：悟空"
+          ]
+        },
+        {
+          "id": "path-tracing",
+          "name": "路徑追蹤",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Cyberpunk 2077",
+            "黑神話：悟空"
+          ]
+        },
+        {
+          "id": "occlusion-culling",
+          "name": "遮蔽剔除",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Cities: Skylines II",
+            "Ready or Not"
+          ]
+        },
+        {
+          "id": "draw-call",
+          "name": "繪製呼叫",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "無人深空",
+            "Cities: Skylines II"
+          ]
+        },
+        {
+          "id": "ai-upscaling",
+          "name": "AI 升頻",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Cyberpunk 2077",
+            "黑神話：悟空"
+          ]
+        },
+        {
+          "id": "aaa",
+          "name": "3A／AAA 遊戲",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Red Dead Redemption 2",
+            "黑神話：悟空"
+          ]
+        },
+        {
+          "id": "p2w",
+          "name": "付費碾壓",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "Warframe"
+          ]
+        },
+        {
+          "id": "cosmetics",
+          "name": "外觀道具（Cosmetics）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "要塞英雄",
+            "Apex 英雄"
+          ]
+        },
+        {
+          "id": "storefront-cut",
+          "name": "平台抽成",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "柏德之門3"
+          ]
+        },
+        {
+          "id": "backward-compatibility",
+          "name": "回溯相容（Backward Compatibility）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "超級瑪利歐 奧德賽（Switch → Switch 2）",
+            "Xbox Series X|S 回溯相容計畫"
+          ]
+        },
+        {
+          "id": "localization",
+          "name": "在地化",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "艾爾登法環",
+            "霍格華茲的傳承"
+          ]
+        },
+        {
+          "id": "age-rating",
+          "name": "年齡分級",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "電馭叛客2077",
+            "星露谷物語"
+          ]
+        },
+        {
+          "id": "f2p",
+          "name": "免費遊玩",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Warframe",
+            "Dota 2"
+          ]
+        },
+        {
+          "id": "live-service",
+          "name": "服務型遊戲（Live Service Game）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "天命2",
+            "Apex 英雄"
+          ]
+        },
+        {
+          "id": "remaster",
+          "name": "重製／重製版／重開機",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Resident Evil 2",
+            "零 ～紅蝶～ REMAKE"
+          ]
+        },
+        {
+          "id": "publisher-developer",
+          "name": "發行商與開發商",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "艾爾登法環",
+            "柏德之門3"
+          ]
+        },
+        {
+          "id": "early-access",
+          "name": "搶先體驗",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Dead Cells",
+            "英靈神殿"
+          ]
+        },
+        {
+          "id": "crowdfunding",
+          "name": "群眾募資",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Hollow Knight: Silksong",
+            "神界：原罪2 - 終極版"
+          ]
+        },
+        {
+          "id": "loot-box",
+          "name": "戰利品箱（Loot Box）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "星際大戰：戰場前線2",
+            "鬥陣特攻"
+          ]
+        },
+        {
+          "id": "indie",
+          "name": "獨立遊戲",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "空洞騎士",
+            "星露谷物語"
+          ]
+        },
+        {
+          "id": "monetization",
+          "name": "營利手法（Monetization）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "巫師3：狂獵",
+            "要塞英雄"
+          ]
+        },
+        {
+          "id": "live-ops",
+          "name": "營運維運（Live Ops）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "要塞英雄",
+            "Apex 英雄"
+          ]
+        },
+        {
+          "id": "aa-game",
+          "name": "雙 A 遊戲（AA Game）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "瘟疫傳說：安魂曲",
+            "Control Ultimate Edition"
+          ]
+        },
+        {
+          "id": "crunch",
+          "name": "Crunch 時期",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "電馭叛客2077",
+            "Red Dead Redemption 2"
+          ]
+        },
+        {
+          "id": "dlc-season-pass",
+          "name": "DLC／季票／擴充包",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "巫師 3：狂獵 - 完全版",
+            "艾爾登法環 黑夜君臨"
+          ]
+        },
+        {
+          "id": "roadmap",
+          "name": "路線圖（Roadmap）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "無人深空",
+            "Apex 英雄"
+          ]
+        },
+        {
+          "id": "mod-workshop",
+          "name": "模組工坊（Mod／Steam Workshop）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "天際：上古卷軸5",
+            "Garry's Mod",
+            "星露谷物語"
+          ]
+        },
+        {
+          "id": "wishlist",
+          "name": "願望清單",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "巴拉特羅"
+          ]
+        },
+        {
+          "id": "steam-review-tiers",
+          "name": "Steam 評價九級",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Hades II",
+            "巴拉特羅"
+          ]
+        },
+        {
+          "id": "steam-next-fest",
+          "name": "Steam 新品節（Steam Next Fest）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "潛水員戴夫",
+            "巴拉特羅"
+          ]
+        },
+        {
+          "id": "greybox",
+          "name": "灰盒（Greybox／關卡量體）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "傳送門2",
+            "戰慄時空2"
+          ]
+        },
+        {
+          "id": "vertical-slice",
+          "name": "垂直切片",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "柏德之門3",
+            "巴拉特羅"
+          ]
+        },
+        {
+          "id": "gold-master",
+          "name": "金盤／送廠版本（Gold Master, GM）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "薩爾達傳說：曠野之息",
+            "電馭叛客2077"
+          ]
+        },
+        {
+          "id": "playtest",
+          "name": "封閉／公開測試",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "巫師之塔"
+          ]
+        },
+        {
+          "id": "day-one-patch",
+          "name": "首日更新",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "電馭叛客2077",
+            "S.T.A.L.K.E.R. 2: Heart of Chornobyl"
+          ]
+        },
+        {
+          "id": "prototype",
+          "name": "原型（Prototype）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Baba Is You",
+            "吸血鬼倖存者"
+          ]
+        },
+        {
+          "id": "demo",
+          "name": "試玩版",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "巴拉特羅"
+          ]
+        },
+        {
+          "id": "gdd",
+          "name": "遊戲設計文件",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "巴拉特羅",
+            "空洞騎士"
+          ]
+        },
+        {
+          "id": "alpha-beta",
+          "name": "Alpha／Beta 版本",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "巴拉特羅",
+            "英靈神殿"
+          ]
+        },
+        {
+          "id": "guild-war",
+          "name": "公會戰（Guild War／Alliance War）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "七大罪：光與闇之交戰",
+            "夢幻模擬戰"
+          ]
+        },
+        {
+          "id": "tier-list",
+          "name": "強度排行榜（Tier List）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "英雄聯盟",
+            "鳴潮"
+          ]
+        },
+        {
+          "id": "collab-event",
+          "name": "聯動活動（Collaboration／Collab）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Fortnite",
+            "Fate/Grand Order"
+          ]
+        },
+        {
+          "id": "daily-weekly-quest",
+          "name": "每日／每週任務（Daily／Weekly Quest）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "原神",
+            "楓之谷M"
+          ]
+        },
+        {
+          "id": "limited-time-event",
+          "name": "限時活動（Limited-Time Event）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "原神",
+            "鳴潮"
+          ]
+        },
+        {
+          "id": "sweep",
+          "name": "掃蕩（Sweep／Auto Clear）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "楓之谷M",
+            "鳴潮"
+          ]
+        },
+        {
+          "id": "idle-rewards",
+          "name": "掛機收益（Idle Rewards）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "楓之谷M",
+            "原神"
+          ]
+        },
+        {
+          "id": "energy-system",
+          "name": "體力系統（Stamina／Energy System）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "原神",
+            "楓之谷M"
+          ]
+        },
+        {
+          "id": "monthly-card",
+          "name": "月卡（Monthly Card）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "原神",
+            "楓之谷M"
+          ]
+        },
+        {
+          "id": "banner",
+          "name": "卡池（Banner）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "原神",
+            "鳴潮"
+          ]
+        },
+        {
+          "id": "f2p-player",
+          "name": "免費玩家（F2P Player）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "原神",
+            "鳴潮"
+          ]
+        },
+        {
+          "id": "character-banner-rate-up",
+          "name": "角色池機率提升（Character Banner Rate-Up）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "原神",
+            "鳴潮"
+          ]
+        },
+        {
+          "id": "pity-counter",
+          "name": "保底機制（Pity Counter）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "原神",
+            "鳴潮"
+          ]
+        },
+        {
+          "id": "event-shop",
+          "name": "活動商店（Event Shop）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "原神",
+            "鳴潮"
+          ]
+        },
+        {
+          "id": "dupes",
+          "name": "重複角色／命座（Dupes）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "原神",
+            "鳴潮"
+          ]
+        },
+        {
+          "id": "reroll",
+          "name": "首抽洗帳（Reroll）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "鳴潮",
+            "原神"
+          ]
+        },
+        {
+          "id": "ssr-tiers",
+          "name": "稀有度分級（SSR／SR／R Tiers）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "原神",
+            "鳴潮"
+          ]
+        },
+        {
+          "id": "launch-dash",
+          "name": "開服衝刺（Launch Dash）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "鳴潮",
+            "原神"
+          ]
+        },
+        {
+          "id": "gacha-culture",
+          "name": "課金文化與抽卡黑話（Gacha Culture）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "鳴潮",
+            "原神"
+          ]
+        },
+        {
+          "id": "whale",
+          "name": "鯨魚玩家（Whale）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "原神",
+            "鳴潮"
+          ]
+        },
+        {
+          "id": "auto-battle",
+          "name": "自動戰鬥（Auto Battle）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "崩壞：星穹鐵道",
+            "楓之谷M"
+          ]
+        },
+        {
+          "id": "roguelike-mode-in-gacha",
+          "name": "抽卡手遊的爬塔／深淵模式（Roguelike Mode in Gacha）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "崩壞：星穹鐵道",
+            "鳴潮"
+          ]
+        },
+        {
+          "id": "endgame-content",
+          "name": "終局內容（Endgame Content）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "原神",
+            "鳴潮"
+          ]
+        },
+        {
+          "id": "smurf-boosting",
+          "name": "小號與代練（Smurf／Boosting）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Counter-Strike 2",
+            "Dota 2"
+          ]
+        },
+        {
+          "id": "balance-patch",
+          "name": "版本平衡更新（Balance Patch）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "英雄聯盟",
+            "Dota 2"
+          ]
+        },
+        {
+          "id": "patch-meta",
+          "name": "版本答案（Patch Meta）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "英雄聯盟",
+            "Dota 2"
+          ]
+        },
+        {
+          "id": "apm",
+          "name": "每分鐘操作數（APM）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Dota 2",
+            "英雄聯盟"
+          ]
+        },
+        {
+          "id": "throw-esports",
+          "name": "送頭／丟局（Throw）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Dota 2",
+            "英雄聯盟"
+          ]
+        },
+        {
+          "id": "comeback",
+          "name": "逆轉／翻盤（Comeback）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "英雄聯盟",
+            "Dota 2"
+          ]
+        },
+        {
+          "id": "mechanics-vs-macro",
+          "name": "操作與大局觀（Mechanics vs Macro）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Dota 2",
+            "英雄聯盟"
+          ]
+        },
+        {
+          "id": "clutch",
+          "name": "關鍵一擊／穩住全場（Clutch）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Counter-Strike 2",
+            "Dota 2"
+          ]
+        },
+        {
+          "id": "bo3-bo5",
+          "name": "三戰兩勝／五戰三勝制（Best of Three／Best of Five）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Dota 2",
+            "Counter-Strike 2"
+          ]
+        },
+        {
+          "id": "roster-lock",
+          "name": "名單鎖定（Roster Lock）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "英雄聯盟",
+            "Dota 2"
+          ]
+        },
+        {
+          "id": "elo-mmr",
+          "name": "評分與段位系統（ELO／MMR／Ranked Tier）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Dota 2",
+            "英雄聯盟"
+          ]
+        },
+        {
+          "id": "ban-pick",
+          "name": "禁選階段（Ban／Pick Phase）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "英雄聯盟",
+            "Dota 2"
+          ]
+        },
+        {
+          "id": "scrim",
+          "name": "對練賽（Scrim）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "英雄聯盟",
+            "Dota 2"
+          ]
+        },
+        {
+          "id": "lan-vs-online",
+          "name": "線下賽與線上賽（LAN vs Online）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Dota 2",
+            "英雄聯盟"
+          ]
+        },
+        {
+          "id": "bracket",
+          "name": "賽程表（Bracket）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Dota 2",
+            "英雄聯盟"
+          ]
+        },
+        {
+          "id": "caster",
+          "name": "主播與賽評（Caster／Commentator）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "英雄聯盟",
+            "Dota 2"
+          ]
+        },
+        {
+          "id": "high-refresh-low-latency",
+          "name": "高更新率與低延遲（High Refresh Rate／Low Latency）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Counter-Strike 2",
+            "英雄聯盟"
+          ]
+        },
+        {
+          "id": "spectator-replay",
+          "name": "觀戰與重播系統（Spectator Mode／Replay System）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "《鬥陣特攻®》",
+            "Dota 2"
+          ]
+        },
+        {
+          "id": "generative-ai-assist",
+          "name": "生成式 AI 輔助",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "巴拉特羅"
+          ]
+        },
+        {
+          "id": "voice-ai",
+          "name": "即時語音 AI",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "蔚藍檔案"
+          ]
+        },
+        {
+          "id": "pcgml",
+          "name": "機器學習程序生成",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "無人深空"
+          ]
+        },
+        {
+          "id": "ai-npc",
+          "name": "AI NPC",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "蔚藍檔案"
+          ]
+        },
+        {
+          "id": "metaverse",
+          "name": "元宇宙",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "VRChat"
+          ]
+        },
+        {
+          "id": "blockchain-game",
+          "name": "區塊鏈遊戲／Web3",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "Big Ambitions"
+          ]
+        },
+        {
+          "id": "cloud-gaming",
+          "name": "雲端遊戲",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "eFootball™"
+          ]
+        },
+        {
+          "id": "behavior-tree-fsm",
+          "name": "行為樹／狀態機",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Ready or Not",
+            "Monster Hunter Wilds"
+          ]
+        },
+        {
+          "id": "drop",
+          "name": "出貨（成功抽到）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "楓之谷M"
+          ]
+        },
+        {
+          "id": "luck-eu-fei",
+          "name": "歐洲人／非洲人（運氣好壞）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "楓之谷M"
+          ]
+        },
+        {
+          "id": "gaming-payment-slang",
+          "name": "課金／氪金／儲值",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "楓之谷M",
+            "RO仙境傳說：新世代的誕生"
+          ]
+        },
+        {
+          "id": "jungler",
+          "name": "打野（Jungler）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "英雄聯盟",
+            "Dota 2"
+          ]
+        },
+        {
+          "id": "tank",
+          "name": "坦克（肉盾）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "鬥陣特攻",
+            "Dota 2"
+          ]
+        },
+        {
+          "id": "glass-cannon",
+          "name": "玻璃砲（脆皮）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "鬥陣特攻"
+          ]
+        },
+        {
+          "id": "healer",
+          "name": "補師（奶媽）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "鬥陣特攻"
+          ]
+        },
+        {
+          "id": "support-role",
+          "name": "輔助（Support）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "英雄聯盟"
+          ]
+        },
+        {
+          "id": "dps-role",
+          "name": "輸出（DPS／打手）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "鬥陣特攻",
+            "英雄聯盟"
+          ]
+        },
+        {
+          "id": "bench-warmer",
+          "name": "板凳／廢料（沒人用的角色）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "英雄聯盟"
+          ]
+        },
+        {
+          "id": "version-answer",
+          "name": "版本答案（版本賤男）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "英雄聯盟"
+          ]
+        },
+        {
+          "id": "nerf-bat",
+          "name": "削弱之槌（Nerf／Buff 動詞）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "Dota 2"
+          ]
+        },
+        {
+          "id": "op",
+          "name": "OP（超模／破壞平衡）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "Dota 2"
+          ]
+        },
+        {
+          "id": "work-shift",
+          "name": "打工／搬磚（日常任務）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "楓之谷M"
+          ]
+        },
+        {
+          "id": "liver-grind",
+          "name": "肝／爆肝",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "暗黑破壞神 IV",
+            "楓之谷M"
+          ]
+        },
+        {
+          "id": "game-lifecycle-slang",
+          "name": "退坑／回坑／補坑",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "楓之谷M"
+          ]
+        },
+        {
+          "id": "afk-farming",
+          "name": "掛機",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "楓之谷M"
+          ]
+        },
+        {
+          "id": "number-slang",
+          "name": "666／777（讚嘆用語）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "英雄聯盟"
+          ]
+        },
+        {
+          "id": "smurf",
+          "name": "小號（Smurf）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "英雄聯盟"
+          ]
+        },
+        {
+          "id": "chat-abbrev-misc",
+          "name": "聊天室常用縮寫（GLHF／BRB／WTF）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "Dota 2"
+          ]
+        },
+        {
+          "id": "noob",
+          "name": "菜鳥（Noob）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "Dota 2"
+          ]
+        },
+        {
+          "id": "lag",
+          "name": "頓／卡（Lag）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "Counter-Strike 2"
+          ]
+        },
+        {
+          "id": "afk",
+          "name": "AFK（人不在鍵盤前）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "Dota 2"
+          ]
+        },
+        {
+          "id": "ez",
+          "name": "EZ（太簡單了）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "鬥陣特攻"
+          ]
+        },
+        {
+          "id": "gg",
+          "name": "GG（Good Game）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Dota 2",
+            "英雄聯盟"
+          ]
+        },
+        {
+          "id": "leet-slang-484-94",
+          "name": "484／94（數字諧音）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "英雄聯盟"
+          ]
+        },
+        {
+          "id": "bot",
+          "name": "人機（Bot，戲稱菜）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "Counter-Strike 2"
+          ]
+        },
+        {
+          "id": "hooked",
+          "name": "上頭",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "吸血鬼倖存者",
+            "Balatro"
+          ]
+        },
+        {
+          "id": "tilt",
+          "name": "上頭爆走（Tilt）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "英雄聯盟"
+          ]
+        },
+        {
+          "id": "big-brain",
+          "name": "大腦花開（Big Brain）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "Slay the Spire"
+          ]
+        },
+        {
+          "id": "tryhard",
+          "name": "太認真（Tryhard）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "鬥陣特攻"
+          ]
+        },
+        {
+          "id": "fat-finger",
+          "name": "手殘",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Celeste",
+            "隻狼：暗影雙死"
+          ]
+        },
+        {
+          "id": "sequence-break",
+          "name": "打破流程順序（Sequence Break）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "Hollow Knight"
+          ]
+        },
+        {
+          "id": "mother-tang",
+          "name": "母湯（不可以）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "英雄聯盟"
+          ]
+        },
+        {
+          "id": "platinum",
+          "name": "白金（全成就）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Hollow Knight",
+            "Hades"
+          ]
+        },
+        {
+          "id": "casual-vs-hardcore",
+          "name": "休閒玩家 vs 硬核玩家",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "Stardew Valley"
+          ]
+        },
+        {
+          "id": "one-more-turn",
+          "name": "再玩一回合症候群",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "席德・梅爾的文明帝國VII",
+            "Sid Meier's Civilization V"
+          ]
+        },
+        {
+          "id": "sweaty",
+          "name": "汗流浹背（Sweaty）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "鬥陣特攻"
+          ]
+        },
+        {
+          "id": "buddha-mode",
+          "name": "佛系",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "Stardew Valley"
+          ]
+        },
+        {
+          "id": "toxic",
+          "name": "毒（Toxic，惡意言行）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "英雄聯盟"
+          ]
+        },
+        {
+          "id": "ragequit",
+          "name": "氣到退出（Ragequit）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "英雄聯盟"
+          ]
+        },
+        {
+          "id": "jank",
+          "name": "破碎手感（Jank）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "Vampire Survivors"
+          ]
+        },
+        {
+          "id": "cheese",
+          "name": "起司打法（Cheese）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "艾爾登法環",
+            "黑暗靈魂 重製版"
+          ]
+        },
+        {
+          "id": "graduated",
+          "name": "畢業",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "楓之谷M"
+          ]
+        },
+        {
+          "id": "softlock",
+          "name": "軟鎖（Softlock）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "Hollow Knight"
+          ]
+        },
+        {
+          "id": "wanted-tuidui",
+          "name": "揪團／開團",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "RO仙境傳說：新世代的誕生"
+          ]
+        },
+        {
+          "id": "hardlock",
+          "name": "硬鎖（Hardlock）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "Slay the Spire"
+          ]
+        },
+        {
+          "id": "kaihuang",
+          "name": "開荒",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "RO仙境傳說：新世代的誕生"
+          ]
+        },
+        {
+          "id": "cloud-gamer",
+          "name": "雲玩家",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "艾爾登法環"
+          ]
+        },
+        {
+          "id": "meta-slave",
+          "name": "跟風（Meta Slave）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "英雄聯盟"
+          ]
+        },
+        {
+          "id": "gaming-drought",
+          "name": "遊戲荒",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "Stardew Valley"
+          ]
+        },
+        {
+          "id": "gaming-impotence",
+          "name": "電子陽痿",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "Slay the Spire"
+          ]
+        },
+        {
+          "id": "lurking",
+          "name": "潛水／樓主",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "楓之谷M"
+          ]
+        },
+        {
+          "id": "backlog",
+          "name": "積庫存（Backlog）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "Slay the Spire"
+          ]
+        },
+        {
+          "id": "spoiler-boom-lei",
+          "name": "爆雷（劇透）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "女鬼橋二 釋魂路"
+          ]
+        },
+        {
+          "id": "git-gud",
+          "name": "Git Gud（去練練手）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "艾爾登法環",
+            "隻狼：暗影雙死"
+          ]
+        },
+        {
+          "id": "glitch",
+          "name": "Glitch（程式錯誤／視覺異常）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "Hollow Knight"
+          ]
+        },
+        {
+          "id": "pro-player-slang",
+          "name": "大佬／巴哥／大神",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "英雄聯盟"
+          ]
+        },
+        {
+          "id": "faith-refill",
+          "name": "信仰充值（更新信仰）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "楓之谷M"
+          ]
+        },
+        {
+          "id": "forum-flooding",
+          "name": "洗版／洗樓",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "英雄聯盟"
+          ]
+        },
+        {
+          "id": "masterpiece-trash",
+          "name": "神作／雷作",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "艾爾登法環"
+          ]
+        },
+        {
+          "id": "forum-agenda",
+          "name": "釣魚／帶風向",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "楓之谷M"
+          ]
+        },
+        {
+          "id": "newbie-cute",
+          "name": "萌新",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "楓之谷M"
+          ]
+        },
+        {
+          "id": "delay-tiaopiao",
+          "name": "跳票",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "艾爾登法環 黑夜君臨"
+          ]
+        },
+        {
+          "id": "landmine-teammate",
+          "name": "雷包（豬隊友）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "英雄聯盟"
+          ]
+        },
+        {
+          "id": "devs-will",
+          "name": "廠商聖光／廠商黑幕",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "楓之谷M"
+          ]
+        },
+        {
+          "id": "refugee-migration",
+          "name": "難民潮",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "楓之谷M"
+          ]
+        },
+        {
+          "id": "ultimate-skill-slang",
+          "name": "大招（Ult）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "鬥陣特攻",
+            "英雄聯盟"
+          ]
+        },
+        {
+          "id": "exploit",
+          "name": "卡 BUG／Exploit（利用漏洞）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Hollow Knight",
+            "Dota 2"
+          ]
+        },
+        {
+          "id": "level-gating",
+          "name": "卡等／越級打怪",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "艾爾登法環",
+            "隻狼：暗影雙死"
+          ]
+        },
+        {
+          "id": "supply-drop",
+          "name": "空投（補給箱）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "PUBG: BATTLEGROUNDS"
+          ]
+        },
+        {
+          "id": "one-shot",
+          "name": "秒殺（一招擊殺）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "Dota 2"
+          ]
+        },
+        {
+          "id": "camp-turtle",
+          "name": "苟／龜（消極防守）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "PUBG: BATTLEGROUNDS"
+          ]
+        },
+        {
+          "id": "go-head-on",
+          "name": "剛正面",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "PUBG: BATTLEGROUNDS"
+          ]
+        },
+        {
+          "id": "speedrun",
+          "name": "速通（Speedrun）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 3,
+          "images": 3,
+          "games": [
+            "Celeste",
+            "Hollow Knight",
+            "黑暗靈魂 重製版"
+          ]
+        },
+        {
+          "id": "loot-slang",
+          "name": "舔包（撿戰利品）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "PUBG: BATTLEGROUNDS"
+          ]
+        },
+        {
+          "id": "controller-pc-console",
+          "name": "手把黨／PC黨／主機黨",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "Counter-Strike 2"
+          ]
+        },
+        {
+          "id": "maphack",
+          "name": "開圖／掛輔（外掛作弊）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "暗黑破壞神 II：獄火重生"
+          ]
+        },
+        {
+          "id": "gaming-performance-slang",
+          "name": "Ping 值／幀數（效能藉口）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "Counter-Strike 2"
+          ]
+        },
+        {
+          "id": "pc-key-slang",
+          "name": "WASD／QWER（PC 預設按鍵）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Counter-Strike 2",
+            "英雄聯盟"
+          ]
+        },
+        {
+          "id": "thicc-leg",
+          "name": "抱大腿（大腿）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "Dota 2"
+          ]
+        },
+        {
+          "id": "feed",
+          "name": "送頭（Feed）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "Dota 2"
+          ]
+        },
+        {
+          "id": "backdoor",
+          "name": "偷家／偷塔（BD）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "Dota 2"
+          ]
+        },
+        {
+          "id": "push",
+          "name": "推線（Push）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "Dota 2"
+          ]
+        },
+        {
+          "id": "dive",
+          "name": "越塔（Dive）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "英雄聯盟"
+          ]
+        },
+        {
+          "id": "ks",
+          "name": "搶人頭（KS）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "Dota 2"
+          ]
+        },
+        {
+          "id": "snowball",
+          "name": "滾雪球（Snowball）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "英雄聯盟",
+            "Dota 2"
+          ]
+        },
+        {
+          "id": "poke",
+          "name": "騷擾（Poke）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 1,
+          "images": 1,
+          "games": [
+            "英雄聯盟"
+          ]
+        },
+        {
+          "id": "carry",
+          "name": "Carry（帶飛）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Dota 2",
+            "英雄聯盟"
+          ]
+        },
+        {
+          "id": "farm",
+          "name": "Farm（種田／補兵，含 CS）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Dota 2",
+            "英雄聯盟"
+          ]
+        },
+        {
+          "id": "gank",
+          "name": "Gank（圍殺／偷襲）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Dota 2",
+            "英雄聯盟"
           ]
         }
       ]

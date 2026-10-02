@@ -1,0 +1,861 @@
+[
+  {
+    "entry": "srpg",
+    "game": "Fire Emblem Engage",
+    "imageUrl": "https://assets.nintendo.com/image/upload/ar_16%3A9%2Cc_lpad%2Cw_1240/b_white/f_auto/q_auto/store/software/switch/70010000058802/88b8db494399e659522af36331b7f588439bc4312af5c0ee57035c063651ab4a",
+    "sourceUrl": "https://www.nintendo.com/us/store/products/fire-emblem-engage-switch/",
+    "imageKind": "官方宣傳圖"
+  },
+  {
+    "entry": "mmorpg",
+    "game": "World of Warcraft",
+    "imageUrl": "https://blz-contentstack-images.akamaized.net/v3/assets/blt9c12f249ac15c7ec/bltb5a24e5ab1e2cfb0/6a88e3589b942efdb6f74110/wow-thumbnail-homepage.jpg",
+    "sourceUrl": "https://worldofwarcraft.blizzard.com/",
+    "imageKind": "官方宣傳圖"
+  },
+  {
+    "entry": "mmo",
+    "game": "World of Warcraft",
+    "imageUrl": "https://blz-contentstack-images.akamaized.net/v3/assets/blt9c12f249ac15c7ec/bltb5a24e5ab1e2cfb0/6a88e3589b942efdb6f74110/wow-thumbnail-homepage.jpg",
+    "sourceUrl": "https://worldofwarcraft.blizzard.com/",
+    "imageKind": "官方宣傳圖"
+  },
+  {
+    "entry": "hakoniwa",
+    "game": "Super Mario Odyssey",
+    "imageUrl": "https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.5/ncom/en_US/products/games/switch/super-mario-odyssey/105879-switch-super-mario-odyssey-us-1200x675",
+    "sourceUrl": "https://www.nintendo.com/us/store/products/super-mario-odyssey-105879/",
+    "imageKind": "官方宣傳圖"
+  },
+  {
+    "entry": "hakoniwa",
+    "game": "The Legend of Zelda: Tears of the Kingdom",
+    "imageUrl": "https://assets.nintendo.com/image/upload/ar_16%3A9%2Cc_lpad%2Cw_1240/b_white/f_auto/q_auto/store/software/switch/70010000063714/fb30eab428df3fc993b41c76e20f72e4d76d49734d17d31996b5ab61c414b117",
+    "sourceUrl": "https://www.nintendo.com/us/store/products/the-legend-of-zelda-tears-of-the-kingdom-switch/",
+    "imageKind": "官方宣傳圖"
+  },
+  {
+    "entry": "moba",
+    "game": "League of Legends",
+    "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+    "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+    "imageKind": "官方教學示意圖"
+  },
+  {
+    "entry": "cooldown",
+    "game": "League of Legends",
+    "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+    "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+    "imageKind": "官方教學示意圖"
+  },
+  {
+    "entry": "aoe",
+    "game": "League of Legends",
+    "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+    "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+    "imageKind": "官方教學示意圖"
+  },
+  {
+    "entry": "aggro",
+    "game": "World of Warcraft",
+    "imageUrl": "https://blz-contentstack-images.akamaized.net/v3/assets/blt9c12f249ac15c7ec/bltb5a24e5ab1e2cfb0/6a88e3589b942efdb6f74110/wow-thumbnail-homepage.jpg",
+    "sourceUrl": "https://worldofwarcraft.blizzard.com/",
+    "imageKind": "官方宣傳圖"
+  },
+  {
+    "entry": "buff-debuff",
+    "game": "World of Warcraft",
+    "imageUrl": "https://blz-contentstack-images.akamaized.net/v3/assets/blt9c12f249ac15c7ec/bltb5a24e5ab1e2cfb0/6a88e3589b942efdb6f74110/wow-thumbnail-homepage.jpg",
+    "sourceUrl": "https://worldofwarcraft.blizzard.com/",
+    "imageKind": "官方宣傳圖"
+  },
+  {
+    "entry": "buff-debuff",
+    "game": "League of Legends",
+    "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+    "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+    "imageKind": "官方教學示意圖"
+  },
+  {
+    "entry": "crowd-control",
+    "game": "League of Legends",
+    "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+    "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+    "imageKind": "官方教學示意圖"
+  },
+  {
+    "entry": "dps",
+    "game": "League of Legends",
+    "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+    "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+    "imageKind": "官方教學示意圖"
+  },
+  {
+    "entry": "burst-damage",
+    "game": "League of Legends",
+    "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+    "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+    "imageKind": "官方教學示意圖"
+  },
+  {
+    "entry": "procedural-generation",
+    "game": "Minecraft",
+    "imageUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/screenshots/CREATE_BuildAlmostAnything.png",
+    "sourceUrl": "https://www.minecraft.net/en-us/about-minecraft",
+    "imageKind": "官方遊玩截圖"
+  },
+  {
+    "entry": "emergent-gameplay",
+    "game": "The Legend of Zelda: Breath of the Wild",
+    "imageUrl": "https://assets.nintendo.com/image/upload/ar_16%3A9%2Cc_lpad%2Cw_1240/b_white/f_auto/q_auto/ncom/en_US/products/games/switch/the-legend-of-zelda-breath-of-the-wild/105208-switch-the-legend-of-zelda-breath-of-the-wild-us-1200x675",
+    "sourceUrl": "https://www.nintendo.com/us/store/products/the-legend-of-zelda-breath-of-the-wild-us/",
+    "imageKind": "官方宣傳圖"
+  },
+  {
+    "entry": "gaas",
+    "game": "Fortnite",
+    "imageUrl": "https://cms-assets.unrealengine.com/cm6l5gfpm05kr07my04cqgy2x/cmqbdhpbt1hv007obyg3sf57r",
+    "sourceUrl": "https://www.fortnite.com/news?lang=en-US",
+    "imageKind": "官方宣傳圖"
+  },
+  {
+    "entry": "battle-pass",
+    "game": "Fortnite",
+    "imageUrl": "https://cms-assets.unrealengine.com/cm6l5gfpm05kr07my04cqgy2x/cmqbdhpbt1hv007obyg3sf57r",
+    "sourceUrl": "https://www.fortnite.com/news?lang=en-US",
+    "imageKind": "官方宣傳圖"
+  },
+  {
+    "entry": "gacha",
+    "game": "Genshin Impact",
+    "imageUrl": "https://upload-static.hoyoverse.com/hk4e/upload/fb/common.jpg",
+    "sourceUrl": "https://genshin.hoyoverse.com/en/news/103756",
+    "imageKind": "官方宣傳圖"
+  },
+  {
+    "entry": "gacha",
+    "game": "Fate/Grand Order",
+    "imageUrl": "https://fate-go.us/images/fate_card_1800.png",
+    "sourceUrl": "https://fate-go.us/",
+    "imageKind": "官方宣傳圖"
+  },
+  {
+    "entry": "meta",
+    "game": "League of Legends",
+    "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+    "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+    "imageKind": "官方教學示意圖"
+  },
+  {
+    "entry": "meta",
+    "game": "VALORANT",
+    "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/10a5609d1ba39e965d01362d976f1b59fefc232f-1920x1080.jpg",
+    "sourceUrl": "https://playvalorant.com/en-us/news/announcements/beginners-guide/",
+    "imageKind": "官方教學畫面"
+  },
+  {
+    "entry": "meta",
+    "game": "Hearthstone",
+    "imageUrl": "https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/1u/1UMV7OIA2UM11774552928199.jpg",
+    "sourceUrl": "https://hearthstone.blizzard.com/en-us/news/24271853",
+    "imageKind": "官方宣傳圖"
+  },
+  {
+    "entry": "crafting",
+    "game": "Minecraft",
+    "imageUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/screenshots/CREATE_BuildAlmostAnything.png",
+    "sourceUrl": "https://www.minecraft.net/en-us/about-minecraft",
+    "imageKind": "官方遊玩截圖"
+  },
+  {
+    "entry": "dda",
+    "game": "Mario Kart 8 Deluxe",
+    "imageUrl": "https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.5/store/software/switch/70010000000153/de697f487a36d802dd9a5ff0341f717c8486221f2f1219b675af37aca63bc453",
+    "sourceUrl": "https://www.nintendo.com/us/store/products/mario-kart-8-deluxe-switch/",
+    "imageKind": "官方宣傳圖"
+  },
+  {
+    "entry": "rng",
+    "game": "Hearthstone",
+    "imageUrl": "https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/1u/1UMV7OIA2UM11774552928199.jpg",
+    "sourceUrl": "https://hearthstone.blizzard.com/en-us/news/24271853",
+    "imageKind": "官方宣傳圖"
+  },
+  {
+    "entry": "synergy",
+    "game": "Hearthstone",
+    "imageUrl": "https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/1u/1UMV7OIA2UM11774552928199.jpg",
+    "sourceUrl": "https://hearthstone.blizzard.com/en-us/news/24271853",
+    "imageKind": "官方宣傳圖"
+  },
+  {
+    "entry": "hidden-information",
+    "game": "Hearthstone",
+    "imageUrl": "https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/1u/1UMV7OIA2UM11774552928199.jpg",
+    "sourceUrl": "https://hearthstone.blizzard.com/en-us/news/24271853",
+    "imageKind": "官方宣傳圖"
+  },
+  {
+    "entry": "tutorialization",
+    "game": "Super Mario Odyssey",
+    "imageUrl": "https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.5/ncom/en_US/products/games/switch/super-mario-odyssey/105879-switch-super-mario-odyssey-us-1200x675",
+    "sourceUrl": "https://www.nintendo.com/us/store/products/super-mario-odyssey-105879/",
+    "imageKind": "官方宣傳圖"
+  },
+  {
+    "entry": "affordance",
+    "game": "The Legend of Zelda: Breath of the Wild",
+    "imageUrl": "https://assets.nintendo.com/image/upload/ar_16%3A9%2Cc_lpad%2Cw_1240/b_white/f_auto/q_auto/ncom/en_US/products/games/switch/the-legend-of-zelda-breath-of-the-wild/105208-switch-the-legend-of-zelda-breath-of-the-wild-us-1200x675",
+    "sourceUrl": "https://www.nintendo.com/us/store/products/the-legend-of-zelda-breath-of-the-wild-us/",
+    "imageKind": "官方宣傳圖"
+  },
+  {
+    "entry": "ability-gating",
+    "game": "Metroid Dread",
+    "imageUrl": "https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.5/store/software/switch/70010000042924/4f2c683f0196210ec212a2ab8bf6952223c0b88e827b820953407a2ba61c9cb2",
+    "sourceUrl": "https://www.nintendo.com/us/store/products/70010000042924/",
+    "imageKind": "官方宣傳圖"
+  },
+  {
+    "entry": "seed",
+    "game": "Minecraft",
+    "imageUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/screenshots/CREATE_BuildAlmostAnything.png",
+    "sourceUrl": "https://www.minecraft.net/en-us/about-minecraft",
+    "imageKind": "官方遊玩截圖"
+  },
+  {
+    "entry": "pity-system",
+    "game": "Genshin Impact",
+    "imageUrl": "https://upload-static.hoyoverse.com/hk4e/upload/fb/common.jpg",
+    "sourceUrl": "https://genshin.hoyoverse.com/en/news/103756",
+    "imageKind": "官方宣傳圖"
+  },
+  {
+    "entry": "pity-system",
+    "game": "Honkai: Star Rail",
+    "imageUrl": "https://fastcdn.hoyoverse.com/mi18n/hkrpg_global/m20260904hy5hcii9ds/upload/f0981b5c04af1c7a720d0bd65d958c52_1494770406828241360.png",
+    "sourceUrl": "https://hsr.hoyoverse.com/en-us/",
+    "imageKind": "官方宣傳圖"
+  },
+  {
+    "entry": "economy-sink-faucet",
+    "game": "World of Warcraft",
+    "imageUrl": "https://blz-contentstack-images.akamaized.net/v3/assets/blt9c12f249ac15c7ec/bltb5a24e5ab1e2cfb0/6a88e3589b942efdb6f74110/wow-thumbnail-homepage.jpg",
+    "sourceUrl": "https://worldofwarcraft.blizzard.com/",
+    "imageKind": "官方宣傳圖"
+  },
+  {
+    "entry": "unlockables",
+    "game": "Super Smash Bros. Ultimate",
+    "imageUrl": "https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.5/ncom/en_US/products/games/switch/super-smash-bros-ultimate/108043-switch-super-smash-bros-ultimate-us-1200x675",
+    "sourceUrl": "https://www.nintendo.com/us/store/products/super-smash-bros-ultimate-us/",
+    "imageKind": "官方宣傳圖"
+  },
+  {
+    "entry": "prestige-reset",
+    "game": "VALORANT",
+    "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/10a5609d1ba39e965d01362d976f1b59fefc232f-1920x1080.jpg",
+    "sourceUrl": "https://playvalorant.com/en-us/news/announcements/beginners-guide/",
+    "imageKind": "官方教學畫面"
+  },
+  {
+    "entry": "hub-world",
+    "game": "Super Mario Odyssey",
+    "imageUrl": "https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.5/ncom/en_US/products/games/switch/super-mario-odyssey/105879-switch-super-mario-odyssey-us-1200x675",
+    "sourceUrl": "https://www.nintendo.com/us/store/products/super-mario-odyssey-105879/",
+    "imageKind": "官方宣傳圖"
+  },
+  {
+    "entry": "roster",
+    "game": "Super Smash Bros. Ultimate",
+    "imageUrl": "https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.5/ncom/en_US/products/games/switch/super-smash-bros-ultimate/108043-switch-super-smash-bros-ultimate-us-1200x675",
+    "sourceUrl": "https://www.nintendo.com/us/store/products/super-smash-bros-ultimate-us/",
+    "imageKind": "官方宣傳圖"
+  },
+  {
+    "entry": "roster",
+    "game": "VALORANT",
+    "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/10a5609d1ba39e965d01362d976f1b59fefc232f-1920x1080.jpg",
+    "sourceUrl": "https://playvalorant.com/en-us/news/announcements/beginners-guide/",
+    "imageKind": "官方教學畫面"
+  },
+  {
+    "entry": "feedback-loop",
+    "game": "Mario Kart 8 Deluxe",
+    "imageUrl": "https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.5/store/software/switch/70010000000153/de697f487a36d802dd9a5ff0341f717c8486221f2f1219b675af37aca63bc453",
+    "sourceUrl": "https://www.nintendo.com/us/store/products/mario-kart-8-deluxe-switch/",
+    "imageKind": "官方宣傳圖"
+  },
+  {
+    "entry": "energy-system",
+    "game": "Genshin Impact",
+    "imageUrl": "https://upload-static.hoyoverse.com/hk4e/upload/fb/common.jpg",
+    "sourceUrl": "https://genshin.hoyoverse.com/en/news/103756",
+    "imageKind": "官方宣傳圖"
+  },
+  {
+    "entry": "daily-weekly-quest",
+    "game": "Genshin Impact",
+    "imageUrl": "https://upload-static.hoyoverse.com/hk4e/upload/fb/common.jpg",
+    "sourceUrl": "https://genshin.hoyoverse.com/en/news/103756",
+    "imageKind": "官方宣傳圖"
+  },
+  {
+    "entry": "reroll",
+    "game": "Genshin Impact",
+    "imageUrl": "https://upload-static.hoyoverse.com/hk4e/upload/fb/common.jpg",
+    "sourceUrl": "https://genshin.hoyoverse.com/en/news/103756",
+    "imageKind": "官方宣傳圖"
+  },
+  {
+    "entry": "gacha-culture",
+    "game": "Genshin Impact",
+    "imageUrl": "https://upload-static.hoyoverse.com/hk4e/upload/fb/common.jpg",
+    "sourceUrl": "https://genshin.hoyoverse.com/en/news/103756",
+    "imageKind": "官方宣傳圖"
+  },
+  {
+    "entry": "collab-event",
+    "game": "Fortnite",
+    "imageUrl": "https://cms-assets.unrealengine.com/cm6l5gfpm05kr07my04cqgy2x/cmqbdhpbt1hv007obyg3sf57r",
+    "sourceUrl": "https://www.fortnite.com/news?lang=en-US",
+    "imageKind": "官方宣傳圖"
+  },
+  {
+    "entry": "collab-event",
+    "game": "Fate/Grand Order",
+    "imageUrl": "https://fate-go.us/images/fate_card_1800.png",
+    "sourceUrl": "https://fate-go.us/",
+    "imageKind": "官方宣傳圖"
+  },
+  {
+    "entry": "tier-list",
+    "game": "League of Legends",
+    "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+    "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+    "imageKind": "官方教學示意圖"
+  },
+  {
+    "entry": "limited-time-event",
+    "game": "Genshin Impact",
+    "imageUrl": "https://upload-static.hoyoverse.com/hk4e/upload/fb/common.jpg",
+    "sourceUrl": "https://genshin.hoyoverse.com/en/news/103756",
+    "imageKind": "官方宣傳圖"
+  },
+  {
+    "entry": "auto-battle",
+    "game": "Genshin Impact",
+    "imageUrl": "https://upload-static.hoyoverse.com/hk4e/upload/fb/common.jpg",
+    "sourceUrl": "https://genshin.hoyoverse.com/en/news/103756",
+    "imageKind": "官方宣傳圖"
+  },
+  {
+    "entry": "guild-war",
+    "game": "The Seven Deadly Sins: Grand Cross",
+    "imageUrl": "https://sgimage.netmarble.com/images/netmarble/nanagb/20250617/wjue1750129105793.jpg",
+    "sourceUrl": "https://7dsgc.netmarble.com/en/pcclient/n/n/nHvala",
+    "imageKind": "官方宣傳圖"
+  },
+  {
+    "entry": "guild-war",
+    "game": "Langrisser Mobile",
+    "imageUrl": "https://play-lh.googleusercontent.com/Y2OX5Y8C_S84YJY6wrQ4R0pnh7hBJXEKU4sG_P3glM72e-jjBfE-g2ouxTPX1mdEmRsJhwY427Y8dvrM8v-H2Q=w526-h296",
+    "sourceUrl": "https://play.google.com/store/apps/details?id=com.zlongame.un.mhmnz",
+    "imageKind": "官方商店遊玩畫面"
+  },
+  {
+    "entry": "elo-mmr",
+    "game": "League of Legends",
+    "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+    "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+    "imageKind": "官方教學示意圖"
+  },
+  {
+    "entry": "ban-pick",
+    "game": "League of Legends",
+    "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+    "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+    "imageKind": "官方教學示意圖"
+  },
+  {
+    "entry": "balance-patch",
+    "game": "League of Legends",
+    "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+    "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+    "imageKind": "官方教學示意圖"
+  },
+  {
+    "entry": "caster",
+    "game": "League of Legends",
+    "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+    "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+    "imageKind": "官方教學示意圖"
+  },
+  {
+    "entry": "high-refresh-low-latency",
+    "game": "League of Legends",
+    "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+    "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+    "imageKind": "官方教學示意圖"
+  },
+  {
+    "entry": "whale",
+    "game": "Genshin Impact",
+    "imageUrl": "https://upload-static.hoyoverse.com/hk4e/upload/fb/common.jpg",
+    "sourceUrl": "https://genshin.hoyoverse.com/en/news/103756",
+    "imageKind": "官方宣傳圖"
+  },
+  {
+    "entry": "f2p-player",
+    "game": "Genshin Impact",
+    "imageUrl": "https://upload-static.hoyoverse.com/hk4e/upload/fb/common.jpg",
+    "sourceUrl": "https://genshin.hoyoverse.com/en/news/103756",
+    "imageKind": "官方宣傳圖"
+  },
+  {
+    "entry": "pity-counter",
+    "game": "Genshin Impact",
+    "imageUrl": "https://upload-static.hoyoverse.com/hk4e/upload/fb/common.jpg",
+    "sourceUrl": "https://genshin.hoyoverse.com/en/news/103756",
+    "imageKind": "官方宣傳圖"
+  },
+  {
+    "entry": "banner",
+    "game": "Genshin Impact",
+    "imageUrl": "https://upload-static.hoyoverse.com/hk4e/upload/fb/common.jpg",
+    "sourceUrl": "https://genshin.hoyoverse.com/en/news/103756",
+    "imageKind": "官方宣傳圖"
+  },
+  {
+    "entry": "ssr-tiers",
+    "game": "Genshin Impact",
+    "imageUrl": "https://upload-static.hoyoverse.com/hk4e/upload/fb/common.jpg",
+    "sourceUrl": "https://genshin.hoyoverse.com/en/news/103756",
+    "imageKind": "官方宣傳圖"
+  },
+  {
+    "entry": "dupes",
+    "game": "Genshin Impact",
+    "imageUrl": "https://upload-static.hoyoverse.com/hk4e/upload/fb/common.jpg",
+    "sourceUrl": "https://genshin.hoyoverse.com/en/news/103756",
+    "imageKind": "官方宣傳圖"
+  },
+  {
+    "entry": "launch-dash",
+    "game": "Genshin Impact",
+    "imageUrl": "https://upload-static.hoyoverse.com/hk4e/upload/fb/common.jpg",
+    "sourceUrl": "https://genshin.hoyoverse.com/en/news/103756",
+    "imageKind": "官方宣傳圖"
+  },
+  {
+    "entry": "endgame-content",
+    "game": "Genshin Impact",
+    "imageUrl": "https://upload-static.hoyoverse.com/hk4e/upload/fb/common.jpg",
+    "sourceUrl": "https://genshin.hoyoverse.com/en/news/103756",
+    "imageKind": "官方宣傳圖"
+  },
+  {
+    "entry": "idle-rewards",
+    "game": "Genshin Impact",
+    "imageUrl": "https://upload-static.hoyoverse.com/hk4e/upload/fb/common.jpg",
+    "sourceUrl": "https://genshin.hoyoverse.com/en/news/103756",
+    "imageKind": "官方宣傳圖"
+  },
+  {
+    "entry": "monthly-card",
+    "game": "Genshin Impact",
+    "imageUrl": "https://upload-static.hoyoverse.com/hk4e/upload/fb/common.jpg",
+    "sourceUrl": "https://genshin.hoyoverse.com/en/news/103756",
+    "imageKind": "官方宣傳圖"
+  },
+  {
+    "entry": "event-shop",
+    "game": "Genshin Impact",
+    "imageUrl": "https://upload-static.hoyoverse.com/hk4e/upload/fb/common.jpg",
+    "sourceUrl": "https://genshin.hoyoverse.com/en/news/103756",
+    "imageKind": "官方宣傳圖"
+  },
+  {
+    "entry": "roguelike-mode-in-gacha",
+    "game": "Genshin Impact",
+    "imageUrl": "https://upload-static.hoyoverse.com/hk4e/upload/fb/common.jpg",
+    "sourceUrl": "https://genshin.hoyoverse.com/en/news/103756",
+    "imageKind": "官方宣傳圖"
+  },
+  {
+    "entry": "character-banner-rate-up",
+    "game": "Genshin Impact",
+    "imageUrl": "https://upload-static.hoyoverse.com/hk4e/upload/fb/common.jpg",
+    "sourceUrl": "https://genshin.hoyoverse.com/en/news/103756",
+    "imageKind": "官方宣傳圖"
+  },
+  {
+    "entry": "lan-vs-online",
+    "game": "League of Legends",
+    "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+    "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+    "imageKind": "官方教學示意圖"
+  },
+  {
+    "entry": "patch-meta",
+    "game": "League of Legends",
+    "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+    "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+    "imageKind": "官方教學示意圖"
+  },
+  {
+    "entry": "scrim",
+    "game": "League of Legends",
+    "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+    "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+    "imageKind": "官方教學示意圖"
+  },
+  {
+    "entry": "roster-lock",
+    "game": "League of Legends",
+    "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+    "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+    "imageKind": "官方教學示意圖"
+  },
+  {
+    "entry": "bracket",
+    "game": "League of Legends",
+    "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+    "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+    "imageKind": "官方教學示意圖"
+  },
+  {
+    "entry": "throw-esports",
+    "game": "League of Legends",
+    "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+    "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+    "imageKind": "官方教學示意圖"
+  },
+  {
+    "entry": "comeback",
+    "game": "League of Legends",
+    "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+    "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+    "imageKind": "官方教學示意圖"
+  },
+  {
+    "entry": "mechanics-vs-macro",
+    "game": "League of Legends",
+    "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+    "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+    "imageKind": "官方教學示意圖"
+  },
+  {
+    "entry": "apm",
+    "game": "League of Legends",
+    "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+    "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+    "imageKind": "官方教學示意圖"
+  },
+  {
+    "entry": "carry",
+    "game": "League of Legends",
+    "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+    "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+    "imageKind": "官方教學示意圖"
+  },
+  {
+    "entry": "gank",
+    "game": "League of Legends",
+    "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+    "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+    "imageKind": "官方教學示意圖"
+  },
+  {
+    "entry": "farm",
+    "game": "League of Legends",
+    "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+    "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+    "imageKind": "官方教學示意圖"
+  },
+  {
+    "entry": "snowball",
+    "game": "League of Legends",
+    "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+    "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+    "imageKind": "官方教學示意圖"
+  },
+  {
+    "entry": "dive",
+    "game": "League of Legends",
+    "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+    "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+    "imageKind": "官方教學示意圖"
+  },
+  {
+    "entry": "poke",
+    "game": "League of Legends",
+    "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+    "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+    "imageKind": "官方教學示意圖"
+  },
+  {
+    "entry": "gg",
+    "game": "League of Legends",
+    "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+    "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+    "imageKind": "官方教學示意圖"
+  },
+  {
+    "entry": "smurf",
+    "game": "League of Legends",
+    "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+    "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+    "imageKind": "官方教學示意圖"
+  },
+  {
+    "entry": "number-slang",
+    "game": "League of Legends",
+    "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+    "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+    "imageKind": "官方教學示意圖"
+  },
+  {
+    "entry": "dps-role",
+    "game": "League of Legends",
+    "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+    "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+    "imageKind": "官方教學示意圖"
+  },
+  {
+    "entry": "support-role",
+    "game": "League of Legends",
+    "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+    "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+    "imageKind": "官方教學示意圖"
+  },
+  {
+    "entry": "jungler",
+    "game": "League of Legends",
+    "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+    "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+    "imageKind": "官方教學示意圖"
+  },
+  {
+    "entry": "ultimate-skill-slang",
+    "game": "League of Legends",
+    "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+    "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+    "imageKind": "官方教學示意圖"
+  },
+  {
+    "entry": "version-answer",
+    "game": "League of Legends",
+    "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+    "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+    "imageKind": "官方教學示意圖"
+  },
+  {
+    "entry": "bench-warmer",
+    "game": "League of Legends",
+    "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+    "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+    "imageKind": "官方教學示意圖"
+  },
+  {
+    "entry": "pc-key-slang",
+    "game": "League of Legends",
+    "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+    "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+    "imageKind": "官方教學示意圖"
+  },
+  {
+    "entry": "forum-flooding",
+    "game": "League of Legends",
+    "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+    "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+    "imageKind": "官方教學示意圖"
+  },
+  {
+    "entry": "landmine-teammate",
+    "game": "League of Legends",
+    "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+    "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+    "imageKind": "官方教學示意圖"
+  },
+  {
+    "entry": "pro-player-slang",
+    "game": "League of Legends",
+    "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+    "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+    "imageKind": "官方教學示意圖"
+  },
+  {
+    "entry": "meta-slave",
+    "game": "League of Legends",
+    "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+    "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+    "imageKind": "官方教學示意圖"
+  },
+  {
+    "entry": "ragequit",
+    "game": "League of Legends",
+    "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+    "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+    "imageKind": "官方教學示意圖"
+  },
+  {
+    "entry": "tilt",
+    "game": "League of Legends",
+    "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+    "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+    "imageKind": "官方教學示意圖"
+  },
+  {
+    "entry": "toxic",
+    "game": "League of Legends",
+    "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+    "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+    "imageKind": "官方教學示意圖"
+  },
+  {
+    "entry": "mother-tang",
+    "game": "League of Legends",
+    "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+    "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+    "imageKind": "官方教學示意圖"
+  },
+  {
+    "entry": "leet-slang-484-94",
+    "game": "League of Legends",
+    "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+    "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+    "imageKind": "官方教學示意圖"
+  },
+  {
+    "entry": "otome",
+    "game": "Collar x Malice",
+    "imageUrl": "https://store.aksysgames.com/cdn/shop/products/NS_JCF_CXM_1200x1200.png?v=1586452377",
+    "sourceUrl": "https://store.aksysgames.com/products/collar-x-malice-nintendo-switch",
+    "imageKind": "官方商品圖"
+  },
+  {
+    "entry": "otome",
+    "game": "Piofiore: Fated Memories",
+    "imageUrl": "https://store.aksysgames.com/cdn/shop/products/CG_1106_1200x1200.jpg?v=1607039528",
+    "sourceUrl": "https://store.aksysgames.com/products/piofiore-fated-memories-nintendo-switch",
+    "title": "Piofiore: Fated Memories",
+    "imageKind": "官方劇情畫面"
+  },
+  {
+    "entry": "hidden-object",
+    "game": "June's Journey",
+    "imageUrl": "https://junes-journey-production.fra1.cdn.digitaloceanspaces.com/_media/1.jpeg",
+    "sourceUrl": "https://www.junesjourney.com/",
+    "imageKind": "官方宣傳圖"
+  },
+  {
+    "entry": "gold-master",
+    "game": "The Legend of Zelda: Breath of the Wild",
+    "imageUrl": "https://assets.nintendo.com/image/upload/ar_16%3A9%2Cc_lpad%2Cw_1240/b_white/f_auto/q_auto/ncom/en_US/products/games/switch/the-legend-of-zelda-breath-of-the-wild/105208-switch-the-legend-of-zelda-breath-of-the-wild-us-1200x675",
+    "sourceUrl": "https://www.nintendo.com/us/store/products/the-legend-of-zelda-breath-of-the-wild-us/",
+    "imageKind": "官方宣傳圖"
+  },
+  {
+    "entry": "backward-compatibility",
+    "game": "Wii Backward Compatibility with GameCube",
+    "imageUrl": "https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.5/ncom/en_US/products/games/switch/super-mario-odyssey/105879-switch-super-mario-odyssey-us-1200x675",
+    "sourceUrl": "https://en-americas-support.nintendo.com/app/answers/detail/a_id/27783",
+    "imageKind": "官方宣傳圖",
+    "title": "超級瑪利歐 奧德賽（Switch → Switch 2）",
+    "en": "Super Mario Odyssey",
+    "year": 2017,
+    "why": "原 Switch 遊戲可在 Switch 2 繼續遊玩；官方另提供免費更新改善新主機上的體驗，可區分回溯相容與獨立重製版。"
+  },
+  {
+    "entry": "backward-compatibility",
+    "game": "Xbox Series X|S Backward Compatibility",
+    "imageUrl": "https://assets.xboxservices.com/assets/02/d8/02d8c5c0-d3ed-415c-b9ed-07e57c9cab6b.jpg?n=Back-Compat_Sneaky-Slider-1084_Our-Promise_1600x675_01.jpg",
+    "sourceUrl": "https://www.xbox.com/en-US/games/backward-compatibility",
+    "imageKind": "官方宣傳圖"
+  },
+  {
+    "entry": "monetization",
+    "game": "Fortnite",
+    "imageUrl": "https://cms-assets.unrealengine.com/cm6l5gfpm05kr07my04cqgy2x/cmqbdhpbt1hv007obyg3sf57r",
+    "sourceUrl": "https://www.fortnite.com/news?lang=en-US",
+    "imageKind": "官方宣傳圖"
+  },
+  {
+    "entry": "cosmetics",
+    "game": "Fortnite",
+    "imageUrl": "https://cms-assets.unrealengine.com/cm6l5gfpm05kr07my04cqgy2x/cmqbdhpbt1hv007obyg3sf57r",
+    "sourceUrl": "https://www.fortnite.com/news?lang=en-US",
+    "imageKind": "官方宣傳圖"
+  },
+  {
+    "entry": "live-ops",
+    "game": "Fortnite",
+    "imageUrl": "https://cms-assets.unrealengine.com/cm6l5gfpm05kr07my04cqgy2x/cmqbdhpbt1hv007obyg3sf57r",
+    "sourceUrl": "https://www.fortnite.com/news?lang=en-US",
+    "imageKind": "官方宣傳圖"
+  },
+  {
+    "entry": "folk-horror",
+    "game": "Devotion",
+    "imageUrl": "https://redcandlegames.com/presskit/devotion/images/Home3.png",
+    "sourceUrl": "https://redcandlegames.com/presskit/sheet.php?p=devotion",
+    "imageKind": "官方遊玩截圖"
+  },
+  {
+    "entry": "taiwan-horror",
+    "game": "Devotion",
+    "imageUrl": "https://redcandlegames.com/presskit/devotion/images/Home3.png",
+    "sourceUrl": "https://redcandlegames.com/presskit/sheet.php?p=devotion",
+    "imageKind": "官方遊玩截圖"
+  },
+  {
+    "entry": "kishotenketsu",
+    "game": "Super Mario 3D World",
+    "imageUrl": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000034439/ccb69a8bf2746b2dc0a9b11a9e48c9893baa1631486326f0d681b7a36385221f",
+    "sourceUrl": "https://www.nintendo.com/us/store/products/super-mario-3d-world-plus-bowsers-fury-switch/",
+    "imageKind": "官方宣傳圖"
+  },
+  {
+    "entry": "kishotenketsu",
+    "game": "Super Mario Galaxy",
+    "imageUrl": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000104187/7ccc1c07ba3995da1dbd7320e726e063eaba9445a5741281d19c3b8fb1c144df",
+    "sourceUrl": "https://www.nintendo.com/us/store/products/super-mario-galaxy-switch/",
+    "imageKind": "官方宣傳圖"
+  },
+  {
+    "entry": "kishotenketsu",
+    "game": "The Legend of Zelda",
+    "imageUrl": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/virtual_console_nintendo_3ds_7/SI_3DSVC_TheLegendOfZelda.jpg",
+    "sourceUrl": "https://www.nintendo.com/es-es/Juegos/NES/The-Legend-of-Zelda-796345.html",
+    "imageKind": "官方宣傳圖"
+  },
+  {
+    "entry": "difficulty-curve",
+    "game": "Super Mario 3D World",
+    "imageUrl": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000034439/ccb69a8bf2746b2dc0a9b11a9e48c9893baa1631486326f0d681b7a36385221f",
+    "sourceUrl": "https://www.nintendo.com/us/store/products/super-mario-3d-world-plus-bowsers-fury-switch/",
+    "imageKind": "官方宣傳圖"
+  },
+  {
+    "entry": "silent-protagonist",
+    "game": "The Legend of Zelda",
+    "imageUrl": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/virtual_console_nintendo_3ds_7/SI_3DSVC_TheLegendOfZelda.jpg",
+    "sourceUrl": "https://www.nintendo.com/es-es/Juegos/NES/The-Legend-of-Zelda-796345.html",
+    "imageKind": "官方宣傳圖"
+  },
+  {
+    "entry": "storylet",
+    "game": "Fallen London",
+    "imageUrl": "https://www.failbettergames.com/assets/images/uploads/headers/_1200x630_crop_center-center_82_none_ns/fallen-london-header-220124.jpg?mtime=1723472724",
+    "sourceUrl": "https://www.failbettergames.com/games/fallen-london",
+    "imageKind": "官方宣傳圖"
+  },
+  {
+    "entry": "text-based",
+    "game": "AI Dungeon",
+    "imageUrl": "https://assets.super.so/311da5e0-9a02-4177-9f6a-b89435645aea/images/8e65fa5e-075a-4dd4-b5b2-b5745e3d7adf/TAT_1.gif",
+    "sourceUrl": "https://help.aidungeon.com/faq/how-to-play",
+    "imageKind": "官方介面示範"
+  }
+]

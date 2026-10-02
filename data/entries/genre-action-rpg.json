@@ -358,7 +358,11 @@
         "en": "Fire Emblem Engage",
         "appid": null,
         "year": 2023,
-        "why": "確立永久死亡與職業戰棋公式的長青系列"
+        "why": "確立永久死亡與職業戰棋公式的長青系列",
+        "imageUrl": "https://assets.nintendo.com/image/upload/ar_16%3A9%2Cc_lpad%2Cw_1240/b_white/f_auto/q_auto/store/software/switch/70010000058802/88b8db494399e659522af36331b7f588439bc4312af5c0ee57035c063651ab4a",
+        "sourceUrl": "https://www.nintendo.com/us/store/products/fire-emblem-engage-switch/",
+        "imageKind": "官方宣傳圖",
+        "accessed": "2026-10-02"
       },
       {
         "title": "三角戰略",
@@ -392,6 +396,12 @@
         "url": "https://en.wikipedia.org/wiki/Tactical_role-playing_game",
         "accessed": "2026-09-17",
         "note": "SRPG 與 Tactical RPG 的地域命名差異"
+      },
+      {
+        "title": "官方遊戲介紹：Fire Emblem Engage",
+        "url": "https://www.nintendo.com/us/store/products/fire-emblem-engage-switch/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方宣傳圖）"
       }
     ],
     "status": "verified"
@@ -546,14 +556,22 @@
         "en": "World of Warcraft",
         "appid": null,
         "year": 2004,
-        "why": "定義現代 MMORPG 副本與職業分工的長青作品"
+        "why": "定義現代 MMORPG 副本與職業分工的長青作品",
+        "imageUrl": "https://blz-contentstack-images.akamaized.net/v3/assets/blt9c12f249ac15c7ec/bltb5a24e5ab1e2cfb0/6a88e3589b942efdb6f74110/wow-thumbnail-homepage.jpg",
+        "sourceUrl": "https://worldofwarcraft.blizzard.com/",
+        "imageKind": "官方宣傳圖",
+        "accessed": "2026-10-02"
       },
       {
         "title": "Final Fantasy XIV",
-        "en": "Final Fantasy XIV",
-        "appid": null,
+        "en": "FINAL FANTASY XIV Online",
+        "appid": 39210,
         "year": 2013,
-        "why": "以劇情深度與版本更新節奏聞名的當代代表"
+        "why": "以劇情深度與版本更新節奏聞名的當代代表",
+        "sourceUrl": "https://store.steampowered.com/app/39210/",
+        "accessed": "2026-10-02",
+        "selectionNote": "玩法代表性；Steam 全語言累積好評 86.5%（85,855 則，2026-10-02）。",
+        "reviewSource": "https://store.steampowered.com/appreviews/39210?json=1&language=all&purchase_type=all&filter=summary"
       }
     ],
     "steamTags": [
@@ -584,6 +602,18 @@
         "url": "https://en.wikipedia.org/wiki/MMORPG",
         "accessed": "2026-09-17",
         "note": "MMORPG 定義與持續性世界特徵"
+      },
+      {
+        "title": "Steam 官方：FINAL FANTASY XIV Online",
+        "url": "https://store.steampowered.com/app/39210/",
+        "accessed": "2026-10-02",
+        "note": "範例版本、圖片與遊戲介紹"
+      },
+      {
+        "title": "官方遊戲介紹：World of Warcraft",
+        "url": "https://worldofwarcraft.blizzard.com/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方宣傳圖）"
       }
     ],
     "status": "verified"
@@ -613,7 +643,11 @@
         "en": "World of Warcraft",
         "appid": null,
         "year": 2004,
-        "why": "最具代表性的大型多人線上世界"
+        "why": "最具代表性的大型多人線上世界",
+        "imageUrl": "https://blz-contentstack-images.akamaized.net/v3/assets/blt9c12f249ac15c7ec/bltb5a24e5ab1e2cfb0/6a88e3589b942efdb6f74110/wow-thumbnail-homepage.jpg",
+        "sourceUrl": "https://worldofwarcraft.blizzard.com/",
+        "imageKind": "官方宣傳圖",
+        "accessed": "2026-10-02"
       },
       {
         "title": "EVE Online",
@@ -645,6 +679,12 @@
         "url": "https://store.steampowered.com/tags/en/Massively%20Multiplayer/",
         "accessed": "2026-09-17",
         "note": "標籤存在與代表作"
+      },
+      {
+        "title": "官方遊戲介紹：World of Warcraft",
+        "url": "https://worldofwarcraft.blizzard.com/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方宣傳圖）"
       }
     ],
     "status": "verified"
@@ -2932,9 +2972,13 @@
       {
         "title": "戰神（2018）",
         "en": "God of War (2018)",
-        "appid": null,
+        "appid": 1593500,
         "year": 2018,
-        "why": "以中樞區域串聯多個主題關卡的半開放世界標竿"
+        "why": "以中樞區域串聯多個主題關卡的半開放世界標竿",
+        "sourceUrl": "https://store.steampowered.com/app/1593500/",
+        "accessed": "2026-10-02",
+        "selectionNote": "玩法代表性；Steam 全語言累積好評 95.9%（185,248 則，2026-10-02）。",
+        "reviewSource": "https://store.steampowered.com/appreviews/1593500?json=1&language=all&purchase_type=all&filter=summary"
       }
     ],
     "steamTags": [],
@@ -2960,6 +3004,12 @@
         "url": "https://en.wikipedia.org/wiki/Open_world",
         "accessed": "2026-09-17",
         "note": "開放世界光譜與 Hub-based 結構脈絡"
+      },
+      {
+        "title": "Steam 官方：God of War",
+        "url": "https://store.steampowered.com/app/1593500/",
+        "accessed": "2026-10-02",
+        "note": "範例版本、圖片與遊戲介紹"
       }
     ],
     "status": "verified"
@@ -2990,14 +3040,26 @@
         "en": "Super Mario Odyssey",
         "appid": null,
         "year": 2017,
-        "why": "延續箱庭探索設計哲學的招牌續作"
+        "why": "延續箱庭探索設計哲學的招牌續作",
+        "imageUrl": "https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.5/ncom/en_US/products/games/switch/super-mario-odyssey/105879-switch-super-mario-odyssey-us-1200x675",
+        "sourceUrl": "https://www.nintendo.com/us/store/products/super-mario-odyssey-105879/",
+        "imageKind": "官方宣傳圖",
+        "accessed": "2026-10-02",
+        "selectionNote": "玩法代表性；列入任天堂官方 Switch 主要軟體累積銷量表（截至 2026-06-30）。",
+        "selectionSource": "https://www.nintendo.co.jp/ir/en/finance/software/switch.html"
       },
       {
         "title": "薩爾達傳說 王國之淚",
         "en": "The Legend of Zelda: Tears of the Kingdom",
         "appid": null,
         "year": 2023,
-        "why": "把箱庭密度延伸進更大空間尺度的代表"
+        "why": "把箱庭密度延伸進更大空間尺度的代表",
+        "imageUrl": "https://assets.nintendo.com/image/upload/ar_16%3A9%2Cc_lpad%2Cw_1240/b_white/f_auto/q_auto/store/software/switch/70010000063714/fb30eab428df3fc993b41c76e20f72e4d76d49734d17d31996b5ab61c414b117",
+        "sourceUrl": "https://www.nintendo.com/us/store/products/the-legend-of-zelda-tears-of-the-kingdom-switch/",
+        "imageKind": "官方宣傳圖",
+        "accessed": "2026-10-02",
+        "selectionNote": "玩法代表性；列入任天堂官方 Switch 主要軟體累積銷量表（截至 2026-06-30）。",
+        "selectionSource": "https://www.nintendo.co.jp/ir/en/finance/software/switch.html"
       }
     ],
     "steamTags": [],
@@ -3023,6 +3085,18 @@
         "url": "https://ja.wikipedia.org/wiki/スーパーマリオ64",
         "accessed": "2026-09-17",
         "note": "「箱庭的表現」「箱庭探索型」用語出處"
+      },
+      {
+        "title": "官方遊戲介紹：Super Mario Odyssey",
+        "url": "https://www.nintendo.com/us/store/products/super-mario-odyssey-105879/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方宣傳圖）"
+      },
+      {
+        "title": "官方遊戲介紹：The Legend of Zelda: Tears of the Kingdom",
+        "url": "https://www.nintendo.com/us/store/products/the-legend-of-zelda-tears-of-the-kingdom-switch/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方宣傳圖）"
       }
     ],
     "status": "verified"

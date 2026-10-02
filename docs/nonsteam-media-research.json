@@ -1,0 +1,140 @@
+[
+  {
+    "original": "Super Mario Odyssey",
+    "imageUrl": "https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.5/ncom/en_US/products/games/switch/super-mario-odyssey/105879-switch-super-mario-odyssey-us-1200x675",
+    "sourceUrl": "https://www.nintendo.com/us/store/products/super-mario-odyssey-105879/",
+    "reasoning": "Nintendo 官方商店商品頁圖片直連；官方宣傳圖。"
+  },
+  {
+    "original": "The Legend of Zelda: Tears of the Kingdom",
+    "imageUrl": "https://assets.nintendo.com/image/upload/ar_16%3A9%2Cc_lpad%2Cw_1240/b_white/f_auto/q_auto/store/software/switch/70010000063714/fb30eab428df3fc993b41c76e20f72e4d76d49734d17d31996b5ab61c414b117",
+    "sourceUrl": "https://www.nintendo.com/us/store/products/the-legend-of-zelda-tears-of-the-kingdom-switch/",
+    "reasoning": "Nintendo 官方商店商品頁圖片直連；官方宣傳圖。"
+  },
+  {
+    "original": "Super Smash Bros. Ultimate",
+    "imageUrl": "https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.5/ncom/en_US/products/games/switch/super-smash-bros-ultimate/108043-switch-super-smash-bros-ultimate-us-1200x675",
+    "sourceUrl": "https://www.nintendo.com/us/store/products/super-smash-bros-ultimate-us/",
+    "reasoning": "Nintendo 官方商店商品頁圖片直連；官方宣傳圖。"
+  },
+  {
+    "original": "The Legend of Zelda: Breath of the Wild",
+    "imageUrl": "https://assets.nintendo.com/image/upload/ar_16%3A9%2Cc_lpad%2Cw_1240/b_white/f_auto/q_auto/ncom/en_US/products/games/switch/the-legend-of-zelda-breath-of-the-wild/105208-switch-the-legend-of-zelda-breath-of-the-wild-us-1200x675",
+    "sourceUrl": "https://www.nintendo.com/us/store/products/the-legend-of-zelda-breath-of-the-wild-us/",
+    "reasoning": "Nintendo 官方商店商品頁圖片直連；官方宣傳圖。"
+  },
+  {
+    "original": "Metroid Dread",
+    "imageUrl": "https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.5/store/software/switch/70010000042924/4f2c683f0196210ec212a2ab8bf6952223c0b88e827b820953407a2ba61c9cb2",
+    "sourceUrl": "https://www.nintendo.com/us/store/products/70010000042924/",
+    "reasoning": "Nintendo 官方商店商品頁圖片直連；原列中文名稱疑有誤，建議沿用英文原名。"
+  },
+  {
+    "original": "Fire Emblem Engage",
+    "imageUrl": "https://assets.nintendo.com/image/upload/ar_16%3A9%2Cc_lpad%2Cw_1240/b_white/f_auto/q_auto/store/software/switch/70010000058802/88b8db494399e659522af36331b7f588439bc4312af5c0ee57035c063651ab4a",
+    "sourceUrl": "https://www.nintendo.com/us/store/products/fire-emblem-engage-switch/",
+    "reasoning": "Nintendo 官方商店商品頁圖片直連；官方宣傳圖。"
+  },
+  {
+    "original": "Mario Kart 8 Deluxe",
+    "imageUrl": "https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.5/store/software/switch/70010000000153/de697f487a36d802dd9a5ff0341f717c8486221f2f1219b675af37aca63bc453",
+    "sourceUrl": "https://www.nintendo.com/us/store/products/mario-kart-8-deluxe-switch/",
+    "reasoning": "Nintendo 官方商店商品頁圖片直連；官方宣傳圖。"
+  },
+  {
+    "original": "Super Mario 3D World",
+    "imageUrl": null,
+    "sourceUrl": "https://www.nintendo.com/us/store/products/super-mario-3d-world-plus-bowsers-fury-switch/",
+    "reasoning": "官方頁證實關卡式合作平台跳躍玩法，未取得可確認為遊戲畫面的圖片直連，留給主線取用頁面圖片；勿猜網址。"
+  },
+  {
+    "original": "Super Mario Galaxy",
+    "imageUrl": null,
+    "sourceUrl": "https://www.nintendo.com/us/store/products/super-mario-galaxy-switch/",
+    "reasoning": "官方商店頁含遊戲介紹與畫廊，已排除先前只找到的 logo 圖；本次未能確認畫廊圖片直連，建議由頁面擷取。"
+  },
+  {
+    "original": "The Legend of Zelda",
+    "imageUrl": null,
+    "sourceUrl": "https://www.nintendo.com/es-es/Juegos/NES/The-Legend-of-Zelda-796345.html",
+    "reasoning": "Nintendo 官方 NES 商品頁列有影片；未找到可驗證的畫面圖直連，保留原名避免誤映射。"
+  },
+  {
+    "original": "Minecraft",
+    "imageUrl": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/screenshots/CREATE_BuildAlmostAnything.png",
+    "sourceUrl": "https://www.minecraft.net/en-us/about-minecraft",
+    "reasoning": "Minecraft 官方介紹頁所列遊戲截圖，描述建造城堡與瞭望塔。"
+  },
+  {
+    "original": "Super Mario Galaxy (logo candidate rejected)",
+    "imageUrl": null,
+    "sourceUrl": "https://www.nintendo.com/us/store/products/super-mario-galaxy-switch/",
+    "reasoning": "拒用已找到的 Nintendo logo 圖，不能代表性地呈現遊玩畫面；需從官方商店畫廊另取。"
+  },
+  {
+    "original": "Super Mario 3D World + Bowser’s Fury",
+    "imageUrl": null,
+    "sourceUrl": "https://www.nintendo.com/us/store/products/super-mario-3d-world-plus-bowsers-fury-switch/",
+    "reasoning": "Nintendo 官方頁描述數十個彩色關卡、合作通關及 Bowser’s Fury 自由探索；宣傳圖直連尚未核得。"
+  },
+  {
+    "original": "Piofiore: Fated Memories",
+    "imageUrl": null,
+    "sourceUrl": "https://store.aksysgames.com/products/piofiore-fated-memories-nintendo-switch",
+    "reasoning": "Aksys 官方商品頁有商品圖片但未取得圖檔直連。中文名更正：台灣中文版為《虔誠之花的晚鐘–ricordo–》，非「緋色的碎片：薄暮之戀」。"
+  },
+  {
+    "original": "Collar x Malice",
+    "imageUrl": null,
+    "sourceUrl": "https://store.aksysgames.com/products/collar-x-malice-nintendo-switch",
+    "reasoning": "Aksys 官方商品頁有商品圖片但未取得圖檔直連；官方描述含選擇推進的多路線與多結局。"
+  },
+  {
+    "original": "Honkai: Star Rail",
+    "imageUrl": null,
+    "sourceUrl": "https://www.hoyolab.com/article/17237205",
+    "reasoning": "HoYoverse 官方 HoYoLAB 發布資訊證實 Simulated Universe 有隨機事件、祝福、奇物與多場戰鬥；此來源支持玩法，不含已驗證遊戲畫面直連。"
+  },
+  {
+    "reasoning": "Riot 官方 How to Play 頁介紹召喚峽谷與英雄玩法；未確認圖片直連。",
+    "original": "League of Legends",
+    "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+    "imageUrl": null
+  },
+  {
+    "reasoning": "Blizzard 官方首頁描述持續擴張的 Azeroth 世界、區域、地下城與任務；未確認圖片直連。",
+    "original": "World of Warcraft",
+    "sourceUrl": "https://worldofwarcraft.blizzard.com/",
+    "imageUrl": null
+  },
+  {
+    "reasoning": "Riot 官方新手指南描述五人攻防回合、買裝與技能、安裝/拆除 Spike；含官方指南圖但本次未取得圖片 URL。",
+    "original": "VALORANT",
+    "sourceUrl": "https://playvalorant.com/en-us/news/announcements/beginners-guide/",
+    "imageUrl": null
+  },
+  {
+    "reasoning": "HoYoverse 官方更新頁列出開放區域探索、地圖探索進度等系統；未確認圖片直連。",
+    "original": "Genshin Impact",
+    "sourceUrl": "https://genshin.hoyoverse.com/en/news/103756",
+    "imageUrl": null
+  },
+  {
+    "reasoning": "官方入門指南含主選單與回合制戰鬥遊戲畫面說明；可由官方 PDF 擷取，不是已驗證的單張圖片 URL。",
+    "original": "Fate/Grand Order",
+    "sourceUrl": "https://fate-go.us/howto/pdf/How_to_Play_Fate_Grand_Order_Official_USA_Website.pdf",
+    "imageUrl": null
+  },
+  {
+    "reasoning": "官方說明頁含介面範例，描述玩家輸入 Do/Say/Story 推進 AI 角色扮演敘事；頁面直接呈現圖但未解析其圖片 URL。",
+    "original": "AI Dungeon",
+    "sourceUrl": "https://help.aidungeon.com/faq/how-to-play",
+    "imageUrl": null
+  },
+  {
+    "reasoning": "Failbetter 官方遊戲說明頁可證實遊戲官方來源；本次頁面未提供可確認的圖片直連。",
+    "original": "Fallen London",
+    "sourceUrl": "https://www.fallenlondon.com/help",
+    "imageUrl": null
+  }
+]

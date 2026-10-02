@@ -1,0 +1,999 @@
+[
+  {
+    "name": "Fire Emblem Engage",
+    "candidates": []
+  },
+  {
+    "name": "World of Warcraft",
+    "candidates": []
+  },
+  {
+    "name": "Final Fantasy XIV",
+    "candidates": [
+      {
+        "type": "app",
+        "name": "Immerse Gamepack FINAL FANTASY™ XIV Online Edition Demo",
+        "id": 5254200,
+        "tiny_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5254200/d006d3e4de9af506d1726f34998c1612956b7603/capsule_231x87.jpg?t=1790373428",
+        "metascore": "",
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "streamingvideo": false
+      },
+      {
+        "type": "app",
+        "name": "Immerse Gamepack FINAL FANTASY™ XIV Online Edition",
+        "id": 1795690,
+        "price": {
+          "currency": "TWD",
+          "initial": 63600,
+          "final": 44500
+        },
+        "tiny_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1795690/85ce831419cde2ac2e27605897d069d59108d433/capsule_231x87.jpg?t=1776278356",
+        "metascore": "",
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "streamingvideo": false
+      }
+    ]
+  },
+  {
+    "name": "God of War (2018)",
+    "candidates": []
+  },
+  {
+    "name": "Super Mario Odyssey",
+    "candidates": []
+  },
+  {
+    "name": "The Legend of Zelda: Tears of the Kingdom",
+    "candidates": []
+  },
+  {
+    "name": "Unreal Tournament",
+    "candidates": []
+  },
+  {
+    "name": "DUSK",
+    "appid": 519860,
+    "officialName": "DUSK",
+    "sourceUrl": "https://store.steampowered.com/app/519860/"
+  },
+  {
+    "name": "League of Legends",
+    "candidates": [
+      {
+        "type": "app",
+        "name": "CONVERGENCE: A League of Legends Story™",
+        "id": 1276800,
+        "price": {
+          "currency": "TWD",
+          "initial": 48800,
+          "final": 12200
+        },
+        "tiny_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1276800/capsule_231x87.jpg?t=1707178625",
+        "metascore": "81",
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "streamingvideo": false,
+        "controller_support": "full"
+      },
+      {
+        "type": "app",
+        "name": "Ruined King: A League of Legends Story™",
+        "id": 1276790,
+        "price": {
+          "currency": "TWD",
+          "initial": 69900,
+          "final": 17400
+        },
+        "tiny_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1276790/capsule_231x87.jpg?t=1709574331",
+        "metascore": "80",
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "streamingvideo": false,
+        "controller_support": "full"
+      },
+      {
+        "type": "app",
+        "name": "The Mageseeker: A League of Legends Story™",
+        "id": 1457080,
+        "price": {
+          "currency": "TWD",
+          "initial": 48800,
+          "final": 12200
+        },
+        "tiny_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1457080/capsule_231x87.jpg?t=1720737340",
+        "metascore": "78",
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "streamingvideo": false,
+        "controller_support": "full"
+      },
+      {
+        "type": "app",
+        "name": "Song of Nunu: A League of Legends Story",
+        "id": 1333200,
+        "price": {
+          "currency": "TWD",
+          "initial": 48800,
+          "final": 12200
+        },
+        "tiny_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1333200/capsule_231x87.jpg?t=1702617989",
+        "metascore": "",
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "streamingvideo": false,
+        "controller_support": "full"
+      }
+    ]
+  },
+  {
+    "name": "Sonic the Hedgehog",
+    "candidates": [
+      {
+        "type": "app",
+        "name": "Sonic the Hedgehog 4 - Episode II",
+        "id": 203650,
+        "price": {
+          "currency": "TWD",
+          "initial": 29500,
+          "final": 14700
+        },
+        "tiny_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/203650/capsule_231x87.jpg?t=1762753131",
+        "metascore": "54",
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "streamingvideo": false
+      },
+      {
+        "type": "app",
+        "name": "Sonic the Hedgehog 4 - Episode I",
+        "id": 202530,
+        "price": {
+          "currency": "TWD",
+          "initial": 29500,
+          "final": 14700
+        },
+        "tiny_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/202530/capsule_231x87.jpg?t=1762753056",
+        "metascore": "",
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "streamingvideo": false
+      },
+      {
+        "type": "app",
+        "name": "The Murder of Sonic the Hedgehog",
+        "id": 2324650,
+        "tiny_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2324650/capsule_231x87.jpg?t=1762752959",
+        "metascore": "",
+        "platforms": {
+          "windows": true,
+          "mac": true,
+          "linux": false
+        },
+        "streamingvideo": false
+      },
+      {
+        "type": "app",
+        "name": "SONIC X SHADOW GENERATIONS: Sonic the Hedgehog 3 Movie Pack",
+        "id": 2983600,
+        "price": {
+          "currency": "TWD",
+          "initial": 14000,
+          "final": 14000
+        },
+        "tiny_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2983600/81d99167829053976a24be6e22534dd50aac584f/capsule_231x87.jpg?t=1762761214",
+        "metascore": "",
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "streamingvideo": false,
+        "controller_support": "full"
+      }
+    ]
+  },
+  {
+    "name": "Minecraft",
+    "candidates": [
+      {
+        "type": "app",
+        "name": "Minecraft Dungeons II",
+        "id": 1912410,
+        "price": {
+          "currency": "TWD",
+          "initial": 84800,
+          "final": 84800
+        },
+        "tiny_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1912410/a189cb1a47d619baeb962ede3362330f81f24e5f/capsule_231x87.jpg?t=1790774234",
+        "metascore": "",
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "streamingvideo": false
+      },
+      {
+        "type": "app",
+        "name": "Minecraft Dungeons",
+        "id": 1672970,
+        "price": {
+          "currency": "TWD",
+          "initial": 53800,
+          "final": 26900
+        },
+        "tiny_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1672970/capsule_231x87.jpg?t=1787063807",
+        "metascore": "",
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "streamingvideo": false,
+        "controller_support": "full"
+      },
+      {
+        "type": "app",
+        "name": "Minecraft Dungeons II Deluxe Upgrade",
+        "id": 5167410,
+        "price": {
+          "currency": "TWD",
+          "initial": 54000,
+          "final": 54000
+        },
+        "tiny_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5167410/5ce991065a79761fe58923b208be993d58a49ac9/capsule_231x87.jpg?t=1790668725",
+        "metascore": "",
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "streamingvideo": false
+      },
+      {
+        "type": "app",
+        "name": "Minecraft Legends",
+        "id": 1928870,
+        "price": {
+          "currency": "TWD",
+          "initial": 108800,
+          "final": 43500
+        },
+        "tiny_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1928870/capsule_231x87.jpg?t=1746133966",
+        "metascore": "",
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "streamingvideo": false,
+        "controller_support": "full"
+      }
+    ]
+  },
+  {
+    "name": "The Legend of Zelda: Breath of the Wild",
+    "candidates": []
+  },
+  {
+    "name": "Fortnite",
+    "candidates": []
+  },
+  {
+    "name": "Genshin Impact",
+    "candidates": []
+  },
+  {
+    "name": "Fate/Grand Order",
+    "candidates": []
+  },
+  {
+    "name": "VALORANT",
+    "candidates": []
+  },
+  {
+    "name": "Hearthstone",
+    "candidates": []
+  },
+  {
+    "name": "Tetris",
+    "candidates": [
+      {
+        "type": "app",
+        "name": "Puyo Puyo™ Tetris® 2",
+        "id": 1259790,
+        "price": {
+          "currency": "TWD",
+          "initial": 129000,
+          "final": 98000
+        },
+        "tiny_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1259790/capsule_231x87.jpg?t=1763679729",
+        "metascore": "",
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "streamingvideo": false,
+        "controller_support": "full"
+      },
+      {
+        "type": "app",
+        "name": "Tetris® Effect: Connected",
+        "id": 1003590,
+        "price": {
+          "currency": "TWD",
+          "initial": 56800,
+          "final": 28400
+        },
+        "tiny_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1003590/164510c4fd8e3208ae7d3340c23c955d88db0e3d/capsule_231x87.jpg?t=1774036904",
+        "metascore": "93",
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "streamingvideo": false,
+        "controller_support": "full"
+      },
+      {
+        "type": "app",
+        "name": "Tetris® Forever",
+        "id": 3180240,
+        "price": {
+          "currency": "TWD",
+          "initial": 56600,
+          "final": 25400
+        },
+        "tiny_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3180240/bbf45df30a6ea7f8c94dc909a364129f203073a7/capsule_231x87.jpg?t=1773073787",
+        "metascore": "80",
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "streamingvideo": false,
+        "controller_support": "full"
+      },
+      {
+        "type": "app",
+        "name": "Puyo Puyo™Tetris®",
+        "id": 546050,
+        "price": {
+          "currency": "TWD",
+          "initial": 85000,
+          "final": 59500
+        },
+        "tiny_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/546050/capsule_231x87.jpg?t=1763674571",
+        "metascore": "",
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "streamingvideo": false,
+        "controller_support": "full"
+      }
+    ]
+  },
+  {
+    "name": "Mario Kart 8 Deluxe",
+    "candidates": []
+  },
+  {
+    "name": "Metroid Dread",
+    "candidates": []
+  },
+  {
+    "name": "Honkai: Star Rail",
+    "candidates": []
+  },
+  {
+    "name": "Super Smash Bros. Ultimate",
+    "candidates": []
+  },
+  {
+    "name": "The Seven Deadly Sins: Grand Cross",
+    "candidates": []
+  },
+  {
+    "name": "Langrisser Mobile",
+    "candidates": []
+  },
+  {
+    "name": "Arma 3",
+    "appid": 107410,
+    "officialName": "Arma 3",
+    "sourceUrl": "https://store.steampowered.com/app/107410/"
+  },
+  {
+    "name": "Squad",
+    "appid": 393380,
+    "officialName": "Squad",
+    "sourceUrl": "https://store.steampowered.com/app/393380/"
+  },
+  {
+    "name": "Collar x Malice",
+    "candidates": []
+  },
+  {
+    "name": "Piofiore: Fated Memories",
+    "candidates": []
+  },
+  {
+    "name": "Dream Daddy: A Dad Dating Simulator",
+    "appid": 654880,
+    "officialName": "Dream Daddy: A Dad Dating Simulator",
+    "sourceUrl": "https://store.steampowered.com/app/654880/"
+  },
+  {
+    "name": "Monster Prom",
+    "appid": 743450,
+    "officialName": "Monster Prom",
+    "sourceUrl": "https://store.steampowered.com/app/743450/"
+  },
+  {
+    "name": "Reigns",
+    "candidates": [
+      {
+        "type": "app",
+        "name": "Reigns Beyond",
+        "id": 1663400,
+        "price": {
+          "currency": "TWD",
+          "initial": 10200,
+          "final": 7100
+        },
+        "tiny_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1663400/capsule_231x87.jpg?t=1713372706",
+        "metascore": "",
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "streamingvideo": false,
+        "controller_support": "full"
+      },
+      {
+        "type": "app",
+        "name": "Reigns: The Witcher",
+        "id": 1651600,
+        "price": {
+          "currency": "TWD",
+          "initial": 11800,
+          "final": 8200
+        },
+        "tiny_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1651600/939baf0210951e4e6304422e2a41cdfe20d18598/capsule_231x87.jpg?t=1772038304",
+        "metascore": "",
+        "platforms": {
+          "windows": true,
+          "mac": true,
+          "linux": false
+        },
+        "streamingvideo": false,
+        "controller_support": "full"
+      },
+      {
+        "type": "app",
+        "name": "Reigns - Soundtrack",
+        "id": 512620,
+        "price": {
+          "currency": "TWD",
+          "initial": 2200,
+          "final": 1100
+        },
+        "tiny_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/512620/capsule_231x87.jpg?t=1470935544",
+        "metascore": "",
+        "platforms": {
+          "windows": true,
+          "mac": true,
+          "linux": true
+        },
+        "streamingvideo": false
+      },
+      {
+        "type": "app",
+        "name": "Divided Reigns",
+        "id": 1139160,
+        "price": {
+          "currency": "TWD",
+          "initial": 26800,
+          "final": 10700
+        },
+        "tiny_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1139160/capsule_231x87.jpg?t=1727114846",
+        "metascore": "",
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "streamingvideo": false,
+        "controller_support": "full"
+      }
+    ]
+  },
+  {
+    "name": "Sokobond",
+    "appid": 290260,
+    "officialName": "Sokobond",
+    "sourceUrl": "https://store.steampowered.com/app/290260/"
+  },
+  {
+    "name": "Stephen's Sausage Roll",
+    "appid": 353540,
+    "officialName": "Stephen's Sausage Roll",
+    "sourceUrl": "https://store.steampowered.com/app/353540/"
+  },
+  {
+    "name": "Mystery Case Files",
+    "candidates": [
+      {
+        "type": "app",
+        "name": "Mystery Case Files®: 13th Skull™ Collector's Edition",
+        "id": 514700,
+        "price": {
+          "currency": "TWD",
+          "initial": 32800,
+          "final": 9800
+        },
+        "tiny_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/514700/capsule_231x87.jpg?t=1764249669",
+        "metascore": "",
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "streamingvideo": false
+      },
+      {
+        "type": "app",
+        "name": "Mystery Case Files: Huntsville™",
+        "id": 50960,
+        "price": {
+          "currency": "TWD",
+          "initial": 27800,
+          "final": 8300
+        },
+        "tiny_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/50960/capsule_231x87.jpg?t=1764249686",
+        "metascore": "",
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "streamingvideo": false
+      },
+      {
+        "type": "app",
+        "name": "Mystery Case Files: Ravenhearst®",
+        "id": 50990,
+        "price": {
+          "currency": "TWD",
+          "initial": 27800,
+          "final": 8300
+        },
+        "tiny_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/50990/capsule_231x87.jpg?t=1771956225",
+        "metascore": "",
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "streamingvideo": false
+      },
+      {
+        "type": "app",
+        "name": "Mystery Case Files: Prime Suspects™",
+        "id": 50980,
+        "price": {
+          "currency": "TWD",
+          "initial": 18800,
+          "final": 5600
+        },
+        "tiny_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/50980/capsule_231x87.jpg?t=1764681135",
+        "metascore": "",
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "streamingvideo": false
+      }
+    ]
+  },
+  {
+    "name": "June's Journey",
+    "candidates": []
+  },
+  {
+    "name": "Hidden Folks",
+    "appid": 435400,
+    "officialName": "Hidden Folks",
+    "sourceUrl": "https://store.steampowered.com/app/435400/"
+  },
+  {
+    "name": "The Room",
+    "appid": 288160,
+    "officialName": "The Room",
+    "sourceUrl": "https://store.steampowered.com/app/288160/"
+  },
+  {
+    "name": "Escape Simulator",
+    "appid": 1435790,
+    "officialName": "Escape Simulator",
+    "sourceUrl": "https://store.steampowered.com/app/1435790/"
+  },
+  {
+    "name": "Talisman: Digital Edition",
+    "candidates": [
+      {
+        "type": "app",
+        "name": "Talisman: Digital 5th Edition",
+        "id": 908060,
+        "price": {
+          "currency": "TWD",
+          "initial": 48800,
+          "final": 24400
+        },
+        "tiny_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/908060/91c1ed5d58fd074f1b27500f385bc924d1159ce9/capsule_231x87.jpg?t=1779379575",
+        "metascore": "",
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "streamingvideo": false,
+        "controller_support": "full"
+      },
+      {
+        "type": "app",
+        "name": "Talisman: Digital Classic Edition",
+        "id": 247000,
+        "price": {
+          "currency": "TWD",
+          "initial": 13800,
+          "final": 3400
+        },
+        "tiny_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/247000/ee9466a2885c5ee1eee55522889683681ba9ef9c/capsule_231x87.jpg?t=1756199630",
+        "metascore": "",
+        "platforms": {
+          "windows": true,
+          "mac": true,
+          "linux": false
+        },
+        "streamingvideo": false,
+        "controller_support": "full"
+      },
+      {
+        "type": "app",
+        "name": "Talisman: Digital 5th Edition - Alliances: Fate Beckons",
+        "id": 3640140,
+        "price": {
+          "currency": "TWD",
+          "initial": 17200,
+          "final": 12900
+        },
+        "tiny_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3640140/dface57f1b938b30d79d6f4a4c10c6c57f2c4b69/capsule_231x87.jpg?t=1752755798",
+        "metascore": "",
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "streamingvideo": false,
+        "controller_support": "full"
+      },
+      {
+        "type": "app",
+        "name": "Talisman: Digital 5th Edition - Soundtrack",
+        "id": 3837770,
+        "price": {
+          "currency": "TWD",
+          "initial": 8200,
+          "final": 6100
+        },
+        "tiny_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3837770/e85b21340025b99af1973b371129a4fa94261b7d/capsule_231x87.jpg?t=1774956518",
+        "metascore": "",
+        "platforms": {
+          "windows": true,
+          "mac": true,
+          "linux": true
+        },
+        "streamingvideo": false
+      }
+    ]
+  },
+  {
+    "name": "Town of Salem",
+    "appid": 334230,
+    "officialName": "Town of Salem",
+    "sourceUrl": "https://store.steampowered.com/app/334230/"
+  },
+  {
+    "name": "Evolve",
+    "candidates": [
+      {
+        "type": "app",
+        "name": "ARK: Survival Evolved",
+        "id": 346110,
+        "price": {
+          "currency": "TWD",
+          "initial": 26800,
+          "final": 17600
+        },
+        "tiny_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/346110/capsule_231x87.jpg?t=1765677889",
+        "metascore": "70",
+        "platforms": {
+          "windows": true,
+          "mac": true,
+          "linux": false
+        },
+        "streamingvideo": false,
+        "controller_support": "full"
+      },
+      {
+        "type": "app",
+        "name": "Halo: Campaign Evolved",
+        "id": 2806050,
+        "price": {
+          "currency": "TWD",
+          "initial": 149000,
+          "final": 119200
+        },
+        "tiny_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2806050/c4569404286b4e8bc5810fbc11282d7b842d4e4a/capsule_231x87.jpg?t=1786379031",
+        "metascore": "",
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "streamingvideo": false,
+        "controller_support": "full"
+      },
+      {
+        "type": "app",
+        "name": "Evolve Lab",
+        "id": 1569240,
+        "price": {
+          "currency": "TWD",
+          "initial": 26800,
+          "final": 21400
+        },
+        "tiny_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1569240/9311e85af4aac3c438b8d3ec0806708ef37a0e31/capsule_231x87.jpg?t=1759163960",
+        "metascore": "",
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "streamingvideo": false
+      },
+      {
+        "type": "app",
+        "name": "Project Evolve",
+        "id": 2954840,
+        "price": {
+          "currency": "TWD",
+          "initial": 9900,
+          "final": 9900
+        },
+        "tiny_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2954840/capsule_231x87.jpg?t=1723871191",
+        "metascore": "",
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "streamingvideo": false,
+        "controller_support": "full"
+      }
+    ]
+  },
+  {
+    "name": "The Elder Scrolls V: Skyrim",
+    "candidates": [
+      {
+        "type": "app",
+        "name": "The Elder Scrolls V: Skyrim Special Edition",
+        "id": 489830,
+        "price": {
+          "currency": "TWD",
+          "initial": 119900,
+          "final": 11900
+        },
+        "tiny_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/489830/capsule_231x87.jpg?t=1786648247",
+        "metascore": "74",
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "streamingvideo": false
+      },
+      {
+        "type": "app",
+        "name": "The Elder Scrolls V: Skyrim VR",
+        "id": 611670,
+        "price": {
+          "currency": "TWD",
+          "initial": 183000,
+          "final": 45700
+        },
+        "tiny_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/611670/capsule_231x87.jpg?t=1564002443",
+        "metascore": "81",
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "streamingvideo": false,
+        "controller_support": "full"
+      },
+      {
+        "type": "app",
+        "name": "The Elder Scrolls V: Skyrim Anniversary Upgrade",
+        "id": 1746860,
+        "price": {
+          "currency": "TWD",
+          "initial": 59900,
+          "final": 29900
+        },
+        "tiny_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1746860/capsule_231x87.jpg?t=1726757961",
+        "metascore": "",
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "streamingvideo": false
+      },
+      {
+        "type": "app",
+        "name": "The Elder Scrolls V: Skyrim Soundtrack",
+        "id": 1240360,
+        "price": {
+          "currency": "TWD",
+          "initial": 47900,
+          "final": 23900
+        },
+        "tiny_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1240360/capsule_231x87.jpg?t=1581550498",
+        "metascore": "",
+        "platforms": {
+          "windows": true,
+          "mac": true,
+          "linux": true
+        },
+        "streamingvideo": false
+      }
+    ]
+  },
+  {
+    "name": "Wii Backward Compatibility with GameCube",
+    "candidates": []
+  },
+  {
+    "name": "Xbox Series X|S Backward Compatibility",
+    "candidates": []
+  },
+  {
+    "name": "Star Wars Battlefront II",
+    "appid": 1237950,
+    "officialName": "STAR WARS™ Battlefront™ II",
+    "sourceUrl": "https://store.steampowered.com/app/1237950/"
+  },
+  {
+    "name": "Overwatch",
+    "appid": 2357570,
+    "officialName": "Overwatch®",
+    "sourceUrl": "https://store.steampowered.com/app/2357570/"
+  },
+  {
+    "name": "Control",
+    "candidates": [
+      {
+        "type": "app",
+        "name": "CONTROL Resonant",
+        "id": 3669870,
+        "price": {
+          "currency": "TWD",
+          "initial": 128000,
+          "final": 128000
+        },
+        "tiny_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3669870/867a73afa5f21c28aaa14e9b0a4d895c540d4a0c/capsule_231x87.jpg?t=1790673363",
+        "metascore": "",
+        "platforms": {
+          "windows": true,
+          "mac": false,
+          "linux": false
+        },
+        "streamingvideo": false,
+        "controller_support": "full"
+      },
+      {
+        "type": "app",
+        "name": "CONTROL Ultimate Edition",
+        "id": 870780,
+        "price": {
+          "currency": "TWD",
+          "initial": 59900,
+          "final": 8900
+        },
+        "tiny_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/870780/40054b94c2e8734ad9e76787534af5ba1b034a53/capsule_231x87.jpg?t=1781607969",
+        "metascore": "85",
+        "platforms": {
+          "windows": true,
+          "mac": true,
+          "linux": false
+        },
+        "streamingvideo": false,
+        "controller_support": "full"
+      },
+      {
+        "type": "app",
+        "name": "Control, I'm Not Coming Back",
+        "id": 4515660,
+        "tiny_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4515660/e745d6eff71e81a61d50d3dce60ca4fb67f5a6c8/capsule_231x87.jpg?t=1790087405",
+        "metascore": "",
+        "platforms": {
+          "windows": true,
+          "mac": true,
+          "linux": false
+        },
+        "streamingvideo": false,
+        "controller_support": "full"
+      },
+      {
+        "type": "app",
+        "name": "SUPERHOT: MIND CONTROL DELETE",
+        "id": 690040,
+        "price": {
+          "currency": "TWD",
+          "initial": 39900,
+          "final": 15900
+        },
+        "tiny_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/690040/b2f19804e41edd4d9fdbe28bf60724e792abf95d/capsule_231x87.jpg?t=1726508997",
+        "metascore": "78",
+        "platforms": {
+          "windows": true,
+          "mac": true,
+          "linux": true
+        },
+        "streamingvideo": false,
+        "controller_support": "full"
+      }
+    ]
+  },
+  {
+    "name": "No Man's Sky",
+    "appid": 275850,
+    "officialName": "No Man's Sky",
+    "sourceUrl": "https://store.steampowered.com/app/275850/"
+  }
+]

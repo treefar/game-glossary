@@ -1,0 +1,10 @@
+const fs=require('node:fs');const file='data/entries/mobile-esports.json',a=JSON.parse(fs.readFileSync(file,'utf8'));
+const hsr=a.find(e=>e.id==='pity-system')?.examples.find(x=>x.en==='Honkai: Star Rail')||JSON.parse(fs.readFileSync('data/glossary.json','utf8')).entries.find(e=>e.id==='pity-system').examples.find(x=>x.en==='Honkai: Star Rail');
+const auto=a.find(e=>e.id==='auto-battle');
+auto.examples=[{...hsr,why:'回合制戰鬥可由系統代為選擇目標與技能；官方更新公告持續調整自動戰鬥邏輯，適合分析便利性與手動決策的取捨。'},{title:'楓之谷M',en:'MapleStory M',appid:3969080,year:2018,why:'橫向卷軸 MMORPG 的自動練功代表案例，官方介紹明載自動戰鬥選項與成長系統。',sourceUrl:'https://store.steampowered.com/app/3969080/',accessed:'2026-10-02'}];
+auto.sources.push({title:'崩壞：星穹鐵道官方 4.2 更新公告',url:'https://www.hoyolab.com/article/44742273',accessed:'2026-10-02',note:'自動戰鬥目標與技能選擇邏輯調整'},{title:'楓之谷M Steam 官方介紹',url:'https://store.steampowered.com/app/3969080/',accessed:'2026-10-02',note:'官方明列 auto-battle options'});
+const rogue=a.find(e=>e.id==='roguelike-mode-in-gacha');
+rogue.examples[0]={...hsr,why:'模擬宇宙將多場戰鬥串成一局，透過隨機事件、祝福與奇物形成局內組合，是抽卡遊戲加入 Roguelike 模式的代表案例。'};
+rogue.examples[1].why='「深境幻境」以局內增益與重複挑戰形成組合變化；比較時應觀察隨機性與局內成長，而非只看爬塔難度。';
+rogue.sources.push({title:'崩壞：星穹鐵道官方模擬宇宙介紹',url:'https://www.hoyolab.com/article/17237205',accessed:'2026-10-02',note:'隨機事件、祝福與奇物'});
+fs.writeFileSync(file,JSON.stringify(a,null,2)+'\n');

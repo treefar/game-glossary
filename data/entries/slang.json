@@ -31,7 +31,11 @@
         "en": "League of Legends",
         "appid": null,
         "year": 2009,
-        "why": "電競轉播中最常聽到「Carry」的來源"
+        "why": "電競轉播中最常聽到「Carry」的來源",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+        "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "imageKind": "官方教學示意圖",
+        "accessed": "2026-10-02"
       }
     ],
     "steamTags": [
@@ -59,6 +63,12 @@
         "url": "https://en.wikipedia.org/wiki/Glossary_of_video_game_terms",
         "accessed": "2026-09-17",
         "note": "收錄 Carry 的定義：disproportionately contributes to the success of their team"
+      },
+      {
+        "title": "官方遊戲介紹：League of Legends",
+        "url": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方教學示意圖）"
       }
     ],
     "status": "verified"
@@ -149,7 +159,11 @@
         "en": "League of Legends",
         "appid": null,
         "year": 2009,
-        "why": "電競轉播常見戰術用語"
+        "why": "電競轉播常見戰術用語",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+        "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "imageKind": "官方教學示意圖",
+        "accessed": "2026-10-02"
       }
     ],
     "steamTags": [
@@ -177,6 +191,12 @@
         "url": "https://www.urbandictionary.com/define.php?term=gank",
         "accessed": "2026-09-17",
         "note": "When a group of people kill a single opponent...Gang Kill"
+      },
+      {
+        "title": "官方遊戲介紹：League of Legends",
+        "url": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方教學示意圖）"
       }
     ],
     "status": "verified"
@@ -215,7 +235,11 @@
         "en": "League of Legends",
         "appid": null,
         "year": 2009,
-        "why": "CS 分數是官方戰績頁面直接顯示的數據"
+        "why": "CS 分數是官方戰績頁面直接顯示的數據",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+        "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "imageKind": "官方教學示意圖",
+        "accessed": "2026-10-02"
       }
     ],
     "steamTags": [
@@ -248,6 +272,12 @@
         "url": "https://www.urbandictionary.com/define.php?term=creep+score",
         "accessed": "2026-09-17",
         "note": "how many minion kills you have in games such as League Of Legends and Dota 2"
+      },
+      {
+        "title": "官方遊戲介紹：League of Legends",
+        "url": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方教學示意圖）"
       }
     ],
     "status": "verified"
@@ -388,7 +418,11 @@
         "en": "League of Legends",
         "appid": null,
         "year": 2009,
-        "why": "職業賽事解說最常用來形容一方優勢擴大的現象"
+        "why": "職業賽事解說最常用來形容一方優勢擴大的現象",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+        "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "imageKind": "官方教學示意圖",
+        "accessed": "2026-10-02"
       },
       {
         "title": "Dota 2",
@@ -422,6 +456,12 @@
         "url": "https://www.urbandictionary.com/define.php?term=snowballing",
         "accessed": "2026-09-17",
         "note": "When an advantage causes that advantage to grow increasingly larger, typically with no hope of stopping it"
+      },
+      {
+        "title": "官方遊戲介紹：League of Legends",
+        "url": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方教學示意圖）"
       }
     ],
     "status": "verified"
@@ -505,7 +545,11 @@
         "en": "League of Legends",
         "appid": null,
         "year": 2009,
-        "why": "職業比賽中越塔強殺是常見的高光操作"
+        "why": "職業比賽中越塔強殺是常見的高光操作",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+        "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "imageKind": "官方教學示意圖",
+        "accessed": "2026-10-02"
       }
     ],
     "steamTags": [
@@ -532,6 +576,12 @@
         "url": "https://www.ptt.cc/bbs/LoL/index.html",
         "accessed": "2026-09-17",
         "note": "英文權威來源多將 Dive 併入 backdoor／aggressive play 相關條目說明，未找到獨立可引用連結"
+      },
+      {
+        "title": "官方遊戲介紹：League of Legends",
+        "url": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方教學示意圖）"
       }
     ],
     "status": "unverified"
@@ -560,7 +610,11 @@
         "en": "League of Legends",
         "appid": null,
         "year": 2009,
-        "why": "遠程法師陣容常見的核心打法"
+        "why": "遠程法師陣容常見的核心打法",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+        "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "imageKind": "官方教學示意圖",
+        "accessed": "2026-10-02"
       }
     ],
     "steamTags": [
@@ -586,6 +640,12 @@
         "url": "https://www.ptt.cc/bbs/LoL/index.html",
         "accessed": "2026-09-17",
         "note": "常見英文詞典未收錄 MOBA 語境的 Poke 定義，未能於本次搜尋中確認獨立可查證連結"
+      },
+      {
+        "title": "官方遊戲介紹：League of Legends",
+        "url": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方教學示意圖）"
       }
     ],
     "status": "unverified"
@@ -675,7 +735,11 @@
         "en": "League of Legends",
         "appid": null,
         "year": 2009,
-        "why": "投降或戰敗時常見的聊天室用語"
+        "why": "投降或戰敗時常見的聊天室用語",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+        "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "imageKind": "官方教學示意圖",
+        "accessed": "2026-10-02"
       }
     ],
     "steamTags": [
@@ -702,6 +766,12 @@
         "url": "https://www.urbandictionary.com/define.php?term=GG",
         "accessed": "2026-09-17",
         "note": "Good Game，可為真誠風度用語，也可帶嘲諷、表達認輸或不滿"
+      },
+      {
+        "title": "官方遊戲介紹：League of Legends",
+        "url": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方教學示意圖）"
       }
     ],
     "status": "verified"
@@ -894,7 +964,11 @@
         "en": "League of Legends",
         "appid": null,
         "year": 2009,
-        "why": "官方多次公開打擊 Smurf 帳號的偵測與懲罰措施"
+        "why": "官方多次公開打擊 Smurf 帳號的偵測與懲罰措施",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+        "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "imageKind": "官方教學示意圖",
+        "accessed": "2026-10-02"
       }
     ],
     "steamTags": [
@@ -921,6 +995,12 @@
         "url": "https://www.urbandictionary.com/define.php?term=smurf",
         "accessed": "2026-09-17",
         "note": "an experienced player who uses a new account to deceive other players into thinking he's a noob"
+      },
+      {
+        "title": "官方遊戲介紹：League of Legends",
+        "url": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方教學示意圖）"
       }
     ],
     "status": "verified"
@@ -1003,7 +1083,11 @@
         "en": "League of Legends",
         "appid": null,
         "year": 2009,
-        "why": "電競直播彈幕中常見的讚嘆刷屏用語"
+        "why": "電競直播彈幕中常見的讚嘆刷屏用語",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+        "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "imageKind": "官方教學示意圖",
+        "accessed": "2026-10-02"
       }
     ],
     "steamTags": [],
@@ -1022,6 +1106,12 @@
         "url": "https://www.ptt.cc/bbs/Gossiping/index.html",
         "accessed": "2026-09-17",
         "note": "台灣 777 用語源自特定實況主帶動的網路文化現象，未能於本次搜尋中找到第三方可查證連結"
+      },
+      {
+        "title": "官方遊戲介紹：League of Legends",
+        "url": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方教學示意圖）"
       }
     ],
     "status": "unverified"
@@ -1236,7 +1326,11 @@
         "en": "League of Legends",
         "appid": null,
         "year": 2009,
-        "why": "ADC 是官方五個分路位置之一"
+        "why": "ADC 是官方五個分路位置之一",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+        "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "imageKind": "官方教學示意圖",
+        "accessed": "2026-10-02"
       }
     ],
     "steamTags": [
@@ -1264,6 +1358,12 @@
         "url": "https://en.wikipedia.org/wiki/Glossary_of_video_game_terms",
         "accessed": "2026-09-17",
         "note": "頁面描述 damage dealer 為「a character or class that is designed purely to deal damage」，與 Tank 對比說明"
+      },
+      {
+        "title": "官方遊戲介紹：League of Legends",
+        "url": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方教學示意圖）"
       }
     ],
     "status": "verified"
@@ -1340,7 +1440,11 @@
         "en": "League of Legends",
         "appid": null,
         "year": 2009,
-        "why": "輔助是官方五個分路位置之一，負責保護 ADC 與提供視野"
+        "why": "輔助是官方五個分路位置之一，負責保護 ADC 與提供視野",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+        "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "imageKind": "官方教學示意圖",
+        "accessed": "2026-10-02"
       }
     ],
     "steamTags": [
@@ -1367,6 +1471,12 @@
         "url": "https://www.ptt.cc/bbs/LoL/index.html",
         "accessed": "2026-09-17",
         "note": "Support 為 MOBA 官方角色分類名稱，各遊戲官網皆有收錄，未於本次搜尋中鎖定單一第三方可引用連結"
+      },
+      {
+        "title": "官方遊戲介紹：League of Legends",
+        "url": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方教學示意圖）"
       }
     ],
     "status": "unverified"
@@ -1395,7 +1505,11 @@
         "en": "League of Legends",
         "appid": null,
         "year": 2009,
-        "why": "打野是官方五個分路位置之一，也是節奏掌控核心"
+        "why": "打野是官方五個分路位置之一，也是節奏掌控核心",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+        "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "imageKind": "官方教學示意圖",
+        "accessed": "2026-10-02"
       },
       {
         "title": "Dota 2",
@@ -1429,6 +1543,12 @@
         "url": "https://www.urbandictionary.com/define.php?term=jungler",
         "accessed": "2026-09-17",
         "note": "takes smite and starts the game killing units in the jungle as oppose to the lanes"
+      },
+      {
+        "title": "官方遊戲介紹：League of Legends",
+        "url": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方教學示意圖）"
       }
     ],
     "status": "verified"
@@ -1516,7 +1636,11 @@
         "en": "League of Legends",
         "appid": null,
         "year": 2009,
-        "why": "R 鍵固定綁定大招，是團戰決策的核心資訊"
+        "why": "R 鍵固定綁定大招，是團戰決策的核心資訊",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+        "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "imageKind": "官方教學示意圖",
+        "accessed": "2026-10-02"
       }
     ],
     "steamTags": [],
@@ -1538,6 +1662,12 @@
         "url": "https://www.urbandictionary.com/define.php?term=ult",
         "accessed": "2026-09-17",
         "note": "That fourth skill in league of legends or dota 2 that's extremely game changing；lingo for an ultimate ability in Overwatch"
+      },
+      {
+        "title": "官方遊戲介紹：League of Legends",
+        "url": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方教學示意圖）"
       }
     ],
     "status": "verified"
@@ -2202,7 +2332,11 @@
         "en": "League of Legends",
         "appid": null,
         "year": 2009,
-        "why": "每個版本都會出現公認的「版本答案」英雄，帶動選角率暴增"
+        "why": "每個版本都會出現公認的「版本答案」英雄，帶動選角率暴增",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+        "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "imageKind": "官方教學示意圖",
+        "accessed": "2026-10-02"
       }
     ],
     "steamTags": [
@@ -2230,6 +2364,12 @@
         "url": "https://www.ptt.cc/bbs/LoL/index.html",
         "accessed": "2026-09-17",
         "note": "版本答案為電競社群通用口語，未能於本次搜尋中鎖定單一第三方可引用連結"
+      },
+      {
+        "title": "官方遊戲介紹：League of Legends",
+        "url": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方教學示意圖）"
       }
     ],
     "status": "unverified"
@@ -2316,7 +2456,11 @@
         "en": "League of Legends",
         "appid": null,
         "year": 2009,
-        "why": "強度排行榜最底層（T序位）常被稱為板凳角色"
+        "why": "強度排行榜最底層（T序位）常被稱為板凳角色",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+        "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "imageKind": "官方教學示意圖",
+        "accessed": "2026-10-02"
       }
     ],
     "steamTags": [
@@ -2344,6 +2488,12 @@
         "url": "https://www.ptt.cc/bbs/LoL/index.html",
         "accessed": "2026-09-17",
         "note": "板凳角色為電競與手遊社群通用口語，未能於本次搜尋中鎖定單一第三方可引用連結"
+      },
+      {
+        "title": "官方遊戲介紹：League of Legends",
+        "url": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方教學示意圖）"
       }
     ],
     "status": "unverified"
@@ -2597,7 +2747,11 @@
         "en": "League of Legends",
         "appid": null,
         "year": 2009,
-        "why": "QWER 為官方預設的四個技能鍵位配置"
+        "why": "QWER 為官方預設的四個技能鍵位配置",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+        "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "imageKind": "官方教學示意圖",
+        "accessed": "2026-10-02"
       }
     ],
     "steamTags": [],
@@ -2618,6 +2772,12 @@
         "url": "https://en.wikipedia.org/wiki/WASD_keys",
         "accessed": "2026-09-17",
         "note": "說明 WASD 於 Quake 競技場景普及，Half-Life 帶動主流化採用"
+      },
+      {
+        "title": "官方遊戲介紹：League of Legends",
+        "url": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方教學示意圖）"
       }
     ],
     "status": "verified"
@@ -3018,7 +3178,11 @@
         "en": "League of Legends",
         "appid": null,
         "year": 2009,
-        "why": "重大版本更新公告下方常出現大量洗版留言"
+        "why": "重大版本更新公告下方常出現大量洗版留言",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+        "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "imageKind": "官方教學示意圖",
+        "accessed": "2026-10-02"
       }
     ],
     "steamTags": [],
@@ -3039,6 +3203,12 @@
         "url": "https://forum.gamer.com.tw/",
         "accessed": "2026-09-17",
         "note": "「洗版」為華語網路論壇通用口語，未能於本次搜尋中鎖定單一第三方可引用連結"
+      },
+      {
+        "title": "官方遊戲介紹：League of Legends",
+        "url": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方教學示意圖）"
       }
     ],
     "status": "unverified"
@@ -3167,7 +3337,11 @@
         "en": "League of Legends",
         "appid": null,
         "year": 2009,
-        "why": "單排配對制度下，隊友素質參差是玩家最常見的抱怨來源"
+        "why": "單排配對制度下，隊友素質參差是玩家最常見的抱怨來源",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+        "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "imageKind": "官方教學示意圖",
+        "accessed": "2026-10-02"
       }
     ],
     "steamTags": [
@@ -3194,6 +3368,12 @@
         "url": "https://forum.gamer.com.tw/",
         "accessed": "2026-09-17",
         "note": "「雷包」為華語競技遊戲社群通用抱怨用語，未能於本次搜尋中鎖定單一第三方可引用連結"
+      },
+      {
+        "title": "官方遊戲介紹：League of Legends",
+        "url": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方教學示意圖）"
       }
     ],
     "status": "unverified"
@@ -3223,7 +3403,11 @@
         "en": "League of Legends",
         "appid": null,
         "year": 2009,
-        "why": "高分段玩家在社群討論中常被尊稱為大神或大佬"
+        "why": "高分段玩家在社群討論中常被尊稱為大神或大佬",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+        "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "imageKind": "官方教學示意圖",
+        "accessed": "2026-10-02"
       }
     ],
     "steamTags": [],
@@ -3245,6 +3429,12 @@
         "url": "https://forum.gamer.com.tw/",
         "accessed": "2026-09-17",
         "note": "「大佬／大神／巴哥」為華語遊戲討論板通用尊稱，未能於本次搜尋中鎖定單一第三方可引用連結"
+      },
+      {
+        "title": "官方遊戲介紹：League of Legends",
+        "url": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方教學示意圖）"
       }
     ],
     "status": "unverified"
@@ -3852,7 +4042,11 @@
         "en": "League of Legends",
         "appid": null,
         "year": 2009,
-        "why": "每個版本強度排行公布後，社群常討論跟風選角現象"
+        "why": "每個版本強度排行公布後，社群常討論跟風選角現象",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+        "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "imageKind": "官方教學示意圖",
+        "accessed": "2026-10-02"
       }
     ],
     "steamTags": [
@@ -3879,6 +4073,12 @@
         "url": "https://www.ptt.cc/bbs/Steam/index.html",
         "accessed": "2026-09-17",
         "note": "「跟風」為華語電競社群通用評價用語，未能於本次搜尋中鎖定單一第三方可引用連結"
+      },
+      {
+        "title": "官方遊戲介紹：League of Legends",
+        "url": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方教學示意圖）"
       }
     ],
     "status": "unverified"
@@ -3971,7 +4171,11 @@
         "en": "League of Legends",
         "appid": null,
         "year": 2009,
-        "why": "排位賽中途離開會受到明確的懲罰機制約束"
+        "why": "排位賽中途離開會受到明確的懲罰機制約束",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+        "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "imageKind": "官方教學示意圖",
+        "accessed": "2026-10-02"
       }
     ],
     "steamTags": [
@@ -3998,6 +4202,12 @@
         "url": "https://www.urbandictionary.com/define.php?term=ragequit",
         "accessed": "2026-09-17",
         "note": "To stop playing a game out of an anger towards an event that transpired within the game"
+      },
+      {
+        "title": "官方遊戲介紹：League of Legends",
+        "url": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方教學示意圖）"
       }
     ],
     "status": "verified"
@@ -4026,7 +4236,11 @@
         "en": "League of Legends",
         "appid": null,
         "year": 2009,
-        "why": "連續掉分後的Tilt狀態是排位賽玩家常見的自我檢討話題"
+        "why": "連續掉分後的Tilt狀態是排位賽玩家常見的自我檢討話題",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+        "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "imageKind": "官方教學示意圖",
+        "accessed": "2026-10-02"
       }
     ],
     "steamTags": [
@@ -4053,6 +4267,12 @@
         "url": "https://en.wiktionary.org/wiki/tilt",
         "accessed": "2026-09-17",
         "note": "A state of frustration and worsened performance resulting from a series of losses"
+      },
+      {
+        "title": "官方遊戲介紹：League of Legends",
+        "url": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方教學示意圖）"
       }
     ],
     "status": "verified"
@@ -4698,7 +4918,11 @@
         "en": "League of Legends",
         "appid": null,
         "year": 2009,
-        "why": "官方長期投入研究並公開對抗Toxic行為的社群治理措施，是業界指標案例"
+        "why": "官方長期投入研究並公開對抗Toxic行為的社群治理措施，是業界指標案例",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+        "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "imageKind": "官方教學示意圖",
+        "accessed": "2026-10-02"
       }
     ],
     "steamTags": [
@@ -4726,6 +4950,12 @@
         "url": "https://www.urbandictionary.com/define.php?term=toxic",
         "accessed": "2026-09-17",
         "note": "a very negative person who complains excessively, spreads unnecessary hate, or talks negatively about others...the main coin of online gaming"
+      },
+      {
+        "title": "官方遊戲介紹：League of Legends",
+        "url": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方教學示意圖）"
       }
     ],
     "status": "verified"
@@ -4904,7 +5134,11 @@
         "en": "League of Legends",
         "appid": null,
         "year": 2009,
-        "why": "台灣實況主直播彈幕中常見用於勸阻危險操作的用語"
+        "why": "台灣實況主直播彈幕中常見用於勸阻危險操作的用語",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+        "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "imageKind": "官方教學示意圖",
+        "accessed": "2026-10-02"
       }
     ],
     "steamTags": [],
@@ -4925,6 +5159,12 @@
         "url": "https://www.ptt.cc/bbs/Gossiping/index.html",
         "accessed": "2026-09-17",
         "note": "「母湯」為台灣實況彈幕文化廣泛流傳的台語諧音用語，未能於本次搜尋中鎖定單一第三方可引用連結"
+      },
+      {
+        "title": "官方遊戲介紹：League of Legends",
+        "url": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方教學示意圖）"
       }
     ],
     "status": "unverified"
@@ -4955,7 +5195,11 @@
         "en": "League of Legends",
         "appid": null,
         "year": 2009,
-        "why": "直播彈幕與遊戲內快速聊天中常見的數字諧音縮寫用法"
+        "why": "直播彈幕與遊戲內快速聊天中常見的數字諧音縮寫用法",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+        "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "imageKind": "官方教學示意圖",
+        "accessed": "2026-10-02"
       }
     ],
     "steamTags": [],
@@ -4976,6 +5220,12 @@
         "url": "https://www.ptt.cc/bbs/Gossiping/index.html",
         "accessed": "2026-09-17",
         "note": "「484／94」為華語網路注音文數字諧音遺產，未能於本次搜尋中鎖定單一第三方可引用連結"
+      },
+      {
+        "title": "官方遊戲介紹：League of Legends",
+        "url": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方教學示意圖）"
       }
     ],
     "status": "unverified"

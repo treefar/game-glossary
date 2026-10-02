@@ -1,0 +1,360 @@
+[
+  {
+    "appid": 474750,
+    "name": "Reigns",
+    "description": "Sit on the throne as a benevolent (or malevolent) medieval monarch of the modern age and swipe your royal controller either left or right to impose your will upon the kingdom.",
+    "release": {
+      "coming_soon": false,
+      "date": "Aug 11, 2016"
+    },
+    "metacritic": {
+      "score": 77,
+      "url": "https://www.metacritic.com/game/pc/reigns?ftag=MCD-06-10aaa1f"
+    },
+    "reviews": {
+      "num_reviews": 10,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 7063,
+      "total_negative": 1074,
+      "total_reviews": 8137
+    },
+    "sourceUrl": "https://store.steampowered.com/app/474750/"
+  },
+  {
+    "appid": 39210,
+    "name": "FINAL FANTASY XIV Online",
+    "description": "Join over 30 million adventurers worldwide and take part in an epic and ever-changing FINAL FANTASY. Experience an unforgettable story, exhilarating battles, and a myriad of captivating environments to explore.",
+    "release": {
+      "coming_soon": false,
+      "date": "Feb 18, 2014"
+    },
+    "metacritic": {
+      "score": 83,
+      "url": "https://www.metacritic.com/game/pc/final-fantasy-xiv-online-a-realm-reborn?ftag=MCD-06-10aaa1f"
+    },
+    "reviews": {
+      "num_reviews": 10,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 74295,
+      "total_negative": 11560,
+      "total_reviews": 85855
+    },
+    "sourceUrl": "https://store.steampowered.com/app/39210/"
+  },
+  {
+    "appid": 1593500,
+    "name": "God of War",
+    "description": "His vengeance against the Gods of Olympus years behind him, Kratos now lives as a man in the realm of Norse Gods and monsters. It is in this harsh, unforgiving world that he must fight to survive… and teach his son to do the same.",
+    "release": {
+      "coming_soon": false,
+      "date": "Jan 14, 2022"
+    },
+    "metacritic": {
+      "score": 93,
+      "url": "https://www.metacritic.com/game/pc/god-of-war?ftag=MCD-06-10aaa1f"
+    },
+    "reviews": {
+      "num_reviews": 10,
+      "review_score": 9,
+      "review_score_desc": "Overwhelmingly Positive",
+      "total_positive": 177716,
+      "total_negative": 7532,
+      "total_reviews": 185248
+    },
+    "sourceUrl": "https://store.steampowered.com/app/1593500/"
+  },
+  {
+    "appid": 247000,
+    "name": "Talisman: Digital Classic Edition",
+    "description": "The complete 4th Edition experience of the classic fantasy adventure board game, Talisman. On your travels, you will need strength, courage and some good dice rolls to survive the dangers you face and beat your opponents to the centre of the board!",
+    "release": {
+      "coming_soon": false,
+      "date": "Feb 25, 2014"
+    },
+    "reviews": {
+      "num_reviews": 10,
+      "review_score": 6,
+      "review_score_desc": "Mostly Positive",
+      "total_positive": 7849,
+      "total_negative": 2182,
+      "total_reviews": 10031
+    },
+    "sourceUrl": "https://store.steampowered.com/app/247000/"
+  },
+  {
+    "appid": 50300,
+    "name": "Spec Ops: The Line",
+    "description": "A Third-Person modern military Shooter designed to challenge players' morality by putting them in the middle of unspeakable situations.",
+    "release": {
+      "coming_soon": false,
+      "date": "Jun 29, 2012"
+    },
+    "metacritic": {
+      "score": 76,
+      "url": "https://www.metacritic.com/game/pc/spec-ops-the-line?ftag=MCD-06-10aaa1f"
+    },
+    "reviews": {
+      "num_reviews": 10,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 52662,
+      "total_negative": 3732,
+      "total_reviews": 56394
+    },
+    "sourceUrl": "https://store.steampowered.com/app/50300/"
+  },
+  {
+    "appid": 2131630,
+    "name": "METAL GEAR SOLID - Master Collection Version",
+    "description": "The first 3D title in the METAL GEAR series pioneering a new level of stealth action with live action footage, cinematic cut scenes, and innovative gameplay.",
+    "release": {
+      "coming_soon": false,
+      "date": "Oct 24, 2023"
+    },
+    "reviews": {
+      "num_reviews": 10,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 5121,
+      "total_negative": 1035,
+      "total_reviews": 6156
+    },
+    "sourceUrl": "https://store.steampowered.com/app/2131630/"
+  },
+  {
+    "appid": 72850,
+    "name": "The Elder Scrolls V: Skyrim",
+    "description": "EPIC FANTASY REBORN The next chapter in the highly anticipated Elder Scrolls saga arrives from the makers of the 2006 and 2008 Games of the Year, Bethesda Game Studios. Skyrim reimagines and revolutionizes the open-world fantasy epic, bringing to life a complete virtual world open for you to explore any way you choose.",
+    "release": {
+      "coming_soon": false,
+      "date": "Nov 10, 2011"
+    },
+    "metacritic": {
+      "score": 94,
+      "url": "https://www.metacritic.com/game/pc/the-elder-scrolls-v-skyrim?ftag=MCD-06-10aaa1f"
+    },
+    "reviews": {
+      "num_reviews": 10,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 301258,
+      "total_negative": 16542,
+      "total_reviews": 317800
+    },
+    "sourceUrl": "https://store.steampowered.com/app/72850/"
+  },
+  {
+    "appid": 870780,
+    "name": "CONTROL Ultimate Edition",
+    "description": "Winner of over 80 awards, CONTROL is a visually stunning third-person action-adventure that will keep you on the edge of your seat.",
+    "release": {
+      "coming_soon": false,
+      "date": "Aug 27, 2020"
+    },
+    "metacritic": {
+      "score": 85,
+      "url": "https://www.metacritic.com/game/pc/control?ftag=MCD-06-10aaa1f"
+    },
+    "reviews": {
+      "num_reviews": 10,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 56162,
+      "total_negative": 9087,
+      "total_reviews": 65249
+    },
+    "sourceUrl": "https://store.steampowered.com/app/870780/"
+  },
+  {
+    "appid": 584400,
+    "name": "Sonic Mania",
+    "description": "Experience the ultimate celebration of past and future in Sonic Mania, an all-new 2D Sonic adventure running at a crisp 60FPS with stunning HD retro-style graphics.",
+    "release": {
+      "coming_soon": false,
+      "date": "Aug 29, 2017"
+    },
+    "metacritic": {
+      "score": 84,
+      "url": "https://www.metacritic.com/game/pc/sonic-mania?ftag=MCD-06-10aaa1f"
+    },
+    "reviews": {
+      "num_reviews": 10,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 27191,
+      "total_negative": 1761,
+      "total_reviews": 28952
+    },
+    "sourceUrl": "https://store.steampowered.com/app/584400/"
+  },
+  {
+    "appid": 1003590,
+    "name": "Tetris® Effect: Connected",
+    "description": "Tetris® Effect: Connected adds an all-new robust multiplayer expansion to the huge variety of addictive and innovative single-player modes that Tetris Effect is known for, with all-new co-op and competitive online and local multiplayer modes!",
+    "release": {
+      "coming_soon": false,
+      "date": "Aug 17, 2021"
+    },
+    "metacritic": {
+      "score": 93,
+      "url": "https://www.metacritic.com/game/pc/tetris-effect-connected?ftag=MCD-06-10aaa1f"
+    },
+    "reviews": {
+      "num_reviews": 10,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 8548,
+      "total_negative": 499,
+      "total_reviews": 9047
+    },
+    "sourceUrl": "https://store.steampowered.com/app/1003590/"
+  },
+  {
+    "appid": 13240,
+    "name": "Unreal Tournament: Game of the Year Edition",
+    "description": "Unreal Tournament is the original King of the Hill in the frag-or-be-fragged multiplayer gaming world. As the undisputed 1999 Game of the Year, Unreal Tournament grabbed the first person shooter genre by the soiled seat of its pants and knocked it around the room with its never-before-seen graphics, brutal edge-of-your-seat gameplay and...",
+    "release": {
+      "coming_soon": false,
+      "date": "Mar 17, 2008"
+    },
+    "metacritic": {
+      "score": 92,
+      "url": "http://www.metacritic.com/game/pc/unreal-tournament"
+    },
+    "reviews": {
+      "num_reviews": 10,
+      "review_score": 9,
+      "review_score_desc": "Overwhelmingly Positive",
+      "total_positive": 4318,
+      "total_negative": 148,
+      "total_reviews": 4466
+    },
+    "sourceUrl": "https://store.steampowered.com/app/13240/"
+  },
+  {
+    "appid": 273350,
+    "name": "Evolve Stage 2",
+    "description": "Play Evolve for free with Evolve Stage 2! Evolve Stage 2 is a next-generation free multiplayer shooter featuring addictive 4v1 gameplay. One player-controlled monster must evade and outsmart a team of four uniquely skilled hunters.",
+    "release": {
+      "coming_soon": false,
+      "date": "Feb 10, 2015"
+    },
+    "metacritic": {
+      "score": 77,
+      "url": "https://www.metacritic.com/game/pc/evolve?ftag=MCD-06-10aaa1f"
+    },
+    "reviews": {
+      "num_reviews": 10,
+      "review_score": 6,
+      "review_score_desc": "Mostly Positive",
+      "total_positive": 33828,
+      "total_negative": 14416,
+      "total_reviews": 48244
+    },
+    "sourceUrl": "https://store.steampowered.com/app/273350/"
+  },
+  {
+    "appid": 550,
+    "name": "Left 4 Dead 2",
+    "description": "Set in the zombie apocalypse, Left 4 Dead 2 is a co-operative action horror FPS takes you and your friends through the cities, swamps and cemeteries of the Deep South, from Savannah to New Orleans across five expansive campaigns.",
+    "release": {
+      "coming_soon": false,
+      "date": "Nov 16, 2009"
+    },
+    "metacritic": {
+      "score": 89,
+      "url": "https://www.metacritic.com/game/pc/left-4-dead-2?ftag=MCD-06-10aaa1f"
+    },
+    "reviews": {
+      "num_reviews": 10,
+      "review_score": 9,
+      "review_score_desc": "Overwhelmingly Positive",
+      "total_positive": 1034317,
+      "total_negative": 26297,
+      "total_reviews": 1060614
+    },
+    "sourceUrl": "https://store.steampowered.com/app/550/"
+  },
+  {
+    "appid": 50990,
+    "name": "Mystery Case Files: Ravenhearst®",
+    "description": "Rumors surrounding the history of stately Ravenhearst Manor have circulated for decades. The recently acquired diary of Emma Ravenhearst may hold the key to unraveling the tale behind this unsettling place, yet the pages are missing.",
+    "release": {
+      "coming_soon": false,
+      "date": "Apr 21, 2010"
+    },
+    "reviews": {
+      "num_reviews": 10,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 168,
+      "total_negative": 19,
+      "total_reviews": 187
+    },
+    "sourceUrl": "https://store.steampowered.com/app/50990/"
+  },
+  {
+    "appid": 367500,
+    "name": "Dragon's Dogma: Dark Arisen",
+    "description": "Set in a huge open world, Dragon’s Dogma: Dark Arisen presents a rewarding action combat experience.",
+    "release": {
+      "coming_soon": false,
+      "date": "Jan 15, 2016"
+    },
+    "metacritic": {
+      "score": 81,
+      "url": "https://www.metacritic.com/game/pc/dragons-dogma-dark-arisen?ftag=MCD-06-10aaa1f"
+    },
+    "reviews": {
+      "num_reviews": 10,
+      "review_score": 8,
+      "review_score_desc": "Very Positive",
+      "total_positive": 43483,
+      "total_negative": 5696,
+      "total_reviews": 49179
+    },
+    "sourceUrl": "https://store.steampowered.com/app/367500/"
+  },
+  {
+    "appid": 1243830,
+    "name": "Overcooked! All You Can Eat",
+    "description": "Experience all the Onion Kingdom has to offer, Overcooked! 1 &amp; 2 infused with 4k goodness running at a smooth 60 FPS. Fully remastered and cooked up from scratch. Enjoy 200+ levels (22 new) and 80+ chefs (3 new), this is the ultimate Overcooked! experience.",
+    "release": {
+      "coming_soon": false,
+      "date": "Mar 23, 2021"
+    },
+    "reviews": {
+      "num_reviews": 10,
+      "review_score": 6,
+      "review_score_desc": "Mostly Positive",
+      "total_positive": 6068,
+      "total_negative": 2238,
+      "total_reviews": 8306
+    },
+    "sourceUrl": "https://store.steampowered.com/app/1243830/"
+  },
+  {
+    "appid": 282140,
+    "name": "SOMA",
+    "description": "From the creators of Amnesia: The Dark Descent comes SOMA, a sci-fi horror game set below the waves of the Atlantic ocean. Struggle to survive a hostile world that will make you question your very existence.",
+    "release": {
+      "coming_soon": false,
+      "date": "Sep 21, 2015"
+    },
+    "metacritic": {
+      "score": 84,
+      "url": "https://www.metacritic.com/game/pc/soma?ftag=MCD-06-10aaa1f"
+    },
+    "reviews": {
+      "num_reviews": 10,
+      "review_score": 9,
+      "review_score_desc": "Overwhelmingly Positive",
+      "total_positive": 50912,
+      "total_negative": 2215,
+      "total_reviews": 53127
+    },
+    "sourceUrl": "https://store.steampowered.com/app/282140/"
+  }
+]

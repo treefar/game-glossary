@@ -396,11 +396,15 @@
         "why": "確立競技場射擊死鬥與資源控制設計語言的代表作"
       },
       {
-        "title": "虛幻競技場",
-        "en": "Unreal Tournament",
-        "appid": null,
+        "title": "虛幻競技場：年度遊戲版",
+        "en": "Unreal Tournament: Game of the Year Edition",
+        "appid": 13240,
         "year": 1999,
-        "why": "與雷神之鎚系列並列的競技場射擊經典"
+        "why": "與雷神之鎚系列並列的競技場射擊經典",
+        "sourceUrl": "https://store.steampowered.com/app/13240/",
+        "accessed": "2026-10-02",
+        "selectionNote": "玩法代表性；Steam 全語言累積好評 96.7%（4,466 則，2026-10-02）。",
+        "reviewSource": "https://store.steampowered.com/appreviews/13240?json=1&language=all&purchase_type=all&filter=summary"
       }
     ],
     "steamTags": [
@@ -434,6 +438,12 @@
         "url": "https://store.steampowered.com/tags/en/Arena%20Shooter/",
         "accessed": "2026-09-17",
         "note": "標籤存在確認"
+      },
+      {
+        "title": "Steam 官方：Unreal Tournament: Game of the Year Edition",
+        "url": "https://store.steampowered.com/app/13240/",
+        "accessed": "2026-10-02",
+        "note": "範例版本、圖片與遊戲介紹"
       }
     ],
     "status": "verified"
@@ -750,7 +760,7 @@
       {
         "title": "暗黑",
         "en": "DUSK",
-        "appid": null,
+        "appid": 519860,
         "year": 2018,
         "why": "帶動「Boomer Shooter」一詞誕生的關鍵作品"
       }
@@ -1389,7 +1399,11 @@
         "en": "League of Legends",
         "appid": null,
         "year": 2009,
-        "why": "全球玩家基數最大的 MOBA，未在 Steam 上架"
+        "why": "全球玩家基數最大的 MOBA，未在 Steam 上架",
+        "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ffe8f50201af51a0956875d2aeeb9e662eb0b228-3840x2160.png?accountingTag=LoL&fit=fill&fm=png&q=80&w=2530",
+        "sourceUrl": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "imageKind": "官方教學示意圖",
+        "accessed": "2026-10-02"
       }
     ],
     "steamTags": [
@@ -1422,6 +1436,12 @@
         "url": "https://store.steampowered.com/tags/en/MOBA/",
         "accessed": "2026-09-17",
         "note": "標籤存在確認"
+      },
+      {
+        "title": "官方遊戲介紹：League of Legends",
+        "url": "https://www.leagueoflegends.com/en-us/how-to-play/",
+        "accessed": "2026-10-02",
+        "note": "範例圖片來源（官方教學示意圖）"
       }
     ],
     "status": "verified"

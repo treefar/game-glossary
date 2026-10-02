@@ -1,0 +1,116 @@
+[
+  {
+    "original": "The Seven Deadly Sins: Grand Cross",
+    "imageUrl": null,
+    "sourceUrl": "https://7dsgc.netmarble.com/en/pcclient/n/n/nHvala",
+    "reasoning": "Netmarble 官方產品頁確認為手機上的 cinematic anime game；頁面工具解析無正文與圖片連結，主線可直接抽官方 HTML。亦有官方公告來源 https://forum.netmarble.com/7ds_en/view/1/296043 。",
+    "status": 200,
+    "meta": [
+      "<meta name=\"og:image\" property=\"og:image\" content=\"https://sgimage.netmarble.com/images/netmarble/nanagb/20250617/wjue1750129105793.jpg\">",
+      "<meta name=\"twitter:image\" content=\"https://sgimage.netmarble.com/images/netmarble/nanagb/20250617/wjue1750129105793.jpg\">"
+    ],
+    "images": []
+  },
+  {
+    "original": "Devotion",
+    "imageUrl": null,
+    "sourceUrl": "https://redcandlegames.com/presskit/sheet.php?p=devotion",
+    "reasoning": "Red Candle 官方 press kit 明確提供 21MB screenshots & photos ZIP，並描述第一人稱氛圍恐怖與故事探索；頁面未公開單張圖片直連，供主線從 press kit 取圖。官方遊戲頁 https://shop.redcandlegames.com/app/devotion 另有年齡確認。",
+    "status": 200,
+    "meta": [],
+    "images": [
+      "<img src=\"devotion/images/header.png\" class=\"header\">",
+      "<img src=\"devotion/images/Unbra.png\" alt=\"Unbra.png\" />",
+      "<img src=\"devotion/images/Home3.png\" alt=\"Home3.png\" />",
+      "<img src=\"devotion/images/FamilyPhoto.png\" alt=\"FamilyPhoto.png\" />",
+      "<img src=\"devotion/images/ScaryPlace.png\" alt=\"ScaryPlace.png\" />",
+      "<img src=\"devotion/images/hallway.png\" alt=\"hallway.png\" />",
+      "<img src=\"devotion/images/Birthday.png\" alt=\"Birthday.png\" />",
+      "<img src=\"devotion/images/Home2.png\" alt=\"Home2.png\" />",
+      "<img src=\"devotion/images/hospital.png\" alt=\"hospital.png\" />"
+    ]
+  },
+  {
+    "original": "Langrisser Mobile",
+    "imageUrl": null,
+    "sourceUrl": "https://play.google.com/store/apps/details?id=com.zlongame.un.mhmnz",
+    "reasoning": "Google Play 官方上架頁開發者標示 ZlongGames，並列官方網站 langrisser.zlongame.com；尚未取得可核實單張商店圖直連。",
+    "status": 200,
+    "meta": [
+      "<meta property=\"og:image\" content=\"https://play-lh.googleusercontent.com/2CK8Z7JT_Yb9EiFwgzoG70qkNMR4-L2Ii9W6Rzcx7MGVYnhoC1aXRWS0WvRSOoUZBTcqC5_LFdEktx4KYugc=s0-br30\">",
+      "<meta name=\"twitter:image\" content=\"https://play-lh.googleusercontent.com/2CK8Z7JT_Yb9EiFwgzoG70qkNMR4-L2Ii9W6Rzcx7MGVYnhoC1aXRWS0WvRSOoUZBTcqC5_LFdEktx4KYugc=s0-br30=w600-h300-pc0xffffff-pd\">"
+    ],
+    "images": [
+      "<img src=\"https://play-lh.googleusercontent.com/2CK8Z7JT_Yb9EiFwgzoG70qkNMR4-L2Ii9W6Rzcx7MGVYnhoC1aXRWS0WvRSOoUZBTcqC5_LFdEktx4KYugc=w240-h480\" srcset=\"https://play-lh.googleusercontent.com/2CK8Z7JT_Yb9EiFwgzoG70qkNMR4-L2Ii9W6Rzcx7MGVYnhoC1aXRWS0WvRSOoUZBTcqC5_LFdEktx4KYugc=w480-h960 2x\" class=\"T75of Q3MhI NXRaDe\" aria-hidden=\"true\" />",
+      "<img src=\"https://play-lh.googleusercontent.com/YrkR-GP7OKghBTATCoO_jJrchSVrh-NSUBb5DnbRZC1DbLK_cgV9FC2e_iI4GzLsKXuZjuFZajnGCiA8qA=w48-h16\" srcset=\"https://play-lh.googleusercontent.com/YrkR-GP7OKghBTATCoO_jJrchSVrh-NSUBb5DnbRZC1DbLK_cgV9FC2e_iI4GzLsKXuZjuFZajnGCiA8qA=w96-h32 2x\" class=\"T75of xGa6dd\" alt=\"Content rating\" itemprop=\"image\" />",
+      "<img src=\"https://play-lh.googleusercontent.com/YrkR-GP7OKghBTATCoO_jJrchSVrh-NSUBb5DnbRZC1DbLK_cgV9FC2e_iI4GzLsKXuZjuFZajnGCiA8qA=s38\" srcset=\"https://play-lh.googleusercontent.com/YrkR-GP7OKghBTATCoO_jJrchSVrh-NSUBb5DnbRZC1DbLK_cgV9FC2e_iI4GzLsKXuZjuFZajnGCiA8qA=s76 2x\" class=\"T75of jCoNsd\" alt=\"Content rating\" itemprop=\"image\" />",
+      "<img src=\"https://play-lh.googleusercontent.com/Y2OX5Y8C_S84YJY6wrQ4R0pnh7hBJXEKU4sG_P3glM72e-jjBfE-g2ouxTPX1mdEmRsJhwY427Y8dvrM8v-H2Q=w526-h296\" srcset=\"https://play-lh.googleusercontent.com/Y2OX5Y8C_S84YJY6wrQ4R0pnh7hBJXEKU4sG_P3glM72e-jjBfE-g2ouxTPX1mdEmRsJhwY427Y8dvrM8v-H2Q=w1052-h592 2x\" class=\"T75of B5GQxf\" alt=\"Screenshot image\" itemprop=\"image\" data-screenshot-index=\"0\" jsaction=\"click:IEAdff\" role=\"button\" tabindex=\"0\" load=\"lazy\" />",
+      "<img src=\"https://play-lh.googleusercontent.com/ucEEjVNvsuo3CfaIfVWCoBZSiS7h5Exze-a8glTgcAUDSri_Waq0LV1FoMt9qm_r4e2TQBHDVRpd-Ao4drjkkTQ=w526-h296\" srcset=\"https://play-lh.googleusercontent.com/ucEEjVNvsuo3CfaIfVWCoBZSiS7h5Exze-a8glTgcAUDSri_Waq0LV1FoMt9qm_r4e2TQBHDVRpd-Ao4drjkkTQ=w1052-h592 2x\" class=\"T75of B5GQxf\" alt=\"Screenshot image\" itemprop=\"image\" data-screenshot-index=\"1\" jsaction=\"click:IEAdff\" role=\"button\" tabindex=\"0\" load=\"lazy\" />",
+      "<img src=\"https://play-lh.googleusercontent.com/DUY3KUByA0xDmR8fNxoCHKmT04wYaR4Sh56npSyUKwYXb4rv3lMQb4xn27c3-wC8DzSaY7xv-lYjyIhAbzluAyM=w526-h296\" srcset=\"https://play-lh.googleusercontent.com/DUY3KUByA0xDmR8fNxoCHKmT04wYaR4Sh56npSyUKwYXb4rv3lMQb4xn27c3-wC8DzSaY7xv-lYjyIhAbzluAyM=w1052-h592 2x\" class=\"T75of B5GQxf\" alt=\"Screenshot image\" itemprop=\"image\" data-screenshot-index=\"2\" jsaction=\"click:IEAdff\" role=\"button\" tabindex=\"0\" load=\"lazy\" />",
+      "<img src=\"https://play-lh.googleusercontent.com/filcYUqpIi2SGVdi_haIaB-9r1HzwmIBHy8ixnsLY_HystsVHdg9uOMHgoFxy0f4OQA0mC90n3Xjz66JlbU-NVM=w526-h296\" srcset=\"https://play-lh.googleusercontent.com/filcYUqpIi2SGVdi_haIaB-9r1HzwmIBHy8ixnsLY_HystsVHdg9uOMHgoFxy0f4OQA0mC90n3Xjz66JlbU-NVM=w1052-h592 2x\" class=\"T75of B5GQxf\" alt=\"Screenshot image\" itemprop=\"image\" data-screenshot-index=\"3\" jsaction=\"click:IEAdff\" role=\"button\" tabindex=\"0\" load=\"lazy\" />",
+      "<img src=\"https://play-lh.googleusercontent.com/QfZ0rvGYOlgUKBPMhy0fQKJBuDYZ3L4CPmk0NyHgYSjJcS3Ed10PRX_ixRTOlbbtoXkya_tnat-UEPc8g_SmEA=w526-h296\" srcset=\"https://play-lh.googleusercontent.com/QfZ0rvGYOlgUKBPMhy0fQKJBuDYZ3L4CPmk0NyHgYSjJcS3Ed10PRX_ixRTOlbbtoXkya_tnat-UEPc8g_SmEA=w1052-h592 2x\" class=\"T75of B5GQxf\" alt=\"Screenshot image\" itemprop=\"image\" data-screenshot-index=\"4\" jsaction=\"click:IEAdff\" role=\"button\" tabindex=\"0\" load=\"lazy\" />",
+      "<img src=\"https://play-lh.googleusercontent.com/l7DHP9j2DzQ6uH87EGOa-1cebsYOlBzJmH869BVEeQXOZ4YcqnB5PFgvFOH3CHapIxkzAung9Ere3p-E8hWQI4o=w526-h296\" srcset=\"https://play-lh.googleusercontent.com/l7DHP9j2DzQ6uH87EGOa-1cebsYOlBzJmH869BVEeQXOZ4YcqnB5PFgvFOH3CHapIxkzAung9Ere3p-E8hWQI4o=w1052-h592 2x\" class=\"T75of B5GQxf\" alt=\"Screenshot image\" itemprop=\"image\" data-screenshot-index=\"5\" jsaction=\"click:IEAdff\" role=\"button\" tabindex=\"0\" load=\"lazy\" />",
+      "<img src=\"https://play-lh.googleusercontent.com/-0m9P6FvshaZ_Lddc66eUNKLeYXW167ImUzcRHAFtj6ZfKcrg-PKiXushxHVxHTA7bs5zJgfKIwricIPTvj8uw=w526-h296\" srcset=\"https://play-lh.googleusercontent.com/-0m9P6FvshaZ_Lddc66eUNKLeYXW167ImUzcRHAFtj6ZfKcrg-PKiXushxHVxHTA7bs5zJgfKIwricIPTvj8uw=w1052-h592 2x\" class=\"T75of B5GQxf\" alt=\"Screenshot image\" itemprop=\"image\" data-screenshot-index=\"6\" jsaction=\"click:IEAdff\" role=\"button\" tabindex=\"0\" load=\"lazy\" />",
+      "<img src=\"https://play-lh.googleusercontent.com/xz7O16l-lcEU7KvjamedRZGRKMWRLKsYJzZQw2qT_4gT_6zHejwt-3NTbVOCZLp7umBshvvksE3GRCk7jHCgXas=w526-h296\" srcset=\"https://play-lh.googleusercontent.com/xz7O16l-lcEU7KvjamedRZGRKMWRLKsYJzZQw2qT_4gT_6zHejwt-3NTbVOCZLp7umBshvvksE3GRCk7jHCgXas=w1052-h592 2x\" class=\"T75of B5GQxf\" alt=\"Screenshot image\" itemprop=\"image\" data-screenshot-index=\"7\" jsaction=\"click:IEAdff\" role=\"button\" tabindex=\"0\" load=\"lazy\" />",
+      "<img src=\"https://play-lh.googleusercontent.com/NbqxLJ_4h_9eCOyG89BSOmIrZIQl-T4BoHowYNAD8N8ZKYowBmvf9jcVCrmY8VTmHizsfLl0mDNT5VkLOrrDbQ=w526-h296\" srcset=\"https://play-lh.googleusercontent.com/NbqxLJ_4h_9eCOyG89BSOmIrZIQl-T4BoHowYNAD8N8ZKYowBmvf9jcVCrmY8VTmHizsfLl0mDNT5VkLOrrDbQ=w1052-h592 2x\" class=\"T75of B5GQxf\" alt=\"Screenshot image\" itemprop=\"image\" data-screenshot-index=\"8\" jsaction=\"click:IEAdff\" role=\"button\" tabindex=\"0\" load=\"lazy\" />",
+      "<img src=\"https://play-lh.googleusercontent.com/9AqaL1H1mv7YRS_sdtLH5l_KrE1JkJEedBhW81VL7jTvre7KIchszucoi9vDmTZdioLTYLiRobaRiNxoIJAcXA=w526-h296\" srcset=\"https://play-lh.googleusercontent.com/9AqaL1H1mv7YRS_sdtLH5l_KrE1JkJEedBhW81VL7jTvre7KIchszucoi9vDmTZdioLTYLiRobaRiNxoIJAcXA=w1052-h592 2x\" class=\"T75of B5GQxf\" alt=\"Screenshot image\" itemprop=\"image\" data-screenshot-index=\"9\" jsaction=\"click:IEAdff\" role=\"button\" tabindex=\"0\" load=\"lazy\" />",
+      "<img src=\"https://play-lh.googleusercontent.com/2LgmT-fzY5_TJ3R0aanKA6G9qE4qs5UmRoZO5-HTyvoq_8m6tibE9G97nUcYNoBRJUVrLAbWTzOLAAj8vDFn=w526-h296\" srcset=\"https://play-lh.googleusercontent.com/2LgmT-fzY5_TJ3R0aanKA6G9qE4qs5UmRoZO5-HTyvoq_8m6tibE9G97nUcYNoBRJUVrLAbWTzOLAAj8vDFn=w1052-h592 2x\" class=\"T75of B5GQxf\" alt=\"Screenshot image\" itemprop=\"image\" data-screenshot-index=\"10\" jsaction=\"click:IEAdff\" role=\"button\" tabindex=\"0\" load=\"lazy\" />",
+      "<img src=\"https://play-lh.googleusercontent.com/W7SCriL0WeztarE3G1j8DH9YN0OhIBBDzRywiqtpcKrnROo1wHT_ySO7OH0dmNbMN6_mL00WC9D0DMmrcM5VWg=w526-h296\" srcset=\"https://play-lh.googleusercontent.com/W7SCriL0WeztarE3G1j8DH9YN0OhIBBDzRywiqtpcKrnROo1wHT_ySO7OH0dmNbMN6_mL00WC9D0DMmrcM5VWg=w1052-h592 2x\" class=\"T75of B5GQxf\" alt=\"Screenshot image\" itemprop=\"image\" data-screenshot-index=\"11\" jsaction=\"click:IEAdff\" role=\"button\" tabindex=\"0\" load=\"lazy\" />",
+      "<img src=\"https://play-lh.googleusercontent.com/uKLF2ggPUaMlr8UhvgZGvTxrXgzEcVXDGcXORGLpbpdhF4ktLAyU-CkIPC72OFknzu589xaf7TWkCk90T_jshQ=w526-h296\" srcset=\"https://play-lh.googleusercontent.com/uKLF2ggPUaMlr8UhvgZGvTxrXgzEcVXDGcXORGLpbpdhF4ktLAyU-CkIPC72OFknzu589xaf7TWkCk90T_jshQ=w1052-h592 2x\" class=\"T75of B5GQxf\" alt=\"Screenshot image\" itemprop=\"image\" data-screenshot-index=\"12\" jsaction=\"click:IEAdff\" role=\"button\" tabindex=\"0\" load=\"lazy\" />",
+      "<img src=\"https://play-lh.googleusercontent.com/4-U_sWBH2O87ClqW2I46EPIMOpqEWSQdKl81d9hXlh25ypX98KHv13xJgdqaMlqZvRuSrfYOQa9rmXgN1ko1Bw=w526-h296\" srcset=\"https://play-lh.googleusercontent.com/4-U_sWBH2O87ClqW2I46EPIMOpqEWSQdKl81d9hXlh25ypX98KHv13xJgdqaMlqZvRuSrfYOQa9rmXgN1ko1Bw=w1052-h592 2x\" class=\"T75of B5GQxf\" alt=\"Screenshot image\" itemprop=\"image\" data-screenshot-index=\"13\" jsaction=\"click:IEAdff\" role=\"button\" tabindex=\"0\" load=\"lazy\" />",
+      "<img src=\"https://play-lh.googleusercontent.com/_tL5x3PO2fUC6ThTDsaRZ9VZ_Xjx78vPSK3UsY7pKWnqx7E1JOj0o-lIe3A_1fGGQgOHXP-JVJFYqdvzqk6giA=w526-h296\" srcset=\"https://play-lh.googleusercontent.com/_tL5x3PO2fUC6ThTDsaRZ9VZ_Xjx78vPSK3UsY7pKWnqx7E1JOj0o-lIe3A_1fGGQgOHXP-JVJFYqdvzqk6giA=w1052-h592 2x\" class=\"T75of B5GQxf\" alt=\"Screenshot image\" itemprop=\"image\" data-screenshot-index=\"14\" jsaction=\"click:IEAdff\" role=\"button\" tabindex=\"0\" load=\"lazy\" />",
+      "<img src=\"https://play-lh.googleusercontent.com/zWR_AUpfLAz-Bv2v7wkLkWVd2xmt1xhhC6E9qvQs8elCDtTmWAo24RGEt_1ufwgINbdhLk-HscfJPHeyGK5PJ6Q=w526-h296\" srcset=\"https://play-lh.googleusercontent.com/zWR_AUpfLAz-Bv2v7wkLkWVd2xmt1xhhC6E9qvQs8elCDtTmWAo24RGEt_1ufwgINbdhLk-HscfJPHeyGK5PJ6Q=w1052-h592 2x\" class=\"T75of B5GQxf\" alt=\"Screenshot image\" itemprop=\"image\" data-screenshot-index=\"15\" jsaction=\"click:IEAdff\" role=\"button\" tabindex=\"0\" load=\"lazy\" />",
+      "<img src=\"https://play-lh.googleusercontent.com/V6_P3hQg7Tn813C8t6raH1XQw61TwNw0AGQNJ5OjOcgVhB5MQ1WeFLRKeiWUbsVgyTnhirVj8oJJOShQTRB6=w526-h296\" srcset=\"https://play-lh.googleusercontent.com/V6_P3hQg7Tn813C8t6raH1XQw61TwNw0AGQNJ5OjOcgVhB5MQ1WeFLRKeiWUbsVgyTnhirVj8oJJOShQTRB6=w1052-h592 2x\" class=\"T75of B5GQxf\" alt=\"Screenshot image\" itemprop=\"image\" data-screenshot-index=\"16\" jsaction=\"click:IEAdff\" role=\"button\" tabindex=\"0\" load=\"lazy\" />",
+      "<img src=\"https://play-lh.googleusercontent.com/W7SCriL0WeztarE3G1j8DH9YN0OhIBBDzRywiqtpcKrnROo1wHT_ySO7OH0dmNbMN6_mL00WC9D0DMmrcM5VWg=w526-h296\" srcset=\"https://play-lh.googleusercontent.com/W7SCriL0WeztarE3G1j8DH9YN0OhIBBDzRywiqtpcKrnROo1wHT_ySO7OH0dmNbMN6_mL00WC9D0DMmrcM5VWg=w1052-h592 2x\" class=\"T75of B5GQxf\" alt=\"Screenshot image\" itemprop=\"image\" data-screenshot-index=\"17\" jsaction=\"click:IEAdff\" role=\"button\" tabindex=\"0\" load=\"lazy\" />",
+      "<img src=\"https://play-lh.googleusercontent.com/YrkR-GP7OKghBTATCoO_jJrchSVrh-NSUBb5DnbRZC1DbLK_cgV9FC2e_iI4GzLsKXuZjuFZajnGCiA8qA=s38\" srcset=\"https://play-lh.googleusercontent.com/YrkR-GP7OKghBTATCoO_jJrchSVrh-NSUBb5DnbRZC1DbLK_cgV9FC2e_iI4GzLsKXuZjuFZajnGCiA8qA=s76 2x\" class=\"T75of jCoNsd\" alt=\"Content rating\" itemprop=\"image\" />",
+      "<img src=\"https://play-lh.googleusercontent.com/nnXDOgATBuvv8dNsJ0-xAuK0d1otuvqBwAKV-lSp6foFinXSQ1D6HWWN7ZvnnVc258Rl_YMUxtfL5CNq3a947PE=s64\" srcset=\"https://play-lh.googleusercontent.com/nnXDOgATBuvv8dNsJ0-xAuK0d1otuvqBwAKV-lSp6foFinXSQ1D6HWWN7ZvnnVc258Rl_YMUxtfL5CNq3a947PE=s128 2x\" class=\"T75of stzEZd\" aria-hidden=\"true\" alt=\"Thumbnail image\" loading=\"lazy\" />",
+      "<img src=\"https://play-lh.googleusercontent.com/AQ1dXLkqWx1dBTdAP0KymWwBJ4JNxSQZO7u0zcXF41E8_wTs1jEIcXnZUdZI1vqt9bFu5HrLLFojuyCydflgsg=s64\" srcset=\"https://play-lh.googleusercontent.com/AQ1dXLkqWx1dBTdAP0KymWwBJ4JNxSQZO7u0zcXF41E8_wTs1jEIcXnZUdZI1vqt9bFu5HrLLFojuyCydflgsg=s128 2x\" class=\"T75of stzEZd\" aria-hidden=\"true\" alt=\"Thumbnail image\" loading=\"lazy\" />",
+      "<img src=\"https://play-lh.googleusercontent.com/c22tkIrVAbx9dk6Q_NIo8QEHvCYhl8YX2Gll_2yXBITkU_lNdL19NRnhPz_FKVcOSyArh7oV1fhbCJmv_frh=s64\" srcset=\"https://play-lh.googleusercontent.com/c22tkIrVAbx9dk6Q_NIo8QEHvCYhl8YX2Gll_2yXBITkU_lNdL19NRnhPz_FKVcOSyArh7oV1fhbCJmv_frh=s128 2x\" class=\"T75of stzEZd\" aria-hidden=\"true\" alt=\"Thumbnail image\" loading=\"lazy\" />",
+      "<img src=\"https://play-lh.googleusercontent.com/rZ0kLPx7Y_zRavJ1TImLv3oj0HYRrye8K9wJOuegTIrfxaS2qyGu9tWJcXphO0ELMfj3BgOSG_BPKKVST6zDPg=s64\" srcset=\"https://play-lh.googleusercontent.com/rZ0kLPx7Y_zRavJ1TImLv3oj0HYRrye8K9wJOuegTIrfxaS2qyGu9tWJcXphO0ELMfj3BgOSG_BPKKVST6zDPg=s128 2x\" class=\"T75of stzEZd\" aria-hidden=\"true\" alt=\"Thumbnail image\" loading=\"lazy\" />"
+    ]
+  },
+  {
+    "original": "Wii Backward Compatibility with GameCube",
+    "imageUrl": null,
+    "sourceUrl": "https://www.nintendo.com/en-gb/Support/Legacy-system/Nintendo-GameCube-software-and-accessories-242193.html",
+    "reasoning": "Nintendo 官方支援頁證實 2011 年後部分 Wii 不相容，並明列相容判斷圖 Wii_gamecube_compatibility.png；它是包裝型號辨識示意圖，不是遊戲畫面。頁面目前 web open 回 404，但搜尋索引可讀正文；建議主線抽 HTML 取實際圖檔。",
+    "status": 404,
+    "meta": [
+      "<meta property=\"og:image\" content=\"\nhttps://www.nintendo.com/eu/media/images/10_share_images/others_3/404_error_pages/H2x1_404_Do_a_barrel_roll_page_enGB_image1280w.jpg\">",
+      "<meta itemprop=\"image\" property=\"og:image:secure_url\" content=\"\nhttps://www.nintendo.com/eu/media/images/10_share_images/others_3/404_error_pages/H2x1_404_Do_a_barrel_roll_page_enGB_image1280w.jpg\">",
+      "<meta name=\"twitter:image\" content=\"https://www.nintendo.com/eu/media/images/10_share_images/others_3/404_error_pages/H2x1_404_Do_a_barrel_roll_page_enGB.jpg\">"
+    ],
+    "images": [
+      "<img class=\"img-responsive\" :src=\"gameData.image_url_sq_s\" v-bind:data-xs=\"gameData.image_url_sq_s\" v-bind:data-sm=\"gameData.image_url_sq_s\" :alt=\"gameData.title\" >",
+      "<img class=\"img-responsive\" :src=\"gameData.image_url_sq_s\" :alt=\"gameData.title\" >",
+      "<img class=\"img-responsive\" :src=\"item.image_url_sq_s || item.image_url\" v-bind:data-xs=\"item.image_url_sq_s || item.image_url\" v-bind:data-sm=\"item.image_url_sq_s || item.image_url\" :alt=\"item.title\" >",
+      "<img class=\"img-responsive\" :src=\"item.image_url_sq_s || item.image_url\" :alt=\"item.title\" >",
+      "<img class=\"img-responsive\" :src=\"item.image_url_h16x9_s || item.image_url_h2x1_s || item.image_url\" v-bind:data-xs=\"item.image_url_h16x9_s || item.image_url_h2x1_s || item.image_url\" v-bind:data-sm=\"item.image_url_h16x9_s || item.image_url_h2x1_s || item.image_url\" :alt=\"item.title\" >",
+      "<img class=\"img-responsive\" :src=\"item.image_url_h16x9_s || item.image_url_h2x1_s || item.image_url\" :alt=\"item.title\" >",
+      "<img v-if=\"imgSrc\" :src=\"imgSrc\" class=\"img-responsive visible-lg\" :alt=\"imgAlt\">",
+      "<img v-if=\"!isImg3Empty\" src=\"\" v-n-img-lazy-load :data-url=\"img3\" class=\"rankings-item__position-category__img\" :title=\"category\" />",
+      "<img src=\"\" v-n-img-lazy-load :data-url=\"img1\" class=\"rankings-item__img1\"/>",
+      "<img src=\"\" v-n-img-lazy-load :data-url=\"img2\" class=\"rankings-item__img2\"/>",
+      "<img class=\"img-responsive\" v-bind:src=\"pageImage.src\" v-bind:alt=\"pageTitle\" />",
+      "<img data-res=\"unchanged-image1600w\" class=\"img-responsive\" src=\"https://www.nintendo.com/eu/media/images/01_website_elements/other_elements/grey.gif\" data-xs=\"https://www.nintendo.com/eu/media/images/10_share_images/others_3/404_error_pages/H2x1_404_Do_a_barrel_roll_page_enGB_image1600w.jpg\" alt=\"H2x1_404_Do_a_barrel_roll_page_enGB.jpg\" />",
+      "<img class=\"img-responsive\" src=\"https://www.nintendo.com/eu/media/images/01_website_elements/other_elements/grey.gif\" data-xs=\"https://www.nintendo.com/eu/media/images/news_12/2026/september_45/nintendo_eshop_highlights___17_09_2026/1x1_NSwitch2_WeeklyDownloadNews_week38_UK_en_bannerTM_MD.jpg\" data-sm=\"https://www.nintendo.com/eu/media/images/news_12/2026/september_45/nintendo_eshop_highlights___17_09_2026/1x1_NSwitch2_WeeklyDownloadNews_week38_UK_en_bannerTM_MD.jpg\" alt=\"Nintendo eShop Highlights – 17/09/2026\" title=\"Nintendo eShop Highlights – 17/09/2026\">",
+      "<img class=\"img-responsive\" src=\"https://www.nintendo.com/eu/media/images/news_12/2026/september_45/nintendo_eshop_highlights___17_09_2026/1x1_NSwitch2_WeeklyDownloadNews_week38_UK_en_bannerTM_MD.jpg\" alt=\"Nintendo eShop Highlights – 17/09/2026\" >",
+      "<img class=\"img-responsive\" src=\"https://www.nintendo.com/eu/media/images/01_website_elements/other_elements/grey.gif\" data-xs=\"https://www.nintendo.com/eu/media/images/news_12/2026/september_45/fireemblemfortunesweave_tipsandtricks/1x1_NSwitch2_FireEmblemFE_TipsArticle_UK_bannerTM_MD.jpg\" data-sm=\"https://www.nintendo.com/eu/media/images/news_12/2026/september_45/fireemblemfortunesweave_tipsandtricks/1x1_NSwitch2_FireEmblemFE_TipsArticle_UK_bannerTM_MD.jpg\" alt=\"Fire Emblem: Fortune’s Weave – Seven tips to save the world\" title=\"Fire Emblem: Fortune’s Weave – Seven tips to save the world\">",
+      "<img class=\"img-responsive\" src=\"https://www.nintendo.com/eu/media/images/news_12/2026/september_45/fireemblemfortunesweave_tipsandtricks/1x1_NSwitch2_FireEmblemFE_TipsArticle_UK_bannerTM_MD.jpg\" alt=\"Fire Emblem: Fortune’s Weave – Seven tips to save the world\" >",
+      "<img class=\"img-responsive\" src=\"https://www.nintendo.com/eu/media/images/01_website_elements/other_elements/grey.gif\" data-xs=\"https://www.nintendo.com/eu/media/images/news_12/2026/september_45/nsns2hardwarebundles/1x1_NSwitch2_NSwitch2Bundles_News_bannerTM_MD.jpg\" data-sm=\"https://www.nintendo.com/eu/media/images/news_12/2026/september_45/nsns2hardwarebundles/1x1_NSwitch2_NSwitch2Bundles_News_bannerTM_MD.jpg\" alt=\"Nintendo Switch 2 bundles available for the holidays!\" title=\"Nintendo Switch 2 bundles available for the holidays!\">",
+      "<img class=\"img-responsive\" src=\"https://www.nintendo.com/eu/media/images/news_12/2026/september_45/nsns2hardwarebundles/1x1_NSwitch2_NSwitch2Bundles_News_bannerTM_MD.jpg\" alt=\"Nintendo Switch 2 bundles available for the holidays!\" >",
+      "<img class=\"img-responsive\" src=\"https://www.nintendo.com/eu/media/images/01_website_elements/other_elements/grey.gif\" data-xs=\"https://www.nintendo.com/eu/media/images/news_12/2026/september_45/if_you_could_get_to_it_as_soon_as_reasonably_possible__that_would_be_great__but_no_pressure_at_all_/MC_WildernessBound_1080x1080_bannerTM_MD.png\" data-sm=\"https://www.nintendo.com/eu/media/images/news_12/2026/september_45/if_you_could_get_to_it_as_soon_as_reasonably_possible__that_would_be_great__but_no_pressure_at_all_/MC_WildernessBound_1080x1080_bannerTM_MD.png\" alt=\"Wilderness Bound game drop is now available for Minecraft on Nintendo Switch\" title=\"Wilderness Bound game drop is now available for Minecraft on Nintendo Switch\">",
+      "<img class=\"img-responsive\" src=\"https://www.nintendo.com/eu/media/images/news_12/2026/september_45/if_you_could_get_to_it_as_soon_as_reasonably_possible__that_would_be_great__but_no_pressure_at_all_/MC_WildernessBound_1080x1080_bannerTM_MD.png\" alt=\"Wilderness Bound game drop is now available for Minecraft on Nintendo Switch\" >"
+    ]
+  },
+  {
+    "original": "Devotion (shop)",
+    "sourceUrl": "https://shop.redcandlegames.com/app/devotion",
+    "status": 200,
+    "meta": [],
+    "images": [
+      "<img height=\"1\" width=\"1\" style=\"display:none\" src=\"https://www.facebook.com/tr?id=980187298724164&ev=PageView&noscript=1\"/>",
+      "<img src=\"https://a.storyblok.com/f/140876/400x205/ac4363ea4b/devotion_badge.jpg\" style=\"max-width:80vw\"/>"
+    ]
+  }
+]
