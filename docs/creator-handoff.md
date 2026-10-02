@@ -31,4 +31,4 @@
 - https://treefar.link/courses/project-planning/week05.html ：新增百科投影片與講義入口、範例比較與原型任務；原分支敘事入口保留。
 - node courses/systems/verify.mjs 通過；兩頁各兩個百科入口，投影片／講義一致；新投影片內容無溢出。
 
-百科發布與線上證據於部署完成後補記。此輪不擴充其他詞條的創作者筆記，也不宣稱已重新查核全部既有百科文案。
+百科功能提交 f65cda1 已推 main，Pages built。公開頁 HTTP 200、1,456,123 bytes，與本機 index.html 逐字相同。公開任天堂兩圖實際載入成功；docs/fullsite-media-published.png 留畫面，docs/course-week05-published.png 留教材發布畫面。此輪不擴充其他詞條的創作者筆記，也不宣稱已重新查核全部既有百科文案。
