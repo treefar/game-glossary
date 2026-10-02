@@ -1,0 +1,62 @@
+[
+  {
+    "cards": 2,
+    "id": "platformer",
+    "notes": true,
+    "sources": 6
+  },
+  {
+    "cards": 2,
+    "id": "metroidvania",
+    "notes": true,
+    "sources": 6
+  },
+  {
+    "cards": 2,
+    "id": "roguelike",
+    "notes": true,
+    "sources": 6
+  },
+  {
+    "cards": 2,
+    "id": "roguelite",
+    "notes": true,
+    "sources": 6
+  },
+  {
+    "cards": 2,
+    "id": "soulslike",
+    "notes": true,
+    "sources": 6
+  },
+  {
+    "cards": 2,
+    "id": "turn-based-tactics",
+    "notes": true,
+    "sources": 6
+  },
+  {
+    "cards": 2,
+    "id": "rts",
+    "notes": true,
+    "sources": 6
+  },
+  {
+    "cards": 2,
+    "id": "tower-defense",
+    "notes": true,
+    "sources": 6
+  },
+  {
+    "cards": 2,
+    "id": "sandbox",
+    "notes": true,
+    "sources": 4
+  },
+  {
+    "cards": 2,
+    "id": "branching-narrative",
+    "notes": true,
+    "sources": 6
+  }
+]
