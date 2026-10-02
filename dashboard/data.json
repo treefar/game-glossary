@@ -1,0 +1,260 @@
+{
+  "schema_version": 1,
+  "meta": {
+    "project": "遊戲名詞大百科",
+    "title": "十詞條擴充狀態",
+    "generated": "2026-10-02",
+    "authorities": [
+      {
+        "path": "data/glossary.json",
+        "role": "詞條、代表作與創作重點"
+      }
+    ],
+    "notes": [
+      "工具驗證：npm run verify 8/8；使用者尚未確認呈現。圖片採遠端載入。"
+    ]
+  },
+  "status_levels": [
+    {
+      "key": "built",
+      "label": "資料已建",
+      "tone": "ok",
+      "layer": "data"
+    },
+    {
+      "key": "tested",
+      "label": "測試通過",
+      "tone": "ok",
+      "layer": "tool"
+    },
+    {
+      "key": "pending",
+      "label": "待使用者確認",
+      "tone": "warn",
+      "layer": "user"
+    }
+  ],
+  "summary_cards": [
+    {
+      "id": "built",
+      "label": "擴充詞條",
+      "layer": "data",
+      "rule": {
+        "count": "entries"
+      }
+    },
+    {
+      "id": "games",
+      "label": "範例遊戲",
+      "layer": "data",
+      "rule": {
+        "sum": "entries",
+        "field": "examples"
+      }
+    },
+    {
+      "id": "tested",
+      "label": "結構驗證",
+      "layer": "tool",
+      "rule": {
+        "count": "entries",
+        "where": {
+          "tool": "tested"
+        }
+      }
+    },
+    {
+      "id": "confirmed",
+      "label": "使用者確認",
+      "layer": "user",
+      "rule": {
+        "count": "entries",
+        "where": {
+          "user": "confirmed"
+        }
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "entries",
+      "title": "詞條層級進度",
+      "row_key": "id",
+      "columns": [
+        {
+          "key": "name",
+          "title": "詞條",
+          "type": "text"
+        },
+        {
+          "key": "data",
+          "title": "資料",
+          "type": "tag"
+        },
+        {
+          "key": "tool",
+          "title": "工具",
+          "type": "tag"
+        },
+        {
+          "key": "user",
+          "title": "使用者",
+          "type": "tag"
+        },
+        {
+          "key": "examples",
+          "title": "範例數",
+          "type": "number"
+        }
+      ],
+      "detail_fields": [
+        {
+          "key": "games",
+          "title": "代表作",
+          "type": "list",
+          "item_type": "text"
+        }
+      ],
+      "search_fields": [
+        "name",
+        "games"
+      ],
+      "rows": [
+        {
+          "id": "sandbox",
+          "name": "沙盒遊戲（Sandbox）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 1,
+          "games": [
+            "Minecraft",
+            "Terraria"
+          ]
+        },
+        {
+          "id": "platformer",
+          "name": "平台遊戲（Platformer）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Celeste",
+            "Super Meat Boy"
+          ]
+        },
+        {
+          "id": "turn-based-tactics",
+          "name": "回合制戰術",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "XCOM 2",
+            "Into the Breach"
+          ]
+        },
+        {
+          "id": "rts",
+          "name": "即時戰略（RTS）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Age of Empires II: Definitive Edition",
+            "Age of Empires: Definitive Edition"
+          ]
+        },
+        {
+          "id": "tower-defense",
+          "name": "塔防",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Kingdom Rush",
+            "Bloons TD 6"
+          ]
+        },
+        {
+          "id": "metroidvania",
+          "name": "類銀河戰士惡魔城（Metroidvania）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Hollow Knight",
+            "Ori and the Will of the Wisps"
+          ]
+        },
+        {
+          "id": "soulslike",
+          "name": "類魂遊戲（Soulslike）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "DARK SOULS III",
+            "Lies of P"
+          ]
+        },
+        {
+          "id": "roguelike",
+          "name": "Roguelike（肉鴿）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Caves of Qud",
+            "ADOM (Ancient Domains Of Mystery)"
+          ]
+        },
+        {
+          "id": "roguelite",
+          "name": "Roguelite（輕度肉鴿）",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Hades",
+            "Dead Cells"
+          ]
+        },
+        {
+          "id": "branching-narrative",
+          "name": "分支敘事",
+          "data": "built",
+          "tool": "tested",
+          "user": "pending",
+          "examples": 2,
+          "images": 2,
+          "games": [
+            "Detroit: Become Human",
+            "The Walking Dead"
+          ]
+        }
+      ]
+    }
+  ],
+  "filters": [],
+  "unknowns": [
+    "Minecraft 使用官方頁面連結，未取得可穩定直接嵌入的截圖網址。"
+  ]
+}

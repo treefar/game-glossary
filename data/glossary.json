@@ -1,6 +1,6 @@
 {
  "meta": {
-  "built": "2026-09-17",
+  "built": "2026-10-02",
   "version": 3,
   "catOrder": [
    "basics",
@@ -567,18 +567,20 @@
    ],
    "examples": [
     {
+     "title": "Minecraft",
+     "en": "Minecraft",
+     "appid": null,
+     "why": "以創造或生存模式採集、建造並塑造自己的世界。",
+     "sourceUrl": "https://www.minecraft.net/en-us/about-minecraft",
+     "accessed": "2026-10-02"
+    },
+    {
      "title": "Terraria",
      "en": "Terraria",
      "appid": 105600,
-     "year": 2011,
-     "why": "2D 挖掘建造與探索並重的沙盒代表"
-    },
-    {
-     "title": "Garry's Mod",
-     "en": "Garry's Mod",
-     "appid": 4000,
-     "year": 2006,
-     "why": "以物理引擎與玩家自訂內容聞名的沙盒始祖之一"
+     "why": "挖掘、建造、製作與戰鬥，讓玩家自行安排探索與創作目標。",
+     "sourceUrl": "https://store.steampowered.com/app/105600/",
+     "accessed": "2026-10-02"
     }
    ],
    "steamTags": [
@@ -609,9 +611,28 @@
      "url": "https://store.steampowered.com/tags/en/Sandbox/",
      "accessed": "2026-09-17",
      "note": "標籤存在"
+    },
+    {
+     "title": "Minecraft 官方遊戲介紹與畫面",
+     "url": "https://www.minecraft.net/en-us/about-minecraft",
+     "accessed": "2026-10-02",
+     "note": "範例玩法與畫面來源"
+    },
+    {
+     "title": "Terraria 官方遊戲介紹與畫面",
+     "url": "https://store.steampowered.com/app/105600/",
+     "accessed": "2026-10-02",
+     "note": "範例玩法與畫面來源"
     }
    ],
-   "status": "verified"
+   "status": "verified",
+   "creator": {
+    "design": "自由需由可組合的規則支撐。",
+    "experience": "作品與目標由玩家自己定義。",
+    "implementation": "可破壞與放置資料、配方、存檔與創作分享。",
+    "pitfall": "缺少起點與回饋會讓自由變成無所適從。",
+    "note": "教學整理與設計推論；不是開發者訪談或製作團隊的直接說法。"
+   }
   },
   {
    "id": "open-world",
@@ -1096,18 +1117,20 @@
    ],
    "examples": [
     {
-     "title": "蔚藍",
+     "title": "Celeste",
      "en": "Celeste",
      "appid": 504230,
-     "year": 2018,
-     "why": "以精確跳躍手感與敘事結合聞名的當代代表"
+     "why": "以跳躍、空中衝刺與攀爬穿越精準平台挑戰。",
+     "sourceUrl": "https://store.steampowered.com/app/504230/",
+     "accessed": "2026-10-02"
     },
     {
-     "title": "空洞騎士",
-     "en": "Hollow Knight",
-     "appid": 367520,
-     "year": 2017,
-     "why": "結合平台跳躍與 Metroidvania 探索的代表"
+     "title": "Super Meat Boy",
+     "en": "Super Meat Boy",
+     "appid": 40800,
+     "why": "透過跳牆、避開鋸片與快速重試練習移動控制。",
+     "sourceUrl": "https://store.steampowered.com/app/40800/",
+     "accessed": "2026-10-02"
     }
    ],
    "steamTags": [
@@ -1141,9 +1164,28 @@
      "url": "https://store.steampowered.com/tags/en/Platformer/",
      "accessed": "2026-09-17",
      "note": "標籤存在"
+    },
+    {
+     "title": "Celeste 官方遊戲介紹與畫面",
+     "url": "https://store.steampowered.com/app/504230/",
+     "accessed": "2026-10-02",
+     "note": "範例玩法與畫面來源"
+    },
+    {
+     "title": "Super Meat Boy 官方遊戲介紹與畫面",
+     "url": "https://store.steampowered.com/app/40800/",
+     "accessed": "2026-10-02",
+     "note": "範例玩法與畫面來源"
     }
    ],
-   "status": "verified"
+   "status": "verified",
+   "creator": {
+    "design": "難度曲線應逐步教會玩家。",
+    "experience": "短重生把失敗變成下一次嘗試。",
+    "implementation": "輸入緩衝、土狼時間與可調跳高。",
+    "pitfall": "碰撞箱與畫面輪廓不符會造成不公平。",
+    "note": "教學整理與設計推論；不是開發者訪談或製作團隊的直接說法。"
+   }
   },
   {
    "id": "party-game",
@@ -4614,15 +4656,17 @@
      "title": "XCOM 2",
      "en": "XCOM 2",
      "appid": 268500,
-     "year": 2016,
-     "why": "地形掩體與命中率機制深植人心的戰術經典"
+     "why": "以小隊行動、掩體與戰場位置安排回合戰術。",
+     "sourceUrl": "https://store.steampowered.com/app/268500/",
+     "accessed": "2026-10-02"
     },
     {
-     "title": "XCOM：未知敵人",
-     "en": "XCOM: Enemy Unknown",
-     "appid": 200510,
-     "year": 2012,
-     "why": "重啟系列、確立現代回合制戰術框架的代表作"
+     "title": "Into the Breach",
+     "en": "Into the Breach",
+     "appid": 590380,
+     "why": "先顯示敵方攻擊意圖，再安排機甲反制並保護城市。",
+     "sourceUrl": "https://store.steampowered.com/app/590380/",
+     "accessed": "2026-10-02"
     }
    ],
    "steamTags": [
@@ -4654,9 +4698,28 @@
      "url": "https://store.steampowered.com/tags/en/Turn-Based%20Tactics/",
      "accessed": "2026-09-17",
      "note": "標籤存在確認"
+    },
+    {
+     "title": "XCOM 2 官方遊戲介紹與畫面",
+     "url": "https://store.steampowered.com/app/268500/",
+     "accessed": "2026-10-02",
+     "note": "範例玩法與畫面來源"
+    },
+    {
+     "title": "Into the Breach 官方遊戲介紹與畫面",
+     "url": "https://store.steampowered.com/app/590380/",
+     "accessed": "2026-10-02",
+     "note": "範例玩法與畫面來源"
     }
    ],
-   "status": "verified"
+   "status": "verified",
+   "creator": {
+    "design": "敵方意圖可視化讓策略有根據。",
+    "experience": "在位置與資源風險中尋找解法。",
+    "implementation": "行動點、範圍預覽、狀態效果與回合排序。",
+    "pitfall": "資訊不足或等待動畫過長會拖慢節奏。",
+    "note": "教學整理與設計推論；不是開發者訪談或製作團隊的直接說法。"
+   }
   },
   {
    "id": "rts",
@@ -4677,18 +4740,20 @@
    ],
    "examples": [
     {
-     "title": "世紀帝國 IV：週年紀念版",
-     "en": "Age of Empires IV: Anniversary Edition",
-     "appid": 1466860,
-     "year": 2021,
-     "why": "歷史題材即時戰略長青系列的現代作品"
-    },
-    {
-     "title": "世紀帝國 II：決定版",
+     "title": "Age of Empires II: Definitive Edition",
      "en": "Age of Empires II: Definitive Edition",
      "appid": 813780,
-     "year": 2019,
-     "why": "即時戰略史上最長壽也最具代表性的系列之一"
+     "why": "同時管理文明經濟、基地、軍隊與持續流動的戰場。",
+     "sourceUrl": "https://store.steampowered.com/app/813780/",
+     "accessed": "2026-10-02"
+    },
+    {
+     "title": "Age of Empires: Definitive Edition",
+     "en": "Age of Empires: Definitive Edition",
+     "appid": 1017900,
+     "why": "以資源採集、基地建設與單位指揮形成即時戰略。",
+     "sourceUrl": "https://store.steampowered.com/app/1017900/",
+     "accessed": "2026-10-02"
     }
    ],
    "steamTags": [
@@ -4721,9 +4786,28 @@
      "url": "https://store.steampowered.com/tags/en/RTS/",
      "accessed": "2026-09-17",
      "note": "標籤存在確認"
+    },
+    {
+     "title": "Age of Empires II: Definitive Edition 官方遊戲介紹與畫面",
+     "url": "https://store.steampowered.com/app/813780/",
+     "accessed": "2026-10-02",
+     "note": "範例玩法與畫面來源"
+    },
+    {
+     "title": "Age of Empires: Definitive Edition 官方遊戲介紹與畫面",
+     "url": "https://store.steampowered.com/app/1017900/",
+     "accessed": "2026-10-02",
+     "note": "範例玩法與畫面來源"
     }
    ],
-   "status": "verified"
+   "status": "verified",
+   "creator": {
+    "design": "經濟發展與軍事壓力需形成不同可選節奏。",
+    "experience": "多線操作帶來緊迫感與掌控感。",
+    "implementation": "單位命令佇列、尋路、視野與資源流。",
+    "pitfall": "操作負荷過高會讓讀圖與戰術退居次要。",
+    "note": "教學整理與設計推論；不是開發者訪談或製作團隊的直接說法。"
+   }
   },
   {
    "id": "tower-defense",
@@ -4744,18 +4828,20 @@
    ],
    "examples": [
     {
-     "title": "王國保衛戰",
+     "title": "Kingdom Rush",
      "en": "Kingdom Rush",
      "appid": 246420,
-     "year": 2014,
-     "why": "手機到 PC 都長銷的經典塔防代表"
+     "why": "配置塔與升級專精，防守沿路推進的敵群。",
+     "sourceUrl": "https://store.steampowered.com/app/246420/",
+     "accessed": "2026-10-02"
     },
     {
-     "title": "植物大戰殭屍 年度版",
-     "en": "Plants vs. Zombies GOTY Edition",
-     "appid": 3590,
-     "year": 2009,
-     "why": "把塔防包裝成輕鬆詼諧題材、大眾化的成功案例"
+     "title": "Bloons TD 6",
+     "en": "Bloons TD 6",
+     "appid": 960090,
+     "why": "組合猴子塔、英雄與升級路線，對付不同波次氣球。",
+     "sourceUrl": "https://store.steampowered.com/app/960090/",
+     "accessed": "2026-10-02"
     }
    ],
    "steamTags": [
@@ -4787,9 +4873,28 @@
      "url": "https://store.steampowered.com/tags/en/Tower%20Defense/",
      "accessed": "2026-09-17",
      "note": "標籤存在確認"
+    },
+    {
+     "title": "Kingdom Rush 官方遊戲介紹與畫面",
+     "url": "https://store.steampowered.com/app/246420/",
+     "accessed": "2026-10-02",
+     "note": "範例玩法與畫面來源"
+    },
+    {
+     "title": "Bloons TD 6 官方遊戲介紹與畫面",
+     "url": "https://store.steampowered.com/app/960090/",
+     "accessed": "2026-10-02",
+     "note": "範例玩法與畫面來源"
     }
    ],
-   "status": "verified"
+   "status": "verified",
+   "creator": {
+    "design": "路徑與塔位共同決定策略。",
+    "experience": "波次前規劃、波次中觀察與補救。",
+    "implementation": "波次排程、射程、目標排序與升級分支。",
+    "pitfall": "抗性或速度突然跳升容易迫使單一解法。",
+    "note": "教學整理與設計推論；不是開發者訪談或製作團隊的直接說法。"
+   }
   },
   {
    "id": "wargame",
@@ -5167,18 +5272,20 @@
    ],
    "examples": [
     {
-     "title": "空洞騎士",
+     "title": "Hollow Knight",
      "en": "Hollow Knight",
      "appid": 367520,
-     "year": 2017,
-     "why": "地圖設計與能力解鎖節奏的當代教科書"
+     "why": "探索互連地下王國，取得能力後回訪並打開新路。",
+     "sourceUrl": "https://store.steampowered.com/app/367520/",
+     "accessed": "2026-10-02"
     },
     {
-     "title": "死亡細胞",
-     "en": "Dead Cells",
-     "appid": 588650,
-     "year": 2018,
-     "why": "把 Metroidvania 地圖結構與 Roguelite 隨機關卡結合的代表"
+     "title": "Ori and the Will of the Wisps",
+     "en": "Ori and the Will of the Wisps",
+     "appid": 1057090,
+     "why": "以移動能力與平台挑戰逐步拓展探索範圍。",
+     "sourceUrl": "https://store.steampowered.com/app/1057090/",
+     "accessed": "2026-10-02"
     }
    ],
    "steamTags": [
@@ -5215,9 +5322,28 @@
      "url": "https://store.steampowered.com/tags/en/Metroidvania/",
      "accessed": "2026-09-17",
      "note": "標籤存在與代表作"
+    },
+    {
+     "title": "Hollow Knight 官方遊戲介紹與畫面",
+     "url": "https://store.steampowered.com/app/367520/",
+     "accessed": "2026-10-02",
+     "note": "範例玩法與畫面來源"
+    },
+    {
+     "title": "Ori and the Will of the Wisps 官方遊戲介紹與畫面",
+     "url": "https://store.steampowered.com/app/1057090/",
+     "accessed": "2026-10-02",
+     "note": "範例玩法與畫面來源"
     }
    ],
-   "status": "verified"
+   "status": "verified",
+   "creator": {
+    "design": "關鍵路標要可記憶、可辨識。",
+    "experience": "新能力讓舊地圖出現新的可能。",
+    "implementation": "能力鎖、捷徑、地圖迷霧與回訪提示。",
+    "pitfall": "回頭路過長且缺少發現會變成跑腿。",
+    "note": "教學整理與設計推論；不是開發者訪談或製作團隊的直接說法。"
+   }
   },
   {
    "id": "soulslike",
@@ -5241,18 +5367,20 @@
    ],
    "examples": [
     {
-     "title": "艾爾登法環",
-     "en": "Elden Ring",
-     "appid": 1245620,
-     "year": 2022,
-     "why": "把類魂公式結合開放世界的集大成之作"
+     "title": "DARK SOULS III",
+     "en": "DARK SOULS III",
+     "appid": 374320,
+     "why": "以敵人招式學習、動作承諾與探索風險建立高張力戰鬥。",
+     "sourceUrl": "https://store.steampowered.com/app/374320/",
+     "accessed": "2026-10-02"
     },
     {
-     "title": "隻狼：暗影雙死",
-     "en": "Sekiro: Shadows Die Twice",
-     "appid": 814380,
-     "year": 2019,
-     "why": "FromSoftware 本家作品，以格擋體幹取代耐力機制的變體"
+     "title": "Lies of P",
+     "en": "Lies of P",
+     "appid": 1627720,
+     "why": "官方定位為 soulslike，要求調整武器與戰法應對敵人。",
+     "sourceUrl": "https://store.steampowered.com/app/1627720/",
+     "accessed": "2026-10-02"
     }
    ],
    "steamTags": [
@@ -5286,9 +5414,28 @@
      "url": "https://store.steampowered.com/tags/en/Souls-like/",
      "accessed": "2026-09-17",
      "note": "標籤存在與代表作"
+    },
+    {
+     "title": "DARK SOULS III 官方遊戲介紹與畫面",
+     "url": "https://store.steampowered.com/app/374320/",
+     "accessed": "2026-10-02",
+     "note": "範例玩法與畫面來源"
+    },
+    {
+     "title": "Lies of P 官方遊戲介紹與畫面",
+     "url": "https://store.steampowered.com/app/1627720/",
+     "accessed": "2026-10-02",
+     "note": "範例玩法與畫面來源"
     }
    ],
-   "status": "verified"
+   "status": "verified",
+   "creator": {
+    "design": "敵人前搖必須可讀，讓失敗能回溯到決策。",
+    "experience": "靠學習克服首領帶來成就感。",
+    "implementation": "耐力、鎖定、無敵幀與死亡資源回收規則。",
+    "pitfall": "只增加血量與傷害會拖長戰鬥。",
+    "note": "教學整理與設計推論；不是開發者訪談或製作團隊的直接說法。"
+   }
   },
   {
    "id": "factory-builder",
@@ -6699,15 +6846,17 @@
      "title": "Caves of Qud",
      "en": "Caves of Qud",
      "appid": 333640,
-     "year": 2024,
-     "why": "承襲柏林詮釋核心要素的當代正統 Roguelike"
+     "why": "Classic 模式結合回合制、程序世界與永久死亡；其他模式另有不同死亡規則。",
+     "sourceUrl": "https://store.steampowered.com/app/333640/",
+     "accessed": "2026-10-02"
     },
     {
-     "title": "NetHack",
-     "en": "NetHack",
-     "appid": 837200,
-     "year": 1987,
-     "why": "柏林詮釋制定時的五款「正典」Roguelike 之一"
+     "title": "ADOM (Ancient Domains Of Mystery)",
+     "en": "ADOM (Ancient Domains Of Mystery)",
+     "appid": 333300,
+     "why": "傳統 Roguelike，以回合決策、探索與永久死亡形成局內風險。",
+     "sourceUrl": "https://store.steampowered.com/app/333300/",
+     "accessed": "2026-10-02"
     }
    ],
    "steamTags": [
@@ -6741,9 +6890,28 @@
      "url": "https://store.steampowered.com/tags/en/Roguelike/",
      "accessed": "2026-09-17",
      "note": "標籤存在與代表作"
+    },
+    {
+     "title": "Caves of Qud 官方遊戲介紹與畫面",
+     "url": "https://store.steampowered.com/app/333640/",
+     "accessed": "2026-10-02",
+     "note": "範例玩法與畫面來源"
+    },
+    {
+     "title": "ADOM (Ancient Domains Of Mystery) 官方遊戲介紹與畫面",
+     "url": "https://store.steampowered.com/app/333300/",
+     "accessed": "2026-10-02",
+     "note": "範例玩法與畫面來源"
     }
    ],
-   "status": "verified"
+   "status": "verified",
+   "creator": {
+    "design": "隨機性應改變局勢，但仍讓玩家能推理。",
+    "experience": "以有限資訊做高風險選擇。",
+    "implementation": "隨機種子、回合結算、視野與永久死亡狀態。",
+    "pitfall": "無預警的隨機秒殺破壞策略信任。",
+    "note": "教學整理與設計推論；不是開發者訪談或製作團隊的直接說法。"
+   }
   },
   {
    "id": "roguelite",
@@ -6767,18 +6935,20 @@
    ],
    "examples": [
     {
-     "title": "黑帝斯",
+     "title": "Hades",
      "en": "Hades",
      "appid": 1145360,
-     "year": 2020,
-     "why": "把局外成長與敘事結合的教科書級 Roguelite"
+     "why": "每次逃離冥界形成一局，失敗後仍保留部分成長並推進人物故事。",
+     "sourceUrl": "https://store.steampowered.com/app/1145360/",
+     "accessed": "2026-10-02"
     },
     {
-     "title": "死亡細胞",
+     "title": "Dead Cells",
      "en": "Dead Cells",
      "appid": 588650,
-     "year": 2018,
-     "why": "動作平台結合 Roguelite 局外強化的代表"
+     "why": "反覆闖關、路線變動與死亡重來，保留部分解鎖內容。",
+     "sourceUrl": "https://store.steampowered.com/app/588650/",
+     "accessed": "2026-10-02"
     }
    ],
    "steamTags": [
@@ -6805,9 +6975,28 @@
      "url": "https://en.wikipedia.org/wiki/Roguelike",
      "accessed": "2026-09-17",
      "note": "Roguelite（Rogue-lite）定義與局外成長機制"
+    },
+    {
+     "title": "Hades 官方遊戲介紹與畫面",
+     "url": "https://store.steampowered.com/app/1145360/",
+     "accessed": "2026-10-02",
+     "note": "範例玩法與畫面來源"
+    },
+    {
+     "title": "Dead Cells 官方遊戲介紹與畫面",
+     "url": "https://store.steampowered.com/app/588650/",
+     "accessed": "2026-10-02",
+     "note": "範例玩法與畫面來源"
     }
    ],
-   "status": "verified"
+   "status": "verified",
+   "creator": {
+    "design": "永久成長需增加選擇，避免只堆數值。",
+    "experience": "失敗後仍帶回可感知的進展。",
+    "implementation": "分開管理局內掉落與跨局資源。",
+    "pitfall": "永久升級過強會削弱挑戰。",
+    "note": "教學整理與設計推論；不是開發者訪談或製作團隊的直接說法。"
+   }
   },
   {
    "id": "slice-of-life",
@@ -12695,25 +12884,20 @@
    ],
    "examples": [
     {
-     "title": "柏德之門3",
-     "en": "Baldur's Gate 3",
-     "appid": 1086940,
-     "year": 2023,
-     "why": "幾乎任何問題都能用玩家自選的方式解決，被視為分支敘事的指標作品"
+     "title": "Detroit: Become Human",
+     "en": "Detroit: Become Human",
+     "appid": 1222140,
+     "why": "選擇會改變三位主角的命運與故事結局。",
+     "sourceUrl": "https://store.steampowered.com/app/1222140/",
+     "accessed": "2026-10-02"
     },
     {
-     "title": "巫師 3：狂獵",
-     "en": "The Witcher 3: Wild Hunt",
-     "appid": 292030,
-     "year": 2015,
-     "why": "對話選擇會延續到後續章節，直接影響角色命運與結局走向"
-    },
-    {
-     "title": "極樂迪斯可",
-     "en": "Disco Elysium",
-     "appid": 632470,
-     "year": 2019,
-     "why": "以純對話與思維系統推動分支，幾乎沒有戰鬥仍能撐起龐大的敘事分岔"
+     "title": "The Walking Dead",
+     "en": "The Walking Dead",
+     "appid": 207610,
+     "why": "決策與人物關係產生後續故事反應；分支規模與永久後果需依實際章節判斷。",
+     "sourceUrl": "https://store.steampowered.com/app/207610/",
+     "accessed": "2026-10-02"
     }
    ],
    "steamTags": [
@@ -12753,9 +12937,28 @@
      "url": "https://en.wikipedia.org/wiki/Nonlinear_gameplay",
      "accessed": "2026-09-17",
      "note": "確認分支敘事的定義、開發成本考量，以及異塵餘生系列與巫師3的分支範例"
+    },
+    {
+     "title": "Detroit: Become Human 官方遊戲介紹與畫面",
+     "url": "https://store.steampowered.com/app/1222140/",
+     "accessed": "2026-10-02",
+     "note": "範例玩法與畫面來源"
+    },
+    {
+     "title": "The Walking Dead 官方遊戲介紹與畫面",
+     "url": "https://store.steampowered.com/app/207610/",
+     "accessed": "2026-10-02",
+     "note": "範例玩法與畫面來源"
     }
    ],
-   "status": "verified"
+   "status": "verified",
+   "creator": {
+    "design": "選擇後果需可感知，也能延後回收。",
+    "experience": "讓玩家承擔角色命運與關係選擇。",
+    "implementation": "狀態變數、分支條件、會合節點與旗標測試。",
+    "pitfall": "選項不同卻沒有可辨識後果會削弱信任。",
+    "note": "教學整理與設計推論；不是開發者訪談或製作團隊的直接說法。"
+   }
   },
   {
    "id": "multiple-endings",
@@ -33748,12 +33951,6 @@
    "year": 2007,
    "fetched": "2026-09-17"
   },
-  "3590": {
-   "name": "Plants vs. Zombies GOTY Edition",
-   "desc": "Zombies are invading your home, and the only defense is your arsenal of plants! Armed with an alien nursery-worth of zombie-zapping plants like peashooters and ",
-   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/900829/movie.293x165.jpg",
-   "year": 2009
-  },
   "4000": {
    "name": "Garry's Mod",
    "desc": "Garry's Mod is a physics sandbox. There aren't any predefined aims or goals. We give you the tools and leave you to play.",
@@ -33811,6 +34008,14 @@
    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257221243/dc315a6da1c8b69b254344c0c92379161e1b9888/movie_600x337.jpg",
    "year": 2010
   },
+  "40800": {
+   "name": "Super Meat Boy",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/40800/header.jpg?t=1700669950",
+   "screenshot": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/40800/ss_2482dad154fa38c32195a5301891ec7d9cefa7da.600x338.jpg?t=1700669950",
+   "fullScreenshot": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/40800/ss_2482dad154fa38c32195a5301891ec7d9cefa7da.1920x1080.jpg?t=1700669950",
+   "mediaSource": "https://store.steampowered.com/app/40800/",
+   "fetched": "2026-10-02"
+  },
   "78000": {
    "name": "Bejeweled® 3",
    "desc": "The biggest, brightest Bejeweled ever! Discover all-new ways to play the world’s #1 puzzle game. Find your perfect match with 8 breathtaking game modes that mee",
@@ -33820,8 +34025,12 @@
   "105600": {
    "name": "Terraria",
    "desc": "Dig, fight, explore, build! Nothing is impossible in this action-packed adventure game. Four Pack also available!",
-   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257274214/3400c546ddc61c713c2a2da4df7032f0f264a2a4/movie_600x337.jpg",
-   "year": 2011
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/header.jpg?t=1769844435",
+   "year": 2011,
+   "screenshot": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/ss_8c03886f214d2108cafca13845533eaa3d87d83f.600x338.jpg?t=1769844435",
+   "fullScreenshot": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/ss_8c03886f214d2108cafca13845533eaa3d87d83f.1920x1080.jpg?t=1769844435",
+   "mediaSource": "https://store.steampowered.com/app/105600/",
+   "fetched": "2026-10-02"
   },
   "108710": {
    "name": "Alan Wake",
@@ -33856,8 +34065,12 @@
   "207610": {
    "name": "The Walking Dead",
    "desc": "A five-part adventure horror series set in the same universe as Robert Kirkman’s award-winning comic book series.",
-   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/81627/movie.293x165.jpg",
-   "year": 2012
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/207610/header.jpg?t=1729702559",
+   "year": 2012,
+   "screenshot": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/207610/ss_7a2c18f45ed5c6464ae803ae49c32bf3717ae375.600x338.jpg?t=1729702559",
+   "fullScreenshot": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/207610/ss_7a2c18f45ed5c6464ae803ae49c32bf3717ae375.1920x1080.jpg?t=1729702559",
+   "mediaSource": "https://store.steampowered.com/app/207610/",
+   "fetched": "2026-10-02"
   },
   "220780": {
    "name": "Thomas Was Alone",
@@ -33930,10 +34143,14 @@
    "fetched": "2026-09-17"
   },
   "246420": {
-   "name": "Kingdom Rush - Tower Defense",
+   "name": "Kingdom Rush  - Tower Defense",
    "desc": "準備踏上一段史詩之旅，保衛王國，使用各種防禦塔和法術，抵禦成群的獸人和巨魔，還有邪惡的巫師與其他卑鄙的惡魔！在森林、山地和荒野中戰鬥，用不同的防禦塔升級和特技，定制你的防禦戰略！用槍林彈雨對抗敵人，召喚援軍，指揮部隊，招募精靈戰士，正面對抗傳奇怪物，從黑暗力量中拯救王國！遊戲特色： 史詩級防禦戰鬥，讓你沉浸數小時！ 高",
-   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2030545/movie.293x165.jpg",
-   "year": 2014
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/246420/header.jpg?t=1790283781",
+   "year": 2014,
+   "screenshot": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/246420/ss_7b6442738c9c89a63db11845eeff306410196a1d.600x338.jpg?t=1790283781",
+   "fullScreenshot": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/246420/ss_7b6442738c9c89a63db11845eeff306410196a1d.1920x1080.jpg?t=1790283781",
+   "mediaSource": "https://store.steampowered.com/app/246420/",
+   "fetched": "2026-10-02"
   },
   "250900": {
    "name": "The Binding of Isaac: Rebirth",
@@ -33987,8 +34204,12 @@
   "268500": {
    "name": "XCOM® 2",
    "desc": "XCOM 2是獲得最傑出遊戲獎的策略遊戲XCOM: Enemy Unknown的續作。自從人類敗給外星入侵者之後已經過了20年，地球上已經建立起了新的秩序。在暗處中蟄伏多年的XCOM殘存勢力必須崛起并將外星人驅逐出地球。",
-   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256660486/movie.293x165.jpg",
-   "year": 2016
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/268500/header.jpg?t=1772813016",
+   "year": 2016,
+   "screenshot": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/268500/ss_a95cdbe487dbabf6621962fc92f438e26c5fdfd3.600x338.jpg?t=1772813016",
+   "fullScreenshot": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/268500/ss_a95cdbe487dbabf6621962fc92f438e26c5fdfd3.1920x1080.jpg?t=1772813016",
+   "mediaSource": "https://store.steampowered.com/app/268500/",
+   "fetched": "2026-10-02"
   },
   "268910": {
    "name": "Cuphead",
@@ -34094,11 +34315,23 @@
    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256938862/movie.293x165.jpg",
    "year": 2018
   },
+  "333300": {
+   "name": "ADOM (Ancient Domains Of Mystery)",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/333300/header.jpg?t=1765877367",
+   "screenshot": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/333300/ss_8fd59f3fbd79b674c2ea37adefe97051505c7b68.600x338.jpg?t=1765877367",
+   "fullScreenshot": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/333300/ss_8fd59f3fbd79b674c2ea37adefe97051505c7b68.1920x1080.jpg?t=1765877367",
+   "mediaSource": "https://store.steampowered.com/app/333300/",
+   "fetched": "2026-10-02"
+  },
   "333640": {
    "name": "Caves of Qud",
    "desc": "《卡德洞窟》是一部深受復古未來主義影響，具有深度模擬，遍布智能植物的科學幻想風格Roguelike史詩。踏入這片異域，鑿穿被重重掩埋的千年文明。",
-   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257079340/8c90cfdb878d57016fb69720f765784bb5c0fd38/movie_600x337.jpg",
-   "year": 2024
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/333640/header.jpg?t=1790186617",
+   "year": 2024,
+   "screenshot": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/333640/ss_0d7f344e2478cf941e174078297b5d2adde21567.600x338.jpg?t=1790186617",
+   "fullScreenshot": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/333640/ss_0d7f344e2478cf941e174078297b5d2adde21567.1920x1080.jpg?t=1790186617",
+   "mediaSource": "https://store.steampowered.com/app/333640/",
+   "fetched": "2026-10-02"
   },
   "346900": {
    "name": "AdVenture Capitalist",
@@ -34116,8 +34349,12 @@
   "367520": {
    "name": "Hollow Knight",
    "desc": "Forge your own path in Hollow Knight! An epic action adventure through a vast ruined kingdom of insects and heroes. Explore twisting caverns, battle tainted cre",
-   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256679401/movie.293x165.jpg",
-   "year": 2017
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/3c3489495136b26b34f8a9543c7f5645b99d388c/header.jpg?t=1776125684",
+   "year": 2017,
+   "screenshot": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/ss_5384f9f8b96a0b9934b2bc35a4058376211636d2.600x338.jpg?t=1776125684",
+   "fullScreenshot": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/ss_5384f9f8b96a0b9934b2bc35a4058376211636d2.1920x1080.jpg?t=1776125684",
+   "mediaSource": "https://store.steampowered.com/app/367520/",
+   "fetched": "2026-10-02"
   },
   "368370": {
    "name": "Her Story",
@@ -34131,6 +34368,14 @@
    "desc": "Gather your party and get ready for the kick-ass new version of GameSpot's PC Game of the Year 2014. With hours of new content, new game modes, full voiceovers,",
    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256657641/movie.293x165.jpg",
    "year": 2015
+  },
+  "374320": {
+   "name": "DARK SOULS™ III",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/374320/header.jpg?t=1748630784",
+   "screenshot": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/374320/ss_5efd318b85a3917d1c6e717f4cb813b47547cd6f.600x338.jpg?t=1748630784",
+   "fullScreenshot": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/374320/ss_5efd318b85a3917d1c6e717f4cb813b47547cd6f.1920x1080.jpg?t=1748630784",
+   "mediaSource": "https://store.steampowered.com/app/374320/",
+   "fetched": "2026-10-02"
   },
   "377160": {
    "name": "Fallout 4",
@@ -34291,8 +34536,12 @@
   "504230": {
    "name": "Celeste",
    "desc": "本遊戲為《TowerFall》創作者的又一力作，在這款劇情緊湊的平台遊戲中，玩家將扮演瑪德琳戰勝心中的惡魔，登上塞萊斯特山頂。勇敢面對數百個手工精心製作的挑戰、揭開深埋的秘密，並拼湊出這座山的奧秘。",
-   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256706951/movie.293x165.jpg",
-   "year": 2018
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/504230/header.jpg?t=1714089525",
+   "year": 2018,
+   "screenshot": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/504230/ss_1ad297c2044cdcf450ee83e56350cafb590da755.600x338.jpg?t=1714089525",
+   "fullScreenshot": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/504230/ss_1ad297c2044cdcf450ee83e56350cafb590da755.1920x1080.jpg?t=1714089525",
+   "mediaSource": "https://store.steampowered.com/app/504230/",
+   "fetched": "2026-10-02"
   },
   "505230": {
    "name": "Pathologic 2",
@@ -34379,15 +34628,22 @@
   "588650": {
    "name": "Dead Cells",
    "desc": "死亡細胞是以類銀河戰士惡魔城為基礎所設計的Rogue-lite動作平台遊戲。探險變化無窮的浩瀚城堡吧！當然...必須擁有守護2座城堡的守護者與進行2D魂味戰鬥的能力。遊戲中並無檢查點，請不斷地殺戮、死亡和學習！",
-   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256755089/movie.293x165.jpg",
-   "year": 2018
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/588650/header.jpg?t=1779086887",
+   "year": 2018,
+   "screenshot": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/588650/ss_ac28000ade40cc2fe5c128f32ac98ba33c008a7a.600x338.jpg?t=1779086887",
+   "fullScreenshot": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/588650/ss_ac28000ade40cc2fe5c128f32ac98ba33c008a7a.1920x1080.jpg?t=1779086887",
+   "mediaSource": "https://store.steampowered.com/app/588650/",
+   "fetched": "2026-10-02"
   },
   "590380": {
    "name": "Into the Breach",
    "desc": "控制來自未來的強大機甲，擊敗外星威脅。在這款回合制戰略遊戲中，每一次拯救世界的嘗試，都是隨機生成的全新挑戰。",
    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/590380/header.jpg?t=1755610784",
    "year": 2018,
-   "fetched": "2026-09-17"
+   "fetched": "2026-10-02",
+   "screenshot": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/590380/ss_6113590509c195f98fa64cd738df534762e0c358.600x338.jpg?t=1755610784",
+   "fullScreenshot": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/590380/ss_6113590509c195f98fa64cd738df534762e0c358.1920x1080.jpg?t=1755610784",
+   "mediaSource": "https://store.steampowered.com/app/590380/"
   },
   "601150": {
    "name": "Devil May Cry 5",
@@ -34539,8 +34795,12 @@
   "813780": {
    "name": "Age of Empires II: Definitive Edition",
    "desc": "有史以來最受歡迎的戰略遊戲之一迎來 20 週年，為此我們推出了《Age of Empires II: Definitive Edition》。本作擁有驚人的 4K 超高畫質，全面重製的新原聲音樂，以及內含 3 個新戰役和 4 個新文明的內容：《最後的可汗》。常態更新項目包括活動、新增內容、新遊戲模式，以及隨近期上線的合",
-   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256753456/movie.293x165.jpg",
-   "year": 2019
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/813780/header.jpg?t=1790623375",
+   "year": 2019,
+   "screenshot": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/813780/ss_ab2692aa33171bc61378dd59efa89e2ff86e02a6.600x338.jpg?t=1790623375",
+   "fullScreenshot": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/813780/ss_ab2692aa33171bc61378dd59efa89e2ff86e02a6.1920x1080.jpg?t=1790623375",
+   "mediaSource": "https://store.steampowered.com/app/813780/",
+   "fetched": "2026-10-02"
   },
   "814380": {
    "name": "Sekiro™: Shadows Die Twice - GOTY Edition",
@@ -34606,6 +34866,14 @@
    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257297826/ecc455362a26e2c0d09da9016409a5634c7640a3/movie_600x337.jpg",
    "year": 2023
   },
+  "960090": {
+   "name": "Bloons TD 6",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/960090/header.jpg?t=1782123772",
+   "screenshot": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/960090/ss_a20e85177d96408281e0672927f8e9137c1f423a.600x338.jpg?t=1782123772",
+   "fullScreenshot": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/960090/ss_a20e85177d96408281e0672927f8e9137c1f423a.1920x1080.jpg?t=1782123772",
+   "mediaSource": "https://store.steampowered.com/app/960090/",
+   "fetched": "2026-10-02"
+  },
   "975370": {
    "name": "Dwarf Fortress",
    "desc": "史上最具深度與複雜性的世界模擬器。傳奇遊戲《矮人要塞》現已登陸Steam！在這個由程序生成，擁有自洽生態、動態歷史與百萬細節的幻想宇宙中，構築一座要塞，努力幫助矮人文明生存下去。",
@@ -34626,6 +34894,14 @@
    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256930504/744bf8424a8f5135b0bb5b310ff9682565760f3e/movie_600x337.jpg",
    "year": 2023
   },
+  "1017900": {
+   "name": "Age of Empires: Definitive Edition",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1017900/header.jpg?t=1763053714",
+   "screenshot": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1017900/ss_8eb2a7b1ebeb669f107c4af1afb1118f2d8a8e5f.600x338.jpg?t=1763053714",
+   "fullScreenshot": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1017900/ss_8eb2a7b1ebeb669f107c4af1afb1118f2d8a8e5f.1920x1080.jpg?t=1763053714",
+   "mediaSource": "https://store.steampowered.com/app/1017900/",
+   "fetched": "2026-10-02"
+  },
   "1030300": {
    "name": "Hollow Knight: Silksong",
    "desc": "前往《空洞騎士：絲之歌》中被詛咒籠罩的廣袤王國！在這個由靈絲與歌謠統治的土地上，探索、戰鬥、生存，朝著王國頂端攀登。",
@@ -34644,6 +34920,14 @@
    "desc": "視角即現實。在這個令人絞盡腦汁的第一人稱解謎遊戲中，你將利用縱深和透視的錯覺，改變觀察視角，解決一道道看似不可能的謎題，以此逃出超現實的夢境世界。",
    "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256803623/movie.293x165.jpg",
    "year": 2020
+  },
+  "1057090": {
+   "name": "Ori and the Will of the Wisps",
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1057090/header.jpg?t=1759530749",
+   "screenshot": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1057090/ss_0cf0ec6681ae5771173790dbc99ddb3bf3b886ad.600x338.jpg?t=1759530749",
+   "fullScreenshot": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1057090/ss_0cf0ec6681ae5771173790dbc99ddb3bf3b886ad.1920x1080.jpg?t=1759530749",
+   "mediaSource": "https://store.steampowered.com/app/1057090/",
+   "fetched": "2026-10-02"
   },
   "1061090": {
    "name": "Jump King",
@@ -34709,8 +34993,12 @@
   "1145360": {
    "name": "Hades",
    "desc": "Defy the god of the dead as you hack and slash out of the Underworld in this rogue-like dungeon crawler from the creators of Bastion, Transistor, and Pyre.",
-   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256801252/movie.293x165.jpg",
-   "year": 2020
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/header.jpg?t=1758127023",
+   "year": 2020,
+   "screenshot": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/ss_c0fed447426b69981cf1721756acf75369801b31.600x338.jpg?t=1758127023",
+   "fullScreenshot": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/ss_c0fed447426b69981cf1721756acf75369801b31.1920x1080.jpg?t=1758127023",
+   "mediaSource": "https://store.steampowered.com/app/1145360/",
+   "fetched": "2026-10-02"
   },
   "1147690": {
    "name": "NGU IDLE",
@@ -34795,10 +35083,14 @@
    "fetched": "2026-09-17"
   },
   "1222140": {
-   "name": "底特律：化身为人",
+   "name": "Detroit: Become Human",
    "desc": "《Detroit:Become Human》將人類與仿生人命運交到你的手中，將你帶進一個機器變得比人類還有智慧的近未來世界中。你的每一個選擇都會對遊戲結果帶來影響，本作有著史上最複雜的分支故事。",
-   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256784014/movie.293x165.jpg",
-   "year": 2020
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222140/header.jpg?t=1667468479",
+   "year": 2020,
+   "screenshot": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222140/ss_9c900def2b1d9a003b7d3e202ea2a7556a36e081.600x338.jpg?t=1667468479",
+   "fullScreenshot": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222140/ss_9c900def2b1d9a003b7d3e202ea2a7556a36e081.1920x1080.jpg?t=1667468479",
+   "mediaSource": "https://store.steampowered.com/app/1222140/",
+   "fetched": "2026-10-02"
   },
   "1222670": {
    "name": "The Sims™ 4",
@@ -34969,8 +35261,12 @@
   "1627720": {
    "name": "Lies of P",
    "desc": "《Lies of P》是一款驚心動魄的魂系遊戲，以《木偶奇遇記》為題材，但遊戲反轉故事內容，將主角置身於「美好年代」陰鬱而優雅的背景之中。",
-   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256973335/movie.293x165.jpg",
-   "year": 2023
+   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1627720/header.jpg?t=1764565054",
+   "year": 2023,
+   "screenshot": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1627720/ss_cef0c2964b82e2b80ab0756da08f61c27d9fa33c.600x338.jpg?t=1764565054",
+   "fullScreenshot": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1627720/ss_cef0c2964b82e2b80ab0756da08f61c27d9fa33c.1920x1080.jpg?t=1764565054",
+   "mediaSource": "https://store.steampowered.com/app/1627720/",
+   "fetched": "2026-10-02"
   },
   "1643320": {
    "name": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",

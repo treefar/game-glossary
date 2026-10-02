@@ -671,18 +671,20 @@
     ],
     "examples": [
       {
-        "title": "艾爾登法環",
-        "en": "Elden Ring",
-        "appid": 1245620,
-        "year": 2022,
-        "why": "把類魂公式結合開放世界的集大成之作"
+        "title": "DARK SOULS III",
+        "en": "DARK SOULS III",
+        "appid": 374320,
+        "why": "以敵人招式學習、動作承諾與探索風險建立高張力戰鬥。",
+        "sourceUrl": "https://store.steampowered.com/app/374320/",
+        "accessed": "2026-10-02"
       },
       {
-        "title": "隻狼：暗影雙死",
-        "en": "Sekiro: Shadows Die Twice",
-        "appid": 814380,
-        "year": 2019,
-        "why": "FromSoftware 本家作品，以格擋體幹取代耐力機制的變體"
+        "title": "Lies of P",
+        "en": "Lies of P",
+        "appid": 1627720,
+        "why": "官方定位為 soulslike，要求調整武器與戰法應對敵人。",
+        "sourceUrl": "https://store.steampowered.com/app/1627720/",
+        "accessed": "2026-10-02"
       }
     ],
     "steamTags": [
@@ -716,9 +718,28 @@
         "url": "https://store.steampowered.com/tags/en/Souls-like/",
         "accessed": "2026-09-17",
         "note": "標籤存在與代表作"
+      },
+      {
+        "title": "DARK SOULS III 官方遊戲介紹與畫面",
+        "url": "https://store.steampowered.com/app/374320/",
+        "accessed": "2026-10-02",
+        "note": "範例玩法與畫面來源"
+      },
+      {
+        "title": "Lies of P 官方遊戲介紹與畫面",
+        "url": "https://store.steampowered.com/app/1627720/",
+        "accessed": "2026-10-02",
+        "note": "範例玩法與畫面來源"
       }
     ],
-    "status": "verified"
+    "status": "verified",
+    "creator": {
+      "design": "敵人前搖必須可讀，讓失敗能回溯到決策。",
+      "experience": "靠學習克服首領帶來成就感。",
+      "implementation": "耐力、鎖定、無敵幀與死亡資源回收規則。",
+      "pitfall": "只增加血量與傷害會拖長戰鬥。",
+      "note": "教學整理與設計推論；不是開發者訪談或製作團隊的直接說法。"
+    }
   },
   {
     "id": "metroidvania",
@@ -741,18 +762,20 @@
     ],
     "examples": [
       {
-        "title": "空洞騎士",
+        "title": "Hollow Knight",
         "en": "Hollow Knight",
         "appid": 367520,
-        "year": 2017,
-        "why": "地圖設計與能力解鎖節奏的當代教科書"
+        "why": "探索互連地下王國，取得能力後回訪並打開新路。",
+        "sourceUrl": "https://store.steampowered.com/app/367520/",
+        "accessed": "2026-10-02"
       },
       {
-        "title": "死亡細胞",
-        "en": "Dead Cells",
-        "appid": 588650,
-        "year": 2018,
-        "why": "把 Metroidvania 地圖結構與 Roguelite 隨機關卡結合的代表"
+        "title": "Ori and the Will of the Wisps",
+        "en": "Ori and the Will of the Wisps",
+        "appid": 1057090,
+        "why": "以移動能力與平台挑戰逐步拓展探索範圍。",
+        "sourceUrl": "https://store.steampowered.com/app/1057090/",
+        "accessed": "2026-10-02"
       }
     ],
     "steamTags": [
@@ -789,9 +812,28 @@
         "url": "https://store.steampowered.com/tags/en/Metroidvania/",
         "accessed": "2026-09-17",
         "note": "標籤存在與代表作"
+      },
+      {
+        "title": "Hollow Knight 官方遊戲介紹與畫面",
+        "url": "https://store.steampowered.com/app/367520/",
+        "accessed": "2026-10-02",
+        "note": "範例玩法與畫面來源"
+      },
+      {
+        "title": "Ori and the Will of the Wisps 官方遊戲介紹與畫面",
+        "url": "https://store.steampowered.com/app/1057090/",
+        "accessed": "2026-10-02",
+        "note": "範例玩法與畫面來源"
       }
     ],
-    "status": "verified"
+    "status": "verified",
+    "creator": {
+      "design": "關鍵路標要可記憶、可辨識。",
+      "experience": "新能力讓舊地圖出現新的可能。",
+      "implementation": "能力鎖、捷徑、地圖迷霧與回訪提示。",
+      "pitfall": "回頭路過長且缺少發現會變成跑腿。",
+      "note": "教學整理與設計推論；不是開發者訪談或製作團隊的直接說法。"
+    }
   },
   {
     "id": "survivors-like",
@@ -1107,15 +1149,17 @@
         "title": "Caves of Qud",
         "en": "Caves of Qud",
         "appid": 333640,
-        "year": 2024,
-        "why": "承襲柏林詮釋核心要素的當代正統 Roguelike"
+        "why": "Classic 模式結合回合制、程序世界與永久死亡；其他模式另有不同死亡規則。",
+        "sourceUrl": "https://store.steampowered.com/app/333640/",
+        "accessed": "2026-10-02"
       },
       {
-        "title": "NetHack",
-        "en": "NetHack",
-        "appid": 837200,
-        "year": 1987,
-        "why": "柏林詮釋制定時的五款「正典」Roguelike 之一"
+        "title": "ADOM (Ancient Domains Of Mystery)",
+        "en": "ADOM (Ancient Domains Of Mystery)",
+        "appid": 333300,
+        "why": "傳統 Roguelike，以回合決策、探索與永久死亡形成局內風險。",
+        "sourceUrl": "https://store.steampowered.com/app/333300/",
+        "accessed": "2026-10-02"
       }
     ],
     "steamTags": [
@@ -1149,9 +1193,28 @@
         "url": "https://store.steampowered.com/tags/en/Roguelike/",
         "accessed": "2026-09-17",
         "note": "標籤存在與代表作"
+      },
+      {
+        "title": "Caves of Qud 官方遊戲介紹與畫面",
+        "url": "https://store.steampowered.com/app/333640/",
+        "accessed": "2026-10-02",
+        "note": "範例玩法與畫面來源"
+      },
+      {
+        "title": "ADOM (Ancient Domains Of Mystery) 官方遊戲介紹與畫面",
+        "url": "https://store.steampowered.com/app/333300/",
+        "accessed": "2026-10-02",
+        "note": "範例玩法與畫面來源"
       }
     ],
-    "status": "verified"
+    "status": "verified",
+    "creator": {
+      "design": "隨機性應改變局勢，但仍讓玩家能推理。",
+      "experience": "以有限資訊做高風險選擇。",
+      "implementation": "隨機種子、回合結算、視野與永久死亡狀態。",
+      "pitfall": "無預警的隨機秒殺破壞策略信任。",
+      "note": "教學整理與設計推論；不是開發者訪談或製作團隊的直接說法。"
+    }
   },
   {
     "id": "roguelite",
@@ -1175,18 +1238,20 @@
     ],
     "examples": [
       {
-        "title": "黑帝斯",
+        "title": "Hades",
         "en": "Hades",
         "appid": 1145360,
-        "year": 2020,
-        "why": "把局外成長與敘事結合的教科書級 Roguelite"
+        "why": "每次逃離冥界形成一局，失敗後仍保留部分成長並推進人物故事。",
+        "sourceUrl": "https://store.steampowered.com/app/1145360/",
+        "accessed": "2026-10-02"
       },
       {
-        "title": "死亡細胞",
+        "title": "Dead Cells",
         "en": "Dead Cells",
         "appid": 588650,
-        "year": 2018,
-        "why": "動作平台結合 Roguelite 局外強化的代表"
+        "why": "反覆闖關、路線變動與死亡重來，保留部分解鎖內容。",
+        "sourceUrl": "https://store.steampowered.com/app/588650/",
+        "accessed": "2026-10-02"
       }
     ],
     "steamTags": [
@@ -1213,9 +1278,28 @@
         "url": "https://en.wikipedia.org/wiki/Roguelike",
         "accessed": "2026-09-17",
         "note": "Roguelite（Rogue-lite）定義與局外成長機制"
+      },
+      {
+        "title": "Hades 官方遊戲介紹與畫面",
+        "url": "https://store.steampowered.com/app/1145360/",
+        "accessed": "2026-10-02",
+        "note": "範例玩法與畫面來源"
+      },
+      {
+        "title": "Dead Cells 官方遊戲介紹與畫面",
+        "url": "https://store.steampowered.com/app/588650/",
+        "accessed": "2026-10-02",
+        "note": "範例玩法與畫面來源"
       }
     ],
-    "status": "verified"
+    "status": "verified",
+    "creator": {
+      "design": "永久成長需增加選擇，避免只堆數值。",
+      "experience": "失敗後仍帶回可感知的進展。",
+      "implementation": "分開管理局內掉落與跨局資源。",
+      "pitfall": "永久升級過強會削弱挑戰。",
+      "note": "教學整理與設計推論；不是開發者訪談或製作團隊的直接說法。"
+    }
   },
   {
     "id": "action-roguelike",
@@ -1781,18 +1865,20 @@
     ],
     "examples": [
       {
-        "title": "蔚藍",
+        "title": "Celeste",
         "en": "Celeste",
         "appid": 504230,
-        "year": 2018,
-        "why": "以精確跳躍手感與敘事結合聞名的當代代表"
+        "why": "以跳躍、空中衝刺與攀爬穿越精準平台挑戰。",
+        "sourceUrl": "https://store.steampowered.com/app/504230/",
+        "accessed": "2026-10-02"
       },
       {
-        "title": "空洞騎士",
-        "en": "Hollow Knight",
-        "appid": 367520,
-        "year": 2017,
-        "why": "結合平台跳躍與 Metroidvania 探索的代表"
+        "title": "Super Meat Boy",
+        "en": "Super Meat Boy",
+        "appid": 40800,
+        "why": "透過跳牆、避開鋸片與快速重試練習移動控制。",
+        "sourceUrl": "https://store.steampowered.com/app/40800/",
+        "accessed": "2026-10-02"
       }
     ],
     "steamTags": [
@@ -1826,9 +1912,28 @@
         "url": "https://store.steampowered.com/tags/en/Platformer/",
         "accessed": "2026-09-17",
         "note": "標籤存在"
+      },
+      {
+        "title": "Celeste 官方遊戲介紹與畫面",
+        "url": "https://store.steampowered.com/app/504230/",
+        "accessed": "2026-10-02",
+        "note": "範例玩法與畫面來源"
+      },
+      {
+        "title": "Super Meat Boy 官方遊戲介紹與畫面",
+        "url": "https://store.steampowered.com/app/40800/",
+        "accessed": "2026-10-02",
+        "note": "範例玩法與畫面來源"
       }
     ],
-    "status": "verified"
+    "status": "verified",
+    "creator": {
+      "design": "難度曲線應逐步教會玩家。",
+      "experience": "短重生把失敗變成下一次嘗試。",
+      "implementation": "輸入緩衝、土狼時間與可調跳高。",
+      "pitfall": "碰撞箱與畫面輪廓不符會造成不公平。",
+      "note": "教學整理與設計推論；不是開發者訪談或製作團隊的直接說法。"
+    }
   },
   {
     "id": "precision-platformer",
@@ -2656,18 +2761,20 @@
     ],
     "examples": [
       {
+        "title": "Minecraft",
+        "en": "Minecraft",
+        "appid": null,
+        "why": "以創造或生存模式採集、建造並塑造自己的世界。",
+        "sourceUrl": "https://www.minecraft.net/en-us/about-minecraft",
+        "accessed": "2026-10-02"
+      },
+      {
         "title": "Terraria",
         "en": "Terraria",
         "appid": 105600,
-        "year": 2011,
-        "why": "2D 挖掘建造與探索並重的沙盒代表"
-      },
-      {
-        "title": "Garry's Mod",
-        "en": "Garry's Mod",
-        "appid": 4000,
-        "year": 2006,
-        "why": "以物理引擎與玩家自訂內容聞名的沙盒始祖之一"
+        "why": "挖掘、建造、製作與戰鬥，讓玩家自行安排探索與創作目標。",
+        "sourceUrl": "https://store.steampowered.com/app/105600/",
+        "accessed": "2026-10-02"
       }
     ],
     "steamTags": [
@@ -2698,9 +2805,28 @@
         "url": "https://store.steampowered.com/tags/en/Sandbox/",
         "accessed": "2026-09-17",
         "note": "標籤存在"
+      },
+      {
+        "title": "Minecraft 官方遊戲介紹與畫面",
+        "url": "https://www.minecraft.net/en-us/about-minecraft",
+        "accessed": "2026-10-02",
+        "note": "範例玩法與畫面來源"
+      },
+      {
+        "title": "Terraria 官方遊戲介紹與畫面",
+        "url": "https://store.steampowered.com/app/105600/",
+        "accessed": "2026-10-02",
+        "note": "範例玩法與畫面來源"
       }
     ],
-    "status": "verified"
+    "status": "verified",
+    "creator": {
+      "design": "自由需由可組合的規則支撐。",
+      "experience": "作品與目標由玩家自己定義。",
+      "implementation": "可破壞與放置資料、配方、存檔與創作分享。",
+      "pitfall": "缺少起點與回饋會讓自由變成無所適從。",
+      "note": "教學整理與設計推論；不是開發者訪談或製作團隊的直接說法。"
+    }
   },
   {
     "id": "linear-game",

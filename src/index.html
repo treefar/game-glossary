@@ -75,7 +75,7 @@ nav.tabs button:hover{color:var(--ink)}
 .status{font-size:14px;color:var(--muted);margin:12px 0 4px}
 
 /* 版面：左目錄、右內容 */
-.layout{display:grid;grid-template-columns:230px 1fr;gap:32px;margin-top:8px}
+.layout{display:grid;grid-template-columns:230px minmax(0,1fr);gap:32px;margin-top:8px}
 @media (max-width:900px){.layout{grid-template-columns:1fr}.toc{display:none}}
 .toc{position:sticky;top:120px;align-self:start;max-height:calc(100vh - 140px);overflow:auto;font-size:14px;padding-right:8px}
 .toc .cat{margin:12px 0 4px;font-family:var(--serif);font-weight:700;color:var(--ink)}
@@ -111,9 +111,9 @@ article.entry:target,article.entry.hit{outline:1px solid var(--accent);outline-o
 .al{color:var(--accent);text-decoration:none;border-bottom:1px dotted var(--accent)}
 .al:hover{border-bottom-style:solid}
 .design{background:var(--surface2);border-left:3px solid var(--accent2);padding:10px 14px;border-radius:var(--r)}
-table.cmp{width:100%;border-collapse:collapse;font-size:15px}
+table.cmp{width:100%;border-collapse:collapse;font-size:15px;table-layout:fixed;overflow-wrap:anywhere}
 table.cmp th,table.cmp td{border:1px solid var(--line);padding:6px 10px;text-align:left;vertical-align:top}
-table.cmp th{background:var(--surface2);font-family:var(--serif);white-space:nowrap}
+table.cmp th{background:var(--surface2);font-family:var(--serif)}
 .games{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px}
 .game{border:1px solid var(--line);border-radius:var(--r);overflow:hidden;background:var(--surface2);text-decoration:none;color:var(--ink);display:block}
 .game img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block;background:var(--bg2)}
@@ -198,6 +198,7 @@ footer{margin-top:60px;padding-top:16px;border-top:1px solid var(--line);font-si
 </header>
 
 <div class="view on" id="view-entries">
+  <section class="blk"><div class="eyebrow">從範例學設計</div><p>10 個詞條各附 2 款遊戲、官方畫面與創作者筆記。</p><div class="quick" id="creatorPicks"></div></section>
   <div class="searchbar">
     <div class="in">
       <input id="q" type="search" placeholder="搜尋中文、英文、別名或定義……（例：彈幕、soulslike、心理恐怖）" autocomplete="off" aria-label="搜尋詞條">
@@ -301,6 +302,10 @@ function headHtml(e){
 }
 function gameCard(x){
   const c=x.appid?CARDS[x.appid]:null;
+  if(x.sourceUrl){
+    const shot=c&&c.screenshot;
+    return `<div class="game">${shot?`<a href="${esc(c.fullScreenshot||x.sourceUrl)}" target="_blank" rel="noopener"><img loading="lazy" src="${esc(shot)}" alt="${esc(x.title)} 官方遊玩截圖" onerror="this.hidden=true"></a>`:`<div class="nothumb">${esc(x.title)}</div>`}<div class="t">${esc(x.title)}</div><div class="w">${esc(x.why)}</div><div class="w"><a href="${esc(x.sourceUrl)}" target="_blank" rel="noopener">官方介紹與畫面 ↗</a>${shot?` · <a href="${esc(c.fullScreenshot||x.sourceUrl)}" target="_blank" rel="noopener">開啟大圖 ↗</a>`:""}</div><div class="y">來源查證：${esc(x.accessed)}</div></div>`;
+  }
   const inner=`${c&&c.img?`<img loading="lazy" src="${esc(c.img)}" alt="">`:`<div class="nothumb">${esc(x.title)}</div>`}
     <div class="t">${esc(x.title)}${x.en&&x.en!==x.title?` <span style="font-weight:400;color:var(--muted)">${esc(x.en)}</span>`:""}</div>
     <div class="y">${esc(x.year||(c&&c.year)||"")}</div>${x.why?`<div class="w">${esc(x.why)}</div>`:""}`;
@@ -314,6 +319,7 @@ function bodyHtml(e){
   ${cmp?`<div class="blk"><div class="eyebrow">跟誰容易搞混</div><table class="cmp"><tbody>${cmp}</tbody></table></div>`:""}
   ${(e.examples||[]).length?`<div class="blk"><div class="eyebrow">代表作</div><div class="games">${e.examples.map(gameCard).join("")}</div></div>`:""}
   ${e.design?`<div class="blk"><div class="eyebrow">設計要點</div><div class="design">${esc(e.design)}</div></div>`:""}
+  ${e.creator?`<div class="blk"><div class="eyebrow">創作者筆記</div><div class="design">${[['design','玩法設計'],['experience','玩家體驗'],['implementation','實作要點'],['pitfall','常見陷阱']].map(([k,label])=>`<p><strong>${label}</strong>：${esc(e.creator[k])}</p>`).join('')}<small>${esc(e.creator.note)}</small></div></div>`:""}
   ${e.origin?`<div class="blk"><div class="eyebrow">詞源</div><p>${esc(e.origin)}</p></div>`:""}
   ${e.tw?`<div class="blk"><div class="eyebrow">台灣用法</div><p>${esc(e.tw)}</p></div>`:""}
   ${rel?`<div class="blk"><div class="eyebrow">相關詞條</div><div class="quick">${rel}</div></div>`:""}
@@ -422,6 +428,7 @@ window.addEventListener("hashchange",route);
 
 $("#btnRandom").onclick=()=>{const e=E[Math.floor(Math.random()*E.length)];location.hash=e.id;};
 
+$("#creatorPicks").innerHTML=E.filter(e=>e.creator).map(e=>`<a class="tag rel" href="#${esc(e.id)}">${esc(e.zh)}</a>`).join('');
 renderChips(); renderCompare(); renderTags(); renderAbout(); render(); route();
 })();
 </script>

@@ -1075,18 +1075,20 @@
     ],
     "examples": [
       {
-        "title": "王國保衛戰",
+        "title": "Kingdom Rush",
         "en": "Kingdom Rush",
         "appid": 246420,
-        "year": 2014,
-        "why": "手機到 PC 都長銷的經典塔防代表"
+        "why": "配置塔與升級專精，防守沿路推進的敵群。",
+        "sourceUrl": "https://store.steampowered.com/app/246420/",
+        "accessed": "2026-10-02"
       },
       {
-        "title": "植物大戰殭屍 年度版",
-        "en": "Plants vs. Zombies GOTY Edition",
-        "appid": 3590,
-        "year": 2009,
-        "why": "把塔防包裝成輕鬆詼諧題材、大眾化的成功案例"
+        "title": "Bloons TD 6",
+        "en": "Bloons TD 6",
+        "appid": 960090,
+        "why": "組合猴子塔、英雄與升級路線，對付不同波次氣球。",
+        "sourceUrl": "https://store.steampowered.com/app/960090/",
+        "accessed": "2026-10-02"
       }
     ],
     "steamTags": [
@@ -1118,9 +1120,28 @@
         "url": "https://store.steampowered.com/tags/en/Tower%20Defense/",
         "accessed": "2026-09-17",
         "note": "標籤存在確認"
+      },
+      {
+        "title": "Kingdom Rush 官方遊戲介紹與畫面",
+        "url": "https://store.steampowered.com/app/246420/",
+        "accessed": "2026-10-02",
+        "note": "範例玩法與畫面來源"
+      },
+      {
+        "title": "Bloons TD 6 官方遊戲介紹與畫面",
+        "url": "https://store.steampowered.com/app/960090/",
+        "accessed": "2026-10-02",
+        "note": "範例玩法與畫面來源"
       }
     ],
-    "status": "verified"
+    "status": "verified",
+    "creator": {
+      "design": "路徑與塔位共同決定策略。",
+      "experience": "波次前規劃、波次中觀察與補救。",
+      "implementation": "波次排程、射程、目標排序與升級分支。",
+      "pitfall": "抗性或速度突然跳升容易迫使單一解法。",
+      "note": "教學整理與設計推論；不是開發者訪談或製作團隊的直接說法。"
+    }
   },
   {
     "id": "4x",
@@ -1898,18 +1919,20 @@
     ],
     "examples": [
       {
-        "title": "世紀帝國 IV：週年紀念版",
-        "en": "Age of Empires IV: Anniversary Edition",
-        "appid": 1466860,
-        "year": 2021,
-        "why": "歷史題材即時戰略長青系列的現代作品"
-      },
-      {
-        "title": "世紀帝國 II：決定版",
+        "title": "Age of Empires II: Definitive Edition",
         "en": "Age of Empires II: Definitive Edition",
         "appid": 813780,
-        "year": 2019,
-        "why": "即時戰略史上最長壽也最具代表性的系列之一"
+        "why": "同時管理文明經濟、基地、軍隊與持續流動的戰場。",
+        "sourceUrl": "https://store.steampowered.com/app/813780/",
+        "accessed": "2026-10-02"
+      },
+      {
+        "title": "Age of Empires: Definitive Edition",
+        "en": "Age of Empires: Definitive Edition",
+        "appid": 1017900,
+        "why": "以資源採集、基地建設與單位指揮形成即時戰略。",
+        "sourceUrl": "https://store.steampowered.com/app/1017900/",
+        "accessed": "2026-10-02"
       }
     ],
     "steamTags": [
@@ -1942,9 +1965,28 @@
         "url": "https://store.steampowered.com/tags/en/RTS/",
         "accessed": "2026-09-17",
         "note": "標籤存在確認"
+      },
+      {
+        "title": "Age of Empires II: Definitive Edition 官方遊戲介紹與畫面",
+        "url": "https://store.steampowered.com/app/813780/",
+        "accessed": "2026-10-02",
+        "note": "範例玩法與畫面來源"
+      },
+      {
+        "title": "Age of Empires: Definitive Edition 官方遊戲介紹與畫面",
+        "url": "https://store.steampowered.com/app/1017900/",
+        "accessed": "2026-10-02",
+        "note": "範例玩法與畫面來源"
       }
     ],
-    "status": "verified"
+    "status": "verified",
+    "creator": {
+      "design": "經濟發展與軍事壓力需形成不同可選節奏。",
+      "experience": "多線操作帶來緊迫感與掌控感。",
+      "implementation": "單位命令佇列、尋路、視野與資源流。",
+      "pitfall": "操作負荷過高會讓讀圖與戰術退居次要。",
+      "note": "教學整理與設計推論；不是開發者訪談或製作團隊的直接說法。"
+    }
   },
   {
     "id": "turn-based-strategy",
@@ -2039,15 +2081,17 @@
         "title": "XCOM 2",
         "en": "XCOM 2",
         "appid": 268500,
-        "year": 2016,
-        "why": "地形掩體與命中率機制深植人心的戰術經典"
+        "why": "以小隊行動、掩體與戰場位置安排回合戰術。",
+        "sourceUrl": "https://store.steampowered.com/app/268500/",
+        "accessed": "2026-10-02"
       },
       {
-        "title": "XCOM：未知敵人",
-        "en": "XCOM: Enemy Unknown",
-        "appid": 200510,
-        "year": 2012,
-        "why": "重啟系列、確立現代回合制戰術框架的代表作"
+        "title": "Into the Breach",
+        "en": "Into the Breach",
+        "appid": 590380,
+        "why": "先顯示敵方攻擊意圖，再安排機甲反制並保護城市。",
+        "sourceUrl": "https://store.steampowered.com/app/590380/",
+        "accessed": "2026-10-02"
       }
     ],
     "steamTags": [
@@ -2079,9 +2123,28 @@
         "url": "https://store.steampowered.com/tags/en/Turn-Based%20Tactics/",
         "accessed": "2026-09-17",
         "note": "標籤存在確認"
+      },
+      {
+        "title": "XCOM 2 官方遊戲介紹與畫面",
+        "url": "https://store.steampowered.com/app/268500/",
+        "accessed": "2026-10-02",
+        "note": "範例玩法與畫面來源"
+      },
+      {
+        "title": "Into the Breach 官方遊戲介紹與畫面",
+        "url": "https://store.steampowered.com/app/590380/",
+        "accessed": "2026-10-02",
+        "note": "範例玩法與畫面來源"
       }
     ],
-    "status": "verified"
+    "status": "verified",
+    "creator": {
+      "design": "敵方意圖可視化讓策略有根據。",
+      "experience": "在位置與資源風險中尋找解法。",
+      "implementation": "行動點、範圍預覽、狀態效果與回合排序。",
+      "pitfall": "資訊不足或等待動畫過長會拖慢節奏。",
+      "note": "教學整理與設計推論；不是開發者訪談或製作團隊的直接說法。"
+    }
   },
   {
     "id": "wargame",

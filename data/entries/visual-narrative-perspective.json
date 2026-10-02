@@ -343,25 +343,20 @@
     ],
     "examples": [
       {
-        "title": "柏德之門3",
-        "en": "Baldur's Gate 3",
-        "appid": 1086940,
-        "year": 2023,
-        "why": "幾乎任何問題都能用玩家自選的方式解決，被視為分支敘事的指標作品"
+        "title": "Detroit: Become Human",
+        "en": "Detroit: Become Human",
+        "appid": 1222140,
+        "why": "選擇會改變三位主角的命運與故事結局。",
+        "sourceUrl": "https://store.steampowered.com/app/1222140/",
+        "accessed": "2026-10-02"
       },
       {
-        "title": "巫師 3：狂獵",
-        "en": "The Witcher 3: Wild Hunt",
-        "appid": 292030,
-        "year": 2015,
-        "why": "對話選擇會延續到後續章節，直接影響角色命運與結局走向"
-      },
-      {
-        "title": "極樂迪斯可",
-        "en": "Disco Elysium",
-        "appid": 632470,
-        "year": 2019,
-        "why": "以純對話與思維系統推動分支，幾乎沒有戰鬥仍能撐起龐大的敘事分岔"
+        "title": "The Walking Dead",
+        "en": "The Walking Dead",
+        "appid": 207610,
+        "why": "決策與人物關係產生後續故事反應；分支規模與永久後果需依實際章節判斷。",
+        "sourceUrl": "https://store.steampowered.com/app/207610/",
+        "accessed": "2026-10-02"
       }
     ],
     "steamTags": [
@@ -401,9 +396,28 @@
         "url": "https://en.wikipedia.org/wiki/Nonlinear_gameplay",
         "accessed": "2026-09-17",
         "note": "確認分支敘事的定義、開發成本考量，以及異塵餘生系列與巫師3的分支範例"
+      },
+      {
+        "title": "Detroit: Become Human 官方遊戲介紹與畫面",
+        "url": "https://store.steampowered.com/app/1222140/",
+        "accessed": "2026-10-02",
+        "note": "範例玩法與畫面來源"
+      },
+      {
+        "title": "The Walking Dead 官方遊戲介紹與畫面",
+        "url": "https://store.steampowered.com/app/207610/",
+        "accessed": "2026-10-02",
+        "note": "範例玩法與畫面來源"
       }
     ],
-    "status": "verified"
+    "status": "verified",
+    "creator": {
+      "design": "選擇後果需可感知，也能延後回收。",
+      "experience": "讓玩家承擔角色命運與關係選擇。",
+      "implementation": "狀態變數、分支條件、會合節點與旗標測試。",
+      "pitfall": "選項不同卻沒有可辨識後果會削弱信任。",
+      "note": "教學整理與設計推論；不是開發者訪談或製作團隊的直接說法。"
+    }
   },
   {
     "id": "dialogue-tree",
