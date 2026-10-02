@@ -131,9 +131,9 @@
           "tool": "tested",
           "user": "pending",
           "examples": 2,
-          "images": 1,
+          "images": 2,
           "games": [
-            "Minecraft",
+            "WorldBox - God Simulator",
             "Terraria"
           ]
         },
@@ -259,9 +259,7 @@
     }
   ],
   "filters": [],
-  "unknowns": [
-    "Minecraft 使用官方頁面連結，未取得可穩定直接嵌入的截圖網址。"
-  ],
+  "unknowns": [],
   "build": {
     "generator": "project-dashboard/build-dashboard.js",
     "schema_version": 1

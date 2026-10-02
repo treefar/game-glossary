@@ -2761,11 +2761,11 @@
     ],
     "examples": [
       {
-        "title": "Minecraft",
-        "en": "Minecraft",
-        "appid": null,
-        "why": "以創造或生存模式採集、建造並塑造自己的世界。",
-        "sourceUrl": "https://www.minecraft.net/en-us/about-minecraft",
+        "title": "WorldBox - God Simulator",
+        "en": "WorldBox - God Simulator",
+        "appid": 1206560,
+        "why": "用地形、生命與災變工具創造世界，觀察文明發展或自行改變它們的命運。",
+        "sourceUrl": "https://store.steampowered.com/app/1206560/",
         "accessed": "2026-10-02"
       },
       {
@@ -2815,6 +2815,12 @@
       {
         "title": "Terraria 官方遊戲介紹與畫面",
         "url": "https://store.steampowered.com/app/105600/",
+        "accessed": "2026-10-02",
+        "note": "範例玩法與畫面來源"
+      },
+      {
+        "title": "WorldBox - God Simulator 官方遊戲介紹與畫面",
+        "url": "https://store.steampowered.com/app/1206560/",
         "accessed": "2026-10-02",
         "note": "範例玩法與畫面來源"
       }

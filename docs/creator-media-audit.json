@@ -1,0 +1,185 @@
+{
+  "date": "2026-10-02",
+  "rows": [
+    {
+      "entry": "branching-narrative",
+      "title": "Detroit: Become Human",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222140/ss_9c900def2b1d9a003b7d3e202ea2a7556a36e081.600x338.jpg?t=1667468479",
+      "ok": true,
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 53725
+    },
+    {
+      "entry": "branching-narrative",
+      "title": "The Walking Dead",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/207610/ss_7a2c18f45ed5c6464ae803ae49c32bf3717ae375.600x338.jpg?t=1729702559",
+      "ok": true,
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 187220
+    },
+    {
+      "entry": "metroidvania",
+      "title": "Hollow Knight",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/ss_5384f9f8b96a0b9934b2bc35a4058376211636d2.600x338.jpg?t=1776125684",
+      "ok": true,
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 94439
+    },
+    {
+      "entry": "metroidvania",
+      "title": "Ori and the Will of the Wisps",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1057090/ss_0cf0ec6681ae5771173790dbc99ddb3bf3b886ad.600x338.jpg?t=1759530749",
+      "ok": true,
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 62458
+    },
+    {
+      "entry": "platformer",
+      "title": "Celeste",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/504230/ss_1ad297c2044cdcf450ee83e56350cafb590da755.600x338.jpg?t=1714089525",
+      "ok": true,
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 64332
+    },
+    {
+      "entry": "platformer",
+      "title": "Super Meat Boy",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/40800/ss_2482dad154fa38c32195a5301891ec7d9cefa7da.600x338.jpg?t=1700669950",
+      "ok": true,
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 27419
+    },
+    {
+      "entry": "roguelike",
+      "title": "ADOM (Ancient Domains Of Mystery)",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/333300/ss_8fd59f3fbd79b674c2ea37adefe97051505c7b68.600x338.jpg?t=1765877367",
+      "ok": true,
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 74308
+    },
+    {
+      "entry": "roguelike",
+      "title": "Caves of Qud",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/333640/ss_0d7f344e2478cf941e174078297b5d2adde21567.600x338.jpg?t=1790186617",
+      "ok": true,
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 165790
+    },
+    {
+      "entry": "roguelite",
+      "title": "Dead Cells",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/588650/ss_ac28000ade40cc2fe5c128f32ac98ba33c008a7a.600x338.jpg?t=1779086887",
+      "ok": true,
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 47377
+    },
+    {
+      "entry": "roguelite",
+      "title": "Hades",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/ss_c0fed447426b69981cf1721756acf75369801b31.600x338.jpg?t=1758127023",
+      "ok": true,
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 94187
+    },
+    {
+      "entry": "rts",
+      "title": "Age of Empires II: Definitive Edition",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/813780/ss_ab2692aa33171bc61378dd59efa89e2ff86e02a6.600x338.jpg?t=1790623375",
+      "ok": true,
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 139124
+    },
+    {
+      "entry": "rts",
+      "title": "Age of Empires: Definitive Edition",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1017900/ss_8eb2a7b1ebeb669f107c4af1afb1118f2d8a8e5f.600x338.jpg?t=1763053714",
+      "ok": true,
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 157961
+    },
+    {
+      "entry": "sandbox",
+      "title": "Terraria",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/ss_8c03886f214d2108cafca13845533eaa3d87d83f.600x338.jpg?t=1769844435",
+      "ok": true,
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 77001
+    },
+    {
+      "entry": "sandbox",
+      "title": "WorldBox - God Simulator",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1206560/ss_c8308f959146715491fa734ade1a708392c080e8.600x338.jpg?t=1727687171",
+      "ok": true,
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 55809
+    },
+    {
+      "entry": "soulslike",
+      "title": "DARK SOULS III",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/374320/ss_5efd318b85a3917d1c6e717f4cb813b47547cd6f.600x338.jpg?t=1748630784",
+      "ok": true,
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 111122
+    },
+    {
+      "entry": "soulslike",
+      "title": "Lies of P",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1627720/ss_cef0c2964b82e2b80ab0756da08f61c27d9fa33c.600x338.jpg?t=1764565054",
+      "ok": true,
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 84399
+    },
+    {
+      "entry": "tower-defense",
+      "title": "Bloons TD 6",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/960090/ss_a20e85177d96408281e0672927f8e9137c1f423a.600x338.jpg?t=1782123772",
+      "ok": true,
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 138454
+    },
+    {
+      "entry": "tower-defense",
+      "title": "Kingdom Rush",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/246420/ss_7b6442738c9c89a63db11845eeff306410196a1d.600x338.jpg?t=1790283781",
+      "ok": true,
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 116289
+    },
+    {
+      "entry": "turn-based-tactics",
+      "title": "Into the Breach",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/590380/ss_6113590509c195f98fa64cd738df534762e0c358.600x338.jpg?t=1755610784",
+      "ok": true,
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 73047
+    },
+    {
+      "entry": "turn-based-tactics",
+      "title": "XCOM 2",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/268500/ss_a95cdbe487dbabf6621962fc92f438e26c5fdfd3.600x338.jpg?t=1772813016",
+      "ok": true,
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 41986
+    }
+  ]
+}

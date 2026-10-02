@@ -20,4 +20,6 @@ Luna（派工指定 gpt-6-luna/medium）唯讀查來源；主代理整合。創�
 
 ## 下一輪第一個具體任務
 
+2026-10-02 缺圖修復：Minecraft文字卡換成WorldBox - God Simulator，Steam官方頁查證沙盒關聯，官方API取得遊玩截圖。新增scripts/audit-creator-media.js逐張HTTP與圖片magic驗證，修復前19/20，修復後20/20；creator.test.js新增每範例必有截圖，修復前Minecraft使測試失敗，修復後8/8。舊百科另153筆文字代表作無圖，尚未納入這批10詞條範圍；已向使用者提出範圍選項。
+
 使用者檢視10詞條呈現並確認後，再決定下一批詞條。不可自行擴充全部529條。
